@@ -229,8 +229,8 @@ class _WordsListScreenState extends State<WordsListScreen> {
         centerTitle: true,
         actions: [
           IconButton(
-            icon: const Icon(Icons.sort),
-            onPressed: _showSortSheet,
+            icon: const Icon(Icons.person),
+            onPressed: _openSettings,
           ),
         ],
       ),
@@ -284,6 +284,12 @@ class _WordsListScreenState extends State<WordsListScreen> {
   void _openLevelSelect() {
     Navigator.of(context).push(
       MaterialPageRoute(builder: (_) => const LevelSelectScreen()),
+    );
+  }
+
+  void _openSettings() {
+    Navigator.of(context).push(
+      MaterialPageRoute(builder: (_) => const SettingsScreen()),
     );
   }
 
