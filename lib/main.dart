@@ -54,7 +54,7 @@ class WordMapApp extends StatelessWidget {
       locale: appState.appLocale,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      initialRoute: appState.onboardingCompleted ? '/sign-in-or-skip' : '/',
+      initialRoute: '/',
       onGenerateRoute: (settings) {
         switch (settings.name) {
           case '/':

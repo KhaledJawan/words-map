@@ -3,7 +3,11 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:word_map_app/models/vocab_word.dart';
-import 'package:word_map_app/screens/word_detail_screen.dart';
+import 'package:word_map_app/screens/language_onboarding_screen.dart';
+import 'package:word_map_app/screens/level_select_screen.dart';
+import 'package:word_map_app/screens/settings_screen.dart';
+import 'package:word_map_app/screens/sign_in_or_skip_screen.dart';
+import 'package:word_map_app/screens/sign_in_screen.dart';
 import 'package:word_map_app/services/app_state.dart';
 import 'package:word_map_app/services/vocab_loader.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
@@ -189,6 +193,13 @@ class _WordsListScreenState extends State<WordsListScreen> {
     final viewedCount =
         _words.where((w) => w.isViewed || w.isVisited).length;
     final bookmarkedCount = _words.where((w) => w.isBookmarked).length;
+    final actions = <_MenuAction>[
+      _MenuAction(
+        icon: Icons.layers,
+        label: 'Levels',
+        onTap: _openLevelSelect,
+      ),
+    ];
 
     return Scaffold(
       appBar: AppBar(
@@ -259,9 +270,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
         viewedCount: viewedCount,
         totalCount: _words.length,
         bookmarkedCount: bookmarkedCount,
-        onLevels: () => Navigator.of(context).pushReplacementNamed('/levels'),
-        onSettings: () => Navigator.of(context).pushNamed('/settings'),
-        onToggleTheme: _toggleTheme,
+        actions: actions,
       ),
     );
   }
@@ -270,6 +279,12 @@ class _WordsListScreenState extends State<WordsListScreen> {
     final appState = context.read<AppState>();
     final isDark = Theme.of(context).brightness == Brightness.dark;
     appState.setThemeMode(isDark ? ThemeMode.light : ThemeMode.dark);
+  }
+
+  void _openLevelSelect() {
+    Navigator.of(context).push(
+      MaterialPageRoute(builder: (_) => const LevelSelectScreen()),
+    );
   }
 
   void _showSortSheet() {
@@ -345,17 +360,13 @@ class _FabMenu extends StatefulWidget {
     required this.viewedCount,
     required this.totalCount,
     required this.bookmarkedCount,
-    required this.onLevels,
-    required this.onSettings,
-    required this.onToggleTheme,
+    required this.actions,
   });
 
   final int viewedCount;
   final int totalCount;
   final int bookmarkedCount;
-  final VoidCallback onLevels;
-  final VoidCallback onSettings;
-  final VoidCallback onToggleTheme;
+  final List<_MenuAction> actions;
 
   @override
   State<_FabMenu> createState() => _FabMenuState();
@@ -368,7 +379,6 @@ class _FabMenuState extends State<_FabMenu>
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
-    final textTheme = Theme.of(context).textTheme;
     return Stack(
       children: [
         if (_open)
@@ -391,23 +401,7 @@ class _FabMenuState extends State<_FabMenu>
                         key: const ValueKey('menu-open'),
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          _MiniButton(
-                            icon: Icons.layers,
-                            label: 'Levels',
-                            onTap: widget.onLevels,
-                          ),
-                          const SizedBox(height: 8),
-                          _MiniButton(
-                            icon: Icons.settings,
-                            label: 'Settings',
-                            onTap: widget.onSettings,
-                          ),
-                          const SizedBox(height: 8),
-                          _MiniButton(
-                            icon: Icons.dark_mode,
-                            label: 'Dark mode',
-                            onTap: widget.onToggleTheme,
-                          ),
+                          ..._buildMenuButtons(widget.actions),
                           const SizedBox(height: 12),
                           _StatChip(
                             label:
@@ -438,6 +432,27 @@ class _FabMenuState extends State<_FabMenu>
         ),
       ],
     );
+  }
+
+  List<Widget> _buildMenuButtons(List<_MenuAction> actions) {
+    final List<Widget> widgets = [];
+    for (var i = 0; i < actions.length; i++) {
+      final action = actions[i];
+      widgets.add(
+        _MiniButton(
+          icon: action.icon,
+          label: action.label,
+          onTap: () {
+            action.onTap();
+            setState(() => _open = false);
+          },
+        ),
+      );
+      if (i != actions.length - 1) {
+        widgets.add(const SizedBox(height: 8));
+      }
+    }
+    return widgets;
   }
 }
 
@@ -484,6 +499,18 @@ class _MiniButton extends StatelessWidget {
       ),
     );
   }
+}
+
+class _MenuAction {
+  const _MenuAction({
+    required this.label,
+    required this.icon,
+    required this.onTap,
+  });
+
+  final String label;
+  final IconData icon;
+  final VoidCallback onTap;
 }
 
 class _StatChip extends StatelessWidget {

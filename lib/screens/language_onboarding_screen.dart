@@ -21,7 +21,6 @@ class LanguageOnboardingScreen extends StatefulWidget {
 class _LanguageOnboardingScreenState extends State<LanguageOnboardingScreen> {
   final List<String> _nativeLanguageCodes = const [
     'en',
-    'de',
     'fa',
     'ar',
     'es',
@@ -29,16 +28,24 @@ class _LanguageOnboardingScreenState extends State<LanguageOnboardingScreen> {
     'tr',
   ];
 
-  String? _selectedNativeLanguage;
-  final String _learningLanguageCode = 'de';
+  String? _selectedNativeLanguage = 'en';
+
+  @override
+  void initState() {
+    super.initState();
+    final current = widget.currentLocale.languageCode;
+    if (_nativeLanguageCodes.contains(current)) {
+      _selectedNativeLanguage = current;
+    } else {
+      _selectedNativeLanguage = 'en';
+    }
+  }
 
   String _languageLabel(BuildContext context, String code) {
     final loc = AppLocalizations.of(context)!;
     switch (code) {
       case 'en':
         return loc.languageEnglish;
-      case 'de':
-        return loc.languageGerman;
       case 'fa':
         return loc.languageFarsi;
       case 'ar':
@@ -93,34 +100,31 @@ class _LanguageOnboardingScreenState extends State<LanguageOnboardingScreen> {
                     runSpacing: 12,
                     alignment: WrapAlignment.center,
                     children: _nativeLanguageCodes.map((code) {
-                      final selected = _selectedNativeLanguage == code ||
-                          widget.currentLocale.languageCode == code;
+                      final selected = _selectedNativeLanguage == code;
                       return _LanguagePill(
                         label: _languageLabel(context, code),
                         selected: selected,
-                        onTap: () async {
+                        onTap: () {
                           setState(() => _selectedNativeLanguage = code);
                           widget.onLocaleChanged(Locale(code));
-                          await Future.delayed(const Duration(milliseconds: 120));
-                          widget.onFinished();
-                          if (context.mounted) {
-                            Navigator.of(context)
-                                .pushReplacementNamed('/sign-in-or-skip');
-                          }
                         },
                       );
                     }).toList(),
                   ),
                   const SizedBox(height: 32),
-                  Center(
-                    child: _LanguagePill(
-                      label: _languageLabel(context, _learningLanguageCode),
-                      selected: true,
-                      dense: true,
-                      onTap: () {},
-                    ),
+                  const SizedBox(height: 28),
+                  ElevatedButton(
+                    onPressed: () async {
+                      if (_selectedNativeLanguage == null) return;
+                      widget.onFinished();
+                      if (context.mounted) {
+                        Navigator.of(context)
+                            .pushReplacementNamed('/sign-in-or-skip');
+                      }
+                    },
+                    child: Text(loc.onboardingContinue),
                   ),
-                  const SizedBox(height: 24),
+                  const SizedBox(height: 16),
                   Text(
                     loc.onboardingChangeLater,
                     style: textTheme.bodyMedium

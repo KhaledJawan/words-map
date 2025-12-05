@@ -260,7 +260,7 @@ abstract class AppLocalizations {
   /// No description provided for @languageGerman.
   ///
   /// In en, this message translates to:
-  /// **'Deutsch'**
+  /// **''**
   String get languageGerman;
 
   /// No description provided for @languageFarsi.
@@ -296,7 +296,7 @@ abstract class AppLocalizations {
   /// No description provided for @learningLanguageGerman.
   ///
   /// In en, this message translates to:
-  /// **'Deutsch'**
+  /// **''**
   String get learningLanguageGerman;
 
   /// No description provided for @settingsSelectLanguageTitle.

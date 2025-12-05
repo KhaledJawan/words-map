@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:word_map_app/screens/level_select_screen.dart';
 
 class SignInOrSkipScreen extends StatelessWidget {
   const SignInOrSkipScreen({super.key});
@@ -47,15 +48,25 @@ class SignInOrSkipScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 12),
                   OutlinedButton(
-                    onPressed: () => Navigator.of(context)
-                        .pushReplacementNamed('/levels'),
+                    onPressed: () {
+                      Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(
+                          builder: (_) => const LevelSelectScreen(),
+                        ),
+                      );
+                    },
                     child: const Text('Skip and start'),
                   ),
                   if (isSignedIn) ...[
                     const SizedBox(height: 12),
                     TextButton(
-                      onPressed: () => Navigator.of(context)
-                          .pushReplacementNamed('/levels'),
+                      onPressed: () {
+                        Navigator.of(context).pushReplacement(
+                          MaterialPageRoute(
+                            builder: (_) => const LevelSelectScreen(),
+                          ),
+                        );
+                      },
                       child: const Text('Already signed in? Continue'),
                     ),
                   ],

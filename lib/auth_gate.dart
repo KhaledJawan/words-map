@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'dart:developer' as developer;
 
 import 'screens/sign_in_screen.dart';
-import 'screens/word_map_screen.dart';
+import 'screens/words_list_screen.dart';
 
 class AuthGate extends StatelessWidget {
   const AuthGate({
@@ -54,11 +54,7 @@ class AuthGate extends StatelessWidget {
         }
 
         developer.log('User authenticated: ${user.email}', name: 'AuthGate');
-        return WordMapScreen(
-          initialLevel: initialLevel,
-          currentLocale: currentLocale,
-          onLocaleChanged: onLocaleChanged,
-        );
+        return WordsListScreen(level: initialLevel);
       },
     );
   }
