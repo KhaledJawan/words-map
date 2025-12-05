@@ -68,8 +68,8 @@ class _WordTileState extends State<WordTile> {
               curve: Curves.easeOut,
               height: 36,
               padding: const EdgeInsetsDirectional.symmetric(
-                horizontal: 8,
-                vertical: 4,
+                horizontal: 12,
+                vertical: 6,
               ),
               decoration: BoxDecoration(
                 color: bg,
