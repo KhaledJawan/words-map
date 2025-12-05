@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "334590881340",
+    "project_id": "wordsmapapp",
+    "storage_bucket": "wordsmapapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334590881340:android:2ed67ab4ff4ecb2277dd39",
+        "android_client_info": {
+          "package_name": "com.example.word_map_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334590881340-ov46308avn8gccjb4tqd1fvh6m6jc4mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrx5iH035utBv26tvD_abSFjl0yswgSRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334590881340-ov46308avn8gccjb4tqd1fvh6m6jc4mt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "334590881340-deud6l32f6u2bm4814uedhfgq0pa2h7p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.wordMapApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
