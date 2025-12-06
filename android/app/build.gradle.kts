@@ -8,8 +8,14 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
+// To configure Firebase SHA-1 for com.merlinict.wordmap:
+//   cd android
+//   ./gradlew signingReport
+// Use the debug SHA-1 in Firebase console for the Android app with package com.merlinict.wordmap,
+// then re-download google-services.json and place it into android/app/.
+
 android {
-    namespace = "com.example.word_map_app"
+    namespace = "com.merlinict.wordmap"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -24,7 +30,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.word_map_app"
+        applicationId = "com.merlinict.wordmap"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -117,6 +118,26 @@ class AppState with ChangeNotifier {
     final prefs = await SharedPreferences.getInstance();
     _viewedIds.add(word.id);
     word.isViewed = true;
+    await prefs.setStringList('viewedWordIds', _viewedIds.toList());
+    notifyListeners();
+  }
+
+  /// Debug helper to check Firebase connectivity and print the current user.
+  Future<void> logFirebaseStatus() async {
+    try {
+      final user = FirebaseAuth.instance.currentUser;
+      debugPrint('FirebaseAuth currentUser: ${user?.uid ?? 'none'}');
+    } catch (e) {
+      debugPrint('Firebase connectivity check failed: $e');
+    }
+  }
+
+  /// Clears viewed and bookmarked word state locally and in preferences.
+  Future<void> resetProgress() async {
+    final prefs = await SharedPreferences.getInstance();
+    _bookmarkedIds.clear();
+    _viewedIds.clear();
+    await prefs.setStringList('bookmarkedWordIds', _bookmarkedIds.toList());
     await prefs.setStringList('viewedWordIds', _viewedIds.toList());
     notifyListeners();
   }

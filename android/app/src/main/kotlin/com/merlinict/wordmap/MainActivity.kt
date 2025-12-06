@@ -1,4 +1,4 @@
-package com.example.word_map_app
+package com.merlinict.wordmap
 
 import io.flutter.embedding.android.FlutterActivity
 
