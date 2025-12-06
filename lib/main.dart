@@ -63,8 +63,8 @@ class WordMapApp extends StatelessWidget {
         useMaterial3: true,
         scaffoldBackgroundColor: Colors.white,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF007AFF),
-          primary: const Color(0xFF007AFF),
+          seedColor: const Color(0xFF4BA8FF),
+          primary: const Color(0xFF4BA8FF),
           secondary: const Color(0xFF5856D6),
           background: Colors.white,
         ),
@@ -89,7 +89,7 @@ class WordMapApp extends StatelessWidget {
           shadowColor: Colors.black.withOpacity(0.05),
         ),
         listTileTheme: const ListTileThemeData(
-          iconColor: Color(0xFF007AFF),
+          iconColor: Color(0xFF4BA8FF),
           textColor: Colors.black,
           subtitleTextStyle: TextStyle(
             color: Colors.grey,
@@ -98,7 +98,7 @@ class WordMapApp extends StatelessWidget {
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
-            backgroundColor: const Color(0xFF007AFF),
+            backgroundColor: const Color(0xFF4BA8FF),
             foregroundColor: Colors.white,
             elevation: 0,
             shape: RoundedRectangleBorder(
@@ -146,7 +146,7 @@ class WordMapApp extends StatelessWidget {
           backgroundColor: Colors.white,
           showSelectedLabels: true,
           showUnselectedLabels: false,
-          selectedItemColor: Color(0xFF007AFF),
+          selectedItemColor: Color(0xFF4BA8FF),
           unselectedItemColor: Colors.grey,
           elevation: 10,
           type: BottomNavigationBarType.fixed,

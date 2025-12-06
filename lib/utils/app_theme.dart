@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  static const Color seed = Color(0xFF007AFF);
+  static const Color seed = Color(0xFF4BA8FF);
   static const Color secondary = Color(0xFF5856D6);
   static const Color lightBackground = Colors.white;
 
@@ -61,7 +61,7 @@ class AppTheme {
     outlinedButtonTheme: OutlinedButtonThemeData(
       style: OutlinedButton.styleFrom(
         foregroundColor: seed,
-        side: const BorderSide(color: Color(0x33007AFF)),
+        side: const BorderSide(color: Color(0x334BA8FF)),
         padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 20),
         shape: _pillShape(),
       ),

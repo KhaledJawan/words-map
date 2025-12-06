@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:ui';
 import 'package:provider/provider.dart';
 import 'package:word_map_app/models/vocab_word.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -6,6 +7,7 @@ import 'package:word_map_app/services/app_state.dart';
 import 'package:word_map_app/services/vocab_loader.dart';
 import 'package:word_map_app/version_checker.dart';
 import 'package:word_map_app/widgets/word_detail_overlay.dart';
+import 'package:word_map_app/widgets/word_detail_soft_card.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
 
 enum SortMode { defaultOrder, alphabetical, bookmarkedFirst, unviewedFirst }
@@ -84,28 +86,57 @@ class _WordsListScreenState extends State<WordsListScreen> {
   Future<void> _onWordTapped(VocabWord word) async {
     final appState = context.read<AppState>();
     word.isViewed = true;
-    await appState.markViewed(word);
-    setState(() => _applySort());
+    appState.markViewed(word);
+    setState(() {});
     if (!mounted) return;
-    showWordDetailOverlay(
-      context,
-      word: word.de,
-      translation: word.translationFa.isNotEmpty
-          ? word.translationFa
-          : word.translationEn,
-      example: word.example,
-      extra: [
-        if (word.level != null) word.level,
-        if (word.category != null) word.category,
-      ].whereType<String>().join(' • '),
-      isBookmarked: word.isBookmarked,
-      onToggleBookmark: () async {
-        await context.read<AppState>().toggleBookmark(word);
-        if (mounted) {
-          setState(() {
-            _applySort();
-          });
-        }
+    await showGeneralDialog(
+      context: context,
+      barrierDismissible: true,
+      barrierLabel: 'word-detail',
+      barrierColor: Colors.black.withOpacity(0.25),
+      transitionDuration: const Duration(milliseconds: 220),
+      pageBuilder: (context, animation, secondaryAnimation) {
+        return GestureDetector(
+          onTap: () => Navigator.of(context).maybePop(),
+          child: Scaffold(
+            backgroundColor: Colors.transparent,
+            body: Stack(
+              children: [
+                BackdropFilter(
+                  filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                  child: Container(color: Colors.black.withOpacity(0.05)),
+                ),
+                Center(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 20),
+                    child: WordDetailSoftCard(
+                      word: word.de,
+                      translation: word.translationFa.isNotEmpty
+                          ? word.translationFa
+                          : word.translationEn,
+                      example: word.example,
+                      extra: [
+                        if (word.level != null) word.level,
+                        if (word.category != null) word.category,
+                      ].whereType<String>().join(' • '),
+                      isBookmarked: word.isBookmarked,
+                      onToggleBookmark: () async {
+                        await context.read<AppState>().toggleBookmark(word);
+                        if (mounted) setState(() {});
+                      },
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        );
+      },
+      transitionBuilder: (context, animation, secondaryAnimation, child) {
+        return FadeTransition(
+          opacity: animation,
+          child: child,
+        );
       },
     );
   }
@@ -127,44 +158,46 @@ class _WordsListScreenState extends State<WordsListScreen> {
     return Scaffold(
       appBar: _currentIndex == 0
           ? AppBar(
-              leadingWidth: 120,
+              leadingWidth: 104,
               leading: Padding(
-                padding: const EdgeInsetsDirectional.only(start: 12),
-                child: Center(
-            child: Container(
-              padding: const EdgeInsetsDirectional.symmetric(
-                  horizontal: 10, vertical: 8),
-              decoration: BoxDecoration(
-                color: cs.surface,
-                borderRadius: BorderRadius.circular(999),
-                border: Border.all(color: cs.outline),
-              ),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    '$viewedCount',
-                    style: textTheme.bodySmall?.copyWith(
-                      fontWeight: FontWeight.w700,
-                      color: cs.onSurface,
-                    ),
+                padding: const EdgeInsetsDirectional.only(start: 16),
+                child: Align(
+                  alignment: Alignment.centerLeft,
+                  child: Container(
+                  constraints:
+                      const BoxConstraints(minWidth: 48, minHeight: 48),
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: cs.surfaceVariant.withValues(alpha: 0.45),
+                    shape: BoxShape.circle,
                   ),
-                  const SizedBox(height: 2),
-                  Text(
-                    '${_words.length}',
-                    style: textTheme.bodySmall?.copyWith(
-                      fontWeight: FontWeight.w600,
-                      color: cs.onSurface.withValues(alpha: 0.5),
-                      fontSize: textTheme.bodySmall?.fontSize != null
-                          ? textTheme.bodySmall!.fontSize! - 1
-                          : null,
-                    ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        '$viewedCount',
+                        style: textTheme.bodySmall?.copyWith(
+                          fontWeight: FontWeight.w700,
+                          color: cs.onSurface,
+                        ),
+                      ),
+                      const SizedBox(height: 2),
+                      Text(
+                        '${_words.length}',
+                        style: textTheme.bodySmall?.copyWith(
+                          fontWeight: FontWeight.w600,
+                          color: cs.onSurface.withValues(alpha: 0.5),
+                          fontSize: textTheme.bodySmall?.fontSize != null
+                              ? textTheme.bodySmall!.fontSize! - 1
+                              : null,
+                        ),
+                      ),
+                    ],
                   ),
-                ],
+                ),
               ),
-            ),
           ),
-              ),
               title: Text('$_currentLevel Vocabulary'),
               centerTitle: true,
             )
@@ -214,7 +247,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
         padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
         child: Wrap(
           spacing: 8,
-          runSpacing: 4,
+          runSpacing: 3,
           children: List.generate(_sorted.length, (index) {
             final word = _sorted[index];
             return WordTile(
@@ -474,16 +507,16 @@ class _BottomNavBar extends StatelessWidget {
         borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.12),
-            blurRadius: 6,
+            color: Colors.black.withOpacity(0.06),
+            blurRadius: 10,
             spreadRadius: 1,
-            offset: const Offset(0, 2),
+            offset: const Offset(0, 3),
           ),
           BoxShadow(
-            color: Colors.black.withOpacity(0.04),
-            blurRadius: 12,
-            spreadRadius: 0,
-            offset: const Offset(0, 6),
+            color: Colors.black.withOpacity(0.02),
+            blurRadius: 16,
+            spreadRadius: 1,
+            offset: const Offset(0, 7),
           ),
         ],
       ),
@@ -547,37 +580,14 @@ class _MiniActionChip extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
-    final textTheme = Theme.of(context).textTheme;
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
         color: cs.surface,
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: cs.outlineVariant),
+        shape: BoxShape.circle,
       ),
-      child: Row(
-        mainAxisSize: MainAxisSize.max,
-        children: [
-          Expanded(
-            child: Text(
-              label,
-              style: textTheme.bodyMedium?.copyWith(
-                color: cs.onSurface,
-                fontWeight: FontWeight.w600,
-              ),
-              overflow: TextOverflow.ellipsis,
-            ),
-          ),
-          const SizedBox(width: 8),
-          ConstrainedBox(
-            constraints: const BoxConstraints(minWidth: 32, maxWidth: 48),
-            child: Align(
-              alignment: Alignment.centerRight,
-              child: child,
-            ),
-          ),
-        ],
-      ),
+      child: child,
     );
   }
+
 }

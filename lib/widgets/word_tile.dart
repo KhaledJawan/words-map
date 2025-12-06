@@ -22,7 +22,7 @@ class WordTile extends StatelessWidget {
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
     final cs = theme.colorScheme;
-    const Color bookmarkedBlue = Color(0xFF1E88E5);
+    const Color bookmarkedBlue = Color(0xFF4BA8FF);
 
     final bool bookmarked = word.isBookmarked;
     final bool visited = word.isViewed;
@@ -39,16 +39,16 @@ class WordTile extends StatelessWidget {
       textColor = bookmarkedBlue;
       shadow = [
         BoxShadow(
-          color: bookmarkedBlue.withOpacity(0.12),
-          blurRadius: 6,
+          color: bookmarkedBlue.withOpacity(0.07),
+          blurRadius: 10,
           spreadRadius: 1,
-          offset: const Offset(0, 2),
+          offset: const Offset(0, 3),
         ),
         BoxShadow(
-          color: bookmarkedBlue.withOpacity(0.04),
-          blurRadius: 12,
-          spreadRadius: 0,
-          offset: const Offset(0, 6),
+          color: bookmarkedBlue.withOpacity(0.02),
+          blurRadius: 16,
+          spreadRadius: 1,
+          offset: const Offset(0, 7),
         ),
       ];
     } else if (isVisited) {
@@ -62,16 +62,16 @@ class WordTile extends StatelessWidget {
       textColor = const Color(0xFF111111);
       shadow = [
         BoxShadow(
-          color: Colors.black.withOpacity(0.12),
-          blurRadius: 6,
+          color: Colors.black.withOpacity(0.06),
+          blurRadius: 10,
           spreadRadius: 1,
-          offset: const Offset(0, 2),
+          offset: const Offset(0, 3),
         ),
         BoxShadow(
-          color: Colors.black.withOpacity(0.04),
-          blurRadius: 12,
-          spreadRadius: 0,
-          offset: const Offset(0, 6),
+          color: Colors.black.withOpacity(0.02),
+          blurRadius: 16,
+          spreadRadius: 1,
+          offset: const Offset(0, 7),
         ),
       ];
       border = const Color(0xFFE0E0E0);
@@ -85,7 +85,7 @@ class WordTile extends StatelessWidget {
         borderRadius: BorderRadius.circular(999),
         child: IntrinsicWidth(
           child: Container(
-            margin: const EdgeInsets.symmetric(vertical: 4),
+            margin: const EdgeInsets.symmetric(vertical: 3),
             padding: EdgeInsets.symmetric(
               vertical: 10,
               horizontal: _horizontalPadding(word.de),
