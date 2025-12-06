@@ -50,7 +50,7 @@ class WordTile extends StatelessWidget {
         ),
       ];
     } else if (isVisited) {
-      bg = const Color(0xFFF2F2F2);
+      bg = theme.scaffoldBackgroundColor;
       textColor = const Color(0xFFAAAAAA);
       shadow = null;
       border = null;
