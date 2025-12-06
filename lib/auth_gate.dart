@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'dart:developer' as developer;
 
-import 'screens/sign_in_screen.dart';
+import '../sign_in_screen.dart';
 import 'screens/words_list_screen.dart';
 
 class AuthGate extends StatelessWidget {

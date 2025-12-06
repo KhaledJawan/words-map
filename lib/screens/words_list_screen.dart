@@ -1,80 +1,62 @@
 import 'dart:async';
 import 'dart:ui';
 
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
 import 'package:word_map_app/models/vocab_word.dart';
 import 'package:word_map_app/models/word_progress.dart';
 import 'package:word_map_app/services/app_state.dart';
+import 'package:word_map_app/screens/words_list_init.dart';
 import 'package:word_map_app/services/progress_repository.dart';
-import 'package:word_map_app/services/vocab_loader.dart';
-import 'package:word_map_app/version_checker.dart';
 import 'package:word_map_app/widgets/word_detail_soft_card.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
 
-enum SortMode { defaultOrder, alphabetical, bookmarkedFirst, unviewedFirst }
+enum SortMode { defaultOrder, priorityGrouped }
+
+List<VocabWord> sortWordsForDisplay(List<VocabWord> words) {
+  final bookmarked = <VocabWord>[];
+  final normal = <VocabWord>[];
+  final viewed = <VocabWord>[];
+
+  for (final w in words) {
+    if (w.isBookmarked) {
+      bookmarked.add(w);
+    } else if (w.isViewed || w.isVisited) {
+      viewed.add(w);
+    } else {
+      normal.add(w);
+    }
+  }
+
+  return [...bookmarked, ...normal, ...viewed];
+}
 
 class WordsListScreen extends StatefulWidget {
-  const WordsListScreen({super.key, this.level});
+  const WordsListScreen({super.key, this.level, this.initialBundle});
 
   final String? level;
+  final WordsInitBundle? initialBundle;
 
   @override
   State<WordsListScreen> createState() => _WordsListScreenState();
 }
 
 class _WordsListScreenState extends State<WordsListScreen> {
-  late Future<_InitBundle> _initFuture;
+  late Future<WordsInitBundle> _initFuture;
 
   @override
   void initState() {
     super.initState();
-    _initFuture = _loadInitial();
-  }
-
-  Future<_InitBundle> _loadInitial() async {
-    final appState = Provider.of<AppState>(context, listen: false);
-    final repo = ProgressRepository();
-    final levels = appState.levels;
-    final progress = await repo.loadProgress();
-    final lastLevel =
-        await repo.loadLastLevel() ?? widget.level ?? appState.currentLevel;
-
-    final List<VocabWord> allWords = [];
-    for (final level in levels) {
-      final words = await loadWordsForLevel(level);
-      for (final w in words) {
-        final p = progress[w.id];
-        if (p != null) {
-          w.isBookmarked = p.bookmarked;
-          w.isViewed = p.learned;
-        } else {
-          w.isBookmarked = appState.isBookmarked(w);
-          w.isViewed = appState.isViewed(w);
-        }
-      }
-      allWords.addAll(words);
-    }
-
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      VersionChecker.checkForUpdate(context);
-    });
-
-    return _InitBundle(
-      allWords: allWords,
-      progress: progress,
-      lastLevel: lastLevel,
-      levels: levels,
-      repo: repo,
-    );
+    _initFuture = widget.initialBundle != null
+        ? Future.value(widget.initialBundle)
+        : loadWordsInit(Provider.of<AppState>(context, listen: false), context);
   }
 
   @override
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
-    return FutureBuilder<_InitBundle>(
+    return FutureBuilder<WordsInitBundle>(
       future: _initFuture,
       builder: (context, snapshot) {
         if (snapshot.connectionState != ConnectionState.done) {
@@ -140,7 +122,7 @@ class _WordsContentState extends State<WordsContent> {
     _wordsByLevel = _groupByLevel(widget.allWords);
     _currentLevel =
         widget.initialLevel.isNotEmpty ? widget.initialLevel : widget.levels.first;
-    _setVisibleForLevel(_currentLevel);
+    _setVisibleForLevel(_currentLevel, forceSort: true);
   }
 
   @override
@@ -159,38 +141,15 @@ class _WordsContentState extends State<WordsContent> {
     return grouped;
   }
 
-  void _setVisibleForLevel(String level) {
+  void _setVisibleForLevel(String level, {bool forceSort = false}) {
     final list = _wordsByLevel[level] ?? [];
     _visibleWords = List.of(list);
-    _applySort();
+    _applySort(forcePriority: forceSort);
   }
 
-  void _applySort() {
-    final list = List<VocabWord>.of(_visibleWords);
-    switch (_sortMode) {
-      case SortMode.defaultOrder:
-        _visibleWords = list;
-        break;
-      case SortMode.alphabetical:
-        list.sort((a, b) => a.de.compareTo(b.de));
-        _visibleWords = list;
-        break;
-      case SortMode.bookmarkedFirst:
-        list.sort((a, b) {
-          final aVal = a.isBookmarked ? 0 : 1;
-          final bVal = b.isBookmarked ? 0 : 1;
-          return aVal.compareTo(bVal);
-        });
-        _visibleWords = list;
-        break;
-      case SortMode.unviewedFirst:
-        list.sort((a, b) {
-          final aVal = a.isViewed ? 1 : 0;
-          final bVal = b.isViewed ? 1 : 0;
-          return aVal.compareTo(bVal);
-        });
-        _visibleWords = list;
-        break;
+  void _applySort({bool forcePriority = false}) {
+    if (forcePriority || _sortMode == SortMode.priorityGrouped) {
+      _visibleWords = sortWordsForDisplay(_visibleWords);
     }
     setState(() {});
   }
@@ -199,7 +158,7 @@ class _WordsContentState extends State<WordsContent> {
     if (level == _currentLevel) return;
     setState(() {
       _currentLevel = level;
-      _setVisibleForLevel(level);
+      _setVisibleForLevel(level, forceSort: true);
     });
     widget.repo.saveLastLevel(level);
   }
@@ -232,10 +191,23 @@ class _WordsContentState extends State<WordsContent> {
     });
   }
 
-  Future<void> _refreshAll() async {
+  Future<void> _resetCurrentLevel() async {
+    final levelWords = _wordsByLevel[_currentLevel] ?? [];
     setState(() {
-      _setVisibleForLevel(_currentLevel);
+      for (final w in levelWords) {
+        w.isBookmarked = false;
+        w.isViewed = false;
+      }
+      for (final w in levelWords) {
+        _progress.remove(w.id);
+      }
+      _setVisibleForLevel(_currentLevel, forceSort: true);
     });
+    await widget.repo.saveProgress(_progress);
+  }
+
+  Future<void> _refreshAll() async {
+    _setVisibleForLevel(_currentLevel, forceSort: true);
   }
 
   Future<void> _onWordTapped(VocabWord word) async {
@@ -324,7 +296,7 @@ class _WordsContentState extends State<WordsContent> {
                   const BoxConstraints(minWidth: 44, minHeight: 44),
               padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
-                color: const Color(0xFFFF8C00),
+                color: Colors.black,
                 shape: BoxShape.circle,
               ),
               child: Column(
@@ -359,7 +331,7 @@ class _WordsContentState extends State<WordsContent> {
           style: TextButton.styleFrom(
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
             shape: const StadiumBorder(),
-            backgroundColor: const Color(0xFFFF8C00),
+            backgroundColor: Colors.black,
             minimumSize: const Size(0, 44),
           ),
           icon: const Icon(LucideIcons.layers, color: Colors.white),
@@ -379,14 +351,14 @@ class _WordsContentState extends State<WordsContent> {
               onTap: () {
                 _showProfileSheet(context);
               },
-              child: Container(
-                constraints: const BoxConstraints(minWidth: 44, minHeight: 44),
-                padding: const EdgeInsets.all(8),
-                decoration: BoxDecoration(
-                  color: const Color(0xFFFF8C00),
+            child: Container(
+              constraints: const BoxConstraints(minWidth: 44, minHeight: 44),
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                  color: Colors.black,
                   shape: BoxShape.circle,
                 ),
-                child: const Icon(LucideIcons.circleUserRound,
+              child: const Icon(LucideIcons.circleUserRound,
                     size: 26, color: Colors.white),
               ),
             ),
@@ -426,11 +398,8 @@ class _WordsContentState extends State<WordsContent> {
   }
 
   Future<void> _showProfileSheet(BuildContext context) async {
-    final cs = Theme.of(context).colorScheme;
     final appState = context.read<AppState>();
-    final user = FirebaseAuth.instance.currentUser;
     final isDark = Theme.of(context).brightness == Brightness.dark;
-
     await showModalBottomSheet<void>(
       context: context,
       isScrollControlled: true,
@@ -438,99 +407,97 @@ class _WordsContentState extends State<WordsContent> {
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
       ),
       builder: (context) {
-        return SafeArea(
-          child: Padding(
-            padding: EdgeInsets.only(
-              left: 16,
-              right: 16,
-              bottom: MediaQuery.of(context).viewInsets.bottom + 20,
-              top: 20,
-            ),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                Center(
-                  child: Text(
-                    'Profile',
-                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                          fontWeight: FontWeight.w700,
-                        ),
-                  ),
+        return StatefulBuilder(
+          builder: (context, setSheetState) {
+            return SafeArea(
+              child: Padding(
+                padding: EdgeInsets.only(
+                  left: 16,
+                  right: 16,
+                  bottom: MediaQuery.of(context).viewInsets.bottom + 20,
+                  top: 20,
                 ),
-                const SizedBox(height: 16),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    _LangChipBorderless(
-                      label: 'English',
-                      selected: (appState.appLocale?.languageCode ?? 'en') == 'en',
-                      onTap: () {
-                        appState.changeLocale(const Locale('en'));
-                        Navigator.of(context).maybePop();
+                    Center(
+                      child: Text(
+                        'Profile',
+                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                              fontWeight: FontWeight.w700,
+                            ),
+                      ),
+                    ),
+                    const SizedBox(height: 16),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        _LangChipBorderless(
+                          label: 'English',
+                          selected: (appState.appLocale?.languageCode ?? 'en') == 'en',
+                          onTap: () {
+                            appState.changeLocale(const Locale('en'));
+                            Navigator.of(context).maybePop();
+                          },
+                        ),
+                        const SizedBox(width: 12),
+                        _LangChipBorderless(
+                          label: 'فارسی',
+                          selected: (appState.appLocale?.languageCode ?? 'en') == 'fa',
+                          onTap: () {
+                            appState.changeLocale(const Locale('fa'));
+                            Navigator.of(context).maybePop();
+                          },
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 16),
+                    SwitchListTile(
+                      contentPadding: EdgeInsets.zero,
+                      title: const Text('Dark mode'),
+                      value: isDark,
+                      onChanged: (val) {
+                        appState.setThemeMode(val ? ThemeMode.dark : ThemeMode.light);
+                      },
+                      secondary: const Icon(LucideIcons.moon),
+                    ),
+                    ListTile(
+                      contentPadding: EdgeInsets.zero,
+                      leading: const Icon(LucideIcons.slidersHorizontal),
+                      title: const Text('Sort words'),
+                      onTap: () async {
+                        setState(() {
+                          _sortMode = SortMode.priorityGrouped;
+                          _applySort();
+                        });
+                        if (mounted) Navigator.of(context).pop();
                       },
                     ),
-                    const SizedBox(width: 12),
-                    _LangChipBorderless(
-                      label: 'فارسی',
-                      selected: (appState.appLocale?.languageCode ?? 'en') == 'fa',
-                      onTap: () {
-                        appState.changeLocale(const Locale('fa'));
-                        Navigator.of(context).maybePop();
+                    ListTile(
+                      contentPadding: EdgeInsets.zero,
+                      leading: const Icon(LucideIcons.refreshCw),
+                      title: const Text('Reset this level'),
+                      subtitle: Text(_currentLevel),
+                      onTap: () async {
+                        await _resetCurrentLevel();
+                        if (mounted) {
+                          Navigator.of(context).pop();
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(
+                              content:
+                                  Text('Progress reset for $_currentLevel'),
+                            ),
+                          );
+                        }
                       },
                     ),
+                    const SizedBox(height: 12),
                   ],
                 ),
-                const SizedBox(height: 16),
-                SwitchListTile(
-                  contentPadding: EdgeInsets.zero,
-                  title: const Text('Dark mode'),
-                  value: isDark,
-                  onChanged: (val) {
-                    appState.setThemeMode(val ? ThemeMode.dark : ThemeMode.light);
-                  },
-                  secondary: const Icon(LucideIcons.moon),
-                ),
-                ListTile(
-                  contentPadding: EdgeInsets.zero,
-                  leading: const Icon(LucideIcons.refreshCw),
-                  title: const Text('Reset progress'),
-                  onTap: () async {
-                    await appState.resetProgress();
-                    setState(() {
-                      for (final w in _wordsByLevel.values.expand((e) => e)) {
-                        w.isBookmarked = false;
-                        w.isViewed = false;
-                      }
-                      _progress.clear();
-                      _setVisibleForLevel(_currentLevel);
-                    });
-                    if (mounted) {
-                      Navigator.of(context).pop();
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(content: Text('Progress reset')),
-                      );
-                    }
-                  },
-                ),
-                ListTile(
-                  contentPadding: EdgeInsets.zero,
-                  leading: Icon(user == null ? LucideIcons.logIn : LucideIcons.logOut),
-                  title: Text(user == null ? 'Sign in' : 'Sign out'),
-                  onTap: () async {
-                    Navigator.of(context).pop();
-                    if (user == null) {
-                      if (mounted) Navigator.of(context).pushNamed('/sign-in');
-                    } else {
-                      await FirebaseAuth.instance.signOut();
-                      if (mounted) setState(() {});
-                    }
-                  },
-                ),
-                const SizedBox(height: 12),
-              ],
-            ),
-          ),
+              ),
+            );
+          },
         );
       },
     );
@@ -560,159 +527,22 @@ class _WordsContentState extends State<WordsContent> {
 
     return RefreshIndicator(
       onRefresh: _refreshAll,
-      child: SingleChildScrollView(
+      child: CustomScrollView(
         physics: const BouncingScrollPhysics(
             parent: AlwaysScrollableScrollPhysics()),
-        padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
-        child: _WordList(
-          words: _visibleWords,
-          onTap: _onWordTapped,
-          onBookmarkToggle: _toggleBookmark,
-        ),
-      ),
-    );
-  }
-
-  Widget _buildProfileTab(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-    final textTheme = Theme.of(context).textTheme;
-    final appState = context.watch<AppState>();
-    final user = FirebaseAuth.instance.currentUser;
-    final photoUrl = user?.photoURL;
-    final displayName = user?.displayName ?? 'Guest';
-    final email = user?.email;
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-
-    return ColoredBox(
-      color: Colors.white,
-      child: SafeArea(
-        child: SingleChildScrollView(
-          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 24),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Center(
-                child: Column(
-                  children: [
-                    Container(
-                      width: 90,
-                      height: 90,
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        color: cs.surface,
-                        border: Border.all(color: cs.outlineVariant),
-                      ),
-                      child: ClipOval(
-                        child: photoUrl != null
-                            ? Image.network(photoUrl, fit: BoxFit.cover)
-                            : Icon(LucideIcons.user, size: 32, color: cs.onSurfaceVariant),
-                      ),
-                    ),
-                    const SizedBox(height: 12),
-                    Text(
-                      displayName,
-                      style: textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.w700,
-                        color: cs.onSurface,
-                      ),
-                    ),
-                    if (email != null) ...[
-                      const SizedBox(height: 4),
-                      Text(
-                        email,
-                        style: textTheme.bodyMedium?.copyWith(
-                          color: cs.onSurface.withValues(alpha: 0.65),
-                        ),
-                      ),
-                    ],
-                  ],
-                ),
+        slivers: [
+          SliverPadding(
+            padding:
+                const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
+            sliver: SliverToBoxAdapter(
+              child: _WordList(
+                words: _visibleWords,
+                onTap: _onWordTapped,
+                onBookmarkToggle: _toggleBookmark,
               ),
-              const SizedBox(height: 24),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  _LangChipBorderless(
-                    label: 'English',
-                    selected: (appState.appLocale?.languageCode ?? 'en') == 'en',
-                    onTap: () => appState.changeLocale(const Locale('en')),
-                  ),
-                  const SizedBox(width: 12),
-                  _LangChipBorderless(
-                    label: 'فارسی',
-                    selected: (appState.appLocale?.languageCode ?? 'en') == 'fa',
-                    onTap: () => appState.changeLocale(const Locale('fa')),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 12),
-              Row(
-                children: [
-                  Expanded(
-                    child: _MiniActionChip(
-                      label: 'Dark mode',
-                      child: Switch(
-                        value: isDark,
-                        onChanged: (val) {
-                          appState.setThemeMode(val ? ThemeMode.dark : ThemeMode.light);
-                        },
-                      ),
-                    ),
-                  ),
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: _MiniActionChip(
-                      label: 'Reset',
-                      child: IconButton(
-                        visualDensity: VisualDensity.compact,
-                        icon: Icon(LucideIcons.refreshCw, color: cs.onSurfaceVariant),
-                        onPressed: () async {
-                          await appState.resetProgress();
-                          setState(() {
-                            for (final w in _wordsByLevel.values.expand((e) => e)) {
-                              w.isBookmarked = false;
-                              w.isViewed = false;
-                            }
-                            _progress.clear();
-                            _setVisibleForLevel(_currentLevel);
-                          });
-                          if (context.mounted) {
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(content: Text('Progress reset')),
-                            );
-                          }
-                        },
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 24),
-              Center(
-                child: TextButton.icon(
-                  onPressed: () async {
-                    if (user == null) {
-                      if (context.mounted) {
-                        Navigator.of(context).pushNamed('/sign-in');
-                      }
-                    } else {
-                      await FirebaseAuth.instance.signOut();
-                      if (mounted) setState(() {});
-                    }
-                  },
-                  style: TextButton.styleFrom(
-                    foregroundColor: cs.onSurface.withValues(alpha: 0.7),
-                  ),
-                  icon: Icon(
-                    user == null ? LucideIcons.logIn : LucideIcons.logOut,
-                    size: 20,
-                  ),
-                  label: Text(user == null ? 'Sign in' : 'Sign out'),
-                ),
-              ),
-            ],
+            ),
           ),
-        ),
+        ],
       ),
     );
   }
@@ -871,20 +701,4 @@ class _LevelGrid extends StatelessWidget {
       ],
     );
   }
-}
-
-class _InitBundle {
-  final List<VocabWord> allWords;
-  final Map<String, WordProgress> progress;
-  final String lastLevel;
-  final List<String> levels;
-  final ProgressRepository repo;
-
-  _InitBundle({
-    required this.allWords,
-    required this.progress,
-    required this.lastLevel,
-    required this.levels,
-    required this.repo,
-  });
 }

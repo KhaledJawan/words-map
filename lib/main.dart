@@ -6,11 +6,10 @@ import 'utils/app_theme.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'screens/level_select_screen.dart';
+import 'package:lottie/lottie.dart';
+import 'package:word_map_app/screens/words_list_init.dart';
 import 'screens/words_list_screen.dart';
 import 'screens/settings_screen.dart';
-import 'screens/sign_in_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -157,8 +156,6 @@ class WordMapApp extends StatelessWidget {
       supportedLocales: AppLocalizations.supportedLocales,
       home: _AuthGate(appState: appState),
       routes: {
-        '/sign-in': (_) => const SignInScreen(),
-        '/levels': (_) => const LevelSelectScreen(),
         '/words': (_) => WordsListScreen(),
         '/settings': (_) => const SettingsScreen(),
       },
@@ -185,12 +182,25 @@ class _AuthGate extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Always enter the app directly; listen to auth changes only to keep user info fresh.
-    return StreamBuilder<User?>(
-      stream: FirebaseAuth.instance.authStateChanges(),
-      builder: (context, snapshot) {
-        // Regardless of auth state, go to the main experience.
-        return WordsListScreen(level: appState.currentLevel);
+    final prefetchBundle = loadWordsInit(appState, context);
+    final splashFuture = Future.wait<dynamic>([
+      Future.delayed(const Duration(seconds: 3)),
+      prefetchBundle,
+    ]);
+
+    return FutureBuilder<void>(
+      future: splashFuture,
+      builder: (context, splashSnap) {
+        if (splashSnap.connectionState != ConnectionState.done) {
+          return const _SplashScreen();
+        }
+        final results = splashSnap.data as List<dynamic>;
+        final bundle = results[1] as WordsInitBundle;
+        // After splash + prefetch, go to main experience with prefetched data.
+        return WordsListScreen(
+          level: appState.currentLevel,
+          initialBundle: bundle,
+        );
       },
     );
   }
@@ -201,8 +211,15 @@ class _SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: CircularProgressIndicator()),
+    return Scaffold(
+      body: Center(
+        child: Lottie.asset(
+          'assets/lottie/splash.json',
+          width: 160,
+          height: 160,
+          repeat: false,
+        ),
+      ),
     );
   }
 }

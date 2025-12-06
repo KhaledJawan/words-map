@@ -43,6 +43,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  lottie: ^2.7.0
   shared_preferences: ^2.1.0
   floating_menu_panel: ^0.0.2
   provider: ^6.1.2
@@ -76,6 +77,7 @@ flutter:
   assets:
     - assets/words/
     - assets/icons/app_icon.png
+    - assets/lottie/splash.json
 
 flutter_launcher_icons:
   android: true
