@@ -1,41 +1,63 @@
 {
   "project_info": {
-    "project_number": "334590881340",
-    "project_id": "wordsmapapp",
-    "storage_bucket": "wordsmapapp.firebasestorage.app"
+    "project_number": "416969091812",
+    "project_id": "wordmap-app",
+    "storage_bucket": "wordmap-app.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:334590881340:android:2ed67ab4ff4ecb2277dd39",
+        "mobilesdk_app_id": "1:416969091812:android:c4b425f548ec6f7e425af1",
         "android_client_info": {
           "package_name": "com.example.word_map_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "334590881340-ov46308avn8gccjb4tqd1fvh6m6jc4mt.apps.googleusercontent.com",
+          "client_id": "416969091812-vc4j03q7e77g8557f0ure6il3gvcnqf3.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBrx5iH035utBv26tvD_abSFjl0yswgSRM"
+          "current_key": "AIzaSyDSb0jfPFma4n7INm-53LdVDl0oYv8bQso"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "334590881340-ov46308avn8gccjb4tqd1fvh6m6jc4mt.apps.googleusercontent.com",
+              "client_id": "416969091812-vc4j03q7e77g8557f0ure6il3gvcnqf3.apps.googleusercontent.com",
               "client_type": 3
-            },
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416969091812:android:4eb79685cc122b6a425af1",
+        "android_client_info": {
+          "package_name": "com.merlinict.wordmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416969091812-vc4j03q7e77g8557f0ure6il3gvcnqf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSb0jfPFma4n7INm-53LdVDl0oYv8bQso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
             {
-              "client_id": "334590881340-deud6l32f6u2bm4814uedhfgq0pa2h7p.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.wordMapApp"
-              }
+              "client_id": "416969091812-vc4j03q7e77g8557f0ure6il3gvcnqf3.apps.googleusercontent.com",
+              "client_type": 3
             }
           ]
         }

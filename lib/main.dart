@@ -15,18 +15,30 @@ import 'screens/sign_in_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  final appState = AppState();
+  await appState.loadInitialData();
+
   try {
-    await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
-    );
-    developer.log('Firebase initialized successfully', name: 'main');
+    if (Firebase.apps.isEmpty) {
+      await Firebase.initializeApp(
+        options: DefaultFirebaseOptions.currentPlatform,
+      );
+      developer.log('Firebase initialized successfully', name: 'main');
+    } else {
+      Firebase.app();
+    }
   } catch (e) {
-    developer.log('Firebase initialization error: $e', name: 'main', error: e);
-    rethrow;
+    // Ignore duplicate-app errors; rethrow others.
+    final msg = e.toString();
+    if (!msg.contains('duplicate-app')) {
+      developer.log('Firebase initialization error: $e',
+          name: 'main', error: e);
+      rethrow;
+    }
   }
   runApp(
-    ChangeNotifierProvider(
-      create: (context) => AppState(),
+    ChangeNotifierProvider.value(
+      value: appState, // Provide the initialized AppState instance
       child: const WordMapApp(),
     ),
   );
@@ -39,10 +51,9 @@ class WordMapApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final appState = context.watch<AppState>();
 
-    if (appState.appLocale == null) {
-      return const Center(
-        child: CircularProgressIndicator(),
-      );
+    // This check is a safeguard for hot reloads, but data is loaded before runApp.
+    if (!appState.isDataLoaded) {
+      return const Center(child: CircularProgressIndicator());
     }
 
     return MaterialApp(
@@ -66,7 +77,8 @@ class WordMapApp extends StatelessWidget {
                       onFinished: () => appState.completeOnboarding(),
                     ));
           case '/sign-in-or-skip':
-            return MaterialPageRoute(builder: (_) => const SignInOrSkipScreen());
+            return MaterialPageRoute(
+                builder: (_) => const SignInOrSkipScreen());
           case '/sign-in':
             return MaterialPageRoute(builder: (_) => const SignInScreen());
           case '/levels':
@@ -84,11 +96,11 @@ class WordMapApp extends StatelessWidget {
             // For now, we'll just navigate to the home screen.
             return MaterialPageRoute(
                 builder: (_) => LanguageOnboardingScreen(
-                  currentLocale: appState.appLocale ?? const Locale('en'),
-                  onLocaleChanged: (locale) =>
-                      appState.changeLocale(locale),
-                  onFinished: () => appState.completeOnboarding(),
-                ));
+                      currentLocale: appState.appLocale ?? const Locale('en'),
+                      onLocaleChanged: (locale) =>
+                          appState.changeLocale(locale),
+                      onFinished: () => appState.completeOnboarding(),
+                    ));
         }
       },
     );
