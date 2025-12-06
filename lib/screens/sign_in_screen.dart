@@ -381,12 +381,17 @@ class _LanguagePill extends StatelessWidget {
               color: selected ? cs.primary : cs.outline.withValues(alpha: 0.7),
             ),
             boxShadow: selected
-                ? [
+                ? const [
                     BoxShadow(
-                      color: cs.primary.withValues(alpha: 0.18),
-                      blurRadius: 16,
-                      offset: const Offset(0, 6),
-                    )
+                      color: Color.fromRGBO(0, 0, 0, 0.05),
+                      blurRadius: 12,
+                      offset: Offset(0, 4),
+                    ),
+                    BoxShadow(
+                      color: Color.fromRGBO(0, 0, 0, 0.02),
+                      blurRadius: 4,
+                      offset: Offset(0, 1),
+                    ),
                   ]
                 : null,
           ),

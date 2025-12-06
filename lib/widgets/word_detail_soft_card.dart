@@ -1,0 +1,104 @@
+import 'package:flutter/material.dart';
+import 'package:word_map_app/ui/ios_card.dart';
+
+class WordDetailSoftCard extends StatelessWidget {
+  final String word;
+  final String translation;
+  final String? example;
+  final String? extra;
+  final bool isBookmarked;
+  final VoidCallback? onToggleBookmark;
+
+  const WordDetailSoftCard({
+    super.key,
+    required this.word,
+    required this.translation,
+    this.example,
+    this.extra,
+    this.isBookmarked = false,
+    this.onToggleBookmark,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+    return IosCard(
+      padding: const EdgeInsets.all(18),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Expanded(
+                child: extra != null && extra!.trim().isNotEmpty
+                    ? Text(
+                        extra!,
+                        style: textTheme.labelMedium?.copyWith(
+                          color: Colors.grey[600],
+                        ),
+                      )
+                    : const SizedBox.shrink(),
+              ),
+              SizedBox(
+                height: 28,
+                width: 28,
+                child: IconButton(
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints(),
+                  iconSize: 22,
+                  icon: Icon(
+                    isBookmarked ? Icons.bookmark : Icons.bookmark_border,
+                    color: isBookmarked
+                        ? Theme.of(context).colorScheme.primary
+                        : Colors.grey[500],
+                  ),
+                  onPressed: onToggleBookmark,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 10),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Expanded(
+                child: Text(
+                  word,
+                  style: textTheme.headlineSmall?.copyWith(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black87,
+                  ),
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ),
+              const SizedBox(width: 16),
+              Expanded(
+                child: Text(
+                  translation,
+                  textAlign: TextAlign.end,
+                  style: textTheme.titleMedium?.copyWith(
+                    color: Colors.black.withOpacity(0.8),
+                  ),
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ),
+            ],
+          ),
+          if (example != null && example!.trim().isNotEmpty) ...[
+            const SizedBox(height: 12),
+            Text(
+              example!,
+              style: textTheme.bodyMedium?.copyWith(
+                color: Colors.grey[700],
+              ),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}

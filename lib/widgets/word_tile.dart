@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:word_map_app/models/vocab_word.dart';
+import 'package:word_map_app/ui/ios_card.dart';
 
 class WordTile extends StatelessWidget {
   final VocabWord word;
@@ -27,32 +28,50 @@ class WordTile extends StatelessWidget {
     final bool visited = word.isViewed;
 
     final bool isVisited = visited && !bookmarked;
-    final Color bg = bookmarked
-        ? cs.surface
-        : isVisited
-            ? (isDark ? const Color(0xFF303030) : const Color(0xFFF6F6F6))
-            : cs.surface;
-    final Color? border = bookmarked
-        ? null
-        : isVisited
-            ? null
-            : cs.outline.withOpacity(0.2);
-    final Color textColor = bookmarked
-        ? bookmarkedBlue
-        : isVisited
-            ? (isDark ? cs.onSurface.withOpacity(0.55) : const Color(0xFF8A8A8A))
-            : cs.onSurface.withOpacity(0.9);
-    final List<BoxShadow>? shadow = isVisited
-        ? null
-        : [
-            BoxShadow(
-              color: bookmarked
-                  ? bookmarkedBlue.withOpacity(0.16)
-                  : Colors.black.withOpacity(isDark ? 0.2 : 0.08),
-              blurRadius: bookmarked ? 10 : 8,
-              offset: const Offset(0, 4),
-            ),
-          ];
+
+    Color bg = Colors.white;
+    Color? border;
+    Color textColor = cs.onSurface;
+    List<BoxShadow>? shadow;
+
+    if (bookmarked) {
+      bg = Colors.white;
+      textColor = bookmarkedBlue;
+      shadow = const [
+        BoxShadow(
+          color: Color.fromRGBO(30, 136, 229, 0.2),
+          blurRadius: 12,
+          offset: Offset(0, 4),
+        ),
+        BoxShadow(
+          color: Color.fromRGBO(30, 136, 229, 0.08),
+          blurRadius: 4,
+          offset: Offset(0, 1),
+        ),
+      ];
+    } else if (isVisited) {
+      bg = const Color(0xFFF2F2F2);
+      textColor = const Color(0xFFAAAAAA);
+      shadow = null;
+      border = null;
+    } else {
+      // Normal
+      bg = Colors.white;
+      textColor = const Color(0xFF111111);
+      shadow = const [
+        BoxShadow(
+          color: Color.fromRGBO(0, 0, 0, 0.05),
+          blurRadius: 12,
+          offset: Offset(0, 4),
+        ),
+        BoxShadow(
+          color: Color.fromRGBO(0, 0, 0, 0.02),
+          blurRadius: 4,
+          offset: Offset(0, 1),
+        ),
+      ];
+      border = const Color(0xFFE0E0E0);
+    }
 
     return Material(
       color: Colors.transparent,
@@ -60,28 +79,24 @@ class WordTile extends StatelessWidget {
         onTap: onTap,
         onLongPress: onLongPress,
         borderRadius: BorderRadius.circular(999),
-        child: Container(
+        child: SizedBox(
           width: _calcWidth(word.de),
           height: 48,
-          padding: _defaultPadding,
-          decoration: BoxDecoration(
+          child: IosCard(
+            padding: _defaultPadding,
             color: bg,
-            borderRadius: BorderRadius.circular(999),
-            border: border != null
-                ? Border.all(color: border, width: 1.1)
-                : null,
-            boxShadow: shadow,
-          ),
-          child: Center(
-            child: Text(
-              word.de,
-              textAlign: TextAlign.center,
-              style: theme.textTheme.titleMedium?.copyWith(
-                fontWeight: FontWeight.w600,
-                color: textColor,
+            enableShadow: shadow != null,
+            child: Center(
+              child: Text(
+                word.de,
+                textAlign: TextAlign.center,
+                style: theme.textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.w600,
+                  color: textColor,
+                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
               ),
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
             ),
           ),
         ),

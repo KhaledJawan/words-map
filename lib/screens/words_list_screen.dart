@@ -4,6 +4,8 @@ import 'package:word_map_app/models/vocab_word.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:word_map_app/services/app_state.dart';
 import 'package:word_map_app/services/vocab_loader.dart';
+import 'package:word_map_app/version_checker.dart';
+import 'package:word_map_app/widgets/word_detail_overlay.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
 
 enum SortMode { defaultOrder, alphabetical, bookmarkedFirst, unviewedFirst }
@@ -28,6 +30,9 @@ class _WordsListScreenState extends State<WordsListScreen> {
   void initState() {
     super.initState();
     _currentLevel = widget.level ?? '';
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      VersionChecker.checkForUpdate(context);
+    });
     _loadWords();
   }
 
@@ -82,7 +87,27 @@ class _WordsListScreenState extends State<WordsListScreen> {
     await appState.markViewed(word);
     setState(() => _applySort());
     if (!mounted) return;
-    await _showWordOverlay(word);
+    showWordDetailOverlay(
+      context,
+      word: word.de,
+      translation: word.translationFa.isNotEmpty
+          ? word.translationFa
+          : word.translationEn,
+      example: word.example,
+      extra: [
+        if (word.level != null) word.level,
+        if (word.category != null) word.category,
+      ].whereType<String>().join(' • '),
+      isBookmarked: word.isBookmarked,
+      onToggleBookmark: () async {
+        await context.read<AppState>().toggleBookmark(word);
+        if (mounted) {
+          setState(() {
+            _applySort();
+          });
+        }
+      },
+    );
   }
 
   void _toggleBookmark(VocabWord word) async {
@@ -91,114 +116,6 @@ class _WordsListScreenState extends State<WordsListScreen> {
     setState(() => _applySort());
   }
 
-  Future<void> _showWordOverlay(VocabWord word) async {
-    final cs = Theme.of(context).colorScheme;
-    final textTheme = Theme.of(context).textTheme;
-    await showGeneralDialog(
-      context: context,
-      barrierDismissible: true,
-      barrierLabel: 'Word details',
-      barrierColor: Colors.black.withValues(alpha: 0.35),
-      transitionDuration: const Duration(milliseconds: 200),
-      pageBuilder: (context, animation, secondaryAnimation) {
-        return Center(
-          child: FadeTransition(
-            opacity: CurvedAnimation(parent: animation, curve: Curves.easeInOut),
-            child: ScaleTransition(
-              scale: Tween<double>(begin: 0.95, end: 1.0)
-                  .animate(CurvedAnimation(parent: animation, curve: Curves.easeOutBack)),
-              child: Padding(
-                padding: const EdgeInsets.all(24),
-                child: Material(
-                  color: cs.surface,
-                  elevation: 8,
-                  borderRadius: BorderRadius.circular(28),
-                  child: Padding(
-                    padding: const EdgeInsetsDirectional.all(20),
-                    child: Builder(
-                      builder: (dialogContext) {
-                        final isBookmarked = dialogContext.watch<AppState>().isBookmarked(word);
-                        return Column(
-                          mainAxisSize: MainAxisSize.min,
-                          crossAxisAlignment: CrossAxisAlignment.stretch,
-                          children: [
-                            Align(
-                              alignment: AlignmentDirectional.centerEnd,
-                              child: IconButton(
-                                icon: const Icon(Icons.close),
-                                onPressed: () => Navigator.of(dialogContext).pop(),
-                              ),
-                            ),
-                            Text(
-                              word.de,
-                              textAlign: TextAlign.center,
-                              style: textTheme.headlineSmall?.copyWith(color: cs.onSurface),
-                            ),
-                            const SizedBox(height: 12),
-                            if (word.translationFa.isNotEmpty)
-                              Text(
-                                word.translationFa,
-                                textAlign: TextAlign.center,
-                                style: textTheme.titleMedium?.copyWith(
-                                  fontFamily: 'Vazirmatn',
-                                  color: cs.onSurface,
-                                ),
-                              ),
-                            if (word.translationEn.isNotEmpty) ...[
-                              const SizedBox(height: 8),
-                              Text(
-                                word.translationEn,
-                                textAlign: TextAlign.center,
-                                style: textTheme.bodyLarge?.copyWith(
-                                  color: cs.onSurface.withValues(alpha: 0.75),
-                                ),
-                              ),
-                            ],
-                            if (word.example != null && word.example!.isNotEmpty) ...[
-                              const SizedBox(height: 12),
-                              Text(
-                                word.example!,
-                                textAlign: TextAlign.center,
-                                style: textTheme.bodyMedium?.copyWith(
-                                  color: cs.onSurface.withValues(alpha: 0.6),
-                                ),
-                              ),
-                            ],
-                            const SizedBox(height: 20),
-                            FilledButton.icon(
-                              onPressed: () async {
-                                await dialogContext.read<AppState>().toggleBookmark(word);
-                                if (mounted) {
-                                  setState(() => _applySort());
-                                }
-                                if (dialogContext.mounted) Navigator.of(dialogContext).pop();
-                              },
-                              style: FilledButton.styleFrom(
-                                backgroundColor: cs.surface,
-                                foregroundColor: cs.onSurface,
-                                side: BorderSide(color: cs.outline),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(999),
-                                ),
-                              ),
-                              icon: Icon(
-                                isBookmarked ? Icons.bookmark : Icons.bookmark_border,
-                              ),
-                              label: Text(isBookmarked ? 'Bookmarked' : 'Bookmark'),
-                            ),
-                          ],
-                        );
-                      },
-                    ),
-                  ),
-                ),
-              ),
-            ),
-          ),
-        );
-      },
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -214,32 +131,42 @@ class _WordsListScreenState extends State<WordsListScreen> {
               leading: Padding(
                 padding: const EdgeInsetsDirectional.only(start: 12),
                 child: Center(
-                  child: Container(
-                    padding: const EdgeInsetsDirectional.symmetric(
-                        horizontal: 10, vertical: 8),
-                    decoration: BoxDecoration(
-                      color: cs.surface,
-                      borderRadius: BorderRadius.circular(999),
-                      border: Border.all(color: cs.outline),
-                    ),
-                    child: Text(
-                      'Viewed $viewedCount/${_words.length}',
-                      style: textTheme.bodySmall?.copyWith(
-                        fontWeight: FontWeight.w700,
-                        color: cs.onSurface,
-                      ),
+            child: Container(
+              padding: const EdgeInsetsDirectional.symmetric(
+                  horizontal: 10, vertical: 8),
+              decoration: BoxDecoration(
+                color: cs.surface,
+                borderRadius: BorderRadius.circular(999),
+                border: Border.all(color: cs.outline),
+              ),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(
+                    '$viewedCount',
+                    style: textTheme.bodySmall?.copyWith(
+                      fontWeight: FontWeight.w700,
+                      color: cs.onSurface,
                     ),
                   ),
-                ),
+                  const SizedBox(height: 2),
+                  Text(
+                    '${_words.length}',
+                    style: textTheme.bodySmall?.copyWith(
+                      fontWeight: FontWeight.w600,
+                      color: cs.onSurface.withValues(alpha: 0.5),
+                      fontSize: textTheme.bodySmall?.fontSize != null
+                          ? textTheme.bodySmall!.fontSize! - 1
+                          : null,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
               ),
               title: Text('$_currentLevel Vocabulary'),
               centerTitle: true,
-              actions: [
-                IconButton(
-                  icon: const Icon(Icons.sort),
-                  onPressed: _showSortSheet,
-                ),
-              ],
             )
           : null,
       body: IndexedStack(
@@ -540,11 +467,16 @@ class _BottomNavBar extends StatelessWidget {
       decoration: BoxDecoration(
         color: isDark ? cs.surfaceContainerHighest : cs.surface,
         borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
-        boxShadow: [
+        boxShadow: const [
           BoxShadow(
-            color: cs.shadow.withValues(alpha: 0.15),
+            color: Color.fromRGBO(0, 0, 0, 0.05),
             blurRadius: 12,
-            offset: const Offset(0, -2),
+            offset: Offset(0, 4),
+          ),
+          BoxShadow(
+            color: Color.fromRGBO(0, 0, 0, 0.02),
+            blurRadius: 4,
+            offset: Offset(0, 1),
           ),
         ],
       ),
@@ -617,16 +549,26 @@ class _MiniActionChip extends StatelessWidget {
         border: Border.all(color: cs.outlineVariant),
       ),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisSize: MainAxisSize.max,
         children: [
-          Text(
-            label,
-            style: textTheme.bodyMedium?.copyWith(
-              color: cs.onSurface,
-              fontWeight: FontWeight.w600,
+          Expanded(
+            child: Text(
+              label,
+              style: textTheme.bodyMedium?.copyWith(
+                color: cs.onSurface,
+                fontWeight: FontWeight.w600,
+              ),
+              overflow: TextOverflow.ellipsis,
             ),
           ),
-          child,
+          const SizedBox(width: 8),
+          ConstrainedBox(
+            constraints: const BoxConstraints(minWidth: 32, maxWidth: 48),
+            child: Align(
+              alignment: Alignment.centerRight,
+              child: child,
+            ),
+          ),
         ],
       ),
     );

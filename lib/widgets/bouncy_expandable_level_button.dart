@@ -89,11 +89,16 @@ class _BouncyExpandableLevelButtonState
             width: 1.4,
           ),
           boxShadow: _isExpanded
-              ? [
+              ? const [
                   BoxShadow(
-                    blurRadius: 16,
-                    offset: const Offset(0, 8),
-                    color: Colors.black.withOpacity(0.30),
+                    color: Color.fromRGBO(0, 0, 0, 0.05),
+                    blurRadius: 12,
+                    offset: Offset(0, 4),
+                  ),
+                  BoxShadow(
+                    color: Color.fromRGBO(0, 0, 0, 0.02),
+                    blurRadius: 4,
+                    offset: Offset(0, 1),
                   ),
                 ]
               : [],

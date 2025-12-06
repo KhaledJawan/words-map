@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  // Minimal monochrome palette
-  static const Color black = Color(0xFF0F0F0F);
-  static const Color darkGrey = Color(0xFF1C1C1C);
-  static const Color midGrey = Color(0xFF3A3A3A);
-  static const Color lightGrey = Color(0xFFE5E5E5);
-  static const Color softerGrey = Color(0xFFF5F5F5);
-  static const Color white = Colors.white;
+  static const Color seed = Color(0xFF007AFF);
+  static const Color secondary = Color(0xFF5856D6);
+  static const Color lightBackground = Color(0xFFF2F2F7);
 
   static RoundedRectangleBorder _pillShape([double radius = 999]) =>
       RoundedRectangleBorder(borderRadius: BorderRadius.circular(radius));
@@ -15,103 +11,104 @@ class AppTheme {
   static final ThemeData lightTheme = ThemeData(
     useMaterial3: true,
     brightness: Brightness.light,
-    scaffoldBackgroundColor: white,
-    colorScheme: const ColorScheme.light(
-      primary: black,
-      onPrimary: white,
-      secondary: midGrey,
-      onSecondary: white,
-      surface: white,
-      onSurface: black,
-      outline: lightGrey,
-      background: white,
+    scaffoldBackgroundColor: lightBackground,
+    colorScheme: ColorScheme.fromSeed(
+      seedColor: seed,
+      primary: seed,
+      secondary: secondary,
+      background: lightBackground,
     ),
     appBarTheme: const AppBarTheme(
-      backgroundColor: softerGrey,
-      foregroundColor: black,
+      backgroundColor: lightBackground,
+      foregroundColor: Color(0xFF1A1A1A),
       elevation: 0,
     ),
     textTheme: const TextTheme(
-      headlineLarge: TextStyle(fontWeight: FontWeight.w800, letterSpacing: -0.6),
-      headlineSmall: TextStyle(fontWeight: FontWeight.w700, letterSpacing: -0.3),
-      titleMedium: TextStyle(fontWeight: FontWeight.w600, letterSpacing: -0.1),
-      bodyLarge: TextStyle(fontWeight: FontWeight.w500),
-      bodyMedium: TextStyle(fontWeight: FontWeight.w400),
+      headlineSmall: TextStyle(
+        fontSize: 24,
+        fontWeight: FontWeight.bold,
+        color: Color(0xFF1A1A1A),
+      ),
+      titleMedium: TextStyle(
+        fontSize: 18,
+        fontWeight: FontWeight.w600,
+        color: Color(0xFF2E2E2E),
+      ),
+      bodyMedium: TextStyle(
+        fontSize: 16,
+        color: Color(0xFF444444),
+      ),
+      labelMedium: TextStyle(
+        fontSize: 13,
+        color: Color(0xFF6D6D6D),
+      ),
+    ),
+    cardTheme: CardThemeData(
+      color: Colors.white,
+      elevation: 0,
+      shadowColor: Colors.black.withOpacity(0.08),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        backgroundColor: black,
-        foregroundColor: white,
-        padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 18),
+        elevation: 0,
+        backgroundColor: seed,
+        foregroundColor: Colors.white,
+        padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 20),
         shape: _pillShape(),
-        textStyle: const TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
       ),
     ),
     outlinedButtonTheme: OutlinedButtonThemeData(
       style: OutlinedButton.styleFrom(
-        side: const BorderSide(color: black, width: 1.2),
-        foregroundColor: black,
-        padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 18),
+        foregroundColor: seed,
+        side: const BorderSide(color: Color(0x33007AFF)),
+        padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 20),
         shape: _pillShape(),
-        textStyle: const TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
-      fillColor: white,
+      fillColor: Colors.white,
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(999),
-        borderSide: const BorderSide(color: lightGrey, width: 1.1),
+        borderSide: const BorderSide(color: Color(0xFFE5E5EA), width: 1.1),
       ),
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(999),
-        borderSide: const BorderSide(color: lightGrey, width: 1.1),
+        borderSide: const BorderSide(color: Color(0xFFE5E5EA), width: 1.1),
       ),
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(999),
-        borderSide: const BorderSide(color: black, width: 1.4),
+        borderSide: const BorderSide(color: seed, width: 1.4),
       ),
       contentPadding:
           const EdgeInsetsDirectional.symmetric(horizontal: 18, vertical: 16),
     ),
-    cardTheme: const CardThemeData(
-      color: white,
-      elevation: 0,
-      margin: EdgeInsets.zero,
-      shape: StadiumBorder(),
-    ),
-    dividerColor: lightGrey,
   );
 
   static final ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     brightness: Brightness.dark,
-    scaffoldBackgroundColor: black,
+    scaffoldBackgroundColor: Colors.black,
     colorScheme: const ColorScheme.dark(
-      primary: white,
-      onPrimary: black,
-      secondary: midGrey,
-      onSecondary: black,
-      surface: darkGrey,
-      onSurface: white,
-      outline: midGrey,
+      primary: seed,
+      secondary: secondary,
     ),
     appBarTheme: const AppBarTheme(
-      backgroundColor: black,
-      foregroundColor: white,
+      backgroundColor: Colors.black,
+      foregroundColor: Colors.white,
       elevation: 0,
     ),
-    textTheme: const TextTheme(
-      headlineLarge: TextStyle(fontWeight: FontWeight.w800, letterSpacing: -0.6),
-      headlineSmall: TextStyle(fontWeight: FontWeight.w700, letterSpacing: -0.3),
-      titleMedium: TextStyle(fontWeight: FontWeight.w600, letterSpacing: -0.1),
-      bodyLarge: TextStyle(fontWeight: FontWeight.w500),
-      bodyMedium: TextStyle(fontWeight: FontWeight.w400, color: lightGrey),
+    cardTheme: CardThemeData(
+      color: const Color(0xFF1C1C1E),
+      elevation: 0,
+      shadowColor: Colors.black.withOpacity(0.25),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        backgroundColor: white,
-        foregroundColor: black,
+        backgroundColor: seed,
+        foregroundColor: Colors.white,
         padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 18),
         shape: _pillShape(),
         textStyle: const TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
@@ -119,37 +116,12 @@ class AppTheme {
     ),
     outlinedButtonTheme: OutlinedButtonThemeData(
       style: OutlinedButton.styleFrom(
-        side: const BorderSide(color: white, width: 1.2),
-        foregroundColor: white,
+        side: const BorderSide(color: Color(0x33FFFFFF), width: 1.2),
+        foregroundColor: Colors.white,
         padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 18),
         shape: _pillShape(),
         textStyle: const TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
       ),
     ),
-    inputDecorationTheme: InputDecorationTheme(
-      filled: true,
-      fillColor: darkGrey,
-      border: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(999),
-        borderSide: const BorderSide(color: midGrey, width: 1.1),
-      ),
-      enabledBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(999),
-        borderSide: const BorderSide(color: midGrey, width: 1.1),
-      ),
-      focusedBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(999),
-        borderSide: const BorderSide(color: white, width: 1.4),
-      ),
-      contentPadding:
-          const EdgeInsetsDirectional.symmetric(horizontal: 18, vertical: 16),
-    ),
-    cardTheme: const CardThemeData(
-      color: darkGrey,
-      elevation: 0,
-      margin: EdgeInsets.zero,
-      shape: StadiumBorder(),
-    ),
-    dividerColor: midGrey,
   );
 }
