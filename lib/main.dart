@@ -6,6 +6,7 @@ import 'utils/app_theme.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'screens/level_select_screen.dart';
 import 'screens/words_list_screen.dart';
 import 'screens/settings_screen.dart';
@@ -57,31 +58,155 @@ class WordMapApp extends StatelessWidget {
     return MaterialApp(
       title: 'Word Map',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.lightTheme,
-      darkTheme: AppTheme.darkTheme,
-      themeMode: appState.themeMode,
+      scrollBehavior: IOSScrollBehavior(),
+      theme: ThemeData(
+        useMaterial3: true,
+        scaffoldBackgroundColor: Colors.white,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF007AFF),
+          primary: const Color(0xFF007AFF),
+          secondary: const Color(0xFF5856D6),
+          background: Colors.white,
+        ),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.white,
+          foregroundColor: Colors.black,
+          elevation: 0,
+          centerTitle: true,
+          titleTextStyle: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.w600,
+            color: Colors.black,
+          ),
+        ),
+        cardTheme: CardThemeData(
+          color: Colors.white,
+          elevation: 0,
+          margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
+          shadowColor: Colors.black.withOpacity(0.05),
+        ),
+        listTileTheme: const ListTileThemeData(
+          iconColor: Color(0xFF007AFF),
+          textColor: Colors.black,
+          subtitleTextStyle: TextStyle(
+            color: Colors.grey,
+            fontSize: 13,
+          ),
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: const Color(0xFF007AFF),
+            foregroundColor: Colors.white,
+            elevation: 0,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(14),
+            ),
+            padding:
+                const EdgeInsets.symmetric(vertical: 14, horizontal: 24),
+            textStyle: const TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+        ),
+        textTheme: const TextTheme(
+          headlineMedium: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+          ),
+          titleMedium: TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.w600,
+            color: Colors.black,
+          ),
+          bodyMedium: TextStyle(
+            fontSize: 14,
+            color: Colors.black87,
+          ),
+          bodySmall: TextStyle(
+            fontSize: 12,
+            color: Colors.grey,
+          ),
+        ),
+        inputDecorationTheme: InputDecorationTheme(
+          filled: true,
+          fillColor: Colors.grey.shade100,
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(14),
+            borderSide: BorderSide.none,
+          ),
+          contentPadding:
+              const EdgeInsets.symmetric(vertical: 14, horizontal: 16),
+        ),
+        bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+          backgroundColor: Colors.white,
+          showSelectedLabels: true,
+          showUnselectedLabels: false,
+          selectedItemColor: Color(0xFF007AFF),
+          unselectedItemColor: Colors.grey,
+          elevation: 10,
+          type: BottomNavigationBarType.fixed,
+        ),
+      ),
       locale: appState.appLocale,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      initialRoute: '/sign-in',
-      onGenerateRoute: (settings) {
-        switch (settings.name) {
-          case '/sign-in':
-            return MaterialPageRoute(builder: (_) => const SignInScreen());
-          case '/levels':
-            return MaterialPageRoute(builder: (_) => const LevelSelectScreen());
-          case '/words':
-            return MaterialPageRoute(
-              builder: (_) => WordsListScreen(
-                level: settings.arguments as String?,
-              ),
-            );
-          case '/settings':
-            return MaterialPageRoute(builder: (_) => const SettingsScreen());
-          default:
-            return MaterialPageRoute(builder: (_) => const SignInScreen());
-        }
+      home: _AuthGate(appState: appState),
+      routes: {
+        '/sign-in': (_) => const SignInScreen(),
+        '/levels': (_) => const LevelSelectScreen(),
+        '/words': (_) => WordsListScreen(),
+        '/settings': (_) => const SettingsScreen(),
       },
+    );
+  }
+}
+
+class IOSScrollBehavior extends ScrollBehavior {
+  @override
+  Widget buildViewportChrome(
+      BuildContext context, Widget child, AxisDirection axisDirection) {
+    return child;
+  }
+
+  @override
+  ScrollPhysics getScrollPhysics(BuildContext context) {
+    return const BouncingScrollPhysics();
+  }
+}
+
+class _AuthGate extends StatelessWidget {
+  final AppState appState;
+  const _AuthGate({required this.appState});
+
+  @override
+  Widget build(BuildContext context) {
+    return StreamBuilder<User?>(
+      stream: FirebaseAuth.instance.authStateChanges(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const _SplashScreen();
+        }
+        if (snapshot.hasData) {
+          return WordsListScreen(level: appState.currentLevel);
+        }
+        return const SignInScreen();
+      },
+    );
+  }
+}
+
+class _SplashScreen extends StatelessWidget {
+  const _SplashScreen();
+
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold(
+      body: Center(child: CircularProgressIndicator()),
     );
   }
 }

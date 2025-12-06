@@ -189,7 +189,8 @@ class _WordsListScreenState extends State<WordsListScreen> {
       return RefreshIndicator(
         onRefresh: _loadWords,
         child: ListView(
-          physics: const AlwaysScrollableScrollPhysics(),
+          physics: const BouncingScrollPhysics(
+              parent: AlwaysScrollableScrollPhysics()),
           padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
           children: [
             Padding(
@@ -208,11 +209,12 @@ class _WordsListScreenState extends State<WordsListScreen> {
     return RefreshIndicator(
       onRefresh: _loadWords,
       child: SingleChildScrollView(
-        physics: const AlwaysScrollableScrollPhysics(),
+        physics: const BouncingScrollPhysics(
+            parent: AlwaysScrollableScrollPhysics()),
         padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
         child: Wrap(
-          spacing: 12,
-          runSpacing: 12,
+          spacing: 8,
+          runSpacing: 4,
           children: List.generate(_sorted.length, (index) {
             final word = _sorted[index];
             return WordTile(
@@ -322,131 +324,134 @@ class _WordsListScreenState extends State<WordsListScreen> {
     final email = user?.email;
     final isDark = Theme.of(context).brightness == Brightness.dark;
 
-    return SafeArea(
-      child: SingleChildScrollView(
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 24),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Center(
-              child: Column(
-                children: [
-                  Container(
-                    width: 90,
-                    height: 90,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: cs.surface,
-                      border: Border.all(color: cs.outlineVariant),
-                    ),
-                    child: ClipOval(
-                      child: photoUrl != null
-                          ? Image.network(photoUrl, fit: BoxFit.cover)
-                          : Icon(Icons.person, size: 44, color: cs.onSurfaceVariant),
-                    ),
-                  ),
-                  const SizedBox(height: 12),
-                  Text(
-                    displayName,
-                    style: textTheme.titleMedium?.copyWith(
-                      fontWeight: FontWeight.w700,
-                      color: cs.onSurface,
-                    ),
-                  ),
-                  if (email != null) ...[
-                    const SizedBox(height: 4),
-                    Text(
-                      email,
-                      style: textTheme.bodyMedium?.copyWith(
-                        color: cs.onSurface.withValues(alpha: 0.65),
+    return ColoredBox(
+      color: Colors.white,
+      child: SafeArea(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 24),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Center(
+                child: Column(
+                  children: [
+                    Container(
+                      width: 90,
+                      height: 90,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: cs.surface,
+                        border: Border.all(color: cs.outlineVariant),
+                      ),
+                      child: ClipOval(
+                        child: photoUrl != null
+                            ? Image.network(photoUrl, fit: BoxFit.cover)
+                            : Icon(Icons.person, size: 44, color: cs.onSurfaceVariant),
                       ),
                     ),
+                    const SizedBox(height: 12),
+                    Text(
+                      displayName,
+                      style: textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w700,
+                        color: cs.onSurface,
+                      ),
+                    ),
+                    if (email != null) ...[
+                      const SizedBox(height: 4),
+                      Text(
+                        email,
+                        style: textTheme.bodyMedium?.copyWith(
+                          color: cs.onSurface.withValues(alpha: 0.65),
+                        ),
+                      ),
+                    ],
                   ],
+                ),
+              ),
+              const SizedBox(height: 24),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  _LangChipBorderless(
+                    label: 'English',
+                    selected: (appState.appLocale?.languageCode ?? 'en') == 'en',
+                    onTap: () => appState.changeLocale(const Locale('en')),
+                  ),
+                  const SizedBox(width: 12),
+                  _LangChipBorderless(
+                    label: 'فارسی',
+                    selected: (appState.appLocale?.languageCode ?? 'en') == 'fa',
+                    onTap: () => appState.changeLocale(const Locale('fa')),
+                  ),
                 ],
               ),
-            ),
-            const SizedBox(height: 24),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                _LangChipBorderless(
-                  label: 'English',
-                  selected: (appState.appLocale?.languageCode ?? 'en') == 'en',
-                  onTap: () => appState.changeLocale(const Locale('en')),
-                ),
-                const SizedBox(width: 12),
-                _LangChipBorderless(
-                  label: 'فارسی',
-                  selected: (appState.appLocale?.languageCode ?? 'en') == 'fa',
-                  onTap: () => appState.changeLocale(const Locale('fa')),
-                ),
-              ],
-            ),
-            const SizedBox(height: 12),
-            Row(
-              children: [
-                Expanded(
-                  child: _MiniActionChip(
-                    label: 'Dark mode',
-                    child: Switch(
-                      value: isDark,
-                      onChanged: (val) {
-                        appState.setThemeMode(val ? ThemeMode.dark : ThemeMode.light);
-                      },
+              const SizedBox(height: 12),
+              Row(
+                children: [
+                  Expanded(
+                    child: _MiniActionChip(
+                      label: 'Dark mode',
+                      child: Switch(
+                        value: isDark,
+                        onChanged: (val) {
+                          appState.setThemeMode(val ? ThemeMode.dark : ThemeMode.light);
+                        },
+                      ),
                     ),
                   ),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: _MiniActionChip(
-                    label: 'Reset',
-                    child: IconButton(
-                      visualDensity: VisualDensity.compact,
-                      icon: Icon(Icons.restart_alt, color: cs.onSurfaceVariant),
-                      onPressed: () async {
-                        await appState.resetProgress();
-                        setState(() {
-                          for (final w in _words) {
-                            w.isBookmarked = false;
-                            w.isViewed = false;
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: _MiniActionChip(
+                      label: 'Reset',
+                      child: IconButton(
+                        visualDensity: VisualDensity.compact,
+                        icon: Icon(Icons.restart_alt, color: cs.onSurfaceVariant),
+                        onPressed: () async {
+                          await appState.resetProgress();
+                          setState(() {
+                            for (final w in _words) {
+                              w.isBookmarked = false;
+                              w.isViewed = false;
+                            }
+                            _applySort();
+                          });
+                          if (context.mounted) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(content: Text('Progress reset')),
+                            );
                           }
-                          _applySort();
-                        });
-                        if (context.mounted) {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(content: Text('Progress reset')),
-                          );
-                        }
-                      },
+                        },
+                      ),
                     ),
                   ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 24),
-            Center(
-              child: TextButton.icon(
-                onPressed: () async {
-                  if (user == null) {
-                    if (context.mounted) {
-                      Navigator.of(context).pushNamed('/sign-in');
-                    }
-                  } else {
-                    await FirebaseAuth.instance.signOut();
-                    if (mounted) setState(() {});
-                  }
-                },
-                style: TextButton.styleFrom(
-                  foregroundColor: cs.onSurface.withValues(alpha: 0.7),
-                ),
-                icon: Icon(
-                  user == null ? Icons.login : Icons.logout,
-                  size: 20,
-                ),
-                label: Text(user == null ? 'Sign in' : 'Sign out'),
+                ],
               ),
-            ),
-          ],
+              const SizedBox(height: 24),
+              Center(
+                child: TextButton.icon(
+                  onPressed: () async {
+                    if (user == null) {
+                      if (context.mounted) {
+                        Navigator.of(context).pushNamed('/sign-in');
+                      }
+                    } else {
+                      await FirebaseAuth.instance.signOut();
+                      if (mounted) setState(() {});
+                    }
+                  },
+                  style: TextButton.styleFrom(
+                    foregroundColor: cs.onSurface.withValues(alpha: 0.7),
+                  ),
+                  icon: Icon(
+                    user == null ? Icons.login : Icons.logout,
+                    size: 20,
+                  ),
+                  label: Text(user == null ? 'Sign in' : 'Sign out'),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
@@ -467,16 +472,18 @@ class _BottomNavBar extends StatelessWidget {
       decoration: BoxDecoration(
         color: isDark ? cs.surfaceContainerHighest : cs.surface,
         borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
-        boxShadow: const [
+        boxShadow: [
           BoxShadow(
-            color: Color.fromRGBO(0, 0, 0, 0.05),
-            blurRadius: 12,
-            offset: Offset(0, 4),
+            color: Colors.black.withOpacity(0.12),
+            blurRadius: 6,
+            spreadRadius: 1,
+            offset: const Offset(0, 2),
           ),
           BoxShadow(
-            color: Color.fromRGBO(0, 0, 0, 0.02),
-            blurRadius: 4,
-            offset: Offset(0, 1),
+            color: Colors.black.withOpacity(0.04),
+            blurRadius: 12,
+            spreadRadius: 0,
+            offset: const Offset(0, 6),
           ),
         ],
       ),

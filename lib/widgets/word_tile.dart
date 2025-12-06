@@ -37,16 +37,18 @@ class WordTile extends StatelessWidget {
     if (bookmarked) {
       bg = Colors.white;
       textColor = bookmarkedBlue;
-      shadow = const [
+      shadow = [
         BoxShadow(
-          color: Color.fromRGBO(30, 136, 229, 0.2),
-          blurRadius: 12,
-          offset: Offset(0, 4),
+          color: bookmarkedBlue.withOpacity(0.12),
+          blurRadius: 6,
+          spreadRadius: 1,
+          offset: const Offset(0, 2),
         ),
         BoxShadow(
-          color: Color.fromRGBO(30, 136, 229, 0.08),
-          blurRadius: 4,
-          offset: Offset(0, 1),
+          color: bookmarkedBlue.withOpacity(0.04),
+          blurRadius: 12,
+          spreadRadius: 0,
+          offset: const Offset(0, 6),
         ),
       ];
     } else if (isVisited) {
@@ -58,16 +60,18 @@ class WordTile extends StatelessWidget {
       // Normal
       bg = Colors.white;
       textColor = const Color(0xFF111111);
-      shadow = const [
+      shadow = [
         BoxShadow(
-          color: Color.fromRGBO(0, 0, 0, 0.05),
-          blurRadius: 12,
-          offset: Offset(0, 4),
+          color: Colors.black.withOpacity(0.12),
+          blurRadius: 6,
+          spreadRadius: 1,
+          offset: const Offset(0, 2),
         ),
         BoxShadow(
-          color: Color.fromRGBO(0, 0, 0, 0.02),
-          blurRadius: 4,
-          offset: Offset(0, 1),
+          color: Colors.black.withOpacity(0.04),
+          blurRadius: 12,
+          spreadRadius: 0,
+          offset: const Offset(0, 6),
         ),
       ];
       border = const Color(0xFFE0E0E0);
@@ -79,24 +83,28 @@ class WordTile extends StatelessWidget {
         onTap: onTap,
         onLongPress: onLongPress,
         borderRadius: BorderRadius.circular(999),
-        child: SizedBox(
-          width: _calcWidth(word.de),
-          height: 48,
-          child: IosCard(
-            padding: _defaultPadding,
-            color: bg,
-            enableShadow: shadow != null,
-            child: Center(
-              child: Text(
-                word.de,
-                textAlign: TextAlign.center,
-                style: theme.textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.w600,
-                  color: textColor,
-                ),
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
+        child: IntrinsicWidth(
+          child: Container(
+            margin: const EdgeInsets.symmetric(vertical: 4),
+            padding: EdgeInsets.symmetric(
+              vertical: 10,
+              horizontal: _horizontalPadding(word.de),
+            ),
+            decoration: BoxDecoration(
+              color: bg,
+              borderRadius: BorderRadius.circular(999),
+              boxShadow: shadow,
+            ),
+            child: Text(
+              word.de,
+              textAlign: TextAlign.center,
+              style: theme.textTheme.titleMedium?.copyWith(
+                fontWeight: FontWeight.w600,
+                color: textColor,
+                fontSize: 14,
               ),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
             ),
           ),
         ),
@@ -104,12 +112,10 @@ class WordTile extends StatelessWidget {
     );
   }
 
-  double _calcWidth(String text) {
-    const min = 72.0;
-    const max = 180.0;
-    final estimated = text.length * 9.0 + 24.0;
-    if (estimated < min) return min;
-    if (estimated > max) return max;
-    return estimated;
+  double _horizontalPadding(String w) {
+    if (w.length <= 4) return 20;
+    if (w.length <= 7) return 16;
+    if (w.length <= 12) return 12;
+    return 10;
   }
 }

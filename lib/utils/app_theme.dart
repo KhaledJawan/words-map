@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class AppTheme {
   static const Color seed = Color(0xFF007AFF);
   static const Color secondary = Color(0xFF5856D6);
-  static const Color lightBackground = Color(0xFFF2F2F7);
+  static const Color lightBackground = Colors.white;
 
   static RoundedRectangleBorder _pillShape([double radius = 999]) =>
       RoundedRectangleBorder(borderRadius: BorderRadius.circular(radius));
@@ -19,7 +19,7 @@ class AppTheme {
       background: lightBackground,
     ),
     appBarTheme: const AppBarTheme(
-      backgroundColor: lightBackground,
+      backgroundColor: Colors.white,
       foregroundColor: Color(0xFF1A1A1A),
       elevation: 0,
     ),

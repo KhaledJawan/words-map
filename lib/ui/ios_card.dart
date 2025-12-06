@@ -22,11 +22,18 @@ class IosCard extends StatelessWidget {
         color: color,
         borderRadius: BorderRadius.circular(22),
         boxShadow: enableShadow
-            ? const [
+            ? [
                 BoxShadow(
-                  color: Color(0x14000000), // softer shadow
-                  blurRadius: 14,
-                  offset: Offset(0, 8),
+                  color: Colors.black.withOpacity(0.12),
+                  blurRadius: 6,
+                  spreadRadius: 1,
+                  offset: const Offset(0, 2),
+                ),
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.04),
+                  blurRadius: 12,
+                  spreadRadius: 0,
+                  offset: const Offset(0, 6),
                 ),
               ]
             : null,

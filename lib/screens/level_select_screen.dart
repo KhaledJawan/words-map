@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:word_map_app/services/app_state.dart';
+import 'package:word_map_app/ui/ios_card.dart';
 
 class LevelSelectScreen extends StatelessWidget {
   const LevelSelectScreen({super.key});
@@ -17,6 +18,7 @@ class LevelSelectScreen extends StatelessWidget {
         centerTitle: true,
       ),
       body: ListView.separated(
+        physics: const BouncingScrollPhysics(),
         padding:
             const EdgeInsetsDirectional.symmetric(horizontal: 20, vertical: 24),
         itemBuilder: (context, index) {
@@ -34,30 +36,25 @@ class LevelSelectScreen extends StatelessWidget {
             },
             child: AnimatedContainer(
               duration: const Duration(milliseconds: 160),
-              padding: const EdgeInsetsDirectional.symmetric(
-                  horizontal: 20, vertical: 16),
-              decoration: BoxDecoration(
-                color: selected ? cs.primary : cs.surface,
-                borderRadius: BorderRadius.circular(999),
-                border: Border.all(
-                  color: selected ? cs.primary : cs.outline,
-                  width: 1.1,
-                ),
-              ),
-              child: Row(
-                children: [
-                  Expanded(
-                    child: Text(
-                      level,
-                      style: textTheme.titleMedium?.copyWith(
-                        color: selected ? cs.onPrimary : cs.onSurface,
-                        fontWeight: FontWeight.w700,
+              child: IosCard(
+                padding: const EdgeInsetsDirectional.symmetric(
+                    horizontal: 20, vertical: 16),
+                color: Colors.white,
+                enableShadow: true,
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        level,
+                        style: textTheme.titleMedium?.copyWith(
+                          color: Colors.black,
+                          fontWeight: FontWeight.w700,
+                        ),
                       ),
                     ),
-                  ),
-                  Icon(Icons.chevron_right,
-                      color: selected ? cs.onPrimary : cs.onSurface),
-                ],
+                    const Icon(Icons.chevron_right, color: Colors.black87),
+                  ],
+                ),
               ),
             ),
           );
