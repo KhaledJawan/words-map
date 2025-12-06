@@ -197,37 +197,21 @@ class _WordsListScreenState extends State<WordsListScreen> {
             ),
           ),
         ),
-        title: DropdownButtonHideUnderline(
-          child: DropdownButton<String>(
-            value: _currentLevel,
-            icon: Icon(LucideIcons.chevronDown, size: 18, color: cs.onSurface),
-            borderRadius: BorderRadius.circular(16),
+        title: TextButton.icon(
+          onPressed: () => _showLevelPicker(context, appState),
+          style: TextButton.styleFrom(
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            shape: const StadiumBorder(),
+            backgroundColor: cs.surfaceVariant.withValues(alpha: 0.2),
+          ),
+          icon: Icon(LucideIcons.layers, color: cs.onSurface),
+          label: Text(
+            _currentLevel,
             style: textTheme.titleMedium?.copyWith(
               fontWeight: FontWeight.w800,
               fontSize: (textTheme.titleMedium?.fontSize ?? 16) + 4,
               color: cs.onSurface,
             ),
-            items: appState.levels
-                .map(
-                  (level) => DropdownMenuItem<String>(
-                    value: level,
-                    child: Text(
-                      level,
-                      style: textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.w800,
-                        fontSize: (textTheme.titleMedium?.fontSize ?? 16) + 4,
-                        color: cs.onSurface,
-                      ),
-                    ),
-                  ),
-                )
-                .toList(),
-            onChanged: (val) async {
-              if (val == null || val == _currentLevel) return;
-              await appState.setCurrentLevel(val);
-              setState(() => _currentLevel = val);
-              await _loadWords();
-            },
           ),
         ),
         centerTitle: true,
@@ -251,6 +235,37 @@ class _WordsListScreenState extends State<WordsListScreen> {
         ],
       ),
       body: _buildWordsTab(textTheme),
+    );
+  }
+
+  Future<void> _showLevelPicker(BuildContext context, AppState appState) async {
+    await showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
+      builder: (context) {
+        return Padding(
+          padding: EdgeInsets.only(
+            left: 16,
+            right: 16,
+            bottom: MediaQuery.of(context).viewInsets.bottom + 24,
+            top: 24,
+          ),
+          child: _LevelGrid(
+            levels: appState.levels,
+            selectedLevel: _currentLevel,
+            onSelect: (level) async {
+              Navigator.of(context).pop();
+              if (level == _currentLevel) return;
+              await appState.setCurrentLevel(level);
+              setState(() => _currentLevel = level);
+              await _loadWords();
+            },
+          ),
+        );
+      },
     );
   }
 
@@ -577,6 +592,76 @@ class _MiniActionChip extends StatelessWidget {
         shape: BoxShape.circle,
       ),
       child: child,
+    );
+  }
+}
+
+class _LevelGrid extends StatelessWidget {
+  final List<String> levels;
+  final String selectedLevel;
+  final ValueChanged<String> onSelect;
+
+  const _LevelGrid({
+    required this.levels,
+    required this.selectedLevel,
+    required this.onSelect,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Text(
+          "Choose your level",
+          style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                fontWeight: FontWeight.w700,
+              ),
+        ),
+        const SizedBox(height: 12),
+        GridView.builder(
+          shrinkWrap: true,
+          physics: const NeverScrollableScrollPhysics(),
+          itemCount: levels.length,
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 3,
+            mainAxisSpacing: 8,
+            crossAxisSpacing: 8,
+            childAspectRatio: 2.4,
+          ),
+          itemBuilder: (context, index) {
+            final level = levels[index];
+            final isSelected = level == selectedLevel;
+
+            return GestureDetector(
+              onTap: () => onSelect(level),
+              child: Container(
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  color: isSelected
+                      ? cs.primary
+                      : Colors.grey.shade100,
+                  borderRadius: BorderRadius.circular(14),
+                  border: Border.all(
+                    color: isSelected
+                        ? cs.primary
+                        : Colors.grey.shade300,
+                  ),
+                ),
+                child: Text(
+                  level,
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w600,
+                    color: isSelected ? Colors.white : Colors.black87,
+                  ),
+                ),
+              ),
+            );
+          },
+        ),
+      ],
     );
   }
 }
