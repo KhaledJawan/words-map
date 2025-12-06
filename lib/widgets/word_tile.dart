@@ -39,13 +39,13 @@ class WordTile extends StatelessWidget {
       textColor = bookmarkedBlue;
       shadow = [
         BoxShadow(
-          color: bookmarkedBlue.withOpacity(0.07),
-          blurRadius: 10,
+          color: bookmarkedBlue.withOpacity(0.10),
+          blurRadius: 11,
           spreadRadius: 1,
           offset: const Offset(0, 3),
         ),
         BoxShadow(
-          color: bookmarkedBlue.withOpacity(0.02),
+          color: bookmarkedBlue.withOpacity(0.04),
           blurRadius: 16,
           spreadRadius: 1,
           offset: const Offset(0, 7),

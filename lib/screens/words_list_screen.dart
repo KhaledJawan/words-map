@@ -1,12 +1,13 @@
-import 'package:flutter/material.dart';
 import 'dart:ui';
-import 'package:provider/provider.dart';
-import 'package:word_map_app/models/vocab_word.dart';
+
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:lucide_icons_flutter/lucide_icons.dart';
+import 'package:word_map_app/models/vocab_word.dart';
 import 'package:word_map_app/services/app_state.dart';
 import 'package:word_map_app/services/vocab_loader.dart';
 import 'package:word_map_app/version_checker.dart';
-import 'package:word_map_app/widgets/word_detail_overlay.dart';
 import 'package:word_map_app/widgets/word_detail_soft_card.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
 
@@ -26,7 +27,6 @@ class _WordsListScreenState extends State<WordsListScreen> {
   List<VocabWord> _sorted = [];
   SortMode _sortMode = SortMode.defaultOrder;
   late String _currentLevel;
-  int _currentIndex = 0; // 0: Words, 1: Gramatik, 2: Profile
 
   @override
   void initState() {
@@ -147,73 +147,110 @@ class _WordsListScreenState extends State<WordsListScreen> {
     setState(() => _applySort());
   }
 
-
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
     final textTheme = Theme.of(context).textTheme;
+    final appState = context.watch<AppState>();
     final viewedCount =
         _words.where((w) => w.isViewed || w.isVisited).length;
 
     return Scaffold(
-      appBar: _currentIndex == 0
-          ? AppBar(
-              leadingWidth: 104,
-              leading: Padding(
-                padding: const EdgeInsetsDirectional.only(start: 16),
-                child: Align(
-                  alignment: Alignment.centerLeft,
-                  child: Container(
-                  constraints:
-                      const BoxConstraints(minWidth: 48, minHeight: 48),
-                  padding: const EdgeInsets.all(8),
-                  decoration: BoxDecoration(
-                    color: cs.surfaceVariant.withValues(alpha: 0.45),
-                    shape: BoxShape.circle,
+      appBar: AppBar(
+        leadingWidth: 104,
+        leading: Padding(
+          padding: const EdgeInsetsDirectional.only(start: 16),
+          child: Align(
+            alignment: Alignment.centerLeft,
+            child: Container(
+              constraints:
+                  const BoxConstraints(minWidth: 42, minHeight: 42),
+              padding: const EdgeInsets.all(6),
+              decoration: BoxDecoration(
+                color: cs.surfaceVariant.withValues(alpha: 0.45),
+                shape: BoxShape.circle,
+              ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(
+                    '$viewedCount',
+                    style: textTheme.bodySmall?.copyWith(
+                      fontWeight: FontWeight.w700,
+                      color: cs.onSurface,
+                    ),
                   ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        '$viewedCount',
-                        style: textTheme.bodySmall?.copyWith(
-                          fontWeight: FontWeight.w700,
-                          color: cs.onSurface,
-                        ),
+                  const SizedBox(height: 2),
+                  Text(
+                    '${_words.length}',
+                    style: textTheme.bodySmall?.copyWith(
+                      fontWeight: FontWeight.w600,
+                      color: cs.onSurface.withValues(alpha: 0.5),
+                      fontSize: textTheme.bodySmall?.fontSize != null
+                          ? textTheme.bodySmall!.fontSize! - 1
+                          : null,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+        title: DropdownButtonHideUnderline(
+          child: DropdownButton<String>(
+            value: _currentLevel,
+            icon: Icon(LucideIcons.chevronDown, size: 18, color: cs.onSurface),
+            borderRadius: BorderRadius.circular(16),
+            style: textTheme.titleMedium?.copyWith(
+              fontWeight: FontWeight.w800,
+              fontSize: (textTheme.titleMedium?.fontSize ?? 16) + 4,
+              color: cs.onSurface,
+            ),
+            items: appState.levels
+                .map(
+                  (level) => DropdownMenuItem<String>(
+                    value: level,
+                    child: Text(
+                      level,
+                      style: textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w800,
+                        fontSize: (textTheme.titleMedium?.fontSize ?? 16) + 4,
+                        color: cs.onSurface,
                       ),
-                      const SizedBox(height: 2),
-                      Text(
-                        '${_words.length}',
-                        style: textTheme.bodySmall?.copyWith(
-                          fontWeight: FontWeight.w600,
-                          color: cs.onSurface.withValues(alpha: 0.5),
-                          fontSize: textTheme.bodySmall?.fontSize != null
-                              ? textTheme.bodySmall!.fontSize! - 1
-                              : null,
-                        ),
-                      ),
-                    ],
+                    ),
+                  ),
+                )
+                .toList(),
+            onChanged: (val) async {
+              if (val == null || val == _currentLevel) return;
+              await appState.setCurrentLevel(val);
+              setState(() => _currentLevel = val);
+              await _loadWords();
+            },
+          ),
+        ),
+        centerTitle: true,
+        actions: [
+          IconButton(
+            icon: const Icon(LucideIcons.circleUserRound, size: 30),
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => Scaffold(
+                    appBar: AppBar(
+                      title: const Text('Profile'),
+                      centerTitle: true,
+                    ),
+                    body: _buildProfileTab(context),
                   ),
                 ),
-              ),
+              );
+            },
           ),
-              title: Text('$_currentLevel Vocabulary'),
-              centerTitle: true,
-            )
-          : null,
-      body: IndexedStack(
-        index: _currentIndex,
-        children: [
-          _buildWordsTab(textTheme),
-          _buildComingSoon(context, 'Gramatik'),
-          _buildProfileTab(context),
         ],
       ),
-      bottomNavigationBar: _BottomNavBar(
-        currentIndex: _currentIndex,
-        onTap: (index) => setState(() => _currentIndex = index),
-      ),
+      body: _buildWordsTab(textTheme),
     );
   }
 
@@ -280,7 +317,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
                   Navigator.pop(context);
                 },
                 trailing: _sortMode == SortMode.defaultOrder
-                    ? const Icon(Icons.check)
+                    ? Icon(LucideIcons.check)
                     : null,
               ),
               ListTile(
@@ -293,7 +330,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
                   Navigator.pop(context);
                 },
                 trailing: _sortMode == SortMode.alphabetical
-                    ? const Icon(Icons.check)
+                    ? Icon(LucideIcons.check)
                     : null,
               ),
               ListTile(
@@ -306,7 +343,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
                   Navigator.pop(context);
                 },
                 trailing: _sortMode == SortMode.bookmarkedFirst
-                    ? const Icon(Icons.check)
+                    ? Icon(LucideIcons.check)
                     : null,
               ),
               ListTile(
@@ -319,7 +356,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
                   Navigator.pop(context);
                 },
                 trailing: _sortMode == SortMode.unviewedFirst
-                    ? const Icon(Icons.check)
+                    ? Icon(LucideIcons.check)
                     : null,
               ),
             ],
@@ -336,7 +373,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(Icons.hourglass_empty, size: 48, color: cs.outline),
+          Icon(LucideIcons.hourglass, size: 48, color: cs.outline),
           const SizedBox(height: 12),
           Text(
             '$label - Coming soon',
@@ -379,7 +416,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
                       child: ClipOval(
                         child: photoUrl != null
                             ? Image.network(photoUrl, fit: BoxFit.cover)
-                            : Icon(Icons.person, size: 44, color: cs.onSurfaceVariant),
+                            : Icon(LucideIcons.user, size: 32, color: cs.onSurfaceVariant),
                       ),
                     ),
                     const SizedBox(height: 12),
@@ -439,7 +476,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
                       label: 'Reset',
                       child: IconButton(
                         visualDensity: VisualDensity.compact,
-                        icon: Icon(Icons.restart_alt, color: cs.onSurfaceVariant),
+                        icon: Icon(LucideIcons.refreshCw, color: cs.onSurfaceVariant),
                         onPressed: () async {
                           await appState.resetProgress();
                           setState(() {
@@ -477,7 +514,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
                     foregroundColor: cs.onSurface.withValues(alpha: 0.7),
                   ),
                   icon: Icon(
-                    user == null ? Icons.login : Icons.logout,
+                    user == null ? LucideIcons.logIn : LucideIcons.logOut,
                     size: 20,
                   ),
                   label: Text(user == null ? 'Sign in' : 'Sign out'),
@@ -486,53 +523,6 @@ class _WordsListScreenState extends State<WordsListScreen> {
             ],
           ),
         ),
-      ),
-    );
-  }
-}
-
-class _BottomNavBar extends StatelessWidget {
-  const _BottomNavBar({required this.currentIndex, required this.onTap});
-
-  final int currentIndex;
-  final ValueChanged<int> onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    return Container(
-      decoration: BoxDecoration(
-        color: isDark ? cs.surfaceContainerHighest : cs.surface,
-        borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.06),
-            blurRadius: 10,
-            spreadRadius: 1,
-            offset: const Offset(0, 3),
-          ),
-          BoxShadow(
-            color: Colors.black.withOpacity(0.02),
-            blurRadius: 16,
-            spreadRadius: 1,
-            offset: const Offset(0, 7),
-          ),
-        ],
-      ),
-      child: BottomNavigationBar(
-        currentIndex: currentIndex,
-        onTap: onTap,
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-        type: BottomNavigationBarType.fixed,
-        selectedItemColor: cs.primary,
-        unselectedItemColor: cs.onSurfaceVariant,
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.list_alt), label: 'Words'),
-          BottomNavigationBarItem(icon: Icon(Icons.text_snippet), label: 'Gramatik'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
-        ],
       ),
     );
   }
@@ -589,5 +579,4 @@ class _MiniActionChip extends StatelessWidget {
       child: child,
     );
   }
-
 }
