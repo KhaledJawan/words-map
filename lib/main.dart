@@ -185,16 +185,12 @@ class _AuthGate extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Always enter the app directly; listen to auth changes only to keep user info fresh.
     return StreamBuilder<User?>(
       stream: FirebaseAuth.instance.authStateChanges(),
       builder: (context, snapshot) {
-        if (snapshot.connectionState == ConnectionState.waiting) {
-          return const _SplashScreen();
-        }
-        if (snapshot.hasData) {
-          return WordsListScreen(level: appState.currentLevel);
-        }
-        return const SignInScreen();
+        // Regardless of auth state, go to the main experience.
+        return WordsListScreen(level: appState.currentLevel);
       },
     );
   }
