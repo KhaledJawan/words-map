@@ -12,6 +12,7 @@ import 'package:word_map_app/services/progress_repository.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
 import 'package:word_map_app/widgets/word_detail_soft_card.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
+import 'package:word_map_app/theme_controller.dart';
 
 enum SortMode { defaultOrder, priorityGrouped }
 
@@ -479,7 +480,7 @@ class _WordsContentState extends State<WordsContent> {
 
   Future<void> _showProfileSheet(BuildContext context) async {
     final appState = context.read<AppState>();
-    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final isDark = appThemeMode.value == ThemeMode.dark;
     final loc = AppLocalizations.of(context)!;
     await showModalBottomSheet<void>(
       context: context,
@@ -539,7 +540,8 @@ class _WordsContentState extends State<WordsContent> {
                       title: Text(loc.settingsThemeDark),
                       value: isDark,
                       onChanged: (val) {
-                        appState.setThemeMode(val ? ThemeMode.dark : ThemeMode.light);
+                        appThemeMode.value =
+                            val ? ThemeMode.dark : ThemeMode.light;
                       },
                       secondary: const Icon(LucideIcons.moon),
                     ),
@@ -699,6 +701,7 @@ class _WordList extends StatelessWidget {
     return Wrap(
       spacing: 8,
       runSpacing: 3,
+      textDirection: TextDirection.ltr, // keep tile order stable across locales
       children: List.generate(words.length, (index) {
         final word = words[index];
         return WordTile(

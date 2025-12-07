@@ -10,6 +10,7 @@ import 'package:lottie/lottie.dart';
 import 'package:word_map_app/screens/words_list_init.dart';
 import 'screens/words_list_screen.dart';
 import 'screens/settings_screen.dart';
+import 'theme_controller.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -54,113 +55,155 @@ class WordMapApp extends StatelessWidget {
       return const Center(child: CircularProgressIndicator());
     }
 
-    return MaterialApp(
-      title: 'Word Map',
-      debugShowCheckedModeBanner: false,
-      scrollBehavior: IOSScrollBehavior(),
-      theme: ThemeData(
-        useMaterial3: true,
-        scaffoldBackgroundColor: Colors.white,
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF4BA8FF),
-          primary: const Color(0xFF4BA8FF),
-          secondary: const Color(0xFF5856D6),
-          background: Colors.white,
-        ),
-        appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.white,
-          foregroundColor: Colors.black,
-          elevation: 0,
-          centerTitle: true,
-          titleTextStyle: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.w600,
-            color: Colors.black,
-          ),
-        ),
-        cardTheme: CardThemeData(
-          color: Colors.white,
-          elevation: 0,
-          margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
-          ),
-          shadowColor: Colors.black.withOpacity(0.05),
-        ),
-        listTileTheme: const ListTileThemeData(
-          iconColor: Color(0xFF4BA8FF),
-          textColor: Colors.black,
-          subtitleTextStyle: TextStyle(
-            color: Colors.grey,
-            fontSize: 13,
-          ),
-        ),
-        elevatedButtonTheme: ElevatedButtonThemeData(
-          style: ElevatedButton.styleFrom(
-            backgroundColor: const Color(0xFF4BA8FF),
-            foregroundColor: Colors.white,
-            elevation: 0,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(14),
-            ),
-            padding:
-                const EdgeInsets.symmetric(vertical: 14, horizontal: 24),
-            textStyle: const TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-        ),
-        textTheme: const TextTheme(
-          headlineMedium: TextStyle(
-            fontSize: 22,
-            fontWeight: FontWeight.bold,
-            color: Colors.black,
-          ),
-          titleMedium: TextStyle(
-            fontSize: 16,
-            fontWeight: FontWeight.w600,
-            color: Colors.black,
-          ),
-          bodyMedium: TextStyle(
-            fontSize: 14,
-            color: Colors.black87,
-          ),
-          bodySmall: TextStyle(
-            fontSize: 12,
-            color: Colors.grey,
-          ),
-        ),
-        inputDecorationTheme: InputDecorationTheme(
-          filled: true,
-          fillColor: Colors.grey.shade100,
-          border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(14),
-            borderSide: BorderSide.none,
-          ),
-          contentPadding:
-              const EdgeInsets.symmetric(vertical: 14, horizontal: 16),
-        ),
-        bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-          backgroundColor: Colors.white,
-          showSelectedLabels: true,
-          showUnselectedLabels: false,
-          selectedItemColor: Color(0xFF4BA8FF),
-          unselectedItemColor: Colors.grey,
-          elevation: 10,
-          type: BottomNavigationBarType.fixed,
-        ),
-      ),
-      locale: appState.appLocale,
-      localizationsDelegates: AppLocalizations.localizationsDelegates,
-      supportedLocales: AppLocalizations.supportedLocales,
-      home: _AuthGate(appState: appState),
-      routes: {
-        '/words': (_) => WordsListScreen(),
-        '/settings': (_) => const SettingsScreen(),
+    return ValueListenableBuilder<ThemeMode>(
+      valueListenable: appThemeMode,
+      builder: (context, mode, _) {
+        return MaterialApp(
+          title: 'Word Map',
+          debugShowCheckedModeBanner: false,
+          scrollBehavior: IOSScrollBehavior(),
+          themeMode: mode,
+          theme: _buildLightTheme(),
+          darkTheme: _buildDarkTheme(),
+          locale: appState.appLocale,
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          supportedLocales: AppLocalizations.supportedLocales,
+          home: _AuthGate(appState: appState),
+          routes: {
+            '/words': (_) => WordsListScreen(),
+            '/settings': (_) => const SettingsScreen(),
+          },
+        );
       },
     );
   }
+}
+
+ThemeData _buildLightTheme() {
+  return ThemeData(
+    useMaterial3: true,
+    brightness: Brightness.light,
+    scaffoldBackgroundColor: WordMapColors.lightBackground,
+    canvasColor: WordMapColors.lightSurface,
+    cardColor: WordMapColors.lightCard,
+    colorScheme: const ColorScheme.light(
+      primary: WordMapColors.primaryBlue,
+      secondary: WordMapColors.accentOrange,
+      surface: WordMapColors.lightSurface,
+      background: WordMapColors.lightBackground,
+    ),
+    dividerColor: Colors.grey.shade300,
+    appBarTheme: const AppBarTheme(
+      backgroundColor: WordMapColors.lightSurface,
+      foregroundColor: Colors.black,
+      elevation: 0,
+      centerTitle: true,
+      titleTextStyle: TextStyle(
+        fontSize: 20,
+        fontWeight: FontWeight.w600,
+        color: Colors.black,
+      ),
+    ),
+    cardTheme: CardThemeData(
+      color: WordMapColors.lightCard,
+      elevation: 0,
+      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20),
+      ),
+      shadowColor: Colors.black.withOpacity(0.05),
+    ),
+    listTileTheme: const ListTileThemeData(
+      iconColor: WordMapColors.primaryBlue,
+      textColor: Colors.black,
+      subtitleTextStyle: TextStyle(
+        color: Colors.black54,
+        fontSize: 13,
+      ),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: WordMapColors.primaryBlue,
+        foregroundColor: Colors.white,
+        elevation: 0,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(14),
+        ),
+        padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 24),
+        textStyle: const TextStyle(
+          fontSize: 16,
+          fontWeight: FontWeight.w600,
+        ),
+      ),
+    ),
+    textTheme: const TextTheme(
+      bodyLarge: TextStyle(color: Colors.black87),
+      bodyMedium: TextStyle(color: Colors.black87),
+      bodySmall: TextStyle(color: Colors.black54),
+      titleLarge: TextStyle(color: Colors.black87, fontWeight: FontWeight.w600),
+      titleMedium: TextStyle(color: Colors.black87),
+      labelLarge: TextStyle(color: Colors.black87),
+    ),
+    inputDecorationTheme: InputDecorationTheme(
+      filled: true,
+      fillColor: Colors.grey.shade100,
+      border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(14),
+        borderSide: BorderSide.none,
+      ),
+      contentPadding: const EdgeInsets.symmetric(vertical: 14, horizontal: 16),
+    ),
+    bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+      backgroundColor: WordMapColors.lightSurface,
+      showSelectedLabels: true,
+      showUnselectedLabels: false,
+      selectedItemColor: WordMapColors.primaryBlue,
+      unselectedItemColor: Colors.grey,
+      elevation: 10,
+      type: BottomNavigationBarType.fixed,
+    ),
+  );
+}
+
+ThemeData _buildDarkTheme() {
+  final base = _buildLightTheme();
+  return base.copyWith(
+    brightness: Brightness.dark,
+    scaffoldBackgroundColor: WordMapColors.darkBackground,
+    canvasColor: WordMapColors.darkSurface,
+    cardColor: WordMapColors.darkCard,
+    colorScheme: const ColorScheme.dark(
+      primary: WordMapColors.primaryBlue,
+      secondary: WordMapColors.accentOrange,
+      surface: WordMapColors.darkSurface,
+      background: WordMapColors.darkBackground,
+    ),
+    dividerColor: WordMapColors.dividerDark,
+    appBarTheme: base.appBarTheme.copyWith(
+      backgroundColor: WordMapColors.darkSurface,
+      foregroundColor: Colors.white,
+      titleTextStyle: base.appBarTheme.titleTextStyle?.copyWith(color: Colors.white),
+    ),
+    cardTheme: base.cardTheme.copyWith(color: WordMapColors.darkCard),
+    listTileTheme: base.listTileTheme.copyWith(
+      iconColor: WordMapColors.primaryBlue,
+      textColor: Colors.white,
+      subtitleTextStyle: const TextStyle(color: Colors.white70, fontSize: 13),
+    ),
+    textTheme: base.textTheme.apply(bodyColor: Colors.white70, displayColor: Colors.white70).copyWith(
+          titleLarge: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
+          titleMedium: const TextStyle(color: Colors.white70),
+          labelLarge: const TextStyle(color: Colors.white),
+        ),
+    inputDecorationTheme: base.inputDecorationTheme.copyWith(
+      fillColor: Colors.grey.shade900,
+    ),
+    bottomNavigationBarTheme: base.bottomNavigationBarTheme.copyWith(
+      backgroundColor: WordMapColors.darkSurface,
+      selectedItemColor: WordMapColors.primaryBlue,
+      unselectedItemColor: Colors.grey,
+    ),
+  );
 }
 
 class IOSScrollBehavior extends ScrollBehavior {

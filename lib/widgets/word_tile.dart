@@ -98,6 +98,7 @@ class WordTile extends StatelessWidget {
             child: Text(
               word.de,
               textAlign: TextAlign.center,
+              textDirection: TextDirection.ltr,
               style: theme.textTheme.titleMedium?.copyWith(
                 fontWeight: FontWeight.w600,
                 color: textColor,
