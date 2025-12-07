@@ -300,22 +300,36 @@ class _WordsContentState extends State<WordsContent> {
                   Center(
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20),
-                      child: WordDetailSoftCard(
-                        word: word.de,
-                        translation: word.translationFa.isNotEmpty
-                            ? word.translationFa
-                            : word.translationEn,
-                        example: word.example,
-                        extra: [
-                          if (word.level != null) word.level,
-                          if (word.category != null) word.category,
-                        ].whereType<String>().join(' • '),
-                        isBookmarked: bookmarkedLocal,
-                        onToggleBookmark: () {
-                          setSheetState(() {
-                            bookmarkedLocal = !bookmarkedLocal;
-                          });
-                          _toggleBookmark(word);
+                      child: Builder(
+                        builder: (dialogContext) {
+                          final localeCode =
+                              Localizations.localeOf(dialogContext).languageCode;
+                          final fa = word.translationFa;
+                          final en = word.translationEn;
+                          final primary = localeCode == 'fa'
+                              ? (fa.isNotEmpty ? fa : en)
+                              : (en.isNotEmpty ? en : fa);
+                          final secondary = localeCode == 'fa'
+                              ? (en.isNotEmpty ? en : '')
+                              : (fa.isNotEmpty ? fa : '');
+                          return WordDetailSoftCard(
+                            word: word.de,
+                            translationPrimary: primary,
+                            translationSecondary:
+                                secondary.isNotEmpty ? secondary : null,
+                            example: word.example,
+                            extra: [
+                              if (word.level != null) word.level,
+                              if (word.category != null) word.category,
+                            ].whereType<String>().join(' • '),
+                            isBookmarked: bookmarkedLocal,
+                            onToggleBookmark: () {
+                              setSheetState(() {
+                                bookmarkedLocal = !bookmarkedLocal;
+                              });
+                              _toggleBookmark(word);
+                            },
+                          );
                         },
                       ),
                     ),
