@@ -9,15 +9,15 @@ class AppLocalizationsFa extends AppLocalizations {
   AppLocalizationsFa([String locale = 'fa']) : super(locale);
 
   @override
-  String get appTitle => 'نقشه واژه‌ها';
+  String get appTitle => 'نقشهٔ لغات';
 
   @override
   String wordMapTitleWithLevel(Object level) {
-    return 'واژه‌های $level';
+    return 'لغات $level';
   }
 
   @override
-  String get barrierWordDetails => 'جزئیات واژه';
+  String get barrierWordDetails => 'جزئیات لغت';
 
   @override
   String get dialogExampleHeading => 'مثال';
@@ -35,7 +35,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get settingsChangeLanguage => 'تغییر زبان';
 
   @override
-  String get settingsChangeTheme => 'تغییر پوسته';
+  String get settingsChangeTheme => 'تغییر تم';
 
   @override
   String get settingsSignOut => 'خروج / ورود';
@@ -50,7 +50,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get settingsThemeLight => 'حالت روشن';
 
   @override
-  String get settingsThemeDark => 'حالت تیره';
+  String get settingsThemeDark => 'حالت تاریک';
 
   @override
   String get settingsSignOutConfirmTitle => 'خروج؟';
@@ -65,13 +65,13 @@ class AppLocalizationsFa extends AppLocalizations {
   String get settingsSignOutAction => 'خروج';
 
   @override
-  String get wordLevelsTitle => 'سطوح واژگان';
+  String get wordLevelsTitle => 'سطح‌های لغت';
 
   @override
-  String get onboardingTitle => 'به نقشه واژه خوش آمدید';
+  String get onboardingTitle => 'به نقشهٔ لغات خوش آمدید';
 
   @override
-  String get onboardingSubtitle => 'زبان خود را انتخاب کنید تا ترجمه‌ها شخصی‌سازی شوند.';
+  String get onboardingSubtitle => 'زبان خود را انتخاب کنید تا ترجمه‌ها بر همان اساس تنظیم شوند.';
 
   @override
   String get onboardingMyLanguage => 'زبان من';
@@ -80,13 +80,13 @@ class AppLocalizationsFa extends AppLocalizations {
   String get onboardingSelectLanguage => 'زبان خود را انتخاب کنید';
 
   @override
-  String get onboardingILearn => 'من یاد می‌گیرم';
+  String get onboardingILearn => 'زبان در حال یادگیری';
 
   @override
   String get onboardingContinue => 'ادامه';
 
   @override
-  String get onboardingChangeLater => 'بعداً در تنظیمات می‌توانید تغییر دهید.';
+  String get onboardingChangeLater => 'بعداً از تنظیمات می‌توانید عوض کنید.';
 
   @override
   String get languageEnglish => 'انگلیسی';
@@ -116,7 +116,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get settingsSelectLanguageTitle => 'انتخاب زبان';
 
   @override
-  String get settingsSelectThemeTitle => 'انتخاب پوسته';
+  String get settingsSelectThemeTitle => 'انتخاب تم';
 
   @override
   String get settingsSignOutSuccess => 'خروج انجام شد';
@@ -130,10 +130,10 @@ class AppLocalizationsFa extends AppLocalizations {
   String get authConnectTitle => 'حساب خود را وصل کنید';
 
   @override
-  String get authSignInSubtitle => 'برای همگام‌سازی و بازیابی پیشرفت خود در دستگاه‌ها وارد شوید.';
+  String get authSignInSubtitle => 'برای همگام‌سازی و بازیابی پیشرفت خود بین دستگاه‌ها وارد شوید.';
 
   @override
-  String get authOptionalNote => 'بدون ورود هم می‌توانید از نقشه واژه استفاده کنید. با اتصال حساب، پیشرفت شما ذخیره و پشتیبان می‌شود.';
+  String get authOptionalNote => 'بدون ورود هم می‌توانید از نقشهٔ لغات استفاده کنید؛ با اتصال حساب، پیشرفت شما ذخیره و پشتیبان می‌شود.';
 
   @override
   String get authForgotPassword => 'رمز عبور را فراموش کرده‌اید؟';
@@ -154,7 +154,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get loginSkipTitle => 'شروع کنیم';
 
   @override
-  String get loginSkipSubtitle => 'وارد شوید تا پیشرفتتان همگام شود یا بدون حساب ادامه دهید.';
+  String get loginSkipSubtitle => 'برای همگام‌سازی وارد شوید یا بدون حساب ادامه دهید.';
 
   @override
   String get loginSkipLogin => 'ورود / ثبت‌نام';
@@ -166,10 +166,47 @@ class AppLocalizationsFa extends AppLocalizations {
   String get loginComingSoonTitle => 'ورود به‌زودی';
 
   @override
-  String get loginComingSoonSubtitle => 'در حال ساخت ورود هستیم. فعلاً بدون حساب ادامه دهید.';
+  String get loginComingSoonSubtitle => 'بخش ورود در حال ساخت است؛ فعلاً بدون حساب ادامه دهید.';
 
   @override
-  String get loginComingSoonGoToMap => 'رفتن به نقشه واژه';
+  String get loginComingSoonGoToMap => 'رفتن به نقشهٔ لغات';
+
+  @override
+  String get loadWordsFailed => 'بارگذاری لغات انجام نشد';
+
+  @override
+  String get chapterEmptyState => 'در این فصل هنوز لغتی نیست.';
+
+  @override
+  String get profileTitle => 'پروفایل و تنظیمات';
+
+  @override
+  String get sortWords => 'مرتب‌سازی لغات';
+
+  @override
+  String get resetChapter => 'بارگذاری دوباره فصل';
+
+  @override
+  String chapterOverview(String chapter) {
+    return 'نمای کلی فصل $chapter';
+  }
+
+  @override
+  String get totalWordsLabel => 'تعداد لغات';
+
+  @override
+  String get bookmarkedLabel => 'نشان‌شده';
+
+  @override
+  String get viewedLabel => 'دیده‌شده';
+
+  @override
+  String chapterReset(String chapter) {
+    return 'فصل $chapter دوباره بارگذاری شد';
+  }
+
+  @override
+  String get chooseChapter => 'فصل خود را انتخاب کنید';
 
   @override
   String get wordDetailsHeading => 'جزئیات واژه';

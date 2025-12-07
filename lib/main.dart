@@ -176,29 +176,40 @@ class IOSScrollBehavior extends ScrollBehavior {
   }
 }
 
-class _AuthGate extends StatelessWidget {
+class _AuthGate extends StatefulWidget {
   final AppState appState;
   const _AuthGate({required this.appState});
 
   @override
-  Widget build(BuildContext context) {
-    final prefetchBundle = loadWordsInit(appState, context);
-    final splashFuture = Future.wait<dynamic>([
+  State<_AuthGate> createState() => _AuthGateState();
+}
+
+class _AuthGateState extends State<_AuthGate> {
+  late final Future<List<dynamic>> _splashFuture;
+
+  @override
+  void initState() {
+    super.initState();
+    final prefetchBundle = loadWordsInit(widget.appState, context);
+    _splashFuture = Future.wait<dynamic>([
       Future.delayed(const Duration(seconds: 3)),
       prefetchBundle,
     ]);
+  }
 
-    return FutureBuilder<void>(
-      future: splashFuture,
+  @override
+  Widget build(BuildContext context) {
+    return FutureBuilder<List<dynamic>>(
+      future: _splashFuture,
       builder: (context, splashSnap) {
         if (splashSnap.connectionState != ConnectionState.done) {
           return const _SplashScreen();
         }
-        final results = splashSnap.data as List<dynamic>;
+        final results = splashSnap.data!;
         final bundle = results[1] as WordsInitBundle;
         // After splash + prefetch, go to main experience with prefetched data.
         return WordsListScreen(
-          level: appState.currentLevel,
+          level: widget.appState.currentLevel,
           initialBundle: bundle,
         );
       },

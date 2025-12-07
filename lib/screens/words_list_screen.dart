@@ -9,6 +9,7 @@ import 'package:word_map_app/models/word_progress.dart';
 import 'package:word_map_app/services/app_state.dart';
 import 'package:word_map_app/screens/words_list_init.dart';
 import 'package:word_map_app/services/progress_repository.dart';
+import 'package:word_map_app/l10n/app_localizations.dart';
 import 'package:word_map_app/widgets/word_detail_soft_card.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
 
@@ -56,6 +57,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
   @override
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
+    final loc = AppLocalizations.of(context)!;
     return FutureBuilder<WordsInitBundle>(
       future: _initFuture,
       builder: (context, snapshot) {
@@ -68,7 +70,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
           return Scaffold(
             body: Center(
               child: Text(
-                'Failed to load words',
+                loc.loadWordsFailed,
                 style: textTheme.titleMedium,
               ),
             ),
@@ -210,6 +212,65 @@ class _WordsContentState extends State<WordsContent> {
     _setVisibleForLevel(_currentLevel, forceSort: true);
   }
 
+  Future<void> _showCountsSheet(BuildContext context) async {
+    final levelWords = _wordsByLevel[_currentLevel] ?? [];
+    final total = levelWords.length;
+    final viewed = levelWords.where((w) => w.isViewed || w.isVisited).length;
+    final bookmarked = levelWords.where((w) => w.isBookmarked).length;
+
+    final loc = AppLocalizations.of(context)!;
+    await showModalBottomSheet<void>(
+      context: context,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
+      builder: (context) {
+        final textTheme = Theme.of(context).textTheme;
+        return SafeArea(
+          child: Padding(
+            padding: const EdgeInsetsDirectional.symmetric(horizontal: 20, vertical: 24),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  loc.chapterOverview(_currentLevel),
+                  style: textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+                const SizedBox(height: 16),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(loc.totalWordsLabel, style: textTheme.bodyMedium),
+                    Text('$total', style: textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.w700)),
+                  ],
+                ),
+                const SizedBox(height: 10),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(loc.bookmarkedLabel, style: textTheme.bodyMedium),
+                    Text('$bookmarked', style: textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.w700)),
+                  ],
+                ),
+                const SizedBox(height: 10),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(loc.viewedLabel, style: textTheme.bodyMedium),
+                    Text('$viewed', style: textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.w700)),
+                  ],
+                ),
+                const SizedBox(height: 12),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
+
   Future<void> _onWordTapped(VocabWord word) async {
     _markLearned(word);
     if (!mounted) return;
@@ -278,11 +339,18 @@ class _WordsContentState extends State<WordsContent> {
     final cs = Theme.of(context).colorScheme;
     final textTheme = Theme.of(context).textTheme;
     final appState = context.watch<AppState>();
+    final loc = AppLocalizations.of(context)!;
     final viewedCount =
         _visibleWords.where((w) => w.isViewed || w.isVisited).length;
 
     return Scaffold(
-      appBar: AppBar(
+      appBar: PreferredSize(
+        preferredSize: const Size.fromHeight(kToolbarHeight),
+        child: Directionality(
+          textDirection: TextDirection.ltr,
+          child: AppBar(
+        automaticallyImplyLeading: false,
+        titleSpacing: 0,
         backgroundColor: Colors.white,
         elevation: 0,
         centerTitle: true,
@@ -291,37 +359,44 @@ class _WordsContentState extends State<WordsContent> {
           padding: const EdgeInsetsDirectional.only(start: 16),
           child: Align(
             alignment: Alignment.centerLeft,
-            child: Container(
-              constraints:
-                  const BoxConstraints(minWidth: 44, minHeight: 44),
-              padding: const EdgeInsets.all(8),
-              decoration: BoxDecoration(
-                color: Colors.black,
-                shape: BoxShape.circle,
-              ),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    '$viewedCount',
-                    style: textTheme.bodySmall?.copyWith(
-                      fontWeight: FontWeight.w700,
-                      color: Colors.white,
-                    ),
+            child: Directionality(
+              textDirection: TextDirection.ltr,
+              child: GestureDetector(
+                behavior: HitTestBehavior.opaque,
+                onTap: () => _showCountsSheet(context),
+                child: Container(
+                  constraints:
+                      const BoxConstraints(minWidth: 44, minHeight: 44),
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: Colors.black,
+                    shape: BoxShape.circle,
                   ),
-                  const SizedBox(height: 2),
-                  Text(
-                    '${_visibleWords.length}',
-                    style: textTheme.bodySmall?.copyWith(
-                      fontWeight: FontWeight.w600,
-                      color: Colors.white.withOpacity(0.8),
-                      fontSize: textTheme.bodySmall?.fontSize != null
-                          ? textTheme.bodySmall!.fontSize! - 1
-                          : null,
-                    ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        '$viewedCount',
+                        style: textTheme.bodySmall?.copyWith(
+                          fontWeight: FontWeight.w700,
+                          color: Colors.white,
+                        ),
+                      ),
+                      const SizedBox(height: 2),
+                      Text(
+                        '${_visibleWords.length}',
+                        style: textTheme.bodySmall?.copyWith(
+                          fontWeight: FontWeight.w600,
+                          color: Colors.white.withOpacity(0.8),
+                          fontSize: textTheme.bodySmall?.fontSize != null
+                              ? textTheme.bodySmall!.fontSize! - 1
+                              : null,
+                        ),
+                      ),
+                    ],
                   ),
-                ],
+                ),
               ),
             ),
           ),
@@ -347,23 +422,28 @@ class _WordsContentState extends State<WordsContent> {
         actions: [
           Padding(
             padding: const EdgeInsetsDirectional.only(end: 8),
-            child: GestureDetector(
-              onTap: () {
-                _showProfileSheet(context);
-              },
-            child: Container(
-              constraints: const BoxConstraints(minWidth: 44, minHeight: 44),
-              padding: const EdgeInsets.all(8),
-              decoration: BoxDecoration(
-                  color: Colors.black,
-                  shape: BoxShape.circle,
+            child: Directionality(
+              textDirection: TextDirection.ltr,
+              child: GestureDetector(
+                onTap: () {
+                  _showProfileSheet(context);
+                },
+                child: Container(
+                  constraints: const BoxConstraints(minWidth: 44, minHeight: 44),
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                      color: Colors.black,
+                      shape: BoxShape.circle,
+                    ),
+                  child: const Icon(LucideIcons.circleUserRound,
+                        size: 26, color: Colors.white),
+                  ),
                 ),
-              child: const Icon(LucideIcons.circleUserRound,
-                    size: 26, color: Colors.white),
-              ),
             ),
           ),
         ],
+          ),
+        ),
       ),
       body: _buildWordsTab(textTheme),
     );
@@ -400,6 +480,7 @@ class _WordsContentState extends State<WordsContent> {
   Future<void> _showProfileSheet(BuildContext context) async {
     final appState = context.read<AppState>();
     final isDark = Theme.of(context).brightness == Brightness.dark;
+    final loc = AppLocalizations.of(context)!;
     await showModalBottomSheet<void>(
       context: context,
       isScrollControlled: true,
@@ -423,7 +504,7 @@ class _WordsContentState extends State<WordsContent> {
                   children: [
                     Center(
                       child: Text(
-                        'Profile',
+                        loc.profileTitle,
                         style: Theme.of(context).textTheme.titleMedium?.copyWith(
                               fontWeight: FontWeight.w700,
                             ),
@@ -455,7 +536,7 @@ class _WordsContentState extends State<WordsContent> {
                     const SizedBox(height: 16),
                     SwitchListTile(
                       contentPadding: EdgeInsets.zero,
-                      title: const Text('Dark mode'),
+                      title: Text(loc.settingsThemeDark),
                       value: isDark,
                       onChanged: (val) {
                         appState.setThemeMode(val ? ThemeMode.dark : ThemeMode.light);
@@ -465,7 +546,7 @@ class _WordsContentState extends State<WordsContent> {
                     ListTile(
                       contentPadding: EdgeInsets.zero,
                       leading: const Icon(LucideIcons.slidersHorizontal),
-                      title: const Text('Sort words'),
+                      title: Text(loc.sortWords),
                       onTap: () async {
                         setState(() {
                           _sortMode = SortMode.priorityGrouped;
@@ -477,7 +558,7 @@ class _WordsContentState extends State<WordsContent> {
                     ListTile(
                       contentPadding: EdgeInsets.zero,
                       leading: const Icon(LucideIcons.refreshCw),
-                      title: const Text('Reset this level'),
+                      title: Text(loc.resetChapter),
                       subtitle: Text(_currentLevel),
                       onTap: () async {
                         await _resetCurrentLevel();
@@ -485,8 +566,7 @@ class _WordsContentState extends State<WordsContent> {
                           Navigator.of(context).pop();
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
-                              content:
-                                  Text('Progress reset for $_currentLevel'),
+                              content: Text(loc.chapterReset(_currentLevel)),
                             ),
                           );
                         }
@@ -504,23 +584,24 @@ class _WordsContentState extends State<WordsContent> {
   }
 
   Widget _buildWordsTab(TextTheme textTheme) {
+    final loc = AppLocalizations.of(context)!;
     if (_visibleWords.isEmpty) {
       return RefreshIndicator(
         onRefresh: _refreshAll,
         child: ListView(
-          physics: const BouncingScrollPhysics(
-              parent: AlwaysScrollableScrollPhysics()),
-          padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
-          children: [
-            Padding(
-              padding: const EdgeInsetsDirectional.only(top: 32),
-              child: Text(
-                'No words found for this level.',
-                style: textTheme.bodyLarge,
-                textAlign: TextAlign.center,
-              ),
-            ),
-          ],
+                  physics: const BouncingScrollPhysics(
+                      parent: AlwaysScrollableScrollPhysics()),
+                  padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
+                  children: [
+                    Padding(
+                      padding: const EdgeInsetsDirectional.only(top: 32),
+                      child: Text(
+                        loc.chapterEmptyState,
+                        style: textTheme.bodyLarge,
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ],
         ),
       );
     }
@@ -649,7 +730,7 @@ class _LevelGrid extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(
-          "Choose your level",
+          AppLocalizations.of(context)!.chooseChapter,
           style: Theme.of(context).textTheme.titleMedium?.copyWith(
                 fontWeight: FontWeight.w700,
               ),

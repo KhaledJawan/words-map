@@ -413,6 +413,39 @@ abstract class AppLocalizations {
   /// **'Go to Word Map'**
   String get loginComingSoonGoToMap;
 
+  /// **'Couldn’t load words'**
+  String get loadWordsFailed;
+
+  /// **'No words in this chapter yet.'**
+  String get chapterEmptyState;
+
+  /// **'Profile & settings'**
+  String get profileTitle;
+
+  /// **'Sort words'**
+  String get sortWords;
+
+  /// **'Reset this chapter'**
+  String get resetChapter;
+
+  /// **'Chapter {chapter} overview'**
+  String chapterOverview(String chapter);
+
+  /// **'Total words'**
+  String get totalWordsLabel;
+
+  /// **'Bookmarked'**
+  String get bookmarkedLabel;
+
+  /// **'Viewed'**
+  String get viewedLabel;
+
+  /// **'Chapter {chapter} reset'**
+  String chapterReset(String chapter);
+
+  /// **'Choose your chapter'**
+  String get chooseChapter;
+
   /// No description provided for @wordDetailsHeading.
   ///
   /// In en, this message translates to:

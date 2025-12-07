@@ -172,6 +172,43 @@ class AppLocalizationsEn extends AppLocalizations {
   String get loginComingSoonGoToMap => 'Go to Word Map';
 
   @override
+  String get loadWordsFailed => 'Couldn’t load words';
+
+  @override
+  String get chapterEmptyState => 'No words in this chapter yet.';
+
+  @override
+  String get profileTitle => 'Profile & settings';
+
+  @override
+  String get sortWords => 'Sort words';
+
+  @override
+  String get resetChapter => 'Reset this chapter';
+
+  @override
+  String chapterOverview(String chapter) {
+    return 'Chapter $chapter overview';
+  }
+
+  @override
+  String get totalWordsLabel => 'Total words';
+
+  @override
+  String get bookmarkedLabel => 'Bookmarked';
+
+  @override
+  String get viewedLabel => 'Viewed';
+
+  @override
+  String chapterReset(String chapter) {
+    return 'Chapter $chapter reset';
+  }
+
+  @override
+  String get chooseChapter => 'Choose your chapter';
+
+  @override
   String get wordDetailsHeading => 'Word details';
 
   @override
