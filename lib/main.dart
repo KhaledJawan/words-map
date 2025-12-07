@@ -245,6 +245,16 @@ class _AuthGateState extends State<_AuthGate> {
     return FutureBuilder<List<dynamic>>(
       future: _splashFuture,
       builder: (context, splashSnap) {
+        if (splashSnap.hasError) {
+          return Scaffold(
+            body: Center(
+              child: Text(
+                'Startup error: ${splashSnap.error}',
+                textAlign: TextAlign.center,
+              ),
+            ),
+          );
+        }
         if (splashSnap.connectionState != ConnectionState.done) {
           return const _SplashScreen();
         }
