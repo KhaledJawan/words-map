@@ -352,7 +352,7 @@ class _WordsContentState extends State<WordsContent> {
           child: AppBar(
         automaticallyImplyLeading: false,
         titleSpacing: 0,
-        backgroundColor: Colors.white,
+        backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
         elevation: 0,
         centerTitle: true,
         leadingWidth: 104,

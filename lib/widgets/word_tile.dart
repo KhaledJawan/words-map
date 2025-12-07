@@ -29,15 +29,15 @@ class WordTile extends StatelessWidget {
 
     final bool isVisited = visited && !bookmarked;
 
-    Color bg = Colors.white;
+    Color bg = isDark ? Colors.black : Colors.white;
     Color? border;
-    Color textColor = cs.onSurface;
+    Color textColor = isDark ? Colors.white : cs.onSurface;
     List<BoxShadow>? shadow;
 
     if (bookmarked) {
-      bg = Colors.white;
+      bg = isDark ? Colors.black : Colors.white;
       textColor = bookmarkedBlue;
-      shadow = [
+      shadow = isDark ? null : [
         BoxShadow(
           color: bookmarkedBlue.withOpacity(0.10),
           blurRadius: 11,
@@ -52,29 +52,32 @@ class WordTile extends StatelessWidget {
         ),
       ];
     } else if (isVisited) {
-      bg = theme.scaffoldBackgroundColor;
-      textColor = const Color(0xFFAAAAAA);
-      shadow = null;
+      // Viewed state
+      bg = isDark ? Colors.transparent : const Color(0xFFF2F2F7);
+      textColor = isDark ? Colors.white.withOpacity(0.6) : const Color(0xFFAAAAAA);
+      shadow = isDark ? null : null;
       border = null;
     } else {
       // Normal
-      bg = Colors.white;
-      textColor = const Color(0xFF111111);
-      shadow = [
-        BoxShadow(
-          color: Colors.black.withOpacity(0.06),
-          blurRadius: 10,
-          spreadRadius: 1,
-          offset: const Offset(0, 3),
-        ),
-        BoxShadow(
-          color: Colors.black.withOpacity(0.02),
-          blurRadius: 16,
-          spreadRadius: 1,
-          offset: const Offset(0, 7),
-        ),
-      ];
-      border = const Color(0xFFE0E0E0);
+      bg = isDark ? Colors.black : Colors.white;
+      textColor = isDark ? Colors.white : const Color(0xFF111111);
+      shadow = isDark
+          ? null
+          : [
+              BoxShadow(
+                color: Colors.black.withOpacity(0.06),
+                blurRadius: 10,
+                spreadRadius: 1,
+                offset: const Offset(0, 3),
+              ),
+              BoxShadow(
+                color: Colors.black.withOpacity(0.02),
+                blurRadius: 16,
+                spreadRadius: 1,
+                offset: const Offset(0, 7),
+              ),
+            ];
+      border = isDark ? null : const Color(0xFFE0E0E0);
     }
 
     return Material(

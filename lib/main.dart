@@ -269,8 +269,8 @@ class _SplashScreen extends StatelessWidget {
       body: Center(
         child: Lottie.asset(
           'assets/lottie/splash.json',
-          width: 160,
-          height: 160,
+          width: 220,
+          height: 220,
           repeat: false,
         ),
       ),
