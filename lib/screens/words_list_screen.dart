@@ -6,6 +6,7 @@ import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
 import 'package:word_map_app/models/vocab_word.dart';
 import 'package:word_map_app/models/word_progress.dart';
+import 'package:word_map_app/core/audio/audio_service.dart';
 import 'package:word_map_app/services/app_state.dart';
 import 'package:word_map_app/screens/words_list_init.dart';
 import 'package:word_map_app/services/progress_repository.dart';
@@ -312,6 +313,52 @@ class _WordsContentState extends State<WordsContent> {
                           final secondary = localeCode == 'fa'
                               ? (en.isNotEmpty ? en : '')
                               : (fa.isNotEmpty ? fa : '');
+                          final audioUrl = word.audio.trim();
+                          final hasAudio = audioUrl.isNotEmpty;
+                          Future<void> handlePlayAudio() async {
+                            if (!hasAudio) return;
+                            try {
+                              await AudioService.instance.playUrl(audioUrl);
+                            } catch (e) {
+                              debugPrint('Audio playback failed: $e');
+                              if (!mounted) return;
+                              ScaffoldMessenger.of(dialogContext).showSnackBar(
+                                const SnackBar(
+                                  content: Text('Audio konnte nicht abgespielt werden.'),
+                                  duration: Duration(seconds: 2),
+                                ),
+                              );
+                            }
+                          }
+                          final audioAction = SizedBox(
+                            height: 28,
+                            width: 28,
+                            child: StreamBuilder<bool>(
+                              stream: AudioService.instance.playingStream,
+                              builder: (streamContext, snapshot) {
+                                final isPlaying = snapshot.data ?? false;
+                                final iconColor = hasAudio
+                                    ? Theme.of(streamContext).colorScheme.primary
+                                    : Colors.grey[400];
+                                final isPlayingThisWord = isPlaying &&
+                                    AudioService.instance.currentUrl == audioUrl;
+                                return IconButton(
+                                  padding: EdgeInsets.zero,
+                                  constraints: const BoxConstraints(),
+                                  iconSize: 20,
+                                  onPressed: hasAudio
+                                      ? () async => await handlePlayAudio()
+                                      : null,
+                                  icon: Icon(
+                                    isPlayingThisWord
+                                        ? Icons.equalizer
+                                        : Icons.play_circle_fill,
+                                    color: iconColor,
+                                  ),
+                                );
+                              },
+                            ),
+                          );
                           return WordDetailSoftCard(
                             word: word.de,
                             translationPrimary: primary,
@@ -323,6 +370,7 @@ class _WordsContentState extends State<WordsContent> {
                               if (word.category != null) word.category,
                             ].whereType<String>().join(' • '),
                             isBookmarked: bookmarkedLocal,
+                            trailingAction: audioAction,
                             onToggleBookmark: () {
                               setSheetState(() {
                                 bookmarkedLocal = !bookmarkedLocal;

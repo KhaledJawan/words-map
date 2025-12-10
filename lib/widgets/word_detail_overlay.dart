@@ -6,7 +6,8 @@ import 'package:word_map_app/widgets/word_detail_soft_card.dart';
 void showWordDetailOverlay(
   BuildContext context, {
   required String word,
-  required String translation,
+  required String translationPrimary,
+  String? translationSecondary,
   String? example,
   String? extra,
   bool isBookmarked = false,
@@ -40,7 +41,8 @@ void showWordDetailOverlay(
                     padding: const EdgeInsets.symmetric(horizontal: 20),
                     child: WordDetailSoftCard(
                       word: word,
-                      translation: translation,
+                      translationPrimary: translationPrimary,
+                      translationSecondary: translationSecondary,
                       example: example,
                       extra: extra,
                       isBookmarked: currentBookmarked,

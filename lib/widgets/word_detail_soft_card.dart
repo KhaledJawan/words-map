@@ -9,6 +9,7 @@ class WordDetailSoftCard extends StatelessWidget {
   final String? extra;
   final bool isBookmarked;
   final VoidCallback? onToggleBookmark;
+  final Widget? trailingAction;
 
   const WordDetailSoftCard({
     super.key,
@@ -19,6 +20,7 @@ class WordDetailSoftCard extends StatelessWidget {
     this.extra,
     this.isBookmarked = false,
     this.onToggleBookmark,
+    this.trailingAction,
   });
 
   @override
@@ -45,6 +47,12 @@ class WordDetailSoftCard extends StatelessWidget {
                         )
                       : const SizedBox.shrink(),
                 ),
+                if (trailingAction != null) ...[
+                  Padding(
+                    padding: const EdgeInsetsDirectional.only(end: 8),
+                    child: trailingAction,
+                  ),
+                ],
                 SizedBox(
                   height: 28,
                   width: 28,

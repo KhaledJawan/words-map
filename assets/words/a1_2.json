@@ -6,7 +6,7 @@
     "translation_fa": "تحویل گرفتن",
     "translation_en": "to pick up",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/abholen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -17,7 +17,7 @@
     "translation_fa": "مراجعه کردن / دیدار کردن",
     "translation_en": "to visit",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/besuchen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -28,7 +28,7 @@
     "translation_fa": "والدین",
     "translation_en": "parents",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/eltern.mp3",
     "image": "",
     "category": "A1"
   },
@@ -39,7 +39,7 @@
     "translation_fa": "خانواده",
     "translation_en": "family",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/familie.mp3",
     "image": "",
     "category": "A1"
   },
@@ -50,7 +50,7 @@
     "translation_fa": "وضعیت تأهل",
     "translation_en": "marital status",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/familienstand.mp3",
     "image": "",
     "category": "A1"
   },
@@ -61,7 +61,7 @@
     "translation_fa": "عکس",
     "translation_en": "photo",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/foto.mp3",
     "image": "",
     "category": "A1"
   },
@@ -72,7 +72,7 @@
     "translation_fa": "مطلقه",
     "translation_en": "divorced",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/geschieden.mp3",
     "image": "",
     "category": "A1"
   },
@@ -83,7 +83,7 @@
     "translation_fa": "خواهر و برادر",
     "translation_en": "siblings",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/geschwister.mp3",
     "image": "",
     "category": "A1"
   },
@@ -94,7 +94,7 @@
     "translation_fa": "جدا شده",
     "translation_en": "separated",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/getrennt.mp3",
     "image": "",
     "category": "A1"
   },
@@ -105,7 +105,7 @@
     "translation_fa": "پدربزرگ و مادربزرگ",
     "translation_en": "grandparents",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/großeltern.mp3",
     "image": "",
     "category": "A1"
   },
@@ -116,7 +116,7 @@
     "translation_fa": "سگ",
     "translation_en": "dog",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hund.mp3",
     "image": "",
     "category": "A1"
   },
@@ -127,7 +127,7 @@
     "translation_fa": "پسر",
     "translation_en": "boy",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/junge.mp3",
     "image": "",
     "category": "A1"
   },
@@ -138,7 +138,7 @@
     "translation_fa": "گربه",
     "translation_en": "cat",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/katze.mp3",
     "image": "",
     "category": "A1"
   },
@@ -149,7 +149,7 @@
     "translation_fa": "شناختن",
     "translation_en": "to know",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kennen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -160,7 +160,7 @@
     "translation_fa": "مجرد",
     "translation_en": "single",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ledig.mp3",
     "image": "",
     "category": "A1"
   },
@@ -171,7 +171,7 @@
     "translation_fa": "دوست داشتن",
     "translation_en": "to love",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/lieben.mp3",
     "image": "",
     "category": "A1"
   },
@@ -182,7 +182,7 @@
     "translation_fa": "دختر",
     "translation_en": "girl",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mädchen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -193,7 +193,7 @@
     "translation_fa": "شخص",
     "translation_en": "person",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/person.mp3",
     "image": "",
     "category": "A1"
   },
@@ -204,7 +204,7 @@
     "translation_fa": "مدرسه",
     "translation_en": "school",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schule.mp3",
     "image": "",
     "category": "A1"
   },
@@ -215,7 +215,7 @@
     "translation_fa": "والدین همسر",
     "translation_en": "parents-in-law",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schwiegereltern.mp3",
     "image": "",
     "category": "A1"
   },
@@ -226,7 +226,7 @@
     "translation_fa": "شنا کردن",
     "translation_en": "to swim",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schwimmen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -237,7 +237,7 @@
     "translation_fa": "متأهل",
     "translation_en": "married",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verheiratet.mp3",
     "image": "",
     "category": "A1"
   },
@@ -248,7 +248,7 @@
     "translation_fa": "بیوه",
     "translation_en": "widowed",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verwitwet.mp3",
     "image": "",
     "category": "A1"
   },
@@ -259,7 +259,7 @@
     "translation_fa": "با هم",
     "translation_en": "together",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zusammen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -270,7 +270,7 @@
     "translation_fa": "دوقلو",
     "translation_en": "twin",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zwilling.mp3",
     "image": "",
     "category": "A1"
   },
@@ -281,7 +281,7 @@
     "translation_fa": "پدربزرگ",
     "translation_en": "grandfather",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/großvater.mp3",
     "image": "",
     "category": "A1"
   },
@@ -292,7 +292,7 @@
     "translation_fa": "مادربزرگ",
     "translation_en": "grandmother",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/großmutter.mp3",
     "image": "",
     "category": "A1"
   },
@@ -303,7 +303,7 @@
     "translation_fa": "پدر",
     "translation_en": "father",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/vater.mp3",
     "image": "",
     "category": "A1"
   },
@@ -314,7 +314,7 @@
     "translation_fa": "مادر",
     "translation_en": "mother",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mutter.mp3",
     "image": "",
     "category": "A1"
   },
@@ -325,7 +325,7 @@
     "translation_fa": "برادر",
     "translation_en": "brother",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bruder.mp3",
     "image": "",
     "category": "A1"
   },
@@ -336,7 +336,7 @@
     "translation_fa": "خواهر",
     "translation_en": "sister",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schwester.mp3",
     "image": "",
     "category": "A1"
   },
@@ -347,7 +347,7 @@
     "translation_fa": "عمو / دایی",
     "translation_en": "uncle",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/onkel.mp3",
     "image": "",
     "category": "A1"
   },
@@ -358,7 +358,7 @@
     "translation_fa": "عمه / خاله",
     "translation_en": "aunt",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/tante.mp3",
     "image": "",
     "category": "A1"
   },
@@ -369,7 +369,7 @@
     "translation_fa": "پسرعمو...",
     "translation_en": "cousin (male)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/cousin.mp3",
     "image": "",
     "category": "A1"
   },
@@ -380,7 +380,7 @@
     "translation_fa": "دخترعمو...",
     "translation_en": "cousin (female)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/cousine.mp3",
     "image": "",
     "category": "A1"
   },
@@ -391,7 +391,7 @@
     "translation_fa": "پسر",
     "translation_en": "son",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/sohn.mp3",
     "image": "",
     "category": "A1"
   },
@@ -402,7 +402,7 @@
     "translation_fa": "دختر",
     "translation_en": "daughter",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/tochter.mp3",
     "image": "",
     "category": "A1"
   },
@@ -413,7 +413,7 @@
     "translation_fa": "نوه (پسر)",
     "translation_en": "grandson",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/enkel.mp3",
     "image": "",
     "category": "A1"
   },
@@ -424,7 +424,7 @@
     "translation_fa": "نوه (دختر)",
     "translation_en": "granddaughter",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/enkelin.mp3",
     "image": "",
     "category": "A1"
   },
@@ -435,7 +435,7 @@
     "translation_fa": "صرف وقت کردن",
     "translation_en": "to spend time",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zeit_verbringen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -446,7 +446,7 @@
     "translation_fa": "نگاه کن!",
     "translation_en": "Look!",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/guck_mal!.mp3",
     "image": "",
     "category": "A1"
   },
@@ -457,7 +457,7 @@
     "translation_fa": "زندگی روزمره",
     "translation_en": "everyday life",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/alltag.mp3",
     "image": "",
     "category": "A1"
   },
@@ -468,7 +468,7 @@
     "translation_fa": "مرتب کردن",
     "translation_en": "to tidy up",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/aufräumen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -479,7 +479,7 @@
     "translation_fa": "به نظر رسیدن",
     "translation_en": "to look / appear",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/aussehen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -490,7 +490,7 @@
     "translation_fa": "خرید کردن",
     "translation_en": "to shop",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/einkaufen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -501,7 +501,7 @@
     "translation_fa": "تقریباً",
     "translation_en": "almost",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fast.mp3",
     "image": "",
     "category": "A1"
   },
@@ -512,7 +512,7 @@
     "translation_fa": "صبحانه",
     "translation_en": "breakfast",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/frühstück.mp3",
     "image": "",
     "category": "A1"
   },
@@ -523,7 +523,7 @@
     "translation_fa": "خانوار",
     "translation_en": "household",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/haushalt.mp3",
     "image": "",
     "category": "A1"
   },
@@ -534,7 +534,7 @@
     "translation_fa": "کمک کردن",
     "translation_en": "to help",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/helfen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -545,7 +545,7 @@
     "translation_fa": "ناهار",
     "translation_en": "lunch",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mittagessen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -556,7 +556,7 @@
     "translation_fa": "تمیز کردن",
     "translation_en": "to clean",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/putzen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -567,7 +567,7 @@
     "translation_fa": "استرس",
     "translation_en": "stress",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stress.mp3",
     "image": "",
     "category": "A1"
   },
@@ -578,7 +578,7 @@
     "translation_fa": "استرس‌زا",
     "translation_en": "stressful",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stressig.mp3",
     "image": "",
     "category": "A1"
   },
@@ -589,7 +589,7 @@
     "translation_fa": "قرار ملاقات",
     "translation_en": "appointment",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/termin.mp3",
     "image": "",
     "category": "A1"
   },
@@ -600,7 +600,7 @@
     "translation_fa": "عالی",
     "translation_en": "great",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/toll.mp3",
     "image": "",
     "category": "A1"
   },
@@ -611,7 +611,7 @@
     "translation_fa": "خواباندن",
     "translation_en": "to put to bed",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ins_bett_bringen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -622,7 +622,7 @@
     "translation_fa": "هر روز",
     "translation_en": "every day",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/jeder_tag.mp3",
     "image": "",
     "category": "A1"
   },
@@ -633,7 +633,7 @@
     "translation_fa": "تماس",
     "translation_en": "phone call",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/anruf.mp3",
     "image": "",
     "category": "A1"
   },
@@ -644,7 +644,7 @@
     "translation_fa": "ایمیل",
     "translation_en": "email",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/e-mail.mp3",
     "image": "",
     "category": "A1"
   },
@@ -655,7 +655,7 @@
     "translation_fa": "قبلاً",
     "translation_en": "earlier / before",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/früher.mp3",
     "image": "",
     "category": "A1"
   },
@@ -666,7 +666,7 @@
     "translation_fa": "حیوان خانگی",
     "translation_en": "pet",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/haustier.mp3",
     "image": "",
     "category": "A1"
   },
@@ -677,7 +677,7 @@
     "translation_fa": "مهدکودک",
     "translation_en": "kindergarten",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kindergarten.mp3",
     "image": "",
     "category": "A1"
   },
@@ -688,7 +688,7 @@
     "translation_fa": "مغازه",
     "translation_en": "shop",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/laden.mp3",
     "image": "",
     "category": "A1"
   },
@@ -699,7 +699,7 @@
     "translation_fa": "تلفن",
     "translation_en": "telephone",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/telefon.mp3",
     "image": "",
     "category": "A1"
   },
@@ -710,7 +710,7 @@
     "translation_fa": "خویشاوند",
     "translation_en": "related",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verwandt.mp3",
     "image": "",
     "category": "A1"
   },
@@ -721,7 +721,7 @@
     "translation_fa": "منتظر بودن",
     "translation_en": "to wait for",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/warten_auf.mp3",
     "image": "",
     "category": "A1"
   },
@@ -732,7 +732,7 @@
     "translation_fa": "تمام شدن",
     "translation_en": "to be over",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zu_ende_sein.mp3",
     "image": "",
     "category": "A1"
   },
@@ -743,7 +743,7 @@
     "translation_fa": "نترس!",
     "translation_en": "Don't worry!",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/keine_angst!.mp3",
     "image": "",
     "category": "A1"
   },
@@ -754,7 +754,7 @@
     "translation_fa": "همه چیز خوبه",
     "translation_en": "everything is OK",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/alles_in_ordnung.mp3",
     "image": "",
     "category": "A1"
   },
@@ -765,7 +765,7 @@
     "translation_fa": "مادربزرگ عزیز",
     "translation_en": "Dear grandma",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/liebe_oma.mp3",
     "image": "",
     "category": "A1"
   },
@@ -776,7 +776,7 @@
     "translation_fa": "دوستت دارم!",
     "translation_en": "Love you!",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hab_dich_lieb!.mp3",
     "image": "",
     "category": "A1"
   },
@@ -787,7 +787,7 @@
     "translation_fa": "کار کردن در",
     "translation_en": "to work at",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arbeiten_bei.mp3",
     "image": "",
     "category": "A1"
   },
@@ -798,7 +798,7 @@
     "translation_fa": "شغل",
     "translation_en": "profession / job",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/beruf.mp3",
     "image": "",
     "category": "A1"
   },
@@ -809,7 +809,7 @@
     "translation_fa": "دفتر / اداره",
     "translation_en": "office",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/büro.mp3",
     "image": "",
     "category": "A1"
   },
@@ -820,7 +820,7 @@
     "translation_fa": "رئیس (مرد)",
     "translation_en": "boss (male)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/chef.mp3",
     "image": "",
     "category": "A1"
   },
@@ -831,7 +831,7 @@
     "translation_fa": "رئیس (زن)",
     "translation_en": "boss (female)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/chefin.mp3",
     "image": "",
     "category": "A1"
   },
@@ -842,7 +842,7 @@
     "translation_fa": "شرکت",
     "translation_en": "company / firm",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/firma.mp3",
     "image": "",
     "category": "A1"
   },
@@ -853,7 +853,7 @@
     "translation_fa": "همکار (مرد)",
     "translation_en": "colleague (male)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kollege.mp3",
     "image": "",
     "category": "A1"
   },
@@ -864,7 +864,7 @@
     "translation_fa": "همکار (زن)",
     "translation_en": "colleague (female)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kollegin.mp3",
     "image": "",
     "category": "A1"
   },
@@ -875,7 +875,7 @@
     "translation_fa": "بیماری",
     "translation_en": "illness",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krankheit.mp3",
     "image": "",
     "category": "A1"
   },
@@ -886,7 +886,7 @@
     "translation_fa": "بیمارستان",
     "translation_en": "hospital",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krankenhaus.mp3",
     "image": "",
     "category": "A1"
   },
@@ -897,7 +897,7 @@
     "translation_fa": "مشتری (مرد)",
     "translation_en": "customer (male)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kunde.mp3",
     "image": "",
     "category": "A1"
   },
@@ -908,7 +908,7 @@
     "translation_fa": "مشتری (زن)",
     "translation_en": "customer (female)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kundin.mp3",
     "image": "",
     "category": "A1"
   },
@@ -919,7 +919,7 @@
     "translation_fa": "کارآموزی",
     "translation_en": "internship",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/praktikum.mp3",
     "image": "",
     "category": "A1"
   },
@@ -930,7 +930,7 @@
     "translation_fa": "فروشنده (مرد)",
     "translation_en": "seller / salesperson (male)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verkäufer.mp3",
     "image": "",
     "category": "A1"
   },
@@ -941,7 +941,7 @@
     "translation_fa": "فروشنده (زن)",
     "translation_en": "salesperson (female)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verkäuferin.mp3",
     "image": "",
     "category": "A1"
   },
@@ -952,7 +952,7 @@
     "translation_fa": "دکتر (مرد)",
     "translation_en": "doctor (male)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arzt.mp3",
     "image": "",
     "category": "A1"
   },
@@ -963,7 +963,7 @@
     "translation_fa": "دکتر (زن)",
     "translation_en": "doctor (female)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ärztin.mp3",
     "image": "",
     "category": "A1"
   },
@@ -974,7 +974,7 @@
     "translation_fa": "پرستار (زن)",
     "translation_en": "nurse (female)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krankenschwester.mp3",
     "image": "",
     "category": "A1"
   },
@@ -985,7 +985,7 @@
     "translation_fa": "پرستار (مرد)",
     "translation_en": "nurse (male)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krankenpfleger.mp3",
     "image": "",
     "category": "A1"
   },
@@ -996,7 +996,7 @@
     "translation_fa": "مهندس (مرد)",
     "translation_en": "engineer (male)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ingenieur.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1007,7 +1007,7 @@
     "translation_fa": "مهندس (زن)",
     "translation_en": "engineer (female)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ingenieurin.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1018,7 +1018,7 @@
     "translation_fa": "دانشجو (مرد)",
     "translation_en": "student (male)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/student.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1029,7 +1029,7 @@
     "translation_fa": "دانشجو (زن)",
     "translation_en": "student (female)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/studentin.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1040,7 +1040,7 @@
     "translation_fa": "آرایشگر (مرد)",
     "translation_en": "hairdresser (male)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/friseur.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1051,7 +1051,7 @@
     "translation_fa": "آرایشگر (زن)",
     "translation_en": "hairdresser (female)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/friseurin.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1062,7 +1062,7 @@
     "translation_fa": "گارسون (مرد)",
     "translation_en": "waiter",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kellner.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1073,7 +1073,7 @@
     "translation_fa": "گارسون (زن)",
     "translation_en": "waitress",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kellnerin.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1084,7 +1084,7 @@
     "translation_fa": "کار",
     "translation_en": "job",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/job.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1095,7 +1095,7 @@
     "translation_fa": "حقوق / مزد",
     "translation_en": "wage",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/lohn.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1106,7 +1106,7 @@
     "translation_fa": "حقوق ثابت",
     "translation_en": "salary",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/gehalt.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1117,7 +1117,7 @@
     "translation_fa": "کار دفتری",
     "translation_en": "office work",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/büroarbeit.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1128,7 +1128,7 @@
     "translation_fa": "کار شیفتی",
     "translation_en": "shift work",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schichtarbeit.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1139,7 +1139,7 @@
     "translation_fa": "تمام وقت",
     "translation_en": "full time",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/vollzeit.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1150,7 +1150,7 @@
     "translation_fa": "نیمه‌وقت",
     "translation_en": "part time",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/teilzeit.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1161,7 +1161,7 @@
     "translation_fa": "دیدار با همکاران",
     "translation_en": "meet colleagues",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kollegen_treffen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1172,7 +1172,7 @@
     "translation_fa": "فروختن",
     "translation_en": "to sell",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verkaufen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1183,7 +1183,7 @@
     "translation_fa": "رئیس شدن",
     "translation_en": "to become a boss",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/chef_werden.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1194,7 +1194,7 @@
     "translation_fa": "کار کردن از ... تا ...",
     "translation_en": "work from ... to ...",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arbeiten_von_..._bis_....mp3",
     "image": "",
     "category": "A1"
   },
@@ -1205,7 +1205,7 @@
     "translation_fa": "استراحت کردن",
     "translation_en": "take a break",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/pause_machen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1216,7 +1216,7 @@
     "translation_fa": "پایان روز کاری",
     "translation_en": "end of the workday",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/feierabend.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1227,7 +1227,7 @@
     "translation_fa": "کار کردن در آخر هفته",
     "translation_en": "to work on weekends",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arbeiten_am_wochenende.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1238,7 +1238,7 @@
     "translation_fa": "تعطیلات / مرخصی",
     "translation_en": "vacation",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/urlaub.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1249,7 +1249,7 @@
     "translation_fa": "لباس‌ / پوشاک",
     "translation_en": "clothing",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kleidung.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1261,7 +1261,7 @@
     "translation_fa": "تی‌شرت",
     "translation_en": "t-shirt",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/t-shirt.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -1273,7 +1273,7 @@
     "translation_fa": "شلوار",
     "translation_en": "pants / trousers",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hose.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1285,7 +1285,7 @@
     "translation_fa": "جین",
     "translation_en": "jeans",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/jeans.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1297,7 +1297,7 @@
     "translation_fa": "پولور / سویشرت",
     "translation_en": "pullover / sweater",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/pullover.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1309,7 +1309,7 @@
     "translation_fa": "کاپشن / ژاکت",
     "translation_en": "jacket",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/jacke.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1321,7 +1321,7 @@
     "translation_fa": "پالتو",
     "translation_en": "coat",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mantel.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1333,7 +1333,7 @@
     "translation_fa": "پیراهن مردانه",
     "translation_en": "shirt (men)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hemd.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -1345,7 +1345,7 @@
     "translation_fa": "بلوز زنانه",
     "translation_en": "blouse",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bluse.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1357,7 +1357,7 @@
     "translation_fa": "لباس (پیراهن زنانه)",
     "translation_en": "dress",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kleid.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -1369,7 +1369,7 @@
     "translation_fa": "دامن",
     "translation_en": "skirt",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/rock.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1381,7 +1381,7 @@
     "translation_fa": "کفش‌ها",
     "translation_en": "shoes",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schuhe.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1393,7 +1393,7 @@
     "translation_fa": "جوراب",
     "translation_en": "sock",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/socke.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1405,7 +1405,7 @@
     "translation_fa": "چکمه",
     "translation_en": "boot",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stiefel.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1417,7 +1417,7 @@
     "translation_fa": "شال",
     "translation_en": "scarf",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schal.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1429,7 +1429,7 @@
     "translation_fa": "کلاه (گرم)",
     "translation_en": "beanie / cap",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mütze.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1441,7 +1441,7 @@
     "translation_fa": "کلاه",
     "translation_en": "hat",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hut.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1453,7 +1453,7 @@
     "translation_fa": "دستکش",
     "translation_en": "glove",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/handschuh.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1465,7 +1465,7 @@
     "translation_fa": "عینک",
     "translation_en": "glasses",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/brille.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1477,7 +1477,7 @@
     "translation_fa": "رنگ",
     "translation_en": "color",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/farbe.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1489,7 +1489,7 @@
     "translation_fa": "زرد",
     "translation_en": "yellow",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/gelb.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1500,7 +1500,7 @@
     "translation_fa": "آبی",
     "translation_en": "blue",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/blau.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1511,7 +1511,7 @@
     "translation_fa": "سبز",
     "translation_en": "green",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/grün.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1522,7 +1522,7 @@
     "translation_fa": "قرمز",
     "translation_en": "red",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/rot.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1533,7 +1533,7 @@
     "translation_fa": "مشکی",
     "translation_en": "black",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schwarz.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1544,7 +1544,7 @@
     "translation_fa": "سفید",
     "translation_en": "white",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/weiß.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1555,7 +1555,7 @@
     "translation_fa": "خاکستری",
     "translation_en": "gray",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/grau.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1566,7 +1566,7 @@
     "translation_fa": "قهوه‌ای",
     "translation_en": "brown",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/braun.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1577,7 +1577,7 @@
     "translation_fa": "پوشیدن",
     "translation_en": "to wear",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/tragen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1588,7 +1588,7 @@
     "translation_fa": "پوشیدن برای امتحان",
     "translation_en": "to try on",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/anprobieren.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1599,7 +1599,7 @@
     "translation_fa": "به کسی آمدن (لباس)",
     "translation_en": "to suit (clothes)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stehen_(kleidung).mp3",
     "image": "",
     "category": "A1"
   },
@@ -1610,7 +1610,7 @@
     "translation_fa": "اندازه بودن",
     "translation_en": "to fit",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/passen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1621,7 +1621,7 @@
     "translation_fa": "ارزان",
     "translation_en": "cheap",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/billig.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1632,7 +1632,7 @@
     "translation_fa": "سایز",
     "translation_en": "size",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/größe.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1644,7 +1644,7 @@
     "translation_fa": "اتاق پرو",
     "translation_en": "changing room",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/umkleidekabine.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1656,7 +1656,7 @@
     "translation_fa": "پرداخت نقدی",
     "translation_en": "to pay cash",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bar_bezahlen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1667,7 +1667,7 @@
     "translation_fa": "پرداخت با کارت",
     "translation_en": "to pay by card",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mit_karte_bezahlen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1678,7 +1678,7 @@
     "translation_fa": "قطار / راه‌آهن",
     "translation_en": "train / railway",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bahn.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1690,7 +1690,7 @@
     "translation_fa": "تاکسی",
     "translation_en": "taxi",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/taxi.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -1702,7 +1702,7 @@
     "translation_fa": "فرودگاه",
     "translation_en": "airport",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/flughafen.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1714,7 +1714,7 @@
     "translation_fa": "بلیط",
     "translation_en": "ticket",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fahrkarte.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1726,7 +1726,7 @@
     "translation_fa": "تاخیر",
     "translation_en": "delay",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verspätung.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1738,7 +1738,7 @@
     "translation_fa": "به‌موقع",
     "translation_en": "on time / punctual",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/pünktlich.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1749,7 +1749,7 @@
     "translation_fa": "پیچیدن",
     "translation_en": "to turn",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/abbiegen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1760,7 +1760,7 @@
     "translation_fa": "پل",
     "translation_en": "bridge",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/brücke.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1772,7 +1772,7 @@
     "translation_fa": "اداره پست",
     "translation_en": "post office",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/post.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1784,7 +1784,7 @@
     "translation_fa": "بانک",
     "translation_en": "bank",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bank.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1796,7 +1796,7 @@
     "translation_fa": "پلیس",
     "translation_en": "police",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/polizei.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1808,7 +1808,7 @@
     "translation_fa": "نقشهٔ شهر",
     "translation_en": "city map",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stadtplan.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1820,7 +1820,7 @@
     "translation_fa": "نشان دادن",
     "translation_en": "to show",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zeigen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1831,7 +1831,7 @@
     "translation_fa": "رزرو کردن",
     "translation_en": "to reserve",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/reservieren.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1842,7 +1842,7 @@
     "translation_fa": "رزرو کردن",
     "translation_en": "to book",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/buchen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1853,7 +1853,7 @@
     "translation_fa": "لطفاً بلیط!",
     "translation_en": "The ticket, please!",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/die_fahrkarte,_bitte!.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1864,7 +1864,7 @@
     "translation_fa": "چطور به ... بروم؟",
     "translation_en": "How do I get to ...?",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/wie_komme_ich_zu.mp3",
     "image": "",
     "category": "A1"
   },
@@ -1875,7 +1875,7 @@
     "translation_fa": "سر",
     "translation_en": "head",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kopf.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1887,7 +1887,7 @@
     "translation_fa": "صورت",
     "translation_en": "face",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/gesicht.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -1899,7 +1899,7 @@
     "translation_fa": "چشم",
     "translation_en": "eye",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/auge.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -1911,7 +1911,7 @@
     "translation_fa": "گوش",
     "translation_en": "ear",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ohr.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -1923,7 +1923,7 @@
     "translation_fa": "بینی",
     "translation_en": "nose",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/nase.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1935,7 +1935,7 @@
     "translation_fa": "دهان",
     "translation_en": "mouth",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mund.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1947,7 +1947,7 @@
     "translation_fa": "دندان",
     "translation_en": "tooth",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zahn.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1959,7 +1959,7 @@
     "translation_fa": "گردن / گلو",
     "translation_en": "neck / throat",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hals.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1971,7 +1971,7 @@
     "translation_fa": "شانه",
     "translation_en": "shoulder",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schulter.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -1983,7 +1983,7 @@
     "translation_fa": "بازو",
     "translation_en": "arm",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arm.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -1995,7 +1995,7 @@
     "translation_fa": "آرنج",
     "translation_en": "elbow",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ellbogen.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -2007,7 +2007,7 @@
     "translation_fa": "دست",
     "translation_en": "hand",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hand.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -2019,7 +2019,7 @@
     "translation_fa": "انگشت",
     "translation_en": "finger",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/finger.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -2031,7 +2031,7 @@
     "translation_fa": "پا (از ران تا مچ)",
     "translation_en": "leg",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bein.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -2043,7 +2043,7 @@
     "translation_fa": "زانو",
     "translation_en": "knee",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/knie.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -2055,7 +2055,7 @@
     "translation_fa": "پا (کف پا)",
     "translation_en": "foot",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fuß.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -2067,7 +2067,7 @@
     "translation_fa": "کمر / پشت",
     "translation_en": "back",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/rücken.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -2079,7 +2079,7 @@
     "translation_fa": "شکم",
     "translation_en": "stomach / belly",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bauch.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -2091,7 +2091,7 @@
     "translation_fa": "درد داشتن",
     "translation_en": "to hurt",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/weh_tun.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2102,7 +2102,7 @@
     "translation_fa": "دردها",
     "translation_en": "pains",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schmerzen.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -2114,7 +2114,7 @@
     "translation_fa": "سردرد",
     "translation_en": "headache",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kopfschmerzen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2125,7 +2125,7 @@
     "translation_fa": "گلودرد",
     "translation_en": "sore throat",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/halsschmerzen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2136,7 +2136,7 @@
     "translation_fa": "تب",
     "translation_en": "fever",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fieber.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2147,7 +2147,7 @@
     "translation_fa": "سرفه",
     "translation_en": "cough",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/husten.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2158,7 +2158,7 @@
     "translation_fa": "آبریزش بینی",
     "translation_en": "runny nose / cold",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schnupfen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2169,7 +2169,7 @@
     "translation_fa": "سرماخوردگی",
     "translation_en": "cold (illness)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/erkältung.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2180,7 +2180,7 @@
     "translation_fa": "بیمار",
     "translation_en": "sick / ill",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krank.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2191,7 +2191,7 @@
     "translation_fa": "دارو",
     "translation_en": "medicine",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/medizin.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -2203,7 +2203,7 @@
     "translation_fa": "دارو",
     "translation_en": "medication",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/medikament.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -2215,7 +2215,7 @@
     "translation_fa": "رفتن نزد دکتر",
     "translation_en": "to go to the doctor",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zum_arzt_gehen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2226,7 +2226,7 @@
     "translation_fa": "نسخه",
     "translation_en": "prescription",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/rezept.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -2238,7 +2238,7 @@
     "translation_fa": "قرص",
     "translation_en": "pill / tablet",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/tablette.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -2250,7 +2250,7 @@
     "translation_fa": "پماد",
     "translation_en": "ointment",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/salbe.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -2262,7 +2262,7 @@
     "translation_fa": "مصرف کردن",
     "translation_en": "to take (medicine)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/einnehmen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2273,7 +2273,7 @@
     "translation_fa": "روزانه سه بار",
     "translation_en": "three times daily",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/dreimal_täglich.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2284,7 +2284,7 @@
     "translation_fa": "منظم",
     "translation_en": "regularly",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/regelmäßig.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2295,7 +2295,7 @@
     "translation_fa": "آب زیاد نوشیدن",
     "translation_en": "drink plenty of water",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/viel_wasser_trinken.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2306,7 +2306,7 @@
     "translation_fa": "آرامش گرفتن / ریلکس کردن",
     "translation_en": "to relax",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/sich_entspannen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2317,7 +2317,7 @@
     "translation_fa": "خواب",
     "translation_en": "sleep",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schlaf.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2328,7 +2328,7 @@
     "translation_fa": "هوای تازه",
     "translation_en": "fresh air",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/frische_luft.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2339,7 +2339,7 @@
     "translation_fa": "پیاده‌روی کردن",
     "translation_en": "to go for a walk",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/spazieren_gehen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2350,7 +2350,7 @@
     "translation_fa": "استراحت کردن",
     "translation_en": "to rest",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/sich_ausruhen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2361,7 +2361,7 @@
     "translation_fa": "جشن",
     "translation_en": "celebration / festival",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fest.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -2373,7 +2373,7 @@
     "translation_fa": "مهمانی / پارتی",
     "translation_en": "party",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/party.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -2385,7 +2385,7 @@
     "translation_fa": "تولد",
     "translation_en": "birthday",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/geburtstag.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -2397,7 +2397,7 @@
     "translation_fa": "مهمان‌ها",
     "translation_en": "guests",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/gäste.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -2409,7 +2409,7 @@
     "translation_fa": "کادو",
     "translation_en": "gift",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/geschenk.mp3",
     "image": "",
     "category": "A1",
     "article": "das"
@@ -2421,7 +2421,7 @@
     "translation_fa": "جشن گرفتن",
     "translation_en": "to celebrate",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/feiern.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2432,7 +2432,7 @@
     "translation_fa": "تعطیلات رسمی",
     "translation_en": "public holiday",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/feiertag.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -2444,7 +2444,7 @@
     "translation_fa": "شب سال نو",
     "translation_en": "New Year's Eve",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/silvester.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2455,7 +2455,7 @@
     "translation_fa": "کریسمس",
     "translation_en": "Christmas",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/weihnachten.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2466,7 +2466,7 @@
     "translation_fa": "عید پاک",
     "translation_en": "Easter",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ostern.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2477,7 +2477,7 @@
     "translation_fa": "سال نو",
     "translation_en": "New Year",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/neujahr.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2488,7 +2488,7 @@
     "translation_fa": "دیدار",
     "translation_en": "visit",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/besuch.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -2500,7 +2500,7 @@
     "translation_fa": "دعوت کردن",
     "translation_en": "to invite",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/einladen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2511,7 +2511,7 @@
     "translation_fa": "لغو کردن",
     "translation_en": "to cancel",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/absagen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2522,7 +2522,7 @@
     "translation_fa": "به تعویق انداختن",
     "translation_en": "to postpone",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verschieben.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2533,7 +2533,7 @@
     "translation_fa": "هماهنگ کردن",
     "translation_en": "to arrange",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/vereinbaren.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2544,7 +2544,7 @@
     "translation_fa": "سورپرایز",
     "translation_en": "surprise",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/überraschung.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -2556,7 +2556,7 @@
     "translation_fa": "غافلگیر کردن",
     "translation_en": "to surprise",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/überraschen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2567,7 +2567,7 @@
     "translation_fa": "منو",
     "translation_en": "menu",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/speisekarte.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -2579,7 +2579,7 @@
     "translation_fa": "سفارش",
     "translation_en": "order",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bestellung.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -2591,7 +2591,7 @@
     "translation_fa": "سفارش دادن",
     "translation_en": "to order",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bestellen.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2602,7 +2602,7 @@
     "translation_fa": "نقد",
     "translation_en": "cash",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bar.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2613,7 +2613,7 @@
     "translation_fa": "با کارت",
     "translation_en": "by card",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mit_karte.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2624,7 +2624,7 @@
     "translation_fa": "گرسنگی",
     "translation_en": "hunger",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hunger.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -2636,7 +2636,7 @@
     "translation_fa": "تشنگی",
     "translation_en": "thirst",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/durst.mp3",
     "image": "",
     "category": "A1",
     "article": "der"
@@ -2648,7 +2648,7 @@
     "translation_fa": "امتحان کردن",
     "translation_en": "to try (food)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/probieren.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2659,7 +2659,7 @@
     "translation_fa": "کمک",
     "translation_en": "help",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hilfe.mp3",
     "image": "",
     "category": "A1",
     "article": "die"
@@ -2671,7 +2671,7 @@
     "translation_fa": "خیلی ممنون",
     "translation_en": "thank you very much",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/danke_schön.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2682,7 +2682,7 @@
     "translation_fa": "خواهش می‌کنم",
     "translation_en": "you're welcome",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bitte_schön.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2693,7 +2693,7 @@
     "translation_fa": "سال نو مبارک!",
     "translation_en": "Happy New Year! (lit. slide well)",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/guten_rutsch!.mp3",
     "image": "",
     "category": "A1"
   },
@@ -2704,7 +2704,7 @@
     "translation_fa": "تبریک!",
     "translation_en": "Congratulations!",
     "example": "",
-    "audio": "",
+    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/herzlichen_glückwunsch!.mp3",
     "image": "",
     "category": "A1"
   }

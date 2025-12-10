@@ -4,7 +4,7 @@ class VocabWord {
   final String translationEn;
   final String translationFa;
   final String? example;
-  final String? audio;
+  final String audio;
   final String image;
   final String? category;
   final String? level;
@@ -20,7 +20,7 @@ class VocabWord {
     required this.translationEn,
     required this.translationFa,
     this.example,
-    this.audio,
+    this.audio = '',
     required this.image,
     this.category,
     this.level,
@@ -35,7 +35,7 @@ class VocabWord {
       translationEn: json['translation_en'] ?? '',
       translationFa: json['translation_fa'] ?? '',
       example: json['example'] as String?,
-      audio: json['audio'] as String?,
+      audio: json['audio']?.toString() ?? '',
       image: json['image'] ?? '',
       category: json['category'] as String?,
       level: json['level'] as String?,
