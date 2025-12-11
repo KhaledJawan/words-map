@@ -221,6 +221,228 @@ abstract class AppLocalizations {
   /// **'Lessons'**
   String get lessonsTitle;
 
+  /// No description provided for @lessonBeginnerAlphabetTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Alphabet'**
+  String get lessonBeginnerAlphabetTitle;
+
+  /// No description provided for @lessonBeginnerReadingRulesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading rules'**
+  String get lessonBeginnerReadingRulesTitle;
+
+  /// No description provided for @lessonBeginnerPartsOfSpeechTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Parts of speech'**
+  String get lessonBeginnerPartsOfSpeechTitle;
+
+  /// No description provided for @lessonBeginnerHalloTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Hallo'**
+  String get lessonBeginnerHalloTitle;
+
+  /// No description provided for @lessonBeginnerAllAboutGermanTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'All about German'**
+  String get lessonBeginnerAllAboutGermanTitle;
+
+  /// No description provided for @lessonsCategoryBeginnerBasics.
+  ///
+  /// In en, this message translates to:
+  /// **'Beginner Basics'**
+  String get lessonsCategoryBeginnerBasics;
+
+  /// No description provided for @lessonsCategoryGrammar.
+  ///
+  /// In en, this message translates to:
+  /// **'Grammar'**
+  String get lessonsCategoryGrammar;
+
+  /// No description provided for @lessonsCategoryReadingListening.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading & Listening'**
+  String get lessonsCategoryReadingListening;
+
+  /// No description provided for @lessonsCategoryExamPractice.
+  ///
+  /// In en, this message translates to:
+  /// **'Exam Practice'**
+  String get lessonsCategoryExamPractice;
+
+  /// No description provided for @grammarLevelA1.
+  ///
+  /// In en, this message translates to:
+  /// **'A1 Grammar'**
+  String get grammarLevelA1;
+
+  /// No description provided for @grammarLevelA2.
+  ///
+  /// In en, this message translates to:
+  /// **'A2 Grammar'**
+  String get grammarLevelA2;
+
+  /// No description provided for @grammarLevelB1.
+  ///
+  /// In en, this message translates to:
+  /// **'B1 Grammar'**
+  String get grammarLevelB1;
+
+  /// No description provided for @grammarLevelB2.
+  ///
+  /// In en, this message translates to:
+  /// **'B2 Grammar'**
+  String get grammarLevelB2;
+
+  /// No description provided for @grammarLevelC1.
+  ///
+  /// In en, this message translates to:
+  /// **'C1 Grammar'**
+  String get grammarLevelC1;
+
+  /// No description provided for @grammarLevelLessonsCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{No lessons yet} =1{1 lesson} other{{count} lessons}}'**
+  String grammarLevelLessonsCount(num count);
+
+  /// No description provided for @lessonsStatusComingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming soon'**
+  String get lessonsStatusComingSoon;
+
+  /// No description provided for @lessonButtonNext.
+  ///
+  /// In en, this message translates to:
+  /// **'Next'**
+  String get lessonButtonNext;
+
+  /// No description provided for @slideAlphabetOverviewTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'German Alphabet – Overview'**
+  String get slideAlphabetOverviewTitle;
+
+  /// No description provided for @slideAlphabetVowelsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Vowels (A, E, I, O, U)'**
+  String get slideAlphabetVowelsTitle;
+
+  /// No description provided for @slideAlphabetUmlautTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Umlaut vowels (Ä, Ö, Ü)'**
+  String get slideAlphabetUmlautTitle;
+
+  /// No description provided for @slideAlphabetEsszettTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'ß – Eszett'**
+  String get slideAlphabetEsszettTitle;
+
+  /// No description provided for @slideReadingBasicRuleTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Basic reading rule – “ie” vs “ei”'**
+  String get slideReadingBasicRuleTitle;
+
+  /// No description provided for @slideReadingSchChSpStTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'“sch”, “ch” and “sp / st”'**
+  String get slideReadingSchChSpStTitle;
+
+  /// No description provided for @slideReadingCapitalLettersTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Capital letters (Nouns)'**
+  String get slideReadingCapitalLettersTitle;
+
+  /// No description provided for @slideReadingLongVsShortTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Long vs short vowels'**
+  String get slideReadingLongVsShortTitle;
+
+  /// No description provided for @slidePartsMainPartsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Main parts of speech'**
+  String get slidePartsMainPartsTitle;
+
+  /// No description provided for @slidePartsNounsGenderTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Nouns and gender'**
+  String get slidePartsNounsGenderTitle;
+
+  /// No description provided for @slidePartsVerbsInfinitiveTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Verbs in basic form (Infinitiv)'**
+  String get slidePartsVerbsInfinitiveTitle;
+
+  /// No description provided for @slidePartsAdjectivesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Adjectives – describing words'**
+  String get slidePartsAdjectivesTitle;
+
+  /// No description provided for @slideHalloBasicGreetingsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Basic greetings'**
+  String get slideHalloBasicGreetingsTitle;
+
+  /// No description provided for @slideHalloIntroducingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Introducing yourself'**
+  String get slideHalloIntroducingTitle;
+
+  /// No description provided for @slideHalloHowAreYouTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Asking “How are you?”'**
+  String get slideHalloHowAreYouTitle;
+
+  /// No description provided for @slideHalloPoliteWordsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Polite words'**
+  String get slideHalloPoliteWordsTitle;
+
+  /// No description provided for @slideGermanWhereSpokenTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Where is German spoken?'**
+  String get slideGermanWhereSpokenTitle;
+
+  /// No description provided for @slideGermanFormalInformalTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Formal vs informal “you”'**
+  String get slideGermanFormalInformalTitle;
+
+  /// No description provided for @slideGermanWordOrderTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Word order – basic idea'**
+  String get slideGermanWordOrderTitle;
+
+  /// No description provided for @slideGermanLongWordsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Don’t be afraid of long words'**
+  String get slideGermanLongWordsTitle;
+
   /// No description provided for @chapterOverview.
   ///
   /// In en, this message translates to:

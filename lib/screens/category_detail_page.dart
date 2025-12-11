@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:word_map_app/l10n/app_localizations.dart';
+import 'package:word_map_app/features/lessons/lesson_localization.dart';
 import 'package:word_map_app/features/lessons/lessons_repository.dart';
 import 'package:word_map_app/screens/grammar_level_page.dart';
 import 'package:word_map_app/screens/lesson_detail_page.dart';
@@ -83,7 +85,7 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
     );
   }
 
-  Widget _buildLevelCard(String level, List<LessonItem> lessons) {
+  Widget _buildLevelCard(String level, List<LessonItem> lessons, AppLocalizations loc) {
     final theme = Theme.of(context);
     final hasLessons = lessons.isNotEmpty;
     return Padding(
@@ -108,14 +110,16 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                '$level Grammar',
+                localizedGrammarLevelTitle(level, loc),
                 style: theme.textTheme.titleMedium?.copyWith(
                   fontWeight: FontWeight.w700,
                 ),
               ),
               const SizedBox(height: 6),
               Text(
-                hasLessons ? '${lessons.length} lessons' : 'Coming soon',
+                hasLessons
+                    ? localizedGrammarLevelLessonsCount(lessons.length, loc)
+                    : localizedLessonsStatusComingSoon(loc),
                 style: theme.textTheme.bodyMedium?.copyWith(
                   color: theme.textTheme.bodySmall?.color?.withOpacity(0.65),
                 ),
@@ -129,12 +133,15 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
 
   @override
   Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
     final isGrammar = widget.category.id == 'grammar';
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.category.title),
+        title: Text(
+          localizedCategoryTitle(widget.category.id, loc),
+        ),
       ),
-      body: isGrammar ? _buildGrammarLevelList() : _buildLessonList(),
+      body: isGrammar ? _buildGrammarLevelList(loc) : _buildLessonList(),
     );
   }
 
@@ -153,7 +160,7 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
     );
   }
 
-  Widget _buildGrammarLevelList() {
+  Widget _buildGrammarLevelList(AppLocalizations loc) {
     return ListView(
       padding: const EdgeInsets.all(16),
       children: _grammarLevelsOrder
@@ -161,6 +168,7 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
             (level) => _buildLevelCard(
               level,
               _grammarByLevel[level] ?? const [],
+              loc,
             ),
           )
           .toList(),

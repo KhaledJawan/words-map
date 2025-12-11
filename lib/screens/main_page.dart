@@ -6,6 +6,7 @@ import 'package:word_map_app/screens/words_list_screen.dart';
 import 'package:word_map_app/services/app_state.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:word_map_app/features/lessons/lesson_completion_repository.dart';
+import 'package:word_map_app/features/lessons/lesson_localization.dart';
 import 'package:word_map_app/features/lessons/lessons_repository.dart';
 import 'package:word_map_app/features/settings/settings_repository.dart';
 import 'package:word_map_app/screens/category_detail_page.dart';
@@ -157,7 +158,7 @@ class _LessonsTabState extends State<LessonsTab> {
         ...categories.map(
           (category) => Padding(
             padding: const EdgeInsets.only(bottom: 16),
-            child: _buildCategoryCard(category),
+            child: _buildCategoryCard(category, loc),
           ),
         ),
       ],
@@ -170,7 +171,7 @@ class _LessonsTabState extends State<LessonsTab> {
     }
   }
 
-  Widget _buildCategoryCard(LessonCategory category) {
+  Widget _buildCategoryCard(LessonCategory category, AppLocalizations loc) {
     final theme = Theme.of(context);
     final hasLessons = category.lessons.isNotEmpty;
     return InkWell(
@@ -203,7 +204,7 @@ class _LessonsTabState extends State<LessonsTab> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              category.title,
+              localizedCategoryTitle(category.id, loc),
               style: theme.textTheme.titleMedium?.copyWith(
                 fontWeight: FontWeight.w700,
               ),
@@ -218,7 +219,7 @@ class _LessonsTabState extends State<LessonsTab> {
             const SizedBox(height: 14),
             if (!hasLessons)
               Text(
-                'Coming soon',
+                localizedLessonsStatusComingSoon(loc),
                 style: theme.textTheme.bodySmall?.copyWith(
                   color: theme.textTheme.bodySmall?.color?.withOpacity(0.6),
                 ),

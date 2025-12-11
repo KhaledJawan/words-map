@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:word_map_app/l10n/app_localizations.dart';
+import 'package:word_map_app/features/lessons/lesson_localization.dart';
 import 'package:word_map_app/features/lessons/lessons_repository.dart';
 
 class LessonCard extends StatelessWidget {
@@ -17,6 +19,8 @@ class LessonCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final loc = AppLocalizations.of(context)!;
+    final title = localizedLessonTitle(lesson, loc);
     final backgroundColor = theme.colorScheme.surfaceContainerHighest;
     final iconColor = isCompleted ? Colors.green : Colors.grey;
     return Material(
@@ -38,7 +42,7 @@ class LessonCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      lesson.title,
+                      title,
                       style: theme.textTheme.bodyLarge?.copyWith(
                         fontWeight: FontWeight.w600,
                       ),

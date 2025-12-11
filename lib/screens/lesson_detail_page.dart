@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:word_map_app/features/lessons/lesson_completion_repository.dart';
+import 'package:word_map_app/features/lessons/lesson_localization.dart';
 import 'package:word_map_app/features/lessons/lessons_repository.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
 
@@ -46,6 +47,7 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
     final isLast = _currentSlideIndex == widget.lesson.slides.length - 1;
     final theme = Theme.of(context);
     final loc = AppLocalizations.of(context)!;
+    final lessonTitle = localizedLessonTitle(widget.lesson, loc);
     return Scaffold(
       body: SafeArea(
         child: Column(
@@ -62,7 +64,7 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
                   const SizedBox(width: 4),
                   Expanded(
                     child: Text(
-                      widget.lesson.title,
+                      lessonTitle,
                       style: theme.textTheme.titleMedium?.copyWith(
                             fontWeight: FontWeight.w700,
                           ),
@@ -75,23 +77,23 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 24),
-                child: SingleChildScrollView(
-                  physics: const BouncingScrollPhysics(),
-                  child: _buildSlideText(theme, slide),
-                ),
-              ),
+            child: SingleChildScrollView(
+              physics: const BouncingScrollPhysics(),
+              child: _buildSlideText(theme, slide, loc),
             ),
+          ),
+        ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24),
-              child: Column(
-                children: [
-                  if (!isLast)
-                    SizedBox(
+            child: Column(
+              children: [
+                if (!isLast)
+                  SizedBox(
                       width: double.infinity,
                       child: ElevatedButton(
                         style: _primaryButtonStyle(theme),
                         onPressed: _nextSlide,
-                        child: const Text('Next'),
+                        child: Text(loc.lessonButtonNext),
                       ),
                     ),
                   if (isLast) ...[
@@ -125,7 +127,7 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
     );
   }
 
-  Widget _buildSlideText(ThemeData theme, LessonSlide slide) {
+  Widget _buildSlideText(ThemeData theme, LessonSlide slide, AppLocalizations loc) {
     final parts = _splitSlideText(slide.text);
     final exampleText = parts.example?.trim();
     final hasExample = exampleText != null && exampleText.isNotEmpty;
@@ -140,14 +142,16 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
           color: theme.textTheme.bodyMedium?.color?.withOpacity(0.85),
         );
 
+    final slideTitle = localizedLessonSlideTitle(slide, loc);
+    final showTitle = slideTitle.isNotEmpty ? slideTitle : (slide.title ?? '');
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const SizedBox(height: 28),
-        if (slide.title != null) ...[
+        if (showTitle.isNotEmpty) ...[
           Center(
             child: Text(
-              slide.title!,
+              showTitle,
               style: theme.textTheme.headlineSmall?.copyWith(
                     fontWeight: FontWeight.w700,
                   ),

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:word_map_app/l10n/app_localizations.dart';
+import 'package:word_map_app/features/lessons/lesson_localization.dart';
 import 'package:word_map_app/features/lessons/lessons_repository.dart';
 import 'package:word_map_app/screens/lesson_detail_page.dart';
 import 'package:word_map_app/widgets/lesson_row.dart';
@@ -47,9 +49,10 @@ class _GrammarLevelPageState extends State<GrammarLevelPage> {
 
   @override
   Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
     return Scaffold(
       appBar: AppBar(
-        title: Text('${widget.level} Grammar'),
+        title: Text(localizedGrammarLevelTitle(widget.level, loc)),
       ),
       body: ListView.builder(
         padding: const EdgeInsets.all(16),
