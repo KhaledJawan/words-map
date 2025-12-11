@@ -6,6 +6,7 @@ import 'package:word_map_app/screens/words_list_screen.dart';
 import 'package:word_map_app/services/app_state.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:word_map_app/features/lessons/lessons_repository.dart';
+import 'package:word_map_app/screens/category_detail_page.dart';
 import 'package:word_map_app/screens/lesson_detail_page.dart';
 
 class MainPage extends StatefulWidget {
@@ -143,7 +144,7 @@ class _LessonsTabState extends State<LessonsTab> {
     });
   }
 
-  bool _isCompleted(LessonItem lesson) => _completion[lesson.id] ?? false;
+  bool _isCompletedById(String lessonId) => _completion[lessonId] ?? false;
 
   void _openLesson(LessonItem lesson) {
     Navigator.of(context).push(
@@ -178,91 +179,56 @@ class _LessonsTabState extends State<LessonsTab> {
   Widget _buildCategoryCard(LessonCategory category) {
     final theme = Theme.of(context);
     final hasLessons = category.lessons.isNotEmpty;
-    return Container(
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: theme.cardColor,
-        borderRadius: BorderRadius.circular(20),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.05),
-            blurRadius: 12,
-            offset: const Offset(0, 3),
-          ),
-        ],
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            category.title,
-            style: theme.textTheme.titleMedium?.copyWith(
-              fontWeight: FontWeight.w700,
+    return InkWell(
+      onTap: () {
+        Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (_) => CategoryDetailPage(
+              category: category,
+              isCompleted: (lessonId) => _isCompletedById(lessonId),
+              onLessonTap: _openLesson,
             ),
           ),
-          if (category.description != null) ...[
-            const SizedBox(height: 4),
-            Text(
-              category.description!,
-              style: theme.textTheme.bodyMedium,
+        );
+      },
+      borderRadius: BorderRadius.circular(20),
+      child: Container(
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: theme.cardColor,
+          borderRadius: BorderRadius.circular(20),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.05),
+              blurRadius: 12,
+              offset: const Offset(0, 3),
             ),
           ],
-          const SizedBox(height: 14),
-          if (hasLessons)
-            Column(
-              children: category.lessons
-                  .map((lesson) => _buildLessonRow(lesson))
-                  .toList(),
-            )
-          else
-            Text(
-              'Coming soon',
-              style: theme.textTheme.bodySmall?.copyWith(
-                color: theme.textTheme.bodySmall?.color?.withOpacity(0.6),
-              ),
-            ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildLessonRow(LessonItem lesson) {
-    final completed = _isCompleted(lesson);
-    final color = completed ? Colors.green : Colors.grey;
-    return InkWell(
-      onTap: () => _openLesson(lesson),
-      borderRadius: BorderRadius.circular(14),
-      child: Container(
-        margin: const EdgeInsets.only(bottom: 10),
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
-        decoration: BoxDecoration(
-          color: Theme.of(context).colorScheme.surfaceContainerHighest,
-          borderRadius: BorderRadius.circular(14),
         ),
-        child: Row(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    lesson.title,
-                    style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                  if (lesson.description != null)
-                    Text(
-                      lesson.description!,
-                      style: Theme.of(context).textTheme.bodySmall,
-                    ),
-                ],
+            Text(
+              category.title,
+              style: theme.textTheme.titleMedium?.copyWith(
+                fontWeight: FontWeight.w700,
               ),
             ),
-            Icon(
-              LucideIcons.checkCircle2,
-              color: color,
-            ),
+            if (category.description != null) ...[
+              const SizedBox(height: 4),
+              Text(
+                category.description!,
+                style: theme.textTheme.bodyMedium,
+              ),
+            ],
+            const SizedBox(height: 14),
+            if (!hasLessons)
+              Text(
+                'Coming soon',
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: theme.textTheme.bodySmall?.color?.withOpacity(0.6),
+                ),
+              ),
           ],
         ),
       ),
