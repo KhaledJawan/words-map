@@ -83,24 +83,24 @@ class _MainPageState extends State<MainPage> {
           bottomNavigationBar: BottomNavigationBar(
             currentIndex: _currentIndex,
             onTap: _selectTab,
-            items: const [
+            items: [
               BottomNavigationBarItem(
-                icon: Icon(
+                icon: const Icon(
                   LucideIcons.home,
                 ),
-                label: 'Home',
+                label: loc.tabHome,
               ),
               BottomNavigationBarItem(
-                icon: Icon(
+                icon: const Icon(
                   LucideIcons.bookOpenCheck,
                 ),
-                label: 'Lessons',
+                label: loc.tabLessons,
               ),
               BottomNavigationBarItem(
-                icon: Icon(
+                icon: const Icon(
                   LucideIcons.userCog,
                 ),
-                label: 'Profile',
+                label: loc.tabProfile,
               ),
             ],
           ),
@@ -145,16 +145,22 @@ class _LessonsTabState extends State<LessonsTab> {
       return const Center(child: CircularProgressIndicator());
     }
     final categories = LessonsRepository.categories;
-    return ListView.builder(
+    final loc = AppLocalizations.of(context)!;
+    return ListView(
       padding: const EdgeInsets.all(16),
-      itemCount: categories.length,
-      itemBuilder: (context, index) {
-        final category = categories[index];
-        return Padding(
-          padding: const EdgeInsets.only(bottom: 16),
-          child: _buildCategoryCard(category),
-        );
-      },
+      children: [
+        Text(
+          loc.lessonsTitle,
+          style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600),
+        ),
+        const SizedBox(height: 16),
+        ...categories.map(
+          (category) => Padding(
+            padding: const EdgeInsets.only(bottom: 16),
+            child: _buildCategoryCard(category),
+          ),
+        ),
+      ],
     );
   }
 
@@ -300,13 +306,14 @@ class _ProfileTabState extends State<ProfileTab> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final appState = context.watch<AppState>();
+    final loc = AppLocalizations.of(context)!;
     final languageCode = appState.appLocale?.languageCode ?? 'en';
     final currentTheme = appState.themeMode;
     return ListView(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
       children: [
         Text(
-          'Settings',
+          loc.settingsTitle,
           style: theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600),
         ),
         const SizedBox(height: 16),
@@ -315,25 +322,25 @@ class _ProfileTabState extends State<ProfileTab> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Language',
+                loc.settingsLanguage,
                 style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
               ),
               const SizedBox(height: 4),
               Text(
-                'App interface language',
+                loc.settingsLanguageDescription,
                 style: theme.textTheme.bodySmall,
               ),
               const SizedBox(height: 16),
               RadioListTile<String>(
                 value: 'en',
                 groupValue: languageCode,
-                title: const Text('English'),
+                title: Text(loc.settingsLanguageEnglish),
                 onChanged: _onLanguageChanged,
               ),
               RadioListTile<String>(
                 value: 'fa',
                 groupValue: languageCode,
-                title: const Text('Farsi'),
+                title: Text(loc.settingsLanguageFarsi),
                 onChanged: _onLanguageChanged,
               ),
             ],
@@ -345,31 +352,31 @@ class _ProfileTabState extends State<ProfileTab> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Theme',
+                loc.settingsTheme,
                 style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
               ),
               const SizedBox(height: 4),
               Text(
-                'Choose app appearance',
+                loc.settingsThemeDescription,
                 style: theme.textTheme.bodySmall,
               ),
               const SizedBox(height: 16),
               RadioListTile<ThemeMode>(
                 value: ThemeMode.system,
                 groupValue: currentTheme,
-                title: const Text('System default'),
+                title: Text(loc.settingsThemeSystem),
                 onChanged: _onThemeChanged,
               ),
               RadioListTile<ThemeMode>(
                 value: ThemeMode.light,
                 groupValue: currentTheme,
-                title: const Text('Light'),
+                title: Text(loc.settingsThemeLight),
                 onChanged: _onThemeChanged,
               ),
               RadioListTile<ThemeMode>(
                 value: ThemeMode.dark,
                 groupValue: currentTheme,
-                title: const Text('Dark'),
+                title: Text(loc.settingsThemeDark),
                 onChanged: _onThemeChanged,
               ),
             ],
@@ -381,24 +388,24 @@ class _ProfileTabState extends State<ProfileTab> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Notifications & Reminders',
+                loc.settingsNotificationsTitle,
                 style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
               ),
               const SizedBox(height: 4),
               Text(
-                'App alerts and daily check-ins',
+                loc.settingsNotificationsDescription,
                 style: theme.textTheme.bodySmall,
               ),
               const SizedBox(height: 12),
               SwitchListTile(
                 value: _appNotifications,
                 onChanged: _loadingSwitches ? null : _onNotificationsChanged,
-                title: const Text('App notifications'),
+                title: Text(loc.settingsNotifications),
               ),
               SwitchListTile(
                 value: _dailyReminder,
                 onChanged: _loadingSwitches ? null : _onReminderChanged,
-                title: const Text('Daily reminder'),
+                title: Text(loc.settingsDailyReminder),
               ),
             ],
           ),

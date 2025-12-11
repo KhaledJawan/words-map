@@ -1,13 +1,37 @@
 {
   "settingsTitle": "Settings",
   "settingsChangeLanguage": "Change Language",
+  "tabHome": "Home",
+  "tabLessons": "Lessons",
+  "tabProfile": "Profile",
   "totalWordsLabel": "Total words",
   "settingsLanguageFarsi": "فارسی",
   "loadWordsFailed": "Failed to load words.",
   "settingsSelectLanguageTitle": "Select language",
-  "chapterOverview": "Chapter overview",
+  "settingsLanguage": "Language",
+  "settingsLanguageDescription": "App interface language",
+  "settingsTheme": "Theme",
+  "settingsThemeDescription": "Choose app appearance",
+  "settingsThemeSystem": "System default",
+  "settingsThemeLight": "Light mode",
+  "settingsThemeDark": "Dark mode",
+  "settingsNotificationsTitle": "Notifications & Reminders",
+  "settingsNotifications": "App notifications",
+  "settingsNotificationsDescription": "App alerts and daily check-ins",
+  "settingsDailyReminder": "Daily reminder",
+  "lessonsTitle": "Lessons",
+  "chapterOverview": "Chapter {chapter} overview",
+  "@chapterOverview": {
+    "placeholders": {
+      "chapter": {}
+    }
+  },
+  "chooseChapter": "Choose your chapter",
   "chapterEmptyState": "No words in this chapter yet.",
   "bookmarkedLabel": "Bookmarked",
   "settingsLanguageEnglish": "English",
-  "viewedLabel": "Viewed"
+  "viewedLabel": "Viewed",
+  "lessonCompleted": "Completed",
+  "lessonRepeat": "Repeat",
+  "lessonRepeatAgain": "Repeat again"
 }

@@ -95,42 +95,6 @@ abstract class AppLocalizations {
     Locale('fa')
   ];
 
-  /// No description provided for @appTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Word Map'**
-  String get appTitle;
-
-  /// No description provided for @wordMapTitleWithLevel.
-  ///
-  /// In en, this message translates to:
-  /// **'{level} Words'**
-  String wordMapTitleWithLevel(Object level);
-
-  /// No description provided for @barrierWordDetails.
-  ///
-  /// In en, this message translates to:
-  /// **'Word details'**
-  String get barrierWordDetails;
-
-  /// No description provided for @dialogExampleHeading.
-  ///
-  /// In en, this message translates to:
-  /// **'Example'**
-  String get dialogExampleHeading;
-
-  /// No description provided for @dialogExampleMissing.
-  ///
-  /// In en, this message translates to:
-  /// **'No example yet'**
-  String get dialogExampleMissing;
-
-  /// No description provided for @dialogExampleTranslationMissing.
-  ///
-  /// In en, this message translates to:
-  /// **'No translated example'**
-  String get dialogExampleTranslationMissing;
-
   /// No description provided for @settingsTitle.
   ///
   /// In en, this message translates to:
@@ -143,23 +107,29 @@ abstract class AppLocalizations {
   /// **'Change Language'**
   String get settingsChangeLanguage;
 
-  /// No description provided for @settingsChangeTheme.
+  /// No description provided for @tabHome.
   ///
   /// In en, this message translates to:
-  /// **'Change Theme'**
-  String get settingsChangeTheme;
+  /// **'Home'**
+  String get tabHome;
 
-  /// No description provided for @settingsSignOut.
+  /// No description provided for @tabLessons.
   ///
   /// In en, this message translates to:
-  /// **'Sign out / Sign in'**
-  String get settingsSignOut;
+  /// **'Lessons'**
+  String get tabLessons;
 
-  /// No description provided for @settingsLanguageEnglish.
+  /// No description provided for @tabProfile.
   ///
   /// In en, this message translates to:
-  /// **'English'**
-  String get settingsLanguageEnglish;
+  /// **'Profile'**
+  String get tabProfile;
+
+  /// No description provided for @totalWordsLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Total words'**
+  String get totalWordsLabel;
 
   /// No description provided for @settingsLanguageFarsi.
   ///
@@ -167,137 +137,11 @@ abstract class AppLocalizations {
   /// **'فارسی'**
   String get settingsLanguageFarsi;
 
-  /// No description provided for @settingsThemeLight.
+  /// No description provided for @loadWordsFailed.
   ///
   /// In en, this message translates to:
-  /// **'Light Mode'**
-  String get settingsThemeLight;
-
-  /// No description provided for @settingsThemeDark.
-  ///
-  /// In en, this message translates to:
-  /// **'Dark Mode'**
-  String get settingsThemeDark;
-
-  /// No description provided for @settingsSignOutConfirmTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Sign out?'**
-  String get settingsSignOutConfirmTitle;
-
-  /// No description provided for @settingsSignOutConfirmMessage.
-  ///
-  /// In en, this message translates to:
-  /// **'Are you sure you want to sign out?'**
-  String get settingsSignOutConfirmMessage;
-
-  /// No description provided for @settingsCancel.
-  ///
-  /// In en, this message translates to:
-  /// **'Cancel'**
-  String get settingsCancel;
-
-  /// No description provided for @settingsSignOutAction.
-  ///
-  /// In en, this message translates to:
-  /// **'Sign out'**
-  String get settingsSignOutAction;
-
-  /// No description provided for @wordLevelsTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Word Levels'**
-  String get wordLevelsTitle;
-
-  /// No description provided for @onboardingTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Welcome to Word Map'**
-  String get onboardingTitle;
-
-  /// No description provided for @onboardingSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Set your language to personalize translations.'**
-  String get onboardingSubtitle;
-
-  /// No description provided for @onboardingMyLanguage.
-  ///
-  /// In en, this message translates to:
-  /// **'My language'**
-  String get onboardingMyLanguage;
-
-  /// No description provided for @onboardingSelectLanguage.
-  ///
-  /// In en, this message translates to:
-  /// **'Select your language'**
-  String get onboardingSelectLanguage;
-
-  /// No description provided for @onboardingILearn.
-  ///
-  /// In en, this message translates to:
-  /// **'I learn'**
-  String get onboardingILearn;
-
-  /// No description provided for @onboardingContinue.
-  ///
-  /// In en, this message translates to:
-  /// **'Continue'**
-  String get onboardingContinue;
-
-  /// No description provided for @onboardingChangeLater.
-  ///
-  /// In en, this message translates to:
-  /// **'You can change this later in settings.'**
-  String get onboardingChangeLater;
-
-  /// No description provided for @languageEnglish.
-  ///
-  /// In en, this message translates to:
-  /// **'English'**
-  String get languageEnglish;
-
-  /// No description provided for @languageGerman.
-  ///
-  /// In en, this message translates to:
-  /// **''**
-  String get languageGerman;
-
-  /// No description provided for @languageFarsi.
-  ///
-  /// In en, this message translates to:
-  /// **'فارسی'**
-  String get languageFarsi;
-
-  /// No description provided for @languageArabic.
-  ///
-  /// In en, this message translates to:
-  /// **'Arabic'**
-  String get languageArabic;
-
-  /// No description provided for @languageSpanish.
-  ///
-  /// In en, this message translates to:
-  /// **'Spanish'**
-  String get languageSpanish;
-
-  /// No description provided for @languageFrench.
-  ///
-  /// In en, this message translates to:
-  /// **'French'**
-  String get languageFrench;
-
-  /// No description provided for @languageTurkish.
-  ///
-  /// In en, this message translates to:
-  /// **'Turkish'**
-  String get languageTurkish;
-
-  /// No description provided for @learningLanguageGerman.
-  ///
-  /// In en, this message translates to:
-  /// **''**
-  String get learningLanguageGerman;
+  /// **'Failed to load words.'**
+  String get loadWordsFailed;
 
   /// No description provided for @settingsSelectLanguageTitle.
   ///
@@ -305,182 +149,131 @@ abstract class AppLocalizations {
   /// **'Select language'**
   String get settingsSelectLanguageTitle;
 
-  /// No description provided for @settingsSelectThemeTitle.
+  /// No description provided for @settingsLanguage.
   ///
   /// In en, this message translates to:
-  /// **'Select theme'**
-  String get settingsSelectThemeTitle;
+  /// **'Language'**
+  String get settingsLanguage;
 
-  /// No description provided for @settingsSignOutSuccess.
+  /// No description provided for @settingsLanguageDescription.
   ///
   /// In en, this message translates to:
-  /// **'Signed out'**
-  String get settingsSignOutSuccess;
+  /// **'App interface language'**
+  String get settingsLanguageDescription;
 
-  /// No description provided for @settingsSignOutFailed.
+  /// No description provided for @settingsTheme.
   ///
   /// In en, this message translates to:
-  /// **'Sign out failed: {error}'**
-  String settingsSignOutFailed(String error);
+  /// **'Theme'**
+  String get settingsTheme;
 
-  /// No description provided for @authConnectTitle.
+  /// No description provided for @settingsThemeDescription.
   ///
   /// In en, this message translates to:
-  /// **'Connect your account'**
-  String get authConnectTitle;
+  /// **'Choose app appearance'**
+  String get settingsThemeDescription;
 
-  /// No description provided for @authSignInSubtitle.
+  /// No description provided for @settingsThemeSystem.
   ///
   /// In en, this message translates to:
-  /// **'Sign in to sync and recover your progress across devices.'**
-  String get authSignInSubtitle;
+  /// **'System default'**
+  String get settingsThemeSystem;
 
-  /// No description provided for @authOptionalNote.
+  /// No description provided for @settingsThemeLight.
   ///
   /// In en, this message translates to:
-  /// **'You can keep using Word Map without signing in. Connecting keeps your progress backed up.'**
-  String get authOptionalNote;
+  /// **'Light mode'**
+  String get settingsThemeLight;
 
-  /// No description provided for @authForgotPassword.
+  /// No description provided for @settingsThemeDark.
   ///
   /// In en, this message translates to:
-  /// **'Forgot password?'**
-  String get authForgotPassword;
+  /// **'Dark mode'**
+  String get settingsThemeDark;
 
-  /// No description provided for @authOrSeparator.
+  /// No description provided for @settingsNotificationsTitle.
   ///
   /// In en, this message translates to:
-  /// **'OR'**
-  String get authOrSeparator;
+  /// **'Notifications & Reminders'**
+  String get settingsNotificationsTitle;
 
-  /// No description provided for @authSignInWithEmail.
+  /// No description provided for @settingsNotifications.
   ///
   /// In en, this message translates to:
-  /// **'Sign in with email'**
-  String get authSignInWithEmail;
+  /// **'App notifications'**
+  String get settingsNotifications;
 
-  /// No description provided for @authSignInWithApple.
+  /// No description provided for @settingsNotificationsDescription.
   ///
   /// In en, this message translates to:
-  /// **'Sign in with Apple'**
-  String get authSignInWithApple;
+  /// **'App alerts and daily check-ins'**
+  String get settingsNotificationsDescription;
 
-  /// No description provided for @authNoAccountCta.
+  /// No description provided for @settingsDailyReminder.
   ///
   /// In en, this message translates to:
-  /// **'Don’t have an account? Sign up'**
-  String get authNoAccountCta;
+  /// **'Daily reminder'**
+  String get settingsDailyReminder;
 
-  /// No description provided for @loginSkipTitle.
+  /// No description provided for @lessonsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Get started'**
-  String get loginSkipTitle;
+  /// **'Lessons'**
+  String get lessonsTitle;
 
-  /// No description provided for @loginSkipSubtitle.
+  /// No description provided for @chapterOverview.
   ///
   /// In en, this message translates to:
-  /// **'Sign in to sync progress, or continue without an account.'**
-  String get loginSkipSubtitle;
-
-  /// No description provided for @loginSkipLogin.
-  ///
-  /// In en, this message translates to:
-  /// **'Log in / Sign up'**
-  String get loginSkipLogin;
-
-  /// No description provided for @loginSkipContinue.
-  ///
-  /// In en, this message translates to:
-  /// **'Continue without account'**
-  String get loginSkipContinue;
-
-  /// No description provided for @loginComingSoonTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Login coming soon'**
-  String get loginComingSoonTitle;
-
-  /// No description provided for @loginComingSoonSubtitle.
-  ///
-  /// In en, this message translates to:
-  /// **'We are building authentication. Continue without an account for now.'**
-  String get loginComingSoonSubtitle;
-
-  /// No description provided for @loginComingSoonGoToMap.
-  ///
-  /// In en, this message translates to:
-  /// **'Go to Word Map'**
-  String get loginComingSoonGoToMap;
-
-  /// **'Couldn’t load words'**
-  String get loadWordsFailed;
-
-  /// **'No words in this chapter yet.'**
-  String get chapterEmptyState;
-
-  /// **'Profile & settings'**
-  String get profileTitle;
-
-  /// **'Sort words'**
-  String get sortWords;
-
-  /// **'Reset this chapter'**
-  String get resetChapter;
-
   /// **'Chapter {chapter} overview'**
-  String chapterOverview(String chapter);
+  String chapterOverview(Object chapter);
 
-  /// **'Total words'**
-  String get totalWordsLabel;
-
-  /// **'Bookmarked'**
-  String get bookmarkedLabel;
-
-  /// **'Viewed'**
-  String get viewedLabel;
-
-  /// **'Chapter {chapter} reset'**
-  String chapterReset(String chapter);
-
+  /// No description provided for @chooseChapter.
+  ///
+  /// In en, this message translates to:
   /// **'Choose your chapter'**
   String get chooseChapter;
 
-  /// No description provided for @wordDetailsHeading.
+  /// No description provided for @chapterEmptyState.
   ///
   /// In en, this message translates to:
-  /// **'Word details'**
-  String get wordDetailsHeading;
+  /// **'No words in this chapter yet.'**
+  String get chapterEmptyState;
 
-  /// No description provided for @authEmail.
+  /// No description provided for @bookmarkedLabel.
   ///
   /// In en, this message translates to:
-  /// **'Email'**
-  String get authEmail;
+  /// **'Bookmarked'**
+  String get bookmarkedLabel;
 
-  /// No description provided for @authPassword.
+  /// No description provided for @settingsLanguageEnglish.
   ///
   /// In en, this message translates to:
-  /// **'Password'**
-  String get authPassword;
+  /// **'English'**
+  String get settingsLanguageEnglish;
 
-  /// No description provided for @authSignIn.
+  /// No description provided for @viewedLabel.
   ///
   /// In en, this message translates to:
-  /// **'Sign in'**
-  String get authSignIn;
+  /// **'Viewed'**
+  String get viewedLabel;
 
-  /// No description provided for @authSignUp.
+  /// No description provided for @lessonCompleted.
   ///
   /// In en, this message translates to:
-  /// **'Sign up'**
-  String get authSignUp;
+  /// **'Completed'**
+  String get lessonCompleted;
 
-  /// No description provided for @authSignInWithGoogle.
+  /// No description provided for @lessonRepeat.
   ///
   /// In en, this message translates to:
-  /// **'Sign in with Google'**
-  String get authSignInWithGoogle;
+  /// **'Repeat'**
+  String get lessonRepeat;
+
+  /// No description provided for @lessonRepeatAgain.
+  ///
+  /// In en, this message translates to:
+  /// **'Repeat again'**
+  String get lessonRepeatAgain;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

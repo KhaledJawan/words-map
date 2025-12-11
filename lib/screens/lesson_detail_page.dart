@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:word_map_app/features/lessons/lesson_completion_repository.dart';
 import 'package:word_map_app/features/lessons/lessons_repository.dart';
+import 'package:word_map_app/l10n/app_localizations.dart';
 
 class LessonDetailPage extends StatefulWidget {
   const LessonDetailPage({
@@ -44,6 +45,7 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
     final slide = widget.lesson.slides[_currentSlideIndex];
     final isLast = _currentSlideIndex == widget.lesson.slides.length - 1;
     final theme = Theme.of(context);
+    final loc = AppLocalizations.of(context)!;
     return Scaffold(
       body: SafeArea(
         child: Column(
@@ -99,7 +101,7 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
                           child: ElevatedButton(
                             style: _primaryButtonStyle(theme, backgroundColor: Colors.green),
                             onPressed: _completeLesson,
-                            child: const Text('Completed'),
+                            child: Text(loc.lessonCompleted),
                           ),
                         ),
                         const SizedBox(width: 12),
@@ -107,7 +109,7 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
                           child: OutlinedButton(
                             style: _secondaryButtonStyle(theme),
                             onPressed: _repeatLesson,
-                            child: const Text('Repeat again'),
+                            child: Text(loc.lessonRepeatAgain),
                           ),
                         ),
                       ],
