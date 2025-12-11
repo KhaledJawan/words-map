@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 import 'package:provider/provider.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
 import 'package:word_map_app/services/app_state.dart';
@@ -24,10 +25,10 @@ class SettingsScreen extends StatelessWidget {
               ),
             ),
             ListTile(
-              leading: const Icon(Icons.language),
+              leading: const Icon(LucideIcons.globe),
               title: Text(loc.settingsLanguageEnglish),
               trailing: appState.appLocale?.languageCode == 'en'
-                  ? Icon(Icons.check, color: Theme.of(context).colorScheme.primary)
+                  ? Icon(LucideIcons.check, color: Theme.of(context).colorScheme.primary)
                   : null,
               onTap: () {
                 appState.changeLocale(const Locale('en'));
@@ -35,10 +36,10 @@ class SettingsScreen extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.translate),
+              leading: const Icon(LucideIcons.languages),
               title: Text(loc.settingsLanguageFarsi),
               trailing: appState.appLocale?.languageCode == 'fa'
-                  ? Icon(Icons.check, color: Theme.of(context).colorScheme.primary)
+                  ? Icon(LucideIcons.check, color: Theme.of(context).colorScheme.primary)
                   : null,
               onTap: () {
                 appState.changeLocale(const Locale('fa'));
@@ -57,17 +58,27 @@ class SettingsScreen extends StatelessWidget {
     final loc = AppLocalizations.of(context)!;
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text(loc.settingsTitle),
-      ),
-      body: ListView(
-        children: <Widget>[
-          ListTile(
-            title: Text(loc.settingsChangeLanguage),
-            leading: const Icon(Icons.language),
-            onTap: () => _showLanguagePicker(context),
-          ),
-        ],
+      body: SafeArea(
+        child: ListView(
+          padding: const EdgeInsets.only(top: 16),
+          children: <Widget>[
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Text(
+                loc.settingsTitle,
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.w700,
+                    ),
+              ),
+            ),
+            const SizedBox(height: 16),
+            ListTile(
+              title: Text(loc.settingsChangeLanguage),
+              leading: const Icon(LucideIcons.globe),
+              onTap: () => _showLanguagePicker(context),
+            ),
+          ],
+        ),
       ),
     );
   }

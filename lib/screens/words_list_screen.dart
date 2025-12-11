@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:lucide_icons_flutter/lucide_icons.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 import 'package:provider/provider.dart';
 import 'package:word_map_app/models/vocab_word.dart';
 import 'package:word_map_app/models/word_progress.dart';
@@ -13,7 +13,6 @@ import 'package:word_map_app/services/progress_repository.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
 import 'package:word_map_app/widgets/word_detail_soft_card.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
-import 'package:word_map_app/theme_controller.dart';
 
 enum SortMode { defaultOrder, priorityGrouped }
 
@@ -79,20 +78,22 @@ class _WordsListScreenState extends State<WordsListScreen> {
           );
         }
         final data = snapshot.data!;
-        return WordsContent(
-          allWords: data.allWords,
-          initialProgress: data.progress,
-          initialLevel: data.lastLevel,
-          levels: data.levels,
-          repo: data.repo,
+        return Scaffold(
+          body: WordsHomeTab(
+            allWords: data.allWords,
+            initialProgress: data.progress,
+            initialLevel: data.lastLevel,
+            levels: data.levels,
+            repo: data.repo,
+          ),
         );
       },
     );
   }
 }
 
-class WordsContent extends StatefulWidget {
-  const WordsContent({
+class WordsHomeTab extends StatefulWidget {
+  const WordsHomeTab({
     super.key,
     required this.allWords,
     required this.initialProgress,
@@ -108,15 +109,15 @@ class WordsContent extends StatefulWidget {
   final ProgressRepository repo;
 
   @override
-  State<WordsContent> createState() => _WordsContentState();
+  State<WordsHomeTab> createState() => _WordsHomeTabState();
 }
 
-class _WordsContentState extends State<WordsContent> {
+class _WordsHomeTabState extends State<WordsHomeTab> {
   late Map<String, WordProgress> _progress;
   late Map<String, List<VocabWord>> _wordsByLevel;
   late String _currentLevel;
   List<VocabWord> _visibleWords = [];
-  SortMode _sortMode = SortMode.defaultOrder;
+  final SortMode _sortMode = SortMode.defaultOrder;
   Timer? _saveDebounce;
 
   @override
@@ -193,21 +194,6 @@ class _WordsContentState extends State<WordsContent> {
     _saveDebounce = Timer(const Duration(milliseconds: 400), () {
       widget.repo.saveProgress(_progress);
     });
-  }
-
-  Future<void> _resetCurrentLevel() async {
-    final levelWords = _wordsByLevel[_currentLevel] ?? [];
-    setState(() {
-      for (final w in levelWords) {
-        w.isBookmarked = false;
-        w.isViewed = false;
-      }
-      for (final w in levelWords) {
-        _progress.remove(w.id);
-      }
-      _setVisibleForLevel(_currentLevel, forceSort: true);
-    });
-    await widget.repo.saveProgress(_progress);
   }
 
   Future<void> _refreshAll() async {
@@ -351,8 +337,8 @@ class _WordsContentState extends State<WordsContent> {
                                       : null,
                                   icon: Icon(
                                     isPlayingThisWord
-                                        ? Icons.equalizer
-                                        : Icons.play_circle_fill,
+                                        ? LucideIcons.signalHigh
+                                        : LucideIcons.playCircle,
                                     color: iconColor,
                                   ),
                                 );
@@ -399,116 +385,90 @@ class _WordsContentState extends State<WordsContent> {
 
   @override
   Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
     final textTheme = Theme.of(context).textTheme;
     final appState = context.watch<AppState>();
-    final loc = AppLocalizations.of(context)!;
     final viewedCount =
         _visibleWords.where((w) => w.isViewed || w.isVisited).length;
 
-    return Scaffold(
-      appBar: PreferredSize(
-        preferredSize: const Size.fromHeight(kToolbarHeight),
-        child: Directionality(
-          textDirection: TextDirection.ltr,
-          child: AppBar(
-        automaticallyImplyLeading: false,
-        titleSpacing: 0,
-        backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
-        elevation: 0,
-        centerTitle: true,
-        leadingWidth: 104,
-        leading: Padding(
-          padding: const EdgeInsetsDirectional.only(start: 16),
-          child: Align(
-            alignment: Alignment.centerLeft,
-            child: Directionality(
-              textDirection: TextDirection.ltr,
-              child: GestureDetector(
-                behavior: HitTestBehavior.opaque,
-                onTap: () => _showCountsSheet(context),
-                child: Container(
-                  constraints:
-                      const BoxConstraints(minWidth: 44, minHeight: 44),
-                  padding: const EdgeInsets.all(8),
-                  decoration: BoxDecoration(
-                    color: Colors.black,
-                    shape: BoxShape.circle,
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        '$viewedCount',
-                        style: textTheme.bodySmall?.copyWith(
-                          fontWeight: FontWeight.w700,
-                          color: Colors.white,
-                        ),
-                      ),
-                      const SizedBox(height: 2),
-                      Text(
-                        '${_visibleWords.length}',
-                        style: textTheme.bodySmall?.copyWith(
-                          fontWeight: FontWeight.w600,
-                          color: Colors.white.withOpacity(0.8),
-                          fontSize: textTheme.bodySmall?.fontSize != null
-                              ? textTheme.bodySmall!.fontSize! - 1
-                              : null,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
+    return SafeArea(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Padding(
+            padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 8),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                _buildStatsBadge(textTheme, viewedCount),
+                const Spacer(),
+                _buildLevelButton(textTheme, appState),
+              ],
+            ),
+          ),
+          const SizedBox(height: 8),
+          Expanded(child: _buildWordsTab(textTheme)),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildStatsBadge(TextTheme textTheme, int viewedCount) {
+    return GestureDetector(
+      behavior: HitTestBehavior.opaque,
+      onTap: () => _showCountsSheet(context),
+      child: Container(
+        constraints: const BoxConstraints(minWidth: 44, minHeight: 44),
+        padding: const EdgeInsets.all(8),
+        decoration: BoxDecoration(
+          color: Colors.black,
+          shape: BoxShape.circle,
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              '$viewedCount',
+              style: textTheme.bodySmall?.copyWith(
+                fontWeight: FontWeight.w700,
+                color: Colors.white,
               ),
             ),
-          ),
-        ),
-        title: TextButton.icon(
-          onPressed: () => _showLevelPicker(context, appState),
-          style: TextButton.styleFrom(
-            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-            shape: const StadiumBorder(),
-            backgroundColor: Colors.black,
-            minimumSize: const Size(0, 44),
-          ),
-          icon: const Icon(LucideIcons.layers, color: Colors.white),
-          label: Text(
-            _currentLevel,
-            style: textTheme.titleMedium?.copyWith(
-              fontWeight: FontWeight.w800,
-              fontSize: (textTheme.titleMedium?.fontSize ?? 16) + 4,
-              color: Colors.white,
+            const SizedBox(height: 2),
+            Text(
+              '${_visibleWords.length}',
+              style: textTheme.bodySmall?.copyWith(
+                fontWeight: FontWeight.w600,
+                color: Colors.white.withOpacity(0.8),
+                fontSize: textTheme.bodySmall?.fontSize != null
+                    ? textTheme.bodySmall!.fontSize! - 1
+                    : null,
+              ),
             ),
-          ),
-        ),
-        actions: [
-          Padding(
-            padding: const EdgeInsetsDirectional.only(end: 8),
-            child: Directionality(
-              textDirection: TextDirection.ltr,
-              child: GestureDetector(
-                onTap: () {
-                  _showProfileSheet(context);
-                },
-                child: Container(
-                  constraints: const BoxConstraints(minWidth: 44, minHeight: 44),
-                  padding: const EdgeInsets.all(8),
-                  decoration: BoxDecoration(
-                      color: Colors.black,
-                      shape: BoxShape.circle,
-                    ),
-                  child: const Icon(LucideIcons.circleUserRound,
-                        size: 26, color: Colors.white),
-                  ),
-                ),
-            ),
-          ),
-        ],
-          ),
+          ],
         ),
       ),
-      body: _buildWordsTab(textTheme),
+    );
+  }
+
+  Widget _buildLevelButton(TextTheme textTheme, AppState appState) {
+    return TextButton.icon(
+      onPressed: () => _showLevelPicker(context, appState),
+      style: TextButton.styleFrom(
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+        shape: const StadiumBorder(),
+        backgroundColor: Colors.black,
+        minimumSize: const Size(0, 44),
+      ),
+      icon: const Icon(LucideIcons.layers, color: Colors.white),
+      label: Text(
+        _currentLevel,
+        style: textTheme.titleMedium?.copyWith(
+          fontWeight: FontWeight.w800,
+          fontSize: (textTheme.titleMedium?.fontSize ?? 16) + 4,
+          color: Colors.white,
+        ),
+      ),
     );
   }
 
@@ -540,132 +500,24 @@ class _WordsContentState extends State<WordsContent> {
     );
   }
 
-  Future<void> _showProfileSheet(BuildContext context) async {
-    final appState = context.read<AppState>();
-    final isDark = appThemeMode.value == ThemeMode.dark;
-    final loc = AppLocalizations.of(context)!;
-    await showModalBottomSheet<void>(
-      context: context,
-      isScrollControlled: true,
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
-      ),
-      builder: (context) {
-        return StatefulBuilder(
-          builder: (context, setSheetState) {
-            return SafeArea(
-              child: Padding(
-                padding: EdgeInsets.only(
-                  left: 16,
-                  right: 16,
-                  bottom: MediaQuery.of(context).viewInsets.bottom + 20,
-                  top: 20,
-                ),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Center(
-                      child: Text(
-                        loc.profileTitle,
-                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                              fontWeight: FontWeight.w700,
-                            ),
-                      ),
-                    ),
-                    const SizedBox(height: 16),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        _LangChipBorderless(
-                          label: 'English',
-                          selected: (appState.appLocale?.languageCode ?? 'en') == 'en',
-                          onTap: () {
-                            appState.changeLocale(const Locale('en'));
-                            Navigator.of(context).maybePop();
-                          },
-                        ),
-                        const SizedBox(width: 12),
-                        _LangChipBorderless(
-                          label: 'فارسی',
-                          selected: (appState.appLocale?.languageCode ?? 'en') == 'fa',
-                          onTap: () {
-                            appState.changeLocale(const Locale('fa'));
-                            Navigator.of(context).maybePop();
-                          },
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 16),
-                    SwitchListTile(
-                      contentPadding: EdgeInsets.zero,
-                      title: Text(loc.settingsThemeDark),
-                      value: isDark,
-                      onChanged: (val) {
-                        appThemeMode.value =
-                            val ? ThemeMode.dark : ThemeMode.light;
-                      },
-                      secondary: const Icon(LucideIcons.moon),
-                    ),
-                    ListTile(
-                      contentPadding: EdgeInsets.zero,
-                      leading: const Icon(LucideIcons.slidersHorizontal),
-                      title: Text(loc.sortWords),
-                      onTap: () async {
-                        setState(() {
-                          _sortMode = SortMode.priorityGrouped;
-                          _applySort();
-                        });
-                        if (mounted) Navigator.of(context).pop();
-                      },
-                    ),
-                    ListTile(
-                      contentPadding: EdgeInsets.zero,
-                      leading: const Icon(LucideIcons.refreshCw),
-                      title: Text(loc.resetChapter),
-                      subtitle: Text(_currentLevel),
-                      onTap: () async {
-                        await _resetCurrentLevel();
-                        if (mounted) {
-                          Navigator.of(context).pop();
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(
-                              content: Text(loc.chapterReset(_currentLevel)),
-                            ),
-                          );
-                        }
-                      },
-                    ),
-                    const SizedBox(height: 12),
-                  ],
-                ),
-              ),
-            );
-          },
-        );
-      },
-    );
-  }
-
   Widget _buildWordsTab(TextTheme textTheme) {
     final loc = AppLocalizations.of(context)!;
     if (_visibleWords.isEmpty) {
       return RefreshIndicator(
         onRefresh: _refreshAll,
         child: ListView(
-                  physics: const BouncingScrollPhysics(
-                      parent: AlwaysScrollableScrollPhysics()),
-                  padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
-                  children: [
-                    Padding(
-                      padding: const EdgeInsetsDirectional.only(top: 32),
-                      child: Text(
-                        loc.chapterEmptyState,
-                        style: textTheme.bodyLarge,
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                  ],
+          physics: const BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
+          padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
+          children: [
+            Padding(
+              padding: const EdgeInsetsDirectional.only(top: 32),
+              child: Text(
+                loc.chapterEmptyState,
+                style: textTheme.bodyLarge,
+                textAlign: TextAlign.center,
+              ),
+            ),
+          ],
         ),
       );
     }
@@ -673,12 +525,10 @@ class _WordsContentState extends State<WordsContent> {
     return RefreshIndicator(
       onRefresh: _refreshAll,
       child: CustomScrollView(
-        physics: const BouncingScrollPhysics(
-            parent: AlwaysScrollableScrollPhysics()),
+        physics: const BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
         slivers: [
           SliverPadding(
-            padding:
-                const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
+            padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
             sliver: SliverToBoxAdapter(
               child: _WordList(
                 words: _visibleWords,
@@ -689,59 +539,6 @@ class _WordsContentState extends State<WordsContent> {
           ),
         ],
       ),
-    );
-  }
-}
-
-class _LangChipBorderless extends StatelessWidget {
-  const _LangChipBorderless({
-    required this.label,
-    required this.selected,
-    required this.onTap,
-  });
-
-  final String label;
-  final bool selected;
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-    final textTheme = Theme.of(context).textTheme;
-    return TextButton(
-      onPressed: onTap,
-      style: TextButton.styleFrom(
-        padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
-        shape: const StadiumBorder(),
-        backgroundColor: selected ? cs.primary.withValues(alpha: 0.12) : Colors.transparent,
-        foregroundColor: selected ? cs.primary : cs.onSurface,
-      ),
-      child: Text(
-        label,
-        style: textTheme.labelLarge?.copyWith(
-          fontWeight: FontWeight.w700,
-        ),
-      ),
-    );
-  }
-}
-
-class _MiniActionChip extends StatelessWidget {
-  const _MiniActionChip({required this.label, required this.child});
-
-  final String label;
-  final Widget child;
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-    return Container(
-      padding: const EdgeInsets.all(12),
-      decoration: BoxDecoration(
-        color: cs.surface,
-        shape: BoxShape.circle,
-      ),
-      child: child,
     );
   }
 }

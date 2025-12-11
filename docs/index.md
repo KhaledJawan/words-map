@@ -53,6 +53,7 @@ AI must always follow:
 
 AI must follow:
 
+- Icon system: Only Lucide Icons are allowed. No Material Icons.
 - Only use containers defined in `/docs/app_schema.md`
 - Overlays like `(Word page)` are not new screens
 - Bottom navigation exists **only** in `[Main Page] -> [Bottom]`

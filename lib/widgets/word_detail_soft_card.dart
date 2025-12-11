@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 import 'package:word_map_app/ui/ios_card.dart';
 
 class WordDetailSoftCard extends StatelessWidget {
@@ -56,18 +57,18 @@ class WordDetailSoftCard extends StatelessWidget {
                 SizedBox(
                   height: 28,
                   width: 28,
-                  child: IconButton(
-                    padding: EdgeInsets.zero,
-                    constraints: const BoxConstraints(),
-                    iconSize: 22,
-                    icon: Icon(
-                      isBookmarked ? Icons.bookmark : Icons.bookmark_border,
-                      color: isBookmarked
-                          ? Theme.of(context).colorScheme.primary
-                          : Colors.grey[500],
-                    ),
-                    onPressed: onToggleBookmark,
+                child: IconButton(
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints(),
+                  iconSize: 22,
+                  icon: Icon(
+                    isBookmarked ? LucideIcons.bookmark : LucideIcons.bookmarkPlus,
+                    color: isBookmarked
+                        ? Theme.of(context).colorScheme.primary
+                        : Colors.grey[500],
                   ),
+                  onPressed: onToggleBookmark,
+                ),
                 ),
               ],
             ),

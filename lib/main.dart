@@ -2,13 +2,12 @@ import 'package:flutter/material.dart';
 import 'dart:developer' as developer;
 import 'package:provider/provider.dart';
 import 'services/app_state.dart';
-import 'utils/app_theme.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'package:lottie/lottie.dart';
 import 'package:word_map_app/screens/words_list_init.dart';
-import 'screens/words_list_screen.dart';
+import 'screens/main_page.dart';
 import 'screens/settings_screen.dart';
 import 'theme_controller.dart';
 
@@ -70,7 +69,7 @@ class WordMapApp extends StatelessWidget {
           supportedLocales: AppLocalizations.supportedLocales,
           home: _AuthGate(appState: appState),
           routes: {
-            '/words': (_) => WordsListScreen(),
+            '/words': (_) => const MainPage(),
             '/settings': (_) => const SettingsScreen(),
           },
         );
@@ -261,10 +260,7 @@ class _AuthGateState extends State<_AuthGate> {
         final results = splashSnap.data!;
         final bundle = results[1] as WordsInitBundle;
         // After splash + prefetch, go to main experience with prefetched data.
-        return WordsListScreen(
-          level: widget.appState.currentLevel,
-          initialBundle: bundle,
-        );
+        return MainPage(initialBundle: bundle);
       },
     );
   }

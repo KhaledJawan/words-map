@@ -1,199 +1,252 @@
-Task UI-01 – Implement Main Page with bottom navigation (Home, Lessons, Profile + Settings inside Profile)
+LESSONS-01 – Implement Lessons tab with categories, sub-lessons, and slide-based detail view
 Goal
 
-Implement the [Main Page] structure from /docs/app_schema.md by adding a bottom navigation bar with three tabs:
+Implement the Lessons tab in the WordMap app with:
 
-Home
+A clear category structure (Beginner, Grammar, etc.)
 
-Lessons
+Sub-lessons (subcategories) under each main category
 
-Profile
+A slide-based detail page for each sub-lesson
 
-The current main screen (existing words list / main content) must become the content of the Home tab, without changing its logic or visual style (except necessary refactoring to fit into the new structure).
+Completion tracking with a green tick on completed lessons
 
-The Profile tab will contain both:
+The implementation should be easily extendable so that new categories, sub-lessons, and slides can be added later by simply updating a data structure, without duplicating UI code.
 
-“Profile” content (user-related info / placeholder), and
+Categories and initial structure
 
-a “Settings” section (placeholder options).
+Implement the following main categories in the Lessons tab (vertical list of cards):
 
-So we do NOT have a separate “Settings” tab in the bottom bar. Settings lives inside the Profile page.
+Beginner Basics
 
-Context
+Grammar
 
-From /docs/app_schema.md:
+Useful Dialogues
 
-[Main Page] is the root page with:
+Reading & Listening
 
-[Header] (App title "WordMap" + settings/profile icon)
+Exam Practice
 
-[Body] that switches between tabs: [Home], [Lessons], [Profile]
+For now, only Beginner Basics will have real sub-lessons. The others can exist with placeholder sub-lessons or empty state to be filled later.
 
-[Bottom] with the bottom navigation bar
+Beginner Basics – initial sub-lessons
 
-[Home] is the default tab and shows the current words view.
+Under Beginner Basics, create the following sub-lessons (subcategories):
 
-[Lessons] and [Profile] exist as containers but may not yet be implemented in code.
+Alphabet
 
-We want:
+Reading rules
 
-A single root page that owns the Scaffold and BottomNavigationBar.
+Parts of speech
 
-The existing main screen content to be used as [Home] body.
+Hallo
 
-A Lessons tab as a placeholder for future lessons.
+All about German
 
-A Profile tab that internally shows both:
+Each sub-lesson must:
 
-profile info area, and
+Be rendered as a card or tile inside the category (e.g. a vertical list of cards).
 
-a list of settings items (e.g. language, theme) as placeholders.
+Show:
 
-Implementation Steps
+Title (e.g. "Reading rules")
 
-Follow these steps, adapting names to match the existing codebase:
+A tick icon to indicate completion state:
 
-Find the current entry point and main page
+Green check icon if completed
 
-Locate main.dart and the top-level MaterialApp.
+Grey/disabled check icon if not completed yet
 
-Identify the current “main page” widget that shows the word list (this is the app’s current home screen).
+The tick state must be persistent between app launches.
 
-Extract current main content into a Home widget
+Data model
 
-Create a new widget, e.g. HomeTab or HomeScreen, that contains ONLY the main body of the current screen (word list, filters, etc.), without its own Scaffold.
+Create a simple data model to keep the structure flexible:
 
-Move the existing body content into this Home widget.
+LessonCategory
 
-Ensure behavior (scrolling, bookmarks, viewed words, etc.) stays the same.
+id (string)
 
-Create a root MainPage with header + bottom navigation
+title (string)
 
-Create a new StatefulWidget, e.g. MainPage or RootPage, that will be set as home: of the MaterialApp.
+description (optional, string)
 
-This widget should:
+lessons (list of LessonItem)
 
-Use a single Scaffold.
+LessonItem (sub-lesson)
 
-Define an AppBar (or header) according to [Header] in app_schema.md:
+id (string)
 
-Centered title "WordMap".
+title (string)
 
-A profile/settings icon button on the right that switches to the Profile tab when tapped.
+categoryId (string or implied)
 
-Hold an int currentIndex for the selected tab.
+slides (list of LessonSlide)
 
-Provide a BottomNavigationBar with three items:
+isCompleted (bool) – this should be loaded from persistent storage, not hard-coded
 
-Home with a home icon.
+LessonSlide
 
-Lessons with a lessons/book icon.
+id (string)
 
-Profile with a person/account icon.
+text (string) – the main slide content
 
-On tap of a bottom item, update currentIndex with setState.
+optional: title (string)
 
-Create tab widgets and wire them
+For now, use placeholder slide text (e.g. “TODO: Add real content for Reading rules slide 1”) but make sure the structure is ready for real content later.
 
-Home tab
+All category and lesson definitions for this feature can be defined as an in-memory list (e.g. a static list or a small repository/service class). The focus is on structure and UI, not the final content text.
 
-For Home tab: render the extracted Home widget (the existing main content).
+Persistence of completion state
 
-Lessons tab
+Implement simple persistent tracking of sub-lesson completion:
 
-Create a simple placeholder widget (e.g. LessonsTab) that matches the [Lessons] container from app_schema.md.
+Use a local persistence mechanism (e.g. SharedPreferences in Flutter).
 
-This can be minimal for now, such as:
+Store completion per LessonItem.id.
 
-A basic ListView with a few placeholder items, or
+Example key: lesson*completed*<lessonId> → true/false.
 
-Center(Text('Lessons coming soon')).
+On app startup (or when the Lessons tab is built), load the completion states and update the UI.
 
-Profile tab (Profile + Settings inside one page)
+When a user presses Completed at the end of a lesson, set the completion flag for that lesson to true and update the UI (green tick).
 
-Create a widget, e.g. ProfileTab, mapped to the [Profile] container in app_schema.md.
+Lessons tab UI
 
-Inside this widget, structure the UI roughly as:
+In the Lessons tab:
 
-A “Profile” section at the top (e.g. user avatar placeholder, name/email placeholders, or a simple header like “Profile”).
+Display a scrollable list of LessonCategory cards.
 
-A “Settings” section below, implemented as a ListView or ListView with ListTile items, for example:
+Each category card shows:
 
-“Language”
+Category title (e.g. "Beginner Basics")
 
-“Theme”
+Optional short subtitle/description (e.g. "Start here: alphabet, reading, basics" – you can use placeholder text).
 
-“Notifications”
+A list (or grid) of sub-lesson cards (LessonItem) underneath.
 
-The Settings items can be non-functional placeholders for now, but they must be clearly visible.
+Each sub-lesson card shows:
 
-Keep the design simple and consistent with the rest of the app (Material, current theme).
+Sub-lesson title (e.g. "Reading rules")
 
-The MainPage body should switch between:
+A small tick icon on the right:
 
-HomeTab
+Green when isCompleted == true
 
-LessonsTab
+Grey/disabled when isCompleted == false
 
-ProfileTab
-based on currentIndex.
+On tapping a sub-lesson card:
 
-Update MaterialApp to use the new root page
+Navigate to the Lesson Detail Page for that sub-lesson.
 
-In main.dart, set the home: of MaterialApp to the new MainPage (or equivalent).
+The layout should fit nicely with the existing WordMap design (same padding, radius, typography rules as the rest of the app).
 
-Do not change theme or global configuration unless required for this task.
+Lesson Detail Page (slide-based)
 
-Header interaction
+When a user taps a sub-lesson (e.g. "Reading rules"):
 
-In the header of MainPage, the profile/settings icon button should change the selected tab to the Profile tab when tapped (e.g. set currentIndex = 2 via setState).
+Open a full-screen LessonDetailPage for that LessonItem.
 
-Respect existing design & performance
+The page must include:
 
-Keep the Home tab behavior and layout as close as possible to the current implementation.
+A close button (e.g. an X or back icon) in the top-left to return to the Lessons tab.
 
-Avoid unnecessary rebuilds or full refreshes beyond what is needed to switch tabs.
+A big text area in the main body showing the current slide’s text.
 
-Do not introduce new state management libraries.
+A “Next” button at the bottom (or bottom-right) to go to the next slide.
 
-Error handling and safety
+Slide navigation behavior:
 
-Follow /docs/error_handling_rules.md for any new potential error states.
+Start at slide index 0.
 
-Since this task is mostly UI structure, avoid adding new error flows unless strictly needed.
+Next goes to the next slide.
 
-Acceptance Criteria
+When the user is on the last slide:
 
-The app now starts on the new MainPage with:
+Next can change to a disabled state or be hidden.
 
-A header showing "WordMap" and a profile/settings icon.
+The End-of-lesson actions (Completed / Repeat) must be visible.
 
-A BottomNavigationBar with three tabs: Home, Lessons, Profile.
+End-of-lesson actions:
 
-The Home tab:
+At the end (last slide), show two buttons:
 
-Shows the same content as the previous main screen (word list etc.).
+Completed
 
-Behavior and logic are preserved.
+Repeat again
 
-The Lessons tab:
+Behavior:
 
-Shows a basic placeholder view consistent with the [Lessons] container (simple but present and reachable).
+Completed:
 
-The Profile tab:
+Set this lesson’s isCompleted = true in persistent storage.
 
-Exists as a separate tab in the bottom navigation.
+Update the UI (so its tick becomes green in the Lessons tab).
 
-Contains both:
+Navigate back to the Lessons tab (pop the detail page).
 
-A “Profile” section (header + placeholder info), and
+Repeat again:
 
-A “Settings” section with at least a few visible settings items (placeholders).
+Reset the slide index to 0.
 
-The profile/settings icon in the header switches to this tab when tapped.
+Stay in the lesson detail page and show the first slide again.
 
-No files in /docs are modified.
+Implementation constraints
 
-The project compiles successfully and runs without new errors or warnings introduced by this task.
+Do not change the structure of the Home or Profile tabs.
 
-At the end, show the concrete code changes (files and diffs) you made.
+Integrate the Lessons tab into the existing bottom navigation (which already includes Lessons).
+
+Keep the code clean and reusable:
+
+Avoid copy-paste for each category/lesson.
+
+Use the data model to generate UI.
+
+No remote/network calls for this feature (everything is local).
+
+Ensure the UI works in both light and dark mode (respecting the existing theme).
+
+Acceptance criteria
+
+The Lessons tab is available in the bottom navigation and opens a page with:
+
+5 categories: Beginner Basics, Grammar, Useful Dialogues, Reading & Listening, Exam Practice.
+
+Under Beginner Basics, there are at least 5 sub-lesson cards:
+
+Alphabet
+
+Reading rules
+
+Parts of speech
+
+Hallo
+
+All about German
+
+Tapping any Beginner Basics sub-lesson opens a slide-based LessonDetailPage.
+
+The LessonDetailPage:
+
+Has a close button.
+
+Shows large explanatory text per slide.
+
+Has a Next button to navigate slides.
+
+On the last slide, shows “Completed” and “Repeat again”.
+
+When the user taps “Completed”:
+
+The lesson is marked as completed in persistent storage.
+
+The user is returned to the Lessons tab.
+
+The corresponding sub-lesson card shows a green tick.
+
+Incomplete lessons show a grey/disabled tick.
+
+Completion state persists across app restarts.
+
+No regression in Home or Profile behavior.

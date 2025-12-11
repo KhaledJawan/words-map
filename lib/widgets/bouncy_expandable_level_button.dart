@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 
 class BouncyExpandableLevelButton extends StatefulWidget {
   const BouncyExpandableLevelButton({
@@ -177,11 +178,11 @@ class _BouncyExpandableLevelButtonState
             const Spacer(),
             GestureDetector(
               onTap: _toggle,
-              child: const Icon(
-                Icons.close_rounded,
-                color: Colors.white70,
-                size: 18,
-              ),
+            child: const Icon(
+              LucideIcons.x,
+              color: Colors.white70,
+              size: 18,
+            ),
             ),
           ],
         ),
