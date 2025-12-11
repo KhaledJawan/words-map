@@ -118,43 +118,40 @@ class LessonsTab extends StatefulWidget {
 
 class _LessonsTabState extends State<LessonsTab> {
   final LessonsRepository _repository = LessonsRepository();
-  Map<String, bool> _completion = {};
+  final Set<String> _completedLessonIds = {};
   bool _isLoading = true;
 
   @override
   void initState() {
     super.initState();
-    _loadCompletion();
+    _loadCompletedLessons();
   }
 
-  Future<void> _loadCompletion() async {
+  Future<void> _loadCompletedLessons() async {
     final states = await _repository.loadCompletionStates();
     if (!mounted) return;
     setState(() {
-      _completion = states;
+      _completedLessonIds
+        ..clear()
+        ..addAll(
+          states.entries.where((entry) => entry.value).map((entry) => entry.key),
+        );
       _isLoading = false;
     });
   }
 
-  Future<void> _completeLesson(LessonItem lesson) async {
-    await _repository.markCompleted(lesson.id);
-    if (!mounted) return;
-    setState(() {
-      _completion[lesson.id] = true;
-    });
-  }
+  bool _isCompleted(LessonItem lesson) => _completedLessonIds.contains(lesson.id);
+  bool _isCompletedById(String lessonId) => _completedLessonIds.contains(lessonId);
 
-  bool _isCompletedById(String lessonId) => _completion[lessonId] ?? false;
-
-  void _openLesson(LessonItem lesson) {
-    Navigator.of(context).push(
+  Future<void> _openLesson(LessonItem lesson) async {
+    final result = await Navigator.of(context).push<bool>(
       MaterialPageRoute(
-        builder: (_) => LessonDetailPage(
-          lesson: lesson,
-          onCompleted: (_) => _completeLesson(lesson),
-        ),
+        builder: (_) => LessonDetailPage(lesson: lesson),
       ),
     );
+    if (result == true) {
+      await _loadCompletedLessons();
+    }
   }
 
   @override

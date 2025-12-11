@@ -59,13 +59,27 @@ class LessonsRepository {
           slides: [
             const LessonSlide(
               id: 'alphabet-slide-1',
-              title: 'Alphabet Overview',
-              text: 'TODO: Add real content for Alphabet slide 1.',
+              title: 'German Alphabet – Overview',
+              text:
+                  'The German alphabet has 26 basic letters like English (A–Z) plus 4 extra characters:\n\nÄ, Ö, Ü (called “Umlaut” vowels)\n\nß (called “Eszett” or “scharfes S”)\nExample:\n\nä like in “Mädchen”\n\nö like in “schön”\n\nü like in “Tschüss”\n\nß like in “Straße”',
             ),
             const LessonSlide(
               id: 'alphabet-slide-2',
-              title: 'Pronunciation tips',
-              text: 'TODO: Add real content for Alphabet slide 2.',
+              title: 'Vowels (A, E, I, O, U)',
+              text:
+                  'German vowels can be short or long.\n\nShort: “Mann”, “Sonne”, “Mitte”\n\nLong: “Name”, “Meer”, “Liebe”, “Boot”, “gut”\nOften, a doubled consonant after a vowel makes it short:\n\n“Mitte” (short i) vs “Miete” (long ie)',
+            ),
+            const LessonSlide(
+              id: 'alphabet-slide-3',
+              title: 'Umlaut vowels (Ä, Ö, Ü)',
+              text:
+                  'Umlaut vowels change the sound and sometimes the meaning.\n\na → ä : “Mann” vs “Männer”\n\no → ö : “schon” vs “schön”\n\nu → ü : “Mutter” vs “Mütter”\nIn typing, you can write them as:\n\nä → ae, ö → oe, ü → ue',
+            ),
+            const LessonSlide(
+              id: 'alphabet-slide-4',
+              title: 'ß – Eszett',
+              text:
+                  'ß is used only in German. It is pronounced like a sharp “s”.\n\nExample: “Straße”, “heißen”, “Fuß”\nIf you can’t type ß, you can use “ss”:\n\nStraße → Strasse, Fuß → Fuss',
             ),
           ],
         ),
@@ -77,11 +91,27 @@ class LessonsRepository {
           slides: [
             const LessonSlide(
               id: 'reading-slide-1',
-              text: 'TODO: Add real content for Reading rules slide 1.',
+              title: 'Basic reading rule – “ie” vs “ei”',
+              text:
+                  'German has two important letter pairs:\n\n“ie” → long “i” (like “machine”)\n\n“ei” → like English “eye”\nExamples:\n\n“vier”, “lieben”, “Spiel” (ie → long i)\n\n“eins”, “mein”, “klein” (ei → eye sound)',
             ),
             const LessonSlide(
               id: 'reading-slide-2',
-              text: 'TODO: Add real content for Reading rules slide 2.',
+              title: '“sch”, “ch” and “sp / st”',
+              text:
+                  '“sch” → like English “sh”: “Schule”, “Fisch”\n\n“ch” has two sounds:\n\nafter e, i, ä, ö, ü → soft “ch”: “ich”, “leicht”\n\nafter a, o, u → strong “ch”: “Bach”, “noch”, “Buch”\nAt the beginning of a word:\n\n“sp” → “shp”: “Sport”, “spät”\n\n“st” → “sht”: “Straße”, “Stadt”',
+            ),
+            const LessonSlide(
+              id: 'reading-slide-3',
+              title: 'Capital letters (Nouns)',
+              text:
+                  'In German, all nouns start with a capital letter.\nExamples:\n\n“der Hund”, “die Frau”, “das Auto”, “die Stadt”\nThis helps you recognize nouns quickly in a sentence.',
+            ),
+            const LessonSlide(
+              id: 'reading-slide-4',
+              title: 'Long vs short vowels',
+              text:
+                  'Typical patterns:\n\nLong vowel: vowel + h → “fahren”, “sehen”\n\nLong vowel: double vowel → “Meer”, “Boot”\n\nShort vowel: vowel + double consonant → “Mitte”, “Mutter”\nYou don’t need to memorize every rule now, just start to notice these patterns when reading.',
             ),
           ],
         ),
@@ -93,11 +123,27 @@ class LessonsRepository {
           slides: [
             const LessonSlide(
               id: 'parts-slide-1',
-              text: 'TODO: Add real content for Parts of speech slide 1.',
+              title: 'Main parts of speech',
+              text:
+                  'The most important word types in German:\n\nNomen (nouns): Dinge, Personen, Orte – “Auto”, “Frau”, “Berlin”\n\nVerben (verbs): Aktionen – “gehen”, “lernen”, “schlafen”\n\nAdjektive (adjectives): Eigenschaften – “groß”, “klein”, “schnell”\n\nArtikel (articles): “der”, “die”, “das”, “ein”, “eine”',
             ),
             const LessonSlide(
               id: 'parts-slide-2',
-              text: 'TODO: Add real content for Parts of speech slide 2.',
+              title: 'Nouns and gender',
+              text:
+                  'Every German noun has a gender:\n\nder (maskulin)\n\ndie (feminin)\n\ndas (neutrum)\nExamples:\n\nder Tisch, der Tag\n\ndie Lampe, die Stadt\n\ndas Buch, das Kind',
+            ),
+            const LessonSlide(
+              id: 'parts-slide-3',
+              title: 'Verbs in basic form (Infinitiv)',
+              text:
+                  'Most verbs end with “-en” or “-n”.\nExamples:\n\ngehen, kommen, lernen, machen, arbeiten\nWhen you conjugate them, the ending changes:\n\nich gehe, du gehst, er/sie geht',
+            ),
+            const LessonSlide(
+              id: 'parts-slide-4',
+              title: 'Adjectives – describing words',
+              text:
+                  'Adjectives describe nouns:\n\nein großer Hund\n\neine kleine Wohnung\n\nein neues Auto\nAt A1 level, it’s enough to recognize them and use them in simple phrases.',
             ),
           ],
         ),
@@ -109,11 +155,27 @@ class LessonsRepository {
           slides: [
             const LessonSlide(
               id: 'hallo-slide-1',
-              text: 'TODO: Add real content for Hallo slide 1.',
+              title: 'Basic greetings',
+              text:
+                  'Common ways to say hello:\n\nHallo!\n\nGuten Morgen! (morning)\n\nGuten Tag! (day / afternoon)\n\nGuten Abend! (evening)\n\nTschüss! / Auf Wiedersehen! (goodbye)',
             ),
             const LessonSlide(
               id: 'hallo-slide-2',
-              text: 'TODO: Add real content for Hallo slide 2.',
+              title: 'Introducing yourself',
+              text:
+                  'Useful phrases:\n\nIch heiße …\n\nIch bin …\n\nIch komme aus …\n\nIch wohne in …\nExample:\n\n„Hallo, ich heiße Khaled. Ich komme aus … und wohne in Trier.“',
+            ),
+            const LessonSlide(
+              id: 'hallo-slide-3',
+              title: 'Asking “How are you?”',
+              text:
+                  'Wie geht es dir? (informal)\n\nWie geht es Ihnen? (formal)\nPossible answers:\n\nMir geht es gut.\n\nEs geht.\n\nNicht so gut.',
+            ),
+            const LessonSlide(
+              id: 'hallo-slide-4',
+              title: 'Polite words',
+              text:
+                  'Always useful:\n\nDanke! / Vielen Dank!\n\nBitte! (you’re welcome / please)\n\nEntschuldigung! (sorry / excuse me)\nThese small words make your German sound friendly.',
             ),
           ],
         ),
@@ -125,11 +187,27 @@ class LessonsRepository {
           slides: [
             const LessonSlide(
               id: 'german-slide-1',
-              text: 'TODO: Add real content for All about German slide 1.',
+              title: 'Where is German spoken?',
+              text:
+                  'German is spoken in:\n\nGermany (Deutschland)\n\nAustria (Österreich)\n\nSwitzerland (Schweiz – part of the country)\nand in some other regions in Europe.\nThere are different accents and dialects, but the standard language is called “Hochdeutsch”.',
             ),
             const LessonSlide(
               id: 'german-slide-2',
-              text: 'TODO: Add real content for All about German slide 2.',
+              title: 'Formal vs informal “you”',
+              text:
+                  'German has two forms of “you”:\n\ndu (informal, for friends, family)\n\nSie (formal, polite, for strangers / official situations)\nExample:\n\nWie geht es dir? (du)\n\nWie geht es Ihnen? (Sie)',
+            ),
+            const LessonSlide(
+              id: 'german-slide-3',
+              title: 'Word order – basic idea',
+              text:
+                  'In a simple main clause, the verb is usually in position 2:\n\nIch lerne Deutsch.\n\nHeute lerne ich Deutsch.\n\nMorgen gehe ich nach Berlin.\nYou don’t need all grammar rules now, but remember: the verb wants to be in position 2.',
+            ),
+            const LessonSlide(
+              id: 'german-slide-4',
+              title: 'Don’t be afraid of long words',
+              text:
+                  'German loves long compound words:\n\ndie Straßenbahn (Straße + Bahn)\n\ndas Krankenhaus (krank + Haus)\n\ndie Haustür (Haus + Tür)\nTry to see them as small pieces glued together.\nThis makes them easier to understand and remember.',
             ),
           ],
         ),

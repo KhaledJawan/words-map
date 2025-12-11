@@ -6,11 +6,9 @@ class LessonDetailPage extends StatefulWidget {
   const LessonDetailPage({
     super.key,
     required this.lesson,
-    required this.onCompleted,
   });
 
   final LessonItem lesson;
-  final Future<void> Function(LessonItem lesson) onCompleted;
 
   @override
   State<LessonDetailPage> createState() => _LessonDetailPageState();
@@ -34,9 +32,10 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
   }
 
   Future<void> _completeLesson() async {
-    await widget.onCompleted(widget.lesson);
+    final repository = LessonsRepository();
+    await repository.markCompleted(widget.lesson.id);
     if (!mounted) return;
-    Navigator.of(context).pop();
+    Navigator.of(context).pop(true);
   }
 
   @override
