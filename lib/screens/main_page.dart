@@ -5,9 +5,10 @@ import 'package:word_map_app/screens/words_list_init.dart';
 import 'package:word_map_app/screens/words_list_screen.dart';
 import 'package:word_map_app/services/app_state.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:word_map_app/features/lessons/lesson_completion_repository.dart';
 import 'package:word_map_app/features/lessons/lessons_repository.dart';
+import 'package:word_map_app/features/settings/settings_repository.dart';
 import 'package:word_map_app/screens/category_detail_page.dart';
-import 'package:word_map_app/screens/lesson_detail_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({
@@ -117,9 +118,9 @@ class LessonsTab extends StatefulWidget {
 }
 
 class _LessonsTabState extends State<LessonsTab> {
-  final LessonsRepository _repository = LessonsRepository();
   final Set<String> _completedLessonIds = {};
   bool _isLoading = true;
+  final LessonCompletionRepository _completionRepo = LessonCompletionRepository();
 
   @override
   void initState() {
@@ -128,30 +129,14 @@ class _LessonsTabState extends State<LessonsTab> {
   }
 
   Future<void> _loadCompletedLessons() async {
-    final states = await _repository.loadCompletionStates();
+    final completed = await _completionRepo.loadCompletedLessons();
     if (!mounted) return;
     setState(() {
       _completedLessonIds
         ..clear()
-        ..addAll(
-          states.entries.where((entry) => entry.value).map((entry) => entry.key),
-        );
+        ..addAll(completed);
       _isLoading = false;
     });
-  }
-
-  bool _isCompleted(LessonItem lesson) => _completedLessonIds.contains(lesson.id);
-  bool _isCompletedById(String lessonId) => _completedLessonIds.contains(lessonId);
-
-  Future<void> _openLesson(LessonItem lesson) async {
-    final result = await Navigator.of(context).push<bool>(
-      MaterialPageRoute(
-        builder: (_) => LessonDetailPage(lesson: lesson),
-      ),
-    );
-    if (result == true) {
-      await _loadCompletedLessons();
-    }
   }
 
   @override
@@ -173,6 +158,12 @@ class _LessonsTabState extends State<LessonsTab> {
     );
   }
 
+  void _markLessonCompletedLocally(String lessonId) {
+    if (_completedLessonIds.add(lessonId)) {
+      setState(() {});
+    }
+  }
+
   Widget _buildCategoryCard(LessonCategory category) {
     final theme = Theme.of(context);
     final hasLessons = category.lessons.isNotEmpty;
@@ -182,8 +173,8 @@ class _LessonsTabState extends State<LessonsTab> {
           MaterialPageRoute(
             builder: (_) => CategoryDetailPage(
               category: category,
-              isCompleted: (lessonId) => _isCompletedById(lessonId),
-              onLessonTap: _openLesson,
+              completedLessonIds: _completedLessonIds,
+              onLessonCompleted: _markLessonCompletedLocally,
             ),
           ),
         );
@@ -233,68 +224,181 @@ class _LessonsTabState extends State<LessonsTab> {
   }
 }
 
-class ProfileTab extends StatelessWidget {
+class ProfileTab extends StatefulWidget {
   const ProfileTab({super.key});
 
   @override
+  State<ProfileTab> createState() => _ProfileTabState();
+}
+
+class _ProfileTabState extends State<ProfileTab> {
+  final _settingsRepo = SettingsRepository();
+  bool _appNotifications = true;
+  bool _dailyReminder = false;
+  bool _loadingSwitches = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadSwitchValues();
+  }
+
+  Future<void> _loadSwitchValues() async {
+    final notifications = await _settingsRepo.loadAppNotifications();
+    final reminder = await _settingsRepo.loadDailyReminder();
+    if (!mounted) return;
+    setState(() {
+      _appNotifications = notifications;
+      _dailyReminder = reminder;
+      _loadingSwitches = false;
+    });
+  }
+
+  void _onNotificationsChanged(bool value) {
+    setState(() {
+      _appNotifications = value;
+    });
+    _settingsRepo.setAppNotifications(value);
+  }
+
+  void _onReminderChanged(bool value) {
+    setState(() {
+      _dailyReminder = value;
+    });
+    _settingsRepo.setDailyReminder(value);
+  }
+
+  void _onLanguageChanged(String? code) {
+    if (code == null) return;
+    final appState = context.read<AppState>();
+    if (appState.appLocale?.languageCode == code) return;
+    if (code == 'fa') {
+      appState.changeLocale(const Locale('fa'));
+    } else {
+      appState.changeLocale(const Locale('en'));
+    }
+  }
+
+  void _onThemeChanged(ThemeMode? mode) {
+    if (mode == null) return;
+    final appState = context.read<AppState>();
+    if (appState.themeMode == mode) return;
+    appState.setThemeMode(mode);
+  }
+
+  Widget _buildSectionCard(Widget child) {
+    return Card(
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: child,
+      ),
+    );
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final textTheme = Theme.of(context).textTheme;
+    final theme = Theme.of(context);
+    final appState = context.watch<AppState>();
+    final languageCode = appState.appLocale?.languageCode ?? 'en';
+    final currentTheme = appState.themeMode;
     return ListView(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
       children: [
         Text(
-          'Profile',
-          style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600),
+          'Settings',
+          style: theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600),
         ),
         const SizedBox(height: 16),
-        Center(
-          child: Column(
+        _buildSectionCard(
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              CircleAvatar(
-                radius: 36,
-                backgroundColor: Colors.grey.shade200,
-              child: const Icon(LucideIcons.user, size: 40),
-              ),
-              const SizedBox(height: 12),
               Text(
-                'WordMap learner',
-                style: textTheme.titleMedium,
+                'Language',
+                style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
               ),
               const SizedBox(height: 4),
               Text(
-                'vip-user@wordmap.app',
-                style: textTheme.bodyMedium?.copyWith(color: Colors.grey[600]),
+                'App interface language',
+                style: theme.textTheme.bodySmall,
+              ),
+              const SizedBox(height: 16),
+              RadioListTile<String>(
+                value: 'en',
+                groupValue: languageCode,
+                title: const Text('English'),
+                onChanged: _onLanguageChanged,
+              ),
+              RadioListTile<String>(
+                value: 'fa',
+                groupValue: languageCode,
+                title: const Text('Farsi'),
+                onChanged: _onLanguageChanged,
               ),
             ],
           ),
         ),
-        const SizedBox(height: 24),
-        Text(
-          'Settings',
-          style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
+        const SizedBox(height: 16),
+        _buildSectionCard(
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Theme',
+                style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
+              ),
+              const SizedBox(height: 4),
+              Text(
+                'Choose app appearance',
+                style: theme.textTheme.bodySmall,
+              ),
+              const SizedBox(height: 16),
+              RadioListTile<ThemeMode>(
+                value: ThemeMode.system,
+                groupValue: currentTheme,
+                title: const Text('System default'),
+                onChanged: _onThemeChanged,
+              ),
+              RadioListTile<ThemeMode>(
+                value: ThemeMode.light,
+                groupValue: currentTheme,
+                title: const Text('Light'),
+                onChanged: _onThemeChanged,
+              ),
+              RadioListTile<ThemeMode>(
+                value: ThemeMode.dark,
+                groupValue: currentTheme,
+                title: const Text('Dark'),
+                onChanged: _onThemeChanged,
+              ),
+            ],
+          ),
         ),
-        const SizedBox(height: 12),
-        Card(
-          elevation: 0,
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
-          child: Column(
-            children: const [
-              ListTile(
-                leading: Icon(LucideIcons.languages),
-                title: Text('Language'),
-                subtitle: Text('English / فارسی'),
+        const SizedBox(height: 16),
+        _buildSectionCard(
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Notifications & Reminders',
+                style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
               ),
-              Divider(height: 1),
-              ListTile(
-                leading: Icon(LucideIcons.moon),
-                title: Text('Theme'),
-                subtitle: Text('Light / Dark'),
+              const SizedBox(height: 4),
+              Text(
+                'App alerts and daily check-ins',
+                style: theme.textTheme.bodySmall,
               ),
-              Divider(height: 1),
-              ListTile(
-                leading: Icon(LucideIcons.bell),
-                title: Text('Notifications'),
-                subtitle: Text('Reminders, word streaks'),
+              const SizedBox(height: 12),
+              SwitchListTile(
+                value: _appNotifications,
+                onChanged: _loadingSwitches ? null : _onNotificationsChanged,
+                title: const Text('App notifications'),
+              ),
+              SwitchListTile(
+                value: _dailyReminder,
+                onChanged: _loadingSwitches ? null : _onReminderChanged,
+                title: const Text('Daily reminder'),
               ),
             ],
           ),

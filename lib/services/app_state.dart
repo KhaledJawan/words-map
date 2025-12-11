@@ -2,6 +2,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../theme_controller.dart';
+
 class AppState with ChangeNotifier {
   Locale? _appLocale;
   bool _onboardingCompleted = false;
@@ -93,6 +95,7 @@ class AppState with ChangeNotifier {
     final prefs = await SharedPreferences.getInstance();
     _themeMode = mode;
     await prefs.setString('themeMode', mode.name);
+    appThemeMode.value = mode;
     notifyListeners();
   }
 

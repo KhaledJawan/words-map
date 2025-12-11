@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:word_map_app/features/lessons/lesson_completion_repository.dart';
 import 'package:word_map_app/features/lessons/lessons_repository.dart';
 
 class LessonDetailPage extends StatefulWidget {
@@ -16,6 +17,7 @@ class LessonDetailPage extends StatefulWidget {
 
 class _LessonDetailPageState extends State<LessonDetailPage> {
   int _currentSlideIndex = 0;
+  final LessonCompletionRepository _completionRepo = LessonCompletionRepository();
 
   void _nextSlide() {
     if (_currentSlideIndex < widget.lesson.slides.length - 1) {
@@ -32,8 +34,7 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
   }
 
   Future<void> _completeLesson() async {
-    final repository = LessonsRepository();
-    await repository.markCompleted(widget.lesson.id);
+    await _completionRepo.setLessonCompleted(widget.lesson.id, true);
     if (!mounted) return;
     Navigator.of(context).pop(true);
   }
@@ -42,6 +43,7 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
   Widget build(BuildContext context) {
     final slide = widget.lesson.slides[_currentSlideIndex];
     final isLast = _currentSlideIndex == widget.lesson.slides.length - 1;
+    final theme = Theme.of(context);
     return Scaffold(
       body: SafeArea(
         child: Column(
@@ -59,7 +61,7 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
                   Expanded(
                     child: Text(
                       widget.lesson.title,
-                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      style: theme.textTheme.titleMedium?.copyWith(
                             fontWeight: FontWeight.w700,
                           ),
                     ),
@@ -71,26 +73,9 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 24),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    if (slide.title != null)
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 12),
-                        child: Text(
-                          slide.title!,
-                          style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                                fontWeight: FontWeight.w600,
-                              ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ),
-                    Text(
-                      slide.text,
-                      style: Theme.of(context).textTheme.bodyLarge,
-                      textAlign: TextAlign.center,
-                    ),
-                  ],
+                child: SingleChildScrollView(
+                  physics: const BouncingScrollPhysics(),
+                  child: _buildSlideText(theme, slide),
                 ),
               ),
             ),
@@ -98,19 +83,21 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
               padding: const EdgeInsets.symmetric(horizontal: 24),
               child: Column(
                 children: [
-                  ElevatedButton(
-                    onPressed: isLast ? null : _nextSlide,
-                    child: const Text('Next'),
-                  ),
-                  const SizedBox(height: 12),
-                  if (isLast)
+                  if (!isLast)
+                    SizedBox(
+                      width: double.infinity,
+                      child: ElevatedButton(
+                        style: _primaryButtonStyle(theme),
+                        onPressed: _nextSlide,
+                        child: const Text('Next'),
+                      ),
+                    ),
+                  if (isLast) ...[
                     Row(
                       children: [
                         Expanded(
                           child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.green,
-                            ),
+                            style: _primaryButtonStyle(theme, backgroundColor: Colors.green),
                             onPressed: _completeLesson,
                             child: const Text('Completed'),
                           ),
@@ -118,12 +105,14 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
                         const SizedBox(width: 12),
                         Expanded(
                           child: OutlinedButton(
+                            style: _secondaryButtonStyle(theme),
                             onPressed: _repeatLesson,
                             child: const Text('Repeat again'),
                           ),
                         ),
                       ],
                     ),
+                  ],
                 ],
               ),
             ),
@@ -133,4 +122,103 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
       ),
     );
   }
+
+  Widget _buildSlideText(ThemeData theme, LessonSlide slide) {
+    final parts = _splitSlideText(slide.text);
+    final exampleText = parts.example?.trim();
+    final hasExample = exampleText != null && exampleText.isNotEmpty;
+    final bodyText =
+        hasExample ? parts.body.trim() : slide.text.trim();
+    final bodyStyle = theme.textTheme.bodyLarge?.copyWith(
+          height: 1.45,
+        ) ??
+        theme.textTheme.bodyMedium?.copyWith(height: 1.45);
+    final exampleStyle = theme.textTheme.bodyMedium?.copyWith(
+          fontStyle: FontStyle.italic,
+          color: theme.textTheme.bodyMedium?.color?.withOpacity(0.85),
+        );
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const SizedBox(height: 28),
+        if (slide.title != null) ...[
+          Center(
+            child: Text(
+              slide.title!,
+              style: theme.textTheme.headlineSmall?.copyWith(
+                    fontWeight: FontWeight.w700,
+                  ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+          const SizedBox(height: 20),
+        ],
+        if (bodyText.isNotEmpty)
+          Text(
+            bodyText,
+            textAlign: TextAlign.left,
+            style: bodyStyle,
+          ),
+        if (hasExample) const SizedBox(height: 18),
+        if (hasExample)
+          Center(
+            child: Text(
+              exampleText!,
+              textAlign: TextAlign.center,
+              style: exampleStyle,
+            ),
+          ),
+        const SizedBox(height: 24),
+      ],
+    );
+  }
+
+  _SlideTextParts _splitSlideText(String text) {
+    const markers = ['Examples:', 'Example:'];
+    final trimmed = text.trim();
+    for (final marker in markers) {
+      final index = trimmed.indexOf(marker);
+      if (index != -1) {
+        final before = trimmed.substring(0, index).trim();
+        final after = trimmed.substring(index).trim();
+        return _SlideTextParts(body: before, example: after);
+      }
+    }
+    return _SlideTextParts(body: trimmed, example: null);
+  }
+
+  ButtonStyle _primaryButtonStyle(ThemeData theme, {Color? backgroundColor}) {
+    return ElevatedButton.styleFrom(
+      backgroundColor: backgroundColor ?? theme.colorScheme.primary,
+      foregroundColor: theme.colorScheme.onPrimary,
+      padding: const EdgeInsets.symmetric(vertical: 14),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+      ),
+      textStyle: theme.textTheme.labelLarge?.copyWith(fontWeight: FontWeight.w600),
+    );
+  }
+
+  ButtonStyle _secondaryButtonStyle(ThemeData theme) {
+    return OutlinedButton.styleFrom(
+      foregroundColor: theme.colorScheme.primary,
+      side: BorderSide(color: theme.colorScheme.primary),
+      padding: const EdgeInsets.symmetric(vertical: 14),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+      ),
+      textStyle: theme.textTheme.labelLarge?.copyWith(fontWeight: FontWeight.w600),
+    );
+  }
+}
+
+class _SlideTextParts {
+  const _SlideTextParts({
+    required this.body,
+    this.example,
+  });
+
+  final String body;
+  final String? example;
 }
