@@ -6,12 +6,11 @@ CORE STRUCTURE – WordMap
 "Root page with header, dynamic body, and bottom navigation."
 
     [Header]
-        -(Overview)wordCounter "Shows words readed / total words and click to open overview"
-        -(Chapters)Category title "WordMap"
-        -(Profile and settings)profile "open profile/settings"
+        =App title "WordMap" (centered)
+        -settings "open profile/settings"
 
     [Body]
-        ""
+        "Body switches between tabs: Home, Lessons, Profile."
 
         [Home]
             "Default tab when app opens. Shows current words."
@@ -29,13 +28,24 @@ CORE STRUCTURE – WordMap
                         -bookmark
                         -close
 
-        Overlay
-            (Overview)
-            (Chapters)
-            (Profile and settings)
+        [Lessons]
+            [Lessons list]
+                -[Lessons item]
+                    [Sub Lessons list]
+                        -[Sub Lessons item]
+                            [Pages] "in pages start a lesson , can user next or close , maybe 1 or more pages"
 
 
+        [Profile]
+            [Profile & Settings content]
+                -Words overview
+                -translation options
+                -about
 
+    [Bottom]
+        -[Home]
+        -[Lessons]
+        -[Profile]
 
 =========================
 OPTIONAL / EXTRA FEATURES (END SECTION)

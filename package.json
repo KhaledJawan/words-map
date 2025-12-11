@@ -1,0 +1,30 @@
+{
+  "name": "word_map_app",
+  "version": "1.0.0",
+  "description": "A new Flutter project.",
+  "main": "fix_and_generate_question_audios.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhaledJawan/words-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KhaledJawan/words-map/issues"
+  },
+  "homepage": "https://github.com/KhaledJawan/words-map#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-fetch": "^2.7.0"
+  }
+}
