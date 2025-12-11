@@ -317,6 +317,24 @@ abstract class AppLocalizations {
   /// **'Coming soon'**
   String get lessonsStatusComingSoon;
 
+  /// No description provided for @grammarContentLoadError.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load grammar content.'**
+  String get grammarContentLoadError;
+
+  /// No description provided for @lessonExamplesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Examples'**
+  String get lessonExamplesTitle;
+
+  /// No description provided for @grammarTopicComingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Content will be added later.'**
+  String get grammarTopicComingSoon;
+
   /// No description provided for @lessonButtonNext.
   ///
   /// In en, this message translates to:

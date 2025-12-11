@@ -129,6 +129,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get lessonsStatusComingSoon => 'Coming soon';
 
   @override
+  String get grammarContentLoadError => 'Failed to load grammar content.';
+
+  @override
+  String get lessonExamplesTitle => 'Examples';
+
+  @override
+  String get grammarTopicComingSoon => 'Content will be added later.';
+
+  @override
   String get lessonButtonNext => 'Next';
 
   @override

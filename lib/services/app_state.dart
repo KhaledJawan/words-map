@@ -2,10 +2,12 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../models/app_language.dart';
 import '../theme_controller.dart';
 
 class AppState with ChangeNotifier {
   Locale? _appLocale;
+  AppLanguage _appLanguage = AppLanguage.en;
   bool _onboardingCompleted = false;
   bool _isDataLoaded = false;
   String _currentLevel = 'A1.1';
@@ -14,6 +16,7 @@ class AppState with ChangeNotifier {
   Set<String> _viewedIds = {};
 
   Locale? get appLocale => _appLocale;
+  AppLanguage get appLanguage => _appLanguage;
   bool get onboardingCompleted => _onboardingCompleted;
   bool get isDataLoaded => _isDataLoaded;
   String get currentLevel => _currentLevel;
@@ -42,6 +45,7 @@ class AppState with ChangeNotifier {
     } else {
       _appLocale = const Locale('en');
     }
+    _appLanguage = appLanguageFromLocale(_appLocale?.languageCode);
 
     _onboardingCompleted = prefs.getBool('onboardingCompleted') ?? false;
     _currentLevel = prefs.getString('currentLevel') ?? 'A1.1';
@@ -70,7 +74,17 @@ class AppState with ChangeNotifier {
       return;
     }
     _appLocale = newLocale;
+    _appLanguage = appLanguageFromLocale(newLocale.languageCode);
     await prefs.setString('languageCode', newLocale.languageCode);
+    notifyListeners();
+  }
+
+  Future<void> setLanguage(AppLanguage lang) async {
+    final prefs = await SharedPreferences.getInstance();
+    if (_appLanguage == lang) return;
+    _appLanguage = lang;
+    _appLocale = lang.locale;
+    await prefs.setString('languageCode', lang.languageCode);
     notifyListeners();
   }
 

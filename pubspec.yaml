@@ -78,6 +78,8 @@ flutter:
 
   assets:
     - assets/words/
+    - assets/lessons/beginner-basics/alphabet.json
+    - assets/lessons/grammar/
     - assets/icons/app_icon.png
     - assets/lottie/splash.json
 

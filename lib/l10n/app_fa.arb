@@ -41,6 +41,9 @@
     }
   },
   "lessonsStatusComingSoon": "به‌زودی",
+  "grammarContentLoadError": "بارگذاری محتوای گرامر با خطا مواجه شد.",
+  "lessonExamplesTitle": "نمونه‌ها",
+  "grammarTopicComingSoon": "محتوا به‌زودی اضافه می‌شود.",
   "lessonButtonNext": "بعدی",
   "slideAlphabetOverviewTitle": "German Alphabet – Overview",
   "slideAlphabetVowelsTitle": "Vowels (A, E, I, O, U)",

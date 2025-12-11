@@ -41,6 +41,9 @@
     }
   },
   "lessonsStatusComingSoon": "Coming soon",
+  "grammarContentLoadError": "Failed to load grammar content.",
+  "lessonExamplesTitle": "Examples",
+  "grammarTopicComingSoon": "Content will be added later.",
   "lessonButtonNext": "Next",
   "slideAlphabetOverviewTitle": "German Alphabet – Overview",
   "slideAlphabetVowelsTitle": "Vowels (A, E, I, O, U)",

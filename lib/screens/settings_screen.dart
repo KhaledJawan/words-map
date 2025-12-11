@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:provider/provider.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
+import 'package:word_map_app/models/app_language.dart';
 import 'package:word_map_app/services/app_state.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -10,6 +11,7 @@ class SettingsScreen extends StatelessWidget {
   void _showLanguagePicker(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
     final appState = context.read<AppState>();
+    final currentLanguage = appState.appLanguage;
 
     showModalBottomSheet<void>(
       context: context,
@@ -27,22 +29,33 @@ class SettingsScreen extends StatelessWidget {
             ListTile(
               leading: const Icon(LucideIcons.globe),
               title: Text(loc.settingsLanguageEnglish),
-              trailing: appState.appLocale?.languageCode == 'en'
+              trailing: currentLanguage == AppLanguage.en
                   ? Icon(LucideIcons.check, color: Theme.of(context).colorScheme.primary)
                   : null,
               onTap: () {
-                appState.changeLocale(const Locale('en'));
+                appState.setLanguage(AppLanguage.en);
                 Navigator.of(ctx).pop();
               },
             ),
             ListTile(
               leading: const Icon(LucideIcons.languages),
               title: Text(loc.settingsLanguageFarsi),
-              trailing: appState.appLocale?.languageCode == 'fa'
+              trailing: currentLanguage == AppLanguage.fa
                   ? Icon(LucideIcons.check, color: Theme.of(context).colorScheme.primary)
                   : null,
               onTap: () {
-                appState.changeLocale(const Locale('fa'));
+                appState.setLanguage(AppLanguage.fa);
+                Navigator.of(ctx).pop();
+              },
+            ),
+            ListTile(
+              leading: const Icon(LucideIcons.flag),
+              title: Text('Deutsch'),
+              trailing: currentLanguage == AppLanguage.de
+                  ? Icon(LucideIcons.check, color: Theme.of(context).colorScheme.primary)
+                  : null,
+              onTap: () {
+                appState.setLanguage(AppLanguage.de);
                 Navigator.of(ctx).pop();
               },
             ),

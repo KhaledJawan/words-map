@@ -1,0 +1,31 @@
+{
+  "id": "grammar_personalpronomen_1",
+  "title_de": "Personalpronomen",
+  "title_en": "Personal Pronouns",
+  "title_fa": "ضمیرهای شخصی",
+  "level": "A1",
+  "description_en": "Personal pronouns replace nouns so we don’t repeat the same word. The main forms are ich (I), du (you informal), Sie (you formal), er (he), sie (she), es (it), wir (we), ihr (you plural informal), sie (they). Use Sie for strangers and always write it with a capital letter.",
+  "description_fa": "ضمیرهای شخصی در آلمانی برای اشاره به افراد استفاده می‌شوند. این ضمیرها بسته به اینکه چه کسی صحبت می‌کند و با چه کسی صحبت می‌کنیم تغییر می‌کنند. ضمیرهای اصلی عبارت‌اند از: ich (من)، du (تو غیررسمی)، Sie (شما رسمی)، er (او مرد)، sie (او زن)، es (آن)، wir (ما)، ihr (شماها غیررسمی)، sie (آنها). در آلمانی Sie رسمی همیشه با حرف بزرگ نوشته می‌شود.",
+  "examples": [
+    {
+      "de": "Ich komme aus Iran.",
+      "fa": "من اهل ایران هستم."
+    },
+    {
+      "de": "Du bist nett.",
+      "fa": "تو مهربان هستی."
+    },
+    {
+      "de": "Sie arbeiten hier?",
+      "fa": "شما اینجا کار می‌کنید؟ (رسمی)"
+    },
+    {
+      "de": "Er heißt Max.",
+      "fa": "اسم او (مرد) مکس است."
+    },
+    {
+      "de": "Wir lernen Deutsch.",
+      "fa": "ما آلمانی یاد می‌گیریم."
+    }
+  ]
+}

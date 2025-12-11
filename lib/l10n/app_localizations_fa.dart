@@ -129,6 +129,15 @@ class AppLocalizationsFa extends AppLocalizations {
   String get lessonsStatusComingSoon => 'به‌زودی';
 
   @override
+  String get grammarContentLoadError => 'بارگذاری محتوای گرامر با خطا مواجه شد.';
+
+  @override
+  String get lessonExamplesTitle => 'نمونه‌ها';
+
+  @override
+  String get grammarTopicComingSoon => 'محتوا به‌زودی اضافه می‌شود.';
+
+  @override
   String get lessonButtonNext => 'بعدی';
 
   @override
