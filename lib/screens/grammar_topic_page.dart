@@ -24,7 +24,8 @@ class GrammarTopicPage extends StatefulWidget {
 
 class _GrammarTopicPageState extends State<GrammarTopicPage> {
   final ScrollController _scrollController = ScrollController();
-  final LessonCompletionRepository _completionRepo = LessonCompletionRepository();
+  final LessonCompletionRepository _completionRepo =
+      LessonCompletionRepository();
   late Future<_LessonLoadResult> _contentFuture;
   bool _initializedContent = false;
   bool _showVocabulary = false;
@@ -36,7 +37,8 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
   }
 
   void _repeatTopic() {
-    _scrollController.animateTo(0, duration: const Duration(milliseconds: 300), curve: Curves.easeOut);
+    _scrollController.animateTo(0,
+        duration: const Duration(milliseconds: 300), curve: Curves.easeOut);
   }
 
   @override
@@ -72,20 +74,32 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
     for (final candidate in bundles) {
       try {
         final raw = await candidate.loadString(widget.topic.assetPath);
-        final data = jsonDecode(raw);
-        if (data is! Map<String, dynamic>) {
+        final decoded = jsonDecode(raw);
+        final data = _extractLessonJson(decoded);
+        if (data == null) {
           lastError = 'Asset did not contain a JSON object';
           continue;
         }
         return _LessonLoadResult(_GrammarLessonContent.fromJson(data), null);
       } catch (error, stack) {
         lastError = error;
-        debugPrint('Failed to load grammar lesson content from ${widget.topic.assetPath} with bundle $candidate: $error');
+        debugPrint(
+            'Failed to load grammar lesson content from ${widget.topic.assetPath} with bundle $candidate: $error');
         debugPrint('$stack');
       }
     }
 
     return _LessonLoadResult(null, lastError ?? 'Unknown asset load error');
+  }
+
+  Map<String, dynamic>? _extractLessonJson(dynamic decoded) {
+    if (decoded is Map<String, dynamic>) return decoded;
+    if (decoded is List) {
+      for (final entry in decoded) {
+        if (entry is Map<String, dynamic>) return entry;
+      }
+    }
+    return null;
   }
 
   @override
@@ -94,7 +108,8 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
     final loc = AppLocalizations.of(context)!;
     final appLanguage = context.watch<AppState>().appLanguage;
     final title = localizedGrammarTopicTitle(widget.topic, appLanguage);
-    final description = localizedGrammarTopicDescription(widget.topic, appLanguage);
+    final description =
+        localizedGrammarTopicDescription(widget.topic, appLanguage);
     final hasDescription = description.isNotEmpty;
     final hasExamples = widget.topic.examples.isNotEmpty;
     return Scaffold(
@@ -118,21 +133,17 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
                   bottomRight: Radius.circular(20),
                 ),
               ),
-              padding: const EdgeInsets.fromLTRB(8, 10, 16, 16),
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      IconButton(
-                        icon: const Icon(LucideIcons.x),
-                        color: theme.colorScheme.onPrimary,
-                        onPressed: () => Navigator.of(context).maybePop(),
-                      ),
-                      const SizedBox(width: 6),
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
                               title,
@@ -140,27 +151,46 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
                                 fontWeight: FontWeight.w800,
                                 color: theme.colorScheme.onPrimary,
                               ),
-                              maxLines: 2,
+                              maxLines: 3,
                               overflow: TextOverflow.ellipsis,
                             ),
-                            const SizedBox(height: 4),
-                            Text(
-                              widget.topic.titleDe,
-                              style: theme.textTheme.bodySmall?.copyWith(
-                                color: theme.colorScheme.onPrimary.withOpacity(0.8),
+                            if (widget.topic.level.isNotEmpty) ...[
+                              const SizedBox(height: 8),
+                              Container(
+                                padding: const EdgeInsets.symmetric(
+                                    horizontal: 12, vertical: 7),
+                                decoration: BoxDecoration(
+                                  color: theme.colorScheme.onPrimary
+                                      .withOpacity(0.12),
+                                  borderRadius: BorderRadius.circular(14),
+                                ),
+                                child: Text(
+                                  'Level ${widget.topic.level}',
+                                  style: theme.textTheme.labelMedium?.copyWith(
+                                    fontWeight: FontWeight.w600,
+                                    color: theme.colorScheme.onPrimary,
+                                  ),
+                                ),
                               ),
-                              maxLines: 1,
-                              overflow: TextOverflow.ellipsis,
-                            ),
+                            ],
                           ],
                         ),
+                      ),
+                      const SizedBox(width: 12),
+                      IconButton(
+                        icon: const Icon(LucideIcons.x),
+                        color: theme.colorScheme.onPrimary,
+                        onPressed: () => Navigator.of(context).maybePop(),
+                        padding: const EdgeInsets.all(10),
+                        constraints: const BoxConstraints(),
                       ),
                     ],
                   ),
                   if (widget.topic.level.isNotEmpty) ...[
                     const SizedBox(height: 8),
                     Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 12, vertical: 7),
                       decoration: BoxDecoration(
                         color: theme.colorScheme.onPrimary.withOpacity(0.12),
                         borderRadius: BorderRadius.circular(14),
@@ -212,13 +242,15 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
                           children: [
                             Text(
                               'Content failed to load',
-                              style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
+                              style: theme.textTheme.titleMedium
+                                  ?.copyWith(fontWeight: FontWeight.w600),
                             ),
                             const SizedBox(height: 8),
                             Text(
                               'Asset: ${widget.topic.assetPath}',
                               style: theme.textTheme.bodyMedium?.copyWith(
-                                color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.7),
+                                color: theme.textTheme.bodySmall?.color
+                                    ?.withValues(alpha: 0.7),
                               ),
                             ),
                             if (result?.error != null) ...[
@@ -226,7 +258,8 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
                               Text(
                                 'Error: ${result!.error}',
                                 style: theme.textTheme.bodySmall?.copyWith(
-                                  color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.7),
+                                  color: theme.textTheme.bodySmall?.color
+                                      ?.withValues(alpha: 0.7),
                                 ),
                               ),
                             ],
@@ -268,21 +301,23 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const SizedBox(height: 12),
-            if (content.vocabulary.isNotEmpty) ...[
-              const SizedBox(height: 16),
-              Align(
-                alignment: Alignment.centerRight,
-                child: FilledButton.icon(
-                  style: FilledButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(999)),
-                    backgroundColor: theme.colorScheme.primaryContainer,
-                    foregroundColor: theme.colorScheme.onPrimaryContainer,
-                  ),
-                  icon: const Icon(Icons.visibility_outlined, size: 18),
-                  label: const Text('نمایش لغات جدید'),
-                  onPressed: onToggleVocabulary,
+          if (content.vocabulary.isNotEmpty) ...[
+            const SizedBox(height: 16),
+            Align(
+              alignment: Alignment.centerRight,
+              child: FilledButton.icon(
+                style: FilledButton.styleFrom(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(999)),
+                  backgroundColor: theme.colorScheme.primaryContainer,
+                  foregroundColor: theme.colorScheme.onPrimaryContainer,
                 ),
+                icon: const Icon(Icons.visibility_outlined, size: 18),
+                label: const Text('نمایش لغات جدید'),
+                onPressed: onToggleVocabulary,
+              ),
             ),
             if (showVocabulary) ...[
               const SizedBox(height: 8),
@@ -362,7 +397,8 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
             const SizedBox(height: 24),
             Text(
               loc.lessonExamplesTitle,
-              style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
+              style: theme.textTheme.titleMedium
+                  ?.copyWith(fontWeight: FontWeight.w600),
             ),
             const SizedBox(height: 14),
             Column(
@@ -377,7 +413,8 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
                           if (example.de.isNotEmpty)
                             Text(
                               example.de,
-                              style: theme.textTheme.bodyLarge?.copyWith(fontWeight: FontWeight.w600),
+                              style: theme.textTheme.bodyLarge
+                                  ?.copyWith(fontWeight: FontWeight.w600),
                             ),
                           if (example.fa.isNotEmpty)
                             Padding(
@@ -385,7 +422,8 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
                               child: Text(
                                 example.fa,
                                 style: theme.textTheme.bodyMedium?.copyWith(
-                                  color: theme.textTheme.bodyMedium?.color?.withValues(alpha: 0.75),
+                                  color: theme.textTheme.bodyMedium?.color
+                                      ?.withValues(alpha: 0.75),
                                 ),
                               ),
                             ),
@@ -417,7 +455,8 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
       foregroundColor: theme.colorScheme.onPrimary,
       padding: const EdgeInsets.symmetric(vertical: 14),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-      textStyle: theme.textTheme.labelLarge?.copyWith(fontWeight: FontWeight.w600),
+      textStyle:
+          theme.textTheme.labelLarge?.copyWith(fontWeight: FontWeight.w600),
     );
   }
 
@@ -463,7 +502,8 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
               stream: AudioService.instance.playingStream,
               builder: (streamContext, snapshot) {
                 final isPlaying = snapshot.data ?? false;
-                final isCurrent = AudioService.instance.currentUrl == audioUrl && isPlaying;
+                final isCurrent =
+                    AudioService.instance.currentUrl == audioUrl && isPlaying;
                 final iconColor = theme.colorScheme.primary;
                 return IconButton(
                   padding: EdgeInsets.zero,
@@ -612,7 +652,8 @@ class _GrammarLessonPageCard extends StatelessWidget {
               padding: const EdgeInsets.only(bottom: 8),
               child: Text(
                 page.title,
-                style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700),
+                style: theme.textTheme.titleMedium
+                    ?.copyWith(fontWeight: FontWeight.w700),
               ),
             ),
           if (page.explanation.isNotEmpty)
@@ -635,7 +676,8 @@ class _GrammarLessonPageCard extends StatelessWidget {
                           if (example.de.isNotEmpty)
                             Text(
                               example.de,
-                              style: theme.textTheme.bodyLarge?.copyWith(fontWeight: FontWeight.w600),
+                              style: theme.textTheme.bodyLarge
+                                  ?.copyWith(fontWeight: FontWeight.w600),
                             ),
                           if (example.fa.isNotEmpty)
                             Padding(
@@ -643,7 +685,8 @@ class _GrammarLessonPageCard extends StatelessWidget {
                               child: Text(
                                 example.fa,
                                 style: theme.textTheme.bodyMedium?.copyWith(
-                                  color: theme.textTheme.bodyMedium?.color?.withValues(alpha: 0.75),
+                                  color: theme.textTheme.bodyMedium?.color
+                                      ?.withValues(alpha: 0.75),
                                 ),
                               ),
                             ),
@@ -747,7 +790,8 @@ class _GrammarLessonPage {
   factory _GrammarLessonPage.fromJson(Map<String, dynamic> json) {
     final examples = <_GrammarLessonExample>[];
     if (json['example'] is Map<String, dynamic>) {
-      examples.add(_GrammarLessonExample.fromJson(json['example'] as Map<String, dynamic>));
+      examples.add(_GrammarLessonExample.fromJson(
+          json['example'] as Map<String, dynamic>));
     }
     if (json['examples'] is Iterable) {
       examples.addAll(

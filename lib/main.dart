@@ -10,6 +10,7 @@ import 'package:word_map_app/screens/words_list_init.dart';
 import 'screens/main_page.dart';
 import 'screens/settings_screen.dart';
 import 'theme_controller.dart';
+import 'models/app_language.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -57,13 +58,16 @@ class WordMapApp extends StatelessWidget {
     return ValueListenableBuilder<ThemeMode>(
       valueListenable: appThemeMode,
       builder: (context, mode, _) {
+        final lang = appState.appLanguage;
+        final isFarsi = lang == AppLanguage.fa;
+        final fontFamily = isFarsi ? 'Vazirmatn' : 'InterVar';
         return MaterialApp(
           title: 'Word Map',
           debugShowCheckedModeBanner: false,
           scrollBehavior: IOSScrollBehavior(),
           themeMode: mode,
-          theme: _buildLightTheme(),
-          darkTheme: _buildDarkTheme(),
+          theme: _buildLightTheme(fontFamily, isFarsi),
+          darkTheme: _buildDarkTheme(fontFamily, isFarsi),
           locale: appState.appLocale,
           localizationsDelegates: AppLocalizations.localizationsDelegates,
           supportedLocales: AppLocalizations.supportedLocales,
@@ -78,8 +82,8 @@ class WordMapApp extends StatelessWidget {
   }
 }
 
-ThemeData _buildLightTheme() {
-  return ThemeData(
+ThemeData _buildLightTheme(String? fontFamily, bool isFarsi) {
+  final base = ThemeData(
     useMaterial3: true,
     brightness: Brightness.light,
     scaffoldBackgroundColor: WordMapColors.lightBackground,
@@ -161,10 +165,110 @@ ThemeData _buildLightTheme() {
       type: BottomNavigationBarType.fixed,
     ),
   );
+
+  if (fontFamily == null) return base;
+
+  TextTheme themedText = base.textTheme.apply(fontFamily: fontFamily);
+  if (isFarsi) {
+    themedText = themedText.copyWith(
+      titleLarge: themedText.titleLarge?.copyWith(fontWeight: FontWeight.w400),
+      titleMedium: themedText.titleMedium?.copyWith(fontWeight: FontWeight.w400),
+      labelLarge: themedText.labelLarge?.copyWith(fontWeight: FontWeight.w400),
+    );
+  }
+
+  return base.copyWith(
+    textTheme: themedText,
+    appBarTheme: base.appBarTheme.copyWith(
+      titleTextStyle: base.appBarTheme.titleTextStyle?.copyWith(
+        fontFamily: fontFamily,
+        fontWeight: FontWeight.w400,
+      ),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: base.elevatedButtonTheme.style?.copyWith(
+        textStyle: MaterialStatePropertyAll(
+          TextStyle(
+            fontFamily: fontFamily,
+            fontWeight: isFarsi ? FontWeight.w400 : base.elevatedButtonTheme.style?.textStyle?.resolve({})?.fontWeight,
+            fontSize: base.elevatedButtonTheme.style?.textStyle?.resolve({})?.fontSize,
+          ),
+        ),
+      ),
+    ),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: base.outlinedButtonTheme.style?.copyWith(
+        textStyle: MaterialStatePropertyAll(
+          TextStyle(
+            fontFamily: fontFamily,
+            fontWeight: isFarsi ? FontWeight.w400 : base.outlinedButtonTheme.style?.textStyle?.resolve({})?.fontWeight,
+            fontSize: base.outlinedButtonTheme.style?.textStyle?.resolve({})?.fontSize,
+          ),
+        ),
+      ),
+    ),
+  );
 }
 
-ThemeData _buildDarkTheme() {
-  final base = _buildLightTheme();
+ThemeData _buildDarkTheme(String? fontFamily, bool isFarsi) {
+  final base = _buildLightTheme(fontFamily, isFarsi);
+  if (!isFarsi) {
+    return base.copyWith(
+      brightness: Brightness.dark,
+      scaffoldBackgroundColor: WordMapColors.darkBackground,
+      canvasColor: WordMapColors.darkSurface,
+      cardColor: WordMapColors.darkCard,
+      colorScheme: const ColorScheme.dark(
+        primary: WordMapColors.primaryBlue,
+        secondary: WordMapColors.accentOrange,
+        surface: WordMapColors.darkSurface,
+      ),
+      dividerColor: WordMapColors.dividerDark,
+      appBarTheme: base.appBarTheme.copyWith(
+        backgroundColor: WordMapColors.darkSurface,
+        foregroundColor: Colors.white,
+        titleTextStyle: base.appBarTheme.titleTextStyle?.copyWith(color: Colors.white),
+      ),
+      cardTheme: base.cardTheme.copyWith(color: WordMapColors.darkCard),
+      listTileTheme: base.listTileTheme.copyWith(
+        iconColor: WordMapColors.primaryBlue,
+        textColor: Colors.white,
+        subtitleTextStyle: const TextStyle(color: Colors.white70, fontSize: 13),
+      ),
+      textTheme: base.textTheme
+          .apply(bodyColor: Colors.white70, displayColor: Colors.white70)
+          .copyWith(
+            titleLarge: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
+            titleMedium: const TextStyle(color: Colors.white70),
+            labelLarge: const TextStyle(color: Colors.white),
+          ),
+      inputDecorationTheme: base.inputDecorationTheme.copyWith(
+        fillColor: Colors.grey.shade900,
+      ),
+      bottomNavigationBarTheme: base.bottomNavigationBarTheme.copyWith(
+        backgroundColor: WordMapColors.darkSurface,
+        selectedItemColor: WordMapColors.primaryBlue,
+        unselectedItemColor: Colors.grey,
+      ),
+    );
+  }
+  final textWithFamily = base.textTheme.apply(fontFamily: fontFamily).copyWith(
+        titleLarge: base.textTheme.titleLarge?.copyWith(
+          fontFamily: fontFamily,
+          fontWeight: FontWeight.w400,
+          color: Colors.white,
+        ),
+        titleMedium: base.textTheme.titleMedium?.copyWith(
+          fontFamily: fontFamily,
+          fontWeight: FontWeight.w400,
+          color: Colors.white70,
+        ),
+        labelLarge: base.textTheme.labelLarge?.copyWith(
+          fontFamily: fontFamily,
+          fontWeight: FontWeight.w400,
+          color: Colors.white,
+        ),
+      );
   return base.copyWith(
     brightness: Brightness.dark,
     scaffoldBackgroundColor: WordMapColors.darkBackground,
@@ -179,7 +283,11 @@ ThemeData _buildDarkTheme() {
     appBarTheme: base.appBarTheme.copyWith(
       backgroundColor: WordMapColors.darkSurface,
       foregroundColor: Colors.white,
-      titleTextStyle: base.appBarTheme.titleTextStyle?.copyWith(color: Colors.white),
+      titleTextStyle: base.appBarTheme.titleTextStyle?.copyWith(
+        color: Colors.white,
+        fontFamily: fontFamily,
+        fontWeight: FontWeight.w400,
+      ),
     ),
     cardTheme: base.cardTheme.copyWith(color: WordMapColors.darkCard),
     listTileTheme: base.listTileTheme.copyWith(
@@ -187,11 +295,7 @@ ThemeData _buildDarkTheme() {
       textColor: Colors.white,
       subtitleTextStyle: const TextStyle(color: Colors.white70, fontSize: 13),
     ),
-    textTheme: base.textTheme.apply(bodyColor: Colors.white70, displayColor: Colors.white70).copyWith(
-          titleLarge: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
-          titleMedium: const TextStyle(color: Colors.white70),
-          labelLarge: const TextStyle(color: Colors.white),
-        ),
+    textTheme: textWithFamily,
     inputDecorationTheme: base.inputDecorationTheme.copyWith(
       fillColor: Colors.grey.shade900,
     ),

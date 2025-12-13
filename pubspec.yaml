@@ -97,6 +97,14 @@ flutter:
     - assets/icons/app_icon.png
     - assets/lottie/splash.json
 
+  fonts:
+    - family: Vazirmatn
+      fonts:
+        - asset: assets/fonts/farsi/Vazirmatn-VariableFont_wght.ttf
+    - family: InterVar
+      fonts:
+        - asset: assets/fonts/german/Inter-VariableFont_opsz,wght.ttf
+
 flutter_launcher_icons:
   android: true
   ios: true
