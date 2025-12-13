@@ -23,6 +23,7 @@ class VersionChecker {
       final iosUrl = data['iosUrl'] as String;
 
       if (!_isVersionLower(currentVersion, latest)) return;
+      if (!context.mounted) return;
 
       _showUpdateDialog(context, androidUrl, iosUrl);
     } catch (e) {

@@ -167,7 +167,7 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
             borderRadius: BorderRadius.circular(20),
             boxShadow: [
               BoxShadow(
-                color: Colors.black.withOpacity(0.05),
+                color: Colors.black.withValues(alpha: 0.05),
                 blurRadius: 12,
                 offset: const Offset(0, 3),
               ),
@@ -192,7 +192,7 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
                           ? loc.grammarLevelLessonsCount(total)
                           : localizedLessonsStatusComingSoon(loc),
                       style: theme.textTheme.bodyMedium?.copyWith(
-                        color: theme.textTheme.bodySmall?.color?.withOpacity(0.65),
+                        color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.65),
                       ),
                     ),
                   ],

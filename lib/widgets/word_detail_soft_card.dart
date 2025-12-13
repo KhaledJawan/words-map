@@ -96,7 +96,7 @@ class WordDetailSoftCard extends StatelessWidget {
                         translationPrimary,
                         textAlign: TextAlign.end,
                         style: textTheme.titleMedium?.copyWith(
-                          color: Colors.black.withOpacity(0.85),
+                          color: Colors.black.withValues(alpha: 0.85),
                           fontWeight: FontWeight.w600,
                         ),
                         maxLines: 2,
@@ -109,7 +109,7 @@ class WordDetailSoftCard extends StatelessWidget {
                           translationSecondary!,
                           textAlign: TextAlign.end,
                           style: textTheme.bodyMedium?.copyWith(
-                            color: Colors.black.withOpacity(0.65),
+                            color: Colors.black.withValues(alpha: 0.65),
                           ),
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,

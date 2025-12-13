@@ -80,6 +80,20 @@ flutter:
     - assets/words/
     - assets/lessons/beginner-basics/alphabet.json
     - assets/lessons/grammar/
+    - assets/lessons/grammar/01-verben-1/
+    - assets/lessons/grammar/02-saetze-und-fragen/
+    - assets/lessons/grammar/03-pronomen-nomen-und-artikel/
+    - assets/lessons/grammar/04-verben-2/
+    - assets/lessons/grammar/05-praepositionen/
+    - assets/lessons/grammar/06-wechselpraepositionen/
+    - assets/lessons/grammar/07-adjektive/
+    - assets/lessons/grammar/08-saetze-und-satzverbindungen/
+    - assets/lessons/grammar/09-nebensaetze/
+    - assets/lessons/grammar/10-praepositionen-2/
+    - assets/lessons/grammar/11-nomen-2/
+    - assets/lessons/grammar/12-saetze-und-satzverbindungen-2/
+    - assets/lessons/grammar/13-woerter-und-wortbildung/
+    - assets/lessons/grammar/14-partizip-adjektiv/
     - assets/icons/app_icon.png
     - assets/lottie/splash.json
 

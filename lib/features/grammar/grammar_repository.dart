@@ -31,9 +31,7 @@ class AssetGrammarRepository implements GrammarRepository {
         if (fileName == null) continue;
         final assetPath = 'assets/lessons/grammar/$folder/$fileName';
         final topic = await _loadTopic(assetPath);
-        if (topic != null) {
-          topics.add(topic);
-        }
+        topics.add(topic);
       }
       categories.add(GrammarCategory(id: folder, title: title, folder: folder, topics: topics));
     }

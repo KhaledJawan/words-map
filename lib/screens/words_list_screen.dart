@@ -266,7 +266,7 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
       context: context,
       barrierDismissible: true,
       barrierLabel: 'word-detail',
-      barrierColor: Colors.black.withOpacity(0.25),
+      barrierColor: Colors.black.withValues(alpha: 0.25),
       transitionDuration: const Duration(milliseconds: 220),
       pageBuilder: (context, animation, secondaryAnimation) {
         bool bookmarkedLocal = word.isBookmarked;
@@ -281,7 +281,7 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                     onTap: () => Navigator.of(context).maybePop(),
                     child: BackdropFilter(
                       filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-                      child: Container(color: Colors.black.withOpacity(0.05)),
+                      child: Container(color: Colors.black.withValues(alpha: 0.05)),
                     ),
                   ),
                   Center(
@@ -301,6 +301,7 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                               : (fa.isNotEmpty ? fa : '');
                           final audioUrl = word.audio.trim();
                           final hasAudio = audioUrl.isNotEmpty;
+                          final messenger = ScaffoldMessenger.of(dialogContext);
                           Future<void> handlePlayAudio() async {
                             if (!hasAudio) return;
                             try {
@@ -308,7 +309,7 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                             } catch (e) {
                               debugPrint('Audio playback failed: $e');
                               if (!mounted) return;
-                              ScaffoldMessenger.of(dialogContext).showSnackBar(
+                              messenger.showSnackBar(
                                 const SnackBar(
                                   content: Text('Audio konnte nicht abgespielt werden.'),
                                   duration: Duration(seconds: 2),
@@ -439,7 +440,7 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
               '${_visibleWords.length}',
               style: textTheme.bodySmall?.copyWith(
                 fontWeight: FontWeight.w600,
-                color: Colors.white.withOpacity(0.8),
+                color: Colors.white.withValues(alpha: 0.8),
                 fontSize: textTheme.bodySmall?.fontSize != null
                     ? textTheme.bodySmall!.fontSize! - 1
                     : null,
@@ -545,7 +546,6 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
 
 class _WordList extends StatelessWidget {
   const _WordList({
-    super.key,
     required this.words,
     required this.onTap,
     required this.onBookmarkToggle,

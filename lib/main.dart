@@ -89,7 +89,6 @@ ThemeData _buildLightTheme() {
       primary: WordMapColors.primaryBlue,
       secondary: WordMapColors.accentOrange,
       surface: WordMapColors.lightSurface,
-      background: WordMapColors.lightBackground,
     ),
     dividerColor: Colors.grey.shade300,
     appBarTheme: const AppBarTheme(
@@ -110,7 +109,7 @@ ThemeData _buildLightTheme() {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(20),
       ),
-      shadowColor: Colors.black.withOpacity(0.05),
+      shadowColor: Colors.black.withValues(alpha: 0.05),
     ),
     listTileTheme: const ListTileThemeData(
       iconColor: WordMapColors.primaryBlue,
@@ -175,7 +174,6 @@ ThemeData _buildDarkTheme() {
       primary: WordMapColors.primaryBlue,
       secondary: WordMapColors.accentOrange,
       surface: WordMapColors.darkSurface,
-      background: WordMapColors.darkBackground,
     ),
     dividerColor: WordMapColors.dividerDark,
     appBarTheme: base.appBarTheme.copyWith(
@@ -207,14 +205,17 @@ ThemeData _buildDarkTheme() {
 
 class IOSScrollBehavior extends ScrollBehavior {
   @override
-  Widget buildViewportChrome(
-      BuildContext context, Widget child, AxisDirection axisDirection) {
-    return child;
+  ScrollPhysics getScrollPhysics(BuildContext context) {
+    return const BouncingScrollPhysics();
   }
 
   @override
-  ScrollPhysics getScrollPhysics(BuildContext context) {
-    return const BouncingScrollPhysics();
+  Widget buildOverscrollIndicator(
+    BuildContext context,
+    Widget child,
+    ScrollableDetails details,
+  ) {
+    return child;
   }
 }
 

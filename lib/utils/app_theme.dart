@@ -16,7 +16,6 @@ class AppTheme {
       seedColor: seed,
       primary: seed,
       secondary: secondary,
-      background: lightBackground,
     ),
     appBarTheme: const AppBarTheme(
       backgroundColor: Colors.white,
@@ -46,7 +45,7 @@ class AppTheme {
     cardTheme: CardThemeData(
       color: Colors.white,
       elevation: 0,
-      shadowColor: Colors.black.withOpacity(0.08),
+      shadowColor: Colors.black.withValues(alpha: 0.08),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
@@ -102,7 +101,7 @@ class AppTheme {
     cardTheme: CardThemeData(
       color: const Color(0xFF1C1C1E),
       elevation: 0,
-      shadowColor: Colors.black.withOpacity(0.25),
+      shadowColor: Colors.black.withValues(alpha: 0.25),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(

@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
@@ -121,7 +123,8 @@ class LessonsTab extends StatefulWidget {
 class _LessonsTabState extends State<LessonsTab> {
   final Set<String> _completedLessonIds = {};
   bool _isLoading = true;
-  final LessonCompletionRepository _completionRepo = LessonCompletionRepository();
+  final LessonCompletionRepository _completionRepo =
+      LessonCompletionRepository();
 
   @override
   void initState() {
@@ -152,7 +155,10 @@ class _LessonsTabState extends State<LessonsTab> {
       children: [
         Text(
           loc.lessonsTitle,
-          style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600),
+          style: Theme.of(context)
+              .textTheme
+              .titleLarge
+              ?.copyWith(fontWeight: FontWeight.w600),
         ),
         const SizedBox(height: 16),
         ...categories.map(
@@ -194,7 +200,7 @@ class _LessonsTabState extends State<LessonsTab> {
           borderRadius: BorderRadius.circular(20),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.05),
+              color: Colors.black.withValues(alpha: 0.05),
               blurRadius: 12,
               offset: const Offset(0, 3),
             ),
@@ -221,7 +227,7 @@ class _LessonsTabState extends State<LessonsTab> {
               Text(
                 localizedLessonsStatusComingSoon(loc),
                 style: theme.textTheme.bodySmall?.copyWith(
-                  color: theme.textTheme.bodySmall?.color?.withOpacity(0.6),
+                  color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.6),
                 ),
               ),
           ],
@@ -315,7 +321,8 @@ class _ProfileTabState extends State<ProfileTab> {
       children: [
         Text(
           loc.settingsTitle,
-          style: theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600),
+          style:
+              theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600),
         ),
         const SizedBox(height: 16),
         _buildSectionCard(
@@ -324,7 +331,8 @@ class _ProfileTabState extends State<ProfileTab> {
             children: [
               Text(
                 loc.settingsLanguage,
-                style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
+                style: theme.textTheme.titleMedium
+                    ?.copyWith(fontWeight: FontWeight.w600),
               ),
               const SizedBox(height: 4),
               Text(
@@ -354,7 +362,8 @@ class _ProfileTabState extends State<ProfileTab> {
             children: [
               Text(
                 loc.settingsTheme,
-                style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
+                style: theme.textTheme.titleMedium
+                    ?.copyWith(fontWeight: FontWeight.w600),
               ),
               const SizedBox(height: 4),
               Text(
@@ -390,7 +399,8 @@ class _ProfileTabState extends State<ProfileTab> {
             children: [
               Text(
                 loc.settingsNotificationsTitle,
-                style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
+                style: theme.textTheme.titleMedium
+                    ?.copyWith(fontWeight: FontWeight.w600),
               ),
               const SizedBox(height: 4),
               Text(

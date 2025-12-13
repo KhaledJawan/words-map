@@ -43,7 +43,10 @@ class VocabWord {
   }
 
   // Legacy getters for older call sites
+  // ignore: non_constant_identifier_names
   String get word => de;
+  // ignore: non_constant_identifier_names
   String get translation_en => translationEn;
+  // ignore: non_constant_identifier_names
   String get translation_fa => translationFa;
 }

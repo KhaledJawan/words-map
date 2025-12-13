@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:word_map_app/models/vocab_word.dart';
-import 'package:word_map_app/ui/ios_card.dart';
 
 class WordTile extends StatelessWidget {
   final VocabWord word;
   final int index;
   final VoidCallback onTap;
   final VoidCallback onLongPress;
-  static const EdgeInsetsDirectional _defaultPadding =
-      EdgeInsetsDirectional.symmetric(horizontal: 10, vertical: 8);
   const WordTile({
     super.key,
     required this.word,
@@ -30,7 +27,6 @@ class WordTile extends StatelessWidget {
     final bool isVisited = visited && !bookmarked;
 
     Color bg = isDark ? Colors.black : Colors.white;
-    Color? border;
     Color textColor = isDark ? Colors.white : cs.onSurface;
     List<BoxShadow>? shadow;
 
@@ -39,13 +35,13 @@ class WordTile extends StatelessWidget {
       textColor = bookmarkedBlue;
       shadow = isDark ? null : [
         BoxShadow(
-          color: bookmarkedBlue.withOpacity(0.10),
+          color: bookmarkedBlue.withValues(alpha: 0.10),
           blurRadius: 11,
           spreadRadius: 1,
           offset: const Offset(0, 3),
         ),
         BoxShadow(
-          color: bookmarkedBlue.withOpacity(0.04),
+          color: bookmarkedBlue.withValues(alpha: 0.04),
           blurRadius: 16,
           spreadRadius: 1,
           offset: const Offset(0, 7),
@@ -54,9 +50,9 @@ class WordTile extends StatelessWidget {
     } else if (isVisited) {
       // Viewed state
       bg = isDark ? Colors.transparent : const Color(0xFFF2F2F7);
-      textColor = isDark ? Colors.white.withOpacity(0.6) : const Color(0xFFAAAAAA);
+      textColor =
+          isDark ? Colors.white.withValues(alpha: 0.6) : const Color(0xFFAAAAAA);
       shadow = isDark ? null : null;
-      border = null;
     } else {
       // Normal
       bg = isDark ? Colors.black : Colors.white;
@@ -65,19 +61,18 @@ class WordTile extends StatelessWidget {
           ? null
           : [
               BoxShadow(
-                color: Colors.black.withOpacity(0.06),
+                color: Colors.black.withValues(alpha: 0.06),
                 blurRadius: 10,
                 spreadRadius: 1,
                 offset: const Offset(0, 3),
               ),
               BoxShadow(
-                color: Colors.black.withOpacity(0.02),
+                color: Colors.black.withValues(alpha: 0.02),
                 blurRadius: 16,
                 spreadRadius: 1,
                 offset: const Offset(0, 7),
               ),
             ];
-      border = isDark ? null : const Color(0xFFE0E0E0);
     }
 
     return Material(

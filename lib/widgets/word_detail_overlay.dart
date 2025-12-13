@@ -18,8 +18,8 @@ void showWordDetailOverlay(
     context: context,
     barrierLabel: 'word-detail',
     barrierDismissible: true,
-    barrierColor: Colors.black.withOpacity(0.25),
-    pageBuilder: (_, __, ___) {
+    barrierColor: Colors.black.withValues(alpha: 0.25),
+    pageBuilder: (dialogContext, animation, secondaryAnimation) {
       return StatefulBuilder(
         builder: (context, setState) {
           return Scaffold(
@@ -32,7 +32,7 @@ void showWordDetailOverlay(
                     onTap: () => Navigator.of(context).pop(),
                     child: BackdropFilter(
                       filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
-                      child: Container(color: Colors.black.withOpacity(0.1)),
+                      child: Container(color: Colors.black.withValues(alpha: 0.1)),
                     ),
                   ),
                 ),
@@ -61,7 +61,7 @@ void showWordDetailOverlay(
         },
       );
     },
-    transitionBuilder: (_, anim, __, child) {
+    transitionBuilder: (context, anim, secondaryAnimation, child) {
       return Transform.scale(
         scale: 0.95 + (0.05 * anim.value),
         child: Opacity(

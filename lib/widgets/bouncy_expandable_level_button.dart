@@ -92,13 +92,13 @@ class _BouncyExpandableLevelButtonState
           boxShadow: _isExpanded
               ? [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.06),
+                    color: Colors.black.withValues(alpha: 0.06),
                     blurRadius: 10,
                     spreadRadius: 1,
                     offset: const Offset(0, 3),
                   ),
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.02),
+                    color: Colors.black.withValues(alpha: 0.02),
                     blurRadius: 16,
                     spreadRadius: 1,
                     offset: const Offset(0, 7),
@@ -151,7 +151,7 @@ class _BouncyExpandableLevelButtonState
             _lastSelectedOption!,
             style: TextStyle(
               fontSize: 11,
-              color: Colors.black.withOpacity(0.6),
+              color: Colors.black.withValues(alpha: 0.6),
             ),
           ),
         ],
@@ -198,10 +198,10 @@ class _BouncyExpandableLevelButtonState
                 padding:
                     const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
                 decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.10),
+                  color: Colors.white.withValues(alpha: 0.10),
                   borderRadius: BorderRadius.circular(999),
                   border: Border.all(
-                    color: Colors.white.withOpacity(0.35),
+                    color: Colors.white.withValues(alpha: 0.35),
                     width: 1,
                   ),
                 ),

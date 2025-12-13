@@ -129,8 +129,8 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
 
   Widget _buildSlideText(ThemeData theme, LessonSlide slide, AppLocalizations loc) {
     final parts = _splitSlideText(slide.text);
-    final exampleText = parts.example?.trim();
-    final hasExample = exampleText != null && exampleText.isNotEmpty;
+    final exampleText = (parts.example ?? '').trim();
+    final hasExample = exampleText.isNotEmpty;
     final bodyText =
         hasExample ? parts.body.trim() : slide.text.trim();
     final bodyStyle = theme.textTheme.bodyLarge?.copyWith(
@@ -139,7 +139,7 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
         theme.textTheme.bodyMedium?.copyWith(height: 1.45);
     final exampleStyle = theme.textTheme.bodyMedium?.copyWith(
           fontStyle: FontStyle.italic,
-          color: theme.textTheme.bodyMedium?.color?.withOpacity(0.85),
+          color: theme.textTheme.bodyMedium?.color?.withValues(alpha: 0.85),
         );
 
     final slideTitle = localizedLessonSlideTitle(slide, loc);
@@ -170,7 +170,7 @@ class _LessonDetailPageState extends State<LessonDetailPage> {
         if (hasExample)
           Center(
             child: Text(
-              exampleText!,
+              exampleText,
               textAlign: TextAlign.center,
               style: exampleStyle,
             ),

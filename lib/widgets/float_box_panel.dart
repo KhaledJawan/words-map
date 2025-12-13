@@ -81,13 +81,13 @@ class _FloatBoxPanelState extends State<FloatBoxPanel> {
           ),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.06),
+            color: Colors.black.withValues(alpha: 0.06),
             blurRadius: 10,
             spreadRadius: 1,
             offset: const Offset(0, 3),
           ),
           BoxShadow(
-            color: Colors.black.withOpacity(0.02),
+            color: Colors.black.withValues(alpha: 0.02),
             blurRadius: 16,
             spreadRadius: 1,
             offset: const Offset(0, 7),
