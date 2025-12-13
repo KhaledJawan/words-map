@@ -4,12 +4,14 @@ import 'package:flutter/services.dart';
 import 'package:flutter/foundation.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:provider/provider.dart';
+import 'package:word_map_app/core/audio/audio_service.dart';
 import 'package:word_map_app/features/grammar/grammar_models.dart';
 import 'package:word_map_app/features/grammar/grammar_localization.dart';
 import 'package:word_map_app/features/lessons/lesson_completion_repository.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
 import 'package:word_map_app/models/app_language.dart';
 import 'package:word_map_app/services/app_state.dart';
+import 'package:word_map_app/widgets/word_detail_soft_card.dart';
 
 class GrammarTopicPage extends StatefulWidget {
   const GrammarTopicPage({super.key, required this.topic});
@@ -129,13 +131,28 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
                       ),
                       const SizedBox(width: 6),
                       Expanded(
-                        child: Text(
-                          title,
-                          style: theme.textTheme.titleLarge?.copyWith(
-                            fontWeight: FontWeight.w800,
-                            color: theme.colorScheme.onPrimary,
-                          ),
-                          overflow: TextOverflow.ellipsis,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              title,
+                              style: theme.textTheme.titleLarge?.copyWith(
+                                fontWeight: FontWeight.w800,
+                                color: theme.colorScheme.onPrimary,
+                              ),
+                              maxLines: 2,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              widget.topic.titleDe,
+                              style: theme.textTheme.bodySmall?.copyWith(
+                                color: theme.colorScheme.onPrimary.withOpacity(0.8),
+                              ),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ],
                         ),
                       ),
                     ],
@@ -184,6 +201,7 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
                         showVocabulary: _showVocabulary,
                         onToggleVocabulary: _toggleVocabulary,
                         onComplete: _completeTopic,
+                        onShowVocabularyDetail: _showVocabularyDetail,
                       );
                     }
                     if (result?.error != null) {
@@ -242,6 +260,7 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
     required bool showVocabulary,
     required VoidCallback onToggleVocabulary,
     required VoidCallback onComplete,
+    required void Function(_VocabularyItem item) onShowVocabularyDetail,
   }) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 24),
@@ -256,7 +275,7 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
                 child: FilledButton.icon(
                   style: FilledButton.styleFrom(
                     padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(999)),
                     backgroundColor: theme.colorScheme.primaryContainer,
                     foregroundColor: theme.colorScheme.onPrimaryContainer,
                   ),
@@ -272,31 +291,10 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
                 runSpacing: 8,
                 children: content.vocabulary
                     .map(
-                      (item) => Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
-                        decoration: BoxDecoration(
-                          color: theme.colorScheme.surfaceContainerHighest,
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              item.de,
-                              style: theme.textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.w600),
-                            ),
-                            if (item.fa.isNotEmpty)
-                              Padding(
-                                padding: const EdgeInsets.only(top: 2),
-                                child: Text(
-                                  item.fa,
-                                  style: theme.textTheme.bodySmall?.copyWith(
-                                    color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.75),
-                                  ),
-                                ),
-                              ),
-                          ],
-                        ),
+                      (item) => _VocabularyChip(
+                        item: item,
+                        theme: theme,
+                        onTap: () => onShowVocabularyDetail(item),
                       ),
                     )
                     .toList(),
@@ -314,10 +312,13 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
             ),
           ),
           const SizedBox(height: 20),
-          ElevatedButton(
-            style: _primaryButtonStyle(theme, backgroundColor: Colors.green),
-            onPressed: onComplete,
-            child: Text(loc.lessonCompleted),
+          SizedBox(
+            width: double.infinity,
+            child: ElevatedButton(
+              style: _primaryButtonStyle(theme, backgroundColor: Colors.green),
+              onPressed: onComplete,
+              child: Text(loc.lessonCompleted),
+            ),
           ),
           const SizedBox(height: 24),
         ],
@@ -396,10 +397,13 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
             ),
           ],
           const SizedBox(height: 20),
-          ElevatedButton(
-            style: _primaryButtonStyle(theme, backgroundColor: Colors.green),
-            onPressed: onComplete,
-            child: Text(loc.lessonCompleted),
+          SizedBox(
+            width: double.infinity,
+            child: ElevatedButton(
+              style: _primaryButtonStyle(theme, backgroundColor: Colors.green),
+              onPressed: onComplete,
+              child: Text(loc.lessonCompleted),
+            ),
           ),
           const SizedBox(height: 24),
         ],
@@ -421,6 +425,165 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
     setState(() {
       _showVocabulary = !_showVocabulary;
     });
+  }
+
+  Future<void> _showVocabularyDetail(_VocabularyItem item) async {
+    final audioUrl = item.audio.trim();
+    final hasAudio = audioUrl.isNotEmpty;
+    final messenger = ScaffoldMessenger.of(context);
+
+    Future<void> playAudio() async {
+      if (!hasAudio) return;
+      try {
+        await AudioService.instance.playUrl(audioUrl);
+      } catch (e) {
+        debugPrint('Audio playback failed: $e');
+        if (!mounted) return;
+        messenger.showSnackBar(
+          const SnackBar(
+            content: Text('Audio konnte nicht abgespielt werden.'),
+            duration: Duration(seconds: 2),
+          ),
+        );
+      }
+    }
+
+    await showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
+      builder: (sheetContext) {
+        final theme = Theme.of(sheetContext);
+        Widget? audioAction;
+        if (hasAudio) {
+          audioAction = SizedBox(
+            height: 28,
+            width: 28,
+            child: StreamBuilder<bool>(
+              stream: AudioService.instance.playingStream,
+              builder: (streamContext, snapshot) {
+                final isPlaying = snapshot.data ?? false;
+                final isCurrent = AudioService.instance.currentUrl == audioUrl && isPlaying;
+                final iconColor = theme.colorScheme.primary;
+                return IconButton(
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints(),
+                  iconSize: 20,
+                  onPressed: playAudio,
+                  icon: Icon(
+                    isCurrent ? LucideIcons.signalHigh : LucideIcons.playCircle,
+                    color: iconColor,
+                  ),
+                );
+              },
+            ),
+          );
+        } else {
+          audioAction = Icon(
+            LucideIcons.playCircle,
+            size: 20,
+            color: theme.disabledColor,
+          );
+        }
+
+        return SafeArea(
+          child: Padding(
+            padding: EdgeInsets.only(
+              left: 16,
+              right: 16,
+              bottom: MediaQuery.of(sheetContext).viewInsets.bottom + 16,
+            ),
+            child: WordDetailSoftCard(
+              word: item.de,
+              translationPrimary: item.fa.isNotEmpty ? item.fa : item.de,
+              translationSecondary: null,
+              isBookmarked: false,
+              showBookmark: false,
+              trailingBelowContent: true,
+              trailingAction: audioAction,
+            ),
+          ),
+        );
+      },
+    );
+  }
+}
+
+class _VocabularyChip extends StatelessWidget {
+  const _VocabularyChip({
+    required this.item,
+    required this.theme,
+    required this.onTap,
+  });
+
+  final _VocabularyItem item;
+  final ThemeData theme;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final isDark = theme.brightness == Brightness.dark;
+    final cs = theme.colorScheme;
+    Color bg = isDark ? cs.surfaceVariant.withOpacity(0.2) : Colors.white;
+    Color textColor = isDark ? Colors.white : cs.onSurface;
+    List<BoxShadow>? shadow = isDark
+        ? null
+        : [
+            BoxShadow(
+              color: Colors.black.withValues(alpha: 0.06),
+              blurRadius: 10,
+              spreadRadius: 1,
+              offset: const Offset(0, 3),
+            ),
+            BoxShadow(
+              color: Colors.black.withValues(alpha: 0.02),
+              blurRadius: 16,
+              spreadRadius: 1,
+              offset: const Offset(0, 7),
+            ),
+          ];
+
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(999),
+        onTap: onTap,
+        child: Container(
+          margin: const EdgeInsets.symmetric(vertical: 3),
+          padding: EdgeInsets.symmetric(
+            vertical: 10,
+            horizontal: _horizontalPadding(item.de),
+          ),
+          decoration: BoxDecoration(
+            color: bg,
+            borderRadius: BorderRadius.circular(999),
+            boxShadow: shadow,
+            border: Border.all(
+              color: cs.primary.withValues(alpha: 0.08),
+            ),
+          ),
+          child: Text(
+            item.de,
+            textAlign: TextAlign.center,
+            textDirection: TextDirection.ltr,
+            style: theme.textTheme.titleMedium?.copyWith(
+              fontWeight: FontWeight.w600,
+              color: textColor,
+              fontSize: 14,
+            ),
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+          ),
+        ),
+      ),
+    );
+  }
+
+  double _horizontalPadding(String w) {
+    if (w.length <= 4) return 20;
+    if (w.length <= 7) return 16;
+    if (w.length <= 12) return 12;
+    return 10;
   }
 }
 
@@ -530,6 +693,10 @@ class _GrammarLessonContent {
             (row) => _VocabularyItem(
               de: row['de']?.toString() ?? '',
               fa: row['fa']?.toString() ?? '',
+              audio: row['audio']?.toString() ??
+                  row['audio_de']?.toString() ??
+                  row['audio_fa']?.toString() ??
+                  '',
             ),
           )
           .toList();
@@ -556,9 +723,14 @@ class _LessonLoadResult {
 }
 
 class _VocabularyItem {
-  const _VocabularyItem({required this.de, required this.fa});
+  const _VocabularyItem({
+    required this.de,
+    required this.fa,
+    required this.audio,
+  });
   final String de;
   final String fa;
+  final String audio;
 }
 
 class _GrammarLessonPage {

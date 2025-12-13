@@ -221,7 +221,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get viewedLabel => 'Viewed';
 
   @override
-  String get lessonCompleted => 'Completed';
+  String get lessonCompleted => 'یاد گرفتم';
 
   @override
   String get lessonRepeat => 'Repeat';

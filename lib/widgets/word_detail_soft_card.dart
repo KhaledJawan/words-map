@@ -9,6 +9,8 @@ class WordDetailSoftCard extends StatelessWidget {
   final String? example;
   final String? extra;
   final bool isBookmarked;
+  final bool showBookmark;
+  final bool trailingBelowContent;
   final VoidCallback? onToggleBookmark;
   final Widget? trailingAction;
 
@@ -20,6 +22,8 @@ class WordDetailSoftCard extends StatelessWidget {
     this.example,
     this.extra,
     this.isBookmarked = false,
+    this.showBookmark = true,
+    this.trailingBelowContent = false,
     this.onToggleBookmark,
     this.trailingAction,
   });
@@ -48,28 +52,29 @@ class WordDetailSoftCard extends StatelessWidget {
                         )
                       : const SizedBox.shrink(),
                 ),
-                if (trailingAction != null) ...[
+                if (trailingAction != null && !trailingBelowContent) ...[
                   Padding(
                     padding: const EdgeInsetsDirectional.only(end: 8),
                     child: trailingAction,
                   ),
                 ],
-                SizedBox(
-                  height: 28,
-                  width: 28,
-                child: IconButton(
-                  padding: EdgeInsets.zero,
-                  constraints: const BoxConstraints(),
-                  iconSize: 22,
-                  icon: Icon(
-                    isBookmarked ? LucideIcons.bookmark : LucideIcons.bookmarkPlus,
-                    color: isBookmarked
-                        ? Theme.of(context).colorScheme.primary
-                        : Colors.grey[500],
+                if (showBookmark)
+                  SizedBox(
+                    height: 28,
+                    width: 28,
+                    child: IconButton(
+                      padding: EdgeInsets.zero,
+                      constraints: const BoxConstraints(),
+                      iconSize: 22,
+                      icon: Icon(
+                        isBookmarked ? LucideIcons.bookmark : LucideIcons.bookmarkPlus,
+                        color: isBookmarked
+                            ? Theme.of(context).colorScheme.primary
+                            : Colors.grey[500],
+                      ),
+                      onPressed: onToggleBookmark,
+                    ),
                   ),
-                  onPressed: onToggleBookmark,
-                ),
-                ),
               ],
             ),
             const SizedBox(height: 10),
@@ -95,10 +100,14 @@ class WordDetailSoftCard extends StatelessWidget {
                       Text(
                         translationPrimary,
                         textAlign: TextAlign.end,
-                        style: textTheme.titleMedium?.copyWith(
-                          color: Colors.black.withValues(alpha: 0.85),
-                          fontWeight: FontWeight.w600,
-                        ),
+                        style: textTheme.headlineSmall?.copyWith(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black87,
+                            ) ??
+                            textTheme.titleLarge?.copyWith(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black87,
+                            ),
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                       ),
@@ -127,6 +136,14 @@ class WordDetailSoftCard extends StatelessWidget {
                 style: textTheme.bodyMedium?.copyWith(
                   color: Colors.grey[700],
                 ),
+              ),
+            ],
+            if (trailingBelowContent && trailingAction != null) ...[
+              const SizedBox(height: 14),
+              Row(
+                children: [
+                  trailingAction!,
+                ],
               ),
             ],
           ],
