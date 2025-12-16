@@ -1,1 +1,88 @@
-{}
+{
+  "id": "14_A1_wechselpraepositionen",
+  "title_de": "in, auf, an – wo oder wohin?",
+  "title_fa": "حروف اضافه مکانی: کجا؟ یا به کجا؟",
+
+  "vocabulary_before_lesson": [
+    { "de": "Präposition", "fa": "حرف اضافه" },
+    { "de": "in", "fa": "در / داخل" },
+    { "de": "auf", "fa": "روی" },
+    { "de": "an", "fa": "کنار / به" },
+    { "de": "wo", "fa": "کجا؟ (مکان ثابت)" },
+    { "de": "wohin", "fa": "به کجا؟ (حرکت)" },
+    { "de": "legen", "fa": "گذاشتن (حرکت)" },
+    { "de": "stehen", "fa": "ایستادن (حالت ثابت)" },
+    { "de": "sitzen", "fa": "نشستن" },
+    { "de": "der Tisch", "fa": "میز" },
+    { "de": "das Zimmer", "fa": "اتاق" }
+  ],
+
+  "pages": [
+    {
+      "page": 1,
+      "title_fa": "مسئله این درس چیست؟",
+      "explanation_fa": "در آلمانی بعضی حروف اضافه گاهی با Akkusativ و گاهی با Dativ می‌آیند. این برای دانش‌آموزان A1 گیج‌کننده است، اما اگر یک سؤال ساده را بلد باشی، خیلی راحت می‌شود."
+    },
+    {
+      "page": 2,
+      "title_fa": "سؤال طلایی: wo یا wohin؟",
+      "explanation_fa": "اگر بپرسی «کجا؟» (wo)، یعنی مکان ثابت است و Dativ می‌آید. اگر بپرسی «به کجا؟» (wohin)، یعنی حرکت داریم و Akkusativ می‌آید. کل این درس همین است."
+    },
+    {
+      "page": 3,
+      "title_fa": "wo + Dativ (حالت ثابت)",
+      "explanation_fa": "وقتی چیزی جایی هست و حرکت نمی‌کند، از wo و Dativ استفاده می‌کنیم.",
+      "examples": [
+        {
+          "audio_de": "A1_14_01",
+          "de": "Das Buch liegt auf dem Tisch.",
+          "fa": "کتاب روی میز است."
+        },
+        {
+          "audio_de": "A1_14_02",
+          "de": "Ich bin im Zimmer.",
+          "fa": "من داخل اتاق هستم."
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "title_fa": "wohin + Akkusativ (حرکت)",
+      "explanation_fa": "وقتی چیزی را به جایی می‌بریم یا حرکت می‌دهیم، از wohin و Akkusativ استفاده می‌کنیم.",
+      "examples": [
+        {
+          "audio_de": "A1_14_03",
+          "de": "Ich lege das Buch auf den Tisch.",
+          "fa": "من کتاب را روی میز می‌گذارم."
+        },
+        {
+          "audio_de": "A1_14_04",
+          "de": "Ich gehe in das Zimmer.",
+          "fa": "من به داخل اتاق می‌روم."
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "title_fa": "in + dem = im",
+      "explanation_fa": "در آلمانی بعضی حروف اضافه با آرتیکل یکی می‌شوند. in dem کوتاه می‌شود im. این خیلی رایج است و باید سریع تشخیص بدهی.",
+      "examples": [
+        {
+          "audio_de": "A1_14_05",
+          "de": "im Zimmer",
+          "fa": "در اتاق"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "title_fa": "اشتباه رایج دانش‌آموزان",
+      "explanation_fa": "بزرگ‌ترین اشتباه این است که فقط فعل را نگاه کنیم. مهم حرکت است، نه فعل. حتی فعل sein می‌تواند با حرکت بیاید."
+    },
+    {
+      "page": 7,
+      "title_fa": "جمع‌بندی معلمانه",
+      "explanation_fa": "اگر wo بپرسی → Dativ. اگر wohin بپرسی → Akkusativ. حروف اضافه in, auf, an به این قانون گوش می‌دهند. این قانون را حفظ نکن، بفهم."
+    }
+  ]
+}

@@ -1,1 +1,92 @@
-{}
+{
+  "id": "16_A1_perfekt_trennbare_verben",
+  "title_de": "Ich habe eingekauft",
+  "title_fa": "گذشته (Perfekt) با فعل‌های جداشدنی",
+
+  "vocabulary_before_lesson": [
+    { "de": "einkaufen", "fa": "خرید کردن" },
+    { "de": "aufstehen", "fa": "بلند شدن" },
+    { "de": "ankommen", "fa": "رسیدن" },
+    { "de": "mitkommen", "fa": "همراه آمدن" },
+    { "de": "zurückkommen", "fa": "برگشتن" },
+    { "de": "früh", "fa": "زود" },
+    { "de": "spät", "fa": "دیر" },
+    { "de": "zu Hause", "fa": "در خانه" }
+  ],
+
+  "pages": [
+    {
+      "page": 1,
+      "title_fa": "مشکل جدید کجاست؟",
+      "explanation_fa": "تو قبلاً یاد گرفتی فعل‌های جداشدنی در حال ساده (Präsens) دو تکه می‌شوند. حالا سؤال مهم این است: در زمان گذشته (Perfekt) چه اتفاقی برای این فعل‌ها می‌افتد؟"
+    },
+    {
+      "page": 2,
+      "title_fa": "قانون اصلی خیلی ساده",
+      "explanation_fa": "در Perfekt، فعل جداشدنی دیگر جدا نمی‌شود. پیشوند دوباره به فعل برمی‌گردد و با هم Partizip II را می‌سازند.",
+      "examples": [
+        {
+          "audio_de": "A1_16_01",
+          "de": "einkaufen → eingekauft",
+          "fa": "خرید کردن → خرید کرده"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "title_fa": "جای ge- کجاست؟",
+      "explanation_fa": "در فعل‌های جداشدنی، ge- وسط فعل می‌آید؛ یعنی بین پیشوند و ریشه فعل. این نکته خیلی مهم است.",
+      "examples": [
+        {
+          "audio_de": "A1_16_02",
+          "de": "aufstehen → aufgestanden",
+          "fa": "بلند شدن → بلند شده"
+        },
+        {
+          "audio_de": "A1_16_03",
+          "de": "ankommen → angekommen",
+          "fa": "رسیدن → رسیده"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "title_fa": "haben یا sein با فعل‌های جداشدنی",
+      "explanation_fa": "جداشدنی بودن مهم نیست؛ معنی فعل مهم است. اگر حرکت یا تغییر حالت باشد، sein می‌آید. اگر کار معمولی باشد، haben.",
+      "examples": [
+        {
+          "audio_de": "A1_16_04",
+          "de": "Ich bin früh aufgestanden.",
+          "fa": "من زود بیدار شدم."
+        },
+        {
+          "audio_de": "A1_16_05",
+          "de": "Ich habe eingekauft.",
+          "fa": "من خرید کردم."
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "title_fa": "جای فعل در جمله Perfekt",
+      "explanation_fa": "مثل همه جمله‌های Perfekt، فعل کمکی جای دوم است و Partizip II کامل (با پیشوند) آخر جمله می‌آید.",
+      "examples": [
+        {
+          "audio_de": "A1_16_06",
+          "de": "Heute habe ich im Supermarkt eingekauft.",
+          "fa": "امروز در سوپرمارکت خرید کردم."
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "title_fa": "اشتباه رایج دانش‌آموزان",
+      "explanation_fa": "بزرگ‌ترین اشتباه این است که پیشوند را آخر جمله بگذارند، مثل Präsens. در Perfekt این کار کاملاً غلط است."
+    },
+    {
+      "page": 7,
+      "title_fa": "جمع‌بندی معلمانه",
+      "explanation_fa": "در Perfekt، فعل‌های جداشدنی دیگر جدا نمی‌شوند. ge- بین پیشوند و فعل می‌آید. haben یا sein به معنی فعل بستگی دارد، نه جداشدنی بودن آن."
+    }
+  ]
+}

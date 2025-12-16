@@ -1,1 +1,100 @@
-{}
+{
+  "id": "15_A1_perfekt_einfuehrung",
+  "title_de": "Ich habe gelernt",
+  "title_fa": "گذشته ساده آلمانی (Perfekt) یعنی چه؟",
+
+  "vocabulary_before_lesson": [
+    { "de": "Perfekt", "fa": "زمان گذشته محاوره‌ای" },
+    { "de": "haben", "fa": "داشتن (فعل کمکی)" },
+    { "de": "sein", "fa": "بودن (فعل کمکی)" },
+    { "de": "Partizip II", "fa": "شکل سوم فعل (اسم مفعول)" },
+    { "de": "lernen", "fa": "یاد گرفتن" },
+    { "de": "machen", "fa": "انجام دادن" },
+    { "de": "gehen", "fa": "رفتن" },
+    { "de": "kommen", "fa": "آمدن" },
+    { "de": "arbeiten", "fa": "کار کردن" },
+    { "de": "heute", "fa": "امروز" },
+    { "de": "gestern", "fa": "دیروز" }
+  ],
+
+  "pages": [
+    {
+      "page": 1,
+      "title_fa": "چرا به زمان گذشته نیاز داریم؟",
+      "explanation_fa": "وقتی می‌خواهیم درباره کاری که تمام شده صحبت کنیم، از زمان گذشته استفاده می‌کنیم. در آلمانی محاوره‌ای، مهم‌ترین زمان گذشته Perfekt است. اگر Perfekt را بلد باشی، می‌توانی خیلی راحت درباره دیروز و تجربه‌هایت حرف بزنی."
+    },
+    {
+      "page": 2,
+      "title_fa": "ساختار کلی Perfekt",
+      "explanation_fa": "Perfekt از دو قسمت ساخته می‌شود: فعل کمکی (haben یا sein) + Partizip II. فعل کمکی صرف می‌شود و Partizip II آخر جمله می‌آید.",
+      "examples": [
+        {
+          "audio_de": "A1_15_01",
+          "de": "Ich habe gelernt.",
+          "fa": "من یاد گرفتم."
+        },
+        {
+          "audio_de": "A1_15_02",
+          "de": "Ich habe gearbeitet.",
+          "fa": "من کار کردم."
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "title_fa": "Partizip II چطور ساخته می‌شود؟",
+      "explanation_fa": "برای بیشتر فعل‌های ساده، ge- به اول فعل می‌آید و -t به آخر آن اضافه می‌شود. این قانون پایه‌ای سطح A1 است.",
+      "examples": [
+        {
+          "audio_de": "A1_15_03",
+          "de": "lernen → gelernt",
+          "fa": "یاد گرفتن → یاد گرفته"
+        },
+        {
+          "audio_de": "A1_15_04",
+          "de": "machen → gemacht",
+          "fa": "انجام دادن → انجام داده"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "title_fa": "haben یا sein؟",
+      "explanation_fa": "بیشتر فعل‌ها با haben می‌آیند. فقط بعضی فعل‌ها که حرکت یا تغییر حالت را نشان می‌دهند، با sein می‌آیند.",
+      "examples": [
+        {
+          "audio_de": "A1_15_05",
+          "de": "Ich bin nach Hause gegangen.",
+          "fa": "من به خانه رفتم."
+        },
+        {
+          "audio_de": "A1_15_06",
+          "de": "Ich bin gekommen.",
+          "fa": "من آمدم."
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "title_fa": "جای فعل در جمله Perfekt",
+      "explanation_fa": "در Perfekt، فعل کمکی جای دوم است و Partizip II همیشه آخر جمله می‌آید. این قانون خیلی مهم است.",
+      "examples": [
+        {
+          "audio_de": "A1_15_07",
+          "de": "Heute habe ich Deutsch gelernt.",
+          "fa": "امروز آلمانی یاد گرفتم."
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "title_fa": "اشتباه رایج دانش‌آموزان",
+      "explanation_fa": "بزرگ‌ترین اشتباه این است که Partizip II را وسط جمله بیاورند یا haben و sein را قاطی کنند. اگر شک داشتی، اول haben را امتحان کن."
+    },
+    {
+      "page": 7,
+      "title_fa": "جمع‌بندی معلمانه",
+      "explanation_fa": "Perfekt = haben/sein + Partizip II. بیشتر فعل‌ها با haben، فعل‌های حرکت با sein. Partizip II همیشه آخر جمله می‌آید. این پایه‌ی حرف زدن درباره گذشته است."
+    }
+  ]
+}
