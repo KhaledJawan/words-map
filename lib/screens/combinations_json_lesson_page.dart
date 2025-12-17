@@ -298,16 +298,38 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
 
         final lesson = snapshot.data!;
         final title = _localized(appLanguage, en: lesson.titleEn, fa: lesson.titleFa, de: lesson.titleDe);
-        final level = _localized(appLanguage, en: lesson.levelEn, fa: lesson.levelFa, de: lesson.levelDe);
 
         return Scaffold(
-          body: SafeArea(
-            child: ListView(
-              padding: EdgeInsets.zero,
-              children: [
-                Container(
-                  width: double.infinity,
-                  padding: const EdgeInsets.fromLTRB(16, 18, 16, 18),
+          body: CustomScrollView(
+            slivers: [
+              SliverAppBar(
+                pinned: true,
+                centerTitle: true,
+                backgroundColor: theme.colorScheme.secondary,
+                foregroundColor: Colors.white,
+                elevation: 0,
+                iconTheme: const IconThemeData(color: Colors.white),
+                titleTextStyle: theme.textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.w800,
+                  color: Colors.white,
+                ),
+                leading: IconButton(
+                  onPressed: () => Navigator.of(context).pop(),
+                  icon: const Icon(Icons.arrow_back_ios_new, color: Colors.white),
+                ),
+                title: Text(
+                  title.isNotEmpty
+                      ? title
+                      : _localized(
+                          appLanguage,
+                          en: 'Combinations',
+                          fa: 'ترکیب‌ها',
+                          de: 'Kombinationen',
+                        ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                flexibleSpace: Container(
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
@@ -317,61 +339,14 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
                     ),
-                    borderRadius: const BorderRadius.only(
-                      bottomLeft: Radius.circular(22),
-                      bottomRight: Radius.circular(22),
-                    ),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        children: [
-                          IconButton(
-                            onPressed: () => Navigator.of(context).pop(),
-                            icon: Icon(Icons.arrow_back, color: theme.colorScheme.onSecondary),
-                          ),
-                          const SizedBox(width: 4),
-                          Expanded(
-                            child: Text(
-                              title.isNotEmpty
-                                  ? title
-                                  : _localized(appLanguage, en: 'Combinations', fa: 'ترکیب‌ها', de: 'Kombinationen'),
-                              style: theme.textTheme.titleLarge?.copyWith(
-                                fontWeight: FontWeight.w800,
-                                color: theme.colorScheme.onSecondary,
-                              ),
-                              maxLines: 3,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ),
-                        ],
-                      ),
-                      if (level.isNotEmpty) ...[
-                        const SizedBox(height: 10),
-                        Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                          decoration: BoxDecoration(
-                            color: theme.colorScheme.onSecondary.withValues(alpha: 0.14),
-                            borderRadius: BorderRadius.circular(14),
-                          ),
-                          child: Text(
-                            level,
-                            style: theme.textTheme.labelMedium?.copyWith(
-                              fontWeight: FontWeight.w700,
-                              color: theme.colorScheme.onSecondary,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ],
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.all(16),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
+              ),
+              SliverPadding(
+                padding: const EdgeInsets.all(16),
+                sliver: SliverList(
+                  delegate: SliverChildListDelegate(
+                    [
                       if (lesson.explanations.isNotEmpty) ...[
                         Text(
                           _localized(appLanguage, en: 'Overview', fa: 'معرفی', de: 'Überblick'),
@@ -537,8 +512,8 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                     ],
                   ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         );
       },
