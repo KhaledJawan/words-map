@@ -7,11 +7,14 @@ import 'package:provider/provider.dart';
 import 'package:word_map_app/models/vocab_word.dart';
 import 'package:word_map_app/models/word_progress.dart';
 import 'package:word_map_app/core/audio/audio_service.dart';
+import 'package:word_map_app/features/monetization/diamond_controller.dart';
 import 'package:word_map_app/services/app_state.dart';
 import 'package:word_map_app/screens/words_list_init.dart';
 import 'package:word_map_app/services/progress_repository.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
+import 'package:word_map_app/widgets/thank_you_lottie_overlay.dart';
 import 'package:word_map_app/widgets/word_detail_soft_card.dart';
+import 'package:word_map_app/widgets/word_details_native_ad_footer.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
 
 enum SortMode { defaultOrder, priorityGrouped }
@@ -287,83 +290,127 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                   Center(
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20),
-                      child: Builder(
-                        builder: (dialogContext) {
-                          final localeCode =
-                              Localizations.localeOf(dialogContext).languageCode;
-                          final fa = word.translationFa;
-                          final en = word.translationEn;
-                          final primary = localeCode == 'fa'
-                              ? (fa.isNotEmpty ? fa : en)
-                              : (en.isNotEmpty ? en : fa);
-                          final secondary = localeCode == 'fa'
-                              ? (en.isNotEmpty ? en : '')
-                              : (fa.isNotEmpty ? fa : '');
-                          final audioUrl = word.audio.trim();
-                          final hasAudio = audioUrl.isNotEmpty;
-                          final messenger = ScaffoldMessenger.of(dialogContext);
-                          Future<void> handlePlayAudio() async {
-                            if (!hasAudio) return;
-                            try {
-                              await AudioService.instance.playUrl(audioUrl);
-                            } catch (e) {
-                              debugPrint('Audio playback failed: $e');
-                              if (!mounted) return;
-                              messenger.showSnackBar(
-                                const SnackBar(
-                                  content: Text('Audio konnte nicht abgespielt werden.'),
-                                  duration: Duration(seconds: 2),
-                                ),
-                              );
-                            }
-                          }
-                          final audioAction = SizedBox(
-                            height: 28,
-                            width: 28,
-                            child: StreamBuilder<bool>(
-                              stream: AudioService.instance.playingStream,
-                              builder: (streamContext, snapshot) {
-                                final isPlaying = snapshot.data ?? false;
-                                final iconColor = hasAudio
-                                    ? Theme.of(streamContext).colorScheme.primary
-                                    : Colors.grey[400];
-                                final isPlayingThisWord = isPlaying &&
-                                    AudioService.instance.currentUrl == audioUrl;
-                                return IconButton(
-                                  padding: EdgeInsets.zero,
-                                  constraints: const BoxConstraints(),
-                                  iconSize: 20,
-                                  onPressed: hasAudio
-                                      ? () async => await handlePlayAudio()
-                                      : null,
-                                  icon: Icon(
-                                    isPlayingThisWord
-                                        ? LucideIcons.signalHigh
-                                        : LucideIcons.playCircle,
-                                    color: iconColor,
-                                  ),
-                                );
-                              },
+                      child: LayoutBuilder(
+                        builder: (context, constraints) {
+                          final maxHeight = constraints.maxHeight * 0.82;
+                          return ConstrainedBox(
+                            constraints: BoxConstraints(
+                              maxWidth: 560,
+                              maxHeight: maxHeight,
                             ),
-                          );
-                          return WordDetailSoftCard(
-                            word: word.de,
-                            translationPrimary: primary,
-                            translationSecondary:
-                                secondary.isNotEmpty ? secondary : null,
-                            example: word.example,
-                            extra: [
-                              if (word.level != null) word.level,
-                              if (word.category != null) word.category,
-                            ].whereType<String>().join(' • '),
-                            isBookmarked: bookmarkedLocal,
-                            trailingAction: audioAction,
-                            onToggleBookmark: () {
-                              setSheetState(() {
-                                bookmarkedLocal = !bookmarkedLocal;
-                              });
-                              _toggleBookmark(word);
-                            },
+                            child: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                const WordDetailsNativeAdFooter(),
+                                const SizedBox(height: 12),
+                                Flexible(
+                                  fit: FlexFit.loose,
+                                  child: SingleChildScrollView(
+                                    physics: const BouncingScrollPhysics(),
+                                    child: Builder(
+                                      builder: (dialogContext) {
+                                        final localeCode =
+                                            Localizations.localeOf(dialogContext)
+                                                .languageCode;
+                                        final fa = word.translationFa;
+                                        final en = word.translationEn;
+                                        final primary = localeCode == 'fa'
+                                            ? (fa.isNotEmpty ? fa : en)
+                                            : (en.isNotEmpty ? en : fa);
+                                        final secondary = localeCode == 'fa'
+                                            ? (en.isNotEmpty ? en : '')
+                                            : (fa.isNotEmpty ? fa : '');
+                                        final audioUrl = word.audio.trim();
+                                        final hasAudio = audioUrl.isNotEmpty;
+                                        final messenger =
+                                            ScaffoldMessenger.of(dialogContext);
+                                        Future<void> handlePlayAudio() async {
+                                          if (!hasAudio) return;
+                                          try {
+                                            await AudioService.instance
+                                                .playUrl(audioUrl);
+                                          } catch (e) {
+                                            debugPrint(
+                                                'Audio playback failed: $e');
+                                            if (!mounted) return;
+                                            messenger.showSnackBar(
+                                              const SnackBar(
+                                                content: Text(
+                                                    'Audio konnte nicht abgespielt werden.'),
+                                                duration: Duration(seconds: 2),
+                                              ),
+                                            );
+                                          }
+                                        }
+
+                                        final audioAction = SizedBox(
+                                          height: 28,
+                                          width: 28,
+                                          child: StreamBuilder<bool>(
+                                            stream: AudioService
+                                                .instance.playingStream,
+                                            builder:
+                                                (streamContext, snapshot) {
+                                              final isPlaying =
+                                                  snapshot.data ?? false;
+                                              final iconColor = hasAudio
+                                                  ? Theme.of(streamContext)
+                                                      .colorScheme
+                                                      .primary
+                                                  : Colors.grey[400];
+                                              final isPlayingThisWord = isPlaying &&
+                                                  AudioService
+                                                          .instance.currentUrl ==
+                                                      audioUrl;
+                                              return IconButton(
+                                                padding: EdgeInsets.zero,
+                                                constraints:
+                                                    const BoxConstraints(),
+                                                iconSize: 20,
+                                                onPressed: hasAudio
+                                                    ? () async =>
+                                                        await handlePlayAudio()
+                                                    : null,
+                                                icon: Icon(
+                                                  isPlayingThisWord
+                                                      ? LucideIcons.signalHigh
+                                                      : LucideIcons.playCircle,
+                                                  color: iconColor,
+                                                ),
+                                              );
+                                            },
+                                          ),
+                                        );
+
+                                        return WordDetailSoftCard(
+                                          word: word.de,
+                                          translationPrimary: primary,
+                                          translationSecondary:
+                                              secondary.isNotEmpty
+                                                  ? secondary
+                                                  : null,
+                                          example: word.example,
+                                          extra: [
+                                            if (word.level != null) word.level,
+                                            if (word.category != null)
+                                              word.category,
+                                          ].whereType<String>().join(' • '),
+                                          isBookmarked: bookmarkedLocal,
+                                          trailingAction: audioAction,
+                                          onToggleBookmark: () {
+                                            setSheetState(() {
+                                              bookmarkedLocal =
+                                                  !bookmarkedLocal;
+                                            });
+                                            _toggleBookmark(word);
+                                          },
+                                        );
+                                      },
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
                           );
                         },
                       ),
@@ -384,30 +431,112 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     );
   }
 
+  Future<void> _handleWordTap(VocabWord word) async {
+    final diamond = context.read<DiamondController>();
+    final allowed = diamond.onWordSelected();
+    if (!allowed) {
+      final shouldWatch = await showDialog<bool>(
+        context: context,
+        builder: (dialogContext) {
+          return AlertDialog(
+            title: const Text('No more words'),
+            content: const Text(
+              'You reached 0. Watch a rewarded ad to activate Diamond Mode for 1 hour (unlimited words).',
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.of(dialogContext).pop(false),
+                child: const Text('Not now'),
+              ),
+              FilledButton(
+                onPressed: () => Navigator.of(dialogContext).pop(true),
+                child: const Text('Watch ad'),
+              ),
+            ],
+          );
+        },
+      );
+      if (!mounted) return;
+      if (shouldWatch == true) {
+        final result = await diamond.watchAdForDiamond();
+        if (!mounted) return;
+        if (result == DiamondWatchResult.adLoading) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Ad is loading…'),
+              duration: Duration(seconds: 2),
+            ),
+          );
+          return;
+        }
+        if (result == DiamondWatchResult.activated) {
+          await ThankYouLottieOverlay.show(context);
+          if (!mounted) return;
+          await _onWordTapped(word);
+        }
+      }
+      return;
+    }
+
+    await _onWordTapped(word);
+  }
+
   @override
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
     final appState = context.watch<AppState>();
+    final diamond = context.watch<DiamondController>();
     final viewedCount =
         _visibleWords.where((w) => w.isViewed || w.isVisited).length;
 
     return SafeArea(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+      child: Stack(
         children: [
-          Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 8),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                _buildStatsBadge(textTheme, viewedCount),
-                const Spacer(),
-                _buildLevelButton(textTheme, appState),
-              ],
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Padding(
+                padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 8),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    _buildStatsBadge(textTheme, viewedCount),
+                    const SizedBox(width: 10),
+                    _buildDiamondBadge(textTheme, diamond),
+                    const Spacer(),
+                    _buildLevelButton(textTheme, appState),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 8),
+              Expanded(child: _buildWordsTab(textTheme)),
+            ],
+          ),
+          Positioned(
+            right: 16,
+            bottom: 16,
+            child: FloatingActionButton(
+              onPressed: () async {
+                final result = await diamond.watchAdForDiamond();
+                if (!context.mounted) return;
+                if (result == DiamondWatchResult.adLoading) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text('Ad is loading…'),
+                      duration: Duration(seconds: 2),
+                    ),
+                  );
+                  return;
+                }
+                if (result == DiamondWatchResult.activated) {
+                  await ThankYouLottieOverlay.show(context);
+                }
+              },
+              backgroundColor: Colors.black,
+              foregroundColor: Colors.white,
+              child: const Icon(LucideIcons.gem),
             ),
           ),
-          const SizedBox(height: 8),
-          Expanded(child: _buildWordsTab(textTheme)),
         ],
       ),
     );
@@ -473,6 +602,52 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     );
   }
 
+  Widget _buildDiamondBadge(TextTheme textTheme, DiamondController diamond) {
+    final isActive = diamond.isDiamondActive;
+    final label = isActive ? diamond.remainingText() : '${diamond.counter}';
+    final subtitle = isActive ? 'Diamond' : 'Left';
+    return Container(
+      constraints: const BoxConstraints(minHeight: 44),
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+      decoration: const BoxDecoration(
+        color: Colors.black,
+        borderRadius: BorderRadius.all(Radius.circular(999)),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(
+            LucideIcons.gem,
+            size: 18,
+            color: isActive ? const Color(0xFF4BA8FF) : Colors.white,
+          ),
+          const SizedBox(width: 8),
+          Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                label,
+                style: textTheme.bodySmall?.copyWith(
+                  fontWeight: FontWeight.w800,
+                  color: Colors.white,
+                ),
+              ),
+              const SizedBox(height: 2),
+              Text(
+                subtitle,
+                style: textTheme.bodySmall?.copyWith(
+                  color: Colors.white.withValues(alpha: 0.75),
+                  fontSize: (textTheme.bodySmall?.fontSize ?? 12) - 1,
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
   Future<void> _showLevelPicker(BuildContext context, AppState appState) async {
     await showModalBottomSheet<void>(
       context: context,
@@ -533,7 +708,7 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
             sliver: SliverToBoxAdapter(
               child: _WordList(
                 words: _visibleWords,
-                onTap: _onWordTapped,
+                onTap: _handleWordTap,
                 onBookmarkToggle: _toggleBookmark,
               ),
             ),

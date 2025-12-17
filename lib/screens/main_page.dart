@@ -88,29 +88,32 @@ class _MainPageState extends State<MainPage> {
               children: tabs,
             ),
           ),
-          bottomNavigationBar: BottomNavigationBar(
-            currentIndex: _currentIndex,
-            onTap: _selectTab,
-            items: [
-              BottomNavigationBarItem(
-                icon: const Icon(
-                  LucideIcons.home,
+          bottomNavigationBar: Directionality(
+            textDirection: TextDirection.ltr,
+            child: BottomNavigationBar(
+              currentIndex: _currentIndex,
+              onTap: _selectTab,
+              items: [
+                BottomNavigationBarItem(
+                  icon: const Icon(
+                    LucideIcons.home,
+                  ),
+                  label: loc.tabHome,
                 ),
-                label: loc.tabHome,
-              ),
-              BottomNavigationBarItem(
-                icon: const Icon(
-                  LucideIcons.bookOpenCheck,
+                BottomNavigationBarItem(
+                  icon: const Icon(
+                    LucideIcons.bookOpenCheck,
+                  ),
+                  label: loc.tabLessons,
                 ),
-                label: loc.tabLessons,
-              ),
-              BottomNavigationBarItem(
-                icon: const Icon(
-                  LucideIcons.userCog,
+                BottomNavigationBarItem(
+                  icon: const Icon(
+                    LucideIcons.userCog,
+                  ),
+                  label: loc.tabProfile,
                 ),
-                label: loc.tabProfile,
-              ),
-            ],
+              ],
+            ),
           ),
         );
       },

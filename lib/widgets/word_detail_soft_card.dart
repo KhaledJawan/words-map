@@ -31,6 +31,7 @@ class WordDetailSoftCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
+    bool isSingleToken(String value) => !RegExp(r'\s').hasMatch(value.trim());
     return IosCard(
       padding: const EdgeInsets.all(18),
       child: Directionality(
@@ -78,56 +79,83 @@ class WordDetailSoftCard extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 10),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Expanded(
-                  child: Text(
-                    word,
-                    style: textTheme.headlineSmall?.copyWith(
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black87,
-                    ),
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
+            LayoutBuilder(
+              builder: (context, constraints) {
+                final useStackedLayout = constraints.maxWidth < 420;
+                final wordSingle = isSingleToken(word);
+                final translationSingle = isSingleToken(translationPrimary);
+
+                final wordText = Text(
+                  word,
+                  style: textTheme.headlineSmall?.copyWith(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black87,
                   ),
-                ),
-                const SizedBox(width: 16),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [
+                  maxLines: wordSingle ? 1 : 2,
+                  softWrap: !wordSingle,
+                  overflow: TextOverflow.ellipsis,
+                );
+
+                final translationTextStyle =
+                    textTheme.headlineSmall?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black87,
+                        ) ??
+                        textTheme.titleLarge?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black87,
+                        );
+
+                final translationBlock = Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    Text(
+                      translationPrimary,
+                      textAlign: TextAlign.end,
+                      style: translationTextStyle,
+                      maxLines: translationSingle ? 1 : 2,
+                      softWrap: !translationSingle,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                    if (translationSecondary != null &&
+                        translationSecondary!.trim().isNotEmpty) ...[
+                      const SizedBox(height: 4),
                       Text(
-                        translationPrimary,
+                        translationSecondary!,
                         textAlign: TextAlign.end,
-                        style: textTheme.headlineSmall?.copyWith(
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black87,
-                            ) ??
-                            textTheme.titleLarge?.copyWith(
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black87,
-                            ),
+                        style: textTheme.bodyMedium?.copyWith(
+                          color: Colors.black.withValues(alpha: 0.65),
+                        ),
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                       ),
-                      if (translationSecondary != null &&
-                          translationSecondary!.trim().isNotEmpty) ...[
-                        const SizedBox(height: 4),
-                        Text(
-                          translationSecondary!,
-                          textAlign: TextAlign.end,
-                          style: textTheme.bodyMedium?.copyWith(
-                            color: Colors.black.withValues(alpha: 0.65),
-                          ),
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ],
                     ],
-                  ),
-                ),
-              ],
+                  ],
+                );
+
+                if (useStackedLayout) {
+                  return Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      wordText,
+                      const SizedBox(height: 8),
+                      Align(
+                        alignment: AlignmentDirectional.centerEnd,
+                        child: translationBlock,
+                      ),
+                    ],
+                  );
+                }
+
+                return Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Expanded(flex: 3, child: wordText),
+                    const SizedBox(width: 12),
+                    Expanded(flex: 2, child: translationBlock),
+                  ],
+                );
+              },
             ),
             if (example != null && example!.trim().isNotEmpty) ...[
               const SizedBox(height: 12),

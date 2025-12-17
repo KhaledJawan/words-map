@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:word_map_app/widgets/word_detail_soft_card.dart';
+import 'package:word_map_app/widgets/word_details_native_ad_footer.dart';
 
 void showWordDetailOverlay(
   BuildContext context, {
@@ -39,20 +40,45 @@ void showWordDetailOverlay(
                 Center(
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20),
-                    child: WordDetailSoftCard(
-                      word: word,
-                      translationPrimary: translationPrimary,
-                      translationSecondary: translationSecondary,
-                      example: example,
-                      extra: extra,
-                      isBookmarked: currentBookmarked,
-                      onToggleBookmark: () async {
-                        await Future.sync(() => onToggleBookmark?.call());
-                        setState(() {
-                          currentBookmarked = !currentBookmarked;
-                        });
-                      },
-                    ),
+                    child: LayoutBuilder(
+                      builder: (context, constraints) {
+                        final maxHeight = constraints.maxHeight * 0.82;
+                        return ConstrainedBox(
+                          constraints: BoxConstraints(
+                            maxWidth: 560,
+                            maxHeight: maxHeight,
+                          ),
+	                          child: Column(
+	                            mainAxisSize: MainAxisSize.min,
+	                            children: [
+	                              const WordDetailsNativeAdFooter(),
+	                              const SizedBox(height: 12),
+	                              Flexible(
+	                                fit: FlexFit.loose,
+	                                child: SingleChildScrollView(
+	                                  physics: const BouncingScrollPhysics(),
+                                  child: WordDetailSoftCard(
+                                    word: word,
+                                    translationPrimary: translationPrimary,
+                                    translationSecondary: translationSecondary,
+                                    example: example,
+                                    extra: extra,
+                                    isBookmarked: currentBookmarked,
+                                    onToggleBookmark: () async {
+                                      await Future.sync(
+                                          () => onToggleBookmark?.call());
+                                      setState(() {
+                                        currentBookmarked = !currentBookmarked;
+                                      });
+                                    },
+	                                  ),
+	                                ),
+	                              ),
+	                            ],
+	                          ),
+	                        );
+	                      },
+	                    ),
                   ),
                 ),
               ],

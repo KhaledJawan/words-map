@@ -5,10 +5,13 @@ import 'services/app_state.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart' hide AppState;
 import 'package:lottie/lottie.dart';
+import 'package:word_map_app/features/monetization/diamond_controller.dart';
 import 'package:word_map_app/screens/words_list_init.dart';
 import 'screens/main_page.dart';
 import 'screens/settings_screen.dart';
+import 'services/ads/rewarded_ad_service.dart';
 import 'theme_controller.dart';
 import 'models/app_language.dart';
 
@@ -16,6 +19,8 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final appState = AppState();
   await appState.loadInitialData();
+
+  await MobileAds.instance.initialize();
 
   try {
     if (Firebase.apps.isEmpty) {
@@ -36,8 +41,19 @@ Future<void> main() async {
     }
   }
   runApp(
-    ChangeNotifierProvider.value(
-      value: appState, // Provide the initialized AppState instance
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider.value(value: appState),
+        Provider<RewardedAdService>(
+          create: (_) => RewardedAdService()..load(),
+          dispose: (_, service) => service.dispose(),
+        ),
+        ChangeNotifierProvider<DiamondController>(
+          create: (context) => DiamondController(
+            rewardedAdService: context.read<RewardedAdService>(),
+          ),
+        ),
+      ],
       child: const WordMapApp(),
     ),
   );
