@@ -3,15 +3,20 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
+import 'package:word_map_app/models/vocab_word.dart';
 import 'package:word_map_app/screens/words_list_init.dart';
 import 'package:word_map_app/screens/words_list_screen.dart';
 import 'package:word_map_app/services/app_state.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:word_map_app/features/lessons/alphabet_json/alphabet_json_lesson_models.dart';
+import 'package:word_map_app/features/lessons/alphabet_json/alphabet_json_lesson_repository.dart';
+import 'package:word_map_app/features/lessons/combinations_json/combinations_json_lesson_models.dart';
+import 'package:word_map_app/features/lessons/combinations_json/combinations_json_lesson_repository.dart';
 import 'package:word_map_app/features/lessons/lesson_completion_repository.dart';
-import 'package:word_map_app/features/lessons/lesson_localization.dart';
-import 'package:word_map_app/features/lessons/lessons_repository.dart';
 import 'package:word_map_app/features/settings/settings_repository.dart';
-import 'package:word_map_app/screens/category_detail_page.dart';
+import 'package:word_map_app/models/app_language.dart';
+import 'package:word_map_app/screens/alphabet_json_lesson_page.dart';
+import 'package:word_map_app/screens/combinations_json_lesson_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({
@@ -73,7 +78,7 @@ class _MainPageState extends State<MainPage> {
             levels: bundle.levels,
             repo: bundle.repo,
           ),
-          const LessonsTab(),
+          LessonsTab(allWords: bundle.allWords),
           const ProfileTab(),
         ];
         return Scaffold(
@@ -114,10 +119,25 @@ class _MainPageState extends State<MainPage> {
 }
 
 class LessonsTab extends StatefulWidget {
-  const LessonsTab({super.key});
+  const LessonsTab({
+    super.key,
+    required this.allWords,
+  });
+
+  final List<VocabWord> allWords;
 
   @override
   State<LessonsTab> createState() => _LessonsTabState();
+}
+
+class _LessonsTabData {
+  const _LessonsTabData({
+    required this.alphabet,
+    required this.combinations,
+  });
+
+  final AlphabetJsonLesson alphabet;
+  final CombinationsJsonLesson combinations;
 }
 
 class _LessonsTabState extends State<LessonsTab> {
@@ -125,11 +145,32 @@ class _LessonsTabState extends State<LessonsTab> {
   bool _isLoading = true;
   final LessonCompletionRepository _completionRepo =
       LessonCompletionRepository();
+  late final Future<_LessonsTabData> _lessonsFuture;
+
+  static const String _alphabetLessonAssetPath =
+      'assets/lessons/lesson_alphabet.json';
+  static const String _combinationsLessonAssetPath =
+      'assets/lessons/lesson_combinations.json';
 
   @override
   void initState() {
     super.initState();
+    _lessonsFuture = _loadLessons();
     _loadCompletedLessons();
+  }
+
+  Future<_LessonsTabData> _loadLessons() async {
+    final results = await Future.wait([
+      AssetAlphabetJsonLessonRepository(
+        assetPath: _alphabetLessonAssetPath,
+      ).loadLesson(),
+      AssetCombinationsJsonLessonRepository(
+        assetPath: _combinationsLessonAssetPath,
+      ).loadLesson(),
+    ]);
+    final alphabet = results[0] as AlphabetJsonLesson;
+    final combinations = results[1] as CombinationsJsonLesson;
+    return _LessonsTabData(alphabet: alphabet, combinations: combinations);
   }
 
   Future<void> _loadCompletedLessons() async {
@@ -148,88 +189,291 @@ class _LessonsTabState extends State<LessonsTab> {
     if (_isLoading) {
       return const Center(child: CircularProgressIndicator());
     }
-    final categories = LessonsRepository.categories;
     final loc = AppLocalizations.of(context)!;
-    return ListView(
-      padding: const EdgeInsets.all(16),
-      children: [
-        Text(
-          loc.lessonsTitle,
-          style: Theme.of(context)
-              .textTheme
-              .titleLarge
-              ?.copyWith(fontWeight: FontWeight.w600),
-        ),
-        const SizedBox(height: 16),
-        ...categories.map(
-          (category) => Padding(
-            padding: const EdgeInsets.only(bottom: 16),
-            child: _buildCategoryCard(category, loc),
-          ),
-        ),
-      ],
+    final appLanguage = context.watch<AppState>().appLanguage;
+    return FutureBuilder<_LessonsTabData>(
+      future: _lessonsFuture,
+      builder: (context, snapshot) {
+        if (snapshot.connectionState != ConnectionState.done) {
+          return const Center(child: CircularProgressIndicator());
+        }
+        if (snapshot.hasError) {
+          return Center(child: Text(loc.lessonsStatusComingSoon));
+        }
+        final data = snapshot.data;
+        if (data == null) {
+          return Center(child: Text(loc.lessonsStatusComingSoon));
+        }
+
+        final alphabet = data.alphabet;
+        final combinations = data.combinations;
+        final alphabetCompleted = _completedLessonIds.contains(alphabet.id);
+        final combinationsCompleted =
+            _completedLessonIds.contains(combinations.id);
+
+        return ListView(
+          padding: const EdgeInsets.all(16),
+          children: [
+            Text(
+              loc.lessonsTitle,
+              style: Theme.of(context)
+                  .textTheme
+                  .titleLarge
+                  ?.copyWith(fontWeight: FontWeight.w600),
+            ),
+            const SizedBox(height: 16),
+            _LessonCard(
+              badge: const Icon(Icons.abc),
+              title: _localizedAlphabetTitle(alphabet, appLanguage),
+              subtitle: _buildAlphabetSubtitle(alphabet, appLanguage),
+              gradientColors: [
+                Theme.of(context).colorScheme.primary,
+                Theme.of(context).colorScheme.primary.withValues(alpha: 0.78),
+              ],
+              isCompleted: alphabetCompleted,
+              onTap: () async {
+                final result = await Navigator.of(context).push<bool>(
+                  MaterialPageRoute(
+                    builder: (_) => AlphabetJsonLessonPage(
+                      assetPath: _alphabetLessonAssetPath,
+                      allWords: widget.allWords,
+                      initialLesson: alphabet,
+                    ),
+                  ),
+                );
+                if (result == true && _completedLessonIds.add(alphabet.id)) {
+                  setState(() {});
+                }
+              },
+            ),
+            const SizedBox(height: 14),
+            _LessonCard(
+              badge: const Icon(Icons.link),
+              title: _localizedCombinationsTitle(combinations, appLanguage),
+              subtitle: _buildCombinationsSubtitle(combinations, appLanguage),
+              gradientColors: [
+                Theme.of(context).colorScheme.secondary,
+                Theme.of(context).colorScheme.secondary.withValues(alpha: 0.82),
+              ],
+              isCompleted: combinationsCompleted,
+              onTap: () async {
+                final result = await Navigator.of(context).push<bool>(
+                  MaterialPageRoute(
+                    builder: (_) => CombinationsJsonLessonPage(
+                      assetPath: _combinationsLessonAssetPath,
+                      allWords: widget.allWords,
+                      initialLesson: combinations,
+                    ),
+                  ),
+                );
+                if (result == true &&
+                    _completedLessonIds.add(combinations.id)) {
+                  setState(() {});
+                }
+              },
+            ),
+          ],
+        );
+      },
     );
   }
 
-  void _markLessonCompletedLocally(String lessonId) {
-    if (_completedLessonIds.add(lessonId)) {
-      setState(() {});
+  String _localizedAlphabetTitle(AlphabetJsonLesson lesson, AppLanguage lang) {
+    switch (lang) {
+      case AppLanguage.fa:
+        return lesson.titleFa.isNotEmpty
+            ? lesson.titleFa
+            : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleDe);
+      case AppLanguage.en:
+        return lesson.titleEn.isNotEmpty
+            ? lesson.titleEn
+            : (lesson.titleDe.isNotEmpty ? lesson.titleDe : lesson.titleFa);
+      case AppLanguage.de:
+        return lesson.titleDe.isNotEmpty
+            ? lesson.titleDe
+            : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleFa);
     }
   }
 
-  Widget _buildCategoryCard(LessonCategory category, AppLocalizations loc) {
+  String _localizedCombinationsTitle(CombinationsJsonLesson lesson, AppLanguage lang) {
+    switch (lang) {
+      case AppLanguage.fa:
+        return lesson.titleFa.isNotEmpty
+            ? lesson.titleFa
+            : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleDe);
+      case AppLanguage.en:
+        return lesson.titleEn.isNotEmpty
+            ? lesson.titleEn
+            : (lesson.titleDe.isNotEmpty ? lesson.titleDe : lesson.titleFa);
+      case AppLanguage.de:
+        return lesson.titleDe.isNotEmpty
+            ? lesson.titleDe
+            : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleFa);
+    }
+  }
+
+  String _buildAlphabetSubtitle(AlphabetJsonLesson lesson, AppLanguage lang) {
+    final lettersCount = lesson.alphabet?.letters.length ?? 0;
+    final level = _localizedLessonLevel(lesson, lang);
+    if (lang == AppLanguage.fa) {
+      final parts = <String>[];
+      if (level.isNotEmpty) parts.add(level);
+      if (lettersCount > 0) parts.add('$lettersCount حرف');
+      return parts.isEmpty ? '' : parts.join(' • ');
+    }
+    final parts = <String>[];
+    if (level.isNotEmpty) parts.add(level);
+    if (lettersCount > 0) parts.add('$lettersCount letters');
+    return parts.isEmpty ? '' : parts.join(' • ');
+  }
+
+  String _buildCombinationsSubtitle(CombinationsJsonLesson lesson, AppLanguage lang) {
+    final rulesCount = lesson.combinations.length;
+    final level = _localizedLessonLevelCombinations(lesson, lang);
+    if (lang == AppLanguage.fa) {
+      final parts = <String>[];
+      if (level.isNotEmpty) parts.add(level);
+      if (rulesCount > 0) parts.add('$rulesCount ترکیب');
+      return parts.isEmpty ? '' : parts.join(' • ');
+    }
+    final parts = <String>[];
+    if (level.isNotEmpty) parts.add(level);
+    if (rulesCount > 0) parts.add('$rulesCount rules');
+    return parts.isEmpty ? '' : parts.join(' • ');
+  }
+
+  String _localizedLessonLevel(AlphabetJsonLesson lesson, AppLanguage lang) {
+    switch (lang) {
+      case AppLanguage.fa:
+        return lesson.levelFa.isNotEmpty
+            ? lesson.levelFa
+            : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelDe);
+      case AppLanguage.en:
+        return lesson.levelEn.isNotEmpty
+            ? lesson.levelEn
+            : (lesson.levelDe.isNotEmpty ? lesson.levelDe : lesson.levelFa);
+      case AppLanguage.de:
+        return lesson.levelDe.isNotEmpty
+            ? lesson.levelDe
+            : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelFa);
+    }
+  }
+
+  String _localizedLessonLevelCombinations(
+    CombinationsJsonLesson lesson,
+    AppLanguage lang,
+  ) {
+    switch (lang) {
+      case AppLanguage.fa:
+        return lesson.levelFa.isNotEmpty
+            ? lesson.levelFa
+            : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelDe);
+      case AppLanguage.en:
+        return lesson.levelEn.isNotEmpty
+            ? lesson.levelEn
+            : (lesson.levelDe.isNotEmpty ? lesson.levelDe : lesson.levelFa);
+      case AppLanguage.de:
+        return lesson.levelDe.isNotEmpty
+            ? lesson.levelDe
+            : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelFa);
+    }
+  }
+}
+
+class _LessonCard extends StatelessWidget {
+  const _LessonCard({
+    required this.badge,
+    required this.title,
+    required this.subtitle,
+    required this.gradientColors,
+    required this.isCompleted,
+    required this.onTap,
+  });
+
+  final Widget badge;
+  final String title;
+  final String subtitle;
+  final List<Color> gradientColors;
+  final bool isCompleted;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final hasLessons = category.lessons.isNotEmpty;
+    final onGradient = ThemeData.estimateBrightnessForColor(gradientColors.first) ==
+            Brightness.dark
+        ? Colors.white
+        : Colors.black;
     return InkWell(
-      onTap: () {
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (_) => CategoryDetailPage(
-              category: category,
-              completedLessonIds: _completedLessonIds,
-              onLessonCompleted: _markLessonCompletedLocally,
-            ),
-          ),
-        );
-      },
-      borderRadius: BorderRadius.circular(20),
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(22),
       child: Container(
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: theme.cardColor,
-          borderRadius: BorderRadius.circular(20),
+          borderRadius: BorderRadius.circular(22),
+          gradient: LinearGradient(
+            colors: gradientColors,
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withValues(alpha: 0.05),
-              blurRadius: 12,
-              offset: const Offset(0, 3),
+              color: Colors.black.withValues(alpha: 0.08),
+              blurRadius: 18,
+              offset: const Offset(0, 6),
             ),
           ],
         ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+        child: Row(
           children: [
-            Text(
-              localizedCategoryTitle(category.id, loc),
-              style: theme.textTheme.titleMedium?.copyWith(
-                fontWeight: FontWeight.w700,
+            Container(
+              width: 52,
+              height: 52,
+              decoration: BoxDecoration(
+                color: onGradient.withValues(alpha: 0.16),
+                borderRadius: BorderRadius.circular(18),
+              ),
+              alignment: Alignment.center,
+              child: IconTheme(
+                data: IconThemeData(
+                  color: onGradient,
+                  size: 26,
+                ),
+                child: badge,
               ),
             ),
-            if (category.description != null) ...[
-              const SizedBox(height: 4),
-              Text(
-                category.description!,
-                style: theme.textTheme.bodyMedium,
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    title,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: theme.textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.w800,
+                      color: onGradient,
+                    ),
+                  ),
+                  if (subtitle.isNotEmpty) ...[
+                    const SizedBox(height: 4),
+                    Text(
+                      subtitle,
+                      style: theme.textTheme.bodySmall?.copyWith(
+                        color: onGradient.withValues(alpha: 0.8),
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ],
+                ],
               ),
-            ],
-            const SizedBox(height: 14),
-            if (!hasLessons)
-              Text(
-                localizedLessonsStatusComingSoon(loc),
-                style: theme.textTheme.bodySmall?.copyWith(
-                  color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.6),
-                ),
-              ),
+            ),
+            const SizedBox(width: 10),
+            Icon(
+              isCompleted ? LucideIcons.checkCircle2 : LucideIcons.chevronRight,
+              color: onGradient,
+            ),
           ],
         ),
       ),

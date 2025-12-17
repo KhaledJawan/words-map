@@ -1,0 +1,155 @@
+{
+  "id": "lesson_combinations",
+  "level_en": "Beginner",
+  "level_fa": "مبتدی",
+
+  "title_de": "Buchstabenkombinationen im Deutschen",
+  "title_fa": "ترکیب حروف در آلمانی",
+  "title_en": "German Letter Combinations",
+
+  "explanition": [
+    {
+      "title_fa": "چرا ترکیب حروف را باید یاد بگیریم؟",
+      "title_en": "Why do we need to learn letter combinations?",
+      "explanation_fa": "در آلمانی بعضی صداها با یک حرف ساخته نمی‌شوند، بلکه با دو یا چند حرف کنار هم می‌آیند. اگر این ترکیب‌ها را بلد نباشی، کلمه را درست نمی‌خوانی و وقتی آن را می‌شنوی هم شاید نفهمی. در این درس، ترکیب‌های بسیار رایج را یاد می‌گیری (مثل: ch, sch, tsch, sp, st, ei, ie, eu/äu, au, qu, pf, ck). هدف این است که وقتی یک واژه نو دیدی، بتوانی با خواندنِ حروف و ترکیب‌ها، تلفظ آن را نزدیک به درست حدس بزنی و آسان‌تر در یاد نگه داری.",
+      "explanation_en": "In German, many sounds are made by two or more letters together. If you don’t know these combinations, you will misread words and may not understand them when you hear them. In this lesson, you learn very common combinations (such as ch, sch, tsch, sp, st, ei, ie, eu/äu, au, qu, pf, ck). The goal is to help you guess the pronunciation of new words more accurately and remember them more easily."
+    }
+  ],
+
+  "combinations": [
+    {
+      "id": "sch",
+      "title_de": "sch",
+      "title_fa": "ترکیب sch",
+      "title_en": "The combination sch",
+      "description_fa": "sch تقریباً همیشه مثل «ش» خوانده می‌شود.",
+      "description_en": "sch is almost always pronounced like “sh”.",
+      "examples": [
+        { "word_ref": { "source": "assets/words", "key": "Schule" } },
+        { "word_ref": { "source": "assets/words", "key": "schön" } }
+      ]
+    },
+    {
+      "id": "tsch",
+      "title_de": "tsch",
+      "title_fa": "ترکیب tsch",
+      "title_en": "The combination tsch",
+      "description_fa": "tsch معمولاً مثل «چ» خوانده می‌شود.",
+      "description_en": "tsch is usually pronounced like “ch” (as in “chair”).",
+      "examples": [
+        { "word_ref": { "source": "assets/words", "key": "Deutsch" } },
+        { "word_ref": { "source": "assets/words", "key": "Tschüss" } }
+      ]
+    },
+    {
+      "id": "ch",
+      "title_de": "ch",
+      "title_fa": "ترکیب ch",
+      "title_en": "The combination ch",
+      "description_fa": "ch معمولاً دو جور صدا دارد: (1) بعد از i, e, ä, ö, ü نرم‌تر است (مثل ich). (2) بعد از a, o, u, au خشن‌تر است (نزدیک به «خ» مثل Bach).",
+      "description_en": "ch usually has two sounds: (1) after i, e, ä, ö, ü it is softer (like in ich). (2) after a, o, u, au it is harsher (similar to the sound in Bach).",
+      "examples": [
+        { "word_ref": { "source": "assets/words", "key": "ich" } },
+        { "word_ref": { "source": "assets/words", "key": "Buch" } },
+        { "word_ref": { "source": "assets/words", "key": "machen" } }
+      ]
+    },
+    {
+      "id": "sp_st_start",
+      "title_de": "sp / st am Wortanfang",
+      "title_fa": "sp و st در سرِ کلمه",
+      "title_en": "sp and st at the beginning of words",
+      "description_fa": "وقتی sp یا st در سرِ کلمه بیاید، معمولاً با صدای «شپ» یا «شت» خوانده می‌شود. (مثل sprechen = شپرِخِن، Straße = شتراسه).",
+      "description_en": "When sp or st are at the beginning, they usually start with an “sh” sound (e.g., sprechen, Straße).",
+      "examples": [
+        { "word_ref": { "source": "assets/words", "key": "sprechen" } },
+        { "word_ref": { "source": "assets/words", "key": "Straße" } },
+        { "word_ref": { "source": "assets/words", "key": "Student" } }
+      ]
+    },
+    {
+      "id": "ei",
+      "title_de": "ei",
+      "title_fa": "ترکیب ei",
+      "title_en": "The combination ei",
+      "description_fa": "ei معمولاً مثل «آی» خوانده می‌شود.",
+      "description_en": "ei is usually pronounced like “eye”.",
+      "examples": [
+        { "word_ref": { "source": "assets/words", "key": "mein" } },
+        { "word_ref": { "source": "assets/words", "key": "heiß" } }
+      ]
+    },
+    {
+      "id": "ie",
+      "title_de": "ie",
+      "title_fa": "ترکیب ie",
+      "title_en": "The combination ie",
+      "description_fa": "ie معمولاً «ایِ دراز» است (مثل «ایــــ»).",
+      "description_en": "ie is usually a long “ee” sound.",
+      "examples": [
+        { "word_ref": { "source": "assets/words", "key": "vier" } },
+        { "word_ref": { "source": "assets/words", "key": "Liebe" } }
+      ]
+    },
+    {
+      "id": "eu_aeu",
+      "title_de": "eu / äu",
+      "title_fa": "eu و äu",
+      "title_en": "eu and äu",
+      "description_fa": "eu و äu معمولاً مثل «اُی» (oy) خوانده می‌شوند. مثال: heute ≈ هُویته، Häuser ≈ هُویزر (تقریب تلفظ).",
+      "description_en": "eu and äu are usually pronounced like “oy” (as in “boy”).",
+      "examples": [
+        { "word_ref": { "source": "assets/words", "key": "heute" } },
+        { "word_ref": { "source": "assets/words", "key": "Häuser" } }
+      ]
+    },
+    {
+      "id": "au",
+      "title_de": "au",
+      "title_fa": "ترکیب au",
+      "title_en": "The combination au",
+      "description_fa": "au معمولاً مثل «آو» خوانده می‌شود.",
+      "description_en": "au is usually pronounced like “ow” (as in “now”).",
+      "examples": [
+        { "word_ref": { "source": "assets/words", "key": "Haus" } },
+        { "word_ref": { "source": "assets/words", "key": "Auto" } }
+      ]
+    },
+    {
+      "id": "qu",
+      "title_de": "qu",
+      "title_fa": "ترکیب qu",
+      "title_en": "The combination qu",
+      "description_fa": "qu تقریباً همیشه مثل «کو» (kw) خوانده می‌شود.",
+      "description_en": "qu is usually pronounced like “kv/kw”.",
+      "examples": [
+        { "word_ref": { "source": "assets/words", "key": "Qualität" } },
+        { "word_ref": { "source": "assets/words", "key": "Quittung" } }
+      ]
+    },
+    {
+      "id": "pf",
+      "title_de": "pf",
+      "title_fa": "ترکیب pf",
+      "title_en": "The combination pf",
+      "description_fa": "pf یک صدای ترکیبی است: اول «پ» بعد سریع «ف». (مثل یک «پف» کوتاه).",
+      "description_en": "pf is a combined sound: p + f together (very quick).",
+      "examples": [
+        { "word_ref": { "source": "assets/words", "key": "Pferd" } },
+        { "word_ref": { "source": "assets/words", "key": "Pfanne" } }
+      ]
+    },
+    {
+      "id": "ck",
+      "title_de": "ck",
+      "title_fa": "ترکیب ck",
+      "title_en": "The combination ck",
+      "description_fa": "ck معمولاً مثل «ک» خوانده می‌شود و اغلب نشان می‌دهد که واکه قبل از آن کوتاه است.",
+      "description_en": "ck is pronounced like “k” and often indicates the vowel before it is short.",
+      "examples": [
+        { "word_ref": { "source": "assets/words", "key": "Jacke" } },
+        { "word_ref": { "source": "assets/words", "key": "dick" } }
+      ]
+    }
+  ]
+}

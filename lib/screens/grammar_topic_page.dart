@@ -9,7 +9,6 @@ import 'package:word_map_app/features/grammar/grammar_models.dart';
 import 'package:word_map_app/features/grammar/grammar_localization.dart';
 import 'package:word_map_app/features/lessons/lesson_completion_repository.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
-import 'package:word_map_app/models/app_language.dart';
 import 'package:word_map_app/services/app_state.dart';
 import 'package:word_map_app/widgets/word_detail_soft_card.dart';
 
@@ -34,11 +33,6 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
     await _completionRepo.setLessonCompleted(widget.topic.id, true);
     if (!mounted) return;
     Navigator.of(context).pop(true);
-  }
-
-  void _repeatTopic() {
-    _scrollController.animateTo(0,
-        duration: const Duration(milliseconds: 300), curve: Curves.easeOut);
   }
 
   @override
