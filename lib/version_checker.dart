@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:word_map_app/l10n/app_localizations.dart';
 
 class VersionChecker {
   // Remote manifest for update checks
@@ -45,15 +46,16 @@ class VersionChecker {
 
   static void _showUpdateDialog(
       BuildContext context, String androidUrl, String iosUrl) {
+    final loc = AppLocalizations.of(context)!;
     showDialog(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('New version available'),
-        content: const Text('Please update WordMap to get the latest features.'),
+        title: Text(loc.updateAvailableTitle),
+        content: Text(loc.updateAvailableBody),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Later'),
+            child: Text(loc.updateAvailableLater),
           ),
           TextButton(
             onPressed: () async {
@@ -69,7 +71,7 @@ class VersionChecker {
                 await launchUrl(uri, mode: LaunchMode.externalApplication);
               }
             },
-            child: const Text('Update'),
+            child: Text(loc.updateAvailableUpdate),
           ),
         ],
       ),

@@ -473,8 +473,8 @@ class _GrammarTopicPageState extends State<GrammarTopicPage> {
         debugPrint('Audio playback failed: $e');
         if (!mounted) return;
         messenger.showSnackBar(
-          const SnackBar(
-            content: Text('Audio konnte nicht abgespielt werden.'),
+          SnackBar(
+            content: Text(AppLocalizations.of(context)!.audioPlaybackFailed),
             duration: Duration(seconds: 2),
           ),
         );

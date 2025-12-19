@@ -4,9 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:provider/provider.dart';
 import 'package:word_map_app/core/audio/audio_service.dart';
+import 'package:word_map_app/features/categories/word_category_localization.dart';
 import 'package:word_map_app/features/lessons/alphabet_json/alphabet_json_lesson_models.dart';
 import 'package:word_map_app/features/lessons/alphabet_json/alphabet_json_lesson_repository.dart';
 import 'package:word_map_app/features/lessons/lesson_completion_repository.dart';
+import 'package:word_map_app/l10n/app_localizations.dart';
 import 'package:word_map_app/models/app_language.dart';
 import 'package:word_map_app/models/vocab_word.dart';
 import 'package:word_map_app/services/app_state.dart';
@@ -45,15 +47,18 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
     AppLanguage lang, {
     required String en,
     required String fa,
+    String ps = '',
     required String de,
   }) {
     switch (lang) {
       case AppLanguage.fa:
         return fa.isNotEmpty ? fa : (en.isNotEmpty ? en : de);
+      case AppLanguage.ps:
+        return ps.isNotEmpty
+            ? ps
+            : (fa.isNotEmpty ? fa : (en.isNotEmpty ? en : de));
       case AppLanguage.en:
         return en.isNotEmpty ? en : (de.isNotEmpty ? de : fa);
-      case AppLanguage.de:
-        return de.isNotEmpty ? de : (en.isNotEmpty ? en : fa);
     }
   }
 
@@ -98,19 +103,25 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                   padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: Builder(
                     builder: (dialogContext) {
-                      final localeCode = Localizations.localeOf(dialogContext).languageCode;
-                      final fa = word.translationFa;
-                      final en = word.translationEn;
-                      final primary = localeCode == 'fa'
-                          ? (fa.isNotEmpty ? fa : en)
-                          : (en.isNotEmpty ? en : fa);
-                      final secondary = localeCode == 'fa'
-                          ? (en.isNotEmpty ? en : '')
-                          : (fa.isNotEmpty ? fa : '');
+                      final wordLanguages =
+                          dialogContext.read<AppState>().wordLanguages;
+                      final primaryLang = wordLanguages.first;
+                      final secondaryLang =
+                          wordLanguages.length > 1 ? wordLanguages[1] : null;
+                      final primaryRaw =
+                          word.translationFor(primaryLang).trim();
+                      final primary =
+                          primaryRaw.isNotEmpty ? primaryRaw : '—';
+                      final secondaryRaw = secondaryLang == null
+                          ? ''
+                          : word.translationFor(secondaryLang).trim();
+                      final secondary =
+                          secondaryRaw.isNotEmpty ? secondaryRaw : '';
 
                       final audioUrl = word.audio.trim();
                       final hasAudio = audioUrl.isNotEmpty;
                       final messenger = ScaffoldMessenger.of(dialogContext);
+                      final loc = AppLocalizations.of(dialogContext)!;
                       Future<void> handlePlayAudio() async {
                         if (!hasAudio) return;
                         try {
@@ -118,8 +129,8 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                         } catch (e) {
                           if (!mounted) return;
                           messenger.showSnackBar(
-                            const SnackBar(
-                              content: Text('Audio konnte nicht abgespielt werden.'),
+                            SnackBar(
+                              content: Text(loc.audioPlaybackFailed),
                               duration: Duration(seconds: 2),
                             ),
                           );
@@ -161,7 +172,11 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                         example: word.example,
                         extra: [
                           if (word.level != null) word.level,
-                          if (word.category != null) word.category,
+                          formatCategoryLabel(
+                            AppLocalizations.of(context)!,
+                            word.category,
+                            max: 2,
+                          ),
                         ].whereType<String>().join(' • '),
                         showBookmark: false,
                         trailingAction: audioAction,
@@ -209,18 +224,21 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                       lang,
                       en: 'Not found',
                       fa: 'پیدا نشد',
+                      ps: 'نه موندل کېږي',
                       de: 'Nicht gefunden',
                     ),
                     translationSecondary: _localized(
                       lang,
                       en: 'This word is not in your vocabulary yet.',
                       fa: 'این کلمه هنوز در واژگان شما نیست.',
+                      ps: 'دا کلمه لا ستا په لغتونو کې نشته.',
                       de: 'Dieses Wort ist noch nicht in deinem Wortschatz.',
                     ),
                     extra: _localized(
                       lang,
                       en: 'Vocabulary',
                       fa: 'واژگان',
+                      ps: 'لغتونه',
                       de: 'Wortschatz',
                     ),
                     showBookmark: false,
@@ -291,6 +309,7 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                             de: key,
                             translationEn: '',
                             translationFa: '',
+                            translationPs: '',
                             image: '',
                           );
 
@@ -317,7 +336,7 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                   child: TextButton(
                     onPressed: () => Navigator.of(context).pop(),
                     child: Text(
-                      _localized(lang, en: 'Close', fa: 'بستن', de: 'Schließen'),
+                      AppLocalizations.of(context)!.commonClose,
                     ),
                   ),
                 ),
@@ -340,18 +359,25 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
           return const Scaffold(body: Center(child: CircularProgressIndicator()));
         }
         if (snapshot.hasError || snapshot.data == null) {
+          final loc = AppLocalizations.of(context)!;
           return Scaffold(
-            appBar: AppBar(title: const Text('Lesson')),
+            appBar: AppBar(title: Text(loc.commonLesson)),
             body: Center(
               child: Text(
-                _localized(appLanguage, en: 'Failed to load lesson.', fa: 'بارگذاری درس ناموفق بود.', de: 'Lektion konnte nicht geladen werden.'),
+                loc.lessonLoadFailed,
               ),
             ),
           );
         }
 
         final lesson = snapshot.data!;
-        final title = _localized(appLanguage, en: lesson.titleEn, fa: lesson.titleFa, de: lesson.titleDe);
+        final title = _localized(
+          appLanguage,
+          en: lesson.titleEn,
+          fa: lesson.titleFa,
+          ps: lesson.titlePs,
+          de: lesson.titleDe,
+        );
         final alphabet = lesson.alphabet;
 
         return Scaffold(
@@ -379,6 +405,7 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                           appLanguage,
                           en: 'Alphabet',
                           fa: 'الفبا',
+                          ps: 'الفبا',
                           de: 'Alphabet',
                         ),
                   maxLines: 1,
@@ -404,7 +431,13 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                     [
                       if (lesson.explanations.isNotEmpty) ...[
                         Text(
-                          _localized(appLanguage, en: 'Overview', fa: 'معرفی', de: 'Überblick'),
+                          _localized(
+                            appLanguage,
+                            en: 'Overview',
+                            fa: 'معرفی',
+                            ps: 'عمومي کتنه',
+                            de: 'Überblick',
+                          ),
                           style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
                         ),
                         const SizedBox(height: 10),
@@ -413,12 +446,14 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                             appLanguage,
                             en: block.titleEn,
                             fa: block.titleFa,
+                            ps: block.titlePs,
                             de: block.titleDe,
                           );
                           final blockText = _localized(
                             appLanguage,
                             en: block.explanationEn,
                             fa: block.explanationFa,
+                            ps: block.explanationPs,
                             de: block.explanationDe,
                           );
                           return Container(
@@ -448,7 +483,13 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                       ],
                       if (alphabet != null) ...[
                         Text(
-                          _localized(appLanguage, en: 'Letters', fa: 'حروف', de: 'Buchstaben'),
+                          _localized(
+                            appLanguage,
+                            en: 'Letters',
+                            fa: 'حروف',
+                            ps: 'توري',
+                            de: 'Buchstaben',
+                          ),
                           style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
                         ),
                         const SizedBox(height: 8),
@@ -456,6 +497,7 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                           appLanguage,
                           en: alphabet.noteEn,
                           fa: alphabet.noteFa,
+                          ps: alphabet.notePs,
                           de: alphabet.noteDe,
                         ).isNotEmpty)
                           Padding(
@@ -465,6 +507,7 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                                 appLanguage,
                                 en: alphabet.noteEn,
                                 fa: alphabet.noteFa,
+                                ps: alphabet.notePs,
                                 de: alphabet.noteDe,
                               ),
                               style: theme.textTheme.bodySmall?.copyWith(
@@ -492,7 +535,13 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                                     lang: appLanguage,
                                     title: '${letter.upper}${letter.lower.isNotEmpty ? ' / ${letter.lower}' : ''}',
                                     subtitle: letter.nameDe,
-                                    detail: letter.faHint,
+                                    detail: _localized(
+                                      appLanguage,
+                                      en: letter.faHint,
+                                      fa: letter.faHint,
+                                      ps: letter.psHint,
+                                      de: letter.faHint,
+                                    ),
                                     examples: letter.examples,
                                   );
                                 },
@@ -529,15 +578,29 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                         if (alphabet.specialLetters.isNotEmpty) ...[
                           const SizedBox(height: 18),
                           Text(
-                            _localized(appLanguage, en: 'Special Letters', fa: 'حروف ویژه', de: 'Sonderzeichen'),
+                            _localized(
+                              appLanguage,
+                              en: 'Special Letters',
+                              fa: 'حروف ویژه',
+                              ps: 'ځانګړي توري',
+                              de: 'Sonderzeichen',
+                            ),
                             style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
                           ),
                           const SizedBox(height: 10),
                           ...alphabet.specialLetters.map((special) {
+                            final hint = _localized(
+                              appLanguage,
+                              en: special.faHint,
+                              fa: special.faHint,
+                              ps: special.psHint,
+                              de: special.faHint,
+                            );
                             final desc = _localized(
                               appLanguage,
                               en: special.descriptionEn,
                               fa: special.descriptionFa,
+                              ps: special.descriptionPs,
                               de: special.descriptionDe,
                             );
                             return InkWell(
@@ -547,7 +610,7 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                                   title: special.symbol,
                                   subtitle: special.nameDe,
                                   detail: [
-                                    if (special.faHint.isNotEmpty) special.faHint,
+                                    if (hint.isNotEmpty) hint,
                                     if (desc.isNotEmpty) desc,
                                   ].join('\n\n'),
                                   examples: const [],
@@ -588,10 +651,10 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                                             special.nameDe.isNotEmpty ? special.nameDe : special.symbol,
                                             style: theme.textTheme.bodyLarge?.copyWith(fontWeight: FontWeight.w800),
                                           ),
-                                          if (desc.isNotEmpty || special.faHint.isNotEmpty) ...[
+                                          if (desc.isNotEmpty || hint.isNotEmpty) ...[
                                             const SizedBox(height: 4),
                                             Text(
-                                              special.faHint.isNotEmpty ? special.faHint : desc,
+                                              hint.isNotEmpty ? hint : desc,
                                               maxLines: 2,
                                               overflow: TextOverflow.ellipsis,
                                               style: theme.textTheme.bodySmall?.copyWith(
@@ -619,7 +682,13 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                         child: FilledButton(
                           onPressed: lesson.id.isNotEmpty ? () => _markCompleted(lesson.id) : null,
                           child: Text(
-                            _localized(appLanguage, en: 'Mark as completed', fa: 'تمام شد', de: 'Als erledigt markieren'),
+                            _localized(
+                              appLanguage,
+                              en: 'Mark as completed',
+                              fa: 'تمام شد',
+                              ps: 'بشپړ شو',
+                              de: 'Als erledigt markieren',
+                            ),
                           ),
                         ),
                       ),

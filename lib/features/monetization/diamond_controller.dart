@@ -24,11 +24,13 @@ class DiamondController extends ChangeNotifier {
 
   static const String _prefsCounterKey = 'diamond_word_counter';
   static const String _prefsExpireAtKey = 'diamond_expire_at_ms';
+  static const String _prefsCooldownUntilKey = 'diamond_cooldown_until_ms';
 
   final RewardedAdService _rewardedAdService;
 
   int _counter = startCounter;
   DateTime? _diamondExpireAt;
+  DateTime? _cooldownUntil;
   bool _isLoaded = false;
   int _activationGeneration = 0;
   Timer? _ticker;
@@ -38,11 +40,18 @@ class DiamondController extends ChangeNotifier {
   int get activationGeneration => _activationGeneration;
 
   DateTime? get diamondExpireAt => _diamondExpireAt;
+  DateTime? get cooldownUntil => _cooldownUntil;
 
   bool get isDiamondActive {
     final expiry = _diamondExpireAt;
     if (expiry == null) return false;
     return expiry.isAfter(DateTime.now());
+  }
+
+  bool get isCooldownActive {
+    final until = _cooldownUntil;
+    if (until == null) return false;
+    return until.isAfter(DateTime.now());
   }
 
   Duration get remainingTime {
@@ -53,8 +62,25 @@ class DiamondController extends ChangeNotifier {
     return remaining;
   }
 
+  Duration get cooldownRemainingTime {
+    if (!isCooldownActive) return Duration.zero;
+    final until = _cooldownUntil!;
+    final remaining = until.difference(DateTime.now());
+    if (remaining.isNegative) return Duration.zero;
+    return remaining;
+  }
+
   String remainingText() {
     final d = remainingTime;
+    final totalMinutes = d.inMinutes;
+    final seconds = d.inSeconds % 60;
+    final mm = totalMinutes.toString().padLeft(2, '0');
+    final ss = seconds.toString().padLeft(2, '0');
+    return '$mm:$ss';
+  }
+
+  String cooldownText() {
+    final d = cooldownRemainingTime;
     final totalMinutes = d.inMinutes;
     final seconds = d.inSeconds % 60;
     final mm = totalMinutes.toString().padLeft(2, '0');
@@ -78,6 +104,11 @@ class DiamondController extends ChangeNotifier {
     final expireMs = prefs.getInt(_prefsExpireAtKey);
     _diamondExpireAt =
         expireMs != null && expireMs > 0 ? DateTime.fromMillisecondsSinceEpoch(expireMs) : null;
+    final cooldownMs = prefs.getInt(_prefsCooldownUntilKey);
+    _cooldownUntil =
+        cooldownMs != null && cooldownMs > 0 ? DateTime.fromMillisecondsSinceEpoch(cooldownMs) : null;
+
+    _completeCooldownInMemoryIfExpired();
     _isLoaded = true;
     _syncTicker();
     notifyListeners();
@@ -94,12 +125,19 @@ class DiamondController extends ChangeNotifier {
     await prefs.setInt(_prefsExpireAtKey, ms);
   }
 
+  Future<void> _saveCooldownUntil() async {
+    final prefs = await SharedPreferences.getInstance();
+    final ms = _cooldownUntil?.millisecondsSinceEpoch ?? 0;
+    await prefs.setInt(_prefsCooldownUntilKey, ms);
+  }
+
   void _syncTicker() {
     _ticker?.cancel();
     _ticker = null;
-    if (!isDiamondActive) return;
+    if (!isDiamondActive && !isCooldownActive) return;
     _ticker = Timer.periodic(const Duration(seconds: 1), (_) {
-      if (!isDiamondActive) {
+      _completeCooldownInMemoryIfExpired();
+      if (!isDiamondActive && !isCooldownActive) {
         _ticker?.cancel();
         _ticker = null;
         notifyListeners();
@@ -113,6 +151,24 @@ class DiamondController extends ChangeNotifier {
     _counter = startCounter;
     notifyListeners();
     await _saveCounter();
+  }
+
+  Future<void> startCooldown() async {
+    if (isDiamondActive) return;
+    _counter = 0;
+    _cooldownUntil = DateTime.now().add(diamondDuration);
+    _syncTicker();
+    notifyListeners();
+    await _saveCounter();
+    await _saveCooldownUntil();
+  }
+
+  Future<void> clearCooldown() async {
+    if (_cooldownUntil == null) return;
+    _cooldownUntil = null;
+    _syncTicker();
+    notifyListeners();
+    await _saveCooldownUntil();
   }
 
   Future<void> _activateDiamondFor(Duration duration) async {
@@ -134,6 +190,7 @@ class DiamondController extends ChangeNotifier {
       return DiamondWatchResult.notRewarded;
     }
 
+    await clearCooldown();
     await _activateDiamondFor(diamondDuration);
     await resetCounter();
     return DiamondWatchResult.activated;
@@ -141,11 +198,29 @@ class DiamondController extends ChangeNotifier {
 
   bool onWordSelected() {
     if (isDiamondActive) return true;
+    _completeCooldownInMemoryIfExpired();
+    if (isCooldownActive) return false;
     if (_counter <= 0) return false;
     _counter -= 1;
     notifyListeners();
     unawaited(_saveCounter());
     return true;
+  }
+
+  void _completeCooldownInMemoryIfExpired({bool save = true}) {
+    final until = _cooldownUntil;
+    if (until == null) return;
+    if (until.isAfter(DateTime.now())) return;
+
+    _cooldownUntil = null;
+    if (_counter <= 0) {
+      _counter = startCounter;
+    }
+    if (save) {
+      unawaited(_saveCooldownUntil());
+      unawaited(_saveCounter());
+    }
+    _syncTicker();
   }
 
   @override

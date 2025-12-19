@@ -25,7 +25,7 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace = "com.merlinict.wordmap"
-    compileSdk = 36
+    compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -49,9 +49,9 @@ android {
     defaultConfig {
         applicationId = "com.merlinict.wordmap"
         minSdk = flutter.minSdkVersion
-        targetSdk = 36
-        versionCode = 4
-        versionName = "1.0.4"
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
     }
 
     buildTypes {

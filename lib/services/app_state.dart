@@ -8,6 +8,8 @@ import '../theme_controller.dart';
 class AppState with ChangeNotifier {
   Locale? _appLocale;
   AppLanguage _appLanguage = AppLanguage.en;
+  List<AppLanguage> _wordLanguages = const [AppLanguage.en];
+  bool _wordLanguagesCustomized = false;
   bool _onboardingCompleted = false;
   bool _isDataLoaded = false;
   String _currentLevel = 'A1.1';
@@ -15,8 +17,11 @@ class AppState with ChangeNotifier {
   Set<String> _bookmarkedIds = {};
   Set<String> _viewedIds = {};
 
+  static const String _prefsWordLanguagesKey = 'word_languages';
+
   Locale? get appLocale => _appLocale;
   AppLanguage get appLanguage => _appLanguage;
+  List<AppLanguage> get wordLanguages => List.unmodifiable(_wordLanguages);
   bool get onboardingCompleted => _onboardingCompleted;
   bool get isDataLoaded => _isDataLoaded;
   String get currentLevel => _currentLevel;
@@ -39,13 +44,30 @@ class AppState with ChangeNotifier {
   /// This should be called before the app is run.
   Future<void> loadInitialData() async {
     final prefs = await SharedPreferences.getInstance();
-    final languageCode = prefs.getString('languageCode');
-    if (languageCode != null) {
-      _appLocale = Locale(languageCode);
-    } else {
-      _appLocale = const Locale('en');
+    final storedLanguageCode = prefs.getString('languageCode');
+    _appLanguage = appLanguageFromLocale(storedLanguageCode);
+    _appLocale = _appLanguage.locale;
+    if (storedLanguageCode == null ||
+        storedLanguageCode != _appLanguage.languageCode) {
+      await prefs.setString('languageCode', _appLanguage.languageCode);
     }
-    _appLanguage = appLanguageFromLocale(_appLocale?.languageCode);
+
+    final storedWordLanguages = prefs.getStringList(_prefsWordLanguagesKey);
+    if (storedWordLanguages == null) {
+      _wordLanguagesCustomized = false;
+      _wordLanguages = [_appLanguage];
+    } else {
+      _wordLanguagesCustomized = true;
+      _wordLanguages = _normalizeWordLanguages(
+        storedWordLanguages.map(appLanguageFromLocale).toList(),
+        fallback: _appLanguage,
+      );
+      final normalizedCodes = _wordLanguages.map((l) => l.languageCode).toList();
+      if (normalizedCodes.length != storedWordLanguages.length ||
+          !_listEquals(normalizedCodes, storedWordLanguages)) {
+        await prefs.setStringList(_prefsWordLanguagesKey, normalizedCodes);
+      }
+    }
 
     _onboardingCompleted = prefs.getBool('onboardingCompleted') ?? false;
     _currentLevel = prefs.getString('currentLevel') ?? 'A1.1';
@@ -68,6 +90,29 @@ class AppState with ChangeNotifier {
     notifyListeners();
   }
 
+  List<AppLanguage> _normalizeWordLanguages(
+    List<AppLanguage> languages, {
+    required AppLanguage fallback,
+  }) {
+    final out = <AppLanguage>[];
+    for (final lang in languages) {
+      if (out.contains(lang)) continue;
+      out.add(lang);
+      if (out.length == 2) break;
+    }
+    if (out.isEmpty) return [fallback];
+    return out;
+  }
+
+  bool _listEquals<T>(List<T> a, List<T> b) {
+    if (identical(a, b)) return true;
+    if (a.length != b.length) return false;
+    for (var i = 0; i < a.length; i++) {
+      if (a[i] != b[i]) return false;
+    }
+    return true;
+  }
+
   Future<void> changeLocale(Locale newLocale) async {
     final prefs = await SharedPreferences.getInstance();
     if (_appLocale == newLocale) {
@@ -76,6 +121,9 @@ class AppState with ChangeNotifier {
     _appLocale = newLocale;
     _appLanguage = appLanguageFromLocale(newLocale.languageCode);
     await prefs.setString('languageCode', newLocale.languageCode);
+    if (!_wordLanguagesCustomized) {
+      _wordLanguages = [_appLanguage];
+    }
     notifyListeners();
   }
 
@@ -85,6 +133,29 @@ class AppState with ChangeNotifier {
     _appLanguage = lang;
     _appLocale = lang.locale;
     await prefs.setString('languageCode', lang.languageCode);
+    if (!_wordLanguagesCustomized) {
+      _wordLanguages = [_appLanguage];
+    }
+    notifyListeners();
+  }
+
+  Future<void> setWordLanguages(List<AppLanguage> languages) async {
+    final prefs = await SharedPreferences.getInstance();
+    final normalized = _normalizeWordLanguages(languages, fallback: _appLanguage);
+    _wordLanguagesCustomized = true;
+    _wordLanguages = normalized;
+    await prefs.setStringList(
+      _prefsWordLanguagesKey,
+      normalized.map((l) => l.languageCode).toList(),
+    );
+    notifyListeners();
+  }
+
+  Future<void> resetWordLanguagesToAppLanguage() async {
+    final prefs = await SharedPreferences.getInstance();
+    _wordLanguagesCustomized = false;
+    _wordLanguages = [_appLanguage];
+    await prefs.remove(_prefsWordLanguagesKey);
     notifyListeners();
   }
 

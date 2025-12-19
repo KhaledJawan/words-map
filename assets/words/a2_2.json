@@ -9,10 +9,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/anstrengend.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0002",
@@ -24,9 +21,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bequem.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0003",
@@ -38,10 +33,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bibliothek.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -54,9 +46,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/direkt.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0005",
@@ -68,10 +58,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ecke.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -84,10 +71,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/einzug.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -100,10 +84,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/garage.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -116,10 +97,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/inserat.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -132,9 +110,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/möbliert.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0015",
@@ -146,10 +122,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/raum.mp3",
     "image": "",
-    "category": [
-      "furniture_rooms",
-      "noun"
-    ],
+    "category": ["furniture_rooms", "noun"],
     "article": "der"
   },
   {
@@ -162,9 +135,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/renoviert.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0018",
@@ -176,10 +147,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/schlüssel.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -192,10 +160,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/semester.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -208,10 +173,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/seminar.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -224,9 +186,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sofort.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0022",
@@ -238,10 +198,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/stadtpark.mp3",
     "image": "",
-    "category": [
-      "places_buildings",
-      "noun"
-    ],
+    "category": ["places_buildings", "noun"],
     "article": "der"
   },
   {
@@ -254,10 +211,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/stockwerk.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -270,10 +224,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/studierendenwohnheim.mp3",
     "image": "",
-    "category": [
-      "school_learning",
-      "noun"
-    ],
+    "category": ["school_learning", "noun"],
     "article": "das"
   },
   {
@@ -286,10 +237,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/vermieten.mp3",
     "image": "",
-    "category": [
-      "home_household",
-      "verb"
-    ]
+    "category": ["home_household", "verb"]
   },
   {
     "id": "wA2-2-0027",
@@ -301,9 +249,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/vorlesung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -316,10 +262,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/wäsche.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -332,10 +275,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/zimmerlautstärke.mp3",
     "image": "",
-    "category": [
-      "furniture_rooms",
-      "noun"
-    ],
+    "category": ["furniture_rooms", "noun"],
     "article": "die"
   },
   {
@@ -348,10 +288,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/einziehen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0031",
@@ -363,10 +300,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ausziehen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0032",
@@ -378,10 +312,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/betreff.mp3",
     "image": "",
-    "category": [
-      "school_learning",
-      "noun"
-    ],
+    "category": ["school_learning", "noun"],
     "article": "der"
   },
   {
@@ -394,10 +325,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/dokument.mp3",
     "image": "",
-    "category": [
-      "services_authorities",
-      "noun"
-    ],
+    "category": ["services_authorities", "noun"],
     "article": "das"
   },
   {
@@ -410,9 +338,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/formell.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0035",
@@ -424,10 +350,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/hängen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0036",
@@ -439,10 +362,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/legen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0037",
@@ -454,10 +374,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/setzen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0038",
@@ -469,10 +386,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/unterschrift.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -485,10 +399,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/wand.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -501,10 +412,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/einpacken.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0041",
@@ -516,10 +424,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/auspacken.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0042",
@@ -531,9 +436,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/teilweise.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0043",
@@ -545,9 +448,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ganz.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0044",
@@ -559,10 +460,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/auf_der_rechten/linken_seite.mp3",
     "image": "",
-    "category": [
-      "directions_navigation",
-      "preposition"
-    ]
+    "category": ["directions_navigation", "preposition"]
   },
   {
     "id": "wA2-2-0045",
@@ -574,10 +472,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/durchschnittlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0047",
@@ -589,10 +484,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/informieren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0048",
@@ -604,10 +496,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/kinderwagen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -620,10 +509,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/lärm.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -636,10 +522,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/nachtruhe.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -652,10 +535,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/rücksicht.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -668,11 +548,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/rücksicht_nehmen_auf.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "noun"
-    ]
+    "category": ["daily_life", "verb", "noun"]
   },
   {
     "id": "wA2-2-0053",
@@ -684,11 +560,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_bemühen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0054",
@@ -700,10 +572,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verhalten.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -716,11 +585,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_verhalten.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0056",
@@ -732,10 +597,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verantwortung.mp3",
     "image": "",
-    "category": [
-      "school_learning",
-      "noun"
-    ],
+    "category": ["school_learning", "noun"],
     "article": "die"
   },
   {
@@ -748,10 +610,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verantwortlich.mp3",
     "image": "",
-    "category": [
-      "school_learning",
-      "adjective"
-    ]
+    "category": ["school_learning", "adjective"]
   },
   {
     "id": "wA2-2-0059",
@@ -763,11 +622,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_halten_an.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0060",
@@ -779,10 +634,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/absprache.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -795,10 +647,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bescheid_sagen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0063",
@@ -810,11 +659,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_beschweren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0066",
@@ -826,9 +671,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/lösung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -841,10 +684,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/lösen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0069",
@@ -856,10 +696,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/respektieren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0070",
@@ -871,10 +708,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/respekt.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -887,11 +721,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_einigen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0072",
@@ -903,9 +733,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/einigung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -918,10 +746,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ausnahme.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -934,9 +759,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ausnahmsweise.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0075",
@@ -948,10 +771,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sperren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0076",
@@ -963,10 +783,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/hof.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -979,10 +796,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bewohner.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -995,10 +809,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bewohnerin.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -1011,9 +822,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sicherheit.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -1026,10 +835,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sichern.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0083",
@@ -1041,10 +847,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/haustür.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -1057,10 +860,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/abschließen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0085",
@@ -1072,10 +872,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/müllraum.mp3",
     "image": "",
-    "category": [
-      "furniture_rooms",
-      "noun"
-    ],
+    "category": ["furniture_rooms", "noun"],
     "article": "der"
   },
   {
@@ -1088,10 +885,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/feuerwehrzufahrt.mp3",
     "image": "",
-    "category": [
-      "safety_emergency",
-      "noun"
-    ],
+    "category": ["safety_emergency", "noun"],
     "article": "die"
   },
   {
@@ -1104,10 +898,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/frei_halten.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0088",
@@ -1119,9 +910,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/störung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -1134,10 +923,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/stören.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0090",
@@ -1149,9 +935,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/unerwartet.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0091",
@@ -1163,10 +947,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/schriftlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0092",
@@ -1178,10 +959,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/mündlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0093",
@@ -1193,10 +971,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/mitteilen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0094",
@@ -1208,9 +983,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/mitteilung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -1223,10 +996,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/einweihungsparty.mp3",
     "image": "",
-    "category": [
-      "culture_events",
-      "noun"
-    ],
+    "category": ["culture_events", "noun"],
     "article": "die"
   },
   {
@@ -1239,10 +1009,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bescheid.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -1255,11 +1022,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bescheid_geben.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "noun"
-    ]
+    "category": ["daily_life", "verb", "noun"]
   },
   {
     "id": "wA2-2-0098",
@@ -1271,10 +1034,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/rücksichtslos.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0099",
@@ -1286,10 +1046,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/rücksichtsvoll.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0100",
@@ -1301,9 +1058,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/nachbarschaft.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -1316,10 +1071,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bürgersteig.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -1332,10 +1084,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/zebrastreifen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -1348,10 +1097,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/stau.mp3",
     "image": "",
-    "category": [
-      "city_transport",
-      "noun"
-    ],
+    "category": ["city_transport", "noun"],
     "article": "der"
   },
   {
@@ -1364,10 +1110,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/baustelle.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -1380,11 +1123,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_verlaufen.mp3",
     "image": "",
-    "category": [
-      "health_body",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["health_body", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0115",
@@ -1396,11 +1135,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_verfahren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0116",
@@ -1412,10 +1147,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/innenstadt.mp3",
     "image": "",
-    "category": [
-      "places_buildings",
-      "noun"
-    ],
+    "category": ["places_buildings", "noun"],
     "article": "die"
   },
   {
@@ -1428,9 +1160,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/umgebung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -1443,9 +1173,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/entfernung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -1458,9 +1186,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/weit.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0120",
@@ -1472,9 +1198,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/nah.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0121",
@@ -1486,9 +1210,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/abkürzung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -1501,10 +1223,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/abkürzen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0123",
@@ -1516,10 +1235,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/durchsage.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -1532,9 +1248,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ansagen.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0125",
@@ -1546,10 +1260,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/rushhour.mp3",
     "image": "",
-    "category": [
-      "time_date",
-      "noun"
-    ],
+    "category": ["time_date", "noun"],
     "article": "die"
   },
   {
@@ -1562,9 +1273,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/öffentliche_verkehrsmittel.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0127",
@@ -1576,9 +1285,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sperrung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -1591,10 +1298,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/umleiten.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0129",
@@ -1606,9 +1310,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/umleitung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -1621,10 +1323,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bürger.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -1637,10 +1336,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bürgerin.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -1653,10 +1349,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bargeld.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "noun"
-    ],
+    "category": ["shopping_money", "noun"],
     "article": "das"
   },
   {
@@ -1669,10 +1362,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/münze.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -1685,10 +1375,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/geldschein.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -1701,10 +1388,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ec-karte.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "noun"
-    ],
+    "category": ["shopping_money", "noun"],
     "article": "die"
   },
   {
@@ -1717,10 +1401,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/kreditkarte.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "noun"
-    ],
+    "category": ["shopping_money", "noun"],
     "article": "die"
   },
   {
@@ -1733,10 +1414,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/abheben.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "verb"
-    ]
+    "category": ["shopping_money", "verb"]
   },
   {
     "id": "wA2-2-0139",
@@ -1748,10 +1426,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/einzahlen.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "verb"
-    ]
+    "category": ["shopping_money", "verb"]
   },
   {
     "id": "wA2-2-0140",
@@ -1763,10 +1438,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/überweisen.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "verb"
-    ]
+    "category": ["shopping_money", "verb"]
   },
   {
     "id": "wA2-2-0141",
@@ -1778,10 +1450,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/überweisung.mp3",
     "image": "",
-    "category": [
-      "places_buildings",
-      "noun"
-    ],
+    "category": ["places_buildings", "noun"],
     "article": "die"
   },
   {
@@ -1794,10 +1463,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/konto.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -1810,10 +1476,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/kontostand.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -1826,10 +1489,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/rechnung.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "noun"
-    ],
+    "category": ["shopping_money", "noun"],
     "article": "die"
   },
   {
@@ -1842,9 +1502,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/reduziert.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0152",
@@ -1856,10 +1514,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/angebot.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -1872,10 +1527,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/kasse.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "noun"
-    ],
+    "category": ["shopping_money", "noun"],
     "article": "die"
   },
   {
@@ -1888,10 +1540,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/quittung.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "noun"
-    ],
+    "category": ["shopping_money", "noun"],
     "article": "die"
   },
   {
@@ -1904,10 +1553,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/kassierer.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -1920,10 +1566,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/kassiererin.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -1936,10 +1579,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ware.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -1952,10 +1592,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verbraucher.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -1968,9 +1605,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/werbung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -1983,10 +1618,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/produkt.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -1999,10 +1631,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/marke.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -2015,9 +1644,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/qualität.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -2030,10 +1657,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/zustand.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -2046,9 +1670,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/gebraucht.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0170",
@@ -2060,10 +1682,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/versand.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -2076,9 +1695,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/versenden.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0172",
@@ -2090,10 +1707,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bekommen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0173",
@@ -2105,10 +1719,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/zurückgeben.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0174",
@@ -2120,10 +1731,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/umtausch.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -2136,10 +1744,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/umtauschen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0178",
@@ -2151,10 +1756,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/schulden.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -2167,10 +1769,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/einkommen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -2183,10 +1782,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ausgaben.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -2199,10 +1795,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sparen.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "verb"
-    ]
+    "category": ["shopping_money", "verb"]
   },
   {
     "id": "wA2-2-0182",
@@ -2214,9 +1807,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verschuldet.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0183",
@@ -2228,10 +1819,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/pleite_sein.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0184",
@@ -2243,9 +1831,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/reich.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0186",
@@ -2257,10 +1843,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/vorteil.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -2273,10 +1856,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/nachteil.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -2289,9 +1869,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/lieferung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -2304,10 +1882,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/liefern.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0190",
@@ -2319,10 +1894,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/lieferung_verzögert_sich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -2335,10 +1907,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/warenkorb.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "noun"
-    ],
+    "category": ["shopping_money", "noun"],
     "article": "der"
   },
   {
@@ -2351,10 +1920,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/service.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -2367,9 +1933,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/dienstleistung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -2382,10 +1946,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/anbieter.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -2398,9 +1959,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/beratung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -2413,10 +1972,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/beraten.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0199",
@@ -2428,10 +1984,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/vertragspartner.mp3",
     "image": "",
-    "category": [
-      "work_office",
-      "noun"
-    ],
+    "category": ["work_office", "noun"],
     "article": "der"
   },
   {
@@ -2444,9 +1997,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/unzufrieden.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0205",
@@ -2458,10 +2009,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bewerten.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0206",
@@ -2473,9 +2021,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bewertung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -2488,9 +2034,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/reklamation.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -2503,10 +2047,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/reklamieren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0209",
@@ -2518,10 +2059,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/kostenlos.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0210",
@@ -2533,10 +2071,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/garantie.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -2549,10 +2084,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/garantieren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0212",
@@ -2564,9 +2096,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/defekt.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0214",
@@ -2578,10 +2108,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/kaputtgehen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0215",
@@ -2593,10 +2120,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/reparieren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0216",
@@ -2608,10 +2132,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/reparatur.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -2624,10 +2145,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/techniker.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -2640,10 +2158,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/technikerin.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -2656,9 +2171,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/geeignet.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0220",
@@ -2670,9 +2183,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ungeeignet.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0221",
@@ -2684,9 +2195,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erlaubt.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0222",
@@ -2698,9 +2207,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verboten.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0223",
@@ -2712,11 +2219,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_lohnen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0224",
@@ -2728,9 +2231,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/lohnenswert.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0226",
@@ -2742,9 +2243,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/gelegenheit.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -2757,9 +2256,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/herausforderung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -2772,10 +2269,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/herausfordern.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0229",
@@ -2787,10 +2281,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/vergleich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -2803,10 +2294,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/vergleichen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0231",
@@ -2818,10 +2306,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ähnlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0232",
@@ -2833,11 +2318,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/unterschiedlich.mp3",
     "image": "",
-    "category": [
-      "greetings_politeness",
-      "conversation_phrases",
-      "adjective"
-    ]
+    "category": ["greetings_politeness", "conversation_phrases", "adjective"]
   },
   {
     "id": "wA2-2-0233",
@@ -2849,10 +2330,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/beeinflussen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0234",
@@ -2864,10 +2342,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/einfluss.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -2880,10 +2355,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/abhängen_von.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0236",
@@ -2895,10 +2367,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/unabhängig.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0237",
@@ -2910,9 +2379,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/möglichkeit.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -2925,10 +2392,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/plötzlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0241",
@@ -2940,10 +2404,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/allmählich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0242",
@@ -2955,10 +2416,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ständig.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0243",
@@ -2970,10 +2428,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/häufig.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0244",
@@ -2985,11 +2440,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/selten.mp3",
     "image": "",
-    "category": [
-      "time_date",
-      "adverb",
-      "time_expression"
-    ]
+    "category": ["time_date", "adverb", "time_expression"]
   },
   {
     "id": "wA2-2-0246",
@@ -3001,9 +2452,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/meistens.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0247",
@@ -3015,10 +2464,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erfahren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0248",
@@ -3030,10 +2476,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erleben.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0249",
@@ -3045,10 +2488,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erlebnis.mp3",
     "image": "",
-    "category": [
-      "culture_events",
-      "noun"
-    ],
+    "category": ["culture_events", "noun"],
     "article": "das"
   },
   {
@@ -3061,10 +2501,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/beeindruckend.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0252",
@@ -3076,11 +2513,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_erinnern.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0253",
@@ -3092,9 +2525,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erinnerung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -3107,10 +2538,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/vergessen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0255",
@@ -3122,9 +2550,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bescheiden.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0256",
@@ -3136,10 +2562,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/höflich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0257",
@@ -3151,10 +2574,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/unhöflich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0258",
@@ -3166,10 +2586,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/mutig.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0260",
@@ -3181,11 +2598,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/fähigkeit.mp3",
     "image": "",
-    "category": [
-      "greetings_politeness",
-      "conversation_phrases",
-      "noun"
-    ],
+    "category": ["greetings_politeness", "conversation_phrases", "noun"],
     "article": "die"
   },
   {
@@ -3198,11 +2611,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/fähig_sein.mp3",
     "image": "",
-    "category": [
-      "greetings_politeness",
-      "conversation_phrases",
-      "verb"
-    ]
+    "category": ["greetings_politeness", "conversation_phrases", "verb"]
   },
   {
     "id": "wA2-2-0262",
@@ -3214,9 +2623,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bildung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -3229,9 +2636,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ausgebildet.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0264",
@@ -3243,10 +2648,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/prüfung.mp3",
     "image": "",
-    "category": [
-      "school_learning",
-      "noun"
-    ],
+    "category": ["school_learning", "noun"],
     "article": "die"
   },
   {
@@ -3259,10 +2661,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bestehen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0266",
@@ -3274,10 +2673,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/durchfallen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0267",
@@ -3289,11 +2685,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_vorbereiten.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0268",
@@ -3305,9 +2697,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/vorbereitung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -3320,10 +2710,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/planen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0270",
@@ -3335,10 +2722,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/plan.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -3351,10 +2735,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/organisieren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0272",
@@ -3366,9 +2747,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/organisation.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -3381,10 +2760,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/praktisch.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0274",
@@ -3396,10 +2772,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/unpraktisch.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0275",
@@ -3411,9 +2784,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/entwicklung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -3426,11 +2797,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_entwickeln.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0277",
@@ -3442,10 +2809,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verbessern.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0278",
@@ -3457,9 +2821,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verbesserung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -3472,10 +2834,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erreichen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0280",
@@ -3487,10 +2846,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verpassen.mp3",
     "image": "",
-    "category": [
-      "services_authorities",
-      "verb"
-    ]
+    "category": ["services_authorities", "verb"]
   },
   {
     "id": "wA2-2-0281",
@@ -3502,11 +2858,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_entscheiden.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0282",
@@ -3518,9 +2870,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/entscheidung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -3533,9 +2883,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verletzt.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0288",
@@ -3547,10 +2895,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/behandeln.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0289",
@@ -3562,9 +2907,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/behandlung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -3577,10 +2920,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/anmeldung.mp3",
     "image": "",
-    "category": [
-      "services_authorities",
-      "noun"
-    ],
+    "category": ["services_authorities", "noun"],
     "article": "die"
   },
   {
@@ -3593,11 +2933,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_anmelden.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0294",
@@ -3609,9 +2945,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/abmeldung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -3624,11 +2958,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_abmelden.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0296",
@@ -3640,10 +2970,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/teilnahme.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -3656,10 +2983,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/teilnehmen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0298",
@@ -3671,10 +2995,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/chance.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -3687,10 +3008,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/nützen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0300",
@@ -3702,11 +3020,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_benehmen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["daily_life", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0301",
@@ -3718,10 +3032,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/herstellen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0302",
@@ -3733,9 +3044,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/herstellung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -3748,10 +3057,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/produzieren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0304",
@@ -3763,10 +3069,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/hersteller.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -3779,10 +3082,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/problematisch.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0307",
@@ -3794,10 +3094,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verschieden.mp3",
     "image": "",
-    "category": [
-      "greetings_politeness",
-      "conversation_phrases"
-    ]
+    "category": ["greetings_politeness", "conversation_phrases"]
   },
   {
     "id": "wA2-2-0308",
@@ -3809,10 +3106,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/vielfältig.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0309",
@@ -3824,10 +3118,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/umwelt.mp3",
     "image": "",
-    "category": [
-      "plants_environment",
-      "noun"
-    ],
+    "category": ["plants_environment", "noun"],
     "article": "die"
   },
   {
@@ -3840,10 +3131,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/umweltfreundlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0311",
@@ -3855,10 +3143,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/umweltschädlich.mp3",
     "image": "",
-    "category": [
-      "plants_environment",
-      "adjective"
-    ]
+    "category": ["plants_environment", "adjective"]
   },
   {
     "id": "wA2-2-0312",
@@ -3870,10 +3155,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verkehr.mp3",
     "image": "",
-    "category": [
-      "city_transport",
-      "noun"
-    ],
+    "category": ["city_transport", "noun"],
     "article": "der"
   },
   {
@@ -3886,10 +3168,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/fußgänger.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -3902,10 +3181,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/fahrzeug.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -3918,10 +3194,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/rechts_abbiegen.mp3",
     "image": "",
-    "category": [
-      "directions_navigation",
-      "verb"
-    ]
+    "category": ["directions_navigation", "verb"]
   },
   {
     "id": "wA2-2-0317",
@@ -3933,10 +3206,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/links_abbiegen.mp3",
     "image": "",
-    "category": [
-      "directions_navigation",
-      "verb"
-    ]
+    "category": ["directions_navigation", "verb"]
   },
   {
     "id": "wA2-2-0318",
@@ -3948,11 +3218,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verhindern.mp3",
     "image": "",
-    "category": [
-      "greetings_politeness",
-      "conversation_phrases",
-      "verb"
-    ]
+    "category": ["greetings_politeness", "conversation_phrases", "verb"]
   },
   {
     "id": "wA2-2-0319",
@@ -3964,10 +3230,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/gefahr.mp3",
     "image": "",
-    "category": [
-      "safety_emergency",
-      "noun"
-    ],
+    "category": ["safety_emergency", "noun"],
     "article": "die"
   },
   {
@@ -3980,10 +3243,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/gefährlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0323",
@@ -3995,10 +3255,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erfolg.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -4011,9 +3268,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erfolgreich.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0325",
@@ -4025,10 +3280,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/versuch.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -4041,10 +3293,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/versuchen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0327",
@@ -4056,10 +3305,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/zukunft.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -4072,9 +3318,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/vergangenheit.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4087,10 +3331,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/gegenwart.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -4103,10 +3344,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/rechtzeitig.mp3",
     "image": "",
-    "category": [
-      "time_date",
-      "adjective"
-    ]
+    "category": ["time_date", "adjective"]
   },
   {
     "id": "wA2-2-0331",
@@ -4118,9 +3356,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/spät.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0332",
@@ -4132,9 +3368,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/früh.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0333",
@@ -4146,10 +3380,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/beschreiben.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0334",
@@ -4161,9 +3392,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/beschreibung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4176,10 +3405,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/schließlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0338",
@@ -4191,10 +3417,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/endlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0339",
@@ -4206,10 +3429,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/hilfreich.mp3",
     "image": "",
-    "category": [
-      "greetings_politeness",
-      "conversation_phrases"
-    ]
+    "category": ["greetings_politeness", "conversation_phrases"]
   },
   {
     "id": "wA2-2-0340",
@@ -4221,10 +3441,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/notwendig.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0341",
@@ -4236,10 +3453,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/nötig.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0347",
@@ -4251,10 +3465,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sauber_machen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0351",
@@ -4266,10 +3477,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/diät.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -4282,10 +3490,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sportlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0357",
@@ -4297,9 +3502,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/entspannung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4312,10 +3515,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/kultur.mp3",
     "image": "",
-    "category": [
-      "culture_events",
-      "noun"
-    ],
+    "category": ["culture_events", "noun"],
     "article": "die"
   },
   {
@@ -4328,9 +3528,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/kulturell.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0363",
@@ -4342,10 +3540,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/natur.mp3",
     "image": "",
-    "category": [
-      "plants_environment",
-      "noun"
-    ],
+    "category": ["plants_environment", "noun"],
     "article": "die"
   },
   {
@@ -4358,10 +3553,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/natürlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0365",
@@ -4373,9 +3565,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/wissenschaft.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4388,10 +3578,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/wissenschaftlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0367",
@@ -4403,10 +3590,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ergebnis.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -4419,10 +3603,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ergebnislos.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0369",
@@ -4434,9 +3615,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/meinung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4449,11 +3628,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/meinen.mp3",
     "image": "",
-    "category": [
-      "conversation_phrases",
-      "verb",
-      "pronoun"
-    ]
+    "category": ["conversation_phrases", "verb", "pronoun"]
   },
   {
     "id": "wA2-2-0371",
@@ -4465,10 +3640,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/begründen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0372",
@@ -4480,9 +3652,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/begründung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4495,10 +3665,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/diskutieren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0374",
@@ -4510,10 +3677,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/diskussion.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -4526,10 +3690,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/zustimmen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0376",
@@ -4541,10 +3702,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ablehnen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0377",
@@ -4556,10 +3714,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/überzeugen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0378",
@@ -4571,9 +3726,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/überzeugung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4586,9 +3739,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/information.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4601,10 +3752,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erklären.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0381",
@@ -4616,9 +3764,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erklärung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4631,10 +3777,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/stimme.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -4647,10 +3790,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ausdrücken.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0385",
@@ -4662,10 +3802,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/schrift.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -4678,10 +3815,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/tatsache.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -4694,10 +3828,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/tatsächlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0388",
@@ -4709,10 +3840,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/reihe.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -4725,10 +3853,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/eine_reihe_von.mp3",
     "image": "",
-    "category": [
-      "conversation_phrases",
-      "article"
-    ]
+    "category": ["conversation_phrases", "article"]
   },
   {
     "id": "wA2-2-0392",
@@ -4740,10 +3865,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/material.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -4756,10 +3878,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/reinigen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0395",
@@ -4771,9 +3890,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/reinigung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4786,10 +3903,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verpacken.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0397",
@@ -4801,9 +3915,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verpackung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4816,10 +3928,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ändern.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "verb"
-    ]
+    "category": ["shopping_money", "verb"]
   },
   {
     "id": "wA2-2-0399",
@@ -4831,11 +3940,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/sich_ändern.mp3",
     "image": "",
-    "category": [
-      "shopping_money",
-      "verb",
-      "reflexive_verb"
-    ]
+    "category": ["shopping_money", "verb", "reflexive_verb"]
   },
   {
     "id": "wA2-2-0400",
@@ -4847,10 +3952,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/wählen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0401",
@@ -4862,10 +3964,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/wahl.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -4878,10 +3977,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/schätzen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0405",
@@ -4893,9 +3989,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/schätzung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4908,9 +4002,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/freundschaft.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4923,10 +4015,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/freundlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0409",
@@ -4938,10 +4027,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/unfreundlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0410",
@@ -4953,10 +4039,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/hoffen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0411",
@@ -4968,9 +4051,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/hoffnung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -4983,10 +4064,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/zweifeln.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0413",
@@ -4998,10 +4076,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/zweifel.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -5014,10 +4089,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/weinen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0423",
@@ -5029,10 +4101,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/freizeit.mp3",
     "image": "",
-    "category": [
-      "time_date",
-      "noun"
-    ],
+    "category": ["time_date", "noun"],
     "article": "die"
   },
   {
@@ -5045,10 +4114,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/wanderung.mp3",
     "image": "",
-    "category": [
-      "travel_holidays",
-      "noun"
-    ],
+    "category": ["travel_holidays", "noun"],
     "article": "die"
   },
   {
@@ -5061,9 +4127,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/übung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -5076,10 +4140,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/üben.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0432",
@@ -5091,10 +4152,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/reiten.mp3",
     "image": "",
-    "category": [
-      "nature_animals",
-      "verb"
-    ]
+    "category": ["nature_animals", "verb"]
   },
   {
     "id": "wA2-2-0433",
@@ -5106,10 +4164,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/ziel.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -5122,11 +4177,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/geschichte.mp3",
     "image": "",
-    "category": [
-      "greetings_politeness",
-      "conversation_phrases",
-      "noun"
-    ],
+    "category": ["greetings_politeness", "conversation_phrases", "noun"],
     "article": "die"
   },
   {
@@ -5139,10 +4190,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erzählen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0436",
@@ -5154,9 +4202,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bedeutung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -5169,10 +4215,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bedeuten.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0439",
@@ -5184,10 +4227,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/bereich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -5200,9 +4240,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/abteilung.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -5215,10 +4253,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/zuständig.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0442",
@@ -5230,10 +4265,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/zukunftspläne.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -5246,10 +4278,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/vorhaben.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0444",
@@ -5261,10 +4290,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/investieren.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0445",
@@ -5276,10 +4302,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erlauben.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0446",
@@ -5291,10 +4314,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/verbieten.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0447",
@@ -5306,10 +4326,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/heimat.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -5322,10 +4339,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/mitmachen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0450",
@@ -5337,9 +4351,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/kompliziert.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ]
+    "category": ["uncategorized"]
   },
   {
     "id": "wA2-2-0452",
@@ -5351,10 +4363,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/unterbrechen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0454",
@@ -5366,9 +4375,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/situation.mp3",
     "image": "",
-    "category": [
-      "uncategorized"
-    ],
+    "category": ["uncategorized"],
     "article": "die"
   },
   {
@@ -5381,10 +4388,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/entscheiden.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0458",
@@ -5396,10 +4400,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/grenze.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "die"
   },
   {
@@ -5412,10 +4413,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/begrenzen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0460",
@@ -5427,10 +4425,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/rat.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -5443,10 +4438,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/zweck.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "der"
   },
   {
@@ -5459,10 +4451,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/wesentlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0464",
@@ -5474,10 +4463,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/zusätzlich.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "adjective"
-    ]
+    "category": ["daily_life", "adjective"]
   },
   {
     "id": "wA2-2-0465",
@@ -5489,10 +4475,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/erledigen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   },
   {
     "id": "wA2-2-0466",
@@ -5504,10 +4487,7 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/niveau.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ],
+    "category": ["daily_life", "noun"],
     "article": "das"
   },
   {
@@ -5520,9 +4500,6 @@
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A2/weiterlernen.mp3",
     "image": "",
-    "category": [
-      "daily_life",
-      "verb"
-    ]
+    "category": ["daily_life", "verb"]
   }
 ]

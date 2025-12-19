@@ -32,6 +32,9 @@ class WordDetailSoftCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
     bool isSingleToken(String value) => !RegExp(r'\s').hasMatch(value.trim());
+    bool isRtlText(String value) =>
+        RegExp(r'[\u0590-\u08FF\uFB1D-\uFDFD\uFE70-\uFEFC]')
+            .hasMatch(value);
     return IosCard(
       padding: const EdgeInsets.all(18),
       child: Directionality(
@@ -84,6 +87,9 @@ class WordDetailSoftCard extends StatelessWidget {
                 final useStackedLayout = constraints.maxWidth < 420;
                 final wordSingle = isSingleToken(word);
                 final translationSingle = isSingleToken(translationPrimary);
+                final primaryRtl = isRtlText(translationPrimary);
+                final secondaryValue = translationSecondary?.trim() ?? '';
+                final secondaryRtl = isRtlText(secondaryValue);
 
                 final wordText = Text(
                   word,
@@ -109,20 +115,25 @@ class WordDetailSoftCard extends StatelessWidget {
                 final translationBlock = Column(
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
+                    // Force correct RTL punctuation placement (e.g. "!" stays at the end).
                     Text(
                       translationPrimary,
-                      textAlign: TextAlign.end,
+                      textDirection:
+                          primaryRtl ? TextDirection.rtl : TextDirection.ltr,
+                      textAlign: primaryRtl ? TextAlign.start : TextAlign.end,
                       style: translationTextStyle,
                       maxLines: translationSingle ? 1 : 2,
                       softWrap: !translationSingle,
                       overflow: TextOverflow.ellipsis,
                     ),
-                    if (translationSecondary != null &&
-                        translationSecondary!.trim().isNotEmpty) ...[
+                    if (secondaryValue.isNotEmpty) ...[
                       const SizedBox(height: 4),
                       Text(
-                        translationSecondary!,
-                        textAlign: TextAlign.end,
+                        secondaryValue,
+                        textDirection:
+                            secondaryRtl ? TextDirection.rtl : TextDirection.ltr,
+                        textAlign:
+                            secondaryRtl ? TextAlign.start : TextAlign.end,
                         style: textTheme.bodyMedium?.copyWith(
                           color: Colors.black.withValues(alpha: 0.65),
                         ),

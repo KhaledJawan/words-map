@@ -10,6 +10,8 @@ class WordsInitBundle {
   final List<VocabWord> allWords;
   final Map<String, WordProgress> progress;
   final String lastLevel;
+  final String? lastScope;
+  final String? lastCategoryTag;
   final List<String> levels;
   final ProgressRepository repo;
 
@@ -17,6 +19,8 @@ class WordsInitBundle {
     required this.allWords,
     required this.progress,
     required this.lastLevel,
+    required this.lastScope,
+    required this.lastCategoryTag,
     required this.levels,
     required this.repo,
   });
@@ -29,6 +33,8 @@ Future<WordsInitBundle> loadWordsInit(
   final progress = await repo.loadProgress();
   final lastLevel =
       await repo.loadLastLevel() ?? appState.currentLevel;
+  final lastScope = await repo.loadLastWordsScope();
+  final lastCategoryTag = await repo.loadLastCategoryTag();
 
   final List<VocabWord> allWords = [];
   for (final level in levels) {
@@ -54,6 +60,8 @@ Future<WordsInitBundle> loadWordsInit(
     allWords: allWords,
     progress: progress,
     lastLevel: lastLevel,
+    lastScope: lastScope,
+    lastCategoryTag: lastCategoryTag,
     levels: levels,
     repo: repo,
   );

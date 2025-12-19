@@ -5,10 +5,10 @@ String localizedGrammarTopicTitle(GrammarTopic topic, AppLanguage lang) {
   switch (lang) {
     case AppLanguage.fa:
       return topic.titleFa.isNotEmpty ? topic.titleFa : (topic.titleEn.isNotEmpty ? topic.titleEn : topic.titleDe);
+    case AppLanguage.ps:
+      return topic.titleFa.isNotEmpty ? topic.titleFa : (topic.titleEn.isNotEmpty ? topic.titleEn : topic.titleDe);
     case AppLanguage.en:
-      return topic.titleEn.isNotEmpty ? topic.titleEn : (topic.titleDe.isNotEmpty ? topic.titleDe : topic.titleFa);
-    case AppLanguage.de:
-      return topic.titleDe.isNotEmpty ? topic.titleDe : (topic.titleEn.isNotEmpty ? topic.titleEn : topic.titleFa);
+      return topic.titleEn.isNotEmpty ? topic.titleEn : (topic.titleFa.isNotEmpty ? topic.titleFa : topic.titleDe);
   }
 }
 
@@ -18,13 +18,13 @@ String localizedGrammarTopicDescription(GrammarTopic topic, AppLanguage lang) {
       return topic.descriptionFa.isNotEmpty
           ? topic.descriptionFa
           : (topic.descriptionEn.isNotEmpty ? topic.descriptionEn : topic.descriptionDe);
+    case AppLanguage.ps:
+      return topic.descriptionFa.isNotEmpty
+          ? topic.descriptionFa
+          : (topic.descriptionEn.isNotEmpty ? topic.descriptionEn : topic.descriptionDe);
     case AppLanguage.en:
       return topic.descriptionEn.isNotEmpty
           ? topic.descriptionEn
-          : (topic.descriptionDe.isNotEmpty ? topic.descriptionDe : topic.descriptionFa);
-    case AppLanguage.de:
-      return topic.descriptionDe.isNotEmpty
-          ? topic.descriptionDe
-          : (topic.descriptionEn.isNotEmpty ? topic.descriptionEn : topic.descriptionFa);
+          : (topic.descriptionFa.isNotEmpty ? topic.descriptionFa : topic.descriptionDe);
   }
 }

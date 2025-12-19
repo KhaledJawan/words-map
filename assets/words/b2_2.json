@@ -5,10 +5,13 @@
     "word": "der/die Arbeitgeber/-in",
     "translation_fa": "کارفرما",
     "translation_en": "der/die Arbeitgeber/-in",
+    "translation_ps": "د کار ورکوونکی/کار ورکوونکې",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/der/die_arbeitgeber/-in.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0002",
@@ -16,10 +19,14 @@
     "word": "der/die Architekt/-in",
     "translation_fa": "معامر، آرشیتکت",
     "translation_en": "der/die Architekt/-in",
+    "translation_ps": "معمار/معماره",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/der/die_architekt/-in.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "greetings_politeness",
+      "conversation_phrases"
+    ]
   },
   {
     "id": "wB2-2-0003",
@@ -27,10 +34,13 @@
     "word": "der/die Automechaniker/-in",
     "translation_fa": "مکانیک خودرو",
     "translation_en": "der/die Automechaniker/-in",
+    "translation_ps": "د موټرو میخانیک/مېخانیکه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/der/die_automechaniker/-in.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0004",
@@ -38,10 +48,13 @@
     "word": "Autoproduzent",
     "translation_fa": "تولید کننده خودرو",
     "translation_en": "Autoproduzent",
+    "translation_ps": "Autoproduzent",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/autoproduzent.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -50,10 +63,13 @@
     "word": "Familienbetrieb",
     "translation_fa": "رشکت خانوادگی",
     "translation_en": "Familienbetrieb",
+    "translation_ps": "د کورنۍ شرکت",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/familienbetrieb.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -62,10 +78,15 @@
     "word": "Hilfsorganisation",
     "translation_fa": "سازمان کمک رسانی، سازمان امداد",
     "translation_en": "Hilfsorganisation",
+    "translation_ps": "مرستندویه سازمان",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/hilfsorganisation.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "greetings_politeness",
+      "conversation_phrases",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -74,10 +95,13 @@
     "word": "internationale Unternehmen",
     "translation_fa": "رشکت  های بین املللی",
     "translation_en": "internationale Unternehmen",
+    "translation_ps": "نړیوال شرکتونه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/internationale_unternehmen.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -86,10 +110,13 @@
     "word": "Lebensmittelbranche",
     "translation_fa": "بخش مواد غذایی",
     "translation_en": "Lebensmittelbranche",
+    "translation_ps": "د خوړو صنعت",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/lebensmittelbranche.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -98,10 +125,13 @@
     "word": "Malerbetrieb",
     "translation_fa": "رشکت نقاشی",
     "translation_en": "Malerbetrieb",
+    "translation_ps": "د رنګمالۍ شرکت",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/malerbetrieb.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -110,10 +140,13 @@
     "word": "soziale Bereich",
     "translation_fa": "عرصه اجتامعی",
     "translation_en": "soziale Bereich",
+    "translation_ps": "ټولنیز ساحه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/soziale_bereich.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -122,10 +155,13 @@
     "word": "beschäftigen",
     "translation_fa": "مشغول کردن، رسگرم کردن، استخدام کردن Bsp.: Die Deutsche Bahn beschäftigt viele Mitarbeiter.",
     "translation_en": "beschäftigen",
+    "translation_ps": "ګمارل، کار کول، استخدامول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/beschäftigen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0020",
@@ -133,10 +169,14 @@
     "word": "Grundschule",
     "translation_fa": "مدرسه ابتدایی",
     "translation_en": "Grundschule",
+    "translation_ps": "ابتدایي ښوونځی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/grundschule.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "school_learning",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -145,10 +185,13 @@
     "word": "weiterführende Schule",
     "translation_fa": "مدرسه دوره متوسطه",
     "translation_en": "weiterführende Schule",
+    "translation_ps": "لوړ ښوونځی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/weiterführende_schule.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -157,10 +200,14 @@
     "word": "Hauptschule",
     "translation_fa": "هاوپت شوله",
     "translation_en": "Hauptschule",
+    "translation_ps": "Hauptschule",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/hauptschule.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "school_learning",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -169,10 +216,14 @@
     "word": "Mittelschule",
     "translation_fa": "مدرسه دوره متوسطه",
     "translation_en": "Mittelschule",
+    "translation_ps": "منځنۍ ښوونځی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/mittelschule.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "school_learning",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -181,10 +232,14 @@
     "word": "Realschule",
     "translation_fa": "رئال شوله",
     "translation_en": "Realschule",
+    "translation_ps": "Realschule",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/realschule.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "school_learning",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -193,10 +248,14 @@
     "word": "Gesamtschule",
     "translation_fa": "مدرسه جامع",
     "translation_en": "Gesamtschule",
+    "translation_ps": "جامع ښوونځی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/gesamtschule.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "school_learning",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -205,10 +264,13 @@
     "word": "Haupt-/Realschulabschluss",
     "translation_fa": "مدرک فارغ التحصیلی از هاوپت شوله/رئال شوله",
     "translation_en": "Haupt-/Realschulabschluss",
+    "translation_ps": "د Haupt-/Realschule فراغت سند",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/haupt-/realschulabschluss.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -217,10 +279,13 @@
     "word": "Abitur",
     "translation_fa": "دیپلم Def.: Abschluss am Ende des Gymnasiums",
     "translation_en": "Abitur",
+    "translation_ps": "Abitur",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/abitur.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -229,10 +294,13 @@
     "word": "Mittlere Reife",
     "translation_fa": "مدرک فارغ التحصیلی از رئال شوله",
     "translation_en": "Mittlere Reife",
+    "translation_ps": "د Realschule فراغت سند",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/mittlere_reife.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -241,10 +309,14 @@
     "word": "Berufsausbildung",
     "translation_fa": "آموزش فنی و حرفه  ای",
     "translation_en": "Berufsausbildung",
+    "translation_ps": "مسلکي روزنه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/berufsausbildung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -253,10 +325,14 @@
     "word": "Berufsabschluss",
     "translation_fa": "مدرک فنی و حرفه  ای Pl.: Abschlüsse",
     "translation_en": "Berufsabschluss",
+    "translation_ps": "مسلکي سند",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/berufsabschluss.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "der"
   },
   {
@@ -265,10 +341,13 @@
     "word": "Bachelor",
     "translation_fa": "لیسانس، کارشناسی",
     "translation_en": "Bachelor",
+    "translation_ps": "لیسانس",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/bachelor.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -277,10 +356,13 @@
     "word": "Master",
     "translation_fa": "فوق لیسانس، کارشناسی ارشد",
     "translation_en": "Master",
+    "translation_ps": "ماسټري",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/master.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -289,10 +371,13 @@
     "word": "Zertifikat",
     "translation_fa": "گواهی، گواهینامه",
     "translation_en": "Zertifikat",
+    "translation_ps": "سند، تصدیق نامه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/zertifikat.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -301,10 +386,13 @@
     "word": "mehr als",
     "translation_fa": "بیش از، بیشرت از",
     "translation_en": "mehr als",
+    "translation_ps": "له دې زیات",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/mehr_als.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0036",
@@ -312,10 +400,13 @@
     "word": "weniger als",
     "translation_fa": "کمرت از",
     "translation_en": "weniger als",
+    "translation_ps": "له دې کم",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/weniger_als.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0037",
@@ -323,10 +414,13 @@
     "word": "(fast) alle (",
     "translation_fa": "تقریبا) همه ≠ keiner",
     "translation_en": "(fast) alle (",
+    "translation_ps": "(تقریباً) ټول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/(fast)_alle_(.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0038",
@@ -334,10 +428,13 @@
     "word": "Hälfte",
     "translation_fa": "نصف",
     "translation_en": "Hälfte",
+    "translation_ps": "نیمایي",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/hälfte.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -346,10 +443,14 @@
     "word": "ein Viertel",
     "translation_fa": "یک چهارم",
     "translation_en": "ein Viertel",
+    "translation_ps": "څلورمه برخه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/ein_viertel.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0040",
@@ -357,10 +458,14 @@
     "word": "ein Drittel",
     "translation_fa": "یک سوم",
     "translation_en": "ein Drittel",
+    "translation_ps": "دریمه برخه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/ein_drittel.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0041",
@@ -368,10 +473,13 @@
     "word": "jeder Zehnte",
     "translation_fa": "یک دهم",
     "translation_en": "jeder Zehnte",
+    "translation_ps": "هر لسم",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/jeder_zehnte.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0042",
@@ -379,10 +487,13 @@
     "word": "der/die Ansprechpartner/-in",
     "translation_fa": "مسئول پاسخگویی",
     "translation_en": "der/die Ansprechpartner/-in",
+    "translation_ps": "د اړیکې مسئول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/der/die_ansprechpartner/-in.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0043",
@@ -390,10 +501,13 @@
     "word": "Beratungsstelle",
     "translation_fa": "مرکز مشاوره",
     "translation_en": "Beratungsstelle",
+    "translation_ps": "مشورتي مرکز",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/beratungsstelle.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -402,10 +516,14 @@
     "word": "Berufspraktikum",
     "translation_fa": "کارآموزی فنی و حرفه  ای",
     "translation_en": "Berufspraktikum",
+    "translation_ps": "مسلکي روزنه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/berufspraktikum.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "das"
   },
   {
@@ -414,10 +532,13 @@
     "word": "duale Ausbildung",
     "translation_fa": "آموزش دوگانه",
     "translation_en": "duale Ausbildung",
+    "translation_ps": "دوګونی روزنه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/duale_ausbildung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -426,10 +547,14 @@
     "word": "Fachschule",
     "translation_fa": "مدرسه تخصصی",
     "translation_en": "Fachschule",
+    "translation_ps": "تخنیکي ښوونځی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/fachschule.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "school_learning",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -438,10 +563,13 @@
     "word": "Fortbildung",
     "translation_fa": "آموزش تکمیلی",
     "translation_en": "Fortbildung",
+    "translation_ps": "تکمیلي روزنه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/fortbildung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -450,10 +578,14 @@
     "word": "Meisterprüfung",
     "translation_fa": "آزمون دوره استادکاری",
     "translation_en": "Meisterprüfung",
+    "translation_ps": "د ماسټرۍ ازموینه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/meisterprüfung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "school_learning",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -462,10 +594,15 @@
     "word": "Schichtdienst",
     "translation_fa": "کار یا خدمت شیفتی",
     "translation_en": "Schichtdienst",
+    "translation_ps": "شیفتي کار",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/schichtdienst.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "greetings_politeness",
+      "conversation_phrases",
+      "noun"
+    ],
     "article": "der"
   },
   {
@@ -474,10 +611,13 @@
     "word": "staatliche Ausbildung",
     "translation_fa": "آموزش دولتی",
     "translation_en": "staatliche Ausbildung",
+    "translation_ps": "دولتۍ روزنه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/staatliche_ausbildung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -486,10 +626,14 @@
     "word": "Wunschberuf",
     "translation_fa": "شغل دلخواه، شغل مورد نظر",
     "translation_en": "Wunschberuf",
+    "translation_ps": "خوښ شوی مسلک",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/wunschberuf.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "der"
   },
   {
@@ -498,10 +642,13 @@
     "word": "Zugangsvoraussetzungen (Pl.)",
     "translation_fa": "رشایط الزم برای ورود",
     "translation_en": "Zugangsvoraussetzungen (Pl.)",
+    "translation_ps": "د ننوتلو شرایط",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/zugangsvoraussetzungen_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -510,10 +657,14 @@
     "word": "einen Beruf ausüben",
     "translation_fa": "به یک شغل اشتغال داشنت",
     "translation_en": "einen Beruf ausüben",
+    "translation_ps": "یو مسلک ترسره کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/einen_beruf_ausüben.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "work_office",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0055",
@@ -521,10 +672,14 @@
     "word": "den Berufsabschluss anerkennen lassen",
     "translation_fa": "مدرک فنی و حرفه  ای را به تایید رساندن",
     "translation_en": "den Berufsabschluss anerkennen lassen",
+    "translation_ps": "د مسلکي سند تصدیقول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/den_berufsabschluss_anerkennen_lassen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "work_office",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0056",
@@ -532,10 +687,13 @@
     "word": "finanzielle Unterstützung (vom Staat) beantragen",
     "translation_fa": "پشتیبانی مالی (از دولت) درخواست کردن",
     "translation_en": "finanzielle Unterstützung (vom Staat) beantragen",
+    "translation_ps": "د مالي مرستې غوښتنه (له دولت څخه)",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/finanzielle_unterstützung_(vom_staat)_beantragen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0058",
@@ -543,10 +701,13 @@
     "word": "Pflicht sein",
     "translation_fa": "الزامی/اجباری بودن",
     "translation_en": "Pflicht sein",
+    "translation_ps": "واجب/ضروري وي",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/pflicht_sein.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0059",
@@ -554,10 +715,14 @@
     "word": "in der Verwaltung arbeiten",
     "translation_fa": "در اداره کار کردن",
     "translation_en": "in der Verwaltung arbeiten",
+    "translation_ps": "په ادارې کې کار کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/in_der_verwaltung_arbeiten.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "work_office",
+      "preposition"
+    ]
   },
   {
     "id": "wB2-2-0060",
@@ -565,10 +730,13 @@
     "word": "sich selbstständig machen",
     "translation_fa": "کسب و کار مستقل راه اندازی کردن",
     "translation_en": "sich selbstständig machen",
+    "translation_ps": "خپلواکه کاروبار پیلول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sich_selbstständig_machen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0061",
@@ -576,10 +744,13 @@
     "word": "zuständig sein",
     "translation_fa": "مسئول بودن، ذیصالح بودنBsp.: Welche Stelle für die Prüfung der Unterlagen",
     "translation_en": "zuständig sein",
+    "translation_ps": "مسئول/ذمه وار وي",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/zuständig_sein.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0062",
@@ -587,10 +758,13 @@
     "word": "Schwäche",
     "translation_fa": "ضعف، نقطه ضعف",
     "translation_en": "Schwäche",
+    "translation_ps": "ضعف",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/schwäche.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -599,10 +773,13 @@
     "word": "Stärke",
     "translation_fa": "قوت، نقطه قوت؛ قدرت؛ شدت؛ کارآیی؛ استحکام؛ غلظت Pl.: die Stärken",
     "translation_en": "Stärke",
+    "translation_ps": "قوت",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/stärke.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -611,10 +788,13 @@
     "word": "belastbar",
     "translation_fa": "مقاوم؛ معترب، موثق",
     "translation_en": "belastbar",
+    "translation_ps": "زغم وړ",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/belastbar.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0065",
@@ -622,10 +802,13 @@
     "word": "eigeninitiativ",
     "translation_fa": "با ابتکار عمل شخصی",
     "translation_en": "eigeninitiativ",
+    "translation_ps": "خپل ابتکار لرونکی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/eigeninitiativ.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0066",
@@ -633,10 +816,13 @@
     "word": "flexibel",
     "translation_fa": "منعطف، انعطاف پذیر، قابل انعطاف",
     "translation_en": "flexibel",
+    "translation_ps": "انعطاف منونکی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/flexibel.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0067",
@@ -644,10 +830,14 @@
     "word": "hilfsbereit",
     "translation_fa": "آماده کمک",
     "translation_en": "hilfsbereit",
+    "translation_ps": "مرسته کوونکی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/hilfsbereit.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "greetings_politeness",
+      "conversation_phrases"
+    ]
   },
   {
     "id": "wB2-2-0068",
@@ -655,10 +845,13 @@
     "word": "kreativ",
     "translation_fa": "خالقانه",
     "translation_en": "kreativ",
+    "translation_ps": "خلاق",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/kreativ.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0069",
@@ -666,10 +859,13 @@
     "word": "lernbereit",
     "translation_fa": "آماده یادگیری",
     "translation_en": "lernbereit",
+    "translation_ps": "د زده کړې چمتو",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/lernbereit.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0070",
@@ -677,10 +873,13 @@
     "word": "(un-)organisiert )",
     "translation_fa": "سازمان یافته (نیافته",
     "translation_en": "(un-)organisiert )",
+    "translation_ps": "(بې) تنظیم شوی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/(un-)organisiert_).mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0071",
@@ -688,10 +887,13 @@
     "word": "selbstbewusst",
     "translation_fa": "خودآگاه، با اعتامد به نفس",
     "translation_en": "selbstbewusst",
+    "translation_ps": "په ځان باور لرونکی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/selbstbewusst.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0073",
@@ -699,10 +901,13 @@
     "word": "tolerant",
     "translation_fa": "با مدارا، مداراگر، مداراگرانه",
     "translation_en": "tolerant",
+    "translation_ps": "زغم لرونکی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/tolerant.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0074",
@@ -710,10 +915,13 @@
     "word": "verantwortungsbewusst",
     "translation_fa": "مسئولیت شناس",
     "translation_en": "verantwortungsbewusst",
+    "translation_ps": "مسئولیت منونکی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/verantwortungsbewusst.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0078",
@@ -721,10 +929,13 @@
     "word": "Unterlagen (Pl.)",
     "translation_fa": "اسناد، مدارک Sg.: die Unterlage (meistens im Plural)",
     "translation_en": "Unterlagen (Pl.)",
+    "translation_ps": "اسناد",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/unterlagen_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -733,10 +944,14 @@
     "word": "Zulassung",
     "translation_fa": "پذیرش، تایید، ثبت",
     "translation_en": "Zulassung",
+    "translation_ps": "اجازه لیک",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/zulassung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "services_authorities",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -745,10 +960,14 @@
     "word": "Arbeitsablauf",
     "translation_fa": "روال کاری",
     "translation_en": "Arbeitsablauf",
+    "translation_ps": "د کار بهیر",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/arbeitsablauf.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "der"
   },
   {
@@ -757,10 +976,14 @@
     "word": "Berufsfeld",
     "translation_fa": "حوزه شغلی",
     "translation_en": "Berufsfeld",
+    "translation_ps": "دنده ساحه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/berufsfeld.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "das"
   },
   {
@@ -769,10 +992,14 @@
     "word": "Fachdeutsch",
     "translation_fa": "آملانی تخصصی",
     "translation_en": "Fachdeutsch",
+    "translation_ps": "تخنیکي آلماني",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/fachdeutsch.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "school_learning",
+      "noun"
+    ],
     "article": "das"
   },
   {
@@ -781,10 +1008,13 @@
     "word": "Fachleute/Fachkräfte (Pl.)",
     "translation_fa": "کارشناسان",
     "translation_en": "Fachleute/Fachkräfte (Pl.)",
+    "translation_ps": "تخنیکي کارپوهان",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/fachleute/fachkräfte_(pl.).mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0085",
@@ -792,10 +1022,14 @@
     "word": "Fachwortschatz",
     "translation_fa": "واژگان تخصصی",
     "translation_en": "Fachwortschatz",
+    "translation_ps": "تخنیکي لغتونه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/fachwortschatz.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "school_learning",
+      "noun"
+    ],
     "article": "der"
   },
   {
@@ -804,10 +1038,13 @@
     "word": "der/die Handwerker/-in",
     "translation_fa": "صنعتگر، صنعتکار، پیشه ور",
     "translation_en": "der/die Handwerker/-in",
+    "translation_ps": "هنرمند/هنرمنده",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/der/die_handwerker/-in.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0087",
@@ -815,10 +1052,14 @@
     "word": "MINT-Beruf (MINT)",
     "translation_fa": "مشاغل در حوزه ریاضی، انفورماتیک، علوم طبیعی و فناوری",
     "translation_en": "MINT-Beruf (MINT)",
+    "translation_ps": "د ریاضي، کمپیوټر، ساینس او ټکنالوژۍ مسلک",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/mint-beruf_(mint).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "der"
   },
   {
@@ -827,10 +1068,13 @@
     "word": "gefragte Beruf",
     "translation_fa": "شغل مورد تقاضا، شغل مورد نیاز",
     "translation_en": "gefragte Beruf",
+    "translation_ps": "مطلوب مسلک",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/gefragte_beruf.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -839,10 +1083,13 @@
     "word": "Umgang mit Kunden",
     "translation_fa": "برخورد با مشرتیان",
     "translation_en": "Umgang mit Kunden",
+    "translation_ps": "د مشتریانو سره چلند",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/umgang_mit_kunden.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -851,10 +1098,13 @@
     "word": "Berechtigung",
     "translation_fa": "حق؛ مجوز؛ درستی، صحت",
     "translation_en": "Berechtigung",
+    "translation_ps": "اجازه، حق",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/berechtigung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -863,10 +1113,13 @@
     "word": "Förderung",
     "translation_fa": "حامیت، تقویت، ترویج",
     "translation_en": "Förderung",
+    "translation_ps": "مرسته، ملاتړ",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/förderung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -875,10 +1128,13 @@
     "word": "Lehrgang",
     "translation_fa": "دوره آموزشی",
     "translation_en": "Lehrgang",
+    "translation_ps": "روزنیز کورس",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/lehrgang.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -887,10 +1143,14 @@
     "word": "Nachweis über Deutschkenntnisse (Pl.)",
     "translation_fa": "مدرک مربوط به آشنایی به زبان آملانی",
     "translation_en": "Nachweis über Deutschkenntnisse (Pl.)",
+    "translation_ps": "د الماني ژبې د پوهې سند",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/nachweis_über_deutschkenntnisse_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "school_learning",
+      "noun"
+    ],
     "article": "der"
   },
   {
@@ -899,10 +1159,13 @@
     "word": "Vorkenntnisse (Pl.)",
     "translation_fa": "آشنایی اولیه",
     "translation_en": "Vorkenntnisse (Pl.)",
+    "translation_ps": "مخکینۍ پوهه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/vorkenntnisse_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -911,10 +1174,13 @@
     "word": "der/die Vermittler/-in",
     "translation_fa": "واسطه، واسطه گر، میانجی، دالل",
     "translation_en": "der/die Vermittler/-in",
+    "translation_ps": "منځګړی، منځګړی کس",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/der/die_vermittler/-in.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0098",
@@ -922,10 +1188,13 @@
     "word": "Zugangsvoraussetzung",
     "translation_fa": "رشط الزم برای ورود",
     "translation_en": "Zugangsvoraussetzung",
+    "translation_ps": "د ننوتلو شرط",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/zugangsvoraussetzung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -934,10 +1203,14 @@
     "word": "Meisterprüfung machen",
     "translation_fa": "در آزمون دوره استادکاری رشکت کردن",
     "translation_en": "Meisterprüfung machen",
+    "translation_ps": "د ماسټرۍ ازموینه ورکول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/meisterprüfung_machen.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "school_learning",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -946,10 +1219,13 @@
     "word": "persönlich vorbeikommen",
     "translation_fa": "شخصا به کسی یا جایی رس زدنBsp.: Für die Anmeldung müssen Sie persönlich",
     "translation_en": "persönlich vorbeikommen",
+    "translation_ps": "په شخصي توګه حاضرېدل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/persönlich_vorbeikommen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0101",
@@ -957,10 +1233,15 @@
     "word": "sich beruflich neu orientieren",
     "translation_fa": "از نظر شغلی جهت گیری تازه  ای انجام دادن",
     "translation_en": "sich beruflich neu orientieren",
+    "translation_ps": "په مسلکي لحاظ ځان نوي لوري ته برابرول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sich_beruflich_neu_orientieren.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "work_office",
+      "verb",
+      "reflexive_verb"
+    ]
   },
   {
     "id": "wB2-2-0102",
@@ -968,10 +1249,13 @@
     "word": "beglaubigte Kopie",
     "translation_fa": "نسخه کپی تایید شده",
     "translation_en": "beglaubigte Kopie",
+    "translation_ps": "تصدیق شوې کاپي",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/beglaubigte_kopie.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -980,10 +1264,13 @@
     "word": "beglaubigte Übersetzung",
     "translation_fa": "ترجمه رسمی/تایید شده",
     "translation_en": "beglaubigte Übersetzung",
+    "translation_ps": "تصدیق شوې ژباړه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/beglaubigte_übersetzung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -992,10 +1279,13 @@
     "word": "berufliche Anerkennung beantragen",
     "translation_fa": "درخواست کردن تایید شغلی",
     "translation_en": "berufliche Anerkennung beantragen",
+    "translation_ps": "د مسلکي پیژندنې غوښتنه کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/berufliche_anerkennung_beantragen.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1004,10 +1294,13 @@
     "word": "Übersetzungsbüro",
     "translation_fa": "دفرت ترجمهBsp.: Ein Übersetzungsbüro erstellt beglaubigte",
     "translation_en": "Übersetzungsbüro",
+    "translation_ps": "د ژباړې دفتر",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/übersetzungsbüro.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -1016,10 +1309,13 @@
     "word": "der/die Einzelunternehmer/-in",
     "translation_fa": "مالک انحصاری رشکت",
     "translation_en": "der/die Einzelunternehmer/-in",
+    "translation_ps": "واحد کاروباري مالک",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/der/die_einzelunternehmer/-in.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0108",
@@ -1027,10 +1323,13 @@
     "word": "der/die Geschäftspartner/-in",
     "translation_fa": "رشیک تجاری",
     "translation_en": "der/die Geschäftspartner/-in",
+    "translation_ps": "د کاروبار شریک",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/der/die_geschäftspartner/-in.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0109",
@@ -1038,10 +1337,13 @@
     "word": "gut/schlecht anlaufen",
     "translation_fa": "خوب/بد رشوع شدن",
     "translation_en": "gut/schlecht anlaufen",
+    "translation_ps": "ښه/خراب پیل کېدل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/gut/schlecht_anlaufen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0110",
@@ -1049,10 +1351,13 @@
     "word": "freiberufliche Tätigkeit",
     "translation_fa": "فعالیت شغلی آزاد",
     "translation_en": "freiberufliche Tätigkeit",
+    "translation_ps": "خپلواکه مسلکي فعالیت",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/freiberufliche_tätigkeit.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1061,10 +1366,13 @@
     "word": "sich selbständig machen",
     "translation_fa": "کسب و کار مستقل راه اندازی کردن",
     "translation_en": "sich selbständig machen",
+    "translation_ps": "خپلواکه کار پیلول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sich_selbständig_machen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0112",
@@ -1072,10 +1380,14 @@
     "word": "ein Unternehmen/eine Firma gründen",
     "translation_fa": "یک کسب و کار/ رشکت تاسیس کردن",
     "translation_en": "ein Unternehmen/eine Firma gründen",
+    "translation_ps": "یو شرکت/کاروبار جوړول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/ein_unternehmen/eine_firma_gründen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "work_office",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0114",
@@ -1083,10 +1395,14 @@
     "word": "Bewerbungstraining",
     "translation_fa": "آموزش درخواست پذیرش",
     "translation_en": "Bewerbungstraining",
+    "translation_ps": "د غوښتنلیک روزنه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/bewerbungstraining.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "das"
   },
   {
@@ -1095,10 +1411,13 @@
     "word": "Spezialisierung",
     "translation_fa": "کسب تخصص V.: spezialisieren",
     "translation_en": "Spezialisierung",
+    "translation_ps": "تخصص ترلاسه کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/spezialisierung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1107,10 +1426,13 @@
     "word": "Stellengesuch",
     "translation_fa": "درخواست پذیرش در یک فرصت شغلی",
     "translation_en": "Stellengesuch",
+    "translation_ps": "دندې لپاره غوښتنه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/stellengesuch.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -1119,10 +1441,13 @@
     "word": "der/die Arbeitssuchende",
     "translation_fa": "افراد جویای کار",
     "translation_en": "der/die Arbeitssuchende",
+    "translation_ps": "د کار لټون کوونکی",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/der/die_arbeitssuchende.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0119",
@@ -1130,10 +1455,13 @@
     "word": "mittelständische Unternehmen",
     "translation_fa": "رشکت  های متوسط",
     "translation_en": "mittelständische Unternehmen",
+    "translation_ps": "منځنۍ کچې شرکتونه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/mittelständische_unternehmen.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -1142,10 +1470,14 @@
     "word": "nach dem aktuellen Stand fragen",
     "translation_fa": "در مورد وضعیت فعلی پرس و جو کردن",
     "translation_en": "nach dem aktuellen Stand fragen",
+    "translation_ps": "د اوسني حالت پوښتنه کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/nach_dem_aktuellen_stand_fragen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "preposition"
+    ]
   },
   {
     "id": "wB2-2-0121",
@@ -1153,10 +1485,13 @@
     "word": "sich an jmdn. wenden",
     "translation_fa": "به کسی مراجعه کردن",
     "translation_en": "sich an jmdn. wenden",
+    "translation_ps": "چا ته مراجعه کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sich_an_jmdn._wenden.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0122",
@@ -1164,10 +1499,13 @@
     "word": "sich auf eine Anzeige beziehen",
     "translation_fa": "به یک آگهی اشاره کردن/استناد کردن Bsp: Ich beziehe mich auf Ihr Stellenangebot.",
     "translation_en": "sich auf eine Anzeige beziehen",
+    "translation_ps": "په یوه اعلان باندې اشاره کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sich_auf_eine_anzeige_beziehen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0123",
@@ -1175,10 +1513,13 @@
     "word": "sich um eine Stelle bewerben",
     "translation_fa": "برای یک فرصت شغلی درخواست پذیرش دادن",
     "translation_en": "sich um eine Stelle bewerben",
+    "translation_ps": "د یوې دندې لپاره غوښتنه کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sich_um_eine_stelle_bewerben.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0125",
@@ -1186,10 +1527,13 @@
     "word": "Schulbildung",
     "translation_fa": "آموزش مدرسه  ای",
     "translation_en": "Schulbildung",
+    "translation_ps": "ښوونیزه زده کړه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/schulbildung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1198,10 +1542,13 @@
     "word": "besonderen Kenntnisse (Pl.)",
     "translation_fa": "آشنایی خاص",
     "translation_en": "besonderen Kenntnisse (Pl.)",
+    "translation_ps": "ځانګړې پوهې",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/besonderen_kenntnisse_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1210,10 +1557,13 @@
     "word": "berufliche Station",
     "translation_fa": "مرحله شغلی",
     "translation_en": "berufliche Station",
+    "translation_ps": "مسلکي پړاو",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/berufliche_station.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1222,10 +1572,13 @@
     "word": "persönlichen Daten (Pl.)",
     "translation_fa": "داده  های شخصی Sg.: –",
     "translation_en": "persönlichen Daten (Pl.)",
+    "translation_ps": "شخصي معلومات",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/persönlichen_daten_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1234,10 +1587,13 @@
     "word": "verhandlungssicher",
     "translation_fa": "مطمنئ در انجام مذاکره",
     "translation_en": "verhandlungssicher",
+    "translation_ps": "په خبرو اترو کې باوري",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/verhandlungssicher.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0130",
@@ -1245,10 +1601,13 @@
     "word": "ausgeschriebene Stelle",
     "translation_fa": "فرصت شغلی اعالم شده",
     "translation_en": "ausgeschriebene Stelle",
+    "translation_ps": "اعلان شوې دنده",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/ausgeschriebene_stelle.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1257,10 +1616,14 @@
     "word": "ein Bewerbungsschreiben verfassen",
     "translation_fa": "نوشنت نامه درخواست پذیرش",
     "translation_en": "ein Bewerbungsschreiben verfassen",
+    "translation_ps": "د غوښتنلیک لیک لیکل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/ein_bewerbungsschreiben_verfassen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "work_office",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0132",
@@ -1268,10 +1631,14 @@
     "word": "für Fragen (Pl.) zur Verfügung stehen",
     "translation_fa": "برای سؤاالت در دسرتس بودن",
     "translation_en": "für Fragen (Pl.) zur Verfügung stehen",
+    "translation_ps": "د پوښتنو لپاره شتون لرل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/für_fragen_(pl.)_zur_verfügung_stehen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "preposition"
+    ]
   },
   {
     "id": "wB2-2-0133",
@@ -1279,10 +1646,14 @@
     "word": "den Interessen und Qualifikationen (Pl.) entsprechen",
     "translation_fa": "با عالئق و مهارت  ها تناسب داشنت K.: etw. (Dat.) entsprechen",
     "translation_en": "den Interessen und Qualifikationen (Pl.) entsprechen",
+    "translation_ps": "د علاقو او وړتیاوو سره سمون لرل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/den_interessen_und_qualifikationen_(pl.)_entsprechen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0134",
@@ -1290,10 +1661,14 @@
     "word": "Gehaltsvorstellung",
     "translation_fa": "تصور از حقوق Bsp.: Was sind Ihre Gehaltsvorstellungen (Pl.)?",
     "translation_en": "Gehaltsvorstellung",
+    "translation_ps": "د معاش تمه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/gehaltsvorstellung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -1302,10 +1677,14 @@
     "word": "einen guten Eindruck machen",
     "translation_fa": "تصور و برداشت خوبی ایجاد منودن",
     "translation_en": "einen guten Eindruck machen",
+    "translation_ps": "ښه تاثیر کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/einen_guten_eindruck_machen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0137",
@@ -1313,10 +1692,14 @@
     "word": "eine schwierige Situation meistern",
     "translation_fa": "بر یک وضعیت دشوار غلبه کردن",
     "translation_en": "eine schwierige Situation meistern",
+    "translation_ps": "په یوه سخته وضعیت کې بریالي کېدل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/eine_schwierige_situation_meistern.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0138",
@@ -1324,10 +1707,13 @@
     "word": "sich nach dem Stand der Dinge erkundigen",
     "translation_fa": "در مورد وضعیت امور پرس و جو کردن",
     "translation_en": "sich nach dem Stand der Dinge erkundigen",
+    "translation_ps": "د حالاتو د وضعیت پوښتنه کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sich_nach_dem_stand_der_dinge_erkundigen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0139",
@@ -1335,10 +1721,13 @@
     "word": "sich für einen Bewerber entscheiden",
     "translation_fa": "یک متقاضی پذیرش را انتخاب کردن",
     "translation_en": "sich für einen Bewerber entscheiden",
+    "translation_ps": "د یو غوښتونکي انتخاب کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sich_für_einen_bewerber_entscheiden.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0140",
@@ -1346,10 +1735,14 @@
     "word": "eine Stelle antreten",
     "translation_fa": "یک سمت شغلی را تقبل کردن/پذیرفنت",
     "translation_en": "eine Stelle antreten",
+    "translation_ps": "یو ځای ته د کار پیل کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/eine_stelle_antreten.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0141",
@@ -1357,10 +1750,14 @@
     "word": "Arbeitsverhältnis",
     "translation_fa": "رابطه کاری، رابطه استخدامی، رابطه شغلی",
     "translation_en": "Arbeitsverhältnis",
+    "translation_ps": "کاري اړیکه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/arbeitsverhältnis.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "das"
   },
   {
@@ -1369,10 +1766,13 @@
     "word": "Betriebsgeheimnis",
     "translation_fa": "ارسار رشکت",
     "translation_en": "Betriebsgeheimnis",
+    "translation_ps": "د شرکت پټ راز",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/betriebsgeheimnis.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -1381,10 +1781,13 @@
     "word": "Krankmeldung",
     "translation_fa": "اعالم بیامری؛ گواهی پزشکی",
     "translation_en": "Krankmeldung",
+    "translation_ps": "د ناروغۍ راپور",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/krankmeldung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1393,10 +1796,13 @@
     "word": "Kündigungsfrist",
     "translation_fa": "مهلت فسخ قرارداد",
     "translation_en": "Kündigungsfrist",
+    "translation_ps": "د قرارداد د ختمولو موده",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/kündigungsfrist.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1405,10 +1811,13 @@
     "word": "Lohnfortzahlung",
     "translation_fa": "تداوم پرداخت دستمزدBsp.: Auf Lohnfortzahlung gibt es keinen gesetzli-",
     "translation_en": "Lohnfortzahlung",
+    "translation_ps": "د معاش دوامداره ورکول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/lohnfortzahlung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1417,10 +1826,13 @@
     "word": "Überstunde",
     "translation_fa": "اضافه کاری",
     "translation_en": "Überstunde",
+    "translation_ps": "اضافي کاري ساعتونه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/überstunde.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1429,10 +1841,13 @@
     "word": "Verdienst",
     "translation_fa": "درآمد",
     "translation_en": "Verdienst",
+    "translation_ps": "عاید",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/verdienst.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -1441,10 +1856,13 @@
     "word": "Vergütung",
     "translation_fa": "پرداخت حقوق و دستمزد؛ جربان خسارت، غرامت",
     "translation_en": "Vergütung",
+    "translation_ps": "معاش او جبران",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/vergütung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1453,10 +1871,13 @@
     "word": "Verschwiegenheitspflicht",
     "translation_fa": "التزام به رازداری",
     "translation_en": "Verschwiegenheitspflicht",
+    "translation_ps": "د راز ساتلو مکلفیت",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/verschwiegenheitspflicht.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1465,10 +1886,13 @@
     "word": "Anweisung",
     "translation_fa": "دستور، دستورالعمل؛ راهنام",
     "translation_en": "Anweisung",
+    "translation_ps": "لارښوونه، هدایت",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/anweisung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1477,10 +1901,13 @@
     "word": "Gefahrenstelle",
     "translation_fa": "محل خطر",
     "translation_en": "Gefahrenstelle",
+    "translation_ps": "د خطر ځای",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/gefahrenstelle.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1489,10 +1916,15 @@
     "word": "Schild",
     "translation_fa": "تابلو",
     "translation_en": "Schild",
+    "translation_ps": "نښه، تابلو",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/schild.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "greetings_politeness",
+      "conversation_phrases",
+      "noun"
+    ],
     "article": "das"
   },
   {
@@ -1501,10 +1933,13 @@
     "word": "Verbesserungsvorschlag",
     "translation_fa": "پیشنهاد اصالحی",
     "translation_en": "Verbesserungsvorschlag",
+    "translation_ps": "د ښه والي وړاندیز",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/verbesserungsvorschlag.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -1513,10 +1948,13 @@
     "word": "Zeichen",
     "translation_fa": "نشانه، عالمت",
     "translation_en": "Zeichen",
+    "translation_ps": "نښه، علامت",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/zeichen.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -1525,10 +1963,13 @@
     "word": "Alarmanlage einschalten",
     "translation_fa": "فعال کردن سیستم اعالم هشدار",
     "translation_en": "Alarmanlage einschalten",
+    "translation_ps": "د خبرداری سیسټم فعالول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/alarmanlage_einschalten.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1537,10 +1978,13 @@
     "word": "ätzende Säure",
     "translation_fa": "اسید خورنده",
     "translation_en": "ätzende Säure",
+    "translation_ps": "خورنده اسید",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/ätzende_säure.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1549,10 +1993,13 @@
     "word": "Berichtsheft führen",
     "translation_fa": "دفرت گزارش کار",
     "translation_en": "Berichtsheft führen",
+    "translation_ps": "د راپور کتابچه ساتل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/berichtsheft_führen.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -1561,10 +2008,13 @@
     "word": "brennende Material",
     "translation_fa": "مواد در حال اشتعال، مواد سوزش آور",
     "translation_en": "brennende Material",
+    "translation_ps": "سوځیدونکي مواد",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/brennende_material.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -1573,10 +2023,14 @@
     "word": "ein Dokument in der Firma auslegen",
     "translation_fa": "یک سند را در رشکت در معرض دید عموم قرار دادن",
     "translation_en": "ein Dokument in der Firma auslegen",
+    "translation_ps": "په شرکت کې یو سند د خلکو لپاره ښکاره کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/ein_dokument_in_der_firma_auslegen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "work_office",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0162",
@@ -1584,10 +2038,13 @@
     "word": "elektrische Spannung",
     "translation_fa": "ولتاژ برق",
     "translation_en": "elektrische Spannung",
+    "translation_ps": "برقي ولتاژ",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/elektrische_spannung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1596,10 +2053,13 @@
     "word": "explosive Material",
     "translation_fa": "مواد منفجره",
     "translation_en": "explosive Material",
+    "translation_ps": "چاودیدونکي مواد",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/explosive_material.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -1608,10 +2068,13 @@
     "word": "giftige Material",
     "translation_fa": "مواد سمی",
     "translation_en": "giftige Material",
+    "translation_ps": "زهرجن مواد",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/giftige_material.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -1620,10 +2083,14 @@
     "word": "auf Hygiene achten",
     "translation_fa": "به بهداشت توجه کردن",
     "translation_en": "auf Hygiene achten",
+    "translation_ps": "د پاکوالي خیال ساتل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/auf_hygiene_achten.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "preposition"
+    ]
   },
   {
     "id": "wB2-2-0166",
@@ -1631,10 +2098,14 @@
     "word": "den Kunden/die Kundin zur Kasse begleiten",
     "translation_fa": "مشرتی را به طرف صندوق همراهی کردن",
     "translation_en": "den Kunden/die Kundin zur Kasse begleiten",
+    "translation_ps": "پېرودونکي تر صندوق پورې ملګری کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/den_kunden/die_kundin_zur_kasse_begleiten.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0167",
@@ -1642,10 +2113,14 @@
     "word": "keine Zeit verlieren",
     "translation_fa": "زمان را از دست ندادن",
     "translation_en": "keine Zeit verlieren",
+    "translation_ps": "وخت له لاسه ورنکړل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/keine_zeit_verlieren.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "negation"
+    ]
   },
   {
     "id": "wB2-2-0168",
@@ -1653,10 +2128,13 @@
     "word": "Papiere dabeihaben",
     "translation_fa": "مدارک را همراه داشنت",
     "translation_en": "Papiere dabeihaben",
+    "translation_ps": "اسناد له ځان سره لرل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/papiere_dabeihaben.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1665,10 +2143,13 @@
     "word": "Quittungen (Pl.) aufheben",
     "translation_fa": "رسیدها/قبض ها را نگه داشنت",
     "translation_en": "Quittungen (Pl.) aufheben",
+    "translation_ps": "رسیدونه ساتل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/quittungen_(pl.)_aufheben.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0170",
@@ -1676,10 +2157,13 @@
     "word": "rechtzeitig Bescheid geben",
     "translation_fa": "به موقع اطالع دادن",
     "translation_en": "rechtzeitig Bescheid geben",
+    "translation_ps": "په وخت خبر ورکول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/rechtzeitig_bescheid_geben.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0171",
@@ -1687,10 +2171,14 @@
     "word": "einen Termin absagen",
     "translation_fa": "یک قرار مالقات را لغو کردن ≠ zusagen",
     "translation_en": "einen Termin absagen",
+    "translation_ps": "یو ملاقات لغوه کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/einen_termin_absagen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0172",
@@ -1698,10 +2186,14 @@
     "word": "einen Termin verlegen",
     "translation_fa": "یک قرار مالقات را به زمان دیگری موکول کردن",
     "translation_en": "einen Termin verlegen",
+    "translation_ps": "یو ملاقات بل وخت ته بدلول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/einen_termin_verlegen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0173",
@@ -1709,10 +2201,14 @@
     "word": "einen Termin übernehmen",
     "translation_fa": "یک قرار مالقات را پذیرفنت",
     "translation_en": "einen Termin übernehmen",
+    "translation_ps": "یو ملاقات منل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/einen_termin_übernehmen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0174",
@@ -1720,10 +2216,13 @@
     "word": "Überstunden (Pl.) berechnen",
     "translation_fa": "اضافه کاری  ها را محاسبه کردن",
     "translation_en": "Überstunden (Pl.) berechnen",
+    "translation_ps": "اضافي کاري ساعتونه حسابول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/überstunden_(pl.)_berechnen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0175",
@@ -1731,10 +2230,13 @@
     "word": "Krankenschein",
     "translation_fa": "گواهی عضویت در یک صندوق بیمه خدمات درمانی؛ گواهی پزشکی",
     "translation_en": "Krankenschein",
+    "translation_ps": "د ناروغۍ سند",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/krankenschein.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -1743,10 +2245,13 @@
     "word": "Schwindel",
     "translation_fa": "رسگیجه",
     "translation_en": "Schwindel",
+    "translation_ps": "سرګرداني",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/schwindel.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -1755,10 +2260,13 @@
     "word": "Stromschlag",
     "translation_fa": "شوک الکرتیکیDef.: Wenn man mit den Händen Strom berührt,",
     "translation_en": "Stromschlag",
+    "translation_ps": "برښنايي ټکان",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/stromschlag.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -1767,10 +2275,13 @@
     "word": "Übelkeit",
     "translation_fa": "حالت تهوع Adj.: übel",
     "translation_en": "Übelkeit",
+    "translation_ps": "کانګې",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/übelkeit.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1779,10 +2290,14 @@
     "word": "einen Arzt rufen",
     "translation_fa": "یک پزشک را خرب کردن، با یک پزشک متاس گرفنت",
     "translation_en": "einen Arzt rufen",
+    "translation_ps": "ډاکټر ته زنګ وهل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/einen_arzt_rufen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0180",
@@ -1790,10 +2305,13 @@
     "word": "gesundheitliche Probleme (Pl.) haben",
     "translation_fa": "مشکالت مرتبط با سالمتی داشنت",
     "translation_en": "gesundheitliche Probleme (Pl.) haben",
+    "translation_ps": "د روغتیا ستونزې لرل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/gesundheitliche_probleme_(pl.)_haben.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0181",
@@ -1801,10 +2319,13 @@
     "word": "Haut kühlen",
     "translation_fa": "خنک کردن پوست",
     "translation_en": "Haut kühlen",
+    "translation_ps": "پوستکی یخ کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/haut_kühlen.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1813,10 +2334,14 @@
     "word": "den Rettungsdienst anrufen",
     "translation_fa": "با خدمات امداد و نجات متاس گرفنت",
     "translation_en": "den Rettungsdienst anrufen",
+    "translation_ps": "د بیړني خدماتو سره اړیکه نیول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/den_rettungsdienst_anrufen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0183",
@@ -1824,10 +2349,13 @@
     "word": "sich krankmelden",
     "translation_fa": "بیامر بودن خود را اعالم کردن",
     "translation_en": "sich krankmelden",
+    "translation_ps": "خپله ناروغي راپورول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sich_krankmelden.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0184",
@@ -1835,10 +2363,13 @@
     "word": "Stromquelle abschalten",
     "translation_fa": "منبع تغذیه را خاموش کردن",
     "translation_en": "Stromquelle abschalten",
+    "translation_ps": "د برښنا سرچینه بندول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/stromquelle_abschalten.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1847,10 +2378,13 @@
     "word": "Vertretung organisieren",
     "translation_fa": "ترتیب دادن منایندگی",
     "translation_en": "Vertretung organisieren",
+    "translation_ps": "بدیل ترتیبول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/vertretung_organisieren.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1859,10 +2393,14 @@
     "word": "den Unfallbericht schreiben",
     "translation_fa": "نوشنت گزارش سانحه",
     "translation_en": "den Unfallbericht schreiben",
+    "translation_ps": "د پېښې راپور لیکل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/den_unfallbericht_schreiben.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0187",
@@ -1870,10 +2408,13 @@
     "word": "antibakterielle Seife",
     "translation_fa": "صابون آنتی باکرتیال",
     "translation_en": "antibakterielle Seife",
+    "translation_ps": "انټي باکتریایي صابون",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/antibakterielle_seife.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1882,10 +2423,13 @@
     "word": "Ordnung",
     "translation_fa": "نظم، مقررات",
     "translation_en": "Ordnung",
+    "translation_ps": "نظم",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/ordnung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1894,10 +2438,13 @@
     "word": "Putzlappen",
     "translation_fa": "دستامل نظافت",
     "translation_en": "Putzlappen",
+    "translation_ps": "د پاکولو ټوټه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/putzlappen.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -1906,10 +2453,13 @@
     "word": "Staubsauger",
     "translation_fa": "جاروبرقی",
     "translation_en": "Staubsauger",
+    "translation_ps": "ویکیوم کلینر",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/staubsauger.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -1918,10 +2468,13 @@
     "word": "Waschbecken",
     "translation_fa": "روشویی",
     "translation_en": "Waschbecken",
+    "translation_ps": "لاس مینځلو ځای",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/waschbecken.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -1930,10 +2483,13 @@
     "word": "Mengenrabatt",
     "translation_fa": "تخفیف خرید عمده",
     "translation_en": "Mengenrabatt",
+    "translation_ps": "د مقدار تخفیف",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/mengenrabatt.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -1942,10 +2498,13 @@
     "word": "Preisangabe",
     "translation_fa": "اطالعات قیمت",
     "translation_en": "Preisangabe",
+    "translation_ps": "د قیمت معلومات",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/preisangabe.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -1954,10 +2513,14 @@
     "word": "eine Bestellung aufgeben",
     "translation_fa": "تحویل دادن یک سفارش",
     "translation_en": "eine Bestellung aufgeben",
+    "translation_ps": "سفارش ورکول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/eine_bestellung_aufgeben.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0196",
@@ -1965,10 +2528,14 @@
     "word": "eine Bestellung durchgeben",
     "translation_fa": "ارسال کردن/اعالم کردن مستقیم یک سفارش",
     "translation_en": "eine Bestellung durchgeben",
+    "translation_ps": "سفارش وړاندې کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/eine_bestellung_durchgeben.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0197",
@@ -1976,10 +2543,14 @@
     "word": "Buchung bestätigen",
     "translation_fa": "تایید کردن ثبت سفارش",
     "translation_en": "Buchung bestätigen",
+    "translation_ps": "رزرو تاییدول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/buchung_bestätigen.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "school_learning",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -1988,10 +2559,14 @@
     "word": "einen Liefertermin abklären",
     "translation_fa": "تعیین کردن موعد تحویل",
     "translation_en": "einen Liefertermin abklären",
+    "translation_ps": "د تحویلۍ نېټه ټاکل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/einen_liefertermin_abklären.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0199",
@@ -1999,10 +2574,14 @@
     "word": "eine offene Frage klären",
     "translation_fa": "یک مساله تعیین تکلیف نشده را حل و فصل کردن",
     "translation_en": "eine offene Frage klären",
+    "translation_ps": "یو ناڅرګند پوښتنه حل کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/eine_offene_frage_klären.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0200",
@@ -2010,10 +2589,13 @@
     "word": "vereinbarte Termin",
     "translation_fa": "زمان مورد توافق، زمان هامهنگ شده",
     "translation_en": "vereinbarte Termin",
+    "translation_ps": "ټاکل شوی وخت",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/vereinbarte_termin.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -2022,10 +2604,13 @@
     "word": "vorbeikommen",
     "translation_fa": "رد شدن، عبور کردن، به کسی یا چیزی رس زدن",
     "translation_en": "vorbeikommen",
+    "translation_ps": "تېرېدل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/vorbeikommen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0203",
@@ -2033,10 +2618,13 @@
     "word": "am Apparat )",
     "translation_fa": "پشت خط (تلفن",
     "translation_en": "am Apparat )",
+    "translation_ps": "په ټیلیفون کې)",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/am_apparat_).mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0204",
@@ -2044,10 +2632,14 @@
     "word": "auf den Anrufbeantworter sprechen",
     "translation_fa": "در دستگاه پیام گیر صحبت کردن",
     "translation_en": "auf den Anrufbeantworter sprechen",
+    "translation_ps": "په پیغام ثبتونکي خبرې کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/auf_den_anrufbeantworter_sprechen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "school_learning",
+      "preposition"
+    ]
   },
   {
     "id": "wB2-2-0205",
@@ -2055,10 +2647,13 @@
     "word": "Auskunft geben",
     "translation_fa": "اطالعات ارائه کردن",
     "translation_en": "Auskunft geben",
+    "translation_ps": "معلومات ورکول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/auskunft_geben.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0206",
@@ -2066,10 +2661,13 @@
     "word": "außerhalb der Sprechzeit anrufen",
     "translation_fa": "خارج از زمان مشاوره متاس گرفنت",
     "translation_en": "außerhalb der Sprechzeit anrufen",
+    "translation_ps": "د خبرو وخت نه بهر زنګ وهل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/außerhalb_der_sprechzeit_anrufen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0207",
@@ -2077,10 +2675,13 @@
     "word": "Bezug nehmen auf",
     "translation_fa": "به ... اشاره کردن/استناد کردن/ارجاع دادنBsp.: Yasmin nimmt Bezug auf das Telefonat vom",
     "translation_en": "Bezug nehmen auf",
+    "translation_ps": "په ... اشاره کول/مراجعه کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/bezug_nehmen_auf.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0208",
@@ -2088,10 +2689,14 @@
     "word": "in dringenden Fällen",
     "translation_fa": "در موارد اضطراری",
     "translation_en": "in dringenden Fällen",
+    "translation_ps": "په بیړنیو حالاتو کې",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/in_dringenden_fällen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "preposition"
+    ]
   },
   {
     "id": "wB2-2-0209",
@@ -2099,10 +2704,14 @@
     "word": "eine kurze Rückmeldung geben",
     "translation_fa": "یک بازخورد مخترص ارائه کردن",
     "translation_en": "eine kurze Rückmeldung geben",
+    "translation_ps": "لنډ ځواب ورکول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/eine_kurze_rückmeldung_geben.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0210",
@@ -2110,10 +2719,14 @@
     "word": "ohne Voranmeldung",
     "translation_fa": "بدون پیش ثبت نام",
     "translation_en": "ohne Voranmeldung",
+    "translation_ps": "بې له مخکې خبرتیا",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/ohne_voranmeldung.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "services_authorities",
+      "preposition"
+    ]
   },
   {
     "id": "wB2-2-0211",
@@ -2121,10 +2734,13 @@
     "word": "sich wenden an",
     "translation_fa": "به ... مراجعه کردن",
     "translation_en": "sich wenden an",
+    "translation_ps": "له ... سره اړیکه نیول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sich_wenden_an.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0212",
@@ -2132,10 +2748,13 @@
     "word": "Missverständnis",
     "translation_fa": "سوء تفاهم",
     "translation_en": "Missverständnis",
+    "translation_ps": "سوء تفاهم",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/missverständnis.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -2144,10 +2763,14 @@
     "word": "auf Beschwerden (Pl.) reagieren",
     "translation_fa": "به شکایت  ها واکنش نشان دادن",
     "translation_en": "auf Beschwerden (Pl.) reagieren",
+    "translation_ps": "په شکایتونو غبرګون ښودل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/auf_beschwerden_(pl.)_reagieren.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "preposition"
+    ]
   },
   {
     "id": "wB2-2-0214",
@@ -2155,10 +2778,14 @@
     "word": "auf Nachfrage",
     "translation_fa": "در صورت درخواست/تقاضا",
     "translation_en": "auf Nachfrage",
+    "translation_ps": "د غوښتنې په صورت کې",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/auf_nachfrage.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "preposition"
+    ]
   },
   {
     "id": "wB2-2-0216",
@@ -2166,10 +2793,13 @@
     "word": "Einweisung in das Programm bekommen",
     "translation_fa": "راهنامیی در مورد دستگاه دریافت کردن",
     "translation_en": "Einweisung in das Programm bekommen",
+    "translation_ps": "په پروګرام کې لارښوونه ترلاسه کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/einweisung_in_das_programm_bekommen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0217",
@@ -2177,10 +2807,14 @@
     "word": "einen Konfikt lösen",
     "translation_fa": "حل کردن یک اختالف",
     "translation_en": "einen Konfikt lösen",
+    "translation_ps": "شخړه حل کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/einen_konfikt_lösen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "article"
+    ]
   },
   {
     "id": "wB2-2-0219",
@@ -2188,10 +2822,13 @@
     "word": "(nicht) zufrieden sein mit",
     "translation_fa": "راضی بودن (نبودن) از",
     "translation_en": "(nicht) zufrieden sein mit",
+    "translation_ps": "له ... (خوښ/نخوښ) اوسېدل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/(nicht)_zufrieden_sein_mit.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0220",
@@ -2199,10 +2836,13 @@
     "word": "Abdruck",
     "translation_fa": "نقش، رد، اثر",
     "translation_en": "Abdruck",
+    "translation_ps": "نښه، اثر",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/abdruck.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -2211,10 +2851,13 @@
     "word": "Betäubungsspritze",
     "translation_fa": "آمپول بیهوشی",
     "translation_en": "Betäubungsspritze",
+    "translation_ps": "د بې حسۍ انژکشن",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/betäubungsspritze.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2223,10 +2866,13 @@
     "word": "provisorische Füllung",
     "translation_fa": "پر کردن موقت",
     "translation_en": "provisorische Füllung",
+    "translation_ps": "موقتي ډکول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/provisorische_füllung.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2235,10 +2881,13 @@
     "word": "Haltbarkeit",
     "translation_fa": "ماندگاری",
     "translation_en": "Haltbarkeit",
+    "translation_ps": "دوامداري",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/haltbarkeit.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2247,10 +2896,13 @@
     "word": "Inlay",
     "translation_fa": "ماده پر کننده دندان از جنس فلز یا چینیDef.: Ein Inlay ist eine individuell angefertigte",
     "translation_en": "Inlay",
+    "translation_ps": "Inlay",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/inlay.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -2259,10 +2911,13 @@
     "word": "Karies",
     "translation_fa": "پوسیدگی",
     "translation_en": "Karies",
+    "translation_ps": "کیرېس (د غاښ خرابوالی)",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/karies.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2271,10 +2926,13 @@
     "word": "Keramik",
     "translation_fa": "رسامیک",
     "translation_en": "Keramik",
+    "translation_ps": "سیرامیک",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/keramik.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2283,10 +2941,13 @@
     "word": "Labor",
     "translation_fa": "آزمایشگاه",
     "translation_en": "Labor",
+    "translation_ps": "لابراتوار",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/labor.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -2295,10 +2956,13 @@
     "word": "Notdienst",
     "translation_fa": "خدمات اضطراری/اورژانسی",
     "translation_en": "Notdienst",
+    "translation_ps": "بیړنی خدمت",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/notdienst.mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -2307,10 +2971,13 @@
     "word": "gründlich Zähne putzen",
     "translation_fa": "دندان  ها را به طور کامل و دقیق مسواک زدن",
     "translation_en": "gründlich Zähne putzen",
+    "translation_ps": "غاښونه په پوره دقت سره برش کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/gründlich_zähne_putzen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0230",
@@ -2318,10 +2985,13 @@
     "word": "Schmerzen aushalten",
     "translation_fa": "تحمل کردن درد",
     "translation_en": "Schmerzen aushalten",
+    "translation_ps": "درد زغمل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/schmerzen_aushalten.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0235",
@@ -2329,10 +2999,13 @@
     "word": "IT-Branche (IT)",
     "translation_fa": "بخش فناوری اطالعات",
     "translation_en": "IT-Branche (IT)",
+    "translation_ps": "IT-Branche (IT)",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/it-branche_(it).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2341,10 +3014,13 @@
     "word": "Medien (Pl.)",
     "translation_fa": "رسانه  ها",
     "translation_en": "Medien (Pl.)",
+    "translation_ps": "رسنۍ",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/medien_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2353,10 +3029,14 @@
     "word": "Berufschancen (Pl.)",
     "translation_fa": "فرصت  های شغلی",
     "translation_en": "Berufschancen (Pl.)",
+    "translation_ps": "دندې فرصتونه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/berufschancen_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -2365,10 +3045,14 @@
     "word": "Berufsinformationszentrum (BIZ)",
     "translation_fa": "مرکز اطالعات شغلی",
     "translation_en": "Berufsinformationszentrum (BIZ)",
+    "translation_ps": "د مسلکي معلوماتو مرکز",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/berufsinformationszentrum_(biz).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "das"
   },
   {
@@ -2377,10 +3061,13 @@
     "word": "Sprachkenntnisse (Pl.)",
     "translation_fa": "آشنایی با زبان",
     "translation_en": "Sprachkenntnisse (Pl.)",
+    "translation_ps": "د ژبې پوهه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sprachkenntnisse_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2389,10 +3076,13 @@
     "word": "Erfahrungen (Pl.) sammeln",
     "translation_fa": "تجربیات اندوخنت/کسب کردن = Erfahrungen erlangen",
     "translation_en": "Erfahrungen (Pl.) sammeln",
+    "translation_ps": "تجربې ترلاسه کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/erfahrungen_(pl.)_sammeln.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0287",
@@ -2400,10 +3090,14 @@
     "word": "Bewerbungsunterlagen (Pl.)",
     "translation_fa": "مدارک درخواست پذیرش",
     "translation_en": "Bewerbungsunterlagen (Pl.)",
+    "translation_ps": "د غوښتنلیک اسناد",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/bewerbungsunterlagen_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -2412,10 +3106,13 @@
     "word": "Aufstiegschancen (Pl.)",
     "translation_fa": "فرصت  های ارتقاء شغلی، شانس  های صعود",
     "translation_en": "Aufstiegschancen (Pl.)",
+    "translation_ps": "د پرمختګ فرصتونه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/aufstiegschancen_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2424,10 +3121,13 @@
     "word": "Sozialleistungen (Pl.)",
     "translation_fa": "یارانه  های اجتامعی، مزایای اجتامعی",
     "translation_en": "Sozialleistungen (Pl.)",
+    "translation_ps": "ټولنیزې ګټې",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sozialleistungen_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2436,10 +3136,13 @@
     "word": "Bedenken (Pl.) äußern",
     "translation_fa": "مالحظات/تردیدها را بیان کردن",
     "translation_en": "Bedenken (Pl.) äußern",
+    "translation_ps": "شکونه څرګندول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/bedenken_(pl.)_äußern.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0323",
@@ -2447,10 +3150,13 @@
     "word": "Chemie stimmt (nicht) )",
     "translation_fa": "رابطه شخصی خوبی وجود دارد (ندارد",
     "translation_en": "Chemie stimmt (nicht) )",
+    "translation_ps": "شخصي اړیکه سمون لري (نه لري)",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/chemie_stimmt_(nicht)_).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2459,10 +3165,13 @@
     "word": "gesellschaftlich (nicht) anerkannt sein )",
     "translation_fa": "از نظر اجتامعی مورد تایید/پذیرش بودن (نبودن",
     "translation_en": "gesellschaftlich (nicht) anerkannt sein )",
+    "translation_ps": "ټولنیز اعتبار لرل (نلرل)",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/gesellschaftlich_(nicht)_anerkannt_sein_).mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0341",
@@ -2470,10 +3179,13 @@
     "word": "Überstunden (Pl.) machen",
     "translation_fa": "اضافه کاری انجام دادن",
     "translation_en": "Überstunden (Pl.) machen",
+    "translation_ps": "اضافي وخت کار کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/überstunden_(pl.)_machen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0352",
@@ -2481,10 +3193,13 @@
     "word": "Doppelzimmer (DZ)",
     "translation_fa": "اتاق دو نفره، اتاق دو تخته Pl.: die Zimmer",
     "translation_en": "Doppelzimmer (DZ)",
+    "translation_ps": "دوه کسه کوټه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/doppelzimmer_(dz).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -2493,10 +3208,13 @@
     "word": "Einzelzimmer (EZ)",
     "translation_fa": "اتاق یک نفره، اتاق یک تخته",
     "translation_en": "Einzelzimmer (EZ)",
+    "translation_ps": "یو کسه کوټه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/einzelzimmer_(ez).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "das"
   },
   {
@@ -2505,10 +3223,13 @@
     "word": "Richtlinien (Pl.)",
     "translation_fa": "دستورالعمل  ها، خط مشی  ها Sg.: die Linie",
     "translation_en": "Richtlinien (Pl.)",
+    "translation_ps": "لارښوونې",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/richtlinien_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2517,10 +3238,14 @@
     "word": "Arbeitsabläufe (Pl.) regeln",
     "translation_fa": "روال  های کاری را تعیین کردن",
     "translation_en": "Arbeitsabläufe (Pl.) regeln",
+    "translation_ps": "کاري بهیرونه تنظیمول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/arbeitsabläufe_(pl.)_regeln.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "work_office",
+      "noun"
+    ]
   },
   {
     "id": "wB2-2-0370",
@@ -2528,10 +3253,13 @@
     "word": "Anweisungen (Pl.) verstehen",
     "translation_fa": "درک کردن دستورالعمل  ها",
     "translation_en": "Anweisungen (Pl.) verstehen",
+    "translation_ps": "لارښوونې پوهیدل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/anweisungen_(pl.)_verstehen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0371",
@@ -2539,10 +3267,14 @@
     "word": "Arbeitsabschnitte (Pl.) kleinschrittig festhalten",
     "translation_fa": "مراحل کاری را به صورت گام به گام ثبت کردن",
     "translation_en": "Arbeitsabschnitte (Pl.) kleinschrittig festhalten",
+    "translation_ps": "کاري برخې په کوچنیو ګامونو ثبتول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/arbeitsabschnitte_(pl.)_kleinschrittig_festhalten.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "work_office",
+      "noun"
+    ]
   },
   {
     "id": "wB2-2-0374",
@@ -2550,10 +3282,13 @@
     "word": "Ergebnisse (Pl.) präsentieren",
     "translation_fa": "نتایج را ارائه منودن Sg.: das Ergebnis",
     "translation_en": "Ergebnisse (Pl.) präsentieren",
+    "translation_ps": "پایلې وړاندې کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/ergebnisse_(pl.)_präsentieren.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0381",
@@ -2561,10 +3296,13 @@
     "word": "Unterlagen (Pl.) zusammenstellen",
     "translation_fa": "مدارک را گردآوری کردن",
     "translation_en": "Unterlagen (Pl.) zusammenstellen",
+    "translation_ps": "اسناد راټولول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/unterlagen_(pl.)_zusammenstellen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0382",
@@ -2572,10 +3310,13 @@
     "word": "Vorbereitungen (Pl.) treffen",
     "translation_fa": "مقدمات را فراهم کردن K.: etw. (Akk.) vorbereiten",
     "translation_en": "Vorbereitungen (Pl.) treffen",
+    "translation_ps": "چمتوالی نیول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/vorbereitungen_(pl.)_treffen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0415",
@@ -2583,10 +3324,13 @@
     "word": "Angebote (Pl.) vergleichen",
     "translation_fa": "مقایسه کردن پیشنهادها/خدمات",
     "translation_en": "Angebote (Pl.) vergleichen",
+    "translation_ps": "پیشنهادونه پرتله کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/angebote_(pl.)_vergleichen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0419",
@@ -2594,10 +3338,13 @@
     "word": "Produkte (Pl.) präsentieren",
     "translation_fa": "ارائه/معرفی کردن محصوالت",
     "translation_en": "Produkte (Pl.) präsentieren",
+    "translation_ps": "محصولات وړاندې کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/produkte_(pl.)_präsentieren.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0420",
@@ -2605,10 +3352,13 @@
     "word": "sich über Trends (Pl.) informieren",
     "translation_fa": "در مورد روندها اطالعات کسب کردن",
     "translation_en": "sich über Trends (Pl.) informieren",
+    "translation_ps": "د رجحاناتو په اړه معلومات ترلاسه کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sich_über_trends_(pl.)_informieren.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0427",
@@ -2616,10 +3366,13 @@
     "word": "Einzelheiten (Pl.) besprechen",
     "translation_fa": "در مورد جزئیات بحث کردن",
     "translation_en": "Einzelheiten (Pl.) besprechen",
+    "translation_ps": "په جزئیاتو خبرې کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/einzelheiten_(pl.)_besprechen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0428",
@@ -2627,10 +3380,13 @@
     "word": "gezielte Fragen (Pl.) stellen",
     "translation_fa": "سؤاالت هدفمند مطرح کردن",
     "translation_en": "gezielte Fragen (Pl.) stellen",
+    "translation_ps": "موخې لرونکي پوښتنې کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/gezielte_fragen_(pl.)_stellen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0429",
@@ -2638,10 +3394,13 @@
     "word": "Liefer- und Zahlungsbedingungen (Pl.)",
     "translation_fa": "رشایط تحویل و پرداخت",
     "translation_en": "Liefer- und Zahlungsbedingungen (Pl.)",
+    "translation_ps": "د تحویلي او تادیې شرایط",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/liefer-_und_zahlungsbedingungen_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2650,10 +3409,13 @@
     "word": "Notizen (Pl.) machen",
     "translation_fa": "یادداشت برداری کردن",
     "translation_en": "Notizen (Pl.) machen",
+    "translation_ps": "یادښتونه اخیستل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/notizen_(pl.)_machen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0432",
@@ -2661,10 +3423,13 @@
     "word": "Rückfragen (Pl.) stellen",
     "translation_fa": "سؤاالت بیشرت مطرح کردن",
     "translation_en": "Rückfragen (Pl.) stellen",
+    "translation_ps": "اضافي پوښتنې کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/rückfragen_(pl.)_stellen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0448",
@@ -2672,10 +3437,13 @@
     "word": "Lieferkosten (Pl.)",
     "translation_fa": "هزینه  های تحویل",
     "translation_en": "Lieferkosten (Pl.)",
+    "translation_ps": "د تحویلي لګښتونه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/lieferkosten_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2684,10 +3452,13 @@
     "word": "Vertriebskenntnisse (Pl.)",
     "translation_fa": "آشنایی با کار پخش",
     "translation_en": "Vertriebskenntnisse (Pl.)",
+    "translation_ps": "د خرڅلاو پوهه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/vertriebskenntnisse_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2696,10 +3467,13 @@
     "word": "gängige Computerprogramme (Pl.)",
     "translation_fa": "برنامه  های رایانه  ای رایج",
     "translation_en": "gängige Computerprogramme (Pl.)",
+    "translation_ps": "عام کمپیوټري پروګرامونه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/gängige_computerprogramme_(pl.).mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0488",
@@ -2707,10 +3481,13 @@
     "word": "Sicherheitsbedenken (Pl.)",
     "translation_fa": "مالحظات امنیتی",
     "translation_en": "Sicherheitsbedenken (Pl.)",
+    "translation_ps": "د امنیتي اندیښنې",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sicherheitsbedenken_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2719,10 +3496,13 @@
     "word": "(geteilt) durch (",
     "translation_fa": "تقسیم) بر",
     "translation_en": "(geteilt) durch (",
+    "translation_ps": "(وویشل) په واسطه (",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/(geteilt)_durch_(.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0516",
@@ -2730,10 +3510,13 @@
     "word": "Konsequenzen (Pl.)",
     "translation_fa": "پیامدها، تبعات",
     "translation_en": "Konsequenzen (Pl.)",
+    "translation_ps": "پايلې، عواقب",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/konsequenzen_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2742,10 +3525,14 @@
     "word": "bis an die Grenzen (Pl.) arbeiten",
     "translation_fa": "تا حداکرث میزان ممکن کار کردن",
     "translation_en": "bis an die Grenzen (Pl.) arbeiten",
+    "translation_ps": "تر حدونو پورې کار کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/bis_an_die_grenzen_(pl.)_arbeiten.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "work_office",
+      "preposition"
+    ]
   },
   {
     "id": "wB2-2-0526",
@@ -2753,10 +3540,14 @@
     "word": "nicht den Angaben (Pl.) entsprechen",
     "translation_fa": "با اطالعات مطابقت نداشنت",
     "translation_en": "nicht den Angaben (Pl.) entsprechen",
+    "translation_ps": "د معلوماتو سره سمون نه خوري",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/nicht_den_angaben_(pl.)_entsprechen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "negation"
+    ]
   },
   {
     "id": "wB2-2-0529",
@@ -2764,10 +3555,14 @@
     "word": "Beschwerden (Pl.) beantworten",
     "translation_fa": "به شکایات پاسخ دادن Sg.: die Beschwerde",
     "translation_en": "Beschwerden (Pl.) beantworten",
+    "translation_ps": "شکایتونو ته ځواب ویل",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/beschwerden_(pl.)_beantworten.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "school_learning",
+      "noun"
+    ]
   },
   {
     "id": "wB2-2-0549",
@@ -2775,10 +3570,13 @@
     "word": "Prozesse (Pl.) definieren",
     "translation_fa": "فرآیندها را تعریف کردن",
     "translation_en": "Prozesse (Pl.) definieren",
+    "translation_ps": "بهیرونه تعریفول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/prozesse_(pl.)_definieren.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0550",
@@ -2786,10 +3584,13 @@
     "word": "Prozesse (Pl.) schriftlich festhalten",
     "translation_fa": "فرآیندها را به صورت کتبی ثبت کردن Bsp.: Jede Firma hält ihre Prozesse schriftlich fest.",
     "translation_en": "Prozesse (Pl.) schriftlich festhalten",
+    "translation_ps": "بهیرونه په لیکلي ډول ثبتول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/prozesse_(pl.)_schriftlich_festhalten.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0563",
@@ -2797,10 +3598,13 @@
     "word": "Tagesordnungspunkt (TOP)",
     "translation_fa": "مورد یا بند دستور کار",
     "translation_en": "Tagesordnungspunkt (TOP)",
+    "translation_ps": "د اجنډا موضوع یا ماده",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/tagesordnungspunkt_(top).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   },
   {
@@ -2809,10 +3613,13 @@
     "word": "Moderationskarten (Pl.)",
     "translation_fa": "کارت  های اجرای برنامه",
     "translation_en": "Moderationskarten (Pl.)",
+    "translation_ps": "د برنامې د تنظیم کارتونه",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/moderationskarten_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2821,10 +3628,13 @@
     "word": "Bestimmungen (Pl.)",
     "translation_fa": "ضوابط",
     "translation_en": "Bestimmungen (Pl.)",
+    "translation_ps": "مقررات",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/bestimmungen_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2833,10 +3643,14 @@
     "word": "Arbeitsschutzschuhe (Pl.)",
     "translation_fa": "کفش  های ایمنی کار Komp.: der Arbeitsschutz + die Schuhe",
     "translation_en": "Arbeitsschutzschuhe (Pl.)",
+    "translation_ps": "د کار د خوندیتوب بوټان",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/arbeitsschutzschuhe_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "work_office",
+      "noun"
+    ],
     "article": "die"
   },
   {
@@ -2845,10 +3659,13 @@
     "word": "Sicherheitsvorschriften (Pl.) befolgen",
     "translation_fa": "رعایت کردن مقررات ایمنی",
     "translation_en": "Sicherheitsvorschriften (Pl.) befolgen",
+    "translation_ps": "د امنیتي مقرراتو رعایت کول",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/sicherheitsvorschriften_(pl.)_befolgen.mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "uncategorized"
+    ]
   },
   {
     "id": "wB2-2-0637",
@@ -2856,10 +3673,13 @@
     "word": "Führungsqualitäten (Pl.)",
     "translation_fa": "ویژگی  های هدایت/مدیریت",
     "translation_en": "Führungsqualitäten (Pl.)",
+    "translation_ps": "د مشرتابه ځانګړتیاوې",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/führungsqualitäten_(pl.).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "die"
   },
   {
@@ -2868,10 +3688,14 @@
     "word": "aus betrieblichen Gründen (Pl.)",
     "translation_fa": "به دالیل مرتبط با رشکت",
     "translation_en": "aus betrieblichen Gründen (Pl.)",
+    "translation_ps": "د شرکت اړوند دلایلو له مخې",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/aus_betrieblichen_gründen_(pl.).mp3",
     "image": "",
-    "category": "B2"
+    "category": [
+      "conversation_phrases",
+      "preposition"
+    ]
   },
   {
     "id": "wB2-2-0666",
@@ -2879,10 +3703,13 @@
     "word": "Solidaritätszuschlag (SoIZ)",
     "translation_fa": "اضافه مالیات همبستگیDef.: Der Solidaritätszuschlag wird für den Aufbau",
     "translation_en": "Solidaritätszuschlag (SoIZ)",
+    "translation_ps": "Solidaritätszuschlag (SoIZ)",
     "example": "",
     "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B2/solidaritätszuschlag_(soiz).mp3",
     "image": "",
-    "category": "B2",
+    "category": [
+      "uncategorized"
+    ],
     "article": "der"
   }
 ]

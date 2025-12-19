@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'dart:developer' as developer;
 
 import '../sign_in_screen.dart';
+import 'package:word_map_app/l10n/app_localizations.dart';
 import 'screens/words_list_screen.dart';
 
 class AuthGate extends StatelessWidget {
@@ -38,11 +39,12 @@ class AuthGate extends StatelessWidget {
 
         // Handle errors
         if (snapshot.hasError) {
+          final loc = AppLocalizations.of(context)!;
           developer.log('AuthGate error: ${snapshot.error}',
               name: 'AuthGate', error: snapshot.error);
           return Scaffold(
             body: Center(
-              child: Text('Authentication error: ${snapshot.error}'),
+              child: Text(loc.authError(snapshot.error ?? '')),
             ),
           );
         }

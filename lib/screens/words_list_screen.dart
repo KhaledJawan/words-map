@@ -7,17 +7,21 @@ import 'package:provider/provider.dart';
 import 'package:word_map_app/models/vocab_word.dart';
 import 'package:word_map_app/models/word_progress.dart';
 import 'package:word_map_app/core/audio/audio_service.dart';
+import 'package:word_map_app/features/categories/word_category_localization.dart';
 import 'package:word_map_app/features/monetization/diamond_controller.dart';
 import 'package:word_map_app/services/app_state.dart';
 import 'package:word_map_app/screens/words_list_init.dart';
+import 'package:word_map_app/services/home_support_banner_service.dart';
 import 'package:word_map_app/services/progress_repository.dart';
 import 'package:word_map_app/l10n/app_localizations.dart';
+import 'package:word_map_app/widgets/home_support_banner.dart';
 import 'package:word_map_app/widgets/thank_you_lottie_overlay.dart';
 import 'package:word_map_app/widgets/word_detail_soft_card.dart';
 import 'package:word_map_app/widgets/word_details_native_ad_footer.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
 
 enum SortMode { defaultOrder, priorityGrouped }
+enum WordsScope { level, category }
 
 List<VocabWord> sortWordsForDisplay(List<VocabWord> words) {
   final bookmarked = <VocabWord>[];
@@ -86,6 +90,8 @@ class _WordsListScreenState extends State<WordsListScreen> {
             allWords: data.allWords,
             initialProgress: data.progress,
             initialLevel: data.lastLevel,
+            initialScope: data.lastScope,
+            initialCategoryTag: data.lastCategoryTag,
             levels: data.levels,
             repo: data.repo,
           ),
@@ -101,6 +107,8 @@ class WordsHomeTab extends StatefulWidget {
     required this.allWords,
     required this.initialProgress,
     required this.initialLevel,
+    required this.initialScope,
+    required this.initialCategoryTag,
     required this.levels,
     required this.repo,
   });
@@ -108,6 +116,8 @@ class WordsHomeTab extends StatefulWidget {
   final List<VocabWord> allWords;
   final Map<String, WordProgress> initialProgress;
   final String initialLevel;
+  final String? initialScope;
+  final String? initialCategoryTag;
   final List<String> levels;
   final ProgressRepository repo;
 
@@ -118,19 +128,41 @@ class WordsHomeTab extends StatefulWidget {
 class _WordsHomeTabState extends State<WordsHomeTab> {
   late Map<String, WordProgress> _progress;
   late Map<String, List<VocabWord>> _wordsByLevel;
+  late Map<String, List<VocabWord>> _wordsByCategory;
   late String _currentLevel;
+  WordsScope _scope = WordsScope.level;
+  String? _currentCategoryTag;
   List<VocabWord> _visibleWords = [];
   final SortMode _sortMode = SortMode.defaultOrder;
   Timer? _saveDebounce;
+  final HomeSupportBannerService _supportBannerService =
+      HomeSupportBannerService();
+  bool _showSupportBanner = false;
 
   @override
   void initState() {
     super.initState();
     _progress = Map.of(widget.initialProgress);
     _wordsByLevel = _groupByLevel(widget.allWords);
+    _wordsByCategory = _groupByCategory(widget.allWords);
     _currentLevel =
         widget.initialLevel.isNotEmpty ? widget.initialLevel : widget.levels.first;
-    _setVisibleForLevel(_currentLevel, forceSort: true);
+    final requestedScope = (widget.initialScope ?? '').trim().toLowerCase();
+    final requestedCategory = (widget.initialCategoryTag ?? '').trim();
+    if (requestedScope == 'category' &&
+        requestedCategory.isNotEmpty &&
+        _wordsByCategory.containsKey(requestedCategory)) {
+      _scope = WordsScope.category;
+      _currentCategoryTag = requestedCategory;
+      _setVisibleForCategory(requestedCategory, forceSort: true);
+    } else {
+      _scope = WordsScope.level;
+      _setVisibleForLevel(_currentLevel, forceSort: true);
+    }
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _maybeShowSupportBanner();
+    });
   }
 
   @override
@@ -149,8 +181,25 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     return grouped;
   }
 
+  Map<String, List<VocabWord>> _groupByCategory(List<VocabWord> words) {
+    final Map<String, List<VocabWord>> grouped = {};
+    for (final w in words) {
+      for (final tag in w.category) {
+        grouped.putIfAbsent(tag, () => []);
+        grouped[tag]!.add(w);
+      }
+    }
+    return grouped;
+  }
+
   void _setVisibleForLevel(String level, {bool forceSort = false}) {
     final list = _wordsByLevel[level] ?? [];
+    _visibleWords = List.of(list);
+    _applySort(forcePriority: forceSort);
+  }
+
+  void _setVisibleForCategory(String tag, {bool forceSort = false}) {
+    final list = _wordsByCategory[tag] ?? [];
     _visibleWords = List.of(list);
     _applySort(forcePriority: forceSort);
   }
@@ -165,10 +214,23 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
   void _changeLevel(String level) {
     if (level == _currentLevel) return;
     setState(() {
+      _scope = WordsScope.level;
       _currentLevel = level;
       _setVisibleForLevel(level, forceSort: true);
     });
     widget.repo.saveLastLevel(level);
+    widget.repo.saveLastWordsScope('level');
+  }
+
+  void _changeCategory(String tag) {
+    if (_scope == WordsScope.category && tag == _currentCategoryTag) return;
+    setState(() {
+      _scope = WordsScope.category;
+      _currentCategoryTag = tag;
+      _setVisibleForCategory(tag, forceSort: true);
+    });
+    widget.repo.saveLastWordsScope('category');
+    widget.repo.saveLastCategoryTag(tag);
   }
 
   void _toggleBookmark(VocabWord word) {
@@ -199,17 +261,53 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     });
   }
 
+  Future<void> _maybeShowSupportBanner() async {
+    final shouldShow = await _supportBannerService.shouldShow();
+    if (!shouldShow || !mounted) return;
+    await _supportBannerService.markShown();
+    if (!mounted) return;
+    setState(() => _showSupportBanner = true);
+  }
+
+  Future<void> _handleSupportBannerSupport() async {
+    final diamond = context.read<DiamondController>();
+    final loc = AppLocalizations.of(context)!;
+    final result = await diamond.watchAdForDiamond();
+    if (!mounted) return;
+    if (result == DiamondWatchResult.adLoading) {
+      if (diamond.counter <= 0 && !diamond.isDiamondActive && !diamond.isCooldownActive) {
+        unawaited(diamond.startCooldown());
+      }
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(loc.adLoading),
+          duration: Duration(seconds: 2),
+        ),
+      );
+      return;
+    }
+    if (result == DiamondWatchResult.activated) {
+      await ThankYouLottieOverlay.show(context);
+    }
+  }
+
   Future<void> _refreshAll() async {
+    if (_scope == WordsScope.category && _currentCategoryTag != null) {
+      _setVisibleForCategory(_currentCategoryTag!, forceSort: true);
+      return;
+    }
     _setVisibleForLevel(_currentLevel, forceSort: true);
   }
 
   Future<void> _showCountsSheet(BuildContext context) async {
-    final levelWords = _wordsByLevel[_currentLevel] ?? [];
-    final total = levelWords.length;
-    final viewed = levelWords.where((w) => w.isViewed || w.isVisited).length;
-    final bookmarked = levelWords.where((w) => w.isBookmarked).length;
-
     final loc = AppLocalizations.of(context)!;
+    final scopeLabel = _scope == WordsScope.level
+        ? _currentLevel
+        : localizeWordCategoryTag(loc, _currentCategoryTag ?? 'uncategorized');
+    final scopeWords = _visibleWords;
+    final total = scopeWords.length;
+    final viewed = scopeWords.where((w) => w.isViewed || w.isVisited).length;
+    final bookmarked = scopeWords.where((w) => w.isBookmarked).length;
     await showModalBottomSheet<void>(
       context: context,
       shape: const RoundedRectangleBorder(
@@ -224,7 +322,9 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  loc.chapterOverview(_currentLevel),
+                  _scope == WordsScope.level
+                      ? loc.chapterOverview(_currentLevel)
+                      : loc.categoryOverview(scopeLabel),
                   style: textTheme.titleMedium?.copyWith(
                     fontWeight: FontWeight.w700,
                   ),
@@ -309,21 +409,31 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                                     physics: const BouncingScrollPhysics(),
                                     child: Builder(
                                       builder: (dialogContext) {
-                                        final localeCode =
-                                            Localizations.localeOf(dialogContext)
-                                                .languageCode;
-                                        final fa = word.translationFa;
-                                        final en = word.translationEn;
-                                        final primary = localeCode == 'fa'
-                                            ? (fa.isNotEmpty ? fa : en)
-                                            : (en.isNotEmpty ? en : fa);
-                                        final secondary = localeCode == 'fa'
-                                            ? (en.isNotEmpty ? en : '')
-                                            : (fa.isNotEmpty ? fa : '');
+                                        final wordLanguages = dialogContext
+                                            .read<AppState>()
+                                            .wordLanguages;
+                                        final primaryLang = wordLanguages.first;
+                                        final secondaryLang =
+                                            wordLanguages.length > 1
+                                                ? wordLanguages[1]
+                                                : null;
+                                        final primaryRaw = word
+                                            .translationFor(primaryLang)
+                                            .trim();
+                                        final primary =
+                                            primaryRaw.isNotEmpty ? primaryRaw : '—';
+                                        final secondaryRaw = secondaryLang == null
+                                            ? ''
+                                            : word.translationFor(secondaryLang).trim();
+                                        final secondary = secondaryRaw.isNotEmpty
+                                            ? secondaryRaw
+                                            : '';
                                         final audioUrl = word.audio.trim();
                                         final hasAudio = audioUrl.isNotEmpty;
                                         final messenger =
                                             ScaffoldMessenger.of(dialogContext);
+                                        final loc =
+                                            AppLocalizations.of(dialogContext)!;
                                         Future<void> handlePlayAudio() async {
                                           if (!hasAudio) return;
                                           try {
@@ -334,9 +444,10 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                                                 'Audio playback failed: $e');
                                             if (!mounted) return;
                                             messenger.showSnackBar(
-                                              const SnackBar(
+                                              SnackBar(
                                                 content: Text(
-                                                    'Audio konnte nicht abgespielt werden.'),
+                                                  loc.audioPlaybackFailed,
+                                                ),
                                                 duration: Duration(seconds: 2),
                                               ),
                                             );
@@ -392,8 +503,11 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                                           example: word.example,
                                           extra: [
                                             if (word.level != null) word.level,
-                                            if (word.category != null)
+                                            formatCategoryLabel(
+                                              AppLocalizations.of(dialogContext)!,
                                               word.category,
+                                              max: 2,
+                                            ),
                                           ].whereType<String>().join(' • '),
                                           isBookmarked: bookmarkedLocal,
                                           trailingAction: audioAction,
@@ -433,24 +547,32 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
 
   Future<void> _handleWordTap(VocabWord word) async {
     final diamond = context.read<DiamondController>();
+    final loc = AppLocalizations.of(context)!;
+    if (diamond.isCooldownActive) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(loc.cooldownActive(diamond.cooldownText())),
+          duration: const Duration(seconds: 2),
+        ),
+      );
+      return;
+    }
     final allowed = diamond.onWordSelected();
     if (!allowed) {
       final shouldWatch = await showDialog<bool>(
         context: context,
         builder: (dialogContext) {
           return AlertDialog(
-            title: const Text('No more words'),
-            content: const Text(
-              'You reached 0. Watch a rewarded ad to activate Diamond Mode for 1 hour (unlimited words).',
-            ),
+            title: Text(loc.noMoreWordsTitle),
+            content: Text(loc.noMoreWordsBody),
             actions: [
               TextButton(
                 onPressed: () => Navigator.of(dialogContext).pop(false),
-                child: const Text('Not now'),
+                child: Text(loc.noMoreWordsWaitOneHour),
               ),
               FilledButton(
                 onPressed: () => Navigator.of(dialogContext).pop(true),
-                child: const Text('Watch ad'),
+                child: Text(loc.noMoreWordsWatchAd),
               ),
             ],
           );
@@ -461,9 +583,10 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
         final result = await diamond.watchAdForDiamond();
         if (!mounted) return;
         if (result == DiamondWatchResult.adLoading) {
+          unawaited(diamond.startCooldown());
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text('Ad is loading…'),
+            SnackBar(
+              content: Text(loc.adLoading),
               duration: Duration(seconds: 2),
             ),
           );
@@ -474,6 +597,8 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
           if (!mounted) return;
           await _onWordTapped(word);
         }
+      } else {
+        unawaited(diamond.startCooldown());
       }
       return;
     }
@@ -497,21 +622,57 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
             children: [
               Padding(
                 padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 8),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    _buildStatsBadge(textTheme, viewedCount),
-                    const SizedBox(width: 10),
-                    _buildDiamondBadge(textTheme, diamond),
-                    const Spacer(),
-                    _buildLevelButton(textTheme, appState),
-                  ],
+                child: LayoutBuilder(
+                  builder: (context, constraints) {
+                    final isNarrow = constraints.maxWidth < 390;
+                    final maxButtonWidth = constraints.maxWidth * 0.52;
+                    final maxDiamondWidth = constraints.maxWidth * 0.38;
+                    return Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      textDirection: TextDirection.ltr,
+                      children: [
+                        _buildStatsBadge(textTheme, viewedCount),
+                        const SizedBox(width: 10),
+                        ConstrainedBox(
+                          constraints: BoxConstraints(maxWidth: maxDiamondWidth),
+                          child: _buildDiamondBadge(
+                            textTheme,
+                            diamond,
+                            compact: isNarrow,
+                          ),
+                        ),
+                        const SizedBox(width: 10),
+                        const Spacer(),
+                        ConstrainedBox(
+                          constraints: BoxConstraints(maxWidth: maxButtonWidth),
+                          child: _buildLevelButton(
+                            textTheme,
+                            appState,
+                            maxButtonWidth: maxButtonWidth,
+                          ),
+                        ),
+                      ],
+                    );
+                  },
                 ),
               ),
               const SizedBox(height: 8),
               Expanded(child: _buildWordsTab(textTheme)),
             ],
           ),
+          if (_showSupportBanner)
+            Positioned(
+              left: 16,
+              right: 80,
+              bottom: 16,
+              child: HomeSupportBanner(
+                onSupport: _handleSupportBannerSupport,
+                onDismissed: () {
+                  if (!mounted) return;
+                  setState(() => _showSupportBanner = false);
+                },
+              ),
+            ),
           Positioned(
             right: 16,
             bottom: 16,
@@ -519,10 +680,16 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
               onPressed: () async {
                 final result = await diamond.watchAdForDiamond();
                 if (!context.mounted) return;
+                final loc = AppLocalizations.of(context)!;
                 if (result == DiamondWatchResult.adLoading) {
+                  if (diamond.counter <= 0 &&
+                      !diamond.isDiamondActive &&
+                      !diamond.isCooldownActive) {
+                    unawaited(diamond.startCooldown());
+                  }
                   ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(
-                      content: Text('Ad is loading…'),
+                    SnackBar(
+                      content: Text(loc.adLoading),
                       duration: Duration(seconds: 2),
                     ),
                   );
@@ -581,34 +748,85 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     );
   }
 
-  Widget _buildLevelButton(TextTheme textTheme, AppState appState) {
-    return TextButton.icon(
-      onPressed: () => _showLevelPicker(context, appState),
-      style: TextButton.styleFrom(
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-        shape: const StadiumBorder(),
-        backgroundColor: Colors.black,
-        minimumSize: const Size(0, 44),
-      ),
-      icon: const Icon(LucideIcons.layers, color: Colors.white),
-      label: Text(
-        _currentLevel,
-        style: textTheme.titleMedium?.copyWith(
-          fontWeight: FontWeight.w800,
-          fontSize: (textTheme.titleMedium?.fontSize ?? 16) + 4,
-          color: Colors.white,
+  Widget _buildLevelButton(
+    TextTheme textTheme,
+    AppState appState, {
+    required double maxButtonWidth,
+  }) {
+    final loc = AppLocalizations.of(context)!;
+    final uiTextDirection = Directionality.of(context);
+    final label = _scope == WordsScope.level
+        ? _currentLevel
+        : localizeWordCategoryTag(loc, _currentCategoryTag ?? 'uncategorized');
+    final baseFontSize = textTheme.titleMedium?.fontSize ?? 16;
+    final fontSize =
+        _scope == WordsScope.level ? baseFontSize + 4 : baseFontSize + 1;
+    final maxTextWidth = (maxButtonWidth - 48).clamp(80.0, maxButtonWidth).toDouble();
+    return TextButton(
+        onPressed: () => _showLevelPicker(context, appState),
+        style: TextButton.styleFrom(
+          padding: EdgeInsets.symmetric(
+            horizontal: _scope == WordsScope.level ? 12 : 10,
+            vertical: 8,
+          ),
+          shape: const StadiumBorder(),
+          backgroundColor: Colors.black,
+          minimumSize: const Size(0, 44),
         ),
-      ),
-    );
+        child: ConstrainedBox(
+          constraints: BoxConstraints(maxWidth: maxButtonWidth),
+          child: Row(
+            textDirection: TextDirection.ltr,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Icon(
+                _scope == WordsScope.level ? LucideIcons.layers : LucideIcons.tag,
+                color: Colors.white,
+              ),
+              const SizedBox(width: 8),
+              ConstrainedBox(
+                constraints: BoxConstraints(maxWidth: maxTextWidth),
+                child: Text(
+                  label,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  softWrap: false,
+                  textDirection: uiTextDirection,
+                  style: textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.w800,
+                    fontSize: fontSize,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      );
   }
 
-  Widget _buildDiamondBadge(TextTheme textTheme, DiamondController diamond) {
+  Widget _buildDiamondBadge(
+    TextTheme textTheme,
+    DiamondController diamond, {
+    bool compact = false,
+  }) {
+    final loc = AppLocalizations.of(context)!;
     final isActive = diamond.isDiamondActive;
-    final label = isActive ? diamond.remainingText() : '${diamond.counter}';
-    final subtitle = isActive ? 'Diamond' : 'Left';
+    final isCooldown = diamond.isCooldownActive;
+    final label = isActive
+        ? diamond.remainingText()
+        : (isCooldown ? diamond.cooldownText() : '${diamond.counter}');
+    final subtitle = isActive
+        ? loc.diamondBadgeSubtitleActive
+        : (isCooldown
+            ? loc.diamondBadgeSubtitleCooldown
+            : loc.diamondBadgeSubtitleInactive);
     return Container(
       constraints: const BoxConstraints(minHeight: 44),
-      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+      padding: EdgeInsets.symmetric(
+        horizontal: compact ? 10 : 14,
+        vertical: 8,
+      ),
       decoration: const BoxDecoration(
         color: Colors.black,
         borderRadius: BorderRadius.all(Radius.circular(999)),
@@ -619,29 +837,41 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
           Icon(
             LucideIcons.gem,
             size: 18,
-            color: isActive ? const Color(0xFF4BA8FF) : Colors.white,
+            color: isActive
+                ? const Color(0xFF4BA8FF)
+                : (isCooldown
+                    ? Colors.white.withValues(alpha: 0.45)
+                    : Colors.white),
           ),
           const SizedBox(width: 8),
-          Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                label,
-                style: textTheme.bodySmall?.copyWith(
-                  fontWeight: FontWeight.w800,
-                  color: Colors.white,
+          Flexible(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  label,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: textTheme.bodySmall?.copyWith(
+                    fontWeight: FontWeight.w800,
+                    color: Colors.white,
+                  ),
                 ),
-              ),
-              const SizedBox(height: 2),
-              Text(
-                subtitle,
-                style: textTheme.bodySmall?.copyWith(
-                  color: Colors.white.withValues(alpha: 0.75),
-                  fontSize: (textTheme.bodySmall?.fontSize ?? 12) - 1,
-                ),
-              ),
-            ],
+                if (!compact) ...[
+                  const SizedBox(height: 2),
+                  Text(
+                    subtitle,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: textTheme.bodySmall?.copyWith(
+                      color: Colors.white.withValues(alpha: 0.75),
+                      fontSize: (textTheme.bodySmall?.fontSize ?? 12) - 1,
+                    ),
+                  ),
+                ],
+              ],
+            ),
           ),
         ],
       ),
@@ -656,21 +886,31 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
       ),
       builder: (context) {
-        return Padding(
-          padding: EdgeInsets.only(
-            left: 16,
-            right: 16,
-            bottom: MediaQuery.of(context).viewInsets.bottom + 24,
-            top: 24,
-          ),
-          child: _LevelGrid(
-            levels: widget.levels,
-            selectedLevel: _currentLevel,
-            onSelect: (level) async {
-              Navigator.of(context).pop();
-              _changeLevel(level);
-            },
-          ),
+        final loc = AppLocalizations.of(context)!;
+        final counts = <String, int>{};
+        _wordsByCategory.forEach((tag, words) {
+          counts[tag] = words.length;
+        });
+
+        final tags = counts.keys.toList()
+          ..sort((a, b) => localizeWordCategoryTag(loc, a)
+              .compareTo(localizeWordCategoryTag(loc, b)));
+
+        return _ChapterPickerSheet(
+          levels: widget.levels,
+          selectedLevel: _currentLevel,
+          selectedScope: _scope,
+          selectedCategoryTag: _currentCategoryTag,
+          categoryTags: tags,
+          categoryCounts: counts,
+          onSelectLevel: (level) {
+            Navigator.of(context).pop();
+            _changeLevel(level);
+          },
+          onSelectCategory: (tag) {
+            Navigator.of(context).pop();
+            _changeCategory(tag);
+          },
         );
       },
     );
@@ -688,7 +928,9 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
             Padding(
               padding: const EdgeInsetsDirectional.only(top: 32),
               child: Text(
-                loc.chapterEmptyState,
+                _scope == WordsScope.level
+                    ? loc.chapterEmptyState
+                    : loc.categoryEmptyState,
                 style: textTheme.bodyLarge,
                 textAlign: TextAlign.center,
               ),
@@ -749,74 +991,230 @@ class _WordList extends StatelessWidget {
   }
 }
 
-class _LevelGrid extends StatelessWidget {
-  final List<String> levels;
-  final String selectedLevel;
-  final ValueChanged<String> onSelect;
-
-  const _LevelGrid({
+class _ChapterPickerSheet extends StatefulWidget {
+  const _ChapterPickerSheet({
     required this.levels,
     required this.selectedLevel,
-    required this.onSelect,
+    required this.selectedScope,
+    required this.selectedCategoryTag,
+    required this.categoryTags,
+    required this.categoryCounts,
+    required this.onSelectLevel,
+    required this.onSelectCategory,
   });
+
+  final List<String> levels;
+  final String selectedLevel;
+  final WordsScope selectedScope;
+  final String? selectedCategoryTag;
+  final List<String> categoryTags;
+  final Map<String, int> categoryCounts;
+  final ValueChanged<String> onSelectLevel;
+  final ValueChanged<String> onSelectCategory;
+
+  @override
+  State<_ChapterPickerSheet> createState() => _ChapterPickerSheetState();
+}
+
+class _ChapterPickerSheetState extends State<_ChapterPickerSheet> {
+  bool _showCategories = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _showCategories = widget.selectedScope == WordsScope.category;
+  }
 
   @override
   Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
     final cs = Theme.of(context).colorScheme;
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Text(
-          AppLocalizations.of(context)!.chooseChapter,
-          style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                fontWeight: FontWeight.w700,
-              ),
-        ),
-        const SizedBox(height: 12),
-        GridView.builder(
-          shrinkWrap: true,
-          physics: const NeverScrollableScrollPhysics(),
-          itemCount: levels.length,
-          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 3,
-            mainAxisSpacing: 8,
-            crossAxisSpacing: 8,
-            childAspectRatio: 2.4,
-          ),
-          itemBuilder: (context, index) {
-            final level = levels[index];
-            final isSelected = level == selectedLevel;
+    final maxHeightFactor = _showCategories ? 0.86 : 0.56;
+    final height = MediaQuery.of(context).size.height * maxHeightFactor;
 
-            return GestureDetector(
-              onTap: () => onSelect(level),
-              child: Container(
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  color: isSelected
-                      ? cs.primary
-                      : Colors.grey.shade100,
-                  borderRadius: BorderRadius.circular(14),
-                  border: Border.all(
-                    color: isSelected
-                        ? cs.primary
-                        : Colors.grey.shade300,
-                  ),
+    return AnimatedContainer(
+      duration: const Duration(milliseconds: 220),
+      curve: Curves.easeOut,
+      height: height,
+      padding: EdgeInsetsDirectional.only(
+        start: 16,
+        end: 16,
+        top: 24,
+        bottom: MediaQuery.of(context).viewInsets.bottom + 24,
+      ),
+      child: _showCategories
+          ? Column(
+              children: [
+                Row(
+                  children: [
+                    IconButton(
+                      onPressed: () => setState(() => _showCategories = false),
+                      icon: Icon(
+                        Directionality.of(context) == TextDirection.rtl
+                            ? LucideIcons.chevronRight
+                            : LucideIcons.chevronLeft,
+                      ),
+                    ),
+                    const SizedBox(width: 4),
+                    Expanded(
+                      child: Text(
+                        loc.chooseCategory,
+                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                              fontWeight: FontWeight.w800,
+                            ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                  ],
                 ),
-                child: Text(
-                  level,
-                  style: const TextStyle(
-                    fontSize: 14,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.white,
-                  ).copyWith(
-                    color: isSelected ? Colors.white : Colors.black87,
-                  ),
+                const SizedBox(height: 10),
+                Expanded(
+                  child: widget.categoryTags.isEmpty
+                      ? Center(child: Text(loc.tagUncategorized))
+                      : ListView.separated(
+                          itemCount: widget.categoryTags.length,
+                          separatorBuilder: (context, index) =>
+                              const SizedBox(height: 6),
+                          itemBuilder: (context, index) {
+                            final tag = widget.categoryTags[index];
+                            final selected = widget.selectedScope ==
+                                    WordsScope.category &&
+                                widget.selectedCategoryTag == tag;
+                            final label = localizeWordCategoryTag(loc, tag);
+                            final count = widget.categoryCounts[tag] ?? 0;
+                            return Material(
+                              color: selected
+                                  ? cs.primary.withValues(alpha: 0.10)
+                                  : Colors.transparent,
+                              borderRadius: BorderRadius.circular(14),
+                              child: ListTile(
+                                onTap: () => widget.onSelectCategory(tag),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(14),
+                                ),
+                                leading: Icon(
+                                  selected
+                                      ? LucideIcons.checkCircle2
+                                      : LucideIcons.tag,
+                                  color: selected ? cs.primary : cs.onSurfaceVariant,
+                                ),
+                                title: Text(
+                                  label,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                                trailing: Container(
+                                  padding: const EdgeInsets.symmetric(
+                                      horizontal: 10, vertical: 6),
+                                  decoration: BoxDecoration(
+                                    color: Colors.black.withValues(alpha: 0.06),
+                                    borderRadius: BorderRadius.circular(999),
+                                  ),
+                                  child: Text(
+                                    '$count',
+                                    style: Theme.of(context)
+                                        .textTheme
+                                        .labelMedium
+                                        ?.copyWith(fontWeight: FontWeight.w700),
+                                  ),
+                                ),
+                              ),
+                            );
+                          },
+                        ),
                 ),
-              ),
-            );
-          },
-        ),
-      ],
+              ],
+            )
+          : Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  loc.chooseChapter,
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w700,
+                      ),
+                ),
+                const SizedBox(height: 12),
+                GridView.builder(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount: widget.levels.length + 1,
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 3,
+                    mainAxisSpacing: 8,
+                    crossAxisSpacing: 8,
+                    childAspectRatio: 2.4,
+                  ),
+                  itemBuilder: (context, index) {
+                    final isCategoriesTile = index == widget.levels.length;
+                    final isSelected = isCategoriesTile
+                        ? widget.selectedScope == WordsScope.category
+                        : widget.selectedScope == WordsScope.level &&
+                            widget.levels[index] == widget.selectedLevel;
+
+                    final bg = isSelected ? cs.primary : Colors.grey.shade100;
+                    final border = isSelected ? cs.primary : Colors.grey.shade300;
+                    final textColor = isSelected ? Colors.white : Colors.black87;
+
+                    if (isCategoriesTile) {
+                      return GestureDetector(
+                        onTap: () => setState(() => _showCategories = true),
+                        child: Container(
+                          alignment: Alignment.center,
+                          decoration: BoxDecoration(
+                            color: bg,
+                            borderRadius: BorderRadius.circular(14),
+                            border: Border.all(color: border),
+                          ),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Icon(LucideIcons.tag, size: 16, color: textColor),
+                              const SizedBox(width: 6),
+                              Flexible(
+                                child: Text(
+                                  loc.chapterCategories,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.w600,
+                                    color: textColor,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      );
+                    }
+
+                    final level = widget.levels[index];
+                    return GestureDetector(
+                      onTap: () => widget.onSelectLevel(level),
+                      child: Container(
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: bg,
+                          borderRadius: BorderRadius.circular(14),
+                          border: Border.all(color: border),
+                        ),
+                        child: Text(
+                          level,
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600,
+                            color: textColor,
+                          ),
+                        ),
+                      ),
+                    );
+                  },
+                ),
+              ],
+            ),
     );
   }
 }

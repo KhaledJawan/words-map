@@ -33,6 +33,12 @@ migrate_working_dir/
 /build/
 /coverage/
 
+# Translation cache
+ps_cache.json
+
+# Local secrets (API keys, etc.)
+.secrets/
+
 # Symbolication related
 app.*.symbols
 

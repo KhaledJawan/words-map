@@ -3,9 +3,11 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:word_map_app/core/audio/audio_service.dart';
+import 'package:word_map_app/features/categories/word_category_localization.dart';
 import 'package:word_map_app/features/lessons/combinations_json/combinations_json_lesson_models.dart';
 import 'package:word_map_app/features/lessons/combinations_json/combinations_json_lesson_repository.dart';
 import 'package:word_map_app/features/lessons/lesson_completion_repository.dart';
+import 'package:word_map_app/l10n/app_localizations.dart';
 import 'package:word_map_app/models/app_language.dart';
 import 'package:word_map_app/models/vocab_word.dart';
 import 'package:word_map_app/services/app_state.dart';
@@ -47,15 +49,18 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
     AppLanguage lang, {
     required String en,
     required String fa,
+    String ps = '',
     required String de,
   }) {
     switch (lang) {
       case AppLanguage.fa:
         return fa.isNotEmpty ? fa : (en.isNotEmpty ? en : de);
+      case AppLanguage.ps:
+        return ps.isNotEmpty
+            ? ps
+            : (fa.isNotEmpty ? fa : (en.isNotEmpty ? en : de));
       case AppLanguage.en:
         return en.isNotEmpty ? en : (de.isNotEmpty ? de : fa);
-      case AppLanguage.de:
-        return de.isNotEmpty ? de : (en.isNotEmpty ? en : fa);
     }
   }
 
@@ -125,20 +130,25 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                       padding: const EdgeInsets.symmetric(horizontal: 20),
                       child: Builder(
                         builder: (dialogContext) {
-                          final localeCode = Localizations.localeOf(dialogContext)
-                              .languageCode;
-                          final fa = word.translationFa;
-                          final en = word.translationEn;
-                          final primary = localeCode == 'fa'
-                              ? (fa.isNotEmpty ? fa : en)
-                              : (en.isNotEmpty ? en : fa);
-                          final secondary = localeCode == 'fa'
-                              ? (en.isNotEmpty ? en : '')
-                              : (fa.isNotEmpty ? fa : '');
+                          final wordLanguages =
+                              dialogContext.read<AppState>().wordLanguages;
+                          final primaryLang = wordLanguages.first;
+                          final secondaryLang =
+                              wordLanguages.length > 1 ? wordLanguages[1] : null;
+                          final primaryRaw =
+                              word.translationFor(primaryLang).trim();
+                          final primary =
+                              primaryRaw.isNotEmpty ? primaryRaw : '—';
+                          final secondaryRaw = secondaryLang == null
+                              ? ''
+                              : word.translationFor(secondaryLang).trim();
+                          final secondary =
+                              secondaryRaw.isNotEmpty ? secondaryRaw : '';
 
                           final audioUrl = word.audio.trim();
                           final hasAudio = audioUrl.isNotEmpty;
                           final messenger = ScaffoldMessenger.of(dialogContext);
+                          final loc = AppLocalizations.of(dialogContext)!;
                           Future<void> handlePlayAudio() async {
                             if (!hasAudio) return;
                             try {
@@ -146,8 +156,8 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                             } catch (e) {
                               if (!mounted) return;
                               messenger.showSnackBar(
-                                const SnackBar(
-                                  content: Text('Audio konnte nicht abgespielt werden.'),
+                                SnackBar(
+                                  content: Text(loc.audioPlaybackFailed),
                                   duration: Duration(seconds: 2),
                                 ),
                               );
@@ -191,7 +201,11 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                             example: word.example,
                             extra: [
                               if (word.level != null) word.level,
-                              if (word.category != null) word.category,
+                              formatCategoryLabel(
+                                AppLocalizations.of(context)!,
+                                word.category,
+                                max: 2,
+                              ),
                             ].whereType<String>().join(' • '),
                             showBookmark: false,
                             isBookmarked: bookmarkedLocal,
@@ -242,18 +256,21 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                       lang,
                       en: 'Not found',
                       fa: 'پیدا نشد',
+                      ps: 'نه موندل کېږي',
                       de: 'Nicht gefunden',
                     ),
                     translationSecondary: _localized(
                       lang,
                       en: 'This word is not in your vocabulary yet.',
                       fa: 'این کلمه هنوز در واژگان شما نیست.',
+                      ps: 'دا کلمه لا ستا په لغتونو کې نشته.',
                       de: 'Dieses Wort ist noch nicht in deinem Wortschatz.',
                     ),
                     extra: _localized(
                       lang,
                       en: 'Vocabulary',
                       fa: 'واژگان',
+                      ps: 'لغتونه',
                       de: 'Wortschatz',
                     ),
                     showBookmark: false,
@@ -281,23 +298,25 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
           return const Scaffold(body: Center(child: CircularProgressIndicator()));
         }
         if (snapshot.hasError || snapshot.data == null) {
+          final loc = AppLocalizations.of(context)!;
           return Scaffold(
-            appBar: AppBar(title: const Text('Lesson')),
+            appBar: AppBar(title: Text(loc.commonLesson)),
             body: Center(
               child: Text(
-                _localized(
-                  appLanguage,
-                  en: 'Failed to load lesson.',
-                  fa: 'بارگذاری درس ناموفق بود.',
-                  de: 'Lektion konnte nicht geladen werden.',
-                ),
+                loc.lessonLoadFailed,
               ),
             ),
           );
         }
 
         final lesson = snapshot.data!;
-        final title = _localized(appLanguage, en: lesson.titleEn, fa: lesson.titleFa, de: lesson.titleDe);
+        final title = _localized(
+          appLanguage,
+          en: lesson.titleEn,
+          fa: lesson.titleFa,
+          ps: lesson.titlePs,
+          de: lesson.titleDe,
+        );
 
         return Scaffold(
           body: CustomScrollView(
@@ -349,7 +368,13 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                     [
                       if (lesson.explanations.isNotEmpty) ...[
                         Text(
-                          _localized(appLanguage, en: 'Overview', fa: 'معرفی', de: 'Überblick'),
+                          _localized(
+                            appLanguage,
+                            en: 'Overview',
+                            fa: 'معرفی',
+                            ps: 'عمومي کتنه',
+                            de: 'Überblick',
+                          ),
                           style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
                         ),
                         const SizedBox(height: 10),
@@ -358,12 +383,14 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                             appLanguage,
                             en: block.titleEn,
                             fa: block.titleFa,
+                            ps: block.titlePs,
                             de: block.titleDe,
                           );
                           final blockText = _localized(
                             appLanguage,
                             en: block.explanationEn,
                             fa: block.explanationFa,
+                            ps: block.explanationPs,
                             de: block.explanationDe,
                           );
                           return Container(
@@ -393,7 +420,13 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                       ],
                       if (lesson.combinations.isNotEmpty) ...[
                         Text(
-                          _localized(appLanguage, en: 'Combinations', fa: 'ترکیب‌ها', de: 'Kombinationen'),
+                          _localized(
+                            appLanguage,
+                            en: 'Combinations',
+                            fa: 'ترکیب‌ها',
+                            ps: 'ترکیبونه',
+                            de: 'Kombinationen',
+                          ),
                           style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
                         ),
                         const SizedBox(height: 10),
@@ -402,12 +435,14 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                             appLanguage,
                             en: rule.titleEn,
                             fa: rule.titleFa,
+                            ps: rule.titlePs,
                             de: rule.titleDe,
                           );
                           final ruleDesc = _localized(
                             appLanguage,
                             en: rule.descriptionEn,
                             fa: rule.descriptionFa,
+                            ps: rule.descriptionPs,
                             de: rule.descriptionDe,
                           );
                           final exampleKeys = rule.examples
@@ -475,6 +510,7 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                                             de: key,
                                             translationEn: '',
                                             translationFa: '',
+                                            translationPs: '',
                                             image: '',
                                           );
                                       Future<void> handleTap() async {
@@ -505,7 +541,13 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                         child: FilledButton(
                           onPressed: lesson.id.isNotEmpty ? () => _markCompleted(lesson.id) : null,
                           child: Text(
-                            _localized(appLanguage, en: 'Mark as completed', fa: 'تمام شد', de: 'Als erledigt markieren'),
+                            _localized(
+                              appLanguage,
+                              en: 'Mark as completed',
+                              fa: 'تمام شد',
+                              ps: 'بشپړ شو',
+                              de: 'Als erledigt markieren',
+                            ),
                           ),
                         ),
                       ),

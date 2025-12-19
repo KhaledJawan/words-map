@@ -75,6 +75,8 @@ class _MainPageState extends State<MainPage> {
             allWords: bundle.allWords,
             initialProgress: bundle.progress,
             initialLevel: bundle.lastLevel,
+            initialScope: bundle.lastScope,
+            initialCategoryTag: bundle.lastCategoryTag,
             levels: bundle.levels,
             repo: bundle.repo,
           ),
@@ -287,14 +289,16 @@ class _LessonsTabState extends State<LessonsTab> {
         return lesson.titleFa.isNotEmpty
             ? lesson.titleFa
             : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleDe);
+      case AppLanguage.ps:
+        return lesson.titlePs.isNotEmpty
+            ? lesson.titlePs
+            : (lesson.titleFa.isNotEmpty
+                ? lesson.titleFa
+                : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleDe));
       case AppLanguage.en:
         return lesson.titleEn.isNotEmpty
             ? lesson.titleEn
-            : (lesson.titleDe.isNotEmpty ? lesson.titleDe : lesson.titleFa);
-      case AppLanguage.de:
-        return lesson.titleDe.isNotEmpty
-            ? lesson.titleDe
-            : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleFa);
+            : (lesson.titleFa.isNotEmpty ? lesson.titleFa : lesson.titleDe);
     }
   }
 
@@ -304,14 +308,16 @@ class _LessonsTabState extends State<LessonsTab> {
         return lesson.titleFa.isNotEmpty
             ? lesson.titleFa
             : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleDe);
+      case AppLanguage.ps:
+        return lesson.titlePs.isNotEmpty
+            ? lesson.titlePs
+            : (lesson.titleFa.isNotEmpty
+                ? lesson.titleFa
+                : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleDe));
       case AppLanguage.en:
         return lesson.titleEn.isNotEmpty
             ? lesson.titleEn
-            : (lesson.titleDe.isNotEmpty ? lesson.titleDe : lesson.titleFa);
-      case AppLanguage.de:
-        return lesson.titleDe.isNotEmpty
-            ? lesson.titleDe
-            : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleFa);
+            : (lesson.titleFa.isNotEmpty ? lesson.titleFa : lesson.titleDe);
     }
   }
 
@@ -322,6 +328,12 @@ class _LessonsTabState extends State<LessonsTab> {
       final parts = <String>[];
       if (level.isNotEmpty) parts.add(level);
       if (lettersCount > 0) parts.add('$lettersCount حرف');
+      return parts.isEmpty ? '' : parts.join(' • ');
+    }
+    if (lang == AppLanguage.ps) {
+      final parts = <String>[];
+      if (level.isNotEmpty) parts.add(level);
+      if (lettersCount > 0) parts.add('$lettersCount توري');
       return parts.isEmpty ? '' : parts.join(' • ');
     }
     final parts = <String>[];
@@ -339,6 +351,12 @@ class _LessonsTabState extends State<LessonsTab> {
       if (rulesCount > 0) parts.add('$rulesCount ترکیب');
       return parts.isEmpty ? '' : parts.join(' • ');
     }
+    if (lang == AppLanguage.ps) {
+      final parts = <String>[];
+      if (level.isNotEmpty) parts.add(level);
+      if (rulesCount > 0) parts.add('$rulesCount ترکیبونه');
+      return parts.isEmpty ? '' : parts.join(' • ');
+    }
     final parts = <String>[];
     if (level.isNotEmpty) parts.add(level);
     if (rulesCount > 0) parts.add('$rulesCount rules');
@@ -351,14 +369,16 @@ class _LessonsTabState extends State<LessonsTab> {
         return lesson.levelFa.isNotEmpty
             ? lesson.levelFa
             : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelDe);
+      case AppLanguage.ps:
+        return lesson.levelPs.isNotEmpty
+            ? lesson.levelPs
+            : (lesson.levelFa.isNotEmpty
+                ? lesson.levelFa
+                : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelDe));
       case AppLanguage.en:
         return lesson.levelEn.isNotEmpty
             ? lesson.levelEn
-            : (lesson.levelDe.isNotEmpty ? lesson.levelDe : lesson.levelFa);
-      case AppLanguage.de:
-        return lesson.levelDe.isNotEmpty
-            ? lesson.levelDe
-            : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelFa);
+            : (lesson.levelFa.isNotEmpty ? lesson.levelFa : lesson.levelDe);
     }
   }
 
@@ -371,14 +391,16 @@ class _LessonsTabState extends State<LessonsTab> {
         return lesson.levelFa.isNotEmpty
             ? lesson.levelFa
             : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelDe);
+      case AppLanguage.ps:
+        return lesson.levelPs.isNotEmpty
+            ? lesson.levelPs
+            : (lesson.levelFa.isNotEmpty
+                ? lesson.levelFa
+                : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelDe));
       case AppLanguage.en:
         return lesson.levelEn.isNotEmpty
             ? lesson.levelEn
-            : (lesson.levelDe.isNotEmpty ? lesson.levelDe : lesson.levelFa);
-      case AppLanguage.de:
-        return lesson.levelDe.isNotEmpty
-            ? lesson.levelDe
-            : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelFa);
+            : (lesson.levelFa.isNotEmpty ? lesson.levelFa : lesson.levelDe);
     }
   }
 }
@@ -403,10 +425,7 @@ class _LessonCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final onGradient = ThemeData.estimateBrightnessForColor(gradientColors.first) ==
-            Brightness.dark
-        ? Colors.white
-        : Colors.black;
+    const onGradient = Colors.white;
     return InkWell(
       onTap: onTap,
       borderRadius: BorderRadius.circular(22),
@@ -528,31 +547,287 @@ class _ProfileTabState extends State<ProfileTab> {
     _settingsRepo.setDailyReminder(value);
   }
 
-  void _onLanguageChanged(String? code) {
-    if (code == null) return;
+  void _showLanguagePicker(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
     final appState = context.read<AppState>();
-    if (appState.appLocale?.languageCode == code) return;
-    if (code == 'fa') {
-      appState.changeLocale(const Locale('fa'));
-    } else {
-      appState.changeLocale(const Locale('en'));
-    }
+    final current = appState.appLanguage;
+    showModalBottomSheet<void>(
+      context: context,
+      showDragHandle: true,
+      builder: (sheetContext) {
+        final theme = Theme.of(sheetContext);
+        return SafeArea(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Padding(
+                padding:
+                    const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 12),
+                child: Align(
+                  alignment: AlignmentDirectional.centerStart,
+                  child: Text(
+                    loc.settingsSelectLanguageTitle,
+                    style: theme.textTheme.titleMedium
+                        ?.copyWith(fontWeight: FontWeight.w700),
+                  ),
+                ),
+              ),
+              ListTile(
+                leading: const Icon(LucideIcons.globe),
+                title: Text(AppLanguage.en.nativeName),
+                trailing: current == AppLanguage.en
+                    ? Icon(LucideIcons.check,
+                        color: theme.colorScheme.primary)
+                    : null,
+                onTap: () {
+                  appState.setLanguage(AppLanguage.en);
+                  Navigator.of(sheetContext).pop();
+                },
+              ),
+              ListTile(
+                leading: const Icon(LucideIcons.globe),
+                title: Text(AppLanguage.fa.nativeName),
+                trailing: current == AppLanguage.fa
+                    ? Icon(LucideIcons.check,
+                        color: theme.colorScheme.primary)
+                    : null,
+                onTap: () {
+                  appState.setLanguage(AppLanguage.fa);
+                  Navigator.of(sheetContext).pop();
+                },
+              ),
+              ListTile(
+                leading: const Icon(LucideIcons.globe),
+                title: Text(AppLanguage.ps.nativeName),
+                trailing: current == AppLanguage.ps
+                    ? Icon(LucideIcons.check,
+                        color: theme.colorScheme.primary)
+                    : null,
+                onTap: () {
+                  appState.setLanguage(AppLanguage.ps);
+                  Navigator.of(sheetContext).pop();
+                },
+              ),
+              const SizedBox(height: 12),
+            ],
+          ),
+        );
+      },
+    );
   }
 
-  void _onThemeChanged(ThemeMode? mode) {
-    if (mode == null) return;
+  void _showWordLanguagesPicker(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
     final appState = context.read<AppState>();
-    if (appState.themeMode == mode) return;
-    appState.setThemeMode(mode);
+    final messenger = ScaffoldMessenger.of(context);
+    final initial = List<AppLanguage>.of(appState.wordLanguages);
+
+    showModalBottomSheet<void>(
+      context: context,
+      showDragHandle: true,
+      builder: (sheetContext) {
+        final theme = Theme.of(sheetContext);
+        return StatefulBuilder(
+          builder: (sheetContext, setSheetState) {
+            final selected = List<AppLanguage>.of(initial);
+            void setSelected(List<AppLanguage> next) {
+              initial
+                ..clear()
+                ..addAll(next);
+              setSheetState(() {});
+              appState.setWordLanguages(next);
+            }
+
+            Widget option(AppLanguage language) {
+              final isSelected = selected.contains(language);
+              final isDisabled = !isSelected && selected.length >= 2;
+              return ListTile(
+                leading: const Icon(LucideIcons.globe),
+                title: Text(language.nativeName),
+                trailing: isSelected
+                    ? Icon(LucideIcons.check, color: theme.colorScheme.primary)
+                    : null,
+                enabled: !isDisabled,
+                onTap: isDisabled
+                    ? null
+                    : () {
+                        if (isSelected) {
+                          if (selected.length == 1) {
+                            messenger.showSnackBar(
+                              SnackBar(
+                                content: Text(loc.settingsWordLanguagesMinOne),
+                                duration: const Duration(seconds: 2),
+                              ),
+                            );
+                            return;
+                          }
+                          setSelected(
+                              selected.where((l) => l != language).toList());
+                          return;
+                        }
+                        if (selected.length >= 2) {
+                          messenger.showSnackBar(
+                            SnackBar(
+                              content: Text(loc.settingsWordLanguagesMaxTwo),
+                              duration: const Duration(seconds: 2),
+                            ),
+                          );
+                          return;
+                        }
+                        setSelected([...selected, language]);
+                      },
+              );
+            }
+
+            final subtitle = selected.map((l) => l.nativeName).join(' + ');
+
+            return SafeArea(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Padding(
+                    padding:
+                        const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 6),
+                    child: Align(
+                      alignment: AlignmentDirectional.centerStart,
+                      child: Text(
+                        loc.settingsSelectWordLanguagesTitle,
+                        style: theme.textTheme.titleMedium
+                            ?.copyWith(fontWeight: FontWeight.w700),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding:
+                        const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 12),
+                    child: Align(
+                      alignment: AlignmentDirectional.centerStart,
+                      child: Text(
+                        '${loc.settingsSelectWordLanguagesHint} • $subtitle',
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          color: theme.textTheme.bodySmall?.color
+                              ?.withValues(alpha: 0.75),
+                        ),
+                      ),
+                    ),
+                  ),
+                  option(AppLanguage.en),
+                  option(AppLanguage.fa),
+                  option(AppLanguage.ps),
+                  const SizedBox(height: 12),
+                ],
+              ),
+            );
+          },
+        );
+      },
+    );
   }
 
-  Widget _buildSectionCard(Widget child) {
-    return Card(
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: child,
-      ),
+  void _showThemePicker(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
+    final appState = context.read<AppState>();
+    final current = appState.themeMode;
+    showModalBottomSheet<void>(
+      context: context,
+      showDragHandle: true,
+      builder: (sheetContext) {
+        final theme = Theme.of(sheetContext);
+        Widget tile({
+          required ThemeMode value,
+          required String title,
+        }) {
+          return ListTile(
+            leading: Icon(
+              switch (value) {
+                ThemeMode.system => LucideIcons.smartphone,
+                ThemeMode.light => LucideIcons.sun,
+                ThemeMode.dark => LucideIcons.moon,
+              },
+            ),
+            title: Text(title),
+            trailing: current == value
+                ? Icon(LucideIcons.check, color: theme.colorScheme.primary)
+                : null,
+            onTap: () {
+              appState.setThemeMode(value);
+              Navigator.of(sheetContext).pop();
+            },
+          );
+        }
+
+        return SafeArea(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Padding(
+                padding:
+                    const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 12),
+                child: Align(
+                  alignment: AlignmentDirectional.centerStart,
+                  child: Text(
+                    loc.settingsTheme,
+                    style: theme.textTheme.titleMedium
+                        ?.copyWith(fontWeight: FontWeight.w700),
+                  ),
+                ),
+              ),
+              tile(value: ThemeMode.system, title: loc.settingsThemeSystem),
+              tile(value: ThemeMode.light, title: loc.settingsThemeLight),
+              tile(value: ThemeMode.dark, title: loc.settingsThemeDark),
+              const SizedBox(height: 12),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _section({
+    required BuildContext context,
+    required String title,
+    required List<Widget> tiles,
+  }) {
+    final theme = Theme.of(context);
+    final divider = Divider(
+      height: 1,
+      thickness: 1,
+      color: theme.dividerColor.withValues(alpha: 0.12),
+    );
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsetsDirectional.only(start: 4, bottom: 8),
+          child: Text(
+            title,
+            style: theme.textTheme.labelLarge?.copyWith(
+              fontWeight: FontWeight.w700,
+              color: theme.colorScheme.onSurface.withValues(alpha: 0.75),
+            ),
+          ),
+        ),
+        Container(
+          decoration: BoxDecoration(
+            color: theme.colorScheme.surface,
+            borderRadius: BorderRadius.circular(18),
+            border: Border.all(
+              color: theme.dividerColor.withValues(alpha: 0.14),
+            ),
+          ),
+          clipBehavior: Clip.antiAlias,
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              for (int i = 0; i < tiles.length; i++) ...[
+                if (i > 0) divider,
+                tiles[i],
+              ],
+            ],
+          ),
+        ),
+      ],
     );
   }
 
@@ -561,8 +836,16 @@ class _ProfileTabState extends State<ProfileTab> {
     final theme = Theme.of(context);
     final appState = context.watch<AppState>();
     final loc = AppLocalizations.of(context)!;
-    final languageCode = appState.appLocale?.languageCode ?? 'en';
+    final currentLanguage = appState.appLanguage;
     final currentTheme = appState.themeMode;
+    final languageLabel = currentLanguage.nativeName;
+    final wordLanguagesLabel = appState.wordLanguages.map((l) => l.nativeName).join(' + ');
+    final themeLabel = switch (currentTheme) {
+      ThemeMode.system => loc.settingsThemeSystem,
+      ThemeMode.light => loc.settingsThemeLight,
+      ThemeMode.dark => loc.settingsThemeDark,
+    };
+
     return ListView(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
       children: [
@@ -571,103 +854,65 @@ class _ProfileTabState extends State<ProfileTab> {
           style:
               theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600),
         ),
-        const SizedBox(height: 16),
-        _buildSectionCard(
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                loc.settingsLanguage,
-                style: theme.textTheme.titleMedium
-                    ?.copyWith(fontWeight: FontWeight.w600),
-              ),
-              const SizedBox(height: 4),
-              Text(
-                loc.settingsLanguageDescription,
-                style: theme.textTheme.bodySmall,
-              ),
-              const SizedBox(height: 16),
-              RadioListTile<String>(
-                value: 'en',
-                groupValue: languageCode,
-                title: Text(loc.settingsLanguageEnglish),
-                onChanged: _onLanguageChanged,
-              ),
-              RadioListTile<String>(
-                value: 'fa',
-                groupValue: languageCode,
-                title: Text(loc.settingsLanguageFarsi),
-                onChanged: _onLanguageChanged,
-              ),
-            ],
-          ),
+        const SizedBox(height: 20),
+        _section(
+          context: context,
+          title: loc.settingsLanguage,
+          tiles: [
+            ListTile(
+              leading: const Icon(LucideIcons.globe),
+              title: Text(loc.settingsAppLanguageTitle),
+              subtitle: Text(languageLabel),
+              trailing: const Icon(LucideIcons.chevronRight),
+              onTap: () => _showLanguagePicker(context),
+            ),
+            ListTile(
+              leading: const Icon(LucideIcons.languages),
+              title: Text(loc.settingsWordLanguagesTitle),
+              subtitle: Text(wordLanguagesLabel),
+              trailing: const Icon(LucideIcons.chevronRight),
+              onTap: () => _showWordLanguagesPicker(context),
+            ),
+          ],
         ),
-        const SizedBox(height: 16),
-        _buildSectionCard(
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                loc.settingsTheme,
-                style: theme.textTheme.titleMedium
-                    ?.copyWith(fontWeight: FontWeight.w600),
-              ),
-              const SizedBox(height: 4),
-              Text(
-                loc.settingsThemeDescription,
-                style: theme.textTheme.bodySmall,
-              ),
-              const SizedBox(height: 16),
-              RadioListTile<ThemeMode>(
-                value: ThemeMode.system,
-                groupValue: currentTheme,
-                title: Text(loc.settingsThemeSystem),
-                onChanged: _onThemeChanged,
-              ),
-              RadioListTile<ThemeMode>(
-                value: ThemeMode.light,
-                groupValue: currentTheme,
-                title: Text(loc.settingsThemeLight),
-                onChanged: _onThemeChanged,
-              ),
-              RadioListTile<ThemeMode>(
-                value: ThemeMode.dark,
-                groupValue: currentTheme,
-                title: Text(loc.settingsThemeDark),
-                onChanged: _onThemeChanged,
-              ),
-            ],
-          ),
+        const SizedBox(height: 18),
+        _section(
+          context: context,
+          title: loc.settingsTheme,
+          tiles: [
+            ListTile(
+              leading: const Icon(LucideIcons.palette),
+              title: Text(loc.settingsTheme),
+              subtitle: Text(themeLabel),
+              trailing: const Icon(LucideIcons.chevronRight),
+              onTap: () => _showThemePicker(context),
+            ),
+          ],
         ),
-        const SizedBox(height: 16),
-        _buildSectionCard(
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                loc.settingsNotificationsTitle,
-                style: theme.textTheme.titleMedium
-                    ?.copyWith(fontWeight: FontWeight.w600),
-              ),
-              const SizedBox(height: 4),
-              Text(
-                loc.settingsNotificationsDescription,
-                style: theme.textTheme.bodySmall,
-              ),
-              const SizedBox(height: 12),
-              SwitchListTile(
-                value: _appNotifications,
-                onChanged: _loadingSwitches ? null : _onNotificationsChanged,
-                title: Text(loc.settingsNotifications),
-              ),
-              SwitchListTile(
-                value: _dailyReminder,
-                onChanged: _loadingSwitches ? null : _onReminderChanged,
-                title: Text(loc.settingsDailyReminder),
-              ),
-            ],
-          ),
+        const SizedBox(height: 18),
+        _section(
+          context: context,
+          title: loc.settingsNotificationsTitle,
+          tiles: [
+            SwitchListTile(
+              value: _appNotifications,
+              onChanged: _loadingSwitches ? null : _onNotificationsChanged,
+              title: Text(loc.settingsNotifications),
+              secondary: const Icon(LucideIcons.bell),
+              contentPadding:
+                  const EdgeInsetsDirectional.symmetric(horizontal: 16),
+            ),
+            SwitchListTile(
+              value: _dailyReminder,
+              onChanged: _loadingSwitches ? null : _onReminderChanged,
+              title: Text(loc.settingsDailyReminder),
+              secondary: const Icon(LucideIcons.alarmClock),
+              contentPadding:
+                  const EdgeInsetsDirectional.symmetric(horizontal: 16),
+            ),
+          ],
         ),
+        const SizedBox(height: 12),
       ],
     );
   }

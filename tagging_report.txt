@@ -1,0 +1,229 @@
+files_processed=8
+total_words_tagged=2687
+top_20_tags=uncategorized:1256, noun:801, daily_life:623, verb:366, conversation_phrases:219, adjective:124, work_office:97, school_learning:77, greetings_politeness:76, a1_core:70, article:63, reflexive_verb:53, preposition:35, time_date:33, shopping_money:32, places_buildings:29, people_family:28, pronoun:26, health_body:26, services_authorities:26
+uncategorized_total=1256
+uncategorized_file=a1_1.json count=11
+  wA1-1-0089 falsch
+  wA1-1-0205 pro Woche
+  wA1-1-0250 Einladung
+  wA1-1-0274 okay
+  wA1-1-0276 Packung
+  wA1-1-0312 Kreuzung
+  wA1-1-0339 nächste Mal
+  wA1-1-0341 allein
+  wA1-1-0382 frei
+  wA1-1-0388 nett
+  wA1-1-0395 jung
+uncategorized_file=a1_2.json count=20
+  wA1-2-0009 getrennt
+  wA1-2-0023 verheiratet
+  wA1-2-0024 verwitwet
+  wA1-2-0025 zusammen
+  wA1-2-0047 fast
+  wA1-2-0058 jeder Tag
+  wA1-2-0061 früher
+  wA1-2-0066 verwandt
+  wA1-2-0070 alles in Ordnung
+  wA1-2-0081 Krankheit
+  wA1-2-0114 arbeiten von ... bis ...
+  wA1-2-0119 Kleidung
+  wA1-2-0182 Verspätung
+  wA1-2-0231 Erkältung
+  wA1-2-0235 Medikament
+  wA1-2-0241 dreimal täglich
+  wA1-2-0243 viel Wasser trinken
+  wA1-2-0247 frische Luft
+  wA1-2-0267 Überraschung
+  wA1-2-0274 Bestellung
+uncategorized_file=a2_1.json count=48
+  wA2-1-0012 überrascht
+  wA2-1-0015 verliebt
+  wA2-1-0019 zufrieden
+  wA2-1-0026 andere
+  wA2-1-0027 echt
+  wA2-1-0036 verrückt
+  wA2-1-0039 Dankbarkeit
+  wA2-1-0040 enttäuscht von
+  wA2-1-0042 genervt von
+  wA2-1-0043 geschockt von
+  wA2-1-0044 gestresst von
+  wA2-1-0046 interessiert an
+  wA2-1-0049 negativ
+  wA2-1-0050 sauer auf
+  wA2-1-0055 Zufriedenheit
+  wA2-1-0056 Ernährung
+  wA2-1-0060 Bewegung
+  wA2-1-0071 Verletzung
+  wA2-1-0094 leicht
+  wA2-1-0095 schwer
+  wA2-1-0100 Untersuchung
+  wA2-1-0110 gute Laune
+  wA2-1-0111 schlechte Laune
+  wA2-1-0117 Erholung
+  wA2-1-0135 entspannt
+  wA2-1-0136 gestresst
+  wA2-1-0137 nervös
+  wA2-1-0146 Kaution
+  wA2-1-0149 Heizung
+  wA2-1-0154 sauber
+  ... (+18 more)
+uncategorized_file=a2_2.json count=85
+  wA2-2-0002 bequem
+  wA2-2-0004 direkt
+  wA2-2-0013 möbliert
+  wA2-2-0016 renoviert
+  wA2-2-0021 sofort
+  wA2-2-0027 Vorlesung
+  wA2-2-0034 formell
+  wA2-2-0042 teilweise
+  wA2-2-0043 ganz
+  wA2-2-0066 Lösung
+  wA2-2-0072 Einigung
+  wA2-2-0074 ausnahmsweise
+  wA2-2-0081 Sicherheit
+  wA2-2-0088 Störung
+  wA2-2-0090 unerwartet
+  wA2-2-0094 Mitteilung
+  wA2-2-0100 Nachbarschaft
+  wA2-2-0117 Umgebung
+  wA2-2-0118 Entfernung
+  wA2-2-0119 weit
+  wA2-2-0120 nah
+  wA2-2-0121 Abkürzung
+  wA2-2-0124 ansagen
+  wA2-2-0126 öffentliche Verkehrsmittel
+  wA2-2-0127 Sperrung
+  wA2-2-0129 Umleitung
+  wA2-2-0150 reduziert
+  wA2-2-0163 Werbung
+  wA2-2-0166 Qualität
+  wA2-2-0168 gebraucht
+  ... (+55 more)
+uncategorized_file=b1_1.json count=174
+  wB1-1-0002 angenehm
+  wB1-1-0004 Aufenthalt
+  wB1-1-0008 Durchschnitt
+  wB1-1-0011 sich einleben
+  wB1-1-0012 einsam
+  wB1-1-0018 Gegend
+  wB1-1-0020 Heimweh
+  wB1-1-0021 Jahrhundert
+  wB1-1-0022 Jahrzehnt
+  wB1-1-0024 Jugendzentrum
+  wB1-1-0025 Mannschaft
+  wB1-1-0027 pendeln
+  wB1-1-0029 Schwierigkeit
+  wB1-1-0035 Wohnsitz
+  wB1-1-0036 einwandern
+  wB1-1-0037 auswandern
+  wB1-1-0038 Einwanderung
+  wB1-1-0039 Auswanderung
+  wB1-1-0041 ausleihen
+  wB1-1-0042 begegnen
+  wB1-1-0049 Vergnügen
+  wB1-1-0050 zufällig
+  wB1-1-0051 befreundet sein (mit)
+  wB1-1-0053 Bürgerinitiative
+  wB1-1-0054 Engagement
+  wB1-1-0055 sich engagieren für
+  wB1-1-0058 Phase
+  wB1-1-0059 Vorurteil
+  wB1-1-0066 finanziell
+  wB1-1-0067 Gewerkschaft
+  ... (+144 more)
+uncategorized_file=b1_2.json count=405
+  wB1-2-0001 abbrechen
+  wB1-2-0002 Abbruch
+  wB1-2-0004 Abgabe
+  wB1-2-0005 abwarten
+  wB1-2-0006 Abwesenheit
+  wB1-2-0007 anwesend
+  wB1-2-0008 Anwesenheit
+  wB1-2-0009 abwesend
+  wB1-2-0010 Ahnung
+  wB1-2-0011 Anlass
+  wB1-2-0012 anlässlich
+  wB1-2-0013 ankündigen
+  wB1-2-0014 Ankündigung
+  wB1-2-0015 anlächeln
+  wB1-2-0016 annehmen
+  wB1-2-0017 Annahme
+  wB1-2-0019 anspruchsvoll
+  wB1-2-0020 Anspruch
+  wB1-2-0022 Anstrengung
+  wB1-2-0023 anwenden
+  wB1-2-0026 Aufbruch
+  wB1-2-0029 aufheben
+  wB1-2-0030 Aufhebung
+  wB1-2-0031 aufwendig
+  wB1-2-0032 ausfallen
+  wB1-2-0033 Ausfall
+  wB1-2-0034 ausreichen
+  wB1-2-0035 ausreichend
+  wB1-2-0036 ausstellen
+  wB1-2-0038 Ausstellungserlaubnis
+  ... (+375 more)
+uncategorized_file=b2_1.json count=336
+  wB2-1-0001 Gastronomie
+  wB2-1-0002 Großhandel
+  wB2-1-0003 Einzelhandel
+  wB2-1-0004 Immobilienbranche
+  wB2-1-0005 IT-Branche )IT(
+  wB2-1-0007 Medien )Pl.(
+  wB2-1-0008 Metallindustrie
+  wB2-1-0009 Öffentliche Dienst
+  wB2-1-0010 Pharmaindustrie
+  wB2-1-0011 Transport und Logistik
+  wB2-1-0013 Finanzabteilung
+  wB2-1-0014 Geschäftsleitung/Geschäftsführung
+  wB2-1-0015 Kundenbetreuung
+  wB2-1-0016 Lager
+  wB2-1-0017 Marketingabteilung
+  wB2-1-0018 Personalabteilung
+  wB2-1-0019 Produktion
+  wB2-1-0022 Konkurrenz
+  wB2-1-0023 der/die Vorgesetzte
+  wB2-1-0025 Anredeform
+  wB2-1-0027 Image
+  wB2-1-0028 duzen
+  wB2-1-0029 siezen
+  wB2-1-0030 angemessen
+  wB2-1-0031 förmlich
+  wB2-1-0032 konservativ
+  wB2-1-0033 locker
+  wB2-1-0034 respektlos
+  wB2-1-0035 traditionsreich
+  wB2-1-0038 per Du/Sie sein
+  ... (+306 more)
+uncategorized_file=b2_2.json count=177
+  wB2-2-0001 der/die Arbeitgeber/-in
+  wB2-2-0003 der/die Automechaniker/-in
+  wB2-2-0004 Autoproduzent
+  wB2-2-0009 Familienbetrieb
+  wB2-2-0011 internationale Unternehmen
+  wB2-2-0012 Lebensmittelbranche
+  wB2-2-0013 Malerbetrieb
+  wB2-2-0014 soziale Bereich
+  wB2-2-0015 beschäftigen
+  wB2-2-0021 weiterführende Schule
+  wB2-2-0027 Haupt-/Realschulabschluss
+  wB2-2-0028 Abitur
+  wB2-2-0029 Mittlere Reife
+  wB2-2-0032 Bachelor
+  wB2-2-0033 Master
+  wB2-2-0034 Zertifikat
+  wB2-2-0035 mehr als
+  wB2-2-0036 weniger als
+  wB2-2-0037 (fast) alle (
+  wB2-2-0038 Hälfte
+  wB2-2-0041 jeder Zehnte
+  wB2-2-0042 der/die Ansprechpartner/-in
+  wB2-2-0043 Beratungsstelle
+  wB2-2-0045 duale Ausbildung
+  wB2-2-0047 Fortbildung
+  wB2-2-0050 staatliche Ausbildung
+  wB2-2-0053 Zugangsvoraussetzungen (Pl.)
+  wB2-2-0056 finanzielle Unterstützung (vom Staat) beantragen
+  wB2-2-0058 Pflicht sein
+  wB2-2-0060 sich selbstständig machen
+  ... (+147 more)

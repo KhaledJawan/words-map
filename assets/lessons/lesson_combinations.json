@@ -4,13 +4,17 @@
   "title_de": "Buchstabenkombinationen im Deutschen",
   "title_fa": "ترکیب حروف در آلمانی",
   "title_en": "German Letter Combinations",
+  "title_ps": "په الماني کې د تورو ترکیبونه",
 
   "explanition": [
     {
       "title_fa": "چرا ترکیب حروف را باید یاد بگیریم؟",
       "title_en": "Why do we need to learn letter combinations?",
+      "title_ps": "ولې باید د تورو ترکیبونه زده کړو؟",
+
       "explanation_fa": "در آلمانی بعضی صداها با یک حرف ساخته نمی‌شوند، بلکه با دو یا چند حرف کنار هم می‌آیند. اگر این ترکیب‌ها را بلد نباشی، کلمه را درست نمی‌خوانی و وقتی آن را می‌شنوی هم شاید نفهمی. در این درس، ترکیب‌های بسیار رایج را یاد می‌گیری (مثل: ch, sch, tsch, sp, st, ei, ie, eu/äu, au, qu, pf, ck). هدف این است که وقتی یک واژه نو دیدی، بتوانی با خواندنِ حروف و ترکیب‌ها، تلفظ آن را نزدیک به درست حدس بزنی و آسان‌تر در یاد نگه داری.",
-      "explanation_en": "In German, many sounds are made by two or more letters together. If you don’t know these combinations, you will misread words and may not understand them when you hear them. In this lesson, you learn very common combinations (such as ch, sch, tsch, sp, st, ei, ie, eu/äu, au, qu, pf, ck). The goal is to help you guess the pronunciation of new words more accurately and remember them more easily."
+      "explanation_en": "In German, many sounds are made by two or more letters together. If you don’t know these combinations, you will misread words and may not understand them when you hear them. In this lesson, you learn very common combinations (such as ch, sch, tsch, sp, st, ei, ie, eu/äu, au, qu, pf, ck). The goal is to help you guess the pronunciation of new words more accurately and remember them more easily.",
+      "explanation_ps": "په الماني ژبه کې ځینې غږونه یوازې د یوه توري له لارې نه جوړېږي، بلکې د دوو یا څو تورو په یوځای کېدو سره جوړېږي. که دا ترکیبونه ونه پېژنې، لغت به سم ونه لولې او کله چې یې واورې، ښايي سم یې ونه پوهېږې. په دې درس کې ته ډېر عام ترکیبونه زده کوې (لکه: ch, sch, tsch, sp, st, ei, ie, eu/äu, au, qu, pf, ck). موخه دا ده چې کله نوی لغت ووینې، د تورو او ترکیبونو له مخې یې تلفظ نږدې سم اټکل کړې او اسانه یې په یاد وساتې."
     }
   ],
 
@@ -20,8 +24,10 @@
       "title_de": "sch",
       "title_fa": "ترکیب sch",
       "title_en": "The combination sch",
+      "title_ps": "د sch ترکیب",
       "description_fa": "sch تقریباً همیشه مثل «ش» خوانده می‌شود.",
       "description_en": "sch is almost always pronounced like “sh”.",
+      "description_ps": "sch نږدې تل د «ش» په شان لوستل کېږي.",
       "examples": [
         { "word_ref": { "source": "assets/words", "key": "Schule" } },
         { "word_ref": { "source": "assets/words", "key": "schön" } }
@@ -32,11 +38,13 @@
       "title_de": "tsch",
       "title_fa": "ترکیب tsch",
       "title_en": "The combination tsch",
+      "title_ps": "د tsch ترکیب",
       "description_fa": "tsch معمولاً مثل «چ» خوانده می‌شود.",
       "description_en": "tsch is usually pronounced like “ch” (as in “chair”).",
+      "description_ps": "tsch معمولاً د «چ» په شان لوستل کېږي.",
       "examples": [
         { "word_ref": { "source": "assets/words", "key": "Deutsch" } },
-        { "word_ref": { "source": "assets/words", "key": "Tschüss" } }
+        { "word_ref": { "source": "assets/words", "key": "Tschüss!" } }
       ]
     },
     {
@@ -44,12 +52,14 @@
       "title_de": "ch",
       "title_fa": "ترکیب ch",
       "title_en": "The combination ch",
+      "title_ps": "د ch ترکیب",
       "description_fa": "ch معمولاً دو جور صدا دارد: (1) بعد از i, e, ä, ö, ü نرم‌تر است (مثل ich). (2) بعد از a, o, u, au خشن‌تر است (نزدیک به «خ» مثل Bach).",
       "description_en": "ch usually has two sounds: (1) after i, e, ä, ö, ü it is softer (like in ich). (2) after a, o, u, au it is harsher (similar to the sound in Bach).",
+      "description_ps": "ch عموماً دوه ډوله غږ لري: (۱) د i, e, ä, ö, ü وروسته نرم لوستل کېږي (لکه ich). (۲) د a, o, u, au وروسته سخت لوستل کېږي، نږدې د «خ» غږ ته (لکه Bach).",
       "examples": [
-        { "word_ref": { "source": "assets/words", "key": "ich" } },
+        { "word_ref": { "source": "assets/words", "key": "Milch" } },
         { "word_ref": { "source": "assets/words", "key": "Buch" } },
-        { "word_ref": { "source": "assets/words", "key": "machen" } }
+        { "word_ref": { "source": "assets/words", "key": "auch" } }
       ]
     },
     {
@@ -57,8 +67,10 @@
       "title_de": "sp / st am Wortanfang",
       "title_fa": "sp و st در سرِ کلمه",
       "title_en": "sp and st at the beginning of words",
-      "description_fa": "وقتی sp یا st در سرِ کلمه بیاید، معمولاً با صدای «شپ» یا «شت» خوانده می‌شود. (مثل sprechen = شپرِخِن، Straße = شتراسه).",
-      "description_en": "When sp or st are at the beginning, they usually start with an “sh” sound (e.g., sprechen, Straße).",
+      "title_ps": "sp او st د کلمې په پیل کې",
+      "description_fa": "وقتی sp یا st در سرِ کلمه بیاید، معمولاً با صدای «شپ» یا «شت» خوانده می‌شود.",
+      "description_en": "When sp or st are at the beginning, they usually start with an “sh” sound.",
+      "description_ps": "کله چې sp یا st د کلمې په پیل کې راشي، اکثره د «شپ» یا «شت» په شان لوستل کېږي.",
       "examples": [
         { "word_ref": { "source": "assets/words", "key": "sprechen" } },
         { "word_ref": { "source": "assets/words", "key": "Straße" } },
@@ -70,11 +82,13 @@
       "title_de": "ei",
       "title_fa": "ترکیب ei",
       "title_en": "The combination ei",
+      "title_ps": "د ei ترکیب",
       "description_fa": "ei معمولاً مثل «آی» خوانده می‌شود.",
       "description_en": "ei is usually pronounced like “eye”.",
+      "description_ps": "ei اکثر د «آی» په شان لوستل کېږي.",
       "examples": [
-        { "word_ref": { "source": "assets/words", "key": "mein" } },
-        { "word_ref": { "source": "assets/words", "key": "heiß" } }
+        { "word_ref": { "source": "assets/words", "key": "klein" } },
+        { "word_ref": { "source": "assets/words", "key": "nein" } }
       ]
     },
     {
@@ -82,10 +96,12 @@
       "title_de": "ie",
       "title_fa": "ترکیب ie",
       "title_en": "The combination ie",
-      "description_fa": "ie معمولاً «ایِ دراز» است (مثل «ایــــ»).",
+      "title_ps": "د ie ترکیب",
+      "description_fa": "ie معمولاً «ایِ دراز» است.",
       "description_en": "ie is usually a long “ee” sound.",
+      "description_ps": "ie عموماً د اوږده «ای» غږ لري.",
       "examples": [
-        { "word_ref": { "source": "assets/words", "key": "vier" } },
+        { "word_ref": { "source": "assets/words", "key": "hier" } },
         { "word_ref": { "source": "assets/words", "key": "Liebe" } }
       ]
     },
@@ -94,11 +110,13 @@
       "title_de": "eu / äu",
       "title_fa": "eu و äu",
       "title_en": "eu and äu",
-      "description_fa": "eu و äu معمولاً مثل «اُی» (oy) خوانده می‌شوند. مثال: heute ≈ هُویته، Häuser ≈ هُویزر (تقریب تلفظ).",
-      "description_en": "eu and äu are usually pronounced like “oy” (as in “boy”).",
+      "title_ps": "eu او äu",
+      "description_fa": "eu و äu معمولاً مثل «اُی» خوانده می‌شوند.",
+      "description_en": "eu and äu are usually pronounced like “oy”.",
+      "description_ps": "eu او äu اکثر د «اُی» په شان لوستل کېږي.",
       "examples": [
         { "word_ref": { "source": "assets/words", "key": "heute" } },
-        { "word_ref": { "source": "assets/words", "key": "Häuser" } }
+        { "word_ref": { "source": "assets/words", "key": "Verkäufer" } }
       ]
     },
     {
@@ -106,8 +124,10 @@
       "title_de": "au",
       "title_fa": "ترکیب au",
       "title_en": "The combination au",
+      "title_ps": "د au ترکیب",
       "description_fa": "au معمولاً مثل «آو» خوانده می‌شود.",
-      "description_en": "au is usually pronounced like “ow” (as in “now”).",
+      "description_en": "au is usually pronounced like “ow”.",
+      "description_ps": "au اکثر د «آو» په شان لوستل کېږي.",
       "examples": [
         { "word_ref": { "source": "assets/words", "key": "Haus" } },
         { "word_ref": { "source": "assets/words", "key": "Auto" } }
@@ -118,8 +138,10 @@
       "title_de": "qu",
       "title_fa": "ترکیب qu",
       "title_en": "The combination qu",
-      "description_fa": "qu تقریباً همیشه مثل «کو» (kw) خوانده می‌شود.",
+      "title_ps": "د qu ترکیب",
+      "description_fa": "qu تقریباً همیشه مثل «کو» خوانده می‌شود.",
       "description_en": "qu is usually pronounced like “kv/kw”.",
+      "description_ps": "qu نږدې تل د «کو» (kw) په شان لوستل کېږي.",
       "examples": [
         { "word_ref": { "source": "assets/words", "key": "Qualität" } },
         { "word_ref": { "source": "assets/words", "key": "Quittung" } }
@@ -130,10 +152,12 @@
       "title_de": "pf",
       "title_fa": "ترکیب pf",
       "title_en": "The combination pf",
-      "description_fa": "pf یک صدای ترکیبی است: اول «پ» بعد سریع «ف». (مثل یک «پف» کوتاه).",
-      "description_en": "pf is a combined sound: p + f together (very quick).",
+      "title_ps": "د pf ترکیب",
+      "description_fa": "pf یک صدای ترکیبی است: اول «پ» بعد سریع «ف».",
+      "description_en": "pf is a combined sound: p + f together.",
+      "description_ps": "pf یو ګډ غږ دی: لومړی «پ»، بیا ژر «ف».",
       "examples": [
-        { "word_ref": { "source": "assets/words", "key": "Pferd" } },
+        { "word_ref": { "source": "assets/words", "key": "Pfeffer" } },
         { "word_ref": { "source": "assets/words", "key": "Pfanne" } }
       ]
     },
@@ -142,11 +166,13 @@
       "title_de": "ck",
       "title_fa": "ترکیب ck",
       "title_en": "The combination ck",
-      "description_fa": "ck معمولاً مثل «ک» خوانده می‌شود و اغلب نشان می‌دهد که واکه قبل از آن کوتاه است.",
-      "description_en": "ck is pronounced like “k” and often indicates the vowel before it is short.",
+      "title_ps": "د ck ترکیب",
+      "description_fa": "ck معمولاً مثل «ک» خوانده می‌شود و نشان می‌دهد واکه قبل از آن کوتاه است.",
+      "description_en": "ck is pronounced like “k” and often shows the vowel before it is short.",
+      "description_ps": "ck د «ک» په شان لوستل کېږي او اکثر ښيي چې مخکینی واکه لنډ دی.",
       "examples": [
         { "word_ref": { "source": "assets/words", "key": "Jacke" } },
-        { "word_ref": { "source": "assets/words", "key": "dick" } }
+        { "word_ref": { "source": "assets/words", "key": "Ticket" } }
       ]
     }
   ]

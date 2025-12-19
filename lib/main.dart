@@ -75,15 +75,15 @@ class WordMapApp extends StatelessWidget {
       valueListenable: appThemeMode,
       builder: (context, mode, _) {
         final lang = appState.appLanguage;
-        final isFarsi = lang == AppLanguage.fa;
-        final fontFamily = isFarsi ? 'Vazirmatn' : 'InterVar';
+        final isRtlScript = lang == AppLanguage.fa || lang == AppLanguage.ps;
+        final fontFamily = isRtlScript ? 'Vazirmatn' : 'InterVar';
         return MaterialApp(
           title: 'Word Map',
           debugShowCheckedModeBanner: false,
           scrollBehavior: IOSScrollBehavior(),
           themeMode: mode,
-          theme: _buildLightTheme(fontFamily, isFarsi),
-          darkTheme: _buildDarkTheme(fontFamily, isFarsi),
+          theme: _buildLightTheme(fontFamily, isRtlScript),
+          darkTheme: _buildDarkTheme(fontFamily, isRtlScript),
           locale: appState.appLocale,
           localizationsDelegates: AppLocalizations.localizationsDelegates,
           supportedLocales: AppLocalizations.supportedLocales,
@@ -268,7 +268,13 @@ ThemeData _buildDarkTheme(String? fontFamily, bool isFarsi) {
       ),
     );
   }
-  final textWithFamily = base.textTheme.apply(fontFamily: fontFamily).copyWith(
+  final textWithFamily = base.textTheme
+      .apply(
+        fontFamily: fontFamily,
+        bodyColor: Colors.white70,
+        displayColor: Colors.white70,
+      )
+      .copyWith(
         titleLarge: base.textTheme.titleLarge?.copyWith(
           fontFamily: fontFamily,
           fontWeight: FontWeight.w400,

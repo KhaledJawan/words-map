@@ -15,6 +15,24 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsChangeLanguage => 'Change Language';
 
   @override
+  String get settingsAppLanguageTitle => 'App language';
+
+  @override
+  String get settingsWordLanguagesTitle => 'Word language(s)';
+
+  @override
+  String get settingsSelectWordLanguagesTitle => 'Word languages';
+
+  @override
+  String get settingsSelectWordLanguagesHint => 'Choose 1 or 2';
+
+  @override
+  String get settingsWordLanguagesMaxTwo => 'You can select up to 2 languages.';
+
+  @override
+  String get settingsWordLanguagesMinOne => 'Select at least one language.';
+
+  @override
   String get tabHome => 'Home';
 
   @override
@@ -28,6 +46,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get settingsLanguageFarsi => 'فارسی';
+
+  @override
+  String get settingsLanguagePashto => 'پښتو';
 
   @override
   String get loadWordsFailed => 'Failed to load words.';
@@ -228,4 +249,262 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get lessonRepeatAgain => 'Repeat again';
+
+  @override
+  String get chapterCategories => 'Categories';
+
+  @override
+  String get chooseCategory => 'Choose a category';
+
+  @override
+  String get categoryEmptyState => 'No words in this category yet.';
+
+  @override
+  String categoryOverview(Object category) {
+    return 'Category $category overview';
+  }
+
+  @override
+  String get homeSupportTitle => '☕️ Support WordMap';
+
+  @override
+  String get homeSupportBody => 'German got you like… 🤯?\nTap 💎 to keep the tea brewing ☕️❤️';
+
+  @override
+  String get homeSupportSupportButton => 'Support';
+
+  @override
+  String get homeSupportCloseTooltip => 'Close';
+
+  @override
+  String get commonClose => 'Close';
+
+  @override
+  String get commonLesson => 'Lesson';
+
+  @override
+  String get lessonLoadFailed => 'Failed to load lesson.';
+
+  @override
+  String get audioPlaybackFailed => 'Audio couldn’t be played.';
+
+  @override
+  String get adLoading => 'Ad is loading…';
+
+  @override
+  String get noMoreWordsTitle => 'No more words';
+
+  @override
+  String get noMoreWordsBody => 'You reached 0. Watch an ad to activate 💎 mode for 1 hour (unlimited words), or wait 1 hour to get 50 words back.';
+
+  @override
+  String get noMoreWordsWaitOneHour => 'Wait 1 hour';
+
+  @override
+  String get noMoreWordsWatchAd => 'Watch ad';
+
+  @override
+  String get diamondBadgeSubtitleActive => 'Diamond';
+
+  @override
+  String get diamondBadgeSubtitleInactive => 'Left';
+
+  @override
+  String get diamondBadgeSubtitleCooldown => 'Cooldown';
+
+  @override
+  String cooldownActive(Object time) {
+    return 'Try again in $time';
+  }
+
+  @override
+  String get updateAvailableTitle => 'New version available';
+
+  @override
+  String get updateAvailableBody => 'Please update WordMap to get the latest features.';
+
+  @override
+  String get updateAvailableLater => 'Later';
+
+  @override
+  String get updateAvailableUpdate => 'Update';
+
+  @override
+  String authError(Object error) {
+    return 'Authentication error: $error';
+  }
+
+  @override
+  String get tagA1Core => 'A1 core';
+
+  @override
+  String get tagDailyLife => 'Daily life';
+
+  @override
+  String get tagConversationPhrases => 'Conversation phrases';
+
+  @override
+  String get tagGreetingsPoliteness => 'Greetings & politeness';
+
+  @override
+  String get tagQuestionsAnswers => 'Questions & answers';
+
+  @override
+  String get tagTimeDate => 'Time & date';
+
+  @override
+  String get tagNumbersMath => 'Numbers & math';
+
+  @override
+  String get tagColorsShapes => 'Colors & shapes';
+
+  @override
+  String get tagDaysMonthsSeasons => 'Days, months & seasons';
+
+  @override
+  String get tagWeather => 'Weather';
+
+  @override
+  String get tagDirectionsNavigation => 'Directions & navigation';
+
+  @override
+  String get tagPlacesBuildings => 'Places & buildings';
+
+  @override
+  String get tagCityTransport => 'City & transport';
+
+  @override
+  String get tagTravelHolidays => 'Travel & holidays';
+
+  @override
+  String get tagHomeHousehold => 'Home & household';
+
+  @override
+  String get tagFurnitureRooms => 'Furniture & rooms';
+
+  @override
+  String get tagKitchenCooking => 'Kitchen & cooking';
+
+  @override
+  String get tagFoodDrink => 'Food & drink';
+
+  @override
+  String get tagShoppingMoney => 'Shopping & money';
+
+  @override
+  String get tagClothingFashion => 'Clothing & fashion';
+
+  @override
+  String get tagHealthBody => 'Health & body';
+
+  @override
+  String get tagFeelingsEmotions => 'Feelings & emotions';
+
+  @override
+  String get tagPeopleFamily => 'People & family';
+
+  @override
+  String get tagRelationships => 'Relationships';
+
+  @override
+  String get tagSchoolLearning => 'School & learning';
+
+  @override
+  String get tagWorkOffice => 'Work & office';
+
+  @override
+  String get tagJobsProfessions => 'Jobs & professions';
+
+  @override
+  String get tagTechnologyInternet => 'Technology & internet';
+
+  @override
+  String get tagMediaSocial => 'Media & social';
+
+  @override
+  String get tagHobbiesSports => 'Hobbies & sports';
+
+  @override
+  String get tagNatureAnimals => 'Nature & animals';
+
+  @override
+  String get tagPlantsEnvironment => 'Plants & environment';
+
+  @override
+  String get tagCultureEvents => 'Culture & events';
+
+  @override
+  String get tagServicesAuthorities => 'Services & authorities';
+
+  @override
+  String get tagReligionCulture => 'Religion & culture';
+
+  @override
+  String get tagSafetyEmergency => 'Safety & emergency';
+
+  @override
+  String get tagLawRules => 'Law & rules';
+
+  @override
+  String get tagVerb => 'Verb';
+
+  @override
+  String get tagNoun => 'Noun';
+
+  @override
+  String get tagAdjective => 'Adjective';
+
+  @override
+  String get tagAdverb => 'Adverb';
+
+  @override
+  String get tagPronoun => 'Pronoun';
+
+  @override
+  String get tagArticle => 'Article';
+
+  @override
+  String get tagPreposition => 'Preposition';
+
+  @override
+  String get tagConjunction => 'Conjunction';
+
+  @override
+  String get tagModalVerb => 'Modal verb';
+
+  @override
+  String get tagSeparableVerb => 'Separable verb';
+
+  @override
+  String get tagReflexiveVerb => 'Reflexive verb';
+
+  @override
+  String get tagIrregularVerb => 'Irregular verb';
+
+  @override
+  String get tagQuestionWord => 'Question word';
+
+  @override
+  String get tagNegation => 'Negation';
+
+  @override
+  String get tagNumbers => 'Numbers';
+
+  @override
+  String get tagTimeExpression => 'Time expression';
+
+  @override
+  String get tagPlaceExpression => 'Place expression';
+
+  @override
+  String get tagProperNoun => 'Proper noun';
+
+  @override
+  String get tagLoanwordInternational => 'Loanword (international)';
+
+  @override
+  String get tagAbbreviation => 'Abbreviation';
+
+  @override
+  String get tagUncategorized => 'Uncategorized';
 }

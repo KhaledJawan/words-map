@@ -7,6 +7,7 @@ import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
 import 'app_localizations_fa.dart';
+import 'app_localizations_ps.dart';
 
 // ignore_for_file: type=lint
 
@@ -92,7 +93,8 @@ abstract class AppLocalizations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
-    Locale('fa')
+    Locale('fa'),
+    Locale('ps')
   ];
 
   /// No description provided for @settingsTitle.
@@ -106,6 +108,42 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Change Language'**
   String get settingsChangeLanguage;
+
+  /// No description provided for @settingsAppLanguageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'App language'**
+  String get settingsAppLanguageTitle;
+
+  /// No description provided for @settingsWordLanguagesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Word language(s)'**
+  String get settingsWordLanguagesTitle;
+
+  /// No description provided for @settingsSelectWordLanguagesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Word languages'**
+  String get settingsSelectWordLanguagesTitle;
+
+  /// No description provided for @settingsSelectWordLanguagesHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose 1 or 2'**
+  String get settingsSelectWordLanguagesHint;
+
+  /// No description provided for @settingsWordLanguagesMaxTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'You can select up to 2 languages.'**
+  String get settingsWordLanguagesMaxTwo;
+
+  /// No description provided for @settingsWordLanguagesMinOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Select at least one language.'**
+  String get settingsWordLanguagesMinOne;
 
   /// No description provided for @tabHome.
   ///
@@ -136,6 +174,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'فارسی'**
   String get settingsLanguageFarsi;
+
+  /// No description provided for @settingsLanguagePashto.
+  ///
+  /// In en, this message translates to:
+  /// **'پښتو'**
+  String get settingsLanguagePashto;
 
   /// No description provided for @loadWordsFailed.
   ///
@@ -514,6 +558,510 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Repeat again'**
   String get lessonRepeatAgain;
+
+  /// No description provided for @chapterCategories.
+  ///
+  /// In en, this message translates to:
+  /// **'Categories'**
+  String get chapterCategories;
+
+  /// No description provided for @chooseCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose a category'**
+  String get chooseCategory;
+
+  /// No description provided for @categoryEmptyState.
+  ///
+  /// In en, this message translates to:
+  /// **'No words in this category yet.'**
+  String get categoryEmptyState;
+
+  /// No description provided for @categoryOverview.
+  ///
+  /// In en, this message translates to:
+  /// **'Category {category} overview'**
+  String categoryOverview(Object category);
+
+  /// No description provided for @homeSupportTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'☕️ Support WordMap'**
+  String get homeSupportTitle;
+
+  /// No description provided for @homeSupportBody.
+  ///
+  /// In en, this message translates to:
+  /// **'German got you like… 🤯?\nTap 💎 to keep the tea brewing ☕️❤️'**
+  String get homeSupportBody;
+
+  /// No description provided for @homeSupportSupportButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Support'**
+  String get homeSupportSupportButton;
+
+  /// No description provided for @homeSupportCloseTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get homeSupportCloseTooltip;
+
+  /// No description provided for @commonClose.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get commonClose;
+
+  /// No description provided for @commonLesson.
+  ///
+  /// In en, this message translates to:
+  /// **'Lesson'**
+  String get commonLesson;
+
+  /// No description provided for @lessonLoadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load lesson.'**
+  String get lessonLoadFailed;
+
+  /// No description provided for @audioPlaybackFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Audio couldn’t be played.'**
+  String get audioPlaybackFailed;
+
+  /// No description provided for @adLoading.
+  ///
+  /// In en, this message translates to:
+  /// **'Ad is loading…'**
+  String get adLoading;
+
+  /// No description provided for @noMoreWordsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'No more words'**
+  String get noMoreWordsTitle;
+
+  /// No description provided for @noMoreWordsBody.
+  ///
+  /// In en, this message translates to:
+  /// **'You reached 0. Watch an ad to activate 💎 mode for 1 hour (unlimited words), or wait 1 hour to get 50 words back.'**
+  String get noMoreWordsBody;
+
+  /// No description provided for @noMoreWordsWaitOneHour.
+  ///
+  /// In en, this message translates to:
+  /// **'Wait 1 hour'**
+  String get noMoreWordsWaitOneHour;
+
+  /// No description provided for @noMoreWordsWatchAd.
+  ///
+  /// In en, this message translates to:
+  /// **'Watch ad'**
+  String get noMoreWordsWatchAd;
+
+  /// No description provided for @diamondBadgeSubtitleActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Diamond'**
+  String get diamondBadgeSubtitleActive;
+
+  /// No description provided for @diamondBadgeSubtitleInactive.
+  ///
+  /// In en, this message translates to:
+  /// **'Left'**
+  String get diamondBadgeSubtitleInactive;
+
+  /// No description provided for @diamondBadgeSubtitleCooldown.
+  ///
+  /// In en, this message translates to:
+  /// **'Cooldown'**
+  String get diamondBadgeSubtitleCooldown;
+
+  /// No description provided for @cooldownActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again in {time}'**
+  String cooldownActive(Object time);
+
+  /// No description provided for @updateAvailableTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'New version available'**
+  String get updateAvailableTitle;
+
+  /// No description provided for @updateAvailableBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Please update WordMap to get the latest features.'**
+  String get updateAvailableBody;
+
+  /// No description provided for @updateAvailableLater.
+  ///
+  /// In en, this message translates to:
+  /// **'Later'**
+  String get updateAvailableLater;
+
+  /// No description provided for @updateAvailableUpdate.
+  ///
+  /// In en, this message translates to:
+  /// **'Update'**
+  String get updateAvailableUpdate;
+
+  /// No description provided for @authError.
+  ///
+  /// In en, this message translates to:
+  /// **'Authentication error: {error}'**
+  String authError(Object error);
+
+  /// No description provided for @tagA1Core.
+  ///
+  /// In en, this message translates to:
+  /// **'A1 core'**
+  String get tagA1Core;
+
+  /// No description provided for @tagDailyLife.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily life'**
+  String get tagDailyLife;
+
+  /// No description provided for @tagConversationPhrases.
+  ///
+  /// In en, this message translates to:
+  /// **'Conversation phrases'**
+  String get tagConversationPhrases;
+
+  /// No description provided for @tagGreetingsPoliteness.
+  ///
+  /// In en, this message translates to:
+  /// **'Greetings & politeness'**
+  String get tagGreetingsPoliteness;
+
+  /// No description provided for @tagQuestionsAnswers.
+  ///
+  /// In en, this message translates to:
+  /// **'Questions & answers'**
+  String get tagQuestionsAnswers;
+
+  /// No description provided for @tagTimeDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Time & date'**
+  String get tagTimeDate;
+
+  /// No description provided for @tagNumbersMath.
+  ///
+  /// In en, this message translates to:
+  /// **'Numbers & math'**
+  String get tagNumbersMath;
+
+  /// No description provided for @tagColorsShapes.
+  ///
+  /// In en, this message translates to:
+  /// **'Colors & shapes'**
+  String get tagColorsShapes;
+
+  /// No description provided for @tagDaysMonthsSeasons.
+  ///
+  /// In en, this message translates to:
+  /// **'Days, months & seasons'**
+  String get tagDaysMonthsSeasons;
+
+  /// No description provided for @tagWeather.
+  ///
+  /// In en, this message translates to:
+  /// **'Weather'**
+  String get tagWeather;
+
+  /// No description provided for @tagDirectionsNavigation.
+  ///
+  /// In en, this message translates to:
+  /// **'Directions & navigation'**
+  String get tagDirectionsNavigation;
+
+  /// No description provided for @tagPlacesBuildings.
+  ///
+  /// In en, this message translates to:
+  /// **'Places & buildings'**
+  String get tagPlacesBuildings;
+
+  /// No description provided for @tagCityTransport.
+  ///
+  /// In en, this message translates to:
+  /// **'City & transport'**
+  String get tagCityTransport;
+
+  /// No description provided for @tagTravelHolidays.
+  ///
+  /// In en, this message translates to:
+  /// **'Travel & holidays'**
+  String get tagTravelHolidays;
+
+  /// No description provided for @tagHomeHousehold.
+  ///
+  /// In en, this message translates to:
+  /// **'Home & household'**
+  String get tagHomeHousehold;
+
+  /// No description provided for @tagFurnitureRooms.
+  ///
+  /// In en, this message translates to:
+  /// **'Furniture & rooms'**
+  String get tagFurnitureRooms;
+
+  /// No description provided for @tagKitchenCooking.
+  ///
+  /// In en, this message translates to:
+  /// **'Kitchen & cooking'**
+  String get tagKitchenCooking;
+
+  /// No description provided for @tagFoodDrink.
+  ///
+  /// In en, this message translates to:
+  /// **'Food & drink'**
+  String get tagFoodDrink;
+
+  /// No description provided for @tagShoppingMoney.
+  ///
+  /// In en, this message translates to:
+  /// **'Shopping & money'**
+  String get tagShoppingMoney;
+
+  /// No description provided for @tagClothingFashion.
+  ///
+  /// In en, this message translates to:
+  /// **'Clothing & fashion'**
+  String get tagClothingFashion;
+
+  /// No description provided for @tagHealthBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Health & body'**
+  String get tagHealthBody;
+
+  /// No description provided for @tagFeelingsEmotions.
+  ///
+  /// In en, this message translates to:
+  /// **'Feelings & emotions'**
+  String get tagFeelingsEmotions;
+
+  /// No description provided for @tagPeopleFamily.
+  ///
+  /// In en, this message translates to:
+  /// **'People & family'**
+  String get tagPeopleFamily;
+
+  /// No description provided for @tagRelationships.
+  ///
+  /// In en, this message translates to:
+  /// **'Relationships'**
+  String get tagRelationships;
+
+  /// No description provided for @tagSchoolLearning.
+  ///
+  /// In en, this message translates to:
+  /// **'School & learning'**
+  String get tagSchoolLearning;
+
+  /// No description provided for @tagWorkOffice.
+  ///
+  /// In en, this message translates to:
+  /// **'Work & office'**
+  String get tagWorkOffice;
+
+  /// No description provided for @tagJobsProfessions.
+  ///
+  /// In en, this message translates to:
+  /// **'Jobs & professions'**
+  String get tagJobsProfessions;
+
+  /// No description provided for @tagTechnologyInternet.
+  ///
+  /// In en, this message translates to:
+  /// **'Technology & internet'**
+  String get tagTechnologyInternet;
+
+  /// No description provided for @tagMediaSocial.
+  ///
+  /// In en, this message translates to:
+  /// **'Media & social'**
+  String get tagMediaSocial;
+
+  /// No description provided for @tagHobbiesSports.
+  ///
+  /// In en, this message translates to:
+  /// **'Hobbies & sports'**
+  String get tagHobbiesSports;
+
+  /// No description provided for @tagNatureAnimals.
+  ///
+  /// In en, this message translates to:
+  /// **'Nature & animals'**
+  String get tagNatureAnimals;
+
+  /// No description provided for @tagPlantsEnvironment.
+  ///
+  /// In en, this message translates to:
+  /// **'Plants & environment'**
+  String get tagPlantsEnvironment;
+
+  /// No description provided for @tagCultureEvents.
+  ///
+  /// In en, this message translates to:
+  /// **'Culture & events'**
+  String get tagCultureEvents;
+
+  /// No description provided for @tagServicesAuthorities.
+  ///
+  /// In en, this message translates to:
+  /// **'Services & authorities'**
+  String get tagServicesAuthorities;
+
+  /// No description provided for @tagReligionCulture.
+  ///
+  /// In en, this message translates to:
+  /// **'Religion & culture'**
+  String get tagReligionCulture;
+
+  /// No description provided for @tagSafetyEmergency.
+  ///
+  /// In en, this message translates to:
+  /// **'Safety & emergency'**
+  String get tagSafetyEmergency;
+
+  /// No description provided for @tagLawRules.
+  ///
+  /// In en, this message translates to:
+  /// **'Law & rules'**
+  String get tagLawRules;
+
+  /// No description provided for @tagVerb.
+  ///
+  /// In en, this message translates to:
+  /// **'Verb'**
+  String get tagVerb;
+
+  /// No description provided for @tagNoun.
+  ///
+  /// In en, this message translates to:
+  /// **'Noun'**
+  String get tagNoun;
+
+  /// No description provided for @tagAdjective.
+  ///
+  /// In en, this message translates to:
+  /// **'Adjective'**
+  String get tagAdjective;
+
+  /// No description provided for @tagAdverb.
+  ///
+  /// In en, this message translates to:
+  /// **'Adverb'**
+  String get tagAdverb;
+
+  /// No description provided for @tagPronoun.
+  ///
+  /// In en, this message translates to:
+  /// **'Pronoun'**
+  String get tagPronoun;
+
+  /// No description provided for @tagArticle.
+  ///
+  /// In en, this message translates to:
+  /// **'Article'**
+  String get tagArticle;
+
+  /// No description provided for @tagPreposition.
+  ///
+  /// In en, this message translates to:
+  /// **'Preposition'**
+  String get tagPreposition;
+
+  /// No description provided for @tagConjunction.
+  ///
+  /// In en, this message translates to:
+  /// **'Conjunction'**
+  String get tagConjunction;
+
+  /// No description provided for @tagModalVerb.
+  ///
+  /// In en, this message translates to:
+  /// **'Modal verb'**
+  String get tagModalVerb;
+
+  /// No description provided for @tagSeparableVerb.
+  ///
+  /// In en, this message translates to:
+  /// **'Separable verb'**
+  String get tagSeparableVerb;
+
+  /// No description provided for @tagReflexiveVerb.
+  ///
+  /// In en, this message translates to:
+  /// **'Reflexive verb'**
+  String get tagReflexiveVerb;
+
+  /// No description provided for @tagIrregularVerb.
+  ///
+  /// In en, this message translates to:
+  /// **'Irregular verb'**
+  String get tagIrregularVerb;
+
+  /// No description provided for @tagQuestionWord.
+  ///
+  /// In en, this message translates to:
+  /// **'Question word'**
+  String get tagQuestionWord;
+
+  /// No description provided for @tagNegation.
+  ///
+  /// In en, this message translates to:
+  /// **'Negation'**
+  String get tagNegation;
+
+  /// No description provided for @tagNumbers.
+  ///
+  /// In en, this message translates to:
+  /// **'Numbers'**
+  String get tagNumbers;
+
+  /// No description provided for @tagTimeExpression.
+  ///
+  /// In en, this message translates to:
+  /// **'Time expression'**
+  String get tagTimeExpression;
+
+  /// No description provided for @tagPlaceExpression.
+  ///
+  /// In en, this message translates to:
+  /// **'Place expression'**
+  String get tagPlaceExpression;
+
+  /// No description provided for @tagProperNoun.
+  ///
+  /// In en, this message translates to:
+  /// **'Proper noun'**
+  String get tagProperNoun;
+
+  /// No description provided for @tagLoanwordInternational.
+  ///
+  /// In en, this message translates to:
+  /// **'Loanword (international)'**
+  String get tagLoanwordInternational;
+
+  /// No description provided for @tagAbbreviation.
+  ///
+  /// In en, this message translates to:
+  /// **'Abbreviation'**
+  String get tagAbbreviation;
+
+  /// No description provided for @tagUncategorized.
+  ///
+  /// In en, this message translates to:
+  /// **'Uncategorized'**
+  String get tagUncategorized;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
@@ -525,7 +1073,7 @@ class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> 
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['en', 'fa'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['en', 'fa', 'ps'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -538,6 +1086,7 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
   switch (locale.languageCode) {
     case 'en': return AppLocalizationsEn();
     case 'fa': return AppLocalizationsFa();
+    case 'ps': return AppLocalizationsPs();
   }
 
   throw FlutterError(

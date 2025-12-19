@@ -2,26 +2,32 @@ class AlphabetLessonExplanation {
   const AlphabetLessonExplanation({
     required this.titleEn,
     required this.titleFa,
+    required this.titlePs,
     required this.titleDe,
     required this.explanationEn,
     required this.explanationFa,
+    required this.explanationPs,
     required this.explanationDe,
   });
 
   final String titleEn;
   final String titleFa;
+  final String titlePs;
   final String titleDe;
   final String explanationEn;
   final String explanationFa;
+  final String explanationPs;
   final String explanationDe;
 
   factory AlphabetLessonExplanation.fromJson(Map<String, dynamic> json) {
     return AlphabetLessonExplanation(
       titleEn: json['title_en']?.toString() ?? '',
       titleFa: json['title_fa']?.toString() ?? '',
+      titlePs: json['title_ps']?.toString() ?? '',
       titleDe: json['title_de']?.toString() ?? '',
       explanationEn: json['explanation_en']?.toString() ?? '',
       explanationFa: json['explanation_fa']?.toString() ?? '',
+      explanationPs: json['explanation_ps']?.toString() ?? '',
       explanationDe: json['explanation_de']?.toString() ?? '',
     );
   }
@@ -33,6 +39,7 @@ class AlphabetLessonLetter {
     required this.lower,
     required this.nameDe,
     required this.faHint,
+    required this.psHint,
     required this.examples,
   });
 
@@ -40,6 +47,7 @@ class AlphabetLessonLetter {
   final String lower;
   final String nameDe;
   final String faHint;
+  final String psHint;
   final List<String> examples;
 
   factory AlphabetLessonLetter.fromJson(Map<String, dynamic> json) {
@@ -60,6 +68,7 @@ class AlphabetLessonLetter {
       lower: json['lower']?.toString() ?? '',
       nameDe: json['name_de']?.toString() ?? '',
       faHint: json['fa_hint']?.toString() ?? '',
+      psHint: json['ps_hint']?.toString() ?? '',
       examples: exampleKeys,
     );
   }
@@ -70,16 +79,20 @@ class AlphabetLessonSpecialLetter {
     required this.symbol,
     required this.nameDe,
     required this.faHint,
+    required this.psHint,
     required this.descriptionFa,
     required this.descriptionEn,
+    required this.descriptionPs,
     required this.descriptionDe,
   });
 
   final String symbol;
   final String nameDe;
   final String faHint;
+  final String psHint;
   final String descriptionFa;
   final String descriptionEn;
+  final String descriptionPs;
   final String descriptionDe;
 
   factory AlphabetLessonSpecialLetter.fromJson(Map<String, dynamic> json) {
@@ -87,8 +100,10 @@ class AlphabetLessonSpecialLetter {
       symbol: json['symbol']?.toString() ?? '',
       nameDe: json['name_de']?.toString() ?? '',
       faHint: json['fa_hint']?.toString() ?? '',
+      psHint: json['ps_hint']?.toString() ?? '',
       descriptionFa: json['description_fa']?.toString() ?? '',
       descriptionEn: json['description_en']?.toString() ?? '',
+      descriptionPs: json['description_ps']?.toString() ?? '',
       descriptionDe: json['description_de']?.toString() ?? '',
     );
   }
@@ -98,6 +113,7 @@ class AlphabetLessonAlphabetBlock {
   const AlphabetLessonAlphabetBlock({
     required this.noteFa,
     required this.noteEn,
+    required this.notePs,
     required this.noteDe,
     required this.letters,
     required this.specialLetters,
@@ -105,6 +121,7 @@ class AlphabetLessonAlphabetBlock {
 
   final String noteFa;
   final String noteEn;
+  final String notePs;
   final String noteDe;
   final List<AlphabetLessonLetter> letters;
   final List<AlphabetLessonSpecialLetter> specialLetters;
@@ -115,6 +132,7 @@ class AlphabetLessonAlphabetBlock {
     return AlphabetLessonAlphabetBlock(
       noteFa: json['note_fa']?.toString() ?? '',
       noteEn: json['note_en']?.toString() ?? '',
+      notePs: json['note_ps']?.toString() ?? '',
       noteDe: json['note_de']?.toString() ?? '',
       letters: lettersRaw is List
           ? lettersRaw
@@ -137,14 +155,17 @@ class AlphabetJsonLesson {
     required this.id,
     required this.levelEn,
     required this.levelFa,
+    required this.levelPs,
     required this.levelDe,
     required this.titleDe,
     required this.titleFa,
     required this.titleEn,
+    required this.titlePs,
     required this.explanations,
     required this.alphabet,
     required this.uiNotesFa,
     required this.uiNotesEn,
+    required this.uiNotesPs,
     required this.uiNotesDe,
     required this.assetPath,
   });
@@ -152,14 +173,17 @@ class AlphabetJsonLesson {
   final String id;
   final String levelEn;
   final String levelFa;
+  final String levelPs;
   final String levelDe;
   final String titleDe;
   final String titleFa;
   final String titleEn;
+  final String titlePs;
   final List<AlphabetLessonExplanation> explanations;
   final AlphabetLessonAlphabetBlock? alphabet;
   final String uiNotesFa;
   final String uiNotesEn;
+  final String uiNotesPs;
   final String uiNotesDe;
   final String assetPath;
 
@@ -174,10 +198,12 @@ class AlphabetJsonLesson {
       id: json['id']?.toString() ?? '',
       levelEn: json['level_en']?.toString() ?? legacyLevel,
       levelFa: json['level_fa']?.toString() ?? legacyLevel,
+      levelPs: json['level_ps']?.toString() ?? legacyLevel,
       levelDe: json['level_de']?.toString() ?? legacyLevel,
       titleDe: json['title_de']?.toString() ?? '',
       titleFa: json['title_fa']?.toString() ?? '',
       titleEn: json['title_en']?.toString() ?? '',
+      titlePs: json['title_ps']?.toString() ?? '',
       explanations: explanationsRaw is List
           ? explanationsRaw
               .whereType<Map<String, dynamic>>()
@@ -191,6 +217,7 @@ class AlphabetJsonLesson {
           : null,
       uiNotesFa: uiNotes is Map ? uiNotes['fa']?.toString() ?? '' : '',
       uiNotesEn: uiNotes is Map ? uiNotes['en']?.toString() ?? '' : '',
+      uiNotesPs: uiNotes is Map ? uiNotes['ps']?.toString() ?? '' : '',
       uiNotesDe: uiNotes is Map ? uiNotes['de']?.toString() ?? '' : '',
       assetPath: assetPath,
     );
