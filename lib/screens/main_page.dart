@@ -19,10 +19,7 @@ import 'package:word_map_app/screens/alphabet_json_lesson_page.dart';
 import 'package:word_map_app/screens/combinations_json_lesson_page.dart';
 
 class MainPage extends StatefulWidget {
-  const MainPage({
-    super.key,
-    this.initialBundle,
-  });
+  const MainPage({super.key, this.initialBundle});
 
   final WordsInitBundle? initialBundle;
 
@@ -63,11 +60,7 @@ class _MainPageState extends State<MainPage> {
           );
         }
         if (snapshot.hasError) {
-          return Scaffold(
-            body: Center(
-              child: Text(loc.loadWordsFailed),
-            ),
-          );
+          return Scaffold(body: Center(child: Text(loc.loadWordsFailed)));
         }
         final bundle = snapshot.data!;
         final tabs = [
@@ -85,10 +78,7 @@ class _MainPageState extends State<MainPage> {
         ];
         return Scaffold(
           body: SafeArea(
-            child: IndexedStack(
-              index: _currentIndex,
-              children: tabs,
-            ),
+            child: IndexedStack(index: _currentIndex, children: tabs),
           ),
           bottomNavigationBar: Directionality(
             textDirection: TextDirection.ltr,
@@ -97,21 +87,15 @@ class _MainPageState extends State<MainPage> {
               onTap: _selectTab,
               items: [
                 BottomNavigationBarItem(
-                  icon: const Icon(
-                    LucideIcons.home,
-                  ),
+                  icon: const Icon(LucideIcons.home),
                   label: loc.tabHome,
                 ),
                 BottomNavigationBarItem(
-                  icon: const Icon(
-                    LucideIcons.bookOpenCheck,
-                  ),
+                  icon: const Icon(LucideIcons.bookOpenCheck),
                   label: loc.tabLessons,
                 ),
                 BottomNavigationBarItem(
-                  icon: const Icon(
-                    LucideIcons.userCog,
-                  ),
+                  icon: const Icon(LucideIcons.userCog),
                   label: loc.tabProfile,
                 ),
               ],
@@ -124,10 +108,7 @@ class _MainPageState extends State<MainPage> {
 }
 
 class LessonsTab extends StatefulWidget {
-  const LessonsTab({
-    super.key,
-    required this.allWords,
-  });
+  const LessonsTab({super.key, required this.allWords});
 
   final List<VocabWord> allWords;
 
@@ -136,10 +117,7 @@ class LessonsTab extends StatefulWidget {
 }
 
 class _LessonsTabData {
-  const _LessonsTabData({
-    required this.alphabet,
-    required this.combinations,
-  });
+  const _LessonsTabData({required this.alphabet, required this.combinations});
 
   final AlphabetJsonLesson alphabet;
   final CombinationsJsonLesson combinations;
@@ -150,27 +128,48 @@ class _LessonsTabState extends State<LessonsTab> {
   bool _isLoading = true;
   final LessonCompletionRepository _completionRepo =
       LessonCompletionRepository();
-  late final Future<_LessonsTabData> _lessonsFuture;
+  Future<_LessonsTabData>? _lessonsFuture;
+  AppLanguage? _loadedSourceLanguage;
 
-  static const String _alphabetLessonAssetPath =
-      'assets/lessons/lesson_alphabet.json';
-  static const String _combinationsLessonAssetPath =
-      'assets/lessons/lesson_combinations.json';
+  static const Map<AppLanguage, String> _lessonAssetBySourceLanguage = {
+    AppLanguage.de: 'assets/lessons/lesson_de.json',
+    AppLanguage.en: 'assets/lessons/lesson_en.json',
+    AppLanguage.fa: 'assets/lessons/lesson_fa.json',
+    AppLanguage.ps: 'assets/lessons/lesson_ps.json',
+    AppLanguage.fr: 'assets/lessons/lesson_fr.json',
+    AppLanguage.tr: 'assets/lessons/lesson_tr.json',
+  };
 
   @override
   void initState() {
     super.initState();
-    _lessonsFuture = _loadLessons();
+    final sourceLanguage = context.read<AppState>().sourceWordLanguage;
+    _loadedSourceLanguage = sourceLanguage;
+    _lessonsFuture = _loadLessons(sourceLanguage);
     _loadCompletedLessons();
   }
 
-  Future<_LessonsTabData> _loadLessons() async {
+  String _lessonAssetPathFor(AppLanguage sourceLanguage) {
+    return _lessonAssetBySourceLanguage[sourceLanguage] ??
+        'assets/lessons/lesson_de.json';
+  }
+
+  void _ensureLessonsFuture(AppLanguage sourceLanguage) {
+    if (_loadedSourceLanguage == sourceLanguage && _lessonsFuture != null) {
+      return;
+    }
+    _loadedSourceLanguage = sourceLanguage;
+    _lessonsFuture = _loadLessons(sourceLanguage);
+  }
+
+  Future<_LessonsTabData> _loadLessons(AppLanguage sourceLanguage) async {
+    final assetPath = _lessonAssetPathFor(sourceLanguage);
     final results = await Future.wait([
       AssetAlphabetJsonLessonRepository(
-        assetPath: _alphabetLessonAssetPath,
+        assetPath: assetPath,
       ).loadLesson(),
       AssetCombinationsJsonLessonRepository(
-        assetPath: _combinationsLessonAssetPath,
+        assetPath: assetPath,
       ).loadLesson(),
     ]);
     final alphabet = results[0] as AlphabetJsonLesson;
@@ -194,92 +193,109 @@ class _LessonsTabState extends State<LessonsTab> {
     if (_isLoading) {
       return const Center(child: CircularProgressIndicator());
     }
-    final loc = AppLocalizations.of(context)!;
-    final appLanguage = context.watch<AppState>().appLanguage;
-    return FutureBuilder<_LessonsTabData>(
-      future: _lessonsFuture,
-      builder: (context, snapshot) {
-        if (snapshot.connectionState != ConnectionState.done) {
-          return const Center(child: CircularProgressIndicator());
-        }
-        if (snapshot.hasError) {
-          return Center(child: Text(loc.lessonsStatusComingSoon));
-        }
-        final data = snapshot.data;
-        if (data == null) {
-          return Center(child: Text(loc.lessonsStatusComingSoon));
-        }
+    final appState = context.watch<AppState>();
+    final lessonLanguage = appState.targetWordLanguage;
+    final appLanguage = lessonLanguage;
+    final sourceLanguage = appState.sourceWordLanguage;
+    _ensureLessonsFuture(sourceLanguage);
+    final lessonAssetPath = _lessonAssetPathFor(sourceLanguage);
+    return Localizations.override(
+      context: context,
+      locale: lessonLanguage.locale,
+      child: Builder(
+        builder: (localizedContext) {
+          final loc = AppLocalizations.of(localizedContext)!;
+          return FutureBuilder<_LessonsTabData>(
+            future: _lessonsFuture,
+            builder: (context, snapshot) {
+              if (snapshot.connectionState != ConnectionState.done) {
+                return const Center(child: CircularProgressIndicator());
+              }
+              if (snapshot.hasError) {
+                return Center(child: Text(loc.lessonsStatusComingSoon));
+              }
+              final data = snapshot.data;
+              if (data == null) {
+                return Center(child: Text(loc.lessonsStatusComingSoon));
+              }
 
-        final alphabet = data.alphabet;
-        final combinations = data.combinations;
-        final alphabetCompleted = _completedLessonIds.contains(alphabet.id);
-        final combinationsCompleted =
-            _completedLessonIds.contains(combinations.id);
+              final alphabet = data.alphabet;
+              final combinations = data.combinations;
+              final alphabetCompleted = _completedLessonIds.contains(alphabet.id);
+              final combinationsCompleted = _completedLessonIds.contains(
+                combinations.id,
+              );
 
-        return ListView(
-          padding: const EdgeInsets.all(16),
-          children: [
-            Text(
-              loc.lessonsTitle,
-              style: Theme.of(context)
-                  .textTheme
-                  .titleLarge
-                  ?.copyWith(fontWeight: FontWeight.w600),
-            ),
-            const SizedBox(height: 16),
-            _LessonCard(
-              badge: const Icon(Icons.abc),
-              title: _localizedAlphabetTitle(alphabet, appLanguage),
-              subtitle: _buildAlphabetSubtitle(alphabet, appLanguage),
-              gradientColors: [
-                Theme.of(context).colorScheme.primary,
-                Theme.of(context).colorScheme.primary.withValues(alpha: 0.78),
-              ],
-              isCompleted: alphabetCompleted,
-              onTap: () async {
-                final result = await Navigator.of(context).push<bool>(
-                  MaterialPageRoute(
-                    builder: (_) => AlphabetJsonLessonPage(
-                      assetPath: _alphabetLessonAssetPath,
-                      allWords: widget.allWords,
-                      initialLesson: alphabet,
-                    ),
+              return ListView(
+                padding: const EdgeInsets.all(16),
+                children: [
+                  Text(
+                    loc.lessonsTitle,
+                    style: Theme.of(
+                      context,
+                    ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600),
                   ),
-                );
-                if (result == true && _completedLessonIds.add(alphabet.id)) {
-                  setState(() {});
-                }
-              },
-            ),
-            const SizedBox(height: 14),
-            _LessonCard(
-              badge: const Icon(Icons.link),
-              title: _localizedCombinationsTitle(combinations, appLanguage),
-              subtitle: _buildCombinationsSubtitle(combinations, appLanguage),
-              gradientColors: [
-                Theme.of(context).colorScheme.secondary,
-                Theme.of(context).colorScheme.secondary.withValues(alpha: 0.82),
-              ],
-              isCompleted: combinationsCompleted,
-              onTap: () async {
-                final result = await Navigator.of(context).push<bool>(
-                  MaterialPageRoute(
-                    builder: (_) => CombinationsJsonLessonPage(
-                      assetPath: _combinationsLessonAssetPath,
-                      allWords: widget.allWords,
-                      initialLesson: combinations,
-                    ),
+                  const SizedBox(height: 16),
+                  _LessonCard(
+                    badge: const Icon(Icons.abc),
+                    title: _localizedAlphabetTitle(alphabet, appLanguage),
+                    subtitle: _buildAlphabetSubtitle(alphabet, appLanguage),
+                    gradientColors: [
+                      Theme.of(context).colorScheme.primary,
+                      Theme.of(context).colorScheme.primary.withValues(
+                        alpha: 0.78,
+                      ),
+                    ],
+                    isCompleted: alphabetCompleted,
+                    onTap: () async {
+                      final result = await Navigator.of(context).push<bool>(
+                        MaterialPageRoute(
+                          builder: (_) => AlphabetJsonLessonPage(
+                            assetPath: lessonAssetPath,
+                            allWords: widget.allWords,
+                            initialLesson: alphabet,
+                          ),
+                        ),
+                      );
+                      if (result == true && _completedLessonIds.add(alphabet.id)) {
+                        setState(() {});
+                      }
+                    },
                   ),
-                );
-                if (result == true &&
-                    _completedLessonIds.add(combinations.id)) {
-                  setState(() {});
-                }
-              },
-            ),
-          ],
-        );
-      },
+                  const SizedBox(height: 14),
+                  _LessonCard(
+                    badge: const Icon(Icons.link),
+                    title: _localizedCombinationsTitle(combinations, appLanguage),
+                    subtitle: _buildCombinationsSubtitle(combinations, appLanguage),
+                    gradientColors: [
+                      Theme.of(context).colorScheme.secondary,
+                      Theme.of(context).colorScheme.secondary.withValues(
+                        alpha: 0.82,
+                      ),
+                    ],
+                    isCompleted: combinationsCompleted,
+                    onTap: () async {
+                      final result = await Navigator.of(context).push<bool>(
+                        MaterialPageRoute(
+                          builder: (_) => CombinationsJsonLessonPage(
+                            assetPath: lessonAssetPath,
+                            allWords: widget.allWords,
+                            initialLesson: combinations,
+                          ),
+                        ),
+                      );
+                      if (result == true &&
+                          _completedLessonIds.add(combinations.id)) {
+                        setState(() {});
+                      }
+                    },
+                  ),
+                ],
+              );
+            },
+          );
+        },
+      ),
     );
   }
 
@@ -288,36 +304,51 @@ class _LessonsTabState extends State<LessonsTab> {
       case AppLanguage.fa:
         return lesson.titleFa.isNotEmpty
             ? lesson.titleFa
-            : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleDe);
+            : lesson.titleEn;
       case AppLanguage.ps:
         return lesson.titlePs.isNotEmpty
             ? lesson.titlePs
             : (lesson.titleFa.isNotEmpty
-                ? lesson.titleFa
-                : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleDe));
+                  ? lesson.titleFa
+                  : lesson.titleEn);
       case AppLanguage.en:
-        return lesson.titleEn.isNotEmpty
-            ? lesson.titleEn
-            : (lesson.titleFa.isNotEmpty ? lesson.titleFa : lesson.titleDe);
+        return lesson.titleEn;
+      case AppLanguage.fr:
+        return lesson.titleEn;
+      case AppLanguage.tr:
+        return lesson.titleEn;
+      case AppLanguage.de:
+        return lesson.titleDe.isNotEmpty
+            ? lesson.titleDe
+            : lesson.titleEn;
     }
   }
 
-  String _localizedCombinationsTitle(CombinationsJsonLesson lesson, AppLanguage lang) {
+  String _localizedCombinationsTitle(
+    CombinationsJsonLesson lesson,
+    AppLanguage lang,
+  ) {
     switch (lang) {
       case AppLanguage.fa:
         return lesson.titleFa.isNotEmpty
             ? lesson.titleFa
-            : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleDe);
+            : lesson.titleEn;
       case AppLanguage.ps:
         return lesson.titlePs.isNotEmpty
             ? lesson.titlePs
             : (lesson.titleFa.isNotEmpty
-                ? lesson.titleFa
-                : (lesson.titleEn.isNotEmpty ? lesson.titleEn : lesson.titleDe));
+                  ? lesson.titleFa
+                  : lesson.titleEn);
       case AppLanguage.en:
-        return lesson.titleEn.isNotEmpty
-            ? lesson.titleEn
-            : (lesson.titleFa.isNotEmpty ? lesson.titleFa : lesson.titleDe);
+        return lesson.titleEn;
+      case AppLanguage.fr:
+        return lesson.titleEn;
+      case AppLanguage.tr:
+        return lesson.titleEn;
+      case AppLanguage.de:
+        return lesson.titleDe.isNotEmpty
+            ? lesson.titleDe
+            : lesson.titleEn;
     }
   }
 
@@ -336,13 +367,22 @@ class _LessonsTabState extends State<LessonsTab> {
       if (lettersCount > 0) parts.add('$lettersCount توري');
       return parts.isEmpty ? '' : parts.join(' • ');
     }
+    if (lang == AppLanguage.de) {
+      final parts = <String>[];
+      if (level.isNotEmpty) parts.add(level);
+      if (lettersCount > 0) parts.add('$lettersCount Buchstaben');
+      return parts.isEmpty ? '' : parts.join(' • ');
+    }
     final parts = <String>[];
     if (level.isNotEmpty) parts.add(level);
     if (lettersCount > 0) parts.add('$lettersCount letters');
     return parts.isEmpty ? '' : parts.join(' • ');
   }
 
-  String _buildCombinationsSubtitle(CombinationsJsonLesson lesson, AppLanguage lang) {
+  String _buildCombinationsSubtitle(
+    CombinationsJsonLesson lesson,
+    AppLanguage lang,
+  ) {
     final rulesCount = lesson.combinations.length;
     final level = _localizedLessonLevelCombinations(lesson, lang);
     if (lang == AppLanguage.fa) {
@@ -357,6 +397,12 @@ class _LessonsTabState extends State<LessonsTab> {
       if (rulesCount > 0) parts.add('$rulesCount ترکیبونه');
       return parts.isEmpty ? '' : parts.join(' • ');
     }
+    if (lang == AppLanguage.de) {
+      final parts = <String>[];
+      if (level.isNotEmpty) parts.add(level);
+      if (rulesCount > 0) parts.add('$rulesCount Regeln');
+      return parts.isEmpty ? '' : parts.join(' • ');
+    }
     final parts = <String>[];
     if (level.isNotEmpty) parts.add(level);
     if (rulesCount > 0) parts.add('$rulesCount rules');
@@ -368,17 +414,23 @@ class _LessonsTabState extends State<LessonsTab> {
       case AppLanguage.fa:
         return lesson.levelFa.isNotEmpty
             ? lesson.levelFa
-            : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelDe);
+            : lesson.levelEn;
       case AppLanguage.ps:
         return lesson.levelPs.isNotEmpty
             ? lesson.levelPs
             : (lesson.levelFa.isNotEmpty
-                ? lesson.levelFa
-                : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelDe));
+                  ? lesson.levelFa
+                  : lesson.levelEn);
       case AppLanguage.en:
-        return lesson.levelEn.isNotEmpty
-            ? lesson.levelEn
-            : (lesson.levelFa.isNotEmpty ? lesson.levelFa : lesson.levelDe);
+        return lesson.levelEn;
+      case AppLanguage.fr:
+        return lesson.levelEn;
+      case AppLanguage.tr:
+        return lesson.levelEn;
+      case AppLanguage.de:
+        return lesson.levelDe.isNotEmpty
+            ? lesson.levelDe
+            : lesson.levelEn;
     }
   }
 
@@ -390,17 +442,23 @@ class _LessonsTabState extends State<LessonsTab> {
       case AppLanguage.fa:
         return lesson.levelFa.isNotEmpty
             ? lesson.levelFa
-            : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelDe);
+            : lesson.levelEn;
       case AppLanguage.ps:
         return lesson.levelPs.isNotEmpty
             ? lesson.levelPs
             : (lesson.levelFa.isNotEmpty
-                ? lesson.levelFa
-                : (lesson.levelEn.isNotEmpty ? lesson.levelEn : lesson.levelDe));
+                  ? lesson.levelFa
+                  : lesson.levelEn);
       case AppLanguage.en:
-        return lesson.levelEn.isNotEmpty
-            ? lesson.levelEn
-            : (lesson.levelFa.isNotEmpty ? lesson.levelFa : lesson.levelDe);
+        return lesson.levelEn;
+      case AppLanguage.fr:
+        return lesson.levelEn;
+      case AppLanguage.tr:
+        return lesson.levelEn;
+      case AppLanguage.de:
+        return lesson.levelDe.isNotEmpty
+            ? lesson.levelDe
+            : lesson.levelEn;
     }
   }
 }
@@ -457,10 +515,7 @@ class _LessonCard extends StatelessWidget {
               ),
               alignment: Alignment.center,
               child: IconTheme(
-                data: IconThemeData(
-                  color: onGradient,
-                  size: 26,
-                ),
+                data: IconThemeData(color: onGradient, size: 26),
                 child: badge,
               ),
             ),
@@ -561,14 +616,14 @@ class _ProfileTabState extends State<ProfileTab> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Padding(
-                padding:
-                    const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 12),
+                padding: const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 12),
                 child: Align(
                   alignment: AlignmentDirectional.centerStart,
                   child: Text(
                     loc.settingsSelectLanguageTitle,
-                    style: theme.textTheme.titleMedium
-                        ?.copyWith(fontWeight: FontWeight.w700),
+                    style: theme.textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.w700,
+                    ),
                   ),
                 ),
               ),
@@ -576,8 +631,7 @@ class _ProfileTabState extends State<ProfileTab> {
                 leading: const Icon(LucideIcons.globe),
                 title: Text(AppLanguage.en.nativeName),
                 trailing: current == AppLanguage.en
-                    ? Icon(LucideIcons.check,
-                        color: theme.colorScheme.primary)
+                    ? Icon(LucideIcons.check, color: theme.colorScheme.primary)
                     : null,
                 onTap: () {
                   appState.setLanguage(AppLanguage.en);
@@ -588,8 +642,7 @@ class _ProfileTabState extends State<ProfileTab> {
                 leading: const Icon(LucideIcons.globe),
                 title: Text(AppLanguage.fa.nativeName),
                 trailing: current == AppLanguage.fa
-                    ? Icon(LucideIcons.check,
-                        color: theme.colorScheme.primary)
+                    ? Icon(LucideIcons.check, color: theme.colorScheme.primary)
                     : null,
                 onTap: () {
                   appState.setLanguage(AppLanguage.fa);
@@ -600,8 +653,7 @@ class _ProfileTabState extends State<ProfileTab> {
                 leading: const Icon(LucideIcons.globe),
                 title: Text(AppLanguage.ps.nativeName),
                 trailing: current == AppLanguage.ps
-                    ? Icon(LucideIcons.check,
-                        color: theme.colorScheme.primary)
+                    ? Icon(LucideIcons.check, color: theme.colorScheme.primary)
                     : null,
                 onTap: () {
                   appState.setLanguage(AppLanguage.ps);
@@ -617,104 +669,277 @@ class _ProfileTabState extends State<ProfileTab> {
   }
 
   void _showWordLanguagesPicker(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
     final appState = context.read<AppState>();
-    final messenger = ScaffoldMessenger.of(context);
-    final initial = List<AppLanguage>.of(appState.wordLanguages);
+    final uiLanguage = appState.appLanguage;
+    final allOptions = const <AppLanguage>[
+      AppLanguage.de,
+      AppLanguage.en,
+      AppLanguage.fr,
+      AppLanguage.tr,
+      AppLanguage.fa,
+      AppLanguage.ps,
+    ];
+    AppLanguage source = appState.sourceWordLanguage;
+    AppLanguage target = appState.targetWordLanguage;
+    if (target == source) {
+      target = allOptions.firstWhere((lang) => lang != source);
+    }
+
+    String copy({required String en, required String fa, required String ps}) {
+      switch (uiLanguage) {
+        case AppLanguage.fa:
+          return fa;
+        case AppLanguage.ps:
+          return ps;
+        case AppLanguage.en:
+        case AppLanguage.fr:
+        case AppLanguage.de:
+        case AppLanguage.tr:
+          return en;
+      }
+    }
 
     showModalBottomSheet<void>(
       context: context,
+      isScrollControlled: true,
       showDragHandle: true,
       builder: (sheetContext) {
         final theme = Theme.of(sheetContext);
         return StatefulBuilder(
           builder: (sheetContext, setSheetState) {
-            final selected = List<AppLanguage>.of(initial);
-            void setSelected(List<AppLanguage> next) {
-              initial
-                ..clear()
-                ..addAll(next);
-              setSheetState(() {});
-              appState.setWordLanguages(next);
-            }
+            List<AppLanguage> targetOptions() =>
+                allOptions.where((lang) => lang != source).toList();
 
-            Widget option(AppLanguage language) {
-              final isSelected = selected.contains(language);
-              final isDisabled = !isSelected && selected.length >= 2;
-              return ListTile(
-                leading: const Icon(LucideIcons.globe),
-                title: Text(language.nativeName),
-                trailing: isSelected
-                    ? Icon(LucideIcons.check, color: theme.colorScheme.primary)
-                    : null,
-                enabled: !isDisabled,
-                onTap: isDisabled
-                    ? null
-                    : () {
-                        if (isSelected) {
-                          if (selected.length == 1) {
-                            messenger.showSnackBar(
-                              SnackBar(
-                                content: Text(loc.settingsWordLanguagesMinOne),
-                                duration: const Duration(seconds: 2),
-                              ),
-                            );
-                            return;
-                          }
-                          setSelected(
-                              selected.where((l) => l != language).toList());
-                          return;
-                        }
-                        if (selected.length >= 2) {
-                          messenger.showSnackBar(
-                            SnackBar(
-                              content: Text(loc.settingsWordLanguagesMaxTwo),
-                              duration: const Duration(seconds: 2),
-                            ),
-                          );
-                          return;
-                        }
-                        setSelected([...selected, language]);
-                      },
+            Widget languageDropdown({
+              required String label,
+              required String hint,
+              required AppLanguage value,
+              required List<AppLanguage> options,
+              required ValueChanged<AppLanguage?> onChanged,
+              required IconData icon,
+            }) {
+              return Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    label,
+                    style: theme.textTheme.labelLarge?.copyWith(
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  DropdownButtonFormField<AppLanguage>(
+                    value: value,
+                    isExpanded: true,
+                    icon: const Icon(LucideIcons.chevronsUpDown),
+                    decoration: InputDecoration(
+                      hintText: hint,
+                      prefixIcon: Icon(icon),
+                      filled: true,
+                      fillColor: theme.colorScheme.surfaceContainerHighest
+                          .withValues(alpha: 0.45),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(14),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(14),
+                        borderSide: BorderSide(
+                          color: theme.dividerColor.withValues(alpha: 0.2),
+                        ),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(14),
+                        borderSide: BorderSide(
+                          color: theme.colorScheme.primary,
+                          width: 1.5,
+                        ),
+                      ),
+                    ),
+                    items: options
+                        .map(
+                          (lang) => DropdownMenuItem<AppLanguage>(
+                            value: lang,
+                            child: Text(lang.nativeName),
+                          ),
+                        )
+                        .toList(growable: false),
+                    onChanged: onChanged,
+                  ),
+                ],
               );
             }
-
-            final subtitle = selected.map((l) => l.nativeName).join(' + ');
 
             return SafeArea(
               child: Column(
                 mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 6),
-                    child: Align(
-                      alignment: AlignmentDirectional.centerStart,
-                      child: Text(
-                        loc.settingsSelectWordLanguagesTitle,
-                        style: theme.textTheme.titleMedium
-                            ?.copyWith(fontWeight: FontWeight.w700),
-                      ),
+                    padding: EdgeInsetsDirectional.fromSTEB(
+                      16,
+                      0,
+                      16,
+                      16 + MediaQuery.of(sheetContext).viewInsets.bottom,
                     ),
-                  ),
-                  Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 12),
-                    child: Align(
-                      alignment: AlignmentDirectional.centerStart,
-                      child: Text(
-                        '${loc.settingsSelectWordLanguagesHint} • $subtitle',
-                        style: theme.textTheme.bodySmall?.copyWith(
-                          color: theme.textTheme.bodySmall?.color
-                              ?.withValues(alpha: 0.75),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Icon(
+                              LucideIcons.languages,
+                              color: theme.colorScheme.primary,
+                            ),
+                            const SizedBox(width: 8),
+                            Text(
+                              copy(
+                                en: 'Word Pair',
+                                fa: 'جفت واژه',
+                                ps: 'د لغت جوړه',
+                              ),
+                              style: theme.textTheme.titleMedium?.copyWith(
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                          ],
                         ),
-                      ),
+                        const SizedBox(height: 6),
+                        Text(
+                          copy(
+                            en: 'Set your learning and translation languages.',
+                            fa: 'زبان یادگیری و زبان ترجمه را انتخاب کنید.',
+                            ps: 'د زده کړې ژبه او د ژباړې ژبه وټاکئ.',
+                          ),
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            color: theme.textTheme.bodySmall?.color?.withValues(
+                              alpha: 0.8,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 16),
+                        languageDropdown(
+                          label: copy(
+                            en: 'Learn In',
+                            fa: 'زبان یادگیری',
+                            ps: 'د زده کړې ژبه',
+                          ),
+                          hint: copy(
+                            en: 'Language shown on word cards',
+                            fa: 'زبان خود واژه‌ها',
+                            ps: 'د لغتونو ژبه',
+                          ),
+                          value: source,
+                          options: allOptions,
+                          icon: LucideIcons.bookOpen,
+                          onChanged: (next) {
+                            if (next == null) return;
+                            setSheetState(() {
+                              source = next;
+                              if (target == source) {
+                                target = targetOptions().first;
+                              }
+                            });
+                          },
+                        ),
+                        const SizedBox(height: 12),
+                        languageDropdown(
+                          label: copy(
+                            en: 'Translate To',
+                            fa: 'زبان معنی',
+                            ps: 'د مانا ژبه',
+                          ),
+                          hint: copy(
+                            en: 'Language used for meanings',
+                            fa: 'زبان ترجمه‌ها',
+                            ps: 'د ژباړې ژبه',
+                          ),
+                          value: target,
+                          options: targetOptions(),
+                          icon: LucideIcons.languages,
+                          onChanged: (next) {
+                            if (next == null) return;
+                            setSheetState(() => target = next);
+                          },
+                        ),
+                        const SizedBox(height: 14),
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 14,
+                            vertical: 10,
+                          ),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            color: theme.colorScheme.surfaceContainerHighest
+                                .withValues(alpha: 0.55),
+                          ),
+                          child: Row(
+                            children: [
+                              Icon(
+                                LucideIcons.sparkles,
+                                size: 16,
+                                color: theme.colorScheme.primary,
+                              ),
+                              const SizedBox(width: 8),
+                              Expanded(
+                                child: Text(
+                                  '${source.nativeName}  ->  ${target.nativeName}',
+                                  style: theme.textTheme.bodyMedium?.copyWith(
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const SizedBox(height: 14),
+                        Row(
+                          children: [
+                            Expanded(
+                              child: TextButton(
+                                onPressed: () =>
+                                    Navigator.of(sheetContext).pop(),
+                                style: TextButton.styleFrom(
+                                  minimumSize: const Size(0, 44),
+                                  backgroundColor: theme
+                                      .colorScheme
+                                      .surfaceContainerHighest
+                                      .withValues(alpha: 0.55),
+                                  foregroundColor: theme.colorScheme.onSurface,
+                                  shape: const StadiumBorder(),
+                                ),
+                                child: Text(
+                                  copy(en: 'Cancel', fa: 'لغو', ps: 'لغوه'),
+                                ),
+                              ),
+                            ),
+                            const SizedBox(width: 10),
+                            Expanded(
+                              child: TextButton.icon(
+                                onPressed: () async {
+                                  await appState.setWordLanguages([
+                                    source,
+                                    target,
+                                  ]);
+                                  if (!sheetContext.mounted) return;
+                                  Navigator.of(sheetContext).pop();
+                                },
+                                style: TextButton.styleFrom(
+                                  minimumSize: const Size(0, 44),
+                                  backgroundColor: Colors.black,
+                                  foregroundColor: Colors.white,
+                                  shape: const StadiumBorder(),
+                                ),
+                                icon: const Icon(LucideIcons.check, size: 16),
+                                label: Text(
+                                  copy(en: 'Apply', fa: 'اعمال', ps: 'پلي کول'),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                   ),
-                  option(AppLanguage.en),
-                  option(AppLanguage.fa),
-                  option(AppLanguage.ps),
-                  const SizedBox(height: 12),
                 ],
               ),
             );
@@ -733,18 +958,13 @@ class _ProfileTabState extends State<ProfileTab> {
       showDragHandle: true,
       builder: (sheetContext) {
         final theme = Theme.of(sheetContext);
-        Widget tile({
-          required ThemeMode value,
-          required String title,
-        }) {
+        Widget tile({required ThemeMode value, required String title}) {
           return ListTile(
-            leading: Icon(
-              switch (value) {
-                ThemeMode.system => LucideIcons.smartphone,
-                ThemeMode.light => LucideIcons.sun,
-                ThemeMode.dark => LucideIcons.moon,
-              },
-            ),
+            leading: Icon(switch (value) {
+              ThemeMode.system => LucideIcons.smartphone,
+              ThemeMode.light => LucideIcons.sun,
+              ThemeMode.dark => LucideIcons.moon,
+            }),
             title: Text(title),
             trailing: current == value
                 ? Icon(LucideIcons.check, color: theme.colorScheme.primary)
@@ -761,14 +981,14 @@ class _ProfileTabState extends State<ProfileTab> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Padding(
-                padding:
-                    const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 12),
+                padding: const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 12),
                 child: Align(
                   alignment: AlignmentDirectional.centerStart,
                   child: Text(
                     loc.settingsTheme,
-                    style: theme.textTheme.titleMedium
-                        ?.copyWith(fontWeight: FontWeight.w700),
+                    style: theme.textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.w700,
+                    ),
                   ),
                 ),
               ),
@@ -839,7 +1059,16 @@ class _ProfileTabState extends State<ProfileTab> {
     final currentLanguage = appState.appLanguage;
     final currentTheme = appState.themeMode;
     final languageLabel = currentLanguage.nativeName;
-    final wordLanguagesLabel = appState.wordLanguages.map((l) => l.nativeName).join(' + ');
+    final languagePairTitle = switch (currentLanguage) {
+      AppLanguage.fa => 'جفت واژه',
+      AppLanguage.ps => 'د لغت جوړه',
+      AppLanguage.en ||
+      AppLanguage.de ||
+      AppLanguage.tr ||
+      AppLanguage.fr => 'Word Pair',
+    };
+    final languagePairSubtitle =
+        '${appState.sourceWordLanguage.nativeName} -> ${appState.targetWordLanguage.nativeName}';
     final themeLabel = switch (currentTheme) {
       ThemeMode.system => loc.settingsThemeSystem,
       ThemeMode.light => loc.settingsThemeLight,
@@ -851,8 +1080,9 @@ class _ProfileTabState extends State<ProfileTab> {
       children: [
         Text(
           loc.settingsTitle,
-          style:
-              theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600),
+          style: theme.textTheme.titleLarge?.copyWith(
+            fontWeight: FontWeight.w600,
+          ),
         ),
         const SizedBox(height: 20),
         _section(
@@ -868,8 +1098,8 @@ class _ProfileTabState extends State<ProfileTab> {
             ),
             ListTile(
               leading: const Icon(LucideIcons.languages),
-              title: Text(loc.settingsWordLanguagesTitle),
-              subtitle: Text(wordLanguagesLabel),
+              title: Text(languagePairTitle),
+              subtitle: Text(languagePairSubtitle),
               trailing: const Icon(LucideIcons.chevronRight),
               onTap: () => _showWordLanguagesPicker(context),
             ),
@@ -899,16 +1129,18 @@ class _ProfileTabState extends State<ProfileTab> {
               onChanged: _loadingSwitches ? null : _onNotificationsChanged,
               title: Text(loc.settingsNotifications),
               secondary: const Icon(LucideIcons.bell),
-              contentPadding:
-                  const EdgeInsetsDirectional.symmetric(horizontal: 16),
+              contentPadding: const EdgeInsetsDirectional.symmetric(
+                horizontal: 16,
+              ),
             ),
             SwitchListTile(
               value: _dailyReminder,
               onChanged: _loadingSwitches ? null : _onReminderChanged,
               title: Text(loc.settingsDailyReminder),
               secondary: const Icon(LucideIcons.alarmClock),
-              contentPadding:
-                  const EdgeInsetsDirectional.symmetric(horizontal: 16),
+              contentPadding: const EdgeInsetsDirectional.symmetric(
+                horizontal: 16,
+              ),
             ),
           ],
         ),

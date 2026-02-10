@@ -27,18 +27,29 @@ class WordsInitBundle {
 }
 
 Future<WordsInitBundle> loadWordsInit(
-    AppState appState, BuildContext context) async {
+  AppState appState,
+  BuildContext context,
+) async {
   final repo = ProgressRepository();
-  final levels = appState.levels;
+  final levelToAssetPath = await loadWordLevelAssetPaths(
+    preferredOrder: appState.levels,
+  );
+  final levels = levelToAssetPath.keys.toList(growable: false);
   final progress = await repo.loadProgress();
-  final lastLevel =
+  final preferredLastLevel =
       await repo.loadLastLevel() ?? appState.currentLevel;
+  final lastLevel = levels.contains(preferredLastLevel)
+      ? preferredLastLevel
+      : levels.first;
   final lastScope = await repo.loadLastWordsScope();
   final lastCategoryTag = await repo.loadLastCategoryTag();
 
   final List<VocabWord> allWords = [];
   for (final level in levels) {
-    final words = await loadWordsForLevel(level);
+    final words = await loadWordsForLevel(
+      level,
+      levelToAssetPath: levelToAssetPath,
+    );
     for (final w in words) {
       final p = progress[w.id];
       if (p != null) {

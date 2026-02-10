@@ -37,7 +37,13 @@ class AssetAlphabetJsonLessonRepository implements AlphabetJsonLessonRepository 
   }
 
   Map<String, dynamic>? _extractJsonObject(dynamic decoded) {
-    if (decoded is Map<String, dynamic>) return decoded;
+    if (decoded is Map<String, dynamic>) {
+      final nestedAlphabet = decoded['alphabet'];
+      if (nestedAlphabet is Map<String, dynamic>) {
+        return nestedAlphabet;
+      }
+      return decoded;
+    }
     if (decoded is List) {
       for (final entry in decoded) {
         if (entry is Map<String, dynamic>) return entry;
@@ -46,4 +52,3 @@ class AssetAlphabetJsonLessonRepository implements AlphabetJsonLessonRepository 
     return null;
   }
 }
-

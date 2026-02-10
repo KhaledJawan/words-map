@@ -15,6 +15,29 @@ import 'package:word_map_app/services/app_state.dart';
 import 'package:word_map_app/widgets/word_detail_soft_card.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
 
+const List<AppLanguage> _alphabetWordFallbackOrder = [
+  AppLanguage.de,
+  AppLanguage.en,
+  AppLanguage.fr,
+  AppLanguage.tr,
+  AppLanguage.fa,
+  AppLanguage.ps,
+];
+
+String _resolveAlphabetWordText(
+  VocabWord word,
+  AppLanguage primary, {
+  List<AppLanguage> fallbackOrder = _alphabetWordFallbackOrder,
+}) {
+  final direct = word.textFor(primary).trim();
+  if (direct.isNotEmpty) return direct;
+  final remaining = fallbackOrder
+      .where((lang) => lang != primary)
+      .toList(growable: false);
+  final fallback = word.firstAvailableText(remaining).trim();
+  return fallback.isNotEmpty ? fallback : '—';
+}
+
 class AlphabetJsonLessonPage extends StatefulWidget {
   const AlphabetJsonLessonPage({
     super.key,
@@ -32,7 +55,8 @@ class AlphabetJsonLessonPage extends StatefulWidget {
 }
 
 class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
-  final LessonCompletionRepository _completionRepo = LessonCompletionRepository();
+  final LessonCompletionRepository _completionRepo =
+      LessonCompletionRepository();
   late final Future<AlphabetJsonLesson> _lessonFuture;
 
   @override
@@ -40,7 +64,9 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
     super.initState();
     _lessonFuture = widget.initialLesson != null
         ? Future.value(widget.initialLesson!)
-        : AssetAlphabetJsonLessonRepository(assetPath: widget.assetPath).loadLesson();
+        : AssetAlphabetJsonLessonRepository(
+            assetPath: widget.assetPath,
+          ).loadLesson();
   }
 
   String _localized(
@@ -52,13 +78,17 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
   }) {
     switch (lang) {
       case AppLanguage.fa:
-        return fa.isNotEmpty ? fa : (en.isNotEmpty ? en : de);
+        return fa.isNotEmpty ? fa : en;
       case AppLanguage.ps:
-        return ps.isNotEmpty
-            ? ps
-            : (fa.isNotEmpty ? fa : (en.isNotEmpty ? en : de));
+        return ps.isNotEmpty ? ps : (fa.isNotEmpty ? fa : en);
       case AppLanguage.en:
-        return en.isNotEmpty ? en : (de.isNotEmpty ? de : fa);
+        return en;
+      case AppLanguage.fr:
+        return en;
+      case AppLanguage.de:
+        return de.isNotEmpty ? de : en;
+      case AppLanguage.tr:
+        return en;
     }
   }
 
@@ -74,6 +104,11 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
     for (final w in widget.allWords) {
       if (w.id.trim().toLowerCase() == normalized) return w;
       if (w.de.trim().toLowerCase() == normalized) return w;
+      if (w.words.values.any(
+        (value) => value.trim().toLowerCase() == normalized,
+      )) {
+        return w;
+      }
     }
     return null;
   }
@@ -103,22 +138,26 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                   padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: Builder(
                     builder: (dialogContext) {
-                      final wordLanguages =
-                          dialogContext.read<AppState>().wordLanguages;
-                      final primaryLang = wordLanguages.first;
-                      final secondaryLang =
-                          wordLanguages.length > 1 ? wordLanguages[1] : null;
-                      final primaryRaw =
-                          word.translationFor(primaryLang).trim();
-                      final primary =
-                          primaryRaw.isNotEmpty ? primaryRaw : '—';
-                      final secondaryRaw = secondaryLang == null
-                          ? ''
-                          : word.translationFor(secondaryLang).trim();
-                      final secondary =
-                          secondaryRaw.isNotEmpty ? secondaryRaw : '';
+                      final appState = dialogContext.read<AppState>();
+                      final sourceLang = appState.sourceWordLanguage;
+                      final targetLang = appState.targetWordLanguage;
+                      final source = _resolveAlphabetWordText(word, sourceLang);
+                      var target = _resolveAlphabetWordText(word, targetLang);
+                      if (target == source) {
+                        target = word
+                            .firstAvailableText(
+                              _alphabetWordFallbackOrder
+                                  .where((lang) => lang != sourceLang)
+                                  .toList(),
+                            )
+                            .trim();
+                        if (target.isEmpty) {
+                          target = '—';
+                        }
+                      }
 
-                      final audioUrl = word.audio.trim();
+                      final audioUrl = word.audioFor(sourceLang).trim();
+                      final exampleText = word.exampleFor(sourceLang).trim();
                       final hasAudio = audioUrl.isNotEmpty;
                       final messenger = ScaffoldMessenger.of(dialogContext);
                       final loc = AppLocalizations.of(dialogContext)!;
@@ -147,13 +186,16 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                             final iconColor = hasAudio
                                 ? Theme.of(streamContext).colorScheme.primary
                                 : Colors.grey[400];
-                            final isPlayingThisWord = isPlaying &&
+                            final isPlayingThisWord =
+                                isPlaying &&
                                 AudioService.instance.currentUrl == audioUrl;
                             return IconButton(
                               padding: EdgeInsets.zero,
                               constraints: const BoxConstraints(),
                               iconSize: 20,
-                              onPressed: hasAudio ? () async => await handlePlayAudio() : null,
+                              onPressed: hasAudio
+                                  ? () async => await handlePlayAudio()
+                                  : null,
                               icon: Icon(
                                 isPlayingThisWord
                                     ? LucideIcons.signalHigh
@@ -166,10 +208,10 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                       );
 
                       return WordDetailSoftCard(
-                        word: word.de,
-                        translationPrimary: primary,
-                        translationSecondary: secondary.isNotEmpty ? secondary : null,
-                        example: word.example,
+                        word: source,
+                        translationPrimary: target,
+                        translationSecondary: null,
+                        example: exampleText.isNotEmpty ? exampleText : null,
                         extra: [
                           if (word.level != null) word.level,
                           formatCategoryLabel(
@@ -276,23 +318,24 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
               children: [
                 Text(
                   title,
-                  style: theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800),
+                  style: theme.textTheme.titleLarge?.copyWith(
+                    fontWeight: FontWeight.w800,
+                  ),
                 ),
                 if (subtitle.isNotEmpty) ...[
                   const SizedBox(height: 6),
                   Text(
                     subtitle,
                     style: theme.textTheme.bodyMedium?.copyWith(
-                      color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.7),
+                      color: theme.textTheme.bodySmall?.color?.withValues(
+                        alpha: 0.7,
+                      ),
                     ),
                   ),
                 ],
                 if (detail.isNotEmpty) ...[
                   const SizedBox(height: 12),
-                  Text(
-                    detail,
-                    style: theme.textTheme.bodyMedium,
-                  ),
+                  Text(detail, style: theme.textTheme.bodyMedium),
                 ],
                 if (examples.isNotEmpty) ...[
                   const SizedBox(height: 14),
@@ -301,9 +344,15 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                     runSpacing: 3,
                     textDirection: TextDirection.ltr,
                     children: List.generate(examples.length, (index) {
+                      final studyState = context.read<AppState>();
+                      final sourceLang = studyState.sourceWordLanguage;
+                      final sourceTextDirection = sourceLang.isRtlScript
+                          ? TextDirection.rtl
+                          : TextDirection.ltr;
                       final key = examples[index];
                       final found = _findWordByKey(key);
-                      final word = found ??
+                      final word =
+                          found ??
                           VocabWord(
                             id: key,
                             de: key,
@@ -324,6 +373,8 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                       return WordTile(
                         word: word,
                         index: index,
+                        displayText: _resolveAlphabetWordText(word, sourceLang),
+                        textDirection: sourceTextDirection,
                         onTap: () async => await handleTap(),
                         onLongPress: () async => await handleTap(),
                       );
@@ -335,9 +386,7 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
                   alignment: Alignment.centerRight,
                   child: TextButton(
                     onPressed: () => Navigator.of(context).pop(),
-                    child: Text(
-                      AppLocalizations.of(context)!.commonClose,
-                    ),
+                    child: Text(AppLocalizations.of(context)!.commonClose),
                   ),
                 ),
               ],
@@ -350,356 +399,424 @@ class _AlphabetJsonLessonPageState extends State<AlphabetJsonLessonPage> {
 
   @override
   Widget build(BuildContext context) {
-    final appLanguage = context.watch<AppState>().appLanguage;
-    return FutureBuilder<AlphabetJsonLesson>(
-      future: _lessonFuture,
-      builder: (context, snapshot) {
-        final theme = Theme.of(context);
-        if (snapshot.connectionState != ConnectionState.done) {
-          return const Scaffold(body: Center(child: CircularProgressIndicator()));
-        }
-        if (snapshot.hasError || snapshot.data == null) {
-          final loc = AppLocalizations.of(context)!;
-          return Scaffold(
-            appBar: AppBar(title: Text(loc.commonLesson)),
-            body: Center(
-              child: Text(
-                loc.lessonLoadFailed,
-              ),
-            ),
-          );
-        }
+    final appLanguage = context.watch<AppState>().targetWordLanguage;
+    return Localizations.override(
+      context: context,
+      locale: appLanguage.locale,
+      child: Builder(
+        builder: (localizedContext) {
+          return FutureBuilder<AlphabetJsonLesson>(
+            future: _lessonFuture,
+            builder: (context, snapshot) {
+              final theme = Theme.of(context);
+              if (snapshot.connectionState != ConnectionState.done) {
+                return const Scaffold(
+                  body: Center(child: CircularProgressIndicator()),
+                );
+              }
+              if (snapshot.hasError || snapshot.data == null) {
+                final loc = AppLocalizations.of(context)!;
+                return Scaffold(
+                  appBar: AppBar(title: Text(loc.commonLesson)),
+                  body: Center(child: Text(loc.lessonLoadFailed)),
+                );
+              }
 
-        final lesson = snapshot.data!;
-        final title = _localized(
-          appLanguage,
-          en: lesson.titleEn,
-          fa: lesson.titleFa,
-          ps: lesson.titlePs,
-          de: lesson.titleDe,
-        );
-        final alphabet = lesson.alphabet;
+              final lesson = snapshot.data!;
+              final title = _localized(
+                appLanguage,
+                en: lesson.titleEn,
+                fa: lesson.titleFa,
+                ps: lesson.titlePs,
+                de: lesson.titleDe,
+              );
+              final alphabet = lesson.alphabet;
 
-        return Scaffold(
-          body: CustomScrollView(
-            slivers: [
-              SliverAppBar(
-                pinned: true,
-                centerTitle: true,
-                backgroundColor: theme.colorScheme.primary,
-                foregroundColor: Colors.white,
-                elevation: 0,
-                iconTheme: const IconThemeData(color: Colors.white),
-                titleTextStyle: theme.textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.w800,
-                  color: Colors.white,
-                ),
-                leading: IconButton(
-                  onPressed: () => Navigator.of(context).pop(),
-                  icon: const Icon(Icons.arrow_back_ios_new, color: Colors.white),
-                ),
-                title: Text(
-                  title.isNotEmpty
-                      ? title
-                      : _localized(
-                          appLanguage,
-                          en: 'Alphabet',
-                          fa: 'الفبا',
-                          ps: 'الفبا',
-                          de: 'Alphabet',
+              return Scaffold(
+                body: CustomScrollView(
+                  slivers: [
+                    SliverAppBar(
+                      pinned: true,
+                      centerTitle: true,
+                      backgroundColor: theme.colorScheme.primary,
+                      foregroundColor: Colors.white,
+                      elevation: 0,
+                      iconTheme: const IconThemeData(color: Colors.white),
+                      titleTextStyle: theme.textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w800,
+                        color: Colors.white,
+                      ),
+                      leading: IconButton(
+                        onPressed: () => Navigator.of(context).pop(),
+                        icon: const Icon(
+                          Icons.arrow_back_ios_new,
+                          color: Colors.white,
                         ),
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                ),
-                flexibleSpace: Container(
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [
-                        theme.colorScheme.primary,
-                        theme.colorScheme.primary.withValues(alpha: 0.85),
-                      ],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                  ),
-                ),
-              ),
-              SliverPadding(
-                padding: const EdgeInsets.all(16),
-                sliver: SliverList(
-                  delegate: SliverChildListDelegate(
-                    [
-                      if (lesson.explanations.isNotEmpty) ...[
-                        Text(
-                          _localized(
-                            appLanguage,
-                            en: 'Overview',
-                            fa: 'معرفی',
-                            ps: 'عمومي کتنه',
-                            de: 'Überblick',
-                          ),
-                          style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
-                        ),
-                        const SizedBox(height: 10),
-                        ...lesson.explanations.map((block) {
-                          final blockTitle = _localized(
-                            appLanguage,
-                            en: block.titleEn,
-                            fa: block.titleFa,
-                            ps: block.titlePs,
-                            de: block.titleDe,
-                          );
-                          final blockText = _localized(
-                            appLanguage,
-                            en: block.explanationEn,
-                            fa: block.explanationFa,
-                            ps: block.explanationPs,
-                            de: block.explanationDe,
-                          );
-                          return Container(
-                            margin: const EdgeInsets.only(bottom: 12),
-                            padding: const EdgeInsets.all(14),
-                            decoration: BoxDecoration(
-                              color: theme.colorScheme.surfaceContainerHighest,
-                              borderRadius: BorderRadius.circular(18),
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                if (blockTitle.isNotEmpty)
-                                  Text(
-                                    blockTitle,
-                                    style: theme.textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w800),
-                                  ),
-                                if (blockText.isNotEmpty) ...[
-                                  if (blockTitle.isNotEmpty) const SizedBox(height: 8),
-                                  Text(blockText, style: theme.textTheme.bodyMedium),
-                                ],
-                              ],
-                            ),
-                          );
-                        }),
-                        const SizedBox(height: 6),
-                      ],
-                      if (alphabet != null) ...[
-                        Text(
-                          _localized(
-                            appLanguage,
-                            en: 'Letters',
-                            fa: 'حروف',
-                            ps: 'توري',
-                            de: 'Buchstaben',
-                          ),
-                          style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
-                        ),
-                        const SizedBox(height: 8),
-                        if (_localized(
-                          appLanguage,
-                          en: alphabet.noteEn,
-                          fa: alphabet.noteFa,
-                          ps: alphabet.notePs,
-                          de: alphabet.noteDe,
-                        ).isNotEmpty)
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 10),
-                            child: Text(
-                              _localized(
+                      ),
+                      title: Text(
+                        title.isNotEmpty
+                            ? title
+                            : _localized(
                                 appLanguage,
-                                en: alphabet.noteEn,
-                                fa: alphabet.noteFa,
-                                ps: alphabet.notePs,
-                                de: alphabet.noteDe,
+                                en: 'Alphabet',
+                                fa: 'الفبا',
+                                ps: 'الفبا',
+                                de: 'Alphabet',
                               ),
-                              style: theme.textTheme.bodySmall?.copyWith(
-                                color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.75),
-                              ),
-                            ),
-                          ),
-                        Directionality(
-                          textDirection: TextDirection.ltr,
-                          child: GridView.builder(
-                            shrinkWrap: true,
-                            physics: const NeverScrollableScrollPhysics(),
-                            itemCount: alphabet.letters.length,
-                            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisCount: 4,
-                              mainAxisSpacing: 10,
-                              crossAxisSpacing: 10,
-                              childAspectRatio: 1.05,
-                            ),
-                            itemBuilder: (context, index) {
-                              final letter = alphabet.letters[index];
-                              return InkWell(
-                                onTap: () {
-                                  _showLetterSheet(
-                                    lang: appLanguage,
-                                    title: '${letter.upper}${letter.lower.isNotEmpty ? ' / ${letter.lower}' : ''}',
-                                    subtitle: letter.nameDe,
-                                    detail: _localized(
-                                      appLanguage,
-                                      en: letter.faHint,
-                                      fa: letter.faHint,
-                                      ps: letter.psHint,
-                                      de: letter.faHint,
-                                    ),
-                                    examples: letter.examples,
-                                  );
-                                },
-                                borderRadius: BorderRadius.circular(16),
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                    color: theme.colorScheme.surfaceContainerHighest,
-                                    borderRadius: BorderRadius.circular(16),
-                                  ),
-                                  padding: const EdgeInsets.all(10),
-                                  child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Text(
-                                        letter.upper,
-                                        textDirection: TextDirection.ltr,
-                                        style: theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w900),
-                                      ),
-                                      if (letter.lower.isNotEmpty)
-                                        Text(
-                                          letter.lower,
-                                          textDirection: TextDirection.ltr,
-                                          style: theme.textTheme.bodyMedium?.copyWith(
-                                            color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.75),
-                                          ),
-                                        ),
-                                    ],
-                                  ),
-                                ),
-                              );
-                            },
-                          ),
-                        ),
-                        if (alphabet.specialLetters.isNotEmpty) ...[
-                          const SizedBox(height: 18),
-                          Text(
-                            _localized(
-                              appLanguage,
-                              en: 'Special Letters',
-                              fa: 'حروف ویژه',
-                              ps: 'ځانګړي توري',
-                              de: 'Sonderzeichen',
-                            ),
-                            style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
-                          ),
-                          const SizedBox(height: 10),
-                          ...alphabet.specialLetters.map((special) {
-                            final hint = _localized(
-                              appLanguage,
-                              en: special.faHint,
-                              fa: special.faHint,
-                              ps: special.psHint,
-                              de: special.faHint,
-                            );
-                            final desc = _localized(
-                              appLanguage,
-                              en: special.descriptionEn,
-                              fa: special.descriptionFa,
-                              ps: special.descriptionPs,
-                              de: special.descriptionDe,
-                            );
-                            return InkWell(
-                              onTap: () {
-                                _showLetterSheet(
-                                  lang: appLanguage,
-                                  title: special.symbol,
-                                  subtitle: special.nameDe,
-                                  detail: [
-                                    if (hint.isNotEmpty) hint,
-                                    if (desc.isNotEmpty) desc,
-                                  ].join('\n\n'),
-                                  examples: const [],
-                                );
-                              },
-                              borderRadius: BorderRadius.circular(18),
-                              child: Container(
-                                margin: const EdgeInsets.only(bottom: 12),
-                                padding: const EdgeInsets.all(14),
-                                decoration: BoxDecoration(
-                                  color: theme.colorScheme.surfaceContainerHighest,
-                                  borderRadius: BorderRadius.circular(18),
-                                ),
-                                child: Row(
-                                  children: [
-                                    Container(
-                                      width: 46,
-                                      height: 46,
-                                      decoration: BoxDecoration(
-                                        color: theme.colorScheme.primary.withValues(alpha: 0.12),
-                                        borderRadius: BorderRadius.circular(14),
-                                      ),
-                                      alignment: Alignment.center,
-                                      child: Text(
-                                        special.symbol,
-                                        style: theme.textTheme.titleLarge?.copyWith(
-                                          fontWeight: FontWeight.w900,
-                                          color: theme.colorScheme.primary,
-                                        ),
-                                      ),
-                                    ),
-                                    const SizedBox(width: 12),
-                                    Expanded(
-                                      child: Column(
-                                        crossAxisAlignment: CrossAxisAlignment.start,
-                                        children: [
-                                          Text(
-                                            special.nameDe.isNotEmpty ? special.nameDe : special.symbol,
-                                            style: theme.textTheme.bodyLarge?.copyWith(fontWeight: FontWeight.w800),
-                                          ),
-                                          if (desc.isNotEmpty || hint.isNotEmpty) ...[
-                                            const SizedBox(height: 4),
-                                            Text(
-                                              hint.isNotEmpty ? hint : desc,
-                                              maxLines: 2,
-                                              overflow: TextOverflow.ellipsis,
-                                              style: theme.textTheme.bodySmall?.copyWith(
-                                                color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.75),
-                                              ),
-                                            ),
-                                          ],
-                                        ],
-                                      ),
-                                    ),
-                                    Icon(
-                                      Icons.chevron_right,
-                                      color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.6),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            );
-                          }),
-                        ],
-                      ],
-                      const SizedBox(height: 16),
-                      SizedBox(
-                        width: double.infinity,
-                        child: FilledButton(
-                          onPressed: lesson.id.isNotEmpty ? () => _markCompleted(lesson.id) : null,
-                          child: Text(
-                            _localized(
-                              appLanguage,
-                              en: 'Mark as completed',
-                              fa: 'تمام شد',
-                              ps: 'بشپړ شو',
-                              de: 'Als erledigt markieren',
-                            ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      flexibleSpace: Container(
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            colors: [
+                              theme.colorScheme.primary,
+                              theme.colorScheme.primary.withValues(alpha: 0.85),
+                            ],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
                           ),
                         ),
                       ),
-                    ],
-                  ),
+                    ),
+                    SliverPadding(
+                      padding: const EdgeInsets.all(16),
+                      sliver: SliverList(
+                        delegate: SliverChildListDelegate([
+                          if (lesson.explanations.isNotEmpty) ...[
+                            Text(
+                              _localized(
+                                appLanguage,
+                                en: 'Overview',
+                                fa: 'معرفی',
+                                ps: 'عمومي کتنه',
+                                de: 'Überblick',
+                              ),
+                              style: theme.textTheme.titleMedium?.copyWith(
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                            const SizedBox(height: 10),
+                            ...lesson.explanations.map((block) {
+                              final blockTitle = _localized(
+                                appLanguage,
+                                en: block.titleEn,
+                                fa: block.titleFa,
+                                ps: block.titlePs,
+                                de: block.titleDe,
+                              );
+                              final blockText = _localized(
+                                appLanguage,
+                                en: block.explanationEn,
+                                fa: block.explanationFa,
+                                ps: block.explanationPs,
+                                de: block.explanationDe,
+                              );
+                              return Container(
+                                margin: const EdgeInsets.only(bottom: 12),
+                                padding: const EdgeInsets.all(14),
+                                decoration: BoxDecoration(
+                                  color:
+                                      theme.colorScheme.surfaceContainerHighest,
+                                  borderRadius: BorderRadius.circular(18),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    if (blockTitle.isNotEmpty)
+                                      Text(
+                                        blockTitle,
+                                        style: theme.textTheme.titleSmall
+                                            ?.copyWith(
+                                              fontWeight: FontWeight.w800,
+                                            ),
+                                      ),
+                                    if (blockText.isNotEmpty) ...[
+                                      if (blockTitle.isNotEmpty)
+                                        const SizedBox(height: 8),
+                                      Text(
+                                        blockText,
+                                        style: theme.textTheme.bodyMedium,
+                                      ),
+                                    ],
+                                  ],
+                                ),
+                              );
+                            }),
+                            const SizedBox(height: 6),
+                          ],
+                          if (alphabet != null) ...[
+                            Text(
+                              _localized(
+                                appLanguage,
+                                en: 'Letters',
+                                fa: 'حروف',
+                                ps: 'توري',
+                                de: 'Buchstaben',
+                              ),
+                              style: theme.textTheme.titleMedium?.copyWith(
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                            const SizedBox(height: 8),
+                            if (_localized(
+                              appLanguage,
+                              en: alphabet.noteEn,
+                              fa: alphabet.noteFa,
+                              ps: alphabet.notePs,
+                              de: alphabet.noteDe,
+                            ).isNotEmpty)
+                              Padding(
+                                padding: const EdgeInsets.only(bottom: 10),
+                                child: Text(
+                                  _localized(
+                                    appLanguage,
+                                    en: alphabet.noteEn,
+                                    fa: alphabet.noteFa,
+                                    ps: alphabet.notePs,
+                                    de: alphabet.noteDe,
+                                  ),
+                                  style: theme.textTheme.bodySmall?.copyWith(
+                                    color: theme.textTheme.bodySmall?.color
+                                        ?.withValues(alpha: 0.75),
+                                  ),
+                                ),
+                              ),
+                            Directionality(
+                              textDirection: TextDirection.ltr,
+                              child: GridView.builder(
+                                shrinkWrap: true,
+                                physics: const NeverScrollableScrollPhysics(),
+                                itemCount: alphabet.letters.length,
+                                gridDelegate:
+                                    const SliverGridDelegateWithFixedCrossAxisCount(
+                                      crossAxisCount: 4,
+                                      mainAxisSpacing: 10,
+                                      crossAxisSpacing: 10,
+                                      childAspectRatio: 1.05,
+                                    ),
+                                itemBuilder: (context, index) {
+                                  final letter = alphabet.letters[index];
+                                  return InkWell(
+                                    onTap: () {
+                                      _showLetterSheet(
+                                        lang: appLanguage,
+                                        title:
+                                            '${letter.upper}${letter.lower.isNotEmpty ? ' / ${letter.lower}' : ''}',
+                                        subtitle: letter.nameDe,
+                                        detail: _localized(
+                                          appLanguage,
+                                          en: '',
+                                          fa: letter.faHint,
+                                          ps: letter.psHint,
+                                          de: '',
+                                        ),
+                                        examples: letter.examples,
+                                      );
+                                    },
+                                    borderRadius: BorderRadius.circular(16),
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: theme
+                                            .colorScheme
+                                            .surfaceContainerHighest,
+                                        borderRadius: BorderRadius.circular(16),
+                                      ),
+                                      padding: const EdgeInsets.all(10),
+                                      child: Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        children: [
+                                          Text(
+                                            letter.upper,
+                                            textDirection: TextDirection.ltr,
+                                            style: theme.textTheme.titleLarge
+                                                ?.copyWith(
+                                                  fontWeight: FontWeight.w900,
+                                                ),
+                                          ),
+                                          if (letter.lower.isNotEmpty)
+                                            Text(
+                                              letter.lower,
+                                              textDirection: TextDirection.ltr,
+                                              style: theme.textTheme.bodyMedium
+                                                  ?.copyWith(
+                                                    color: theme
+                                                        .textTheme
+                                                        .bodySmall
+                                                        ?.color
+                                                        ?.withValues(
+                                                          alpha: 0.75,
+                                                        ),
+                                                  ),
+                                            ),
+                                        ],
+                                      ),
+                                    ),
+                                  );
+                                },
+                              ),
+                            ),
+                            if (alphabet.specialLetters.isNotEmpty) ...[
+                              const SizedBox(height: 18),
+                              Text(
+                                _localized(
+                                  appLanguage,
+                                  en: 'Special Letters',
+                                  fa: 'حروف ویژه',
+                                  ps: 'ځانګړي توري',
+                                  de: 'Sonderzeichen',
+                                ),
+                                style: theme.textTheme.titleMedium?.copyWith(
+                                  fontWeight: FontWeight.w800,
+                                ),
+                              ),
+                              const SizedBox(height: 10),
+                              ...alphabet.specialLetters.map((special) {
+                                final hint = _localized(
+                                  appLanguage,
+                                  en: '',
+                                  fa: special.faHint,
+                                  ps: special.psHint,
+                                  de: '',
+                                );
+                                final desc = _localized(
+                                  appLanguage,
+                                  en: special.descriptionEn,
+                                  fa: special.descriptionFa,
+                                  ps: special.descriptionPs,
+                                  de: special.descriptionDe,
+                                );
+                                return InkWell(
+                                  onTap: () {
+                                    _showLetterSheet(
+                                      lang: appLanguage,
+                                      title: special.symbol,
+                                      subtitle: special.nameDe,
+                                      detail: [
+                                        if (hint.isNotEmpty) hint,
+                                        if (desc.isNotEmpty) desc,
+                                      ].join('\n\n'),
+                                      examples: const [],
+                                    );
+                                  },
+                                  borderRadius: BorderRadius.circular(18),
+                                  child: Container(
+                                    margin: const EdgeInsets.only(bottom: 12),
+                                    padding: const EdgeInsets.all(14),
+                                    decoration: BoxDecoration(
+                                      color: theme
+                                          .colorScheme
+                                          .surfaceContainerHighest,
+                                      borderRadius: BorderRadius.circular(18),
+                                    ),
+                                    child: Row(
+                                      children: [
+                                        Container(
+                                          width: 46,
+                                          height: 46,
+                                          decoration: BoxDecoration(
+                                            color: theme.colorScheme.primary
+                                                .withValues(alpha: 0.12),
+                                            borderRadius: BorderRadius.circular(
+                                              14,
+                                            ),
+                                          ),
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            special.symbol,
+                                            style: theme.textTheme.titleLarge
+                                                ?.copyWith(
+                                                  fontWeight: FontWeight.w900,
+                                                  color:
+                                                      theme.colorScheme.primary,
+                                                ),
+                                          ),
+                                        ),
+                                        const SizedBox(width: 12),
+                                        Expanded(
+                                          child: Column(
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: [
+                                              Text(
+                                                special.nameDe.isNotEmpty
+                                                    ? special.nameDe
+                                                    : special.symbol,
+                                                style: theme.textTheme.bodyLarge
+                                                    ?.copyWith(
+                                                      fontWeight:
+                                                          FontWeight.w800,
+                                                    ),
+                                              ),
+                                              if (desc.isNotEmpty ||
+                                                  hint.isNotEmpty) ...[
+                                                const SizedBox(height: 4),
+                                                Text(
+                                                  hint.isNotEmpty ? hint : desc,
+                                                  maxLines: 2,
+                                                  overflow:
+                                                      TextOverflow.ellipsis,
+                                                  style: theme
+                                                      .textTheme
+                                                      .bodySmall
+                                                      ?.copyWith(
+                                                        color: theme
+                                                            .textTheme
+                                                            .bodySmall
+                                                            ?.color
+                                                            ?.withValues(
+                                                              alpha: 0.75,
+                                                            ),
+                                                      ),
+                                                ),
+                                              ],
+                                            ],
+                                          ),
+                                        ),
+                                        Icon(
+                                          Icons.chevron_right,
+                                          color: theme
+                                              .textTheme
+                                              .bodySmall
+                                              ?.color
+                                              ?.withValues(alpha: 0.6),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                );
+                              }),
+                            ],
+                          ],
+                          const SizedBox(height: 16),
+                          SizedBox(
+                            width: double.infinity,
+                            child: FilledButton(
+                              onPressed: lesson.id.isNotEmpty
+                                  ? () => _markCompleted(lesson.id)
+                                  : null,
+                              child: Text(
+                                _localized(
+                                  appLanguage,
+                                  en: 'Mark as completed',
+                                  fa: 'تمام شد',
+                                  ps: 'بشپړ شو',
+                                  de: 'Als erledigt markieren',
+                                ),
+                              ),
+                            ),
+                          ),
+                        ]),
+                      ),
+                    ),
+                  ],
                 ),
-              ),
-            ],
-          ),
-        );
-      },
+              );
+            },
+          );
+        },
+      ),
     );
   }
 }

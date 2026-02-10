@@ -4,12 +4,16 @@ import 'package:word_map_app/models/vocab_word.dart';
 class WordTile extends StatelessWidget {
   final VocabWord word;
   final int index;
+  final String displayText;
+  final TextDirection textDirection;
   final VoidCallback onTap;
   final VoidCallback onLongPress;
   const WordTile({
     super.key,
     required this.word,
     required this.index,
+    required this.displayText,
+    required this.textDirection,
     required this.onTap,
     required this.onLongPress,
   });
@@ -33,25 +37,28 @@ class WordTile extends StatelessWidget {
     if (bookmarked) {
       bg = isDark ? Colors.black : Colors.white;
       textColor = bookmarkedBlue;
-      shadow = isDark ? null : [
-        BoxShadow(
-          color: bookmarkedBlue.withValues(alpha: 0.10),
-          blurRadius: 11,
-          spreadRadius: 1,
-          offset: const Offset(0, 3),
-        ),
-        BoxShadow(
-          color: bookmarkedBlue.withValues(alpha: 0.04),
-          blurRadius: 16,
-          spreadRadius: 1,
-          offset: const Offset(0, 7),
-        ),
-      ];
+      shadow = isDark
+          ? null
+          : [
+              BoxShadow(
+                color: bookmarkedBlue.withValues(alpha: 0.10),
+                blurRadius: 11,
+                spreadRadius: 1,
+                offset: const Offset(0, 3),
+              ),
+              BoxShadow(
+                color: bookmarkedBlue.withValues(alpha: 0.04),
+                blurRadius: 16,
+                spreadRadius: 1,
+                offset: const Offset(0, 7),
+              ),
+            ];
     } else if (isVisited) {
       // Viewed state
       bg = isDark ? Colors.transparent : const Color(0xFFF2F2F7);
-      textColor =
-          isDark ? Colors.white.withValues(alpha: 0.6) : const Color(0xFFAAAAAA);
+      textColor = isDark
+          ? Colors.white.withValues(alpha: 0.6)
+          : const Color(0xFFAAAAAA);
       shadow = isDark ? null : null;
     } else {
       // Normal
@@ -86,7 +93,7 @@ class WordTile extends StatelessWidget {
             margin: const EdgeInsets.symmetric(vertical: 3),
             padding: EdgeInsets.symmetric(
               vertical: 10,
-              horizontal: _horizontalPadding(word.de),
+              horizontal: _horizontalPadding(displayText),
             ),
             decoration: BoxDecoration(
               color: bg,
@@ -94,9 +101,9 @@ class WordTile extends StatelessWidget {
               boxShadow: shadow,
             ),
             child: Text(
-              word.de,
+              displayText,
               textAlign: TextAlign.center,
-              textDirection: TextDirection.ltr,
+              textDirection: textDirection,
               style: theme.textTheme.titleMedium?.copyWith(
                 fontWeight: FontWeight.w600,
                 color: textColor,

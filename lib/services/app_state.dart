@@ -22,20 +22,30 @@ class AppState with ChangeNotifier {
   Locale? get appLocale => _appLocale;
   AppLanguage get appLanguage => _appLanguage;
   List<AppLanguage> get wordLanguages => List.unmodifiable(_wordLanguages);
+  AppLanguage get sourceWordLanguage =>
+      _wordLanguages.length > 1 ? _wordLanguages.first : AppLanguage.de;
+  AppLanguage get targetWordLanguage {
+    if (_wordLanguages.length > 1) return _wordLanguages[1];
+    if (_wordLanguages.isEmpty) return _appLanguage;
+    final only = _wordLanguages.first;
+    if (only == AppLanguage.de) return AppLanguage.en;
+    return only;
+  }
+
   bool get onboardingCompleted => _onboardingCompleted;
   bool get isDataLoaded => _isDataLoaded;
   String get currentLevel => _currentLevel;
   ThemeMode get themeMode => _themeMode;
   List<String> get levels => const [
-        'A1.1',
-        'A1.2',
-        'A2.1',
-        'A2.2',
-        'B1.1',
-        'B1.2',
-        'B2.1',
-        'B2.2',
-      ];
+    'A1.1',
+    'A1.2',
+    'A2.1',
+    'A2.2',
+    'B1.1',
+    'B1.2',
+    'B2.1',
+    'B2.2',
+  ];
 
   // The constructor is now empty. Initialization is handled by `loadInitialData`.
   AppState();
@@ -59,10 +69,12 @@ class AppState with ChangeNotifier {
     } else {
       _wordLanguagesCustomized = true;
       _wordLanguages = _normalizeWordLanguages(
-        storedWordLanguages.map(appLanguageFromLocale).toList(),
+        storedWordLanguages.map(wordLanguageFromCode).toList(),
         fallback: _appLanguage,
       );
-      final normalizedCodes = _wordLanguages.map((l) => l.languageCode).toList();
+      final normalizedCodes = _wordLanguages
+          .map((l) => l.languageCode)
+          .toList();
       if (normalizedCodes.length != storedWordLanguages.length ||
           !_listEquals(normalizedCodes, storedWordLanguages)) {
         await prefs.setStringList(_prefsWordLanguagesKey, normalizedCodes);
@@ -141,7 +153,10 @@ class AppState with ChangeNotifier {
 
   Future<void> setWordLanguages(List<AppLanguage> languages) async {
     final prefs = await SharedPreferences.getInstance();
-    final normalized = _normalizeWordLanguages(languages, fallback: _appLanguage);
+    final normalized = _normalizeWordLanguages(
+      languages,
+      fallback: _appLanguage,
+    );
     _wordLanguagesCustomized = true;
     _wordLanguages = normalized;
     await prefs.setStringList(

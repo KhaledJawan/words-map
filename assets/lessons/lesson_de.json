@@ -1,0 +1,880 @@
+{
+  "language": "de",
+  "alphabet": {
+    "id": "lesson_alphabet",
+    "title_de": "Das deutsche Alphabet",
+    "title_fa": "الفبای آلمانی",
+    "title_en": "The German Alphabet",
+    "title_ps": "د الماني الفبا",
+    "explanition": [
+      {
+        "title_fa": "الفبای آلمانی چیست و چرا برای یادگیری واژه‌ها مهم است؟",
+        "title_en": "What is the German alphabet and why is it important for learning words?",
+        "title_ps": "د الماني الفبا څه ده او ولې د لغتونو د زده کړې لپاره مهمه ده؟",
+        "explanation_fa": "برای یادگیری واژه‌های آلمانی، اول باید الفبا را خوب بشناسی. در آلمانی هر حرف یک نام مشخص دارد و این نام‌ها برای «هجی کردن» بسیار مهم اند. وقتی کسی نام خود، نام یک شهر، ایمیل یا یک واژه نو را می‌گوید، زیاد وقت‌ها آن را حرف‌به‌حرف می‌خواند. اگر نام حروف را بلد نباشی، نوشتن واژه‌ای که می‌شنوی یا پیدا کردن آن در اپلیکیشن برایت مشکل می‌شود. این درس گرامر نیست؛ فقط کمک می‌کند واژه‌ها را درست بخوانی، درست بنویسی و با اطمینان یاد بگیری.",
+        "explanation_en": "To learn German words, you must first know the alphabet well. In German, each letter has a specific name, and these names are very important for spelling. When people say names, cities, emails, or new words, they often spell them letter by letter. If you don’t know the letter names, writing what you hear or finding words in the app becomes difficult. This lesson is not grammar; it helps you read, write, and learn words with confidence.",
+        "explanation_ps": "د الماني لغتونو د زده کړې لپاره، لومړی باید الفبا ښه وپېژنې. په الماني ژبه کې هر توری ځانګړی نوم لري او دا نومونه د هجي کولو لپاره ډېر مهم دي. کله چې څوک خپل نوم، د ښار نوم، ایمېل یا نوی لغت وایي، ډېر وخت یې توری په توری وايي. که د تورو نومونه ونه پېژنې، هغه څه چې اورېدل یې لیکل او یا په اپلیکیشن کې موندل درته ګرانېږي. دا درس ګرامر نه دی؛ دا یوازې مرسته کوي چې لغتونه سم ولولې، سم ولیکې او په ډاډه توګه یې زده کړې."
+      }
+    ],
+    "alphabet": {
+      "note_fa": "روی هر حرف کلیک کن تا نام آن را بشنوی و نمونه واژه‌ها را ببینی.",
+      "note_en": "Tap each letter to hear its name and see example words.",
+      "note_ps": "پر هر توري ټک وکړئ تر څو یې نوم واورئ او د بېلګې لغتونه ووینئ.",
+      "letters": [
+        {
+          "upper": "A",
+          "lower": "a",
+          "name_de": "a",
+          "fa_hint": "آ",
+          "ps_hint": "آ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Apfel"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Auto"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "B",
+          "lower": "b",
+          "name_de": "be",
+          "fa_hint": "بِ",
+          "ps_hint": "بې",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Brot"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Buch"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "C",
+          "lower": "c",
+          "name_de": "ce",
+          "fa_hint": "تسِه",
+          "ps_hint": "څې",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Café"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Computer"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "D",
+          "lower": "d",
+          "name_de": "de",
+          "fa_hint": "دِ",
+          "ps_hint": "دې",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Deutsch"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "danke schön"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "E",
+          "lower": "e",
+          "name_de": "e",
+          "fa_hint": "اِ",
+          "ps_hint": "اې",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "E-Mail"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Eltern"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "F",
+          "lower": "f",
+          "name_de": "ef",
+          "fa_hint": "اِف",
+          "ps_hint": "اېف",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Freund"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Fisch"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "G",
+          "lower": "g",
+          "name_de": "ge",
+          "fa_hint": "گِ",
+          "ps_hint": "ګې",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Geld"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Garten"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "H",
+          "lower": "h",
+          "name_de": "ha",
+          "fa_hint": "ها",
+          "ps_hint": "ها",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Haus"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "heute"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "I",
+          "lower": "i",
+          "name_de": "i",
+          "fa_hint": "ای",
+          "ps_hint": "ای",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ideal"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Information"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "J",
+          "lower": "j",
+          "name_de": "jot",
+          "fa_hint": "یوت",
+          "ps_hint": "یوت",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ja"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Jahr"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "K",
+          "lower": "k",
+          "name_de": "ka",
+          "fa_hint": "کا",
+          "ps_hint": "کا",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Kind"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Kaffee"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "L",
+          "lower": "l",
+          "name_de": "el",
+          "fa_hint": "اِل",
+          "ps_hint": "اېل",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Lampe"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Labor"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "M",
+          "lower": "m",
+          "name_de": "em",
+          "fa_hint": "اِم",
+          "ps_hint": "اېم",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Mädchen"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Mantel"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "N",
+          "lower": "n",
+          "name_de": "en",
+          "fa_hint": "اِن",
+          "ps_hint": "اېن",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Nachbar"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Nachricht"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "O",
+          "lower": "o",
+          "name_de": "o",
+          "fa_hint": "او",
+          "ps_hint": "او",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Obst"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Ohr"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "P",
+          "lower": "p",
+          "name_de": "pe",
+          "fa_hint": "پِ",
+          "ps_hint": "پې",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Paprika"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Party"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Q",
+          "lower": "q",
+          "name_de": "ku",
+          "fa_hint": "کو",
+          "ps_hint": "کو",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Qualität"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Quittung"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "R",
+          "lower": "r",
+          "name_de": "er",
+          "fa_hint": "اِر",
+          "ps_hint": "اېر",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Radio"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Rechnung"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "S",
+          "lower": "s",
+          "name_de": "es",
+          "fa_hint": "اِس",
+          "ps_hint": "اېس",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Saft"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Salat"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "T",
+          "lower": "t",
+          "name_de": "te",
+          "fa_hint": "تِ",
+          "ps_hint": "ټې",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "T-Shirt"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Tablette"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "U",
+          "lower": "u",
+          "name_de": "u",
+          "fa_hint": "اوو",
+          "ps_hint": "او",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "U-Bahn"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Umgebung"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "V",
+          "lower": "v",
+          "name_de": "vau",
+          "fa_hint": "فاو",
+          "ps_hint": "فاو",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Vater"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Veranstaltung"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "W",
+          "lower": "w",
+          "name_de": "we",
+          "fa_hint": "وِه",
+          "ps_hint": "وې",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Wahl"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Wand"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "X",
+          "lower": "x",
+          "name_de": "iks",
+          "fa_hint": "ایکس",
+          "ps_hint": "ایکس",
+          "examples": []
+        },
+        {
+          "upper": "Y",
+          "lower": "y",
+          "name_de": "ypsilon",
+          "fa_hint": "ایپسـیلون",
+          "ps_hint": "ایپسېلون",
+          "examples": []
+        },
+        {
+          "upper": "Z",
+          "lower": "z",
+          "name_de": "zett",
+          "fa_hint": "تسِت",
+          "ps_hint": "څېت",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Zahn"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Zebrastreifen"
+              }
+            }
+          ]
+        }
+      ],
+      "special_letters": [
+        {
+          "symbol": "Ä",
+          "name_de": "ä",
+          "fa_hint": "بین آ و اِ",
+          "ps_hint": "د آ او اې ترمنځ غږ",
+          "description_fa": "Ä یک حرف جداگانه است. اگر آن را با A اشتباه بگیری، معنی کلمه عوض می‌شود.",
+          "description_en": "Ä is a separate letter. Mixing it with A can change the word’s meaning.",
+          "description_ps": "Ä یو بېل توری دی. که له A سره یې ګډ کړې، د کلمې مانا بدلېږي."
+        },
+        {
+          "symbol": "Ö",
+          "name_de": "ö",
+          "fa_hint": "اُ-اِ (دهان گرد)",
+          "ps_hint": "اُ-اې (شونډې ګردې)",
+          "description_fa": "Ö با O فرق دارد و صدای خاص خودش را دارد.",
+          "description_en": "Ö is different from O and has its own sound.",
+          "description_ps": "Ö له O سره توپیر لري او خپل ځانګړی غږ لري."
+        },
+        {
+          "symbol": "Ü",
+          "name_de": "ü",
+          "fa_hint": "اوو-ای (دهان گرد)",
+          "ps_hint": "او-اې (شونډې ګردې)",
+          "description_fa": "Ü با U فرق دارد و در واژه‌ها بسیار مهم است.",
+          "description_en": "Ü is different from U and very important in words.",
+          "description_ps": "Ü له U سره توپیر لري او په لغتونو کې ډېر مهم دی."
+        },
+        {
+          "symbol": "ß",
+          "name_de": "Eszett",
+          "fa_hint": "اِس-تسِت",
+          "ps_hint": "اېس‌تسېت",
+          "description_fa": "ß مثل ss خوانده می‌شود، اما خودش یک نشانهٔ خاص آلمانی است.",
+          "description_en": "ß sounds like ss but is a special German character.",
+          "description_ps": "ß د ss په شان لوستل کېږي، خو دا د الماني ژبې ځانګړی نښه ده."
+        }
+      ]
+    }
+  },
+  "combinations": {
+    "id": "lesson_combinations",
+    "title_de": "Buchstabenkombinationen im Deutschen",
+    "title_fa": "ترکیب حروف در آلمانی",
+    "title_en": "German Letter Combinations",
+    "title_ps": "په الماني کې د تورو ترکیبونه",
+    "explanition": [
+      {
+        "title_fa": "چرا ترکیب حروف را باید یاد بگیریم؟",
+        "title_en": "Why do we need to learn letter combinations?",
+        "title_ps": "ولې باید د تورو ترکیبونه زده کړو؟",
+        "explanation_fa": "در آلمانی بعضی صداها با یک حرف ساخته نمی‌شوند، بلکه با دو یا چند حرف کنار هم می‌آیند. اگر این ترکیب‌ها را بلد نباشی، کلمه را درست نمی‌خوانی و وقتی آن را می‌شنوی هم شاید نفهمی. در این درس، ترکیب‌های بسیار رایج را یاد می‌گیری (مثل: ch, sch, tsch, sp, st, ei, ie, eu/äu, au, qu, pf, ck). هدف این است که وقتی یک واژه نو دیدی، بتوانی با خواندنِ حروف و ترکیب‌ها، تلفظ آن را نزدیک به درست حدس بزنی و آسان‌تر در یاد نگه داری.",
+        "explanation_en": "In German, many sounds are made by two or more letters together. If you don’t know these combinations, you will misread words and may not understand them when you hear them. In this lesson, you learn very common combinations (such as ch, sch, tsch, sp, st, ei, ie, eu/äu, au, qu, pf, ck). The goal is to help you guess the pronunciation of new words more accurately and remember them more easily.",
+        "explanation_ps": "په الماني ژبه کې ځینې غږونه یوازې د یوه توري له لارې نه جوړېږي، بلکې د دوو یا څو تورو په یوځای کېدو سره جوړېږي. که دا ترکیبونه ونه پېژنې، لغت به سم ونه لولې او کله چې یې واورې، ښايي سم یې ونه پوهېږې. په دې درس کې ته ډېر عام ترکیبونه زده کوې (لکه: ch, sch, tsch, sp, st, ei, ie, eu/äu, au, qu, pf, ck). موخه دا ده چې کله نوی لغت ووینې، د تورو او ترکیبونو له مخې یې تلفظ نږدې سم اټکل کړې او اسانه یې په یاد وساتې."
+      }
+    ],
+    "combinations": [
+      {
+        "id": "sch",
+        "title_de": "sch",
+        "title_fa": "ترکیب sch",
+        "title_en": "The combination sch",
+        "title_ps": "د sch ترکیب",
+        "description_fa": "sch تقریباً همیشه مثل «ش» خوانده می‌شود.",
+        "description_en": "sch is almost always pronounced like “sh”.",
+        "description_ps": "sch نږدې تل د «ش» په شان لوستل کېږي.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Schule"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "schön"
+            }
+          }
+        ]
+      },
+      {
+        "id": "tsch",
+        "title_de": "tsch",
+        "title_fa": "ترکیب tsch",
+        "title_en": "The combination tsch",
+        "title_ps": "د tsch ترکیب",
+        "description_fa": "tsch معمولاً مثل «چ» خوانده می‌شود.",
+        "description_en": "tsch is usually pronounced like “ch” (as in “chair”).",
+        "description_ps": "tsch معمولاً د «چ» په شان لوستل کېږي.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Deutsch"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Tschüss!"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ch",
+        "title_de": "ch",
+        "title_fa": "ترکیب ch",
+        "title_en": "The combination ch",
+        "title_ps": "د ch ترکیب",
+        "description_fa": "ch معمولاً دو جور صدا دارد: (1) بعد از i, e, ä, ö, ü نرم‌تر است (مثل ich). (2) بعد از a, o, u, au خشن‌تر است (نزدیک به «خ» مثل Bach).",
+        "description_en": "ch usually has two sounds: (1) after i, e, ä, ö, ü it is softer (like in ich). (2) after a, o, u, au it is harsher (similar to the sound in Bach).",
+        "description_ps": "ch عموماً دوه ډوله غږ لري: (۱) د i, e, ä, ö, ü وروسته نرم لوستل کېږي (لکه ich). (۲) د a, o, u, au وروسته سخت لوستل کېږي، نږدې د «خ» غږ ته (لکه Bach).",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Milch"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Buch"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "auch"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sp_st_start",
+        "title_de": "sp / st am Wortanfang",
+        "title_fa": "sp و st در سرِ کلمه",
+        "title_en": "sp and st at the beginning of words",
+        "title_ps": "sp او st د کلمې په پیل کې",
+        "description_fa": "وقتی sp یا st در سرِ کلمه بیاید، معمولاً با صدای «شپ» یا «شت» خوانده می‌شود.",
+        "description_en": "When sp or st are at the beginning, they usually start with an “sh” sound.",
+        "description_ps": "کله چې sp یا st د کلمې په پیل کې راشي، اکثره د «شپ» یا «شت» په شان لوستل کېږي.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "sprechen"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Straße"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Student"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ei",
+        "title_de": "ei",
+        "title_fa": "ترکیب ei",
+        "title_en": "The combination ei",
+        "title_ps": "د ei ترکیب",
+        "description_fa": "ei معمولاً مثل «آی» خوانده می‌شود.",
+        "description_en": "ei is usually pronounced like “eye”.",
+        "description_ps": "ei اکثر د «آی» په شان لوستل کېږي.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "klein"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "nein"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ie",
+        "title_de": "ie",
+        "title_fa": "ترکیب ie",
+        "title_en": "The combination ie",
+        "title_ps": "د ie ترکیب",
+        "description_fa": "ie معمولاً «ایِ دراز» است.",
+        "description_en": "ie is usually a long “ee” sound.",
+        "description_ps": "ie عموماً د اوږده «ای» غږ لري.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "hier"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Liebe"
+            }
+          }
+        ]
+      },
+      {
+        "id": "eu_aeu",
+        "title_de": "eu / äu",
+        "title_fa": "eu و äu",
+        "title_en": "eu and äu",
+        "title_ps": "eu او äu",
+        "description_fa": "eu و äu معمولاً مثل «اُی» خوانده می‌شوند.",
+        "description_en": "eu and äu are usually pronounced like “oy”.",
+        "description_ps": "eu او äu اکثر د «اُی» په شان لوستل کېږي.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "heute"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Verkäufer"
+            }
+          }
+        ]
+      },
+      {
+        "id": "au",
+        "title_de": "au",
+        "title_fa": "ترکیب au",
+        "title_en": "The combination au",
+        "title_ps": "د au ترکیب",
+        "description_fa": "au معمولاً مثل «آو» خوانده می‌شود.",
+        "description_en": "au is usually pronounced like “ow”.",
+        "description_ps": "au اکثر د «آو» په شان لوستل کېږي.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Haus"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Auto"
+            }
+          }
+        ]
+      },
+      {
+        "id": "qu",
+        "title_de": "qu",
+        "title_fa": "ترکیب qu",
+        "title_en": "The combination qu",
+        "title_ps": "د qu ترکیب",
+        "description_fa": "qu تقریباً همیشه مثل «کو» خوانده می‌شود.",
+        "description_en": "qu is usually pronounced like “kv/kw”.",
+        "description_ps": "qu نږدې تل د «کو» (kw) په شان لوستل کېږي.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Qualität"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Quittung"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pf",
+        "title_de": "pf",
+        "title_fa": "ترکیب pf",
+        "title_en": "The combination pf",
+        "title_ps": "د pf ترکیب",
+        "description_fa": "pf یک صدای ترکیبی است: اول «پ» بعد سریع «ف».",
+        "description_en": "pf is a combined sound: p + f together.",
+        "description_ps": "pf یو ګډ غږ دی: لومړی «پ»، بیا ژر «ف».",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Pfeffer"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Pfanne"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ck",
+        "title_de": "ck",
+        "title_fa": "ترکیب ck",
+        "title_en": "The combination ck",
+        "title_ps": "د ck ترکیب",
+        "description_fa": "ck معمولاً مثل «ک» خوانده می‌شود و نشان می‌دهد واکه قبل از آن کوتاه است.",
+        "description_en": "ck is pronounced like “k” and often shows the vowel before it is short.",
+        "description_ps": "ck د «ک» په شان لوستل کېږي او اکثر ښيي چې مخکینی واکه لنډ دی.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Jacke"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Ticket"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

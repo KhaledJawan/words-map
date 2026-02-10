@@ -2,2519 +2,3668 @@
   {
     "id": "wA1-2-0001",
     "level": "A1.2",
-    "word": "abholen",
-    "translation_fa": "تحویل گرفتن",
-    "translation_en": "to pick up",
-    "translation_ps": "اخیستل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/abholen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "abholen",
+      "en": "to pick up",
+      "fa": "تحویل گرفتن",
+      "ps": "اخیستل",
+      "fr": "ramasser",
+      "tr": "almak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/abholen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0001_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0002",
     "level": "A1.2",
-    "word": "besuchen",
-    "translation_fa": "مراجعه کردن / دیدار کردن",
-    "translation_en": "to visit",
-    "translation_ps": "کتنه کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/besuchen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "besuchen",
+      "en": "to visit",
+      "fa": "مراجعه کردن / دیدار کردن",
+      "ps": "کتنه کول",
+      "fr": "visiter",
+      "tr": "ziyaret etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/besuchen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0002_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0003",
     "level": "A1.2",
-    "word": "Eltern",
-    "translation_fa": "والدین",
-    "translation_en": "parents",
-    "translation_ps": "مور او پلار",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/eltern.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Eltern",
+      "en": "parents",
+      "fa": "والدین",
+      "ps": "مور او پلار",
+      "fr": "parents",
+      "tr": "ebeveynler"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/eltern.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0003_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0004",
     "level": "A1.2",
-    "word": "Familie",
-    "translation_fa": "خانواده",
-    "translation_en": "family",
-    "translation_ps": "کورنۍ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/familie.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Familie",
+      "en": "family",
+      "fa": "خانواده",
+      "ps": "کورنۍ",
+      "fr": "famille",
+      "tr": "aile"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/familie.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0004_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0005",
     "level": "A1.2",
-    "word": "Familienstand",
-    "translation_fa": "وضعیت تأهل",
-    "translation_en": "marital status",
-    "translation_ps": "د واده حالت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/familienstand.mp3",
     "image": "",
     "category": [
       "relationships",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Familienstand",
+      "en": "marital status",
+      "fa": "وضعیت تأهل",
+      "ps": "د واده حالت",
+      "fr": "État civil",
+      "tr": "Medeni durum"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/familienstand.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0005_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0006",
     "level": "A1.2",
-    "word": "Foto",
-    "translation_fa": "عکس",
-    "translation_en": "photo",
-    "translation_ps": "انځور",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/foto.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Foto",
+      "en": "photo",
+      "fa": "عکس",
+      "ps": "انځور",
+      "fr": "photo",
+      "tr": "foto"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/foto.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0006_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0007",
     "level": "A1.2",
-    "word": "geschieden",
-    "translation_fa": "مطلقه",
-    "translation_en": "divorced",
-    "translation_ps": "جلا شوی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/geschieden.mp3",
     "image": "",
     "category": [
       "greetings_politeness",
       "conversation_phrases"
-    ]
+    ],
+    "words": {
+      "de": "geschieden",
+      "en": "divorced",
+      "fa": "مطلقه",
+      "ps": "جلا شوی",
+      "fr": "divorcé",
+      "tr": "boşanmış"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/geschieden.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0007_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0008",
     "level": "A1.2",
-    "word": "Geschwister",
-    "translation_fa": "خواهر و برادر",
-    "translation_en": "siblings",
-    "translation_ps": "ورور او خور",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/geschwister.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Geschwister",
+      "en": "siblings",
+      "fa": "خواهر و برادر",
+      "ps": "ورور او خور",
+      "fr": "frères et sœurs",
+      "tr": "kardeşler"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/geschwister.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0008_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0009",
     "level": "A1.2",
-    "word": "getrennt",
-    "translation_fa": "جدا شده",
-    "translation_en": "separated",
-    "translation_ps": "جلا شوی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/getrennt.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "getrennt",
+      "en": "separated",
+      "fa": "جدا شده",
+      "ps": "جلا شوی",
+      "fr": "séparé",
+      "tr": "ayrılmış"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/getrennt.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0009_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0010",
     "level": "A1.2",
-    "word": "Großeltern",
-    "translation_fa": "پدربزرگ و مادربزرگ",
-    "translation_en": "grandparents",
-    "translation_ps": "نيکه او انا",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/großeltern.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Großeltern",
+      "en": "grandparents",
+      "fa": "پدربزرگ و مادربزرگ",
+      "ps": "نيکه او انا",
+      "fr": "grands-parents",
+      "tr": "büyük ebeveynler"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/großeltern.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0010_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0011",
     "level": "A1.2",
-    "word": "Hund",
-    "translation_fa": "سگ",
-    "translation_en": "dog",
-    "translation_ps": "سپی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hund.mp3",
     "image": "",
     "category": [
       "nature_animals",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Hund",
+      "en": "dog",
+      "fa": "سگ",
+      "ps": "سپی",
+      "fr": "chien",
+      "tr": "köpek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hund.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0011_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0012",
     "level": "A1.2",
-    "word": "Junge",
-    "translation_fa": "پسر",
-    "translation_en": "boy",
-    "translation_ps": "هلک",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/junge.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Junge",
+      "en": "boy",
+      "fa": "پسر",
+      "ps": "هلک",
+      "fr": "garçon",
+      "tr": "oğlan"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/junge.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0012_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0013",
     "level": "A1.2",
-    "word": "Katze",
-    "translation_fa": "گربه",
-    "translation_en": "cat",
-    "translation_ps": "پیشو",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/katze.mp3",
     "image": "",
     "category": [
       "nature_animals",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Katze",
+      "en": "cat",
+      "fa": "گربه",
+      "ps": "پیشو",
+      "fr": "chat",
+      "tr": "kedi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/katze.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0013_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0014",
     "level": "A1.2",
-    "word": "kennen",
-    "translation_fa": "شناختن",
-    "translation_en": "to know",
-    "translation_ps": "پېژندل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kennen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "kennen",
+      "en": "to know",
+      "fa": "شناختن",
+      "ps": "پېژندل",
+      "fr": "connaître",
+      "tr": "tanımak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kennen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0014_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0015",
     "level": "A1.2",
-    "word": "ledig",
-    "translation_fa": "مجرد",
-    "translation_en": "single",
-    "translation_ps": "مجرد",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ledig.mp3",
     "image": "",
     "category": [
       "daily_life",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "ledig",
+      "en": "single",
+      "fa": "مجرد",
+      "ps": "مجرد",
+      "fr": "célibataire",
+      "tr": "bekar"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ledig.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0015_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0016",
     "level": "A1.2",
-    "word": "lieben",
-    "translation_fa": "دوست داشتن",
-    "translation_en": "to love",
-    "translation_ps": "مينه کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/lieben.mp3",
     "image": "",
     "category": [
       "feelings_emotions",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "lieben",
+      "en": "to love",
+      "fa": "دوست داشتن",
+      "ps": "مينه کول",
+      "fr": "aimer",
+      "tr": "sevmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/lieben.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0016_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0017",
     "level": "A1.2",
-    "word": "Mädchen",
-    "translation_fa": "دختر",
-    "translation_en": "girl",
-    "translation_ps": "جلۍ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mädchen.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Mädchen",
+      "en": "girl",
+      "fa": "دختر",
+      "ps": "جلۍ",
+      "fr": "fille",
+      "tr": "kız"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mädchen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0017_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0018",
     "level": "A1.2",
-    "word": "Person",
-    "translation_fa": "شخص",
-    "translation_en": "person",
-    "translation_ps": "شخص",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/person.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Person",
+      "en": "person",
+      "fa": "شخص",
+      "ps": "شخص",
+      "fr": "personne",
+      "tr": "kişi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/person.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0018_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0020",
     "level": "A1.2",
-    "word": "Schule",
-    "translation_fa": "مدرسه",
-    "translation_en": "school",
-    "translation_ps": "ښوونځی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schule.mp3",
     "image": "",
     "category": [
       "places_buildings",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Schule",
+      "en": "school",
+      "fa": "مدرسه",
+      "ps": "ښوونځی",
+      "fr": "école",
+      "tr": "okul"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schule.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0020_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0021",
     "level": "A1.2",
-    "word": "Schwiegereltern",
-    "translation_fa": "والدین همسر",
-    "translation_en": "parents-in-law",
-    "translation_ps": "د مېړه/مېرمنې والدين",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schwiegereltern.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Schwiegereltern",
+      "en": "parents-in-law",
+      "fa": "والدین همسر",
+      "ps": "د مېړه/مېرمنې والدين",
+      "fr": "beaux-parents",
+      "tr": "kayınvalideler"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schwiegereltern.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0021_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0022",
     "level": "A1.2",
-    "word": "schwimmen",
-    "translation_fa": "شنا کردن",
-    "translation_en": "to swim",
-    "translation_ps": "لامبو وهل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schwimmen.mp3",
     "image": "",
     "category": [
       "hobbies_sports",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "schwimmen",
+      "en": "to swim",
+      "fa": "شنا کردن",
+      "ps": "لامبو وهل",
+      "fr": "nager",
+      "tr": "yüzmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schwimmen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0022_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0023",
     "level": "A1.2",
-    "word": "verheiratet",
-    "translation_fa": "متأهل",
-    "translation_en": "married",
-    "translation_ps": "واده شوی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verheiratet.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "verheiratet",
+      "en": "married",
+      "fa": "متأهل",
+      "ps": "واده شوی",
+      "fr": "marié",
+      "tr": "evli"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verheiratet.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0023_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0024",
     "level": "A1.2",
-    "word": "verwitwet",
-    "translation_fa": "بیوه",
-    "translation_en": "widowed",
-    "translation_ps": "بېوۀ شوی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verwitwet.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "verwitwet",
+      "en": "widowed",
+      "fa": "بیوه",
+      "ps": "بېوۀ شوی",
+      "fr": "veuf",
+      "tr": "dul"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verwitwet.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0024_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0025",
     "level": "A1.2",
-    "word": "zusammen",
-    "translation_fa": "با هم",
-    "translation_en": "together",
-    "translation_ps": "یو ځای",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zusammen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "zusammen",
+      "en": "together",
+      "fa": "با هم",
+      "ps": "یو ځای",
+      "fr": "ensemble",
+      "tr": "birlikte"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zusammen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0025_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0026",
     "level": "A1.2",
-    "word": "Zwilling",
-    "translation_fa": "دوقلو",
-    "translation_en": "twin",
-    "translation_ps": "شریک زېږېدلی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zwilling.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Zwilling",
+      "en": "twin",
+      "fa": "دوقلو",
+      "ps": "شریک زېږېدلی",
+      "fr": "jumeau",
+      "tr": "ikiz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zwilling.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0026_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0027",
     "level": "A1.2",
-    "word": "Großvater",
-    "translation_fa": "پدربزرگ",
-    "translation_en": "grandfather",
-    "translation_ps": "نیکه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/großvater.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Großvater",
+      "en": "grandfather",
+      "fa": "پدربزرگ",
+      "ps": "نیکه",
+      "fr": "grand-père",
+      "tr": "büyükbaba"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/großvater.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0027_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0028",
     "level": "A1.2",
-    "word": "Großmutter",
-    "translation_fa": "مادربزرگ",
-    "translation_en": "grandmother",
-    "translation_ps": "نیا",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/großmutter.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Großmutter",
+      "en": "grandmother",
+      "fa": "مادربزرگ",
+      "ps": "نیا",
+      "fr": "grand-mère",
+      "tr": "büyükanne"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/großmutter.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0028_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0029",
     "level": "A1.2",
-    "word": "Vater",
-    "translation_fa": "پدر",
-    "translation_en": "father",
-    "translation_ps": "پلار",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/vater.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Vater",
+      "en": "father",
+      "fa": "پدر",
+      "ps": "پلار",
+      "fr": "père",
+      "tr": "baba"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/vater.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0029_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0030",
     "level": "A1.2",
-    "word": "Mutter",
-    "translation_fa": "مادر",
-    "translation_en": "mother",
-    "translation_ps": "مور",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mutter.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Mutter",
+      "en": "mother",
+      "fa": "مادر",
+      "ps": "مور",
+      "fr": "mère",
+      "tr": "anne"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mutter.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0030_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0031",
     "level": "A1.2",
-    "word": "Bruder",
-    "translation_fa": "برادر",
-    "translation_en": "brother",
-    "translation_ps": "ورور",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bruder.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Bruder",
+      "en": "brother",
+      "fa": "برادر",
+      "ps": "ورور",
+      "fr": "frère",
+      "tr": "erkek kardeş"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bruder.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0031_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0032",
     "level": "A1.2",
-    "word": "Schwester",
-    "translation_fa": "خواهر",
-    "translation_en": "sister",
-    "translation_ps": "خور",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schwester.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Schwester",
+      "en": "sister",
+      "fa": "خواهر",
+      "ps": "خور",
+      "fr": "soeur",
+      "tr": "kız kardeş"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schwester.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0032_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0033",
     "level": "A1.2",
-    "word": "Onkel",
-    "translation_fa": "عمو / دایی",
-    "translation_en": "uncle",
-    "translation_ps": "تره / ماما",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/onkel.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Onkel",
+      "en": "uncle",
+      "fa": "عمو / دایی",
+      "ps": "تره / ماما",
+      "fr": "oncle",
+      "tr": "amca / dayı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/onkel.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0033_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0034",
     "level": "A1.2",
-    "word": "Tante",
-    "translation_fa": "عمه / خاله",
-    "translation_en": "aunt",
-    "translation_ps": "ترور / ماما",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/tante.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Tante",
+      "en": "aunt",
+      "fa": "عمه / خاله",
+      "ps": "ترور / ماما",
+      "fr": "tante",
+      "tr": "hala / teyze"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/tante.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0034_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0035",
     "level": "A1.2",
-    "word": "Cousin",
-    "translation_fa": "پسرعمو...",
-    "translation_en": "cousin (male)",
-    "translation_ps": "د تره زوی / د ماما زوی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/cousin.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Cousin",
+      "en": "cousin (male)",
+      "fa": "پسرعمو...",
+      "ps": "د تره زوی / د ماما زوی",
+      "fr": "cousin",
+      "tr": "erkek kuzen"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/cousin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0035_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0036",
     "level": "A1.2",
-    "word": "Cousine",
-    "translation_fa": "دخترعمو...",
-    "translation_en": "cousin (female)",
-    "translation_ps": "د تره لور / د ماما لور",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/cousine.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Cousine",
+      "en": "cousin (female)",
+      "fa": "دخترعمو...",
+      "ps": "د تره لور / د ماما لور",
+      "fr": "cousine",
+      "tr": "kız kuzen"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/cousine.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0036_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0037",
     "level": "A1.2",
-    "word": "Sohn",
-    "translation_fa": "پسر",
-    "translation_en": "son",
-    "translation_ps": "زوی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/sohn.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Sohn",
+      "en": "son",
+      "fa": "پسر",
+      "ps": "زوی",
+      "fr": "fils",
+      "tr": "oğul"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/sohn.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0037_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0038",
     "level": "A1.2",
-    "word": "Tochter",
-    "translation_fa": "دختر",
-    "translation_en": "daughter",
-    "translation_ps": "لور",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/tochter.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Tochter",
+      "en": "daughter",
+      "fa": "دختر",
+      "ps": "لور",
+      "fr": "fille",
+      "tr": "kız"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/tochter.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0038_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0039",
     "level": "A1.2",
-    "word": "Enkel",
-    "translation_fa": "نوه (پسر)",
-    "translation_en": "grandson",
-    "translation_ps": "لمسی (زوی)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/enkel.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Enkel",
+      "en": "grandson",
+      "fa": "نوه (پسر)",
+      "ps": "لمسی (زوی)",
+      "fr": "petit-fils",
+      "tr": "erkek torun"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/enkel.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0039_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0040",
     "level": "A1.2",
-    "word": "Enkelin",
-    "translation_fa": "نوه (دختر)",
-    "translation_en": "granddaughter",
-    "translation_ps": "لمسی (لور)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/enkelin.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Enkelin",
+      "en": "granddaughter",
+      "fa": "نوه (دختر)",
+      "ps": "لمسی (لور)",
+      "fr": "petite-fille",
+      "tr": "kız torun"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/enkelin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0040_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0041",
     "level": "A1.2",
-    "word": "Zeit verbringen",
-    "translation_fa": "صرف وقت کردن",
-    "translation_en": "to spend time",
-    "translation_ps": "وخت تېرول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zeit_verbringen.mp3",
     "image": "",
     "category": [
       "time_date",
       "verb",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Zeit verbringen",
+      "en": "to spend time",
+      "fa": "صرف وقت کردن",
+      "ps": "وخت تېرول",
+      "fr": "passer du temps",
+      "tr": "vakit geçirmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zeit_verbringen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0041_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0042",
     "level": "A1.2",
-    "word": "Guck mal!",
-    "translation_fa": "نگاه کن!",
-    "translation_en": "Look!",
-    "translation_ps": "کتنه وکړه!",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/guck_mal!.mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Guck mal!",
+      "en": "Look!",
+      "fa": "نگاه کن!",
+      "ps": "کتنه وکړه!",
+      "fr": "Regarde !",
+      "tr": "Bak!"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/guck_mal!.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0042_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0043",
     "level": "A1.2",
-    "word": "Alltag",
-    "translation_fa": "زندگی روزمره",
-    "translation_en": "everyday life",
-    "translation_ps": "هره ورځ ژوند",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/alltag.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Alltag",
+      "en": "everyday life",
+      "fa": "زندگی روزمره",
+      "ps": "هره ورځ ژوند",
+      "fr": "vie quotidienne",
+      "tr": "günlük yaşam"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/alltag.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0043_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0044",
     "level": "A1.2",
-    "word": "aufräumen",
-    "translation_fa": "مرتب کردن",
-    "translation_en": "to tidy up",
-    "translation_ps": "پاکول / ترتيب ورکول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/aufräumen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "aufräumen",
+      "en": "to tidy up",
+      "fa": "مرتب کردن",
+      "ps": "پاکول / ترتيب ورکول",
+      "fr": "ranger",
+      "tr": "toparlamak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/aufräumen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0044_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0045",
     "level": "A1.2",
-    "word": "aussehen",
-    "translation_fa": "به نظر رسیدن",
-    "translation_en": "to look / appear",
-    "translation_ps": "ښکاره کېدل / ښکاري",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/aussehen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "aussehen",
+      "en": "to look / appear",
+      "fa": "به نظر رسیدن",
+      "ps": "ښکاره کېدل / ښکاري",
+      "fr": "sembler / paraître",
+      "tr": "görünmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/aussehen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0045_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0046",
     "level": "A1.2",
-    "word": "einkaufen",
-    "translation_fa": "خرید کردن",
-    "translation_en": "to shop",
-    "translation_ps": "پېرودل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/einkaufen.mp3",
     "image": "",
     "category": [
       "places_buildings",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "einkaufen",
+      "en": "to shop",
+      "fa": "خرید کردن",
+      "ps": "پېرودل",
+      "fr": "faire des courses",
+      "tr": "alışveriş yapmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/einkaufen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0046_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0047",
     "level": "A1.2",
-    "word": "fast",
-    "translation_fa": "تقریباً",
-    "translation_en": "almost",
-    "translation_ps": "نږدې",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fast.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "fast",
+      "en": "almost",
+      "fa": "تقریباً",
+      "ps": "نږدې",
+      "fr": "presque",
+      "tr": "neredeyse"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fast.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0047_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0048",
     "level": "A1.2",
-    "word": "Frühstück",
-    "translation_fa": "صبحانه",
-    "translation_en": "breakfast",
-    "translation_ps": "سهارنی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/frühstück.mp3",
     "image": "",
     "category": [
       "food_drink",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Frühstück",
+      "en": "breakfast",
+      "fa": "صبحانه",
+      "ps": "سهارنی",
+      "fr": "petit-déjeuner",
+      "tr": "kahvaltı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/frühstück.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0048_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0049",
     "level": "A1.2",
-    "word": "Haushalt",
-    "translation_fa": "خانوار",
-    "translation_en": "household",
-    "translation_ps": "کورنی چارې",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/haushalt.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Haushalt",
+      "en": "household",
+      "fa": "خانوار",
+      "ps": "کورنی چارې",
+      "fr": "ménage",
+      "tr": "hane"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/haushalt.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0049_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0050",
     "level": "A1.2",
-    "word": "helfen",
-    "translation_fa": "کمک کردن",
-    "translation_en": "to help",
-    "translation_ps": "مرسته کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/helfen.mp3",
     "image": "",
     "category": [
       "safety_emergency",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "helfen",
+      "en": "to help",
+      "fa": "کمک کردن",
+      "ps": "مرسته کول",
+      "fr": "aider",
+      "tr": "yardım etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/helfen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0050_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0051",
     "level": "A1.2",
-    "word": "Mittagessen",
-    "translation_fa": "ناهار",
-    "translation_en": "lunch",
-    "translation_ps": "غرمنۍ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mittagessen.mp3",
     "image": "",
     "category": [
       "food_drink",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Mittagessen",
+      "en": "lunch",
+      "fa": "ناهار",
+      "ps": "غرمنۍ",
+      "fr": "déjeuner",
+      "tr": "öğle yemeği"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mittagessen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0051_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0052",
     "level": "A1.2",
-    "word": "putzen",
-    "translation_fa": "تمیز کردن",
-    "translation_en": "to clean",
-    "translation_ps": "پاکول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/putzen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "putzen",
+      "en": "to clean",
+      "fa": "تمیز کردن",
+      "ps": "پاکول",
+      "fr": "nettoyer",
+      "tr": "temizlemek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/putzen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0052_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0053",
     "level": "A1.2",
-    "word": "Stress",
-    "translation_fa": "استرس",
-    "translation_en": "stress",
-    "translation_ps": "Stress",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stress.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Stress",
+      "en": "stress",
+      "fa": "استرس",
+      "ps": "Stress",
+      "fr": "stress",
+      "tr": "stres"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stress.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0053_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0054",
     "level": "A1.2",
-    "word": "stressig",
-    "translation_fa": "استرس‌زا",
-    "translation_en": "stressful",
-    "translation_ps": "سترس لرونکی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stressig.mp3",
     "image": "",
     "category": [
       "daily_life",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "stressig",
+      "en": "stressful",
+      "fa": "استرس‌زا",
+      "ps": "سترس لرونکی",
+      "fr": "stressant",
+      "tr": "stresli"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stressig.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0054_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0055",
     "level": "A1.2",
-    "word": "Termin",
-    "translation_fa": "قرار ملاقات",
-    "translation_en": "appointment",
-    "translation_ps": "وخت ټاکل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/termin.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Termin",
+      "en": "appointment",
+      "fa": "قرار ملاقات",
+      "ps": "وخت ټاکل",
+      "fr": "rendez-vous",
+      "tr": "randevu"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/termin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0055_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0056",
     "level": "A1.2",
-    "word": "toll",
-    "translation_fa": "عالی",
-    "translation_en": "great",
-    "translation_ps": "عالي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/toll.mp3",
     "image": "",
     "category": [
       "feelings_emotions",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "toll",
+      "en": "great",
+      "fa": "عالی",
+      "ps": "عالي",
+      "fr": "super",
+      "tr": "harika"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/toll.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0056_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0057",
     "level": "A1.2",
-    "word": "ins Bett bringen",
-    "translation_fa": "خواباندن",
-    "translation_en": "to put to bed",
-    "translation_ps": "بستر ته کېښودل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ins_bett_bringen.mp3",
     "image": "",
     "category": [
       "furniture_rooms",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "ins Bett bringen",
+      "en": "to put to bed",
+      "fa": "خواباندن",
+      "ps": "بستر ته کېښودل",
+      "fr": "coucher",
+      "tr": "yatağa yatırmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ins_bett_bringen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0057_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0058",
     "level": "A1.2",
-    "word": "jeder Tag",
-    "translation_fa": "هر روز",
-    "translation_en": "every day",
-    "translation_ps": "هره ورځ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/jeder_tag.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "jeder Tag",
+      "en": "every day",
+      "fa": "هر روز",
+      "ps": "هره ورځ",
+      "fr": "chaque jour",
+      "tr": "her gün"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/jeder_tag.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0058_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0059",
     "level": "A1.2",
-    "word": "Anruf",
-    "translation_fa": "تماس",
-    "translation_en": "phone call",
-    "translation_ps": "تلیفون زنګ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/anruf.mp3",
     "image": "",
     "category": [
       "technology_internet",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Anruf",
+      "en": "phone call",
+      "fa": "تماس",
+      "ps": "تلیفون زنګ",
+      "fr": "appel téléphonique",
+      "tr": "telefon görüşmesi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/anruf.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0059_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0060",
     "level": "A1.2",
-    "word": "E-Mail",
-    "translation_fa": "ایمیل",
-    "translation_en": "email",
-    "translation_ps": "E-Mail",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/e-mail.mp3",
     "image": "",
     "category": [
       "technology_internet",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "E-Mail",
+      "en": "email",
+      "fa": "ایمیل",
+      "ps": "E-Mail",
+      "fr": "email",
+      "tr": "e-posta"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/e-mail.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0060_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0061",
     "level": "A1.2",
-    "word": "früher",
-    "translation_fa": "قبلاً",
-    "translation_en": "earlier / before",
-    "translation_ps": "مخکې",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/früher.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "früher",
+      "en": "earlier / before",
+      "fa": "قبلاً",
+      "ps": "مخکې",
+      "fr": "plus tôt / avant",
+      "tr": "daha önce"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/früher.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0061_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0062",
     "level": "A1.2",
-    "word": "Haustier",
-    "translation_fa": "حیوان خانگی",
-    "translation_en": "pet",
-    "translation_ps": "کورنی حیوان",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/haustier.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Haustier",
+      "en": "pet",
+      "fa": "حیوان خانگی",
+      "ps": "کورنی حیوان",
+      "fr": "animal de compagnie",
+      "tr": "evcil hayvan"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/haustier.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0062_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0063",
     "level": "A1.2",
-    "word": "Kindergarten",
-    "translation_fa": "مهدکودک",
-    "translation_en": "kindergarten",
-    "translation_ps": "Kindergarten",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kindergarten.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Kindergarten",
+      "en": "kindergarten",
+      "fa": "مهدکودک",
+      "ps": "Kindergarten",
+      "fr": "jardin d'enfants",
+      "tr": "anaokulu"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kindergarten.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0063_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0064",
     "level": "A1.2",
-    "word": "Laden",
-    "translation_fa": "مغازه",
-    "translation_en": "shop",
-    "translation_ps": "هټۍ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/laden.mp3",
     "image": "",
     "category": [
       "places_buildings",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Laden",
+      "en": "shop",
+      "fa": "مغازه",
+      "ps": "هټۍ",
+      "fr": "boutique",
+      "tr": "dükkan"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/laden.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0064_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0065",
     "level": "A1.2",
-    "word": "Telefon",
-    "translation_fa": "تلفن",
-    "translation_en": "telephone",
-    "translation_ps": "تلیفون",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/telefon.mp3",
     "image": "",
     "category": [
       "daily_life",
       "loanword_international",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Telefon",
+      "en": "telephone",
+      "fa": "تلفن",
+      "ps": "تلیفون",
+      "fr": "téléphone",
+      "tr": "telefon"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/telefon.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0065_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0066",
     "level": "A1.2",
-    "word": "verwandt",
-    "translation_fa": "خویشاوند",
-    "translation_en": "related",
-    "translation_ps": "اړوند",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verwandt.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "verwandt",
+      "en": "related",
+      "fa": "خویشاوند",
+      "ps": "اړوند",
+      "fr": "lié",
+      "tr": "ilişkili"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verwandt.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0066_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0067",
     "level": "A1.2",
-    "word": "warten auf",
-    "translation_fa": "منتظر بودن",
-    "translation_en": "to wait for",
-    "translation_ps": "انتظار کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/warten_auf.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "warten auf",
+      "en": "to wait for",
+      "fa": "منتظر بودن",
+      "ps": "انتظار کول",
+      "fr": "attendre",
+      "tr": "beklemek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/warten_auf.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0067_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0068",
     "level": "A1.2",
-    "word": "zu Ende sein",
-    "translation_fa": "تمام شدن",
-    "translation_en": "to be over",
-    "translation_ps": "پای ته رسیدل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zu_ende_sein.mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "a1_core",
       "verb",
       "preposition"
-    ]
+    ],
+    "words": {
+      "de": "zu Ende sein",
+      "en": "to be over",
+      "fa": "تمام شدن",
+      "ps": "پای ته رسیدل",
+      "fr": "être fini",
+      "tr": "bitmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zu_ende_sein.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0068_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0069",
     "level": "A1.2",
-    "word": "Keine Angst!",
-    "translation_fa": "نترس!",
-    "translation_en": "Don't worry!",
-    "translation_ps": "ویره مه کوه!",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/keine_angst!.mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "a1_core",
       "noun",
       "negation"
-    ]
+    ],
+    "words": {
+      "de": "Keine Angst!",
+      "en": "Don't worry!",
+      "fa": "نترس!",
+      "ps": "ویره مه کوه!",
+      "fr": "Pas de panique !",
+      "tr": "Korkma!"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/keine_angst!.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0069_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0070",
     "level": "A1.2",
-    "word": "alles in Ordnung",
-    "translation_fa": "همه چیز خوبه",
-    "translation_en": "everything is OK",
-    "translation_ps": "ټول سم دي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/alles_in_ordnung.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "alles in Ordnung",
+      "en": "everything is OK",
+      "fa": "همه چیز خوبه",
+      "ps": "ټول سم دي",
+      "fr": "tout va bien",
+      "tr": "her şey yolunda"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/alles_in_ordnung.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0070_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0071",
     "level": "A1.2",
-    "word": "Liebe Oma",
-    "translation_fa": "مادربزرگ عزیز",
-    "translation_en": "Dear grandma",
-    "translation_ps": "ګرانه انا",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/liebe_oma.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Liebe Oma",
+      "en": "Dear grandma",
+      "fa": "مادربزرگ عزیز",
+      "ps": "ګرانه انا",
+      "fr": "Chère mamie",
+      "tr": "Sevgili büyükanne"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/liebe_oma.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0071_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0072",
     "level": "A1.2",
-    "word": "Hab dich lieb!",
-    "translation_fa": "دوستت دارم!",
-    "translation_en": "Love you!",
-    "translation_ps": "ستا سره مینه لرم!",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hab_dich_lieb!.mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "feelings_emotions",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Hab dich lieb!",
+      "en": "Love you!",
+      "fa": "دوستت دارم!",
+      "ps": "ستا سره مینه لرم!",
+      "fr": "Je t'aime !",
+      "tr": "Seni seviyorum!"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hab_dich_lieb!.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0072_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0073",
     "level": "A1.2",
-    "word": "arbeiten bei",
-    "translation_fa": "کار کردن در",
-    "translation_en": "to work at",
-    "translation_ps": "په ... کې کار کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arbeiten_bei.mp3",
     "image": "",
     "category": [
       "work_office",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "arbeiten bei",
+      "en": "to work at",
+      "fa": "کار کردن در",
+      "ps": "په ... کې کار کول",
+      "fr": "travailler chez",
+      "tr": "...da çalışmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arbeiten_bei.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0073_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0074",
     "level": "A1.2",
-    "word": "Beruf",
-    "translation_fa": "شغل",
-    "translation_en": "profession / job",
-    "translation_ps": "مسلک / دنده",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/beruf.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Beruf",
+      "en": "profession / job",
+      "fa": "شغل",
+      "ps": "مسلک / دنده",
+      "fr": "profession / emploi",
+      "tr": "meslek / iş"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/beruf.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0074_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0075",
     "level": "A1.2",
-    "word": "Büro",
-    "translation_fa": "دفتر / اداره",
-    "translation_en": "office",
-    "translation_ps": "دفتر",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/büro.mp3",
     "image": "",
     "category": [
       "places_buildings",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Büro",
+      "en": "office",
+      "fa": "دفتر / اداره",
+      "ps": "دفتر",
+      "fr": "bureau",
+      "tr": "ofis"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/büro.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0075_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0076",
     "level": "A1.2",
-    "word": "Chef",
-    "translation_fa": "رئیس (مرد)",
-    "translation_en": "boss (male)",
-    "translation_ps": "رئیس (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/chef.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Chef",
+      "en": "boss (male)",
+      "fa": "رئیس (مرد)",
+      "ps": "رئیس (نرینه)",
+      "fr": "patron (homme)",
+      "tr": "patron (erkek)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/chef.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0076_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0077",
     "level": "A1.2",
-    "word": "Chefin",
-    "translation_fa": "رئیس (زن)",
-    "translation_en": "boss (female)",
-    "translation_ps": "مېرمن رئیسه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/chefin.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Chefin",
+      "en": "boss (female)",
+      "fa": "رئیس (زن)",
+      "ps": "مېرمن رئیسه",
+      "fr": "patronne (femme)",
+      "tr": "patron (kadın)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/chefin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0077_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0078",
     "level": "A1.2",
-    "word": "Firma",
-    "translation_fa": "شرکت",
-    "translation_en": "company / firm",
-    "translation_ps": "شرکت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/firma.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Firma",
+      "en": "company / firm",
+      "fa": "شرکت",
+      "ps": "شرکت",
+      "fr": "entreprise / société",
+      "tr": "şirket / firma"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/firma.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0078_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0079",
     "level": "A1.2",
-    "word": "Kollege",
-    "translation_fa": "همکار (مرد)",
-    "translation_en": "colleague (male)",
-    "translation_ps": "همکار (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kollege.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Kollege",
+      "en": "colleague (male)",
+      "fa": "همکار (مرد)",
+      "ps": "همکار (نرینه)",
+      "fr": "collègue (homme)",
+      "tr": "meslektaş (erkek)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kollege.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0079_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0080",
     "level": "A1.2",
-    "word": "Kollegin",
-    "translation_fa": "همکار (زن)",
-    "translation_en": "colleague (female)",
-    "translation_ps": "همکار (ښځینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kollegin.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Kollegin",
+      "en": "colleague (female)",
+      "fa": "همکار (زن)",
+      "ps": "همکار (ښځینه)",
+      "fr": "collègue (femme)",
+      "tr": "meslektaş (kadın)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kollegin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0080_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0081",
     "level": "A1.2",
-    "word": "Krankheit",
-    "translation_fa": "بیماری",
-    "translation_en": "illness",
-    "translation_ps": "ناروغي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krankheit.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Krankheit",
+      "en": "illness",
+      "fa": "بیماری",
+      "ps": "ناروغي",
+      "fr": "maladie",
+      "tr": "hastalık"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krankheit.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0081_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0082",
     "level": "A1.2",
-    "word": "Krankenhaus",
-    "translation_fa": "بیمارستان",
-    "translation_en": "hospital",
-    "translation_ps": "روغتون",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krankenhaus.mp3",
     "image": "",
     "category": [
       "places_buildings",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Krankenhaus",
+      "en": "hospital",
+      "fa": "بیمارستان",
+      "ps": "روغتون",
+      "fr": "hôpital",
+      "tr": "hastane"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krankenhaus.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0082_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0083",
     "level": "A1.2",
-    "word": "Kunde",
-    "translation_fa": "مشتری (مرد)",
-    "translation_en": "customer (male)",
-    "translation_ps": "پېرودونکی (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kunde.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Kunde",
+      "en": "customer (male)",
+      "fa": "مشتری (مرد)",
+      "ps": "پېرودونکی (نرینه)",
+      "fr": "client (homme)",
+      "tr": "müşteri (erkek)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kunde.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0083_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0084",
     "level": "A1.2",
-    "word": "Kundin",
-    "translation_fa": "مشتری (زن)",
-    "translation_en": "customer (female)",
-    "translation_ps": "پېرودونکې (ښځینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kundin.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Kundin",
+      "en": "customer (female)",
+      "fa": "مشتری (زن)",
+      "ps": "پېرودونکې (ښځینه)",
+      "fr": "cliente (femme)",
+      "tr": "müşteri (kadın)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kundin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0084_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0085",
     "level": "A1.2",
-    "word": "Praktikum",
-    "translation_fa": "کارآموزی",
-    "translation_en": "internship",
-    "translation_ps": "انټرنشپ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/praktikum.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Praktikum",
+      "en": "internship",
+      "fa": "کارآموزی",
+      "ps": "انټرنشپ",
+      "fr": "stage",
+      "tr": "staj"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/praktikum.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0085_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0086",
     "level": "A1.2",
-    "word": "Verkäufer",
-    "translation_fa": "فروشنده (مرد)",
-    "translation_en": "seller / salesperson (male)",
-    "translation_ps": "پلورونکی (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verkäufer.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Verkäufer",
+      "en": "seller / salesperson (male)",
+      "fa": "فروشنده (مرد)",
+      "ps": "پلورونکی (نرینه)",
+      "fr": "vendeur",
+      "tr": "erkek satıcı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verkäufer.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0086_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0087",
     "level": "A1.2",
-    "word": "Verkäuferin",
-    "translation_fa": "فروشنده (زن)",
-    "translation_en": "salesperson (female)",
-    "translation_ps": "پلورونکې (ښځینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verkäuferin.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Verkäuferin",
+      "en": "salesperson (female)",
+      "fa": "فروشنده (زن)",
+      "ps": "پلورونکې (ښځینه)",
+      "fr": "vendeuse",
+      "tr": "kadın satıcı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verkäuferin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0087_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0088",
     "level": "A1.2",
-    "word": "Arzt",
-    "translation_fa": "دکتر (مرد)",
-    "translation_en": "doctor (male)",
-    "translation_ps": "ډاکټر (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arzt.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Arzt",
+      "en": "doctor (male)",
+      "fa": "دکتر (مرد)",
+      "ps": "ډاکټر (نرینه)",
+      "fr": "médecin (homme)",
+      "tr": "erkek doktor"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arzt.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0088_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0089",
     "level": "A1.2",
-    "word": "Ärztin",
-    "translation_fa": "دکتر (زن)",
-    "translation_en": "doctor (female)",
-    "translation_ps": "ډاکټره (ښځینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ärztin.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Ärztin",
+      "en": "doctor (female)",
+      "fa": "دکتر (زن)",
+      "ps": "ډاکټره (ښځینه)",
+      "fr": "médecin (femme)",
+      "tr": "kadın doktor"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ärztin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0089_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0090",
     "level": "A1.2",
-    "word": "Krankenschwester",
-    "translation_fa": "پرستار (زن)",
-    "translation_en": "nurse (female)",
-    "translation_ps": "نرسه (ښځینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krankenschwester.mp3",
     "image": "",
     "category": [
       "jobs_professions",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Krankenschwester",
+      "en": "nurse (female)",
+      "fa": "پرستار (زن)",
+      "ps": "نرسه (ښځینه)",
+      "fr": "infirmière",
+      "tr": "kadın hemşire"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krankenschwester.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0090_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0091",
     "level": "A1.2",
-    "word": "Krankenpfleger",
-    "translation_fa": "پرستار (مرد)",
-    "translation_en": "nurse (male)",
-    "translation_ps": "نرس (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krankenpfleger.mp3",
     "image": "",
     "category": [
       "jobs_professions",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Krankenpfleger",
+      "en": "nurse (male)",
+      "fa": "پرستار (مرد)",
+      "ps": "نرس (نرینه)",
+      "fr": "infirmier",
+      "tr": "erkek hemşire"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krankenpfleger.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0091_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0092",
     "level": "A1.2",
-    "word": "Ingenieur",
-    "translation_fa": "مهندس (مرد)",
-    "translation_en": "engineer (male)",
-    "translation_ps": "انجنیر (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ingenieur.mp3",
     "image": "",
     "category": [
       "jobs_professions",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Ingenieur",
+      "en": "engineer (male)",
+      "fa": "مهندس (مرد)",
+      "ps": "انجنیر (نرینه)",
+      "fr": "ingénieur (homme)",
+      "tr": "erkek mühendis"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ingenieur.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0092_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0093",
     "level": "A1.2",
-    "word": "Ingenieurin",
-    "translation_fa": "مهندس (زن)",
-    "translation_en": "engineer (female)",
-    "translation_ps": "انجنیره (ښځینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ingenieurin.mp3",
     "image": "",
     "category": [
       "jobs_professions",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Ingenieurin",
+      "en": "engineer (female)",
+      "fa": "مهندس (زن)",
+      "ps": "انجنیره (ښځینه)",
+      "fr": "ingénieure",
+      "tr": "kadın mühendis"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ingenieurin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0093_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0094",
     "level": "A1.2",
-    "word": "Student",
-    "translation_fa": "دانشجو (مرد)",
-    "translation_en": "student (male)",
-    "translation_ps": "زده کوونکی (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/student.mp3",
     "image": "",
     "category": [
       "school_learning",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Student",
+      "en": "student (male)",
+      "fa": "دانشجو (مرد)",
+      "ps": "زده کوونکی (نرینه)",
+      "fr": "étudiant",
+      "tr": "erkek öğrenci"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/student.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0094_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0095",
     "level": "A1.2",
-    "word": "Studentin",
-    "translation_fa": "دانشجو (زن)",
-    "translation_en": "student (female)",
-    "translation_ps": "زده کوونکې (ښځینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/studentin.mp3",
     "image": "",
     "category": [
       "school_learning",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Studentin",
+      "en": "student (female)",
+      "fa": "دانشجو (زن)",
+      "ps": "زده کوونکې (ښځینه)",
+      "fr": "étudiante",
+      "tr": "kadın öğrenci"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/studentin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0095_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0098",
     "level": "A1.2",
-    "word": "Friseur",
-    "translation_fa": "آرایشگر (مرد)",
-    "translation_en": "hairdresser (male)",
-    "translation_ps": "ویښتان جوړوونکی (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/friseur.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Friseur",
+      "en": "hairdresser (male)",
+      "fa": "آرایشگر (مرد)",
+      "ps": "ویښتان جوړوونکی (نرینه)",
+      "fr": "coiffeur",
+      "tr": "erkek kuaför"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/friseur.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0098_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0099",
     "level": "A1.2",
-    "word": "Friseurin",
-    "translation_fa": "آرایشگر (زن)",
-    "translation_en": "hairdresser (female)",
-    "translation_ps": "ویښتان جوړوونکې (ښځینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/friseurin.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Friseurin",
+      "en": "hairdresser (female)",
+      "fa": "آرایشگر (زن)",
+      "ps": "ویښتان جوړوونکې (ښځینه)",
+      "fr": "coiffeuse",
+      "tr": "kadın kuaför"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/friseurin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0099_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0100",
     "level": "A1.2",
-    "word": "Kellner",
-    "translation_fa": "گارسون (مرد)",
-    "translation_en": "waiter",
-    "translation_ps": "ویټر",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kellner.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Kellner",
+      "en": "waiter",
+      "fa": "گارسون (مرد)",
+      "ps": "ویټر",
+      "fr": "serveur",
+      "tr": "garson"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kellner.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0100_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0101",
     "level": "A1.2",
-    "word": "Kellnerin",
-    "translation_fa": "گارسون (زن)",
-    "translation_en": "waitress",
-    "translation_ps": "ویټرس",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kellnerin.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Kellnerin",
+      "en": "waitress",
+      "fa": "گارسون (زن)",
+      "ps": "ویټرس",
+      "fr": "serveuse",
+      "tr": "garson kadın"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kellnerin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0101_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0103",
     "level": "A1.2",
-    "word": "Job",
-    "translation_fa": "کار",
-    "translation_en": "job",
-    "translation_ps": "کار",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/job.mp3",
     "image": "",
     "category": [
       "jobs_professions",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Job",
+      "en": "job",
+      "fa": "کار",
+      "ps": "کار",
+      "fr": "emploi",
+      "tr": "iş"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/job.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0103_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0104",
     "level": "A1.2",
-    "word": "Lohn",
-    "translation_fa": "حقوق / مزد",
-    "translation_en": "wage",
-    "translation_ps": "معاش",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/lohn.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Lohn",
+      "en": "wage",
+      "fa": "حقوق / مزد",
+      "ps": "معاش",
+      "fr": "salaire",
+      "tr": "ücret"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/lohn.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0104_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0105",
     "level": "A1.2",
-    "word": "Gehalt",
-    "translation_fa": "حقوق ثابت",
-    "translation_en": "salary",
-    "translation_ps": "معاش",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/gehalt.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Gehalt",
+      "en": "salary",
+      "fa": "حقوق ثابت",
+      "ps": "معاش",
+      "fr": "salaire fixe",
+      "tr": "maaş"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/gehalt.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0105_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0106",
     "level": "A1.2",
-    "word": "Büroarbeit",
-    "translation_fa": "کار دفتری",
-    "translation_en": "office work",
-    "translation_ps": "دفتري کار",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/büroarbeit.mp3",
     "image": "",
     "category": [
       "places_buildings",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Büroarbeit",
+      "en": "office work",
+      "fa": "کار دفتری",
+      "ps": "دفتري کار",
+      "fr": "travail de bureau",
+      "tr": "ofis işi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/büroarbeit.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0106_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0107",
     "level": "A1.2",
-    "word": "Schichtarbeit",
-    "translation_fa": "کار شیفتی",
-    "translation_en": "shift work",
-    "translation_ps": "شفتي کار",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schichtarbeit.mp3",
     "image": "",
     "category": [
       "greetings_politeness",
       "conversation_phrases",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Schichtarbeit",
+      "en": "shift work",
+      "fa": "کار شیفتی",
+      "ps": "شفتي کار",
+      "fr": "travail posté",
+      "tr": "vardiyalı çalışma"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schichtarbeit.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0107_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0108",
     "level": "A1.2",
-    "word": "Vollzeit",
-    "translation_fa": "تمام وقت",
-    "translation_en": "full time",
-    "translation_ps": "بشپړ وخت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/vollzeit.mp3",
     "image": "",
     "category": [
       "time_date",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Vollzeit",
+      "en": "full time",
+      "fa": "تمام وقت",
+      "ps": "بشپړ وخت",
+      "fr": "temps plein",
+      "tr": "tam zamanlı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/vollzeit.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0108_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0109",
     "level": "A1.2",
-    "word": "Teilzeit",
-    "translation_fa": "نیمه‌وقت",
-    "translation_en": "part time",
-    "translation_ps": "نیمه وخت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/teilzeit.mp3",
     "image": "",
     "category": [
       "time_date",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Teilzeit",
+      "en": "part time",
+      "fa": "نیمه‌وقت",
+      "ps": "نیمه وخت",
+      "fr": "temps partiel",
+      "tr": "yarı zamanlı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/teilzeit.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0109_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0110",
     "level": "A1.2",
-    "word": "Kollegen treffen",
-    "translation_fa": "دیدار با همکاران",
-    "translation_en": "meet colleagues",
-    "translation_ps": "د همکارانو سره لیدل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kollegen_treffen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Kollegen treffen",
+      "en": "meet colleagues",
+      "fa": "دیدار با همکاران",
+      "ps": "د همکارانو سره لیدل",
+      "fr": "rencontrer des collègues",
+      "tr": "iş arkadaşlarıyla buluşmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kollegen_treffen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0110_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0111",
     "level": "A1.2",
-    "word": "verkaufen",
-    "translation_fa": "فروختن",
-    "translation_en": "to sell",
-    "translation_ps": "پلورل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verkaufen.mp3",
     "image": "",
     "category": [
       "shopping_money",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "verkaufen",
+      "en": "to sell",
+      "fa": "فروختن",
+      "ps": "پلورل",
+      "fr": "vendre",
+      "tr": "satmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verkaufen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0111_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0113",
     "level": "A1.2",
-    "word": "Chef werden",
-    "translation_fa": "رئیس شدن",
-    "translation_en": "to become a boss",
-    "translation_ps": "رئیس کېدل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/chef_werden.mp3",
     "image": "",
     "category": [
       "work_office",
       "verb",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Chef werden",
+      "en": "to become a boss",
+      "fa": "رئیس شدن",
+      "ps": "رئیس کېدل",
+      "fr": "devenir chef",
+      "tr": "patron olmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/chef_werden.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0113_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0114",
     "level": "A1.2",
-    "word": "arbeiten von ... bis ...",
-    "translation_fa": "کار کردن از ... تا ...",
-    "translation_en": "work from ... to ...",
-    "translation_ps": "له ... څخه تر ... پورې کار کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arbeiten_von_..._bis_....mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wA1-2-0115",
-    "level": "A1.2",
-    "word": "Pause machen",
-    "translation_fa": "استراحت کردن",
-    "translation_en": "take a break",
-    "translation_ps": "وقفه کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/pause_machen.mp3",
-    "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ]
-  },
-  {
-    "id": "wA1-2-0116",
-    "level": "A1.2",
-    "word": "Feierabend",
-    "translation_fa": "پایان روز کاری",
-    "translation_en": "end of the workday",
-    "translation_ps": "د کار د ورځې پای",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/feierabend.mp3",
-    "image": "",
-    "category": [
-      "daily_life",
-      "noun"
-    ]
-  },
-  {
-    "id": "wA1-2-0117",
-    "level": "A1.2",
-    "word": "arbeiten am Wochenende",
-    "translation_fa": "کار کردن در آخر هفته",
-    "translation_en": "to work on weekends",
-    "translation_ps": "په پای کې د اونۍ کار کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arbeiten_am_wochenende.mp3",
-    "image": "",
-    "category": [
-      "work_office",
-      "verb"
-    ]
-  },
-  {
-    "id": "wA1-2-0118",
-    "level": "A1.2",
-    "word": "Urlaub",
-    "translation_fa": "تعطیلات / مرخصی",
-    "translation_en": "vacation",
-    "translation_ps": "رخصتي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/urlaub.mp3",
-    "image": "",
-    "category": [
-      "travel_holidays",
-      "noun"
-    ]
-  },
-  {
-    "id": "wA1-2-0119",
-    "level": "A1.2",
-    "word": "Kleidung",
-    "translation_fa": "لباس‌ / پوشاک",
-    "translation_en": "clothing",
-    "translation_ps": "کالي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kleidung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "words": {
+      "de": "arbeiten von ... bis ...",
+      "en": "work from ... to ...",
+      "fa": "کار کردن از ... تا ...",
+      "ps": "له ... څخه تر ... پورې کار کول",
+      "fr": "travailler de ... à ...",
+      "tr": "... ile ... arasında çalışmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arbeiten_von_..._bis_....mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0114_fr.mp3"
+    }
+  },
+  {
+    "id": "wA1-2-0115",
+    "level": "A1.2",
+    "image": "",
+    "category": [
+      "daily_life",
+      "noun"
+    ],
+    "words": {
+      "de": "Pause machen",
+      "en": "take a break",
+      "fa": "استراحت کردن",
+      "ps": "وقفه کول",
+      "fr": "faire une pause",
+      "tr": "ara vermek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/pause_machen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0115_fr.mp3"
+    }
+  },
+  {
+    "id": "wA1-2-0116",
+    "level": "A1.2",
+    "image": "",
+    "category": [
+      "daily_life",
+      "noun"
+    ],
+    "words": {
+      "de": "Feierabend",
+      "en": "end of the workday",
+      "fa": "پایان روز کاری",
+      "ps": "د کار د ورځې پای",
+      "fr": "fin de la journée de travail",
+      "tr": "iş gününün sonu"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/feierabend.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0116_fr.mp3"
+    }
+  },
+  {
+    "id": "wA1-2-0117",
+    "level": "A1.2",
+    "image": "",
+    "category": [
+      "work_office",
+      "verb"
+    ],
+    "words": {
+      "de": "arbeiten am Wochenende",
+      "en": "to work on weekends",
+      "fa": "کار کردن در آخر هفته",
+      "ps": "په پای کې د اونۍ کار کول",
+      "fr": "travailler le week-end",
+      "tr": "hafta sonu çalışmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arbeiten_am_wochenende.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0117_fr.mp3"
+    }
+  },
+  {
+    "id": "wA1-2-0118",
+    "level": "A1.2",
+    "image": "",
+    "category": [
+      "travel_holidays",
+      "noun"
+    ],
+    "words": {
+      "de": "Urlaub",
+      "en": "vacation",
+      "fa": "تعطیلات / مرخصی",
+      "ps": "رخصتي",
+      "fr": "vacances",
+      "tr": "tatil"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/urlaub.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0118_fr.mp3"
+    }
+  },
+  {
+    "id": "wA1-2-0119",
+    "level": "A1.2",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "article": "die",
+    "words": {
+      "de": "Kleidung",
+      "en": "clothing",
+      "fa": "لباس‌ / پوشاک",
+      "ps": "کالي",
+      "fr": "vêtements",
+      "tr": "giysi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kleidung.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0119_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0120",
     "level": "A1.2",
-    "word": "T-Shirt",
-    "translation_fa": "تی‌شرت",
-    "translation_en": "t-shirt",
-    "translation_ps": "ټي شرټ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/t-shirt.mp3",
     "image": "",
     "category": [
       "greetings_politeness",
       "conversation_phrases",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "T-Shirt",
+      "en": "t-shirt",
+      "fa": "تی‌شرت",
+      "ps": "ټي شرټ",
+      "fr": "T-shirt",
+      "tr": "tişört"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/t-shirt.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0120_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0121",
     "level": "A1.2",
-    "word": "Hose",
-    "translation_fa": "شلوار",
-    "translation_en": "pants / trousers",
-    "translation_ps": "پتلون",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hose.mp3",
     "image": "",
     "category": [
       "clothing_fashion",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Hose",
+      "en": "pants / trousers",
+      "fa": "شلوار",
+      "ps": "پتلون",
+      "fr": "pantalon",
+      "tr": "pantolon"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hose.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0121_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0122",
     "level": "A1.2",
-    "word": "Jeans",
-    "translation_fa": "جین",
-    "translation_en": "jeans",
-    "translation_ps": "جینس",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/jeans.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Jeans",
+      "en": "jeans",
+      "fa": "جین",
+      "ps": "جینس",
+      "fr": "jeans",
+      "tr": "kot pantolon"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/jeans.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0122_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0123",
     "level": "A1.2",
-    "word": "Pullover",
-    "translation_fa": "پولور / سویشرت",
-    "translation_en": "pullover / sweater",
-    "translation_ps": "سویټر",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/pullover.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Pullover",
+      "en": "pullover / sweater",
+      "fa": "پولور / سویشرت",
+      "ps": "سویټر",
+      "fr": "pull / sweat",
+      "tr": "kazak / süveter"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/pullover.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0123_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0124",
     "level": "A1.2",
-    "word": "Jacke",
-    "translation_fa": "کاپشن / ژاکت",
-    "translation_en": "jacket",
-    "translation_ps": "جاکټ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/jacke.mp3",
     "image": "",
     "category": [
       "clothing_fashion",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Jacke",
+      "en": "jacket",
+      "fa": "کاپشن / ژاکت",
+      "ps": "جاکټ",
+      "fr": "veste / blouson",
+      "tr": "ceket"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/jacke.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0124_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0125",
     "level": "A1.2",
-    "word": "Mantel",
-    "translation_fa": "پالتو",
-    "translation_en": "coat",
-    "translation_ps": "کوټ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mantel.mp3",
     "image": "",
     "category": [
       "clothing_fashion",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Mantel",
+      "en": "coat",
+      "fa": "پالتو",
+      "ps": "کوټ",
+      "fr": "manteau",
+      "tr": "palto"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mantel.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0125_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0126",
     "level": "A1.2",
-    "word": "Hemd",
-    "translation_fa": "پیراهن مردانه",
-    "translation_en": "shirt (men)",
-    "translation_ps": "سړی کمیس",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hemd.mp3",
     "image": "",
     "category": [
       "clothing_fashion",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Hemd",
+      "en": "shirt (men)",
+      "fa": "پیراهن مردانه",
+      "ps": "سړی کمیس",
+      "fr": "chemise (hommes)",
+      "tr": "gömlek (erkek)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hemd.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0126_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0127",
     "level": "A1.2",
-    "word": "Bluse",
-    "translation_fa": "بلوز زنانه",
-    "translation_en": "blouse",
-    "translation_ps": "بلوز",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bluse.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Bluse",
+      "en": "blouse",
+      "fa": "بلوز زنانه",
+      "ps": "بلوز",
+      "fr": "blouse",
+      "tr": "bluz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bluse.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0127_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0128",
     "level": "A1.2",
-    "word": "Kleid",
-    "translation_fa": "لباس (پیراهن زنانه)",
-    "translation_en": "dress",
-    "translation_ps": "کالي (د ښځو جامې)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kleid.mp3",
     "image": "",
     "category": [
       "clothing_fashion",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Kleid",
+      "en": "dress",
+      "fa": "لباس (پیراهن زنانه)",
+      "ps": "کالي (د ښځو جامې)",
+      "fr": "robe",
+      "tr": "elbise"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kleid.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0128_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0129",
     "level": "A1.2",
-    "word": "Rock",
-    "translation_fa": "دامن",
-    "translation_en": "skirt",
-    "translation_ps": "ډامن",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/rock.mp3",
     "image": "",
     "category": [
       "clothing_fashion",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Rock",
+      "en": "skirt",
+      "fa": "دامن",
+      "ps": "ډامن",
+      "fr": "jupe",
+      "tr": "etek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/rock.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0129_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0130",
     "level": "A1.2",
-    "word": "Schuhe",
-    "translation_fa": "کفش‌ها",
-    "translation_en": "shoes",
-    "translation_ps": "بوټان",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schuhe.mp3",
     "image": "",
     "category": [
       "clothing_fashion",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Schuhe",
+      "en": "shoes",
+      "fa": "کفش‌ها",
+      "ps": "بوټان",
+      "fr": "chaussures",
+      "tr": "ayakkabılar"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schuhe.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0130_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0131",
     "level": "A1.2",
-    "word": "Socke",
-    "translation_fa": "جوراب",
-    "translation_en": "sock",
-    "translation_ps": "جوراب",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/socke.mp3",
     "image": "",
     "category": [
       "clothing_fashion",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Socke",
+      "en": "sock",
+      "fa": "جوراب",
+      "ps": "جوراب",
+      "fr": "chaussette",
+      "tr": "çorap"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/socke.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0131_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0132",
     "level": "A1.2",
-    "word": "Stiefel",
-    "translation_fa": "چکمه",
-    "translation_en": "boot",
-    "translation_ps": "چکمه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stiefel.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Stiefel",
+      "en": "boot",
+      "fa": "چکمه",
+      "ps": "چکمه",
+      "fr": "botte",
+      "tr": "bot"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stiefel.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0132_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0133",
     "level": "A1.2",
-    "word": "Schal",
-    "translation_fa": "شال",
-    "translation_en": "scarf",
-    "translation_ps": "شال",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schal.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Schal",
+      "en": "scarf",
+      "fa": "شال",
+      "ps": "شال",
+      "fr": "écharpe",
+      "tr": "atkı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schal.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0133_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0134",
     "level": "A1.2",
-    "word": "Mütze",
-    "translation_fa": "کلاه (گرم)",
-    "translation_en": "beanie / cap",
-    "translation_ps": "ګرم کلاه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mütze.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Mütze",
+      "en": "beanie / cap",
+      "fa": "کلاه (گرم)",
+      "ps": "ګرم کلاه",
+      "fr": "bonnet / casquette",
+      "tr": "bere / şapka"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mütze.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0134_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0135",
     "level": "A1.2",
-    "word": "Hut",
-    "translation_fa": "کلاه",
-    "translation_en": "hat",
-    "translation_ps": "کلاه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hut.mp3",
     "image": "",
     "category": [
       "clothing_fashion",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Hut",
+      "en": "hat",
+      "fa": "کلاه",
+      "ps": "کلاه",
+      "fr": "chapeau",
+      "tr": "şapka"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hut.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0135_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0136",
     "level": "A1.2",
-    "word": "Handschuh",
-    "translation_fa": "دستکش",
-    "translation_en": "glove",
-    "translation_ps": "دستکش",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/handschuh.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Handschuh",
+      "en": "glove",
+      "fa": "دستکش",
+      "ps": "دستکش",
+      "fr": "gant",
+      "tr": "eldiven"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/handschuh.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0136_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0137",
     "level": "A1.2",
-    "word": "Brille",
-    "translation_fa": "عینک",
-    "translation_en": "glasses",
-    "translation_ps": "عینکې",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/brille.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Brille",
+      "en": "glasses",
+      "fa": "عینک",
+      "ps": "عینکې",
+      "fr": "lunettes",
+      "tr": "gözlük"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/brille.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0137_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0138",
     "level": "A1.2",
-    "word": "Farbe",
-    "translation_fa": "رنگ",
-    "translation_en": "color",
-    "translation_ps": "رنګ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/farbe.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Farbe",
+      "en": "color",
+      "fa": "رنگ",
+      "ps": "رنګ",
+      "fr": "couleur",
+      "tr": "renk"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/farbe.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0138_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0139",
     "level": "A1.2",
-    "word": "gelb",
-    "translation_fa": "زرد",
-    "translation_en": "yellow",
-    "translation_ps": "ژېړ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/gelb.mp3",
     "image": "",
     "category": [
       "colors_shapes",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "gelb",
+      "en": "yellow",
+      "fa": "زرد",
+      "ps": "ژېړ",
+      "fr": "jaune",
+      "tr": "sarı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/gelb.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0139_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0140",
     "level": "A1.2",
-    "word": "blau",
-    "translation_fa": "آبی",
-    "translation_en": "blue",
-    "translation_ps": "شنه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/blau.mp3",
     "image": "",
     "category": [
       "colors_shapes",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "blau",
+      "en": "blue",
+      "fa": "آبی",
+      "ps": "شنه",
+      "fr": "bleu",
+      "tr": "mavi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/blau.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0140_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0141",
     "level": "A1.2",
-    "word": "grün",
-    "translation_fa": "سبز",
-    "translation_en": "green",
-    "translation_ps": "شنه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/grün.mp3",
     "image": "",
     "category": [
       "colors_shapes",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "grün",
+      "en": "green",
+      "fa": "سبز",
+      "ps": "شنه",
+      "fr": "vert",
+      "tr": "yeşil"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/grün.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0141_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0142",
     "level": "A1.2",
-    "word": "rot",
-    "translation_fa": "قرمز",
-    "translation_en": "red",
-    "translation_ps": "سور",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/rot.mp3",
     "image": "",
     "category": [
       "colors_shapes",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "rot",
+      "en": "red",
+      "fa": "قرمز",
+      "ps": "سور",
+      "fr": "rouge",
+      "tr": "kırmızı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/rot.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0142_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0143",
     "level": "A1.2",
-    "word": "schwarz",
-    "translation_fa": "مشکی",
-    "translation_en": "black",
-    "translation_ps": "توره",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schwarz.mp3",
     "image": "",
     "category": [
       "colors_shapes",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "schwarz",
+      "en": "black",
+      "fa": "مشکی",
+      "ps": "توره",
+      "fr": "noir",
+      "tr": "siyah"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schwarz.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0143_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0144",
     "level": "A1.2",
-    "word": "weiß",
-    "translation_fa": "سفید",
-    "translation_en": "white",
-    "translation_ps": "سپین",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/weiß.mp3",
     "image": "",
     "category": [
       "colors_shapes",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "weiß",
+      "en": "white",
+      "fa": "سفید",
+      "ps": "سپین",
+      "fr": "blanc",
+      "tr": "beyaz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/weiß.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0144_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0145",
     "level": "A1.2",
-    "word": "grau",
-    "translation_fa": "خاکستری",
-    "translation_en": "gray",
-    "translation_ps": "خړ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/grau.mp3",
     "image": "",
     "category": [
       "colors_shapes",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "grau",
+      "en": "gray",
+      "fa": "خاکستری",
+      "ps": "خړ",
+      "fr": "gris",
+      "tr": "gri"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/grau.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0145_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0146",
     "level": "A1.2",
-    "word": "braun",
-    "translation_fa": "قهوه‌ای",
-    "translation_en": "brown",
-    "translation_ps": "نسواري",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/braun.mp3",
     "image": "",
     "category": [
       "colors_shapes",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "braun",
+      "en": "brown",
+      "fa": "قهوه‌ای",
+      "ps": "نسواري",
+      "fr": "marron",
+      "tr": "kahverengi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/braun.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0146_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0149",
     "level": "A1.2",
-    "word": "tragen",
-    "translation_fa": "پوشیدن",
-    "translation_en": "to wear",
-    "translation_ps": "اغوستل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/tragen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "tragen",
+      "en": "to wear",
+      "fa": "پوشیدن",
+      "ps": "اغوستل",
+      "fr": "porter",
+      "tr": "giymek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/tragen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0149_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0150",
     "level": "A1.2",
-    "word": "anprobieren",
-    "translation_fa": "پوشیدن برای امتحان",
-    "translation_en": "to try on",
-    "translation_ps": "د اغوستلو هڅه کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/anprobieren.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "anprobieren",
+      "en": "to try on",
+      "fa": "پوشیدن برای امتحان",
+      "ps": "د اغوستلو هڅه کول",
+      "fr": "essayer",
+      "tr": "denemek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/anprobieren.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0150_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0151",
     "level": "A1.2",
-    "word": "stehen (Kleidung)",
-    "translation_fa": "به کسی آمدن (لباس)",
-    "translation_en": "to suit (clothes)",
-    "translation_ps": "پرې ښکلې ښکاره کېدل (کالي)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stehen_(kleidung).mp3",
     "image": "",
     "category": [
       "clothing_fashion",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "stehen (Kleidung)",
+      "en": "to suit (clothes)",
+      "fa": "به کسی آمدن (لباس)",
+      "ps": "پرې ښکلې ښکاره کېدل (کالي)",
+      "fr": "aller (vêtements)",
+      "tr": "yakışmak (kıyafet)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stehen_(kleidung).mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0151_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0152",
     "level": "A1.2",
-    "word": "passen",
-    "translation_fa": "اندازه بودن",
-    "translation_en": "to fit",
-    "translation_ps": "مناسب کېدل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/passen.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "passen",
+      "en": "to fit",
+      "fa": "اندازه بودن",
+      "ps": "مناسب کېدل",
+      "fr": "aller",
+      "tr": "uygun olmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/passen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0152_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0154",
     "level": "A1.2",
-    "word": "billig",
-    "translation_fa": "ارزان",
-    "translation_en": "cheap",
-    "translation_ps": "ارزان",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/billig.mp3",
     "image": "",
     "category": [
       "daily_life",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "billig",
+      "en": "cheap",
+      "fa": "ارزان",
+      "ps": "ارزان",
+      "fr": "bon marché",
+      "tr": "ucuz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/billig.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0154_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0156",
     "level": "A1.2",
-    "word": "Größe",
-    "translation_fa": "سایز",
-    "translation_en": "size",
-    "translation_ps": "کچه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/größe.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Größe",
+      "en": "size",
+      "fa": "سایز",
+      "ps": "کچه",
+      "fr": "taille",
+      "tr": "boyut"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/größe.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0156_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0157",
     "level": "A1.2",
-    "word": "Umkleidekabine",
-    "translation_fa": "اتاق پرو",
-    "translation_en": "changing room",
-    "translation_ps": "د بدلولو کوټه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/umkleidekabine.mp3",
     "image": "",
     "category": [
       "furniture_rooms",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Umkleidekabine",
+      "en": "changing room",
+      "fa": "اتاق پرو",
+      "ps": "د بدلولو کوټه",
+      "fr": "cabine d'essayage",
+      "tr": "deneme kabini"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/umkleidekabine.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0157_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0160",
     "level": "A1.2",
-    "word": "bar bezahlen",
-    "translation_fa": "پرداخت نقدی",
-    "translation_en": "to pay cash",
-    "translation_ps": "نقدي پیسې ورکول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bar_bezahlen.mp3",
     "image": "",
     "category": [
       "shopping_money",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "bar bezahlen",
+      "en": "to pay cash",
+      "fa": "پرداخت نقدی",
+      "ps": "نقدي پیسې ورکول",
+      "fr": "payer en espèces",
+      "tr": "nakit ödemek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bar_bezahlen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0160_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0161",
     "level": "A1.2",
-    "word": "mit Karte bezahlen",
-    "translation_fa": "پرداخت با کارت",
-    "translation_en": "to pay by card",
-    "translation_ps": "د کارت له لارې پیسې ورکول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mit_karte_bezahlen.mp3",
     "image": "",
     "category": [
       "shopping_money",
       "a1_core",
       "verb",
       "preposition"
-    ]
+    ],
+    "words": {
+      "de": "mit Karte bezahlen",
+      "en": "to pay by card",
+      "fa": "پرداخت با کارت",
+      "ps": "د کارت له لارې پیسې ورکول",
+      "fr": "payer par carte",
+      "tr": "kartla ödemek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mit_karte_bezahlen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0161_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0163",
     "level": "A1.2",
-    "word": "Bahn",
-    "translation_fa": "قطار / راه‌آهن",
-    "translation_en": "train / railway",
-    "translation_ps": "ریل ګاډی / ریل پټلۍ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bahn.mp3",
     "image": "",
     "category": [
       "city_transport",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Bahn",
+      "en": "train / railway",
+      "fa": "قطار / راه‌آهن",
+      "ps": "ریل ګاډی / ریل پټلۍ",
+      "fr": "train / chemin de fer",
+      "tr": "tren / demiryolu"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bahn.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0163_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0167",
     "level": "A1.2",
-    "word": "Taxi",
-    "translation_fa": "تاکسی",
-    "translation_en": "taxi",
-    "translation_ps": "ټکسي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/taxi.mp3",
     "image": "",
     "category": [
       "city_transport",
       "loanword_international",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Taxi",
+      "en": "taxi",
+      "fa": "تاکسی",
+      "ps": "ټکسي",
+      "fr": "taxi",
+      "tr": "taksi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/taxi.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0167_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0172",
     "level": "A1.2",
-    "word": "Flughafen",
-    "translation_fa": "فرودگاه",
-    "translation_en": "airport",
-    "translation_ps": "هوایي ډګر",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/flughafen.mp3",
     "image": "",
     "category": [
       "places_buildings",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Flughafen",
+      "en": "airport",
+      "fa": "فرودگاه",
+      "ps": "هوایي ډګر",
+      "fr": "aéroport",
+      "tr": "havaalanı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/flughafen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0172_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0175",
     "level": "A1.2",
-    "word": "Fahrkarte",
-    "translation_fa": "بلیط",
-    "translation_en": "ticket",
-    "translation_ps": "ټکټ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fahrkarte.mp3",
     "image": "",
     "category": [
       "city_transport",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Fahrkarte",
+      "en": "ticket",
+      "fa": "بلیط",
+      "ps": "ټکټ",
+      "fr": "billet",
+      "tr": "bilet"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fahrkarte.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0175_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0182",
     "level": "A1.2",
-    "word": "Verspätung",
-    "translation_fa": "تاخیر",
-    "translation_en": "delay",
-    "translation_ps": "ځنډ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verspätung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Verspätung",
+      "en": "delay",
+      "fa": "تاخیر",
+      "ps": "ځنډ",
+      "fr": "retard",
+      "tr": "gecikme"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verspätung.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0182_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0183",
     "level": "A1.2",
-    "word": "pünktlich",
-    "translation_fa": "به‌موقع",
-    "translation_en": "on time / punctual",
-    "translation_ps": "په وخت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/pünktlich.mp3",
     "image": "",
     "category": [
       "time_date",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "pünktlich",
+      "en": "on time / punctual",
+      "fa": "به‌موقع",
+      "ps": "په وخت",
+      "fr": "à l'heure",
+      "tr": "zamanında"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/pünktlich.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0183_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0188",
     "level": "A1.2",
-    "word": "abbiegen",
-    "translation_fa": "پیچیدن",
-    "translation_en": "to turn",
-    "translation_ps": "تاو کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/abbiegen.mp3",
     "image": "",
     "category": [
       "directions_navigation",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "abbiegen",
+      "en": "to turn",
+      "fa": "پیچیدن",
+      "ps": "تاو کول",
+      "fr": "tourner",
+      "tr": "dönmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/abbiegen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0188_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0192",
     "level": "A1.2",
-    "word": "Brücke",
-    "translation_fa": "پل",
-    "translation_en": "bridge",
-    "translation_ps": "پل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/brücke.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Brücke",
+      "en": "bridge",
+      "fa": "پل",
+      "ps": "پل",
+      "fr": "pont",
+      "tr": "köprü"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/brücke.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0192_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0193",
     "level": "A1.2",
-    "word": "Post",
-    "translation_fa": "اداره پست",
-    "translation_en": "post office",
-    "translation_ps": "پوسته",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/post.mp3",
     "image": "",
     "category": [
       "places_buildings",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Post",
+      "en": "post office",
+      "fa": "اداره پست",
+      "ps": "پوسته",
+      "fr": "bureau de poste",
+      "tr": "postane"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/post.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0193_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0194",
     "level": "A1.2",
-    "word": "Bank",
-    "translation_fa": "بانک",
-    "translation_en": "bank",
-    "translation_ps": "بانک",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bank.mp3",
     "image": "",
     "category": [
       "places_buildings",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Bank",
+      "en": "bank",
+      "fa": "بانک",
+      "ps": "بانک",
+      "fr": "banque",
+      "tr": "banka"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bank.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0194_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0196",
     "level": "A1.2",
-    "word": "Polizei",
-    "translation_fa": "پلیس",
-    "translation_en": "police",
-    "translation_ps": "پولیس",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/polizei.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Polizei",
+      "en": "police",
+      "fa": "پلیس",
+      "ps": "پولیس",
+      "fr": "police",
+      "tr": "polis"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/polizei.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0196_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0197",
     "level": "A1.2",
-    "word": "Stadtplan",
-    "translation_fa": "نقشهٔ شهر",
-    "translation_en": "city map",
-    "translation_ps": "د ښار نقشه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stadtplan.mp3",
     "image": "",
     "category": [
       "directions_navigation",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Stadtplan",
+      "en": "city map",
+      "fa": "نقشهٔ شهر",
+      "ps": "د ښار نقشه",
+      "fr": "plan de la ville",
+      "tr": "şehir haritası"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/stadtplan.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0197_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0201",
     "level": "A1.2",
-    "word": "zeigen",
-    "translation_fa": "نشان دادن",
-    "translation_en": "to show",
-    "translation_ps": "ښودل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zeigen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "zeigen",
+      "en": "to show",
+      "fa": "نشان دادن",
+      "ps": "ښودل",
+      "fr": "montrer",
+      "tr": "göstermek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zeigen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0201_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0202",
     "level": "A1.2",
-    "word": "reservieren",
-    "translation_fa": "رزرو کردن",
-    "translation_en": "to reserve",
-    "translation_ps": "رزرو کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/reservieren.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "reservieren",
+      "en": "to reserve",
+      "fa": "رزرو کردن",
+      "ps": "رزرو کول",
+      "fr": "réserver",
+      "tr": "rezervasyon yapmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/reservieren.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0202_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0203",
     "level": "A1.2",
-    "word": "buchen",
-    "translation_fa": "رزرو کردن",
-    "translation_en": "to book",
-    "translation_ps": "رزرو کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/buchen.mp3",
     "image": "",
     "category": [
       "school_learning",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "buchen",
+      "en": "to book",
+      "fa": "رزرو کردن",
+      "ps": "رزرو کول",
+      "fr": "réserver",
+      "tr": "rezervasyon yapmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/buchen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0203_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0204",
     "level": "A1.2",
-    "word": "Die Fahrkarte, bitte!",
-    "translation_fa": "لطفاً بلیط!",
-    "translation_en": "The ticket, please!",
-    "translation_ps": "مهرباني وکړئ ټکټ راکړئ!",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/die_fahrkarte,_bitte!.mp3",
     "image": "",
     "category": [
       "greetings_politeness",
@@ -2522,17 +3671,24 @@
       "a1_core",
       "pronoun",
       "article"
-    ]
+    ],
+    "words": {
+      "de": "Die Fahrkarte, bitte!",
+      "en": "The ticket, please!",
+      "fa": "لطفاً بلیط!",
+      "ps": "مهرباني وکړئ ټکټ راکړئ!",
+      "fr": "Le billet, s'il vous plaît !",
+      "tr": "Bilet lütfen!"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/die_fahrkarte,_bitte!.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0204_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0205",
     "level": "A1.2",
-    "word": "Wie komme ich zu ...?",
-    "translation_fa": "چطور به ... بروم؟",
-    "translation_en": "How do I get to ...?",
-    "translation_ps": "زه څنګه ... ته ورسم؟",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/wie_komme_ich_zu.mp3",
     "image": "",
     "category": [
       "questions_answers",
@@ -2540,1137 +3696,1661 @@
       "a1_core",
       "noun",
       "question_word"
-    ]
+    ],
+    "words": {
+      "de": "Wie komme ich zu ...?",
+      "en": "How do I get to ...?",
+      "fa": "چطور به ... بروم؟",
+      "ps": "زه څنګه ... ته ورسم؟",
+      "fr": "Comment puis-je aller à ... ?",
+      "tr": "...'e nasıl giderim?"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/wie_komme_ich_zu.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0205_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0206",
     "level": "A1.2",
-    "word": "Kopf",
-    "translation_fa": "سر",
-    "translation_en": "head",
-    "translation_ps": "سر",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kopf.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Kopf",
+      "en": "head",
+      "fa": "سر",
+      "ps": "سر",
+      "fr": "tête",
+      "tr": "kafa"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kopf.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0206_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0207",
     "level": "A1.2",
-    "word": "Gesicht",
-    "translation_fa": "صورت",
-    "translation_en": "face",
-    "translation_ps": "مخ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/gesicht.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Gesicht",
+      "en": "face",
+      "fa": "صورت",
+      "ps": "مخ",
+      "fr": "visage",
+      "tr": "yüz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/gesicht.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0207_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0208",
     "level": "A1.2",
-    "word": "Auge",
-    "translation_fa": "چشم",
-    "translation_en": "eye",
-    "translation_ps": "سترګه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/auge.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Auge",
+      "en": "eye",
+      "fa": "چشم",
+      "ps": "سترګه",
+      "fr": "œil",
+      "tr": "göz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/auge.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0208_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0209",
     "level": "A1.2",
-    "word": "Ohr",
-    "translation_fa": "گوش",
-    "translation_en": "ear",
-    "translation_ps": "غوږ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ohr.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Ohr",
+      "en": "ear",
+      "fa": "گوش",
+      "ps": "غوږ",
+      "fr": "oreille",
+      "tr": "kulak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ohr.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0209_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0210",
     "level": "A1.2",
-    "word": "Nase",
-    "translation_fa": "بینی",
-    "translation_en": "nose",
-    "translation_ps": "پوزه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/nase.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Nase",
+      "en": "nose",
+      "fa": "بینی",
+      "ps": "پوزه",
+      "fr": "nez",
+      "tr": "burun"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/nase.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0210_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0211",
     "level": "A1.2",
-    "word": "Mund",
-    "translation_fa": "دهان",
-    "translation_en": "mouth",
-    "translation_ps": "خوله",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mund.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Mund",
+      "en": "mouth",
+      "fa": "دهان",
+      "ps": "خوله",
+      "fr": "bouche",
+      "tr": "ağız"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mund.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0211_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0212",
     "level": "A1.2",
-    "word": "Zahn",
-    "translation_fa": "دندان",
-    "translation_en": "tooth",
-    "translation_ps": "غاښ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zahn.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Zahn",
+      "en": "tooth",
+      "fa": "دندان",
+      "ps": "غاښ",
+      "fr": "dent",
+      "tr": "diş"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zahn.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0212_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0213",
     "level": "A1.2",
-    "word": "Hals",
-    "translation_fa": "گردن / گلو",
-    "translation_en": "neck / throat",
-    "translation_ps": "غاړه / ستونی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hals.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Hals",
+      "en": "neck / throat",
+      "fa": "گردن / گلو",
+      "ps": "غاړه / ستونی",
+      "fr": "cou / gorge",
+      "tr": "boyun / boğaz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hals.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0213_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0214",
     "level": "A1.2",
-    "word": "Schulter",
-    "translation_fa": "شانه",
-    "translation_en": "shoulder",
-    "translation_ps": "ښیښه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schulter.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Schulter",
+      "en": "shoulder",
+      "fa": "شانه",
+      "ps": "ښیښه",
+      "fr": "épaule",
+      "tr": "omuz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schulter.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0214_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0215",
     "level": "A1.2",
-    "word": "Arm",
-    "translation_fa": "بازو",
-    "translation_en": "arm",
-    "translation_ps": "لاس",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arm.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Arm",
+      "en": "arm",
+      "fa": "بازو",
+      "ps": "لاس",
+      "fr": "bras",
+      "tr": "kol"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/arm.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0215_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0216",
     "level": "A1.2",
-    "word": "Ellbogen",
-    "translation_fa": "آرنج",
-    "translation_en": "elbow",
-    "translation_ps": "زوړند",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ellbogen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Ellbogen",
+      "en": "elbow",
+      "fa": "آرنج",
+      "ps": "زوړند",
+      "fr": "coude",
+      "tr": "dirsek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ellbogen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0216_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0217",
     "level": "A1.2",
-    "word": "Hand",
-    "translation_fa": "دست",
-    "translation_en": "hand",
-    "translation_ps": "لاس",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hand.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Hand",
+      "en": "hand",
+      "fa": "دست",
+      "ps": "لاس",
+      "fr": "main",
+      "tr": "el"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hand.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0217_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0218",
     "level": "A1.2",
-    "word": "Finger",
-    "translation_fa": "انگشت",
-    "translation_en": "finger",
-    "translation_ps": "ګوتې",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/finger.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Finger",
+      "en": "finger",
+      "fa": "انگشت",
+      "ps": "ګوتې",
+      "fr": "doigt",
+      "tr": "parmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/finger.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0218_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0219",
     "level": "A1.2",
-    "word": "Bein",
-    "translation_fa": "پا (از ران تا مچ)",
-    "translation_en": "leg",
-    "translation_ps": "پښه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bein.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Bein",
+      "en": "leg",
+      "fa": "پا (از ران تا مچ)",
+      "ps": "پښه",
+      "fr": "jambe",
+      "tr": "bacak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bein.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0219_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0220",
     "level": "A1.2",
-    "word": "Knie",
-    "translation_fa": "زانو",
-    "translation_en": "knee",
-    "translation_ps": "زنګون",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/knie.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Knie",
+      "en": "knee",
+      "fa": "زانو",
+      "ps": "زنګون",
+      "fr": "genou",
+      "tr": "diz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/knie.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0220_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0221",
     "level": "A1.2",
-    "word": "Fuß",
-    "translation_fa": "پا (کف پا)",
-    "translation_en": "foot",
-    "translation_ps": "پښه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fuß.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Fuß",
+      "en": "foot",
+      "fa": "پا (کف پا)",
+      "ps": "پښه",
+      "fr": "pied",
+      "tr": "ayak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fuß.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0221_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0222",
     "level": "A1.2",
-    "word": "Rücken",
-    "translation_fa": "کمر / پشت",
-    "translation_en": "back",
-    "translation_ps": "شا",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/rücken.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Rücken",
+      "en": "back",
+      "fa": "کمر / پشت",
+      "ps": "شا",
+      "fr": "dos",
+      "tr": "sırt"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/rücken.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0222_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0223",
     "level": "A1.2",
-    "word": "Bauch",
-    "translation_fa": "شکم",
-    "translation_en": "stomach / belly",
-    "translation_ps": "غاړه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bauch.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Bauch",
+      "en": "stomach / belly",
+      "fa": "شکم",
+      "ps": "غاړه",
+      "fr": "ventre",
+      "tr": "karın"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bauch.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0223_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0224",
     "level": "A1.2",
-    "word": "weh tun",
-    "translation_fa": "درد داشتن",
-    "translation_en": "to hurt",
-    "translation_ps": "درد کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/weh_tun.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "weh tun",
+      "en": "to hurt",
+      "fa": "درد داشتن",
+      "ps": "درد کول",
+      "fr": "faire mal",
+      "tr": "acı vermek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/weh_tun.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0224_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0225",
     "level": "A1.2",
-    "word": "Schmerzen",
-    "translation_fa": "دردها",
-    "translation_en": "pains",
-    "translation_ps": "دردونه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schmerzen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Schmerzen",
+      "en": "pains",
+      "fa": "دردها",
+      "ps": "دردونه",
+      "fr": "douleurs",
+      "tr": "ağrılar"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schmerzen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0225_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0226",
     "level": "A1.2",
-    "word": "Kopfschmerzen",
-    "translation_fa": "سردرد",
-    "translation_en": "headache",
-    "translation_ps": "د سر درد",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kopfschmerzen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Kopfschmerzen",
+      "en": "headache",
+      "fa": "سردرد",
+      "ps": "د سر درد",
+      "fr": "mal de tête",
+      "tr": "baş ağrısı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/kopfschmerzen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0226_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0227",
     "level": "A1.2",
-    "word": "Halsschmerzen",
-    "translation_fa": "گلودرد",
-    "translation_en": "sore throat",
-    "translation_ps": "د غاړې درد",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/halsschmerzen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Halsschmerzen",
+      "en": "sore throat",
+      "fa": "گلودرد",
+      "ps": "د غاړې درد",
+      "fr": "mal de gorge",
+      "tr": "boğaz ağrısı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/halsschmerzen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0227_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0228",
     "level": "A1.2",
-    "word": "Fieber",
-    "translation_fa": "تب",
-    "translation_en": "fever",
-    "translation_ps": "تبه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fieber.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Fieber",
+      "en": "fever",
+      "fa": "تب",
+      "ps": "تبه",
+      "fr": "fièvre",
+      "tr": "ateş"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fieber.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0228_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0229",
     "level": "A1.2",
-    "word": "Husten",
-    "translation_fa": "سرفه",
-    "translation_en": "cough",
-    "translation_ps": "ټوخی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/husten.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Husten",
+      "en": "cough",
+      "fa": "سرفه",
+      "ps": "ټوخی",
+      "fr": "toux",
+      "tr": "öksürük"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/husten.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0229_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0230",
     "level": "A1.2",
-    "word": "Schnupfen",
-    "translation_fa": "آبریزش بینی",
-    "translation_en": "runny nose / cold",
-    "translation_ps": "د پزې اوبه بهیدل / زکام",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schnupfen.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Schnupfen",
+      "en": "runny nose / cold",
+      "fa": "آبریزش بینی",
+      "ps": "د پزې اوبه بهیدل / زکام",
+      "fr": "nez qui coule / rhume",
+      "tr": "burun akıntısı / soğuk algınlığı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schnupfen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0230_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0231",
     "level": "A1.2",
-    "word": "Erkältung",
-    "translation_fa": "سرماخوردگی",
-    "translation_en": "cold (illness)",
-    "translation_ps": "زکام",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/erkältung.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Erkältung",
+      "en": "cold (illness)",
+      "fa": "سرماخوردگی",
+      "ps": "زکام",
+      "fr": "rhume",
+      "tr": "soğuk algınlığı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/erkältung.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0231_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0232",
     "level": "A1.2",
-    "word": "krank",
-    "translation_fa": "بیمار",
-    "translation_en": "sick / ill",
-    "translation_ps": "ناروغ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krank.mp3",
     "image": "",
     "category": [
       "health_body",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "krank",
+      "en": "sick / ill",
+      "fa": "بیمار",
+      "ps": "ناروغ",
+      "fr": "malade",
+      "tr": "hasta"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/krank.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0232_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0234",
     "level": "A1.2",
-    "word": "Medizin",
-    "translation_fa": "دارو",
-    "translation_en": "medicine",
-    "translation_ps": "درمل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/medizin.mp3",
     "image": "",
     "category": [
       "health_body",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Medizin",
+      "en": "medicine",
+      "fa": "دارو",
+      "ps": "درمل",
+      "fr": "médicament",
+      "tr": "ilaç"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/medizin.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0234_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0235",
     "level": "A1.2",
-    "word": "Medikament",
-    "translation_fa": "دارو",
-    "translation_en": "medication",
-    "translation_ps": "درمل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/medikament.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Medikament",
+      "en": "medication",
+      "fa": "دارو",
+      "ps": "درمل",
+      "fr": "médicament",
+      "tr": "ilaç"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/medikament.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0235_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0236",
     "level": "A1.2",
-    "word": "zum Arzt gehen",
-    "translation_fa": "رفتن نزد دکتر",
-    "translation_en": "to go to the doctor",
-    "translation_ps": "ډاکټر ته تلل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zum_arzt_gehen.mp3",
     "image": "",
     "category": [
       "health_body",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "zum Arzt gehen",
+      "en": "to go to the doctor",
+      "fa": "رفتن نزد دکتر",
+      "ps": "ډاکټر ته تلل",
+      "fr": "aller chez le médecin",
+      "tr": "doktora gitmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/zum_arzt_gehen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0236_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0237",
     "level": "A1.2",
-    "word": "Rezept",
-    "translation_fa": "نسخه",
-    "translation_en": "prescription",
-    "translation_ps": "نسخه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/rezept.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Rezept",
+      "en": "prescription",
+      "fa": "نسخه",
+      "ps": "نسخه",
+      "fr": "ordonnance",
+      "tr": "reçete"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/rezept.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0237_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0238",
     "level": "A1.2",
-    "word": "Tablette",
-    "translation_fa": "قرص",
-    "translation_en": "pill / tablet",
-    "translation_ps": "ګولۍ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/tablette.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Tablette",
+      "en": "pill / tablet",
+      "fa": "قرص",
+      "ps": "ګولۍ",
+      "fr": "comprimé",
+      "tr": "hap / tablet"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/tablette.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0238_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0239",
     "level": "A1.2",
-    "word": "Salbe",
-    "translation_fa": "پماد",
-    "translation_en": "ointment",
-    "translation_ps": "مرهم",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/salbe.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Salbe",
+      "en": "ointment",
+      "fa": "پماد",
+      "ps": "مرهم",
+      "fr": "pommade",
+      "tr": "merhem"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/salbe.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0239_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0240",
     "level": "A1.2",
-    "word": "einnehmen",
-    "translation_fa": "مصرف کردن",
-    "translation_en": "to take (medicine)",
-    "translation_ps": "دوا خوړل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/einnehmen.mp3",
     "image": "",
     "category": [
       "health_body",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "einnehmen",
+      "en": "to take (medicine)",
+      "fa": "مصرف کردن",
+      "ps": "دوا خوړل",
+      "fr": "prendre (médicament)",
+      "tr": "almak (ilaç)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/einnehmen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0240_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0241",
     "level": "A1.2",
-    "word": "dreimal täglich",
-    "translation_fa": "روزانه سه بار",
-    "translation_en": "three times daily",
-    "translation_ps": "په ورځ کې درې ځله",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/dreimal_täglich.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "dreimal täglich",
+      "en": "three times daily",
+      "fa": "روزانه سه بار",
+      "ps": "په ورځ کې درې ځله",
+      "fr": "trois fois par jour",
+      "tr": "günde üç kez"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/dreimal_täglich.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0241_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0242",
     "level": "A1.2",
-    "word": "regelmäßig",
-    "translation_fa": "منظم",
-    "translation_en": "regularly",
-    "translation_ps": "په منظم ډول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/regelmäßig.mp3",
     "image": "",
     "category": [
       "daily_life",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "regelmäßig",
+      "en": "regularly",
+      "fa": "منظم",
+      "ps": "په منظم ډول",
+      "fr": "régulièrement",
+      "tr": "düzenli olarak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/regelmäßig.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0242_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0243",
     "level": "A1.2",
-    "word": "viel Wasser trinken",
-    "translation_fa": "آب زیاد نوشیدن",
-    "translation_en": "drink plenty of water",
-    "translation_ps": "ډېر اوبه وڅښئ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/viel_wasser_trinken.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "viel Wasser trinken",
+      "en": "drink plenty of water",
+      "fa": "آب زیاد نوشیدن",
+      "ps": "ډېر اوبه وڅښئ",
+      "fr": "boire beaucoup d'eau",
+      "tr": "bol su içmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/viel_wasser_trinken.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0243_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0245",
     "level": "A1.2",
-    "word": "sich entspannen",
-    "translation_fa": "آرامش گرفتن / ریلکس کردن",
-    "translation_en": "to relax",
-    "translation_ps": "ارام کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/sich_entspannen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb",
       "reflexive_verb"
-    ]
+    ],
+    "words": {
+      "de": "sich entspannen",
+      "en": "to relax",
+      "fa": "آرامش گرفتن / ریلکس کردن",
+      "ps": "ارام کول",
+      "fr": "se détendre",
+      "tr": "rahatlamak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/sich_entspannen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0245_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0246",
     "level": "A1.2",
-    "word": "Schlaf",
-    "translation_fa": "خواب",
-    "translation_en": "sleep",
-    "translation_ps": "خوب",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schlaf.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Schlaf",
+      "en": "sleep",
+      "fa": "خواب",
+      "ps": "خوب",
+      "fr": "sommeil",
+      "tr": "uyku"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/schlaf.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0246_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0247",
     "level": "A1.2",
-    "word": "frische Luft",
-    "translation_fa": "هوای تازه",
-    "translation_en": "fresh air",
-    "translation_ps": "تازه هوا",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/frische_luft.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "frische Luft",
+      "en": "fresh air",
+      "fa": "هوای تازه",
+      "ps": "تازه هوا",
+      "fr": "air frais",
+      "tr": "temiz hava"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/frische_luft.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0247_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0248",
     "level": "A1.2",
-    "word": "spazieren gehen",
-    "translation_fa": "پیاده‌روی کردن",
-    "translation_en": "to go for a walk",
-    "translation_ps": "پیاده تګ کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/spazieren_gehen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "spazieren gehen",
+      "en": "to go for a walk",
+      "fa": "پیاده‌روی کردن",
+      "ps": "پیاده تګ کول",
+      "fr": "aller se promener",
+      "tr": "yürüyüşe çıkmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/spazieren_gehen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0248_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0249",
     "level": "A1.2",
-    "word": "sich ausruhen",
-    "translation_fa": "استراحت کردن",
-    "translation_en": "to rest",
-    "translation_ps": "استراحت کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/sich_ausruhen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb",
       "reflexive_verb"
-    ]
+    ],
+    "words": {
+      "de": "sich ausruhen",
+      "en": "to rest",
+      "fa": "استراحت کردن",
+      "ps": "استراحت کول",
+      "fr": "se reposer",
+      "tr": "dinlenmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/sich_ausruhen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0249_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0250",
     "level": "A1.2",
-    "word": "Fest",
-    "translation_fa": "جشن",
-    "translation_en": "celebration / festival",
-    "translation_ps": "جشن",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fest.mp3",
     "image": "",
     "category": [
       "culture_events",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Fest",
+      "en": "celebration / festival",
+      "fa": "جشن",
+      "ps": "جشن",
+      "fr": "fête",
+      "tr": "kutlama / festival"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/fest.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0250_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0251",
     "level": "A1.2",
-    "word": "Party",
-    "translation_fa": "مهمانی / پارتی",
-    "translation_en": "party",
-    "translation_ps": "ګوند",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/party.mp3",
     "image": "",
     "category": [
       "culture_events",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Party",
+      "en": "party",
+      "fa": "مهمانی / پارتی",
+      "ps": "ګوند",
+      "fr": "fête",
+      "tr": "parti"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/party.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0251_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0252",
     "level": "A1.2",
-    "word": "Geburtstag",
-    "translation_fa": "تولد",
-    "translation_en": "birthday",
-    "translation_ps": "زیږیدنه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/geburtstag.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Geburtstag",
+      "en": "birthday",
+      "fa": "تولد",
+      "ps": "زیږیدنه",
+      "fr": "anniversaire",
+      "tr": "doğum günü"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/geburtstag.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0252_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0254",
     "level": "A1.2",
-    "word": "Gäste",
-    "translation_fa": "مهمان‌ها",
-    "translation_en": "guests",
-    "translation_ps": "میلمنې",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/gäste.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Gäste",
+      "en": "guests",
+      "fa": "مهمان‌ها",
+      "ps": "میلمنې",
+      "fr": "invités",
+      "tr": "misafirler"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/gäste.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0254_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0255",
     "level": "A1.2",
-    "word": "Geschenk",
-    "translation_fa": "کادو",
-    "translation_en": "gift",
-    "translation_ps": "تحفه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/geschenk.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Geschenk",
+      "en": "gift",
+      "fa": "کادو",
+      "ps": "تحفه",
+      "fr": "cadeau",
+      "tr": "hediye"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/geschenk.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0255_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0256",
     "level": "A1.2",
-    "word": "feiern",
-    "translation_fa": "جشن گرفتن",
-    "translation_en": "to celebrate",
-    "translation_ps": "جشن نیول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/feiern.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "feiern",
+      "en": "to celebrate",
+      "fa": "جشن گرفتن",
+      "ps": "جشن نیول",
+      "fr": "fêter",
+      "tr": "kutlamak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/feiern.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0256_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0257",
     "level": "A1.2",
-    "word": "Feiertag",
-    "translation_fa": "تعطیلات رسمی",
-    "translation_en": "public holiday",
-    "translation_ps": "عامه رخصتي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/feiertag.mp3",
     "image": "",
     "category": [
       "travel_holidays",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Feiertag",
+      "en": "public holiday",
+      "fa": "تعطیلات رسمی",
+      "ps": "عامه رخصتي",
+      "fr": "jour férié",
+      "tr": "resmi tatil"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/feiertag.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0257_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0258",
     "level": "A1.2",
-    "word": "Silvester",
-    "translation_fa": "شب سال نو",
-    "translation_en": "New Year's Eve",
-    "translation_ps": "د نوي کال شپه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/silvester.mp3",
     "image": "",
     "category": [
       "time_date",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Silvester",
+      "en": "New Year's Eve",
+      "fa": "شب سال نو",
+      "ps": "د نوي کال شپه",
+      "fr": "Réveillon du Nouvel An",
+      "tr": "Yılbaşı gecesi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/silvester.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0258_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0259",
     "level": "A1.2",
-    "word": "Weihnachten",
-    "translation_fa": "کریسمس",
-    "translation_en": "Christmas",
-    "translation_ps": "کرسمس",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/weihnachten.mp3",
     "image": "",
     "category": [
       "culture_events",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Weihnachten",
+      "en": "Christmas",
+      "fa": "کریسمس",
+      "ps": "کرسمس",
+      "fr": "Noël",
+      "tr": "Noel"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/weihnachten.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0259_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0260",
     "level": "A1.2",
-    "word": "Ostern",
-    "translation_fa": "عید پاک",
-    "translation_en": "Easter",
-    "translation_ps": "عیډ پاک",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ostern.mp3",
     "image": "",
     "category": [
       "culture_events",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Ostern",
+      "en": "Easter",
+      "fa": "عید پاک",
+      "ps": "عیډ پاک",
+      "fr": "Pâques",
+      "tr": "Paskalya"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/ostern.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0260_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0261",
     "level": "A1.2",
-    "word": "Neujahr",
-    "translation_fa": "سال نو",
-    "translation_en": "New Year",
-    "translation_ps": "نوی کال",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/neujahr.mp3",
     "image": "",
     "category": [
       "time_date",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Neujahr",
+      "en": "New Year",
+      "fa": "سال نو",
+      "ps": "نوی کال",
+      "fr": "Nouvel An",
+      "tr": "Yeni Yıl"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/neujahr.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0261_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0262",
     "level": "A1.2",
-    "word": "Besuch",
-    "translation_fa": "دیدار",
-    "translation_en": "visit",
-    "translation_ps": "کتنه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/besuch.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Besuch",
+      "en": "visit",
+      "fa": "دیدار",
+      "ps": "کتنه",
+      "fr": "visite",
+      "tr": "ziyaret"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/besuch.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0262_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0263",
     "level": "A1.2",
-    "word": "einladen",
-    "translation_fa": "دعوت کردن",
-    "translation_en": "to invite",
-    "translation_ps": "بلنه ورکول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/einladen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "einladen",
+      "en": "to invite",
+      "fa": "دعوت کردن",
+      "ps": "بلنه ورکول",
+      "fr": "inviter",
+      "tr": "davet etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/einladen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0263_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0264",
     "level": "A1.2",
-    "word": "absagen",
-    "translation_fa": "لغو کردن",
-    "translation_en": "to cancel",
-    "translation_ps": "لغوه کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/absagen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "absagen",
+      "en": "to cancel",
+      "fa": "لغو کردن",
+      "ps": "لغوه کول",
+      "fr": "annuler",
+      "tr": "iptal etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/absagen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0264_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0265",
     "level": "A1.2",
-    "word": "verschieben",
-    "translation_fa": "به تعویق انداختن",
-    "translation_en": "to postpone",
-    "translation_ps": "ځنډول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verschieben.mp3",
     "image": "",
     "category": [
       "greetings_politeness",
       "conversation_phrases",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "verschieben",
+      "en": "to postpone",
+      "fa": "به تعویق انداختن",
+      "ps": "ځنډول",
+      "fr": "reporter",
+      "tr": "ertelemek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/verschieben.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0265_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0266",
     "level": "A1.2",
-    "word": "vereinbaren",
-    "translation_fa": "هماهنگ کردن",
-    "translation_en": "to arrange",
-    "translation_ps": "ترتیب ورکول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/vereinbaren.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "vereinbaren",
+      "en": "to arrange",
+      "fa": "هماهنگ کردن",
+      "ps": "ترتیب ورکول",
+      "fr": "organiser",
+      "tr": "ayarlamak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/vereinbaren.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0266_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0267",
     "level": "A1.2",
-    "word": "Überraschung",
-    "translation_fa": "سورپرایز",
-    "translation_en": "surprise",
-    "translation_ps": "حیرانتیا",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/überraschung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Überraschung",
+      "en": "surprise",
+      "fa": "سورپرایز",
+      "ps": "حیرانتیا",
+      "fr": "surprise",
+      "tr": "sürpriz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/überraschung.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0267_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0268",
     "level": "A1.2",
-    "word": "überraschen",
-    "translation_fa": "غافلگیر کردن",
-    "translation_en": "to surprise",
-    "translation_ps": "حیرانول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/überraschen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "überraschen",
+      "en": "to surprise",
+      "fa": "غافلگیر کردن",
+      "ps": "حیرانول",
+      "fr": "surprendre",
+      "tr": "şaşırtmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/überraschen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0268_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0273",
     "level": "A1.2",
-    "word": "Speisekarte",
-    "translation_fa": "منو",
-    "translation_en": "menu",
-    "translation_ps": "مینو",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/speisekarte.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Speisekarte",
+      "en": "menu",
+      "fa": "منو",
+      "ps": "مینو",
+      "fr": "menu",
+      "tr": "menü"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/speisekarte.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0273_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0274",
     "level": "A1.2",
-    "word": "Bestellung",
-    "translation_fa": "سفارش",
-    "translation_en": "order",
-    "translation_ps": "سپارښتنه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bestellung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Bestellung",
+      "en": "order",
+      "fa": "سفارش",
+      "ps": "سپارښتنه",
+      "fr": "commande",
+      "tr": "sipariş"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bestellung.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0274_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0275",
     "level": "A1.2",
-    "word": "bestellen",
-    "translation_fa": "سفارش دادن",
-    "translation_en": "to order",
-    "translation_ps": "سپارښتنه کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bestellen.mp3",
     "image": "",
     "category": [
       "daily_life",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "bestellen",
+      "en": "to order",
+      "fa": "سفارش دادن",
+      "ps": "سپارښتنه کول",
+      "fr": "commander",
+      "tr": "sipariş vermek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bestellen.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0275_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0276",
     "level": "A1.2",
-    "word": "bar",
-    "translation_fa": "نقد",
-    "translation_en": "cash",
-    "translation_ps": "نغدي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bar.mp3",
     "image": "",
     "category": [
       "shopping_money",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "bar",
+      "en": "cash",
+      "fa": "نقد",
+      "ps": "نغدي",
+      "fr": "en espèces",
+      "tr": "nakit"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bar.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0276_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0277",
     "level": "A1.2",
-    "word": "mit Karte",
-    "translation_fa": "با کارت",
-    "translation_en": "by card",
-    "translation_ps": "د کارت له لارې",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mit_karte.mp3",
     "image": "",
     "category": [
       "shopping_money",
       "a1_core",
       "preposition"
-    ]
+    ],
+    "words": {
+      "de": "mit Karte",
+      "en": "by card",
+      "fa": "با کارت",
+      "ps": "د کارت له لارې",
+      "fr": "par carte",
+      "tr": "kartla"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/mit_karte.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0277_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0278",
     "level": "A1.2",
-    "word": "Hunger",
-    "translation_fa": "گرسنگی",
-    "translation_en": "hunger",
-    "translation_ps": "لوږه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hunger.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Hunger",
+      "en": "hunger",
+      "fa": "گرسنگی",
+      "ps": "لوږه",
+      "fr": "faim",
+      "tr": "açlık"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hunger.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0278_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0279",
     "level": "A1.2",
-    "word": "Durst",
-    "translation_fa": "تشنگی",
-    "translation_en": "thirst",
-    "translation_ps": "تږیوالی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/durst.mp3",
     "image": "",
     "category": [
       "daily_life",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Durst",
+      "en": "thirst",
+      "fa": "تشنگی",
+      "ps": "تږیوالی",
+      "fr": "soif",
+      "tr": "susuzluk"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/durst.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0279_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0281",
     "level": "A1.2",
-    "word": "probieren",
-    "translation_fa": "امتحان کردن",
-    "translation_en": "to try (food)",
-    "translation_ps": "خوند اخیستل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/probieren.mp3",
     "image": "",
     "category": [
       "food_drink",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "probieren",
+      "en": "to try (food)",
+      "fa": "امتحان کردن",
+      "ps": "خوند اخیستل",
+      "fr": "goûter",
+      "tr": "tatmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/probieren.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0281_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0282",
     "level": "A1.2",
-    "word": "Hilfe",
-    "translation_fa": "کمک",
-    "translation_en": "help",
-    "translation_ps": "مرسته",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hilfe.mp3",
     "image": "",
     "category": [
       "greetings_politeness",
       "conversation_phrases",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Hilfe",
+      "en": "help",
+      "fa": "کمک",
+      "ps": "مرسته",
+      "fr": "aide",
+      "tr": "yardım"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/hilfe.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0282_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0283",
     "level": "A1.2",
-    "word": "danke schön",
-    "translation_fa": "خیلی ممنون",
-    "translation_en": "thank you very much",
-    "translation_ps": "ډیره مننه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/danke_schön.mp3",
     "image": "",
     "category": [
       "greetings_politeness",
       "conversation_phrases"
-    ]
+    ],
+    "words": {
+      "de": "danke schön",
+      "en": "thank you very much",
+      "fa": "خیلی ممنون",
+      "ps": "ډیره مننه",
+      "fr": "merci beaucoup",
+      "tr": "çok teşekkürler"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/danke_schön.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0283_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0284",
     "level": "A1.2",
-    "word": "bitte schön",
-    "translation_fa": "خواهش می‌کنم",
-    "translation_en": "you're welcome",
-    "translation_ps": "هیڅ خبره نه ده",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bitte_schön.mp3",
     "image": "",
     "category": [
       "greetings_politeness",
       "conversation_phrases"
-    ]
+    ],
+    "words": {
+      "de": "bitte schön",
+      "en": "you're welcome",
+      "fa": "خواهش می‌کنم",
+      "ps": "هیڅ خبره نه ده",
+      "fr": "je vous en prie",
+      "tr": "rica ederim"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/bitte_schön.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0284_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0286",
     "level": "A1.2",
-    "word": "Guten Rutsch!",
-    "translation_fa": "سال نو مبارک!",
-    "translation_en": "Happy New Year! (lit. slide well)",
-    "translation_ps": "نوی کال مو مبارک",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/guten_rutsch!.mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "time_date",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Guten Rutsch!",
+      "en": "Happy New Year! (lit. slide well)",
+      "fa": "سال نو مبارک!",
+      "ps": "نوی کال مو مبارک",
+      "fr": "Bonne année !",
+      "tr": "Mutlu yıllar!"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/guten_rutsch!.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0286_fr.mp3"
+    }
   },
   {
     "id": "wA1-2-0287",
     "level": "A1.2",
-    "word": "Herzlichen Glückwunsch!",
-    "translation_fa": "تبریک!",
-    "translation_en": "Congratulations!",
-    "translation_ps": "زړه له کومې مبارکي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/herzlichen_glückwunsch!.mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Herzlichen Glückwunsch!",
+      "en": "Congratulations!",
+      "fa": "تبریک!",
+      "ps": "زړه له کومې مبارکي",
+      "fr": "Félicitations !",
+      "tr": "Tebrikler!"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/A1/herzlichen_glückwunsch!.mp3",
+      "fr": "assets/audio/words/fr/A1/wa1-2-0287_fr.mp3"
+    }
   }
 ]

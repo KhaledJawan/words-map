@@ -1,0 +1,924 @@
+{
+  "language": "tr",
+  "alphabet": {
+    "id": "lesson_alphabet_tr",
+    "title_de": "Das türkische Alphabet",
+    "title_fa": "الفبای ترکی",
+    "title_en": "The Turkish Alphabet",
+    "title_ps": "د ترکي الفبا",
+    "explanition": [
+      {
+        "title_fa": "چرا الفبای ترکی مهم است؟",
+        "title_en": "Why is the Turkish alphabet important?",
+        "title_ps": "ولې ترکي الفبا مهمه ده؟",
+        "title_de": "Warum ist das türkische Alphabet wichtig?",
+        "explanation_fa": "نوشتار ترکی بسیار منظم است. اگر صدای حرف‌ها را یاد بگیری، بیشتر واژه‌های جدید را درست می‌خوانی.",
+        "explanation_en": "Turkish spelling is highly regular. Once you learn the letter sounds, you can read many new words correctly right away.",
+        "explanation_ps": "ترکي لیکدود منظم دی. چې د تورو غږونه زده کړې، نوي لغتونه ژر سم لولای شې.",
+        "explanation_de": "Türkisch wird sehr regelmäßig geschrieben. Wenn du die Buchstabenwerte kennst, kannst du viele Wörter sofort korrekt lesen."
+      }
+    ],
+    "alphabet": {
+      "note_fa": "هر حرف را باز کن و واژه‌های نمونه را با صدای بلند تکرار کن.",
+      "note_en": "Open each letter and repeat the example words aloud.",
+      "note_ps": "هر توری خلاص کړه او بېلګې په لوړ غږ تکرار کړه.",
+      "note_de": "Öffne jeden Buchstaben und wiederhole die Wortbeispiele laut.",
+      "letters": [
+        {
+          "upper": "A",
+          "lower": "a",
+          "name_de": "a",
+          "fa_hint": "a",
+          "ps_hint": "a",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Almanca"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Almanya"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "B",
+          "lower": "b",
+          "name_de": "be",
+          "fa_hint": "be",
+          "ps_hint": "be",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Benim adım ..."
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Biraz Almanca konuşuyorum."
+              }
+            }
+          ]
+        },
+        {
+          "upper": "C",
+          "lower": "c",
+          "name_de": "ce",
+          "fa_hint": "ce",
+          "ps_hint": "ce",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "cep telefonu"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "cevap"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Ç",
+          "lower": "ç",
+          "name_de": "çe",
+          "fa_hint": "çe",
+          "ps_hint": "çe",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Çok teşekkürler!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "çalışmak"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "D",
+          "lower": "d",
+          "name_de": "de",
+          "fa_hint": "de",
+          "ps_hint": "de",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "de"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "dil"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "E",
+          "lower": "e",
+          "name_de": "e",
+          "fa_hint": "e",
+          "ps_hint": "e",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ev numarası"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "evet"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "F",
+          "lower": "f",
+          "name_de": "fe",
+          "fa_hint": "fe",
+          "ps_hint": "fe",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Fransızca"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "fiil"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "G",
+          "lower": "g",
+          "name_de": "ge",
+          "fa_hint": "ge",
+          "ps_hint": "ge",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Görüşürüz!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Görüşürüz! (telefonda)"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Ğ",
+          "lower": "ğ",
+          "name_de": "yumuşak ge",
+          "fa_hint": "yumuşak ge",
+          "ps_hint": "yumuşak ge",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "öğrenmek"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Almanca öğreniyorum."
+              }
+            }
+          ]
+        },
+        {
+          "upper": "H",
+          "lower": "h",
+          "name_de": "he",
+          "fa_hint": "he",
+          "ps_hint": "he",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Hoşça kal!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Hangi dilleri konuşuyorsunuz?"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "I",
+          "lower": "ı",
+          "name_de": "ı",
+          "fa_hint": "ı",
+          "ps_hint": "ı",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ısıtma"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ısıtmak"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "İ",
+          "lower": "i",
+          "name_de": "i",
+          "fa_hint": "i",
+          "ps_hint": "i",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "İngilizce"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "iyi"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "J",
+          "lower": "j",
+          "name_de": "je",
+          "fa_hint": "je",
+          "ps_hint": "je",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "jest"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "K",
+          "lower": "k",
+          "name_de": "ke",
+          "fa_hint": "ke",
+          "ps_hint": "ke",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "kadın; Bayan"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "konuşmak"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "L",
+          "lower": "l",
+          "name_de": "le",
+          "fa_hint": "le",
+          "ps_hint": "le",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "lütfen"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "lamba"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "M",
+          "lower": "m",
+          "name_de": "me",
+          "fa_hint": "me",
+          "ps_hint": "me",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Merhaba"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Merhaba!"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "N",
+          "lower": "n",
+          "name_de": "ne",
+          "fa_hint": "ne",
+          "ps_hint": "ne",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Nasıl?"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Nerede?"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "O",
+          "lower": "o",
+          "name_de": "o",
+          "fa_hint": "o",
+          "ps_hint": "o",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "olmak"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "oturmak"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Ö",
+          "lower": "ö",
+          "name_de": "ö",
+          "fa_hint": "ö",
+          "ps_hint": "ö",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "öğrenmek"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Österreich"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "P",
+          "lower": "p",
+          "name_de": "pe",
+          "fa_hint": "pe",
+          "ps_hint": "pe",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "posta kodu"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "pencere"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "R",
+          "lower": "r",
+          "name_de": "re",
+          "fa_hint": "re",
+          "ps_hint": "re",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "radyo"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ray / peron"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "S",
+          "lower": "s",
+          "name_de": "se",
+          "fa_hint": "se",
+          "ps_hint": "se",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "soyadı"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "sokak"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Ş",
+          "lower": "ş",
+          "name_de": "şe",
+          "fa_hint": "şe",
+          "ps_hint": "şe",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "şimdi"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "şehir"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "T",
+          "lower": "t",
+          "name_de": "te",
+          "fa_hint": "te",
+          "ps_hint": "te",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Teşekkürler!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "telefon numarası"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "U",
+          "lower": "u",
+          "name_de": "u",
+          "fa_hint": "u",
+          "ps_hint": "u",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "uygulama"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "uyumak"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Ü",
+          "lower": "ü",
+          "name_de": "ü",
+          "fa_hint": "ü",
+          "ps_hint": "ü",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ülke"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Üzgünüm!"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "V",
+          "lower": "v",
+          "name_de": "ve",
+          "fa_hint": "ve",
+          "ps_hint": "ve",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ve"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "veya"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Y",
+          "lower": "y",
+          "name_de": "ye",
+          "fa_hint": "ye",
+          "ps_hint": "ye",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "yazdırmak"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "yaş"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Z",
+          "lower": "z",
+          "name_de": "ze",
+          "fa_hint": "ze",
+          "ps_hint": "ze",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "zor"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "zaman"
+              }
+            }
+          ]
+        }
+      ],
+      "special_letters": [
+        {
+          "symbol": "I / İ",
+          "name_de": "zwei I-Buchstaben",
+          "fa_hint": "ı و i",
+          "ps_hint": "ı او i",
+          "description_fa": "در ترکی دو حرف جدا داریم: ı و i.",
+          "description_en": "Turkish distinguishes dotless ı and dotted i as separate letters.",
+          "description_ps": "ترکي کې ı او i دوه جلا توري دي.",
+          "description_de": "Im Türkischen sind ı und i zwei unterschiedliche Buchstaben."
+        },
+        {
+          "symbol": "Ç / Ş / Ğ",
+          "name_de": "Sonderzeichen",
+          "fa_hint": "ç ş ğ",
+          "ps_hint": "ç ş ğ",
+          "description_fa": "این حروف در ترکی صدای مستقل دارند و باید جداگانه تمرین شوند.",
+          "description_en": "These letters carry distinct sounds and should be practiced separately.",
+          "description_ps": "دا توري جلا غږونه لري او بېل تمرین غواړي.",
+          "description_de": "Diese Buchstaben haben eigene Laute und brauchen gezieltes Training."
+        }
+      ]
+    }
+  },
+  "combinations": {
+    "id": "lesson_combinations_tr",
+    "title_de": "Lese- und Lautmuster im Türkischen",
+    "title_fa": "الگوهای خواندن در ترکی",
+    "title_en": "Turkish Reading Patterns",
+    "title_ps": "په ترکي کې د لوستلو بڼې",
+    "explanition": [
+      {
+        "title_fa": "چرا الگوهای خواندن در ترکی؟",
+        "title_en": "Why reading patterns in Turkish?",
+        "title_ps": "ولې په ترکي کې د لوستلو بڼې مهمې دي؟",
+        "title_de": "Warum Lautmuster im Türkischen?",
+        "explanation_fa": "علاوه بر حرف‌ها، الگوهایی مثل ğ و هماهنگی واکه و پسوندها برای خواندن روان ترکی مهم هستند.",
+        "explanation_en": "Beyond single letters, patterns like ğ, vowel harmony, and common suffixes help you read Turkish naturally.",
+        "explanation_ps": "د تورو تر څنګ، ğ، د واکې همغږي او عام پسوندونه د روانې لوستنې لپاره مهم دي.",
+        "explanation_de": "Neben einzelnen Buchstaben sind Muster wie ğ, Vokalharmonie und häufige Endungen wichtig, um Wörter flüssig zu lesen."
+      }
+    ],
+    "combinations": [
+      {
+        "id": "g_breve",
+        "title_de": "ğ (yumuşak g)",
+        "title_fa": "حرف ğ",
+        "title_en": "ğ (soft g)",
+        "title_ps": "توری ğ",
+        "description_fa": "ğ معمولاً واکه قبل از خود را کشیده می‌کند و صدای مستقل قوی ندارد.",
+        "description_en": "ğ usually lengthens the preceding vowel rather than making a hard consonant sound.",
+        "description_ps": "ğ اکثر مخکینی واکه اوږدوي او جلا سخت غږ نه لري.",
+        "description_de": "ğ verlängert oft den vorherigen Vokal und wird selten als eigener Konsonant gesprochen.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "öğrenmek"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Almanca öğreniyorum."
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Doğru mu?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c_vs_cedilla",
+        "title_de": "c und ç",
+        "title_fa": "c و ç",
+        "title_en": "c and ç",
+        "title_ps": "c او ç",
+        "description_fa": "در ترکی c مانند «ج» و ç مانند «چ» تلفظ می‌شود.",
+        "description_en": "c sounds like j in jam, while ç sounds like ch in chair.",
+        "description_ps": "په ترکي کې c د «ج» او ç د «چ» غږ لري.",
+        "description_de": "c klingt wie „dsch“, ç wie „tsch“.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Almanca"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "İngilizce"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Fransızca"
+            }
+          }
+        ]
+      },
+      {
+        "id": "s_vs_scedilla",
+        "title_de": "s und ş",
+        "title_fa": "s و ş",
+        "title_en": "s and ş",
+        "title_ps": "s او ş",
+        "description_fa": "s صدای «س» و ş صدای «ش» دارد.",
+        "description_en": "s is plain s, while ş is sh.",
+        "description_ps": "s د «س» او ş د «ش» غږ لري.",
+        "description_de": "s ist „s“, ş ist „sch“.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Fransızca"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "isim"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "İsviçre"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dotless_i",
+        "title_de": "ı und i",
+        "title_fa": "ı و i",
+        "title_en": "ı and i",
+        "title_ps": "ı او i",
+        "description_fa": "در ترکی دو نوع i داریم: ı (بی‌نقطه) و i (نقطه‌دار).",
+        "description_en": "Turkish has two different i letters: ı (dotless) and i (dotted).",
+        "description_ps": "په ترکي کې ı او i دوه جلا واکې دي.",
+        "description_de": "ı und i sind zwei verschiedene Vokale im Türkischen.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "İngilizce"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Fransızca"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "kadın; Bayan"
+            }
+          }
+        ]
+      },
+      {
+        "id": "front_rounded_vowels",
+        "title_de": "ö und ü",
+        "title_fa": "ö و ü",
+        "title_en": "ö and ü",
+        "title_ps": "ö او ü",
+        "description_fa": "ö و ü واکه‌های مهمی هستند که باید دقیق تمرین شوند.",
+        "description_en": "ö and ü are front rounded vowels important for correct pronunciation.",
+        "description_ps": "ö او ü مهم واکونه دي او تمرین ته اړتیا لري.",
+        "description_de": "ö und ü sind vordere gerundete Vokale.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "lütfen"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "öğrenmek"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Görüşürüz!"
+            }
+          }
+        ]
+      },
+      {
+        "id": "lar_ler",
+        "title_de": "-lar / -ler",
+        "title_fa": "پسوند -lar/-ler",
+        "title_en": "-lar / -ler",
+        "title_ps": "پسوند -lar/-ler",
+        "description_fa": "پسوندهای -lar/-ler برای جمع هستند و از هماهنگی واکه پیروی می‌کنند.",
+        "description_en": "-lar/-ler mark plural and follow vowel harmony.",
+        "description_ps": "-lar/-ler د جمع لپاره دي او د واکه همغږي تعقیبوي.",
+        "description_de": "-lar/-ler markieren den Plural und folgen der Vokalharmonie.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Teşekkürler!"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Hangi dilleri konuşuyorsunuz?"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Bu ... / Bunlar ..."
+            }
+          }
+        ]
+      },
+      {
+        "id": "ci_family",
+        "title_de": "-cı/-ci/-cu/-cü",
+        "title_fa": "پسوند cı/ci/cu/cü",
+        "title_en": "-cı/-ci/-cu/-cü",
+        "title_ps": "پسوند cı/ci/cu/cü",
+        "description_fa": "این پسوندها بر اساس هماهنگی واکه تغییر می‌کنند.",
+        "description_en": "These suffix forms change according to vowel harmony.",
+        "description_ps": "دا پسوندونه د واکه همغږۍ له مخې بدلېږي.",
+        "description_de": "Diese Endungen wechseln nach Vokalharmonie.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "kurs katılımcısı (erkek)"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "kurs katılımcısı (kadın)"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "cümle"
+            }
+          }
+        ]
+      },
+      {
+        "id": "yor",
+        "title_de": "-yor",
+        "title_fa": "پسوند -yor",
+        "title_en": "-yor",
+        "title_ps": "پسوند -yor",
+        "description_fa": "پسوند -yor در زمان حال استمراری بسیار رایج است.",
+        "description_en": "-yor is commonly used in present continuous forms.",
+        "description_ps": "-yor د اوسني جاري زمان لپاره ډېر کارېږي.",
+        "description_de": "-yor bildet oft die Verlaufsform der Gegenwart.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Hangi dilleri konuşuyorsunuz?"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Biraz Almanca konuşuyorum."
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Almanca öğreniyorum."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

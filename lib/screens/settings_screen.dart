@@ -53,7 +53,8 @@ class SettingsScreen extends StatelessWidget {
                             return;
                           }
                           setSelected(
-                              selected.where((l) => l != language).toList());
+                            selected.where((l) => l != language).toList(),
+                          );
                           return;
                         }
                         if (selected.length >= 2) {
@@ -87,8 +88,12 @@ class SettingsScreen extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 12),
+                    padding: const EdgeInsetsDirectional.fromSTEB(
+                      16,
+                      0,
+                      16,
+                      12,
+                    ),
                     child: Align(
                       alignment: AlignmentDirectional.centerStart,
                       child: Text(
@@ -98,6 +103,9 @@ class SettingsScreen extends StatelessWidget {
                     ),
                   ),
                   option(AppLanguage.en),
+                  option(AppLanguage.de),
+                  option(AppLanguage.fr),
+                  option(AppLanguage.tr),
                   option(AppLanguage.fa),
                   option(AppLanguage.ps),
                   const SizedBox(height: 12),
@@ -132,7 +140,10 @@ class SettingsScreen extends StatelessWidget {
               leading: const Icon(LucideIcons.globe),
               title: Text(AppLanguage.en.nativeName),
               trailing: currentLanguage == AppLanguage.en
-                  ? Icon(LucideIcons.check, color: Theme.of(context).colorScheme.primary)
+                  ? Icon(
+                      LucideIcons.check,
+                      color: Theme.of(context).colorScheme.primary,
+                    )
                   : null,
               onTap: () {
                 appState.setLanguage(AppLanguage.en);
@@ -143,7 +154,10 @@ class SettingsScreen extends StatelessWidget {
               leading: const Icon(LucideIcons.globe),
               title: Text(AppLanguage.fa.nativeName),
               trailing: currentLanguage == AppLanguage.fa
-                  ? Icon(LucideIcons.check, color: Theme.of(context).colorScheme.primary)
+                  ? Icon(
+                      LucideIcons.check,
+                      color: Theme.of(context).colorScheme.primary,
+                    )
                   : null,
               onTap: () {
                 appState.setLanguage(AppLanguage.fa);
@@ -154,7 +168,10 @@ class SettingsScreen extends StatelessWidget {
               leading: const Icon(LucideIcons.globe),
               title: Text(AppLanguage.ps.nativeName),
               trailing: currentLanguage == AppLanguage.ps
-                  ? Icon(LucideIcons.check, color: Theme.of(context).colorScheme.primary)
+                  ? Icon(
+                      LucideIcons.check,
+                      color: Theme.of(context).colorScheme.primary,
+                    )
                   : null,
               onTap: () {
                 appState.setLanguage(AppLanguage.ps);
@@ -174,7 +191,7 @@ class SettingsScreen extends StatelessWidget {
     final appState = context.watch<AppState>();
     final appLanguageLabel = appState.appLanguage.nativeName;
     final wordLanguagesLabel =
-        appState.wordLanguages.map((l) => l.nativeName).join(' + ');
+        '${appState.sourceWordLanguage.nativeName} -> ${appState.targetWordLanguage.nativeName}';
 
     return Scaffold(
       body: SafeArea(
@@ -185,9 +202,9 @@ class SettingsScreen extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Text(
                 loc.settingsTitle,
-                style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                      fontWeight: FontWeight.w700,
-                    ),
+                style: Theme.of(
+                  context,
+                ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w700),
               ),
             ),
             const SizedBox(height: 16),

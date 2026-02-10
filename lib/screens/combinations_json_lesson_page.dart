@@ -15,6 +15,29 @@ import 'package:word_map_app/widgets/word_detail_soft_card.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 
+const List<AppLanguage> _combinationsWordFallbackOrder = [
+  AppLanguage.de,
+  AppLanguage.en,
+  AppLanguage.fr,
+  AppLanguage.tr,
+  AppLanguage.fa,
+  AppLanguage.ps,
+];
+
+String _resolveCombinationsWordText(
+  VocabWord word,
+  AppLanguage primary, {
+  List<AppLanguage> fallbackOrder = _combinationsWordFallbackOrder,
+}) {
+  final direct = word.textFor(primary).trim();
+  if (direct.isNotEmpty) return direct;
+  final remaining = fallbackOrder
+      .where((lang) => lang != primary)
+      .toList(growable: false);
+  final fallback = word.firstAvailableText(remaining).trim();
+  return fallback.isNotEmpty ? fallback : '—';
+}
+
 class CombinationsJsonLessonPage extends StatefulWidget {
   const CombinationsJsonLessonPage({
     super.key,
@@ -32,8 +55,10 @@ class CombinationsJsonLessonPage extends StatefulWidget {
       _CombinationsJsonLessonPageState();
 }
 
-class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage> {
-  final LessonCompletionRepository _completionRepo = LessonCompletionRepository();
+class _CombinationsJsonLessonPageState
+    extends State<CombinationsJsonLessonPage> {
+  final LessonCompletionRepository _completionRepo =
+      LessonCompletionRepository();
   late final Future<CombinationsJsonLesson> _lessonFuture;
 
   @override
@@ -41,8 +66,9 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
     super.initState();
     _lessonFuture = widget.initialLesson != null
         ? Future.value(widget.initialLesson!)
-        : AssetCombinationsJsonLessonRepository(assetPath: widget.assetPath)
-            .loadLesson();
+        : AssetCombinationsJsonLessonRepository(
+            assetPath: widget.assetPath,
+          ).loadLesson();
   }
 
   String _localized(
@@ -54,13 +80,17 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
   }) {
     switch (lang) {
       case AppLanguage.fa:
-        return fa.isNotEmpty ? fa : (en.isNotEmpty ? en : de);
+        return fa.isNotEmpty ? fa : en;
       case AppLanguage.ps:
-        return ps.isNotEmpty
-            ? ps
-            : (fa.isNotEmpty ? fa : (en.isNotEmpty ? en : de));
+        return ps.isNotEmpty ? ps : (fa.isNotEmpty ? fa : en);
       case AppLanguage.en:
-        return en.isNotEmpty ? en : (de.isNotEmpty ? de : fa);
+        return en;
+      case AppLanguage.fr:
+        return en;
+      case AppLanguage.de:
+        return de.isNotEmpty ? de : en;
+      case AppLanguage.tr:
+        return en;
     }
   }
 
@@ -73,7 +103,10 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
   String _ruleBadgeText(LetterCombinationRule rule) {
     final title = rule.titleDe.trim();
     if (title.isNotEmpty) {
-      final tokens = title.split(RegExp(r'\\s+')).where((t) => t.isNotEmpty).toList();
+      final tokens = title
+          .split(RegExp(r'\\s+'))
+          .where((t) => t.isNotEmpty)
+          .toList();
       if (tokens.length >= 3 && tokens[1] == '/') {
         return '${tokens[0]}/${tokens[2]}';
       }
@@ -96,6 +129,11 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
     for (final w in widget.allWords) {
       if (w.id.trim().toLowerCase() == normalized) return w;
       if (w.de.trim().toLowerCase() == normalized) return w;
+      if (w.words.values.any(
+        (value) => value.trim().toLowerCase() == normalized,
+      )) {
+        return w;
+      }
     }
     return null;
   }
@@ -130,22 +168,34 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                       padding: const EdgeInsets.symmetric(horizontal: 20),
                       child: Builder(
                         builder: (dialogContext) {
-                          final wordLanguages =
-                              dialogContext.read<AppState>().wordLanguages;
-                          final primaryLang = wordLanguages.first;
-                          final secondaryLang =
-                              wordLanguages.length > 1 ? wordLanguages[1] : null;
-                          final primaryRaw =
-                              word.translationFor(primaryLang).trim();
-                          final primary =
-                              primaryRaw.isNotEmpty ? primaryRaw : '—';
-                          final secondaryRaw = secondaryLang == null
-                              ? ''
-                              : word.translationFor(secondaryLang).trim();
-                          final secondary =
-                              secondaryRaw.isNotEmpty ? secondaryRaw : '';
+                          final appState = dialogContext.read<AppState>();
+                          final sourceLang = appState.sourceWordLanguage;
+                          final targetLang = appState.targetWordLanguage;
+                          final source = _resolveCombinationsWordText(
+                            word,
+                            sourceLang,
+                          );
+                          var target = _resolveCombinationsWordText(
+                            word,
+                            targetLang,
+                          );
+                          if (target == source) {
+                            target = word
+                                .firstAvailableText(
+                                  _combinationsWordFallbackOrder
+                                      .where((lang) => lang != sourceLang)
+                                      .toList(),
+                                )
+                                .trim();
+                            if (target.isEmpty) {
+                              target = '—';
+                            }
+                          }
 
-                          final audioUrl = word.audio.trim();
+                          final audioUrl = word.audioFor(sourceLang).trim();
+                          final exampleText = word
+                              .exampleFor(sourceLang)
+                              .trim();
                           final hasAudio = audioUrl.isNotEmpty;
                           final messenger = ScaffoldMessenger.of(dialogContext);
                           final loc = AppLocalizations.of(dialogContext)!;
@@ -172,16 +222,21 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                               builder: (streamContext, snapshot) {
                                 final isPlaying = snapshot.data ?? false;
                                 final iconColor = hasAudio
-                                    ? Theme.of(streamContext).colorScheme.primary
+                                    ? Theme.of(
+                                        streamContext,
+                                      ).colorScheme.primary
                                     : Colors.grey[400];
-                                final isPlayingThisWord = isPlaying &&
-                                    AudioService.instance.currentUrl == audioUrl;
+                                final isPlayingThisWord =
+                                    isPlaying &&
+                                    AudioService.instance.currentUrl ==
+                                        audioUrl;
                                 return IconButton(
                                   padding: EdgeInsets.zero,
                                   constraints: const BoxConstraints(),
                                   iconSize: 20,
-                                  onPressed:
-                                      hasAudio ? () async => await handlePlayAudio() : null,
+                                  onPressed: hasAudio
+                                      ? () async => await handlePlayAudio()
+                                      : null,
                                   icon: Icon(
                                     isPlayingThisWord
                                         ? LucideIcons.signalHigh
@@ -194,11 +249,12 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
                           );
 
                           return WordDetailSoftCard(
-                            word: word.de,
-                            translationPrimary: primary,
-                            translationSecondary:
-                                secondary.isNotEmpty ? secondary : null,
-                            example: word.example,
+                            word: source,
+                            translationPrimary: target,
+                            translationSecondary: null,
+                            example: exampleText.isNotEmpty
+                                ? exampleText
+                                : null,
                             extra: [
                               if (word.level != null) word.level,
                               formatCategoryLabel(
@@ -289,276 +345,336 @@ class _CombinationsJsonLessonPageState extends State<CombinationsJsonLessonPage>
 
   @override
   Widget build(BuildContext context) {
-    final appLanguage = context.watch<AppState>().appLanguage;
-    return FutureBuilder<CombinationsJsonLesson>(
-      future: _lessonFuture,
-      builder: (context, snapshot) {
-        final theme = Theme.of(context);
-        if (snapshot.connectionState != ConnectionState.done) {
-          return const Scaffold(body: Center(child: CircularProgressIndicator()));
-        }
-        if (snapshot.hasError || snapshot.data == null) {
-          final loc = AppLocalizations.of(context)!;
-          return Scaffold(
-            appBar: AppBar(title: Text(loc.commonLesson)),
-            body: Center(
-              child: Text(
-                loc.lessonLoadFailed,
-              ),
-            ),
-          );
-        }
+    final appLanguage = context.watch<AppState>().targetWordLanguage;
+    return Localizations.override(
+      context: context,
+      locale: appLanguage.locale,
+      child: Builder(
+        builder: (localizedContext) {
+          return FutureBuilder<CombinationsJsonLesson>(
+            future: _lessonFuture,
+            builder: (context, snapshot) {
+              final theme = Theme.of(context);
+              if (snapshot.connectionState != ConnectionState.done) {
+                return const Scaffold(
+                  body: Center(child: CircularProgressIndicator()),
+                );
+              }
+              if (snapshot.hasError || snapshot.data == null) {
+                final loc = AppLocalizations.of(context)!;
+                return Scaffold(
+                  appBar: AppBar(title: Text(loc.commonLesson)),
+                  body: Center(child: Text(loc.lessonLoadFailed)),
+                );
+              }
 
-        final lesson = snapshot.data!;
-        final title = _localized(
-          appLanguage,
-          en: lesson.titleEn,
-          fa: lesson.titleFa,
-          ps: lesson.titlePs,
-          de: lesson.titleDe,
-        );
+              final lesson = snapshot.data!;
+              final title = _localized(
+                appLanguage,
+                en: lesson.titleEn,
+                fa: lesson.titleFa,
+                ps: lesson.titlePs,
+                de: lesson.titleDe,
+              );
 
-        return Scaffold(
-          body: CustomScrollView(
-            slivers: [
-              SliverAppBar(
-                pinned: true,
-                centerTitle: true,
-                backgroundColor: theme.colorScheme.secondary,
-                foregroundColor: Colors.white,
-                elevation: 0,
-                iconTheme: const IconThemeData(color: Colors.white),
-                titleTextStyle: theme.textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.w800,
-                  color: Colors.white,
-                ),
-                leading: IconButton(
-                  onPressed: () => Navigator.of(context).pop(),
-                  icon: const Icon(Icons.arrow_back_ios_new, color: Colors.white),
-                ),
-                title: Text(
-                  title.isNotEmpty
-                      ? title
-                      : _localized(
-                          appLanguage,
-                          en: 'Combinations',
-                          fa: 'ترکیب‌ها',
-                          de: 'Kombinationen',
+              return Scaffold(
+                body: CustomScrollView(
+                  slivers: [
+                    SliverAppBar(
+                      pinned: true,
+                      centerTitle: true,
+                      backgroundColor: theme.colorScheme.secondary,
+                      foregroundColor: Colors.white,
+                      elevation: 0,
+                      iconTheme: const IconThemeData(color: Colors.white),
+                      titleTextStyle: theme.textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w800,
+                        color: Colors.white,
+                      ),
+                      leading: IconButton(
+                        onPressed: () => Navigator.of(context).pop(),
+                        icon: const Icon(
+                          Icons.arrow_back_ios_new,
+                          color: Colors.white,
                         ),
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                ),
-                flexibleSpace: Container(
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [
-                        theme.colorScheme.secondary,
-                        theme.colorScheme.secondary.withValues(alpha: 0.82),
-                      ],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                  ),
-                ),
-              ),
-              SliverPadding(
-                padding: const EdgeInsets.all(16),
-                sliver: SliverList(
-                  delegate: SliverChildListDelegate(
-                    [
-                      if (lesson.explanations.isNotEmpty) ...[
-                        Text(
-                          _localized(
-                            appLanguage,
-                            en: 'Overview',
-                            fa: 'معرفی',
-                            ps: 'عمومي کتنه',
-                            de: 'Überblick',
-                          ),
-                          style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
-                        ),
-                        const SizedBox(height: 10),
-                        ...lesson.explanations.map((block) {
-                          final blockTitle = _localized(
-                            appLanguage,
-                            en: block.titleEn,
-                            fa: block.titleFa,
-                            ps: block.titlePs,
-                            de: block.titleDe,
-                          );
-                          final blockText = _localized(
-                            appLanguage,
-                            en: block.explanationEn,
-                            fa: block.explanationFa,
-                            ps: block.explanationPs,
-                            de: block.explanationDe,
-                          );
-                          return Container(
-                            margin: const EdgeInsets.only(bottom: 12),
-                            padding: const EdgeInsets.all(14),
-                            decoration: BoxDecoration(
-                              color: theme.colorScheme.surfaceContainerHighest,
-                              borderRadius: BorderRadius.circular(18),
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                if (blockTitle.isNotEmpty)
-                                  Text(
-                                    blockTitle,
-                                    style: theme.textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w800),
-                                  ),
-                                if (blockText.isNotEmpty) ...[
-                                  if (blockTitle.isNotEmpty) const SizedBox(height: 8),
-                                  Text(blockText, style: theme.textTheme.bodyMedium),
-                                ],
-                              ],
-                            ),
-                          );
-                        }),
-                        const SizedBox(height: 6),
-                      ],
-                      if (lesson.combinations.isNotEmpty) ...[
-                        Text(
-                          _localized(
-                            appLanguage,
-                            en: 'Combinations',
-                            fa: 'ترکیب‌ها',
-                            ps: 'ترکیبونه',
-                            de: 'Kombinationen',
-                          ),
-                          style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
-                        ),
-                        const SizedBox(height: 10),
-                        ...lesson.combinations.map((rule) {
-                          final ruleTitle = _localized(
-                            appLanguage,
-                            en: rule.titleEn,
-                            fa: rule.titleFa,
-                            ps: rule.titlePs,
-                            de: rule.titleDe,
-                          );
-                          final ruleDesc = _localized(
-                            appLanguage,
-                            en: rule.descriptionEn,
-                            fa: rule.descriptionFa,
-                            ps: rule.descriptionPs,
-                            de: rule.descriptionDe,
-                          );
-                          final exampleKeys = rule.examples
-                              .map((e) => e.wordRef?.key ?? '')
-                              .map((v) => v.trim())
-                              .where((v) => v.isNotEmpty)
-                              .toList();
-                          return Container(
-                            margin: const EdgeInsets.only(bottom: 12),
-                            padding: const EdgeInsets.all(14),
-                            decoration: BoxDecoration(
-                              color: theme.colorScheme.surfaceContainerHighest,
-                              borderRadius: BorderRadius.circular(18),
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Row(
-                                  children: [
-                                    Container(
-                                      width: 44,
-                                      height: 44,
-                                      decoration: BoxDecoration(
-                                        color: theme.colorScheme.secondary.withValues(alpha: 0.12),
-                                        borderRadius: BorderRadius.circular(14),
-                                      ),
-                                      alignment: Alignment.center,
-                                      child: Text(
-                                        _ruleBadgeText(rule),
-                                        style: theme.textTheme.labelLarge?.copyWith(
-                                          fontWeight: FontWeight.w900,
-                                          color: theme.colorScheme.secondary,
-                                        ),
-                                        maxLines: 1,
-                                        overflow: TextOverflow.ellipsis,
-                                      ),
-                                    ),
-                                    const SizedBox(width: 12),
-                                    Expanded(
-                                      child: Text(
-                                        ruleTitle.isNotEmpty ? ruleTitle : rule.id,
-                                        style: theme.textTheme.titleSmall?.copyWith(
-                                          fontWeight: FontWeight.w900,
-                                        ),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                                if (ruleDesc.isNotEmpty) ...[
-                                  const SizedBox(height: 10),
-                                  Text(ruleDesc, style: theme.textTheme.bodyMedium),
-                                ],
-                                if (exampleKeys.isNotEmpty) ...[
-                                  const SizedBox(height: 12),
-                                  Wrap(
-                                    spacing: 8,
-                                    runSpacing: 3,
-                                    textDirection: TextDirection.ltr,
-                                    children: List.generate(exampleKeys.length, (index) {
-                                      final key = exampleKeys[index];
-                                      final found = _findWordByKey(key);
-                                      final word = found ??
-                                          VocabWord(
-                                            id: key,
-                                            de: key,
-                                            translationEn: '',
-                                            translationFa: '',
-                                            translationPs: '',
-                                            image: '',
-                                          );
-                                      Future<void> handleTap() async {
-                                        if (found == null) {
-                                          await _openMissingWordOverlay(appLanguage, key);
-                                          return;
-                                        }
-                                        await _openWordOverlay(found);
-                                      }
-
-                                      return WordTile(
-                                        word: word,
-                                        index: index,
-                                        onTap: () async => await handleTap(),
-                                        onLongPress: () async => await handleTap(),
-                                      );
-                                    }),
-                                  ),
-                                ],
-                              ],
-                            ),
-                          );
-                        }),
-                      ],
-                      const SizedBox(height: 16),
-                      SizedBox(
-                        width: double.infinity,
-                        child: FilledButton(
-                          onPressed: lesson.id.isNotEmpty ? () => _markCompleted(lesson.id) : null,
-                          child: Text(
-                            _localized(
-                              appLanguage,
-                              en: 'Mark as completed',
-                              fa: 'تمام شد',
-                              ps: 'بشپړ شو',
-                              de: 'Als erledigt markieren',
-                            ),
+                      ),
+                      title: Text(
+                        title.isNotEmpty
+                            ? title
+                            : _localized(
+                                appLanguage,
+                                en: 'Combinations',
+                                fa: 'ترکیب‌ها',
+                                de: 'Kombinationen',
+                              ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      flexibleSpace: Container(
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            colors: [
+                              theme.colorScheme.secondary,
+                              theme.colorScheme.secondary.withValues(
+                                alpha: 0.82,
+                              ),
+                            ],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
                           ),
                         ),
                       ),
-                    ],
-                  ),
+                    ),
+                    SliverPadding(
+                      padding: const EdgeInsets.all(16),
+                      sliver: SliverList(
+                        delegate: SliverChildListDelegate([
+                          if (lesson.explanations.isNotEmpty) ...[
+                            Text(
+                              _localized(
+                                appLanguage,
+                                en: 'Overview',
+                                fa: 'معرفی',
+                                ps: 'عمومي کتنه',
+                                de: 'Überblick',
+                              ),
+                              style: theme.textTheme.titleMedium?.copyWith(
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                            const SizedBox(height: 10),
+                            ...lesson.explanations.map((block) {
+                              final blockTitle = _localized(
+                                appLanguage,
+                                en: block.titleEn,
+                                fa: block.titleFa,
+                                ps: block.titlePs,
+                                de: block.titleDe,
+                              );
+                              final blockText = _localized(
+                                appLanguage,
+                                en: block.explanationEn,
+                                fa: block.explanationFa,
+                                ps: block.explanationPs,
+                                de: block.explanationDe,
+                              );
+                              return Container(
+                                margin: const EdgeInsets.only(bottom: 12),
+                                padding: const EdgeInsets.all(14),
+                                decoration: BoxDecoration(
+                                  color:
+                                      theme.colorScheme.surfaceContainerHighest,
+                                  borderRadius: BorderRadius.circular(18),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    if (blockTitle.isNotEmpty)
+                                      Text(
+                                        blockTitle,
+                                        style: theme.textTheme.titleSmall
+                                            ?.copyWith(
+                                              fontWeight: FontWeight.w800,
+                                            ),
+                                      ),
+                                    if (blockText.isNotEmpty) ...[
+                                      if (blockTitle.isNotEmpty)
+                                        const SizedBox(height: 8),
+                                      Text(
+                                        blockText,
+                                        style: theme.textTheme.bodyMedium,
+                                      ),
+                                    ],
+                                  ],
+                                ),
+                              );
+                            }),
+                            const SizedBox(height: 6),
+                          ],
+                          if (lesson.combinations.isNotEmpty) ...[
+                            Text(
+                              _localized(
+                                appLanguage,
+                                en: 'Combinations',
+                                fa: 'ترکیب‌ها',
+                                ps: 'ترکیبونه',
+                                de: 'Kombinationen',
+                              ),
+                              style: theme.textTheme.titleMedium?.copyWith(
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                            const SizedBox(height: 10),
+                            ...lesson.combinations.map((rule) {
+                              final ruleTitle = _localized(
+                                appLanguage,
+                                en: rule.titleEn,
+                                fa: rule.titleFa,
+                                ps: rule.titlePs,
+                                de: rule.titleDe,
+                              );
+                              final ruleDesc = _localized(
+                                appLanguage,
+                                en: rule.descriptionEn,
+                                fa: rule.descriptionFa,
+                                ps: rule.descriptionPs,
+                                de: rule.descriptionDe,
+                              );
+                              final exampleKeys = rule.examples
+                                  .map((e) => e.wordRef?.key ?? '')
+                                  .map((v) => v.trim())
+                                  .where((v) => v.isNotEmpty)
+                                  .toList();
+                              return Container(
+                                margin: const EdgeInsets.only(bottom: 12),
+                                padding: const EdgeInsets.all(14),
+                                decoration: BoxDecoration(
+                                  color:
+                                      theme.colorScheme.surfaceContainerHighest,
+                                  borderRadius: BorderRadius.circular(18),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Row(
+                                      children: [
+                                        Container(
+                                          width: 44,
+                                          height: 44,
+                                          decoration: BoxDecoration(
+                                            color: theme.colorScheme.secondary
+                                                .withValues(alpha: 0.12),
+                                            borderRadius: BorderRadius.circular(
+                                              14,
+                                            ),
+                                          ),
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            _ruleBadgeText(rule),
+                                            style: theme.textTheme.labelLarge
+                                                ?.copyWith(
+                                                  fontWeight: FontWeight.w900,
+                                                  color: theme
+                                                      .colorScheme
+                                                      .secondary,
+                                                ),
+                                            maxLines: 1,
+                                            overflow: TextOverflow.ellipsis,
+                                          ),
+                                        ),
+                                        const SizedBox(width: 12),
+                                        Expanded(
+                                          child: Text(
+                                            ruleTitle.isNotEmpty
+                                                ? ruleTitle
+                                                : rule.id,
+                                            style: theme.textTheme.titleSmall
+                                                ?.copyWith(
+                                                  fontWeight: FontWeight.w900,
+                                                ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    if (ruleDesc.isNotEmpty) ...[
+                                      const SizedBox(height: 10),
+                                      Text(
+                                        ruleDesc,
+                                        style: theme.textTheme.bodyMedium,
+                                      ),
+                                    ],
+                                    if (exampleKeys.isNotEmpty) ...[
+                                      const SizedBox(height: 12),
+                                      Wrap(
+                                        spacing: 8,
+                                        runSpacing: 3,
+                                        textDirection: TextDirection.ltr,
+                                        children: List.generate(
+                                          exampleKeys.length,
+                                          (index) {
+                                            final studyState = context
+                                                .read<AppState>();
+                                            final sourceLang =
+                                                studyState.sourceWordLanguage;
+                                            final sourceTextDirection =
+                                                sourceLang.isRtlScript
+                                                ? TextDirection.rtl
+                                                : TextDirection.ltr;
+                                            final key = exampleKeys[index];
+                                            final found = _findWordByKey(key);
+                                            final word =
+                                                found ??
+                                                VocabWord(
+                                                  id: key,
+                                                  de: key,
+                                                  translationEn: '',
+                                                  translationFa: '',
+                                                  translationPs: '',
+                                                  image: '',
+                                                );
+                                            Future<void> handleTap() async {
+                                              if (found == null) {
+                                                await _openMissingWordOverlay(
+                                                  appLanguage,
+                                                  key,
+                                                );
+                                                return;
+                                              }
+                                              await _openWordOverlay(found);
+                                            }
+
+                                            return WordTile(
+                                              word: word,
+                                              index: index,
+                                              displayText:
+                                                  _resolveCombinationsWordText(
+                                                    word,
+                                                    sourceLang,
+                                                  ),
+                                              textDirection:
+                                                  sourceTextDirection,
+                                              onTap: () async =>
+                                                  await handleTap(),
+                                              onLongPress: () async =>
+                                                  await handleTap(),
+                                            );
+                                          },
+                                        ),
+                                      ),
+                                    ],
+                                  ],
+                                ),
+                              );
+                            }),
+                          ],
+                          const SizedBox(height: 16),
+                          SizedBox(
+                            width: double.infinity,
+                            child: FilledButton(
+                              onPressed: lesson.id.isNotEmpty
+                                  ? () => _markCompleted(lesson.id)
+                                  : null,
+                              child: Text(
+                                _localized(
+                                  appLanguage,
+                                  en: 'Mark as completed',
+                                  fa: 'تمام شد',
+                                  ps: 'بشپړ شو',
+                                  de: 'Als erledigt markieren',
+                                ),
+                              ),
+                            ),
+                          ),
+                        ]),
+                      ),
+                    ),
+                  ],
                 ),
-              ),
-            ],
-          ),
-        );
-      },
+              );
+            },
+          );
+        },
+      ),
     );
   }
 }

@@ -38,7 +38,13 @@ class AssetCombinationsJsonLessonRepository
   }
 
   Map<String, dynamic>? _extractJsonObject(dynamic decoded) {
-    if (decoded is Map<String, dynamic>) return decoded;
+    if (decoded is Map<String, dynamic>) {
+      final nestedCombinations = decoded['combinations'];
+      if (nestedCombinations is Map<String, dynamic>) {
+        return nestedCombinations;
+      }
+      return decoded;
+    }
     if (decoded is List) {
       for (final entry in decoded) {
         if (entry is Map<String, dynamic>) return entry;
@@ -47,4 +53,3 @@ class AssetCombinationsJsonLessonRepository
     return null;
   }
 }
-

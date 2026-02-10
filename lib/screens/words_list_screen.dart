@@ -4,6 +4,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:provider/provider.dart';
+import 'package:word_map_app/models/app_language.dart';
 import 'package:word_map_app/models/vocab_word.dart';
 import 'package:word_map_app/models/word_progress.dart';
 import 'package:word_map_app/core/audio/audio_service.dart';
@@ -21,7 +22,17 @@ import 'package:word_map_app/widgets/word_details_native_ad_footer.dart';
 import 'package:word_map_app/widgets/word_tile.dart';
 
 enum SortMode { defaultOrder, priorityGrouped }
+
 enum WordsScope { level, category }
+
+const List<AppLanguage> _wordTextFallbackOrder = [
+  AppLanguage.de,
+  AppLanguage.en,
+  AppLanguage.fr,
+  AppLanguage.tr,
+  AppLanguage.fa,
+  AppLanguage.ps,
+];
 
 List<VocabWord> sortWordsForDisplay(List<VocabWord> words) {
   final bookmarked = <VocabWord>[];
@@ -39,6 +50,20 @@ List<VocabWord> sortWordsForDisplay(List<VocabWord> words) {
   }
 
   return [...bookmarked, ...normal, ...viewed];
+}
+
+String _resolveWordText(
+  VocabWord word,
+  AppLanguage primary, {
+  List<AppLanguage> fallbackOrder = _wordTextFallbackOrder,
+}) {
+  final direct = word.textFor(primary).trim();
+  if (direct.isNotEmpty) return direct;
+  final remaining = fallbackOrder
+      .where((lang) => lang != primary)
+      .toList(growable: false);
+  final fallback = word.firstAvailableText(remaining).trim();
+  return fallback.isNotEmpty ? fallback : '—';
 }
 
 class WordsListScreen extends StatefulWidget {
@@ -77,10 +102,7 @@ class _WordsListScreenState extends State<WordsListScreen> {
         if (!snapshot.hasData) {
           return Scaffold(
             body: Center(
-              child: Text(
-                loc.loadWordsFailed,
-                style: textTheme.titleMedium,
-              ),
+              child: Text(loc.loadWordsFailed, style: textTheme.titleMedium),
             ),
           );
         }
@@ -138,6 +160,7 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
   final HomeSupportBannerService _supportBannerService =
       HomeSupportBannerService();
   bool _showSupportBanner = false;
+  String? _lastAudioAvailabilityKey;
 
   @override
   void initState() {
@@ -145,8 +168,9 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     _progress = Map.of(widget.initialProgress);
     _wordsByLevel = _groupByLevel(widget.allWords);
     _wordsByCategory = _groupByCategory(widget.allWords);
-    _currentLevel =
-        widget.initialLevel.isNotEmpty ? widget.initialLevel : widget.levels.first;
+    _currentLevel = widget.initialLevel.isNotEmpty
+        ? widget.initialLevel
+        : widget.levels.first;
     final requestedScope = (widget.initialScope ?? '').trim().toLowerCase();
     final requestedCategory = (widget.initialCategoryTag ?? '').trim();
     if (requestedScope == 'category' &&
@@ -237,8 +261,9 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     setState(() {
       word.isBookmarked = !word.isBookmarked;
       final existing = _progress[word.id];
-      _progress[word.id] = (existing ?? WordProgress(wordId: word.id))
-          .copyWith(bookmarked: word.isBookmarked);
+      _progress[word.id] = (existing ?? WordProgress(wordId: word.id)).copyWith(
+        bookmarked: word.isBookmarked,
+      );
     });
     _debouncedSave();
   }
@@ -248,8 +273,9 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     setState(() {
       word.isViewed = true;
       final existing = _progress[word.id];
-      _progress[word.id] = (existing ?? WordProgress(wordId: word.id))
-          .copyWith(learned: true);
+      _progress[word.id] = (existing ?? WordProgress(wordId: word.id)).copyWith(
+        learned: true,
+      );
     });
     _debouncedSave();
   }
@@ -259,6 +285,51 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     _saveDebounce = Timer(const Duration(milliseconds: 400), () {
       widget.repo.saveProgress(_progress);
     });
+  }
+
+  bool _hasAudioForLanguageInWords(
+    Iterable<VocabWord> words,
+    AppLanguage language,
+  ) {
+    return words.any((word) => word.audioFor(language).trim().isNotEmpty);
+  }
+
+  String? _firstLevelWithAudio(AppLanguage language) {
+    for (final level in widget.levels) {
+      final words = _wordsByLevel[level] ?? const <VocabWord>[];
+      if (_hasAudioForLanguageInWords(words, language)) {
+        return level;
+      }
+    }
+    return null;
+  }
+
+  void _ensureCurrentLevelHasAudioFor(
+    AppLanguage language, {
+    required String switchedMessage,
+    required String unavailableMessage,
+  }) {
+    if (_scope != WordsScope.level) return;
+
+    final currentWords = _wordsByLevel[_currentLevel] ?? const <VocabWord>[];
+    if (_hasAudioForLanguageInWords(currentWords, language)) return;
+
+    final replacementLevel = _firstLevelWithAudio(language);
+    if (replacementLevel == null) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(unavailableMessage),
+          duration: Duration(seconds: 3),
+        ),
+      );
+      return;
+    }
+    if (replacementLevel == _currentLevel) return;
+
+    _changeLevel(replacementLevel);
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text(switchedMessage), duration: Duration(seconds: 3)),
+    );
   }
 
   Future<void> _maybeShowSupportBanner() async {
@@ -275,14 +346,13 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     final result = await diamond.watchAdForDiamond();
     if (!mounted) return;
     if (result == DiamondWatchResult.adLoading) {
-      if (diamond.counter <= 0 && !diamond.isDiamondActive && !diamond.isCooldownActive) {
+      if (diamond.counter <= 0 &&
+          !diamond.isDiamondActive &&
+          !diamond.isCooldownActive) {
         unawaited(diamond.startCooldown());
       }
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(loc.adLoading),
-          duration: Duration(seconds: 2),
-        ),
+        SnackBar(content: Text(loc.adLoading), duration: Duration(seconds: 2)),
       );
       return;
     }
@@ -317,7 +387,10 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
         final textTheme = Theme.of(context).textTheme;
         return SafeArea(
           child: Padding(
-            padding: const EdgeInsetsDirectional.symmetric(horizontal: 20, vertical: 24),
+            padding: const EdgeInsetsDirectional.symmetric(
+              horizontal: 20,
+              vertical: 24,
+            ),
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
@@ -334,7 +407,12 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(loc.totalWordsLabel, style: textTheme.bodyMedium),
-                    Text('$total', style: textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.w700)),
+                    Text(
+                      '$total',
+                      style: textTheme.bodyMedium?.copyWith(
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
                   ],
                 ),
                 const SizedBox(height: 10),
@@ -342,7 +420,12 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(loc.bookmarkedLabel, style: textTheme.bodyMedium),
-                    Text('$bookmarked', style: textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.w700)),
+                    Text(
+                      '$bookmarked',
+                      style: textTheme.bodyMedium?.copyWith(
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
                   ],
                 ),
                 const SizedBox(height: 10),
@@ -350,7 +433,12 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(loc.viewedLabel, style: textTheme.bodyMedium),
-                    Text('$viewed', style: textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.w700)),
+                    Text(
+                      '$viewed',
+                      style: textTheme.bodyMedium?.copyWith(
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
                   ],
                 ),
                 const SizedBox(height: 12),
@@ -384,7 +472,9 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                     onTap: () => Navigator.of(context).maybePop(),
                     child: BackdropFilter(
                       filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-                      child: Container(color: Colors.black.withValues(alpha: 0.05)),
+                      child: Container(
+                        color: Colors.black.withValues(alpha: 0.05),
+                      ),
                     ),
                   ),
                   Center(
@@ -409,39 +499,58 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                                     physics: const BouncingScrollPhysics(),
                                     child: Builder(
                                       builder: (dialogContext) {
-                                        final wordLanguages = dialogContext
-                                            .read<AppState>()
-                                            .wordLanguages;
-                                        final primaryLang = wordLanguages.first;
-                                        final secondaryLang =
-                                            wordLanguages.length > 1
-                                                ? wordLanguages[1]
-                                                : null;
-                                        final primaryRaw = word
-                                            .translationFor(primaryLang)
+                                        final appState = dialogContext
+                                            .read<AppState>();
+                                        final sourceLang =
+                                            appState.sourceWordLanguage;
+                                        final targetLang =
+                                            appState.targetWordLanguage;
+                                        final source = _resolveWordText(
+                                          word,
+                                          sourceLang,
+                                        );
+                                        var target = _resolveWordText(
+                                          word,
+                                          targetLang,
+                                        );
+                                        if (target == source) {
+                                          target = word
+                                              .firstAvailableText(
+                                                _wordTextFallbackOrder
+                                                    .where(
+                                                      (lang) =>
+                                                          lang != sourceLang,
+                                                    )
+                                                    .toList(),
+                                              )
+                                              .trim();
+                                          if (target.isEmpty) {
+                                            target = '—';
+                                          }
+                                        }
+                                        final audioUrl = word
+                                            .audioFor(sourceLang)
                                             .trim();
-                                        final primary =
-                                            primaryRaw.isNotEmpty ? primaryRaw : '—';
-                                        final secondaryRaw = secondaryLang == null
-                                            ? ''
-                                            : word.translationFor(secondaryLang).trim();
-                                        final secondary = secondaryRaw.isNotEmpty
-                                            ? secondaryRaw
-                                            : '';
-                                        final audioUrl = word.audio.trim();
+                                        final exampleText = word
+                                            .exampleFor(sourceLang)
+                                            .trim();
                                         final hasAudio = audioUrl.isNotEmpty;
-                                        final messenger =
-                                            ScaffoldMessenger.of(dialogContext);
-                                        final loc =
-                                            AppLocalizations.of(dialogContext)!;
+                                        final messenger = ScaffoldMessenger.of(
+                                          dialogContext,
+                                        );
+                                        final loc = AppLocalizations.of(
+                                          dialogContext,
+                                        )!;
                                         Future<void> handlePlayAudio() async {
                                           if (!hasAudio) return;
                                           try {
-                                            await AudioService.instance
-                                                .playUrl(audioUrl);
+                                            await AudioService.instance.playUrl(
+                                              audioUrl,
+                                            );
                                           } catch (e) {
                                             debugPrint(
-                                                'Audio playback failed: $e');
+                                              'Audio playback failed: $e',
+                                            );
                                             if (!mounted) return;
                                             messenger.showSnackBar(
                                               SnackBar(
@@ -459,19 +568,21 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                                           width: 28,
                                           child: StreamBuilder<bool>(
                                             stream: AudioService
-                                                .instance.playingStream,
-                                            builder:
-                                                (streamContext, snapshot) {
+                                                .instance
+                                                .playingStream,
+                                            builder: (streamContext, snapshot) {
                                               final isPlaying =
                                                   snapshot.data ?? false;
                                               final iconColor = hasAudio
-                                                  ? Theme.of(streamContext)
-                                                      .colorScheme
-                                                      .primary
+                                                  ? Theme.of(
+                                                      streamContext,
+                                                    ).colorScheme.primary
                                                   : Colors.grey[400];
-                                              final isPlayingThisWord = isPlaying &&
+                                              final isPlayingThisWord =
+                                                  isPlaying &&
                                                   AudioService
-                                                          .instance.currentUrl ==
+                                                          .instance
+                                                          .currentUrl ==
                                                       audioUrl;
                                               return IconButton(
                                                 padding: EdgeInsets.zero,
@@ -480,7 +591,7 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                                                 iconSize: 20,
                                                 onPressed: hasAudio
                                                     ? () async =>
-                                                        await handlePlayAudio()
+                                                          await handlePlayAudio()
                                                     : null,
                                                 icon: Icon(
                                                   isPlayingThisWord
@@ -494,17 +605,18 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                                         );
 
                                         return WordDetailSoftCard(
-                                          word: word.de,
-                                          translationPrimary: primary,
-                                          translationSecondary:
-                                              secondary.isNotEmpty
-                                                  ? secondary
-                                                  : null,
-                                          example: word.example,
+                                          word: source,
+                                          translationPrimary: target,
+                                          translationSecondary: null,
+                                          example: exampleText.isNotEmpty
+                                              ? exampleText
+                                              : null,
                                           extra: [
                                             if (word.level != null) word.level,
                                             formatCategoryLabel(
-                                              AppLocalizations.of(dialogContext)!,
+                                              AppLocalizations.of(
+                                                dialogContext,
+                                              )!,
                                               word.category,
                                               max: 2,
                                             ),
@@ -537,10 +649,7 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
         );
       },
       transitionBuilder: (context, animation, secondaryAnimation, child) {
-        return FadeTransition(
-          opacity: animation,
-          child: child,
-        );
+        return FadeTransition(opacity: animation, child: child);
       },
     );
   }
@@ -611,8 +720,25 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     final textTheme = Theme.of(context).textTheme;
     final appState = context.watch<AppState>();
     final diamond = context.watch<DiamondController>();
-    final viewedCount =
-        _visibleWords.where((w) => w.isViewed || w.isVisited).length;
+    final sourceLanguage = appState.sourceWordLanguage;
+    final audioAvailabilityKey =
+        '${sourceLanguage.languageCode}|${_scope.name}|$_currentLevel';
+    if (_lastAudioAvailabilityKey != audioAvailabilityKey) {
+      _lastAudioAvailabilityKey = audioAvailabilityKey;
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (!mounted) return;
+        _ensureCurrentLevelHasAudioFor(
+          sourceLanguage,
+          switchedMessage:
+              'No ${sourceLanguage.nativeName} audio in this level yet. Switched to the next level with audio.',
+          unavailableMessage:
+              'No ${sourceLanguage.nativeName} audio is available yet for the current vocabulary set.',
+        );
+      });
+    }
+    final viewedCount = _visibleWords
+        .where((w) => w.isViewed || w.isVisited)
+        .length;
 
     return SafeArea(
       child: Stack(
@@ -634,7 +760,9 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                         _buildStatsBadge(textTheme, viewedCount),
                         const SizedBox(width: 10),
                         ConstrainedBox(
-                          constraints: BoxConstraints(maxWidth: maxDiamondWidth),
+                          constraints: BoxConstraints(
+                            maxWidth: maxDiamondWidth,
+                          ),
                           child: _buildDiamondBadge(
                             textTheme,
                             diamond,
@@ -716,10 +844,7 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
       child: Container(
         constraints: const BoxConstraints(minWidth: 44, minHeight: 44),
         padding: const EdgeInsets.all(8),
-        decoration: BoxDecoration(
-          color: Colors.black,
-          shape: BoxShape.circle,
-        ),
+        decoration: BoxDecoration(color: Colors.black, shape: BoxShape.circle),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.min,
@@ -759,50 +884,53 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
         ? _currentLevel
         : localizeWordCategoryTag(loc, _currentCategoryTag ?? 'uncategorized');
     final baseFontSize = textTheme.titleMedium?.fontSize ?? 16;
-    final fontSize =
-        _scope == WordsScope.level ? baseFontSize + 4 : baseFontSize + 1;
-    final maxTextWidth = (maxButtonWidth - 48).clamp(80.0, maxButtonWidth).toDouble();
+    final fontSize = _scope == WordsScope.level
+        ? baseFontSize + 4
+        : baseFontSize + 1;
+    final maxTextWidth = (maxButtonWidth - 48)
+        .clamp(80.0, maxButtonWidth)
+        .toDouble();
     return TextButton(
-        onPressed: () => _showLevelPicker(context, appState),
-        style: TextButton.styleFrom(
-          padding: EdgeInsets.symmetric(
-            horizontal: _scope == WordsScope.level ? 12 : 10,
-            vertical: 8,
-          ),
-          shape: const StadiumBorder(),
-          backgroundColor: Colors.black,
-          minimumSize: const Size(0, 44),
+      onPressed: () => _showLevelPicker(context, appState),
+      style: TextButton.styleFrom(
+        padding: EdgeInsets.symmetric(
+          horizontal: _scope == WordsScope.level ? 12 : 10,
+          vertical: 8,
         ),
-        child: ConstrainedBox(
-          constraints: BoxConstraints(maxWidth: maxButtonWidth),
-          child: Row(
-            textDirection: TextDirection.ltr,
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Icon(
-                _scope == WordsScope.level ? LucideIcons.layers : LucideIcons.tag,
-                color: Colors.white,
-              ),
-              const SizedBox(width: 8),
-              ConstrainedBox(
-                constraints: BoxConstraints(maxWidth: maxTextWidth),
-                child: Text(
-                  label,
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                  softWrap: false,
-                  textDirection: uiTextDirection,
-                  style: textTheme.titleMedium?.copyWith(
-                    fontWeight: FontWeight.w800,
-                    fontSize: fontSize,
-                    color: Colors.white,
-                  ),
+        shape: const StadiumBorder(),
+        backgroundColor: Colors.black,
+        minimumSize: const Size(0, 44),
+      ),
+      child: ConstrainedBox(
+        constraints: BoxConstraints(maxWidth: maxButtonWidth),
+        child: Row(
+          textDirection: TextDirection.ltr,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              _scope == WordsScope.level ? LucideIcons.layers : LucideIcons.tag,
+              color: Colors.white,
+            ),
+            const SizedBox(width: 8),
+            ConstrainedBox(
+              constraints: BoxConstraints(maxWidth: maxTextWidth),
+              child: Text(
+                label,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                softWrap: false,
+                textDirection: uiTextDirection,
+                style: textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.w800,
+                  fontSize: fontSize,
+                  color: Colors.white,
                 ),
               ),
-            ],
-          ),
+            ),
+          ],
         ),
-      );
+      ),
+    );
   }
 
   Widget _buildDiamondBadge(
@@ -819,14 +947,11 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     final subtitle = isActive
         ? loc.diamondBadgeSubtitleActive
         : (isCooldown
-            ? loc.diamondBadgeSubtitleCooldown
-            : loc.diamondBadgeSubtitleInactive);
+              ? loc.diamondBadgeSubtitleCooldown
+              : loc.diamondBadgeSubtitleInactive);
     return Container(
       constraints: const BoxConstraints(minHeight: 44),
-      padding: EdgeInsets.symmetric(
-        horizontal: compact ? 10 : 14,
-        vertical: 8,
-      ),
+      padding: EdgeInsets.symmetric(horizontal: compact ? 10 : 14, vertical: 8),
       decoration: const BoxDecoration(
         color: Colors.black,
         borderRadius: BorderRadius.all(Radius.circular(999)),
@@ -840,8 +965,8 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
             color: isActive
                 ? const Color(0xFF4BA8FF)
                 : (isCooldown
-                    ? Colors.white.withValues(alpha: 0.45)
-                    : Colors.white),
+                      ? Colors.white.withValues(alpha: 0.45)
+                      : Colors.white),
           ),
           const SizedBox(width: 8),
           Flexible(
@@ -878,7 +1003,313 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     );
   }
 
+  Future<void> _showWordPairPicker(BuildContext context) async {
+    final appState = context.read<AppState>();
+    final uiLanguage = appState.appLanguage;
+    final allOptions = const <AppLanguage>[
+      AppLanguage.de,
+      AppLanguage.en,
+      AppLanguage.fr,
+      AppLanguage.tr,
+      AppLanguage.fa,
+      AppLanguage.ps,
+    ];
+    AppLanguage source = appState.sourceWordLanguage;
+    AppLanguage target = appState.targetWordLanguage;
+    if (target == source) {
+      target = allOptions.firstWhere((lang) => lang != source);
+    }
+
+    String copy({required String en, required String fa, required String ps}) {
+      switch (uiLanguage) {
+        case AppLanguage.fa:
+          return fa;
+        case AppLanguage.ps:
+          return ps;
+        case AppLanguage.en:
+        case AppLanguage.fr:
+        case AppLanguage.de:
+        case AppLanguage.tr:
+          return en;
+      }
+    }
+
+    await showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      showDragHandle: true,
+      builder: (sheetContext) {
+        final theme = Theme.of(sheetContext);
+        return StatefulBuilder(
+          builder: (sheetContext, setSheetState) {
+            List<AppLanguage> targetOptions() =>
+                allOptions.where((lang) => lang != source).toList();
+
+            Widget languageDropdown({
+              required String label,
+              required String hint,
+              required AppLanguage value,
+              required List<AppLanguage> options,
+              required ValueChanged<AppLanguage?> onChanged,
+              required IconData icon,
+            }) {
+              return Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    label,
+                    style: theme.textTheme.labelLarge?.copyWith(
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  DropdownButtonFormField<AppLanguage>(
+                    key: ValueKey<String>('${label}_${value.languageCode}'),
+                    initialValue: value,
+                    isExpanded: true,
+                    icon: const Icon(LucideIcons.chevronsUpDown),
+                    decoration: InputDecoration(
+                      hintText: hint,
+                      prefixIcon: Icon(icon),
+                      filled: true,
+                      fillColor: theme.colorScheme.surfaceContainerHighest
+                          .withValues(alpha: 0.45),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(14),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(14),
+                        borderSide: BorderSide(
+                          color: theme.dividerColor.withValues(alpha: 0.2),
+                        ),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(14),
+                        borderSide: BorderSide(
+                          color: theme.colorScheme.primary,
+                          width: 1.5,
+                        ),
+                      ),
+                    ),
+                    items: options
+                        .map(
+                          (lang) => DropdownMenuItem<AppLanguage>(
+                            value: lang,
+                            child: Text(lang.nativeName),
+                          ),
+                        )
+                        .toList(growable: false),
+                    onChanged: onChanged,
+                  ),
+                ],
+              );
+            }
+
+            return SafeArea(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Padding(
+                    padding: EdgeInsetsDirectional.fromSTEB(
+                      16,
+                      0,
+                      16,
+                      16 + MediaQuery.of(sheetContext).viewInsets.bottom,
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Icon(
+                              LucideIcons.languages,
+                              color: theme.colorScheme.primary,
+                            ),
+                            const SizedBox(width: 8),
+                            Text(
+                              copy(
+                                en: 'Word Pair',
+                                fa: 'جفت واژه',
+                                ps: 'د لغت جوړه',
+                              ),
+                              style: theme.textTheme.titleMedium?.copyWith(
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 6),
+                        Text(
+                          copy(
+                            en: 'Set your learning and translation languages.',
+                            fa: 'زبان یادگیری و زبان ترجمه را انتخاب کنید.',
+                            ps: 'د زده کړې ژبه او د ژباړې ژبه وټاکئ.',
+                          ),
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            color: theme.textTheme.bodySmall?.color?.withValues(
+                              alpha: 0.8,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 16),
+                        languageDropdown(
+                          label: copy(
+                            en: 'Learn In',
+                            fa: 'زبان یادگیری',
+                            ps: 'د زده کړې ژبه',
+                          ),
+                          hint: copy(
+                            en: 'Language shown on word cards',
+                            fa: 'زبان خود واژه‌ها',
+                            ps: 'د لغتونو ژبه',
+                          ),
+                          value: source,
+                          options: allOptions,
+                          icon: LucideIcons.bookOpen,
+                          onChanged: (next) {
+                            if (next == null) return;
+                            setSheetState(() {
+                              source = next;
+                              if (target == source) {
+                                target = targetOptions().first;
+                              }
+                            });
+                          },
+                        ),
+                        const SizedBox(height: 12),
+                        languageDropdown(
+                          label: copy(
+                            en: 'Translate To',
+                            fa: 'زبان معنی',
+                            ps: 'د مانا ژبه',
+                          ),
+                          hint: copy(
+                            en: 'Language used for meanings',
+                            fa: 'زبان ترجمه‌ها',
+                            ps: 'د ژباړې ژبه',
+                          ),
+                          value: target,
+                          options: targetOptions(),
+                          icon: LucideIcons.languages,
+                          onChanged: (next) {
+                            if (next == null) return;
+                            setSheetState(() => target = next);
+                          },
+                        ),
+                        const SizedBox(height: 14),
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 14,
+                            vertical: 10,
+                          ),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            color: theme.colorScheme.surfaceContainerHighest
+                                .withValues(alpha: 0.55),
+                          ),
+                          child: Row(
+                            children: [
+                              Icon(
+                                LucideIcons.sparkles,
+                                size: 16,
+                                color: theme.colorScheme.primary,
+                              ),
+                              const SizedBox(width: 8),
+                              Expanded(
+                                child: Text(
+                                  '${source.nativeName}  ->  ${target.nativeName}',
+                                  style: theme.textTheme.bodyMedium?.copyWith(
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const SizedBox(height: 14),
+                        Row(
+                          children: [
+                            Expanded(
+                              child: TextButton(
+                                onPressed: () =>
+                                    Navigator.of(sheetContext).pop(),
+                                style: TextButton.styleFrom(
+                                  minimumSize: const Size(0, 44),
+                                  backgroundColor: theme
+                                      .colorScheme
+                                      .surfaceContainerHighest
+                                      .withValues(alpha: 0.55),
+                                  foregroundColor: theme.colorScheme.onSurface,
+                                  shape: const StadiumBorder(),
+                                ),
+                                child: Text(
+                                  copy(en: 'Cancel', fa: 'لغو', ps: 'لغوه'),
+                                ),
+                              ),
+                            ),
+                            const SizedBox(width: 10),
+                            Expanded(
+                              child: TextButton.icon(
+                                onPressed: () async {
+                                  await appState.setWordLanguages([
+                                    source,
+                                    target,
+                                  ]);
+                                  if (!mounted) return;
+                                  _ensureCurrentLevelHasAudioFor(
+                                    source,
+                                    switchedMessage: copy(
+                                      en: 'No ${source.nativeName} audio in this level yet. Switched to the next level with audio.',
+                                      fa: 'برای این سطح، صدای ${source.nativeName} وجود ندارد. به نزدیک‌ترین سطح دارای صدا منتقل شد.',
+                                      ps: 'په دې کچه کې د ${source.nativeName} غږ نشته. هغه بلې کچې ته ولاړ شو چې غږ لري.',
+                                    ),
+                                    unavailableMessage: copy(
+                                      en: 'No ${source.nativeName} audio is available yet for the current vocabulary set.',
+                                      fa: 'هنوز برای واژگان فعلی صدای ${source.nativeName} موجود نیست.',
+                                      ps: 'د اوسني لغتونو لپاره لا د ${source.nativeName} غږ نشته.',
+                                    ),
+                                  );
+                                  if (!sheetContext.mounted) return;
+                                  Navigator.of(sheetContext).pop();
+                                },
+                                style: TextButton.styleFrom(
+                                  minimumSize: const Size(0, 44),
+                                  backgroundColor: Colors.black,
+                                  foregroundColor: Colors.white,
+                                  shape: const StadiumBorder(),
+                                ),
+                                icon: const Icon(LucideIcons.check, size: 16),
+                                label: Text(
+                                  copy(en: 'Apply', fa: 'اعمال', ps: 'پلي کول'),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            );
+          },
+        );
+      },
+    );
+  }
+
   Future<void> _showLevelPicker(BuildContext context, AppState appState) async {
+    final wordPairTitle = switch (appState.appLanguage) {
+      AppLanguage.fa => 'جفت واژه',
+      AppLanguage.ps => 'د لغت جوړه',
+      AppLanguage.en ||
+      AppLanguage.de ||
+      AppLanguage.tr ||
+      AppLanguage.fr => 'Word Pair',
+    };
+    final wordPairSubtitle =
+        '${appState.sourceWordLanguage.nativeName} -> ${appState.targetWordLanguage.nativeName}';
     await showModalBottomSheet<void>(
       context: context,
       isScrollControlled: true,
@@ -893,8 +1324,12 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
         });
 
         final tags = counts.keys.toList()
-          ..sort((a, b) => localizeWordCategoryTag(loc, a)
-              .compareTo(localizeWordCategoryTag(loc, b)));
+          ..sort(
+            (a, b) => localizeWordCategoryTag(
+              loc,
+              a,
+            ).compareTo(localizeWordCategoryTag(loc, b)),
+          );
 
         return _ChapterPickerSheet(
           levels: widget.levels,
@@ -903,6 +1338,8 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
           selectedCategoryTag: _currentCategoryTag,
           categoryTags: tags,
           categoryCounts: counts,
+          wordPairTitle: wordPairTitle,
+          wordPairSubtitle: wordPairSubtitle,
           onSelectLevel: (level) {
             Navigator.of(context).pop();
             _changeLevel(level);
@@ -910,6 +1347,13 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
           onSelectCategory: (tag) {
             Navigator.of(context).pop();
             _changeCategory(tag);
+          },
+          onOpenWordPair: () {
+            Navigator.of(context).pop();
+            WidgetsBinding.instance.addPostFrameCallback((_) {
+              if (!mounted) return;
+              unawaited(_showWordPairPicker(this.context));
+            });
           },
         );
       },
@@ -922,7 +1366,9 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
       return RefreshIndicator(
         onRefresh: _refreshAll,
         child: ListView(
-          physics: const BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
+          physics: const BouncingScrollPhysics(
+            parent: AlwaysScrollableScrollPhysics(),
+          ),
           padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
           children: [
             Padding(
@@ -943,7 +1389,9 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
     return RefreshIndicator(
       onRefresh: _refreshAll,
       child: CustomScrollView(
-        physics: const BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
+        physics: const BouncingScrollPhysics(
+          parent: AlwaysScrollableScrollPhysics(),
+        ),
         slivers: [
           SliverPadding(
             padding: const EdgeInsetsDirectional.fromSTEB(16, 16, 16, 120),
@@ -974,15 +1422,23 @@ class _WordList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final appState = context.watch<AppState>();
+    final sourceLang = appState.sourceWordLanguage;
+    final sourceTextDirection = sourceLang.isRtlScript
+        ? TextDirection.rtl
+        : TextDirection.ltr;
     return Wrap(
       spacing: 8,
       runSpacing: 3,
       textDirection: TextDirection.ltr, // keep tile order stable across locales
       children: List.generate(words.length, (index) {
         final word = words[index];
+        final displayText = _resolveWordText(word, sourceLang);
         return WordTile(
           word: word,
           index: index,
+          displayText: displayText,
+          textDirection: sourceTextDirection,
           onTap: () => onTap(word),
           onLongPress: () => onBookmarkToggle(word),
         );
@@ -999,8 +1455,11 @@ class _ChapterPickerSheet extends StatefulWidget {
     required this.selectedCategoryTag,
     required this.categoryTags,
     required this.categoryCounts,
+    required this.wordPairTitle,
+    required this.wordPairSubtitle,
     required this.onSelectLevel,
     required this.onSelectCategory,
+    required this.onOpenWordPair,
   });
 
   final List<String> levels;
@@ -1009,8 +1468,11 @@ class _ChapterPickerSheet extends StatefulWidget {
   final String? selectedCategoryTag;
   final List<String> categoryTags;
   final Map<String, int> categoryCounts;
+  final String wordPairTitle;
+  final String wordPairSubtitle;
   final ValueChanged<String> onSelectLevel;
   final ValueChanged<String> onSelectCategory;
+  final VoidCallback onOpenWordPair;
 
   @override
   State<_ChapterPickerSheet> createState() => _ChapterPickerSheetState();
@@ -1059,9 +1521,8 @@ class _ChapterPickerSheetState extends State<_ChapterPickerSheet> {
                     Expanded(
                       child: Text(
                         loc.chooseCategory,
-                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                              fontWeight: FontWeight.w800,
-                            ),
+                        style: Theme.of(context).textTheme.titleMedium
+                            ?.copyWith(fontWeight: FontWeight.w800),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
@@ -1078,8 +1539,8 @@ class _ChapterPickerSheetState extends State<_ChapterPickerSheet> {
                               const SizedBox(height: 6),
                           itemBuilder: (context, index) {
                             final tag = widget.categoryTags[index];
-                            final selected = widget.selectedScope ==
-                                    WordsScope.category &&
+                            final selected =
+                                widget.selectedScope == WordsScope.category &&
                                 widget.selectedCategoryTag == tag;
                             final label = localizeWordCategoryTag(loc, tag);
                             final count = widget.categoryCounts[tag] ?? 0;
@@ -1097,7 +1558,9 @@ class _ChapterPickerSheetState extends State<_ChapterPickerSheet> {
                                   selected
                                       ? LucideIcons.checkCircle2
                                       : LucideIcons.tag,
-                                  color: selected ? cs.primary : cs.onSurfaceVariant,
+                                  color: selected
+                                      ? cs.primary
+                                      : cs.onSurfaceVariant,
                                 ),
                                 title: Text(
                                   label,
@@ -1106,7 +1569,9 @@ class _ChapterPickerSheetState extends State<_ChapterPickerSheet> {
                                 ),
                                 trailing: Container(
                                   padding: const EdgeInsets.symmetric(
-                                      horizontal: 10, vertical: 6),
+                                    horizontal: 10,
+                                    vertical: 6,
+                                  ),
                                   decoration: BoxDecoration(
                                     color: Colors.black.withValues(alpha: 0.06),
                                     borderRadius: BorderRadius.circular(999),
@@ -1132,8 +1597,8 @@ class _ChapterPickerSheetState extends State<_ChapterPickerSheet> {
                 Text(
                   loc.chooseChapter,
                   style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.w700,
-                      ),
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
                 const SizedBox(height: 12),
                 GridView.builder(
@@ -1151,11 +1616,15 @@ class _ChapterPickerSheetState extends State<_ChapterPickerSheet> {
                     final isSelected = isCategoriesTile
                         ? widget.selectedScope == WordsScope.category
                         : widget.selectedScope == WordsScope.level &&
-                            widget.levels[index] == widget.selectedLevel;
+                              widget.levels[index] == widget.selectedLevel;
 
                     final bg = isSelected ? cs.primary : Colors.grey.shade100;
-                    final border = isSelected ? cs.primary : Colors.grey.shade300;
-                    final textColor = isSelected ? Colors.white : Colors.black87;
+                    final border = isSelected
+                        ? cs.primary
+                        : Colors.grey.shade300;
+                    final textColor = isSelected
+                        ? Colors.white
+                        : Colors.black87;
 
                     if (isCategoriesTile) {
                       return GestureDetector(
@@ -1212,6 +1681,31 @@ class _ChapterPickerSheetState extends State<_ChapterPickerSheet> {
                       ),
                     );
                   },
+                ),
+                const SizedBox(height: 14),
+                Center(
+                  child: ConstrainedBox(
+                    constraints: const BoxConstraints(maxWidth: 230),
+                    child: TextButton.icon(
+                      onPressed: widget.onOpenWordPair,
+                      style: TextButton.styleFrom(
+                        minimumSize: const Size(0, 44),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 16,
+                          vertical: 10,
+                        ),
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.white,
+                        shape: const StadiumBorder(),
+                      ),
+                      icon: const Icon(LucideIcons.languages, size: 16),
+                      label: Text(
+                        '${widget.wordPairTitle}: ${widget.wordPairSubtitle}',
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                  ),
                 ),
               ],
             ),

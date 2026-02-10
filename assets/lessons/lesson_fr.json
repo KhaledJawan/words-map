@@ -1,0 +1,964 @@
+{
+  "language": "fr",
+  "alphabet": {
+    "id": "lesson_alphabet_fr",
+    "title_de": "Das französische Alphabet",
+    "title_fa": "الفبای فرانسوی",
+    "title_en": "The French Alphabet",
+    "title_ps": "د فرانسوي الفبا",
+    "explanition": [
+      {
+        "title_fa": "چرا الفبای فرانسوی مهم است؟",
+        "title_en": "Why is the French alphabet important?",
+        "title_ps": "ولې فرانسوي الفبا مهمه ده؟",
+        "title_de": "Warum ist das französische Alphabet wichtig?",
+        "explanation_fa": "فرانسوی از الفبای لاتین استفاده می‌کند، اما تلفظ و نوشتار همیشه یکسان نیست. با یادگیری الفبا و الگوهای صدا، خواندن واژه‌ها آسان‌تر می‌شود.",
+        "explanation_en": "French uses the Latin alphabet, but pronunciation can differ from spelling. Learning letter names and sound patterns makes new words easier to read.",
+        "explanation_ps": "فرانسوي د لاتین الفبا کاروي، خو لیکنه او تلفظ تل یو شان نه وي. د الفبا او غږ بڼو زده کړه لوستل اسانه کوي.",
+        "explanation_de": "Französisch nutzt das lateinische Alphabet, aber Aussprache und Schreibweise unterscheiden sich oft. Mit einem klaren Alphabet-Training liest du neue Wörter sicherer."
+      }
+    ],
+    "alphabet": {
+      "note_fa": "روی حرف بزن تا نمونه‌های واژه از لیست خودت را ببینی.",
+      "note_en": "Tap a letter to open examples from your vocabulary.",
+      "note_ps": "پر توري ټک کړه او د خپل لغت‌لېست بېلګې وګوره.",
+      "note_de": "Tippe auf einen Buchstaben und öffne Beispiele aus deinem Wortschatz.",
+      "letters": [
+        {
+          "upper": "A",
+          "lower": "a",
+          "name_de": "a",
+          "fa_hint": "a",
+          "ps_hint": "a",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "aussi"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "allemand"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "B",
+          "lower": "b",
+          "name_de": "be",
+          "fa_hint": "be",
+          "ps_hint": "be",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Bonjour"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "bon"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "C",
+          "lower": "c",
+          "name_de": "ce",
+          "fa_hint": "ce",
+          "ps_hint": "ce",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Comment?"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Comment ça va ?"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "D",
+          "lower": "d",
+          "name_de": "de",
+          "fa_hint": "de",
+          "ps_hint": "de",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "D'où?"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "dialogue"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "E",
+          "lower": "e",
+          "name_de": "e",
+          "fa_hint": "e",
+          "ps_hint": "e",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "être"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "et"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "F",
+          "lower": "f",
+          "name_de": "ef",
+          "fa_hint": "ef",
+          "ps_hint": "ef",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "français"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "femme; Mme"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "G",
+          "lower": "g",
+          "name_de": "ge",
+          "fa_hint": "ge",
+          "ps_hint": "ge",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "grand"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "grammaire"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "H",
+          "lower": "h",
+          "name_de": "ha",
+          "fa_hint": "ha",
+          "ps_hint": "ha",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "homme; M."
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "habiter"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "I",
+          "lower": "i",
+          "name_de": "i",
+          "fa_hint": "i",
+          "ps_hint": "i",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "imprimer"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ici"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "J",
+          "lower": "j",
+          "name_de": "jot",
+          "fa_hint": "jot",
+          "ps_hint": "jot",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Je m'appelle ..."
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Je vais (très) bien."
+              }
+            }
+          ]
+        },
+        {
+          "upper": "K",
+          "lower": "k",
+          "name_de": "ka",
+          "fa_hint": "ka",
+          "ps_hint": "ka",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "kiosque"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Kinderwagen"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "L",
+          "lower": "l",
+          "name_de": "el",
+          "fa_hint": "el",
+          "ps_hint": "el",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "langue"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "lieu de résidence"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "M",
+          "lower": "m",
+          "name_de": "em",
+          "fa_hint": "em",
+          "ps_hint": "em",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Merci!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "maintenant"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "N",
+          "lower": "n",
+          "name_de": "en",
+          "fa_hint": "en",
+          "ps_hint": "en",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "nom"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "nom de famille"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "O",
+          "lower": "o",
+          "name_de": "o",
+          "fa_hint": "o",
+          "ps_hint": "o",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Où?"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ou"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "P",
+          "lower": "p",
+          "name_de": "pe",
+          "fa_hint": "pe",
+          "ps_hint": "pe",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "parler"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "pays"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Q",
+          "lower": "q",
+          "name_de": "ku",
+          "fa_hint": "ku",
+          "ps_hint": "ku",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Qui?"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Quelles langues parlez-vous ?"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "R",
+          "lower": "r",
+          "name_de": "er",
+          "fa_hint": "er",
+          "ps_hint": "er",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "rue"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "répéter"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "S",
+          "lower": "s",
+          "name_de": "es",
+          "fa_hint": "es",
+          "ps_hint": "es",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "s'il vous plaît"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "s'appeler"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "T",
+          "lower": "t",
+          "name_de": "te",
+          "fa_hint": "te",
+          "ps_hint": "te",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "téléphone portable"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "texte"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "U",
+          "lower": "u",
+          "name_de": "u",
+          "fa_hint": "u",
+          "ps_hint": "u",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Universität"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "urgence"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "V",
+          "lower": "v",
+          "name_de": "fau",
+          "fa_hint": "fau",
+          "ps_hint": "fau",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "venir de"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ville"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "W",
+          "lower": "w",
+          "name_de": "we",
+          "fa_hint": "we",
+          "ps_hint": "we",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "week-end"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Wi-Fi"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "X",
+          "lower": "x",
+          "name_de": "ix",
+          "fa_hint": "ix",
+          "ps_hint": "ix",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "texte"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "faux"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Y",
+          "lower": "y",
+          "name_de": "ypsilon",
+          "fa_hint": "ypsilon",
+          "ps_hint": "ypsilon",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "yaourt"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Z",
+          "lower": "z",
+          "name_de": "zet",
+          "fa_hint": "zet",
+          "ps_hint": "zet",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Zone industrielle"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "zoomer"
+              }
+            }
+          ]
+        }
+      ],
+      "special_letters": [
+        {
+          "symbol": "é",
+          "name_de": "e accent aigu",
+          "fa_hint": "e بسته",
+          "ps_hint": "e بند",
+          "description_fa": "é معمولاً صدای «اِ/ای» روشن می‌دهد.",
+          "description_en": "é usually gives a clear closed e sound.",
+          "description_ps": "é اکثر روښانه e غږ ورکوي.",
+          "description_de": "é markiert meist einen geschlossenen e-Laut."
+        },
+        {
+          "symbol": "è / ê",
+          "name_de": "e accent grave/circonflexe",
+          "fa_hint": "e بازتر",
+          "ps_hint": "e پرانستی",
+          "description_fa": "è و ê معمولاً صدای e بازتر دارند.",
+          "description_en": "è and ê often indicate a more open e sound.",
+          "description_ps": "è او ê عموماً پرانستی e غږ لري.",
+          "description_de": "è und ê stehen oft für einen offeneren e-Laut."
+        },
+        {
+          "symbol": "ç",
+          "name_de": "c cédille",
+          "fa_hint": "س",
+          "ps_hint": "س",
+          "description_fa": "ç باعث می‌شود c قبل از a/o/u مانند «س» خوانده شود.",
+          "description_en": "ç makes c sound like s before a, o, u.",
+          "description_ps": "ç د a/o/u نه مخکې c د s په شان کوي.",
+          "description_de": "ç sorgt dafür, dass c vor a/o/u wie s klingt."
+        }
+      ]
+    }
+  },
+  "combinations": {
+    "id": "lesson_combinations_fr",
+    "title_de": "Buchstabenkombinationen im Französischen",
+    "title_fa": "ترکیب حروف در فرانسوی",
+    "title_en": "French Letter Combinations",
+    "title_ps": "په فرانسوي کې د تورو ترکیبونه",
+    "explanition": [
+      {
+        "title_fa": "چرا ترکیب حروف در فرانسوی؟",
+        "title_en": "Why combinations in French?",
+        "title_ps": "ولې په فرانسوي کې ترکیبونه مهم دي؟",
+        "title_de": "Warum Kombinationen im Französischen?",
+        "explanation_fa": "در فرانسوی، ترکیب‌هایی مثل ou، eau و gn نقش اصلی در تلفظ دارند. با شناخت آن‌ها خواندن و شنیدن بهتر می‌شود.",
+        "explanation_en": "French pronunciation depends heavily on combinations such as ou, eau, and gn. Knowing them improves reading and listening.",
+        "explanation_ps": "په فرانسوي کې ou، eau او gn غوندې ترکیبونه تلفظ ټاکي. د دې بڼو پېژندل لوستل او اورېدنه ښه کوي.",
+        "explanation_de": "Im Französischen bestimmen Kombinationen wie ou, eau oder gn stark die Aussprache. Wer sie kennt, liest und versteht schneller."
+      }
+    ],
+    "combinations": [
+      {
+        "id": "ch",
+        "title_de": "ch",
+        "title_fa": "ترکیب ch",
+        "title_en": "ch",
+        "title_ps": "د ch ترکیب",
+        "description_fa": "ch در فرانسوی معمولاً مثل «ش» تلفظ می‌شود.",
+        "description_en": "ch is usually pronounced like sh in French.",
+        "description_ps": "ch په فرانسوي کې اکثر د «ش» غږ لري.",
+        "description_de": "ch wird im Französischen meistens wie „sch“ ausgesprochen.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Österreich"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "chaise"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "fiche"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ou",
+        "title_de": "ou",
+        "title_fa": "ترکیب ou",
+        "title_en": "ou",
+        "title_ps": "د ou ترکیب",
+        "description_fa": "ou معمولاً صدایی شبیه «او» دارد.",
+        "description_en": "ou is usually pronounced like oo in food.",
+        "description_ps": "ou اکثر د «او» غږ ورکوي.",
+        "description_de": "ou klingt meist wie „u“ in tour.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Bonjour"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "s'il vous plaît"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Où?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "oi",
+        "title_de": "oi",
+        "title_fa": "ترکیب oi",
+        "title_en": "oi",
+        "title_ps": "د oi ترکیب",
+        "description_fa": "oi در فرانسوی معمولاً مثل «وا» تلفظ می‌شود.",
+        "description_en": "oi is typically pronounced like wa in modern French.",
+        "description_ps": "oi په فرانسوي کې اکثر د «وا» په شان دی.",
+        "description_de": "oi klingt im modernen Französisch meist wie „wa“.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Au revoir!"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Au revoir ! (au téléphone)"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Quoi ?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "eau",
+        "title_de": "eau",
+        "title_fa": "ترکیب eau",
+        "title_en": "eau",
+        "title_ps": "د eau ترکیب",
+        "description_fa": "eau معمولاً مانند «او» کشیده خوانده می‌شود.",
+        "description_en": "eau is usually pronounced like a long o sound.",
+        "description_ps": "eau اکثر د اوږده «او» غږ لري.",
+        "description_de": "eau wird meistens wie langes „o“ gesprochen.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Merci beaucoup !"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "tableau (noir/blanc)"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "tableau blanc"
+            }
+          }
+        ]
+      },
+      {
+        "id": "au",
+        "title_de": "au",
+        "title_fa": "ترکیب au",
+        "title_en": "au",
+        "title_ps": "د au ترکیب",
+        "description_fa": "au در بسیاری واژه‌ها صدای «او/اُ» می‌دهد.",
+        "description_en": "au is often pronounced like o.",
+        "description_ps": "au ډېر ځله د «او» غږ ورکوي.",
+        "description_de": "au klingt häufig wie „o“.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "aussi"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Au revoir!"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Au revoir ! (au téléphone)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "an_en",
+        "title_de": "an/en",
+        "title_fa": "ترکیب an/en",
+        "title_en": "an / en",
+        "title_ps": "د an/en ترکیب",
+        "description_fa": "an/en در فرانسوی معمولاً واکه بینی‌دار می‌سازند.",
+        "description_en": "an/en often create a nasal vowel.",
+        "description_ps": "an/en اکثر پزېنی واکه جوړوي.",
+        "description_de": "an/en bilden oft einen Nasalvokal.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "allemand"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "anglais"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "français"
+            }
+          }
+        ]
+      },
+      {
+        "id": "on",
+        "title_de": "on",
+        "title_fa": "ترکیب on",
+        "title_en": "on",
+        "title_ps": "د on ترکیب",
+        "description_fa": "on در فرانسوی معمولاً صدای بینی‌دار دارد.",
+        "description_en": "on commonly has a nasal sound in French.",
+        "description_ps": "on په فرانسوي کې ډېر وخت پزېنی غږ لري.",
+        "description_de": "on hat oft einen Nasalklang.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Bonjour"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "bon"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Bonjour!"
+            }
+          }
+        ]
+      },
+      {
+        "id": "in_ain_ein",
+        "title_de": "in/ain/ein",
+        "title_fa": "ترکیب in/ain/ein",
+        "title_en": "in / ain / ein",
+        "title_ps": "د in/ain/ein ترکیب",
+        "description_fa": "in/ain/ein اغلب یک نوع واکه بینی‌دار می‌سازند.",
+        "description_en": "in/ain/ein often represent a similar nasal vowel.",
+        "description_ps": "in/ain/ein اکثر ورته پزېنی واکه ورکوي.",
+        "description_de": "in/ain/ein ergeben oft denselben Nasalvokal.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "maintenant"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "ordinateur"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "instructeur de cours (homme)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gn",
+        "title_de": "gn",
+        "title_fa": "ترکیب gn",
+        "title_en": "gn",
+        "title_ps": "د gn ترکیب",
+        "description_fa": "gn معمولاً مانند «نی/نیی» تلفظ می‌شود.",
+        "description_en": "gn is pronounced like ny in canyon.",
+        "description_ps": "gn اکثر د ny غوندې غږ لري.",
+        "description_de": "gn klingt wie „nj“ (z. B. montagne).",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Allemagne"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "enseignant (homme)"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "champignon"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ill",
+        "title_de": "ill",
+        "title_fa": "ترکیب ill",
+        "title_en": "ill",
+        "title_ps": "د ill ترکیب",
+        "description_fa": "ill بسته به واژه می‌تواند مثل «ی» یا «ایل» باشد.",
+        "description_en": "ill can sound like y or il depending on the word.",
+        "description_ps": "ill د لغت له مخې د y یا il غږ ورکوي.",
+        "description_de": "ill kann je nach Wort wie „y“ oder „il“ klingen.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "nom de famille"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "ville"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "bouteille"
+            }
+          }
+        ]
+      },
+      {
+        "id": "qu",
+        "title_de": "qu",
+        "title_fa": "ترکیب qu",
+        "title_en": "qu",
+        "title_ps": "د qu ترکیب",
+        "description_fa": "qu در فرانسوی معمولاً صدای «ک» می‌دهد.",
+        "description_en": "qu is usually pronounced like k in French.",
+        "description_ps": "qu په فرانسوي کې اکثر د «ک» غږ لري.",
+        "description_de": "qu klingt im Französischen meist wie „k“.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Qui?"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Quelles langues parlez-vous ?"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Et qui est-ce ?"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

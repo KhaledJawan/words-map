@@ -558,7 +558,8 @@ class _VocabularyChip extends StatelessWidget {
   Widget build(BuildContext context) {
     final isDark = theme.brightness == Brightness.dark;
     final cs = theme.colorScheme;
-    Color bg = isDark ? cs.surfaceVariant.withOpacity(0.2) : Colors.white;
+    Color bg =
+        isDark ? cs.surfaceContainerHighest.withOpacity(0.2) : Colors.white;
     Color textColor = isDark ? Colors.white : cs.onSurface;
     List<BoxShadow>? shadow = isDark
         ? null

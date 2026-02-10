@@ -1,0 +1,966 @@
+{
+  "language": "fa",
+  "alphabet": {
+    "id": "lesson_alphabet_fa",
+    "title_de": "Das persische Alphabet",
+    "title_fa": "الفبای فارسی",
+    "title_en": "The Persian Alphabet",
+    "title_ps": "د فارسي الفبا",
+    "explanition": [
+      {
+        "title_fa": "چرا الفبای فارسی مهم است؟",
+        "title_en": "Why is the Persian alphabet important?",
+        "title_ps": "ولې فارسي الفبا مهمه ده؟",
+        "title_de": "Warum ist das persische Alphabet wichtig?",
+        "explanation_fa": "فارسی با خط فارسی-عربی نوشته می‌شود. اگر شکل حرف‌ها و الگوی واکه‌ها را بشناسی، واژه‌ها را سریع‌تر و دقیق‌تر می‌خوانی.",
+        "explanation_en": "Persian uses an adapted Arabic script. Learning letter shapes and vowel behavior helps you decode words confidently.",
+        "explanation_ps": "فارسي د عربي-فارسي لیکدود کاروي. د تورو بڼو او واکې بڼو زده کړه لوستل اسانه او دقیق کوي.",
+        "explanation_de": "Persisch nutzt eine angepasste arabische Schrift. Wenn du die Buchstabenformen und Vokalmuster kennst, liest du Wörter schneller und sicherer."
+      }
+    ],
+    "alphabet": {
+      "note_fa": "روی هر حرف بزن تا واژه‌های مناسب از واژگان خودت را ببینی.",
+      "note_en": "Tap a letter to see matching Persian words from your vocabulary.",
+      "note_ps": "پر هر توري ټک کړه ترڅو د خپل لغت‌لېست اړوندې فارسي بېلګې ووینې.",
+      "note_de": "Tippe auf einen Buchstaben, um passende Wörter aus deinem Wortschatz zu sehen.",
+      "letters": [
+        {
+          "upper": "ا",
+          "lower": "",
+          "name_de": "ا",
+          "fa_hint": "ا",
+          "ps_hint": "ا",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "انگلیسی"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "اهلِ … بودن"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ب",
+          "lower": "",
+          "name_de": "ب",
+          "fa_hint": "ب",
+          "ps_hint": "ب",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "بودن"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "به امید دیدار!"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "پ",
+          "lower": "",
+          "name_de": "پ",
+          "fa_hint": "پ",
+          "ps_hint": "پ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "پلاک خانه"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "پرسش"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ت",
+          "lower": "",
+          "name_de": "ت",
+          "fa_hint": "ت",
+          "ps_hint": "ت",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "تا بعد!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "تشکر!"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ث",
+          "lower": "",
+          "name_de": "ث",
+          "fa_hint": "ث",
+          "ps_hint": "ث",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ثروتمند"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ثبت‌نام"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ج",
+          "lower": "",
+          "name_de": "ج",
+          "fa_hint": "ج",
+          "ps_hint": "ج",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "جمله"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "جدید"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "چ",
+          "lower": "",
+          "name_de": "چ",
+          "fa_hint": "چ",
+          "ps_hint": "چ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "چاپ کردن"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "چه کسی؟"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ح",
+          "lower": "",
+          "name_de": "ح",
+          "fa_hint": "ح",
+          "ps_hint": "ح",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "حالتان/حالت چطور است؟"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "حالم (خیلی) خوب است."
+              }
+            }
+          ]
+        },
+        {
+          "upper": "خ",
+          "lower": "",
+          "name_de": "خ",
+          "fa_hint": "خ",
+          "ps_hint": "خ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "خانم"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "خوب"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "د",
+          "lower": "",
+          "name_de": "د",
+          "fa_hint": "د",
+          "ps_hint": "د",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "دوره"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "درست"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ذ",
+          "lower": "",
+          "name_de": "ذ",
+          "fa_hint": "ذ",
+          "ps_hint": "ذ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ذخیره کردن"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ذهنی / روحی"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ر",
+          "lower": "",
+          "name_de": "ر",
+          "fa_hint": "ر",
+          "ps_hint": "ر",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "راندن / با وسیله رفتن"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "رفتن (پای پیاده)"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ز",
+          "lower": "",
+          "name_de": "ز",
+          "fa_hint": "ز",
+          "ps_hint": "ز",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "زبان"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "زبان مادری"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ژ",
+          "lower": "",
+          "name_de": "ژ",
+          "fa_hint": "ژ",
+          "ps_hint": "ژ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ژست / حرکت"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "س",
+          "lower": "",
+          "name_de": "س",
+          "fa_hint": "س",
+          "ps_hint": "س",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "سلام"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "سوئیس"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ش",
+          "lower": "",
+          "name_de": "ش",
+          "fa_hint": "ش",
+          "ps_hint": "ش",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "شما به چه زبان‌هایی صحبت می‌کنید؟"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "شهر"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ص",
+          "lower": "",
+          "name_de": "ص",
+          "fa_hint": "ص",
+          "ps_hint": "ص",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "صحبت کردن"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "صندلی"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ض",
+          "lower": "",
+          "name_de": "ض",
+          "fa_hint": "ض",
+          "ps_hint": "ض",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ضروری"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ضمیمه کردن"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ط",
+          "lower": "",
+          "name_de": "ط",
+          "fa_hint": "ط",
+          "ps_hint": "ط",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "طبقهٔ همکف"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "طبقه"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ظ",
+          "lower": "",
+          "name_de": "ظ",
+          "fa_hint": "ظ",
+          "ps_hint": "ظ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ظرف شستن"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ظاهر شدن / منتشر شدن"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ع",
+          "lower": "",
+          "name_de": "ع",
+          "fa_hint": "ع",
+          "ps_hint": "ع",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "عالی"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "عصر"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "غ",
+          "lower": "",
+          "name_de": "غ",
+          "fa_hint": "غ",
+          "ps_hint": "غ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "غذا خوردن"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "غیرراحت / نادلپذیر"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ف",
+          "lower": "",
+          "name_de": "ف",
+          "fa_hint": "ف",
+          "ps_hint": "ف",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "فرانسه"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "فهمیدن"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ق",
+          "lower": "",
+          "name_de": "ق",
+          "fa_hint": "ق",
+          "ps_hint": "ق",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "قانون / قاعده"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "قدم زدن / کوهنوردی سبک"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ک",
+          "lower": "",
+          "name_de": "ک",
+          "fa_hint": "ک",
+          "ps_hint": "ک",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "کجا؟"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "کشور"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "گ",
+          "lower": "",
+          "name_de": "گ",
+          "fa_hint": "گ",
+          "ps_hint": "گ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "گفتگو"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "گفتن"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ل",
+          "lower": "",
+          "name_de": "ل",
+          "fa_hint": "ل",
+          "ps_hint": "ل",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "لطفاً"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "لامپ"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "م",
+          "lower": "",
+          "name_de": "م",
+          "fa_hint": "م",
+          "ps_hint": "م",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "من کمی آلمانی صحبت می‌کنم."
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "محل سکونت"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ن",
+          "lower": "",
+          "name_de": "ن",
+          "fa_hint": "ن",
+          "ps_hint": "ن",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "نامیدن؛ اسم ... بودن"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "نام"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "و",
+          "lower": "",
+          "name_de": "و",
+          "fa_hint": "و",
+          "ps_hint": "و",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "و"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "و او/این کیست؟"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ه",
+          "lower": "",
+          "name_de": "ه",
+          "fa_hint": "ه",
+          "ps_hint": "ه",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "همچنین"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "هجی کردن"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ی",
+          "lower": "",
+          "name_de": "ی",
+          "fa_hint": "ی",
+          "ps_hint": "ی",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "یاد گرفتن"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "یا"
+              }
+            }
+          ]
+        }
+      ],
+      "special_letters": []
+    }
+  },
+  "combinations": {
+    "id": "lesson_combinations_fa",
+    "title_de": "Lese- und Schriftmuster im Persischen",
+    "title_fa": "الگوهای خواندن در فارسی",
+    "title_en": "Persian Reading Patterns",
+    "title_ps": "په فارسي کې د لوستلو بڼې",
+    "explanition": [
+      {
+        "title_fa": "چرا الگوهای خواندن در فارسی؟",
+        "title_en": "Why reading patterns in Persian?",
+        "title_ps": "ولې په فارسي کې د لوستلو بڼې مهمې دي؟",
+        "title_de": "Warum Lesemuster im Persischen?",
+        "explanation_fa": "چون واکه‌های کوتاه اغلب نوشته نمی‌شوند، شناخت الگوهای ا، و، ی و پایان‌های رایج برای خواندن درست ضروری است.",
+        "explanation_en": "Because short vowels are often unwritten, recurring patterns with ا, و, ی and common endings are key for accurate reading.",
+        "explanation_ps": "ځکه لنډ واکونه اکثر نه لیکل کېږي، نو د ا، و، ی او عامو پایونو بڼې پېژندل د سمې لوستنې لپاره مهم دي.",
+        "explanation_de": "Kurze Vokale sind oft unsichtbar. Deshalb helfen feste Muster mit ا، و، ی und Endungen beim richtigen Lesen."
+      }
+    ],
+    "combinations": [
+      {
+        "id": "short_vowels",
+        "title_de": "Kurze Vokale",
+        "title_fa": "واکه‌های کوتاه",
+        "title_en": "Short vowels",
+        "title_ps": "لنډ واکونه",
+        "description_fa": "واکه‌های کوتاه (َ ِ ُ) در نوشتار فارسی معمولاً نوشته نمی‌شوند.",
+        "description_en": "Short vowels (a/e/o) are often not written explicitly in Persian script.",
+        "description_ps": "په فارسي لیکنه کې لنډ واکونه اکثره نه لیکل کېږي.",
+        "description_de": "Kurze Vokale (a/e/o) werden im Persischen oft nicht geschrieben.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "سلام"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "لطفاً"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "آلمانی"
+            }
+          }
+        ]
+      },
+      {
+        "id": "long_a",
+        "title_de": "Langes a (ا/آ)",
+        "title_fa": "آوای بلند آ",
+        "title_en": "Long a (ا/آ)",
+        "title_ps": "اوږد آ غږ",
+        "description_fa": "صدای بلند «آ» معمولاً با ا یا آ نشان داده می‌شود.",
+        "description_en": "Long a is usually represented by ا or آ.",
+        "description_ps": "اوږد «آ» اکثر د ا یا آ په وسیله ښودل کېږي.",
+        "description_de": "Das lange a wird meist mit ا oder آ gezeigt.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "سلام"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "لطفاً"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "آلمانی"
+            }
+          }
+        ]
+      },
+      {
+        "id": "long_u_o",
+        "title_de": "و als u/o",
+        "title_fa": "و برای او/و",
+        "title_en": "و as u/o",
+        "title_ps": "و د u/o لپاره",
+        "description_fa": "حرف «و» معمولاً صدای بلند «او/و» را می‌دهد.",
+        "description_en": "و often carries long u or o sounds.",
+        "description_ps": "توری «و» اکثر د اوږد u/o غږ لپاره کارېږي.",
+        "description_de": "و steht oft für lange u/o-Laute.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "خوب"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "نامیدن؛ اسم ... بودن"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "اهلِ … بودن"
+            }
+          }
+        ]
+      },
+      {
+        "id": "long_i",
+        "title_de": "ی als i",
+        "title_fa": "ی برای ای",
+        "title_en": "ی as i",
+        "title_ps": "ی د i لپاره",
+        "description_fa": "حرف «ی» اغلب صدای بلند «ای» را نشان می‌دهد.",
+        "description_en": "ی frequently marks a long i sound.",
+        "description_ps": "«ی» اکثر د اوږد i غږ ښيي.",
+        "description_de": "ی zeigt häufig den langen i-Laut.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "همچنین"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "آلمانی"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "انگلیسی"
+            }
+          }
+        ]
+      },
+      {
+        "id": "final_heh",
+        "title_de": "ه am Wortende",
+        "title_fa": "ه در پایان واژه",
+        "title_en": "Final ه",
+        "title_ps": "د کلمې په پای کې ه",
+        "description_fa": "«ه» در پایان واژه می‌تواند «ـه / ـِ» خوانده شود.",
+        "description_en": "Final ه can be read as -e or -eh depending on the word.",
+        "description_ps": "وروستی «ه» د کلمې له مخې بېلابېل لوستل لري.",
+        "description_de": "Endständiges ه kann je nach Wort als -e/-eh gelesen werden.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "همچنین"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "فرانسه"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "اهلِ … بودن"
+            }
+          }
+        ]
+      },
+      {
+        "id": "kh_sound",
+        "title_de": "خ",
+        "title_fa": "صدای خ",
+        "title_en": "خ sound",
+        "title_ps": "د خ غږ",
+        "description_fa": "«خ» یک صدای مهم و رایج در فارسی است.",
+        "description_en": "خ is a common throaty sound in Persian.",
+        "description_ps": "«خ» په فارسي کې یو مهم او عام غږ دی.",
+        "description_de": "خ ist ein rauer Kehllaut und sehr häufig im Persischen.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "خانم"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "خوب"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "خداحافظ!"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gh_q",
+        "title_de": "غ / ق",
+        "title_fa": "غ و ق",
+        "title_en": "غ / ق",
+        "title_ps": "غ او ق",
+        "description_fa": "در فارسی معیار امروز، «غ» و «ق» در گفتار نزدیک به هم شنیده می‌شوند.",
+        "description_en": "In modern standard Persian, غ and ق are often pronounced similarly.",
+        "description_ps": "په معیاري فارسي کې «غ» او «ق» ډېر وخت ورته غږېږي.",
+        "description_de": "غ und ق werden in der Standardsprache oft ähnlich ausgesprochen.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "آقا"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "دفتر لغات"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "مقاله / آرتیکل"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sh_sound",
+        "title_de": "ش",
+        "title_fa": "صدای ش",
+        "title_en": "ش sound",
+        "title_ps": "د ش غږ",
+        "description_fa": "«ش» همان صدای «ش» در واژه‌هایی مثل شب است.",
+        "description_en": "ش corresponds to the sh sound.",
+        "description_ps": "«ش» د sh غږ سره برابر دی.",
+        "description_de": "ش entspricht dem „sh“-Laut.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "تشکر!"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "شما به چه زبان‌هایی صحبت می‌کنید؟"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "کشور"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

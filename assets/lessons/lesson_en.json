@@ -1,0 +1,908 @@
+{
+  "language": "en",
+  "alphabet": {
+    "id": "lesson_alphabet_en",
+    "title_de": "Das englische Alphabet",
+    "title_fa": "الفبای انگلیسی",
+    "title_en": "The English Alphabet",
+    "title_ps": "د انګلیسي الفبا",
+    "explanition": [
+      {
+        "title_fa": "چرا الفبای انگلیسی مهم است؟",
+        "title_en": "Why is the English alphabet important?",
+        "title_ps": "ولې انګلیسي الفبا مهمه ده؟",
+        "title_de": "Warum ist das englische Alphabet wichtig?",
+        "explanation_fa": "برای خواندن درست واژه‌های انگلیسی، باید نام حرف‌ها و صداهای رایج آن‌ها را بشناسی. این درس کمک می‌کند واژه‌های جدید را سریع‌تر و دقیق‌تر بخوانی.",
+        "explanation_en": "To read English words confidently, you need the letter names and common sounds. This lesson helps you decode new words faster and pronounce them more accurately.",
+        "explanation_ps": "د انګلیسي لغتونو د سمې لوستنې لپاره د تورو نومونه او عام غږونه مهم دي. دا درس درسره مرسته کوي چې نوي لغتونه چټک او سم ولولې.",
+        "explanation_de": "Wer englische Wörter sicher lesen will, sollte die Buchstabennamen und Grundlaute gut kennen. So werden neue Wörter schneller erkannt und korrekt ausgesprochen."
+      }
+    ],
+    "alphabet": {
+      "note_fa": "روی هر حرف بزن تا نمونه‌های واقعی از واژگان خودت را ببینی.",
+      "note_en": "Tap each letter to see real examples from your vocabulary.",
+      "note_ps": "پر هر توري ټک وکړه ترڅو د خپلو لغتونو بېلګې ووینې.",
+      "note_de": "Tippe auf jeden Buchstaben, um Beispiele aus deinem Wortschatz zu sehen.",
+      "letters": [
+        {
+          "upper": "A",
+          "lower": "a",
+          "name_de": "a",
+          "fa_hint": "a",
+          "ps_hint": "a",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "also"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "and"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "B",
+          "lower": "b",
+          "name_de": "be",
+          "fa_hint": "be",
+          "ps_hint": "be",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Bye!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "but"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "C",
+          "lower": "c",
+          "name_de": "ce",
+          "fa_hint": "ce",
+          "ps_hint": "ce",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "country"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "city"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "D",
+          "lower": "d",
+          "name_de": "de",
+          "fa_hint": "de",
+          "ps_hint": "de",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "dialogue"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "door"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "E",
+          "lower": "e",
+          "name_de": "e",
+          "fa_hint": "e",
+          "ps_hint": "e",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "English"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "example"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "F",
+          "lower": "f",
+          "name_de": "ef",
+          "fa_hint": "ef",
+          "ps_hint": "ef",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "French"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "From where?"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "G",
+          "lower": "g",
+          "name_de": "ge",
+          "fa_hint": "ge",
+          "ps_hint": "ge",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "German"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Germany"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "H",
+          "lower": "h",
+          "name_de": "ha",
+          "fa_hint": "ha",
+          "ps_hint": "ha",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Hello"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "How?"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "I",
+          "lower": "i",
+          "name_de": "i",
+          "fa_hint": "i",
+          "ps_hint": "i",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "I am (very) well."
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "I speak a little German."
+              }
+            }
+          ]
+        },
+        {
+          "upper": "J",
+          "lower": "j",
+          "name_de": "jot",
+          "fa_hint": "jot",
+          "ps_hint": "jot",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "juice"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "job"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "K",
+          "lower": "k",
+          "name_de": "ka",
+          "fa_hint": "ka",
+          "ps_hint": "ka",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Kind regards!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "kiosk / newsstand"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "L",
+          "lower": "l",
+          "name_de": "el",
+          "fa_hint": "el",
+          "ps_hint": "el",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "language"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "lamp"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "M",
+          "lower": "m",
+          "name_de": "em",
+          "fa_hint": "em",
+          "ps_hint": "em",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "man; Mr."
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "My name is ..."
+              }
+            }
+          ]
+        },
+        {
+          "upper": "N",
+          "lower": "n",
+          "name_de": "en",
+          "fa_hint": "en",
+          "ps_hint": "en",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "name"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "now"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "O",
+          "lower": "o",
+          "name_de": "o",
+          "fa_hint": "o",
+          "ps_hint": "o",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "or"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "often"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "P",
+          "lower": "p",
+          "name_de": "pe",
+          "fa_hint": "pe",
+          "ps_hint": "pe",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "please"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "place of residence"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Q",
+          "lower": "q",
+          "name_de": "ku",
+          "fa_hint": "ku",
+          "ps_hint": "ku",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "question"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "quiet"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "R",
+          "lower": "r",
+          "name_de": "er",
+          "fa_hint": "er",
+          "ps_hint": "er",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "rule"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "radio"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "S",
+          "lower": "s",
+          "name_de": "es",
+          "fa_hint": "es",
+          "ps_hint": "es",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Switzerland"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "See you soon!"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "T",
+          "lower": "t",
+          "name_de": "te",
+          "fa_hint": "te",
+          "ps_hint": "te",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "to be called"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "to come from"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "U",
+          "lower": "u",
+          "name_de": "u",
+          "fa_hint": "u",
+          "ps_hint": "u",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "university"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "unhealthy"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "V",
+          "lower": "v",
+          "name_de": "fau",
+          "fa_hint": "fau",
+          "ps_hint": "fau",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "vocabulary notebook"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "verb"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "W",
+          "lower": "w",
+          "name_de": "we",
+          "fa_hint": "we",
+          "ps_hint": "we",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "woman; Mrs."
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Who?"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "X",
+          "lower": "x",
+          "name_de": "ix",
+          "fa_hint": "ix",
+          "ps_hint": "ix",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "text"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "notebook; exercise book"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Y",
+          "lower": "y",
+          "name_de": "ypsilon",
+          "fa_hint": "ypsilon",
+          "ps_hint": "ypsilon",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "year"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "Z",
+          "lower": "z",
+          "name_de": "zet",
+          "fa_hint": "zet",
+          "ps_hint": "zet",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "zuverlässig"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "Zimmerservice"
+              }
+            }
+          ]
+        }
+      ],
+      "special_letters": []
+    }
+  },
+  "combinations": {
+    "id": "lesson_combinations_en",
+    "title_de": "Buchstabenkombinationen im Englischen",
+    "title_fa": "ترکیب حروف در انگلیسی",
+    "title_en": "English Letter Combinations",
+    "title_ps": "په انګلیسي کې د تورو ترکیبونه",
+    "explanition": [
+      {
+        "title_fa": "چرا ترکیب حروف در انگلیسی؟",
+        "title_en": "Why combinations in English?",
+        "title_ps": "ولې په انګلیسي کې ترکیبونه مهم دي؟",
+        "title_de": "Warum Kombinationen im Englischen?",
+        "explanation_fa": "در انگلیسی بسیاری از صداها با دو یا چند حرف ساخته می‌شوند. شناخت این الگوها خواندن و تلفظ را بهتر می‌کند.",
+        "explanation_en": "English often uses two or more letters for one sound. Knowing these patterns improves reading speed, pronunciation, and listening accuracy.",
+        "explanation_ps": "په انګلیسي کې ډېر غږونه د دوو یا څو تورو له لارې جوړېږي. د دغو بڼو پېژندل لوستل او تلفظ ښه کوي.",
+        "explanation_de": "Im Englischen erzeugen mehrere Buchstaben oft einen gemeinsamen Laut. Wenn du diese Muster kennst, kannst du unbekannte Wörter besser lesen."
+      }
+    ],
+    "combinations": [
+      {
+        "id": "th",
+        "title_de": "th",
+        "title_fa": "ترکیب th",
+        "title_en": "th",
+        "title_ps": "د th ترکیب",
+        "description_fa": "th در انگلیسی دو تلفظ رایج دارد: بی‌صدا مثل think و صدادار مثل this.",
+        "description_en": "th has two common sounds in English: voiceless as in think and voiced as in this.",
+        "description_ps": "th په انګلیسي کې دوه عام غږونه لري: لکه think او this.",
+        "description_de": "th klingt im Englischen oft wie ein weiches oder hartes „th“ (think, this).",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Thanks!"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "And who is that?"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "This is ... / These are ..."
+            }
+          }
+        ]
+      },
+      {
+        "id": "sh",
+        "title_de": "sh",
+        "title_fa": "ترکیب sh",
+        "title_en": "sh",
+        "title_ps": "د sh ترکیب",
+        "description_fa": "sh معمولاً مثل «ش» تلفظ می‌شود.",
+        "description_en": "sh is pronounced like the sound in ship.",
+        "description_ps": "sh عموماً د «ش» په شان لوستل کېږي.",
+        "description_de": "sh wird wie „sch“ ausgesprochen.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "English"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "index card; flashcard"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "to take a shower"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ch",
+        "title_de": "ch",
+        "title_fa": "ترکیب ch",
+        "title_en": "ch",
+        "title_ps": "د ch ترکیب",
+        "description_fa": "ch معمولاً مثل «چ» است، اما در بعضی واژه‌ها فرق می‌کند.",
+        "description_en": "ch is often pronounced like ch in chair, but pronunciation can vary by word origin.",
+        "description_ps": "ch اکثر د «چ» غږ لري، خو په ځینو لغتونو کې بدلېږي.",
+        "description_de": "ch klingt meist wie „tsch“ (chair), kann aber je nach Wort variieren.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "French"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Which languages do you speak?"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "teacher (male)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ph",
+        "title_de": "ph",
+        "title_fa": "ترکیب ph",
+        "title_en": "ph",
+        "title_ps": "د ph ترکیب",
+        "description_fa": "ph معمولاً مثل «ف» تلفظ می‌شود.",
+        "description_en": "ph is usually pronounced as f.",
+        "description_ps": "ph اکثر د «ف» په شان لوستل کېږي.",
+        "description_de": "ph wird meistens wie „f“ gesprochen.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "telephone number"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Goodbye! (on the phone)"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "mobile phone"
+            }
+          }
+        ]
+      },
+      {
+        "id": "wh",
+        "title_de": "wh",
+        "title_fa": "ترکیب wh",
+        "title_en": "wh",
+        "title_ps": "د wh ترکیب",
+        "description_fa": "wh در بیشتر واژه‌ها مثل w شنیده می‌شود.",
+        "description_en": "wh is usually pronounced like w in modern English.",
+        "description_ps": "wh په ډېرو لغتونو کې د w په شان غږ لري.",
+        "description_de": "wh wird in den meisten Wörtern wie „w“ ausgesprochen.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Who?"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Where?"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "From where?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ng",
+        "title_de": "ng",
+        "title_fa": "ترکیب ng",
+        "title_en": "ng",
+        "title_ps": "د ng ترکیب",
+        "description_fa": "ng صدای بینی‌دار مثل sing می‌دهد.",
+        "description_en": "ng gives the nasal sound heard in sing.",
+        "description_ps": "ng د sing غوندې پزېنی غږ جوړوي.",
+        "description_de": "ng ergibt den Nasallaut wie in sing.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "English"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Which languages do you speak?"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "language"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ck",
+        "title_de": "ck",
+        "title_fa": "ترکیب ck",
+        "title_en": "ck",
+        "title_ps": "د ck ترکیب",
+        "description_fa": "ck مثل «ک» است و بیشتر بعد از واکه کوتاه می‌آید.",
+        "description_en": "ck sounds like a hard k and often comes after a short vowel.",
+        "description_ps": "ck د «ک» غږ لري او اکثر د لنډ واکه وروسته راځي.",
+        "description_de": "ck klingt wie ein hartes k und folgt oft auf kurze Vokale.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "board (blackboard/chalkboard)"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "package; pack"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "to click"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ea",
+        "title_de": "ea",
+        "title_fa": "ترکیب ea",
+        "title_en": "ea",
+        "title_ps": "د ea ترکیب",
+        "description_fa": "ea بسته به واژه تلفظ‌های مختلف دارد (eat / head).",
+        "description_en": "ea can have different sounds depending on the word (eat vs head).",
+        "description_ps": "ea د لغت له مخې بېلابېل غږونه لري (eat / head).",
+        "description_de": "ea kann je nach Wort unterschiedlich klingen (eat vs. head).",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "please"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "to learn"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "to speak"
+            }
+          }
+        ]
+      },
+      {
+        "id": "oo",
+        "title_de": "oo",
+        "title_fa": "ترکیب oo",
+        "title_en": "oo",
+        "title_ps": "د oo ترکیب",
+        "description_fa": "oo می‌تواند کشیده یا کوتاه باشد (food / book).",
+        "description_en": "oo can be long or short (food vs book).",
+        "description_ps": "oo اوږد یا لنډ راتلای شي (food / book).",
+        "description_de": "oo kann lang oder kurz sein (food vs. book).",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "good"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "See you soon!"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "Goodbye!"
+            }
+          }
+        ]
+      },
+      {
+        "id": "igh",
+        "title_de": "igh",
+        "title_fa": "ترکیب igh",
+        "title_en": "igh",
+        "title_ps": "د igh ترکیب",
+        "description_fa": "igh معمولاً مانند صدای «آی» در night است.",
+        "description_en": "igh is usually pronounced like a long i sound (night).",
+        "description_ps": "igh اکثر د night د اوږده «آی» غږ ورکوي.",
+        "description_de": "igh wird meist wie langes „ai“ gesprochen (night).",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "at night"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "traffic light"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "straight ahead"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

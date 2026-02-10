@@ -1,0 +1,1179 @@
+{
+  "language": "ps",
+  "alphabet": {
+    "id": "lesson_alphabet_ps",
+    "title_de": "Das paschtunische Alphabet",
+    "title_fa": "الفبای پشتو",
+    "title_en": "The Pashto Alphabet",
+    "title_ps": "د پښتو الفبا",
+    "explanition": [
+      {
+        "title_fa": "چرا الفبای پشتو مهم است؟",
+        "title_en": "Why is the Pashto alphabet important?",
+        "title_ps": "ولې د پښتو الفبا مهمه ده؟",
+        "title_de": "Warum ist das Pashto-Alphabet wichtig?",
+        "explanation_fa": "پشتو حروف افزوده و آواهای ویژه دارد. با تمرین منظم الفبا، خواندن و تلفظ بسیار بهتر می‌شود.",
+        "explanation_en": "Pashto includes additional letters and distinctive sounds. A strong alphabet foundation makes reading and pronunciation much easier.",
+        "explanation_ps": "پښتو زیات توري او ځانګړي غږونه لري. د الفبا منظم تمرین لوستل او تلفظ ډېر اسانه کوي.",
+        "explanation_de": "Pashto hat zusätzliche Buchstaben und besondere Laute. Mit systematischem Alphabet-Training werden Lesen und Aussprache deutlich leichter."
+      }
+    ],
+    "alphabet": {
+      "note_fa": "روی حرف‌ها بزن و با نمونه‌های واقعی پشتو تمرین کن.",
+      "note_en": "Tap each letter and practice with real Pashto examples.",
+      "note_ps": "پر تورو ټک وکړه او د رښتینو پښتو بېلګو سره تمرین وکړه.",
+      "note_de": "Tippe auf einen Buchstaben und übe mit echten Wortbeispielen.",
+      "letters": [
+        {
+          "upper": "ا",
+          "lower": "",
+          "name_de": "ا",
+          "fa_hint": "ا",
+          "ps_hint": "ا",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "انګلیسي"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "او"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ب",
+          "lower": "",
+          "name_de": "ب",
+          "fa_hint": "ب",
+          "ps_hint": "ب",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "بودل"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "بندول"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "پ",
+          "lower": "",
+          "name_de": "پ",
+          "fa_hint": "پ",
+          "ps_hint": "پ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "په خیر پاتې شه!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "پته"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ت",
+          "lower": "",
+          "name_de": "ت",
+          "fa_hint": "ت",
+          "ps_hint": "ت",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "تاسو کومې ژبې خبرې کوئ؟"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "تخلص"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ټ",
+          "lower": "",
+          "name_de": "ټ",
+          "fa_hint": "ټ",
+          "ps_hint": "ټ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ټول روښانه دي!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ټابلیټ"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ث",
+          "lower": "",
+          "name_de": "ث",
+          "fa_hint": "ث",
+          "ps_hint": "ث",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ثبوت"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ثابتول"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ج",
+          "lower": "",
+          "name_de": "ج",
+          "fa_hint": "ج",
+          "ps_hint": "ج",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "جمله"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "جوس"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ځ",
+          "lower": "",
+          "name_de": "ځ",
+          "fa_hint": "ځ",
+          "ps_hint": "ځ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ځواب"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ځواب ورکول"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "چ",
+          "lower": "",
+          "name_de": "چ",
+          "fa_hint": "چ",
+          "ps_hint": "چ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "چاپول"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "چېرته؟"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "څ",
+          "lower": "",
+          "name_de": "څ",
+          "fa_hint": "څ",
+          "ps_hint": "څ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "څوک؟"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "څنګه؟"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ح",
+          "lower": "",
+          "name_de": "ح",
+          "fa_hint": "ح",
+          "ps_hint": "ح",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "حیرانتیا"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "حیرانول"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "خ",
+          "lower": "",
+          "name_de": "خ",
+          "fa_hint": "خ",
+          "ps_hint": "خ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "خبرې کول"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "خدای پامان!"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "د",
+          "lower": "",
+          "name_de": "د",
+          "fa_hint": "د",
+          "ps_hint": "د",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "دلته"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "د اوسېدو ځای"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ډ",
+          "lower": "",
+          "name_de": "ډ",
+          "fa_hint": "ډ",
+          "ps_hint": "ډ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ډېر مننه!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ډېر ځله"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ذ",
+          "lower": "",
+          "name_de": "ذ",
+          "fa_hint": "ذ",
+          "ps_hint": "ذ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ذهني؛ روحاني"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ر",
+          "lower": "",
+          "name_de": "ر",
+          "fa_hint": "ر",
+          "ps_hint": "ر",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "راځې (له)"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "رقص کول"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ړ",
+          "lower": "",
+          "name_de": "ړ",
+          "fa_hint": "ړ",
+          "ps_hint": "ړ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ړنګول"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ز",
+          "lower": "",
+          "name_de": "ز",
+          "fa_hint": "ز",
+          "ps_hint": "ز",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "زده کول"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "زما نوم ... دی."
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ژ",
+          "lower": "",
+          "name_de": "ژ",
+          "fa_hint": "ژ",
+          "ps_hint": "ژ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ژر به لیدو کیږو!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ژبه"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ږ",
+          "lower": "",
+          "name_de": "ږ",
+          "fa_hint": "ږ",
+          "ps_hint": "ږ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ژر به لیدو کیږو!"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "زه لږ څه جرمني خبرې کوم."
+              }
+            }
+          ]
+        },
+        {
+          "upper": "س",
+          "lower": "",
+          "name_de": "س",
+          "fa_hint": "س",
+          "ps_hint": "س",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "سلام"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "سوئیس"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ش",
+          "lower": "",
+          "name_de": "ش",
+          "fa_hint": "ش",
+          "ps_hint": "ش",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "شوق"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "شاور اخیستل"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ښ",
+          "lower": "",
+          "name_de": "ښ",
+          "fa_hint": "ښ",
+          "ps_hint": "ښ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ښه"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ښاغلی"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ص",
+          "lower": "",
+          "name_de": "ص",
+          "fa_hint": "ص",
+          "ps_hint": "ص",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "صوفه"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "صندوقه"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ض",
+          "lower": "",
+          "name_de": "ض",
+          "fa_hint": "ض",
+          "ps_hint": "ض",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ضمانت / امانت"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ضروري"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ط",
+          "lower": "",
+          "name_de": "ط",
+          "fa_hint": "ط",
+          "ps_hint": "ط",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "طبیعت"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "طمع"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ظ",
+          "lower": "",
+          "name_de": "ظ",
+          "fa_hint": "ظ",
+          "ps_hint": "ظ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ظاهریدل"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ع",
+          "lower": "",
+          "name_de": "ع",
+          "fa_hint": "ع",
+          "ps_hint": "ع",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "عمر"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "عالي"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "غ",
+          "lower": "",
+          "name_de": "غ",
+          "fa_hint": "غ",
+          "ps_hint": "غ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "غوښه"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "غږور / شور ماشور لرونکی"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ف",
+          "lower": "",
+          "name_de": "ف",
+          "fa_hint": "ف",
+          "ps_hint": "ف",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "فرانسوي"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "فعل"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ق",
+          "lower": "",
+          "name_de": "ق",
+          "fa_hint": "ق",
+          "ps_hint": "ق",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "قلم؛ پنسل"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "قانون / قاعده"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ک",
+          "lower": "",
+          "name_de": "ک",
+          "fa_hint": "ک",
+          "ps_hint": "ک",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "کال"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "کوڅه"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ګ",
+          "lower": "",
+          "name_de": "ګ",
+          "fa_hint": "ګ",
+          "ps_hint": "ګ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ګولۍ قلم"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ګرامر"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ل",
+          "lower": "",
+          "name_de": "ل",
+          "fa_hint": "ل",
+          "ps_hint": "ل",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "له کوم ځایه؟"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "لومړی نوم"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "م",
+          "lower": "",
+          "name_de": "م",
+          "fa_hint": "م",
+          "ps_hint": "م",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "مهرباني وکړئ"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "میرمن"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ن",
+          "lower": "",
+          "name_de": "ن",
+          "fa_hint": "ن",
+          "ps_hint": "ن",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "نومېدل"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "نوم"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ڼ",
+          "lower": "",
+          "name_de": "ڼ",
+          "fa_hint": "ڼ",
+          "ps_hint": "ڼ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "مڼه"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ورځپاڼه"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "و",
+          "lower": "",
+          "name_de": "و",
+          "fa_hint": "و",
+          "ps_hint": "و",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "ویل"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "وړه"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ه",
+          "lower": "",
+          "name_de": "ه",
+          "fa_hint": "ه",
+          "ps_hint": "ه",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "همدارنګه"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "هیواد"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ء",
+          "lower": "",
+          "name_de": "ء",
+          "fa_hint": "ء",
+          "ps_hint": "ء",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "سوء تفاهم"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ی",
+          "lower": "",
+          "name_de": "ی",
+          "fa_hint": "ی",
+          "ps_hint": "ی",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "یا"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "یاداشت کارت"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ې",
+          "lower": "",
+          "name_de": "ې",
+          "fa_hint": "ې",
+          "ps_hint": "ې",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "نومېدل"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "راځې (له)"
+              }
+            }
+          ]
+        },
+        {
+          "upper": "ئ",
+          "lower": "",
+          "name_de": "ئ",
+          "fa_hint": "ئ",
+          "ps_hint": "ئ",
+          "examples": [
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "مهرباني وکړئ"
+              }
+            },
+            {
+              "word_ref": {
+                "source": "assets/words",
+                "key": "سوئیس"
+              }
+            }
+          ]
+        }
+      ],
+      "special_letters": []
+    }
+  },
+  "combinations": {
+    "id": "lesson_combinations_ps",
+    "title_de": "Lese- und Lautmuster im Pashto",
+    "title_fa": "الگوهای خواندن در پشتو",
+    "title_en": "Pashto Reading Patterns",
+    "title_ps": "په پښتو کې د لوستلو بڼې",
+    "explanition": [
+      {
+        "title_fa": "چرا الگوهای خواندن در پشتو؟",
+        "title_en": "Why reading patterns in Pashto?",
+        "title_ps": "ولې په پښتو کې د لوستلو بڼې مهمې دي؟",
+        "title_de": "Warum Lautmuster im Pashto?",
+        "explanation_fa": "در پشتو بعضی حروف شبیه‌اند اما آوای متفاوت دارند. شناخت الگوها به خواندن دقیق کمک می‌کند.",
+        "explanation_en": "Several similar-looking letters produce different sounds in Pashto. Pattern practice helps you read and distinguish words correctly.",
+        "explanation_ps": "په پښتو کې ځینې ورته توري جلا غږونه لري. د بڼو تمرین د سمې لوستنې لپاره مهم دی.",
+        "explanation_de": "Ähnliche Buchstaben können verschiedene Laute haben. Mit typischen Mustern lernst du, Wörter genauer zu lesen und zu unterscheiden."
+      }
+    ],
+    "combinations": [
+      {
+        "id": "retroflex",
+        "title_de": "ټ / ډ / ړ",
+        "title_fa": "ټ/ډ/ړ",
+        "title_en": "ټ / ډ / ړ",
+        "title_ps": "ټ/ډ/ړ",
+        "description_fa": "حروف ټ، ډ، ړ آواهای برگشتی مهم در پشتو هستند.",
+        "description_en": "These letters are retroflex and central to accurate Pashto pronunciation.",
+        "description_ps": "ټ، ډ، ړ شاتنۍ ژبنۍ (retroflex) توري دي او ډېر مهم دي.",
+        "description_de": "Diese Buchstaben sind retroflex und wichtig für korrekte Pashto-Aussprache.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "مهرباني وکړئ"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "زه (ډېر) ښه یم."
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "لومړی نوم"
+            }
+          }
+        ]
+      },
+      {
+        "id": "kh_gh",
+        "title_de": "خ / غ",
+        "title_fa": "خ/غ",
+        "title_en": "خ / غ",
+        "title_ps": "خ/غ",
+        "description_fa": "خ و غ از صداهای حلقی مهم در پشتو هستند.",
+        "description_en": "خ and غ are deep throat sounds and need focused practice.",
+        "description_ps": "خ او غ ژور ستوني غږونه دي او تمرین غواړي.",
+        "description_de": "خ und غ sind tiefe Kehllaute, die oft geübt werden müssen.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "ښاغلی"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "خبرې کول"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "خدای پامان!"
+            }
+          }
+        ]
+      },
+      {
+        "id": "seen_family",
+        "title_de": "س / ش / ښ",
+        "title_fa": "س/ش/ښ",
+        "title_en": "س / ش / ښ",
+        "title_ps": "س/ش/ښ",
+        "description_fa": "این سه حرف در پشتو آواهای جداگانه دارند.",
+        "description_en": "These three letters have clearly distinct sounds in Pashto.",
+        "description_ps": "دا درې توري په پښتو کې جلا غږونه لري.",
+        "description_de": "Diese drei Buchstaben unterscheiden sich deutlich im Klang.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "سلام"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "انګلیسي"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "فرانسوي"
+            }
+          }
+        ]
+      },
+      {
+        "id": "z_family",
+        "title_de": "ز / ژ / ږ",
+        "title_fa": "ز/ژ/ږ",
+        "title_en": "ز / ژ / ږ",
+        "title_ps": "ز/ژ/ږ",
+        "description_fa": "در پشتو چندین حرف نزدیک به «ز» وجود دارد.",
+        "description_en": "Pashto uses multiple z-like letters with different pronunciations.",
+        "description_ps": "په پښتو کې د «ز» کورنۍ څو بېلابېل توري شته.",
+        "description_de": "z-ähnliche Laute werden mit verschiedenen Buchstaben geschrieben.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "زده کول"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "ژر به لیدو کیږو!"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "زما نوم ... دی."
+            }
+          }
+        ]
+      },
+      {
+        "id": "ts_affricates",
+        "title_de": "څ / ځ",
+        "title_fa": "څ/ځ",
+        "title_en": "څ / ځ",
+        "title_ps": "څ/ځ",
+        "description_fa": "څ و ځ از آواهای ویژه زبان پشتو هستند.",
+        "description_en": "څ and ځ are characteristic Pashto sounds.",
+        "description_ps": "څ او ځ د پښتو ځانګړي غږونه دي.",
+        "description_de": "څ und ځ sind charakteristische Pashto-Laute.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "راځې (له)"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "څوک؟"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "څنګه؟"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ye_variants",
+        "title_de": "ی / ې / ئ",
+        "title_fa": "ی/ې/ئ",
+        "title_en": "ی / ې / ئ",
+        "title_ps": "ی/ې/ئ",
+        "description_fa": "پشتو چند نوع «ی» دارد که نقش‌های متفاوتی دارند.",
+        "description_en": "Pashto has multiple ye forms that affect pronunciation and grammar.",
+        "description_ps": "په پښتو کې د «ی» څو بڼې شته چې بېلابېل کارونه لري.",
+        "description_de": "Pashto hat mehrere Varianten von ye mit unterschiedlicher Funktion.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "مهرباني وکړئ"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "انګلیسي"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "میرمن"
+            }
+          }
+        ]
+      },
+      {
+        "id": "noon_variants",
+        "title_de": "ن / ڼ",
+        "title_fa": "ن/ڼ",
+        "title_en": "ن / ڼ",
+        "title_ps": "ن/ڼ",
+        "description_fa": "ڼ یک حرف جدا از ن است و تلفظ متفاوت دارد.",
+        "description_en": "ڼ is a distinct sound and not the same as ن.",
+        "description_ps": "ڼ د ن نه جلا توری دی او خپل ځانګړی غږ لري.",
+        "description_de": "ڼ ist ein eigener Laut und nicht identisch mit ن.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "همدارنګه"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "مهرباني وکړئ"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "آلماني"
+            }
+          }
+        ]
+      },
+      {
+        "id": "wow_vowels",
+        "title_de": "و als Vokal/Konsonant",
+        "title_fa": "و به‌عنوان واکه/همخوان",
+        "title_en": "و as vowel/consonant",
+        "title_ps": "و د واکې او همغږي په توګه",
+        "description_fa": "«و» در پشتو می‌تواند واکه یا همخوان باشد.",
+        "description_en": "و can act as a vowel or a consonant depending on context.",
+        "description_ps": "«و» د کلمې له مخې واکه یا همغږی کېدای شي.",
+        "description_de": "و kann je nach Wort als Vokal oder Konsonant funktionieren.",
+        "examples": [
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "مهرباني وکړئ"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "فرانسوي"
+            }
+          },
+          {
+            "word_ref": {
+              "source": "assets/words",
+              "key": "نومېدل"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

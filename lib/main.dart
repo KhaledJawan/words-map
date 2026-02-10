@@ -188,7 +188,8 @@ ThemeData _buildLightTheme(String? fontFamily, bool isFarsi) {
   if (isFarsi) {
     themedText = themedText.copyWith(
       titleLarge: themedText.titleLarge?.copyWith(fontWeight: FontWeight.w400),
-      titleMedium: themedText.titleMedium?.copyWith(fontWeight: FontWeight.w400),
+      titleMedium:
+          themedText.titleMedium?.copyWith(fontWeight: FontWeight.w400),
       labelLarge: themedText.labelLarge?.copyWith(fontWeight: FontWeight.w400),
     );
   }
@@ -203,22 +204,30 @@ ThemeData _buildLightTheme(String? fontFamily, bool isFarsi) {
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: base.elevatedButtonTheme.style?.copyWith(
-        textStyle: MaterialStatePropertyAll(
+        textStyle: WidgetStatePropertyAll(
           TextStyle(
             fontFamily: fontFamily,
-            fontWeight: isFarsi ? FontWeight.w400 : base.elevatedButtonTheme.style?.textStyle?.resolve({})?.fontWeight,
-            fontSize: base.elevatedButtonTheme.style?.textStyle?.resolve({})?.fontSize,
+            fontWeight: isFarsi
+                ? FontWeight.w400
+                : base.elevatedButtonTheme.style?.textStyle
+                    ?.resolve({})?.fontWeight,
+            fontSize: base.elevatedButtonTheme.style?.textStyle
+                ?.resolve({})?.fontSize,
           ),
         ),
       ),
     ),
     outlinedButtonTheme: OutlinedButtonThemeData(
       style: base.outlinedButtonTheme.style?.copyWith(
-        textStyle: MaterialStatePropertyAll(
+        textStyle: WidgetStatePropertyAll(
           TextStyle(
             fontFamily: fontFamily,
-            fontWeight: isFarsi ? FontWeight.w400 : base.outlinedButtonTheme.style?.textStyle?.resolve({})?.fontWeight,
-            fontSize: base.outlinedButtonTheme.style?.textStyle?.resolve({})?.fontSize,
+            fontWeight: isFarsi
+                ? FontWeight.w400
+                : base.outlinedButtonTheme.style?.textStyle
+                    ?.resolve({})?.fontWeight,
+            fontSize: base.outlinedButtonTheme.style?.textStyle
+                ?.resolve({})?.fontSize,
           ),
         ),
       ),
@@ -243,7 +252,8 @@ ThemeData _buildDarkTheme(String? fontFamily, bool isFarsi) {
       appBarTheme: base.appBarTheme.copyWith(
         backgroundColor: WordMapColors.darkSurface,
         foregroundColor: Colors.white,
-        titleTextStyle: base.appBarTheme.titleTextStyle?.copyWith(color: Colors.white),
+        titleTextStyle:
+            base.appBarTheme.titleTextStyle?.copyWith(color: Colors.white),
       ),
       cardTheme: base.cardTheme.copyWith(color: WordMapColors.darkCard),
       listTileTheme: base.listTileTheme.copyWith(
@@ -254,7 +264,8 @@ ThemeData _buildDarkTheme(String? fontFamily, bool isFarsi) {
       textTheme: base.textTheme
           .apply(bodyColor: Colors.white70, displayColor: Colors.white70)
           .copyWith(
-            titleLarge: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
+            titleLarge: const TextStyle(
+                color: Colors.white, fontWeight: FontWeight.w600),
             titleMedium: const TextStyle(color: Colors.white70),
             labelLarge: const TextStyle(color: Colors.white),
           ),

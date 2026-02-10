@@ -2,3761 +2,5285 @@
   {
     "id": "wB1-1-0002",
     "level": "B1.1",
-    "word": "angenehm",
-    "translation_fa": "دلپذیر",
-    "translation_en": "pleasant",
-    "translation_ps": "خوښونکی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/angenehm.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "angenehm",
+      "en": "pleasant",
+      "fa": "دلپذیر",
+      "ps": "خوښونکی",
+      "fr": "agréable",
+      "tr": "hoş"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/angenehm.mp3"
+    }
   },
   {
     "id": "wB1-1-0004",
     "level": "B1.1",
-    "word": "Aufenthalt",
-    "translation_fa": "اقامت (مثلاً در خارج از کشور)",
-    "translation_en": "stay (e.g. stay abroad)",
-    "translation_ps": "استوګنه (لکه په بهر کې استوګنه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/aufenthalt.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Aufenthalt",
+      "en": "stay (e.g. stay abroad)",
+      "fa": "اقامت (مثلاً در خارج از کشور)",
+      "ps": "استوګنه (لکه په بهر کې استوګنه)",
+      "fr": "séjour (ex. séjour à l'étranger)",
+      "tr": "kalış (örneğin yurt dışı kalışı)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/aufenthalt.mp3"
+    }
   },
   {
     "id": "wB1-1-0005",
     "level": "B1.1",
-    "word": "Behördengang",
-    "translation_fa": "کار اداری / رفت‌وآمد به اداره‌ها",
-    "translation_en": "visit to an authority, dealing with authorities",
-    "translation_ps": "د ادارې سره معامله / د ادارې ته تګ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/behördengang.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Behördengang",
+      "en": "visit to an authority, dealing with authorities",
+      "fa": "کار اداری / رفت‌وآمد به اداره‌ها",
+      "ps": "د ادارې سره معامله / د ادارې ته تګ",
+      "fr": "démarches administratives",
+      "tr": "resmi işlemler"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/behördengang.mp3"
+    }
   },
   {
     "id": "wB1-1-0006",
     "level": "B1.1",
-    "word": "Deutsche (m.)",
-    "translation_fa": "آلمانی (مذکر)",
-    "translation_en": "German man",
-    "translation_ps": "آلماني سړی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/deutsche_(m.).mp3",
     "image": "",
     "category": [
       "school_learning",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Deutsche (m.)",
+      "en": "German man",
+      "fa": "آلمانی (مذکر)",
+      "ps": "آلماني سړی",
+      "fr": "Allemand (homme)",
+      "tr": "Alman (erkek)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/deutsche_(m.).mp3"
+    }
   },
   {
     "id": "wB1-1-0007",
     "level": "B1.1",
-    "word": "Deutsche (f.)",
-    "translation_fa": "آلمانی (مونث)",
-    "translation_en": "German woman",
-    "translation_ps": "آلماني ښځه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/deutsche_(f.).mp3",
     "image": "",
     "category": [
       "school_learning",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Deutsche (f.)",
+      "en": "German woman",
+      "fa": "آلمانی (مونث)",
+      "ps": "آلماني ښځه",
+      "fr": "Allemande (femme)",
+      "tr": "Alman (kadın)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/deutsche_(f.).mp3"
+    }
   },
   {
     "id": "wB1-1-0008",
     "level": "B1.1",
-    "word": "Durchschnitt",
-    "translation_fa": "میانگین / متوسط",
-    "translation_en": "average",
-    "translation_ps": "اوسط",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/durchschnitt.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Durchschnitt",
+      "en": "average",
+      "fa": "میانگین / متوسط",
+      "ps": "اوسط",
+      "fr": "moyenne",
+      "tr": "ortalama"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/durchschnitt.mp3"
+    }
   },
   {
     "id": "wB1-1-0009",
     "level": "B1.1",
-    "word": "Ehrenamt",
-    "translation_fa": "کار داوطلبانه",
-    "translation_en": "voluntary work",
-    "translation_ps": "رضاکارانه کار",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ehrenamt.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Ehrenamt",
+      "en": "voluntary work",
+      "fa": "کار داوطلبانه",
+      "ps": "رضاکارانه کار",
+      "fr": "bénévolat",
+      "tr": "gönüllü çalışma"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ehrenamt.mp3"
+    }
   },
   {
     "id": "wB1-1-0010",
     "level": "B1.1",
-    "word": "ehrenamtlich",
-    "translation_fa": "داوطلبانه (بدون حقوق)",
-    "translation_en": "voluntary (unpaid)",
-    "translation_ps": "رضاکارانه (بې معاشه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ehrenamtlich.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "ehrenamtlich",
+      "en": "voluntary (unpaid)",
+      "fa": "داوطلبانه (بدون حقوق)",
+      "ps": "رضاکارانه (بې معاشه)",
+      "fr": "bénévole (non rémunéré)",
+      "tr": "gönüllü (ücretsiz)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ehrenamtlich.mp3"
+    }
   },
   {
     "id": "wB1-1-0011",
     "level": "B1.1",
-    "word": "sich einleben",
-    "translation_fa": "جا افتادن / عادت کردن به محل جدید",
-    "translation_en": "to settle in, get used to a new place",
-    "translation_ps": "په نوي ځای کې عادتیدل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_einleben.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "sich einleben",
+      "en": "to settle in, get used to a new place",
+      "fa": "جا افتادن / عادت کردن به محل جدید",
+      "ps": "په نوي ځای کې عادتیدل",
+      "fr": "s'adapter, s'installer",
+      "tr": "alışmak, yerleşmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_einleben.mp3"
+    }
   },
   {
     "id": "wB1-1-0012",
     "level": "B1.1",
-    "word": "einsam",
-    "translation_fa": "تنها / احساس تنهایی",
-    "translation_en": "lonely",
-    "translation_ps": "یواځې / تنها",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einsam.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "einsam",
+      "en": "lonely",
+      "fa": "تنها / احساس تنهایی",
+      "ps": "یواځې / تنها",
+      "fr": "seul, solitaire",
+      "tr": "yalnız"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einsam.mp3"
+    }
   },
   {
     "id": "wB1-1-0013",
     "level": "B1.1",
-    "word": "Einwohnermeldeamt",
-    "translation_fa": "اداره ثبت ساکنین",
-    "translation_en": "residents' registration office",
-    "translation_ps": "د اوسیدونکو د ثبت اداره",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einwohnermeldeamt.mp3",
     "image": "",
     "category": [
       "places_buildings",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Einwohnermeldeamt",
+      "en": "residents' registration office",
+      "fa": "اداره ثبت ساکنین",
+      "ps": "د اوسیدونکو د ثبت اداره",
+      "fr": "bureau d'enregistrement des habitants",
+      "tr": "nüfus kayıt dairesi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einwohnermeldeamt.mp3"
+    }
   },
   {
     "id": "wB1-1-0014",
     "level": "B1.1",
-    "word": "Elternhaus",
-    "translation_fa": "خانه والدین / خانه پدری",
-    "translation_en": "parents' home, family home",
-    "translation_ps": "د مور او پلار کور / د کورنۍ کور",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/elternhaus.mp3",
     "image": "",
     "category": [
       "home_household",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Elternhaus",
+      "en": "parents' home, family home",
+      "fa": "خانه والدین / خانه پدری",
+      "ps": "د مور او پلار کور / د کورنۍ کور",
+      "fr": "maison parentale",
+      "tr": "ebeveyn evi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/elternhaus.mp3"
+    }
   },
   {
     "id": "wB1-1-0016",
     "level": "B1.1",
-    "word": "Erwachsene (m.)",
-    "translation_fa": "بزرگسال (مرد)",
-    "translation_en": "adult (man)",
-    "translation_ps": "لوی سړی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/erwachsene_(m.).mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Erwachsene (m.)",
+      "en": "adult (man)",
+      "fa": "بزرگسال (مرد)",
+      "ps": "لوی سړی",
+      "fr": "adulte (homme)",
+      "tr": "yetişkin (erkek)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/erwachsene_(m.).mp3"
+    }
   },
   {
     "id": "wB1-1-0017",
     "level": "B1.1",
-    "word": "Erwachsene (f.)",
-    "translation_fa": "بزرگسال (زن)",
-    "translation_en": "adult (woman)",
-    "translation_ps": "لویه ښځه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/erwachsene_(f.).mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Erwachsene (f.)",
+      "en": "adult (woman)",
+      "fa": "بزرگسال (زن)",
+      "ps": "لویه ښځه",
+      "fr": "adulte (femme)",
+      "tr": "yetişkin (kadın)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/erwachsene_(f.).mp3"
+    }
   },
   {
     "id": "wB1-1-0018",
     "level": "B1.1",
-    "word": "Gegend",
-    "translation_fa": "ناحیه / منطقه",
-    "translation_en": "area, region, neighborhood",
-    "translation_ps": "سیمه / ناحیه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gegend.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Gegend",
+      "en": "area, region, neighborhood",
+      "fa": "ناحیه / منطقه",
+      "ps": "سیمه / ناحیه",
+      "fr": "région, quartier",
+      "tr": "bölge, semt"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gegend.mp3"
+    }
   },
   {
     "id": "wB1-1-0019",
     "level": "B1.1",
-    "word": "Handarbeit",
-    "translation_fa": "کار دستی، هنر دستی",
-    "translation_en": "handicraft, needlework",
-    "translation_ps": "لاسني کار / هنري کار",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/handarbeit.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Handarbeit",
+      "en": "handicraft, needlework",
+      "fa": "کار دستی، هنر دستی",
+      "ps": "لاسني کار / هنري کار",
+      "fr": "travail manuel, artisanat",
+      "tr": "el işi, el sanatı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/handarbeit.mp3"
+    }
   },
   {
     "id": "wB1-1-0020",
     "level": "B1.1",
-    "word": "Heimweh",
-    "translation_fa": "دلتنگی برای وطن / خانه",
-    "translation_en": "homesickness",
-    "translation_ps": "د کور یاد / د وطن مینه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/heimweh.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Heimweh",
+      "en": "homesickness",
+      "fa": "دلتنگی برای وطن / خانه",
+      "ps": "د کور یاد / د وطن مینه",
+      "fr": "mal du pays",
+      "tr": "özlem, memleket hasreti"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/heimweh.mp3"
+    }
   },
   {
     "id": "wB1-1-0021",
     "level": "B1.1",
-    "word": "Jahrhundert",
-    "translation_fa": "قرن",
-    "translation_en": "century",
-    "translation_ps": "پیړۍ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/jahrhundert.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Jahrhundert",
+      "en": "century",
+      "fa": "قرن",
+      "ps": "پیړۍ",
+      "fr": "siècle",
+      "tr": "yüzyıl"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/jahrhundert.mp3"
+    }
   },
   {
     "id": "wB1-1-0022",
     "level": "B1.1",
-    "word": "Jahrzehnt",
-    "translation_fa": "دهه",
-    "translation_en": "decade",
-    "translation_ps": "لسیزه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/jahrzehnt.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Jahrzehnt",
+      "en": "decade",
+      "fa": "دهه",
+      "ps": "لسیزه",
+      "fr": "décennie",
+      "tr": "on yıl"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/jahrzehnt.mp3"
+    }
   },
   {
     "id": "wB1-1-0023",
     "level": "B1.1",
-    "word": "Jogging",
-    "translation_fa": "دویدن (جگینگ)",
-    "translation_en": "jogging",
-    "translation_ps": "سپک منډه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/jogging.mp3",
     "image": "",
     "category": [
       "hobbies_sports",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Jogging",
+      "en": "jogging",
+      "fa": "دویدن (جگینگ)",
+      "ps": "سپک منډه",
+      "fr": "jogging",
+      "tr": "koşu"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/jogging.mp3"
+    }
   },
   {
     "id": "wB1-1-0024",
     "level": "B1.1",
-    "word": "Jugendzentrum",
-    "translation_fa": "مرکز جوانان",
-    "translation_en": "youth center",
-    "translation_ps": "د ځوانانو مرکز",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/jugendzentrum.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Jugendzentrum",
+      "en": "youth center",
+      "fa": "مرکز جوانان",
+      "ps": "د ځوانانو مرکز",
+      "fr": "centre jeunesse",
+      "tr": "gençlik merkezi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/jugendzentrum.mp3"
+    }
   },
   {
     "id": "wB1-1-0025",
     "level": "B1.1",
-    "word": "Mannschaft",
-    "translation_fa": "تیم",
-    "translation_en": "team (sports)",
-    "translation_ps": "ټیم",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/mannschaft.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Mannschaft",
+      "en": "team (sports)",
+      "fa": "تیم",
+      "ps": "ټیم",
+      "fr": "équipe (sport)",
+      "tr": "takım (spor)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/mannschaft.mp3"
+    }
   },
   {
     "id": "wB1-1-0026",
     "level": "B1.1",
-    "word": "Million",
-    "translation_fa": "میلیون",
-    "translation_en": "million",
-    "translation_ps": "میلیون",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/million.mp3",
     "image": "",
     "category": [
       "numbers_math",
       "noun",
       "numbers"
-    ]
+    ],
+    "words": {
+      "de": "Million",
+      "en": "million",
+      "fa": "میلیون",
+      "ps": "میلیون",
+      "fr": "million",
+      "tr": "milyon"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/million.mp3"
+    }
   },
   {
     "id": "wB1-1-0027",
     "level": "B1.1",
-    "word": "pendeln",
-    "translation_fa": "رفت‌وآمد کردن بین دو محل (مثلاً خانه و کار)",
-    "translation_en": "to commute",
-    "translation_ps": "په دوامداره توګه سفر کول (د کار او کور ترمنځ)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/pendeln.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "pendeln",
+      "en": "to commute",
+      "fa": "رفت‌وآمد کردن بین دو محل (مثلاً خانه و کار)",
+      "ps": "په دوامداره توګه سفر کول (د کار او کور ترمنځ)",
+      "fr": "faire la navette",
+      "tr": "işe gidip gelmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/pendeln.mp3"
+    }
   },
   {
     "id": "wB1-1-0029",
     "level": "B1.1",
-    "word": "Schwierigkeit",
-    "translation_fa": "سختی / مشکل",
-    "translation_en": "difficulty",
-    "translation_ps": "سختي / ستونزه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/schwierigkeit.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Schwierigkeit",
+      "en": "difficulty",
+      "fa": "سختی / مشکل",
+      "ps": "سختي / ستونزه",
+      "fr": "difficulté",
+      "tr": "zorluk"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/schwierigkeit.mp3"
+    }
   },
   {
     "id": "wB1-1-0031",
     "level": "B1.1",
-    "word": "Tanz",
-    "translation_fa": "رقص",
-    "translation_en": "dance",
-    "translation_ps": "رقص",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/tanz.mp3",
     "image": "",
     "category": [
       "hobbies_sports",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Tanz",
+      "en": "dance",
+      "fa": "رقص",
+      "ps": "رقص",
+      "fr": "danse",
+      "tr": "dans"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/tanz.mp3"
+    }
   },
   {
     "id": "wB1-1-0032",
     "level": "B1.1",
-    "word": "sich ummelden",
-    "translation_fa": "تغییر محل ثبت‌نام / آدرس (در اداره)",
-    "translation_en": "to re-register, change registration",
-    "translation_ps": "د ثبت نوم بدلول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_ummelden.mp3",
     "image": "",
     "category": [
       "shopping_money",
       "verb",
       "reflexive_verb"
-    ]
+    ],
+    "words": {
+      "de": "sich ummelden",
+      "en": "to re-register, change registration",
+      "fa": "تغییر محل ثبت‌نام / آدرس (در اداره)",
+      "ps": "د ثبت نوم بدلول",
+      "fr": "se réinscrire, changer d'adresse",
+      "tr": "kayıt değiştirmek, yeniden kaydolmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_ummelden.mp3"
+    }
   },
   {
     "id": "wB1-1-0034",
     "level": "B1.1",
-    "word": "Verein",
-    "translation_fa": "انجمن / باشگاه",
-    "translation_en": "club, association",
-    "translation_ps": "انجمن / کلب",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verein.mp3",
     "image": "",
     "category": [
       "culture_events",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Verein",
+      "en": "club, association",
+      "fa": "انجمن / باشگاه",
+      "ps": "انجمن / کلب",
+      "fr": "club, association",
+      "tr": "kulüp, dernek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verein.mp3"
+    }
   },
   {
     "id": "wB1-1-0035",
     "level": "B1.1",
-    "word": "Wohnsitz",
-    "translation_fa": "محل زندگی / محل سکونت",
-    "translation_en": "residence, place of living",
-    "translation_ps": "د اوسېدو ځای",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/wohnsitz.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Wohnsitz",
+      "en": "residence, place of living",
+      "fa": "محل زندگی / محل سکونت",
+      "ps": "د اوسېدو ځای",
+      "fr": "résidence, lieu de vie",
+      "tr": "ikamet, yaşam yeri"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/wohnsitz.mp3"
+    }
   },
   {
     "id": "wB1-1-0036",
     "level": "B1.1",
-    "word": "einwandern",
-    "translation_fa": "مهاجرت کردن به یک کشور / محل",
-    "translation_en": "to immigrate (into a country)",
-    "translation_ps": "یو هېواد ته کډه کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einwandern.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "einwandern",
+      "en": "to immigrate (into a country)",
+      "fa": "مهاجرت کردن به یک کشور / محل",
+      "ps": "یو هېواد ته کډه کول",
+      "fr": "immigrer (dans un pays)",
+      "tr": "göç etmek (bir ülkeye)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einwandern.mp3"
+    }
   },
   {
     "id": "wB1-1-0037",
     "level": "B1.1",
-    "word": "auswandern",
-    "translation_fa": "مهاجرت کردن از یک کشور / محل",
-    "translation_en": "to emigrate (from a country)",
-    "translation_ps": "له یو هېواد څخه کډه کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/auswandern.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "auswandern",
+      "en": "to emigrate (from a country)",
+      "fa": "مهاجرت کردن از یک کشور / محل",
+      "ps": "له یو هېواد څخه کډه کول",
+      "fr": "émigrer (d'un pays)",
+      "tr": "göç etmek (bir ülkeden)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/auswandern.mp3"
+    }
   },
   {
     "id": "wB1-1-0038",
     "level": "B1.1",
-    "word": "Einwanderung",
-    "translation_fa": "مهاجرت به یک کشور",
-    "translation_en": "immigration (into a country)",
-    "translation_ps": "کډوالۍ (یو هېواد ته)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einwanderung.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Einwanderung",
+      "en": "immigration (into a country)",
+      "fa": "مهاجرت به یک کشور",
+      "ps": "کډوالۍ (یو هېواد ته)",
+      "fr": "immigration (dans un pays)",
+      "tr": "göç (bir ülkeye)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einwanderung.mp3"
+    }
   },
   {
     "id": "wB1-1-0039",
     "level": "B1.1",
-    "word": "Auswanderung",
-    "translation_fa": "مهاجرت از یک کشور",
-    "translation_en": "emigration (from a country)",
-    "translation_ps": "کډوالۍ (له یو هېواد څخه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/auswanderung.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Auswanderung",
+      "en": "emigration (from a country)",
+      "fa": "مهاجرت از یک کشور",
+      "ps": "کډوالۍ (له یو هېواد څخه)",
+      "fr": "émigration (d'un pays)",
+      "tr": "göç (bir ülkeden)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/auswanderung.mp3"
+    }
   },
   {
     "id": "wB1-1-0040",
     "level": "B1.1",
-    "word": "ansprechen",
-    "translation_fa": "سر صحبت را باز کردن / خطاب کردن",
-    "translation_en": "to speak to, to address (someone)",
-    "translation_ps": "چا ته خبرې کول / مخاطب کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ansprechen.mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "ansprechen",
+      "en": "to speak to, to address (someone)",
+      "fa": "سر صحبت را باز کردن / خطاب کردن",
+      "ps": "چا ته خبرې کول / مخاطب کول",
+      "fr": "s'adresser à, parler à",
+      "tr": "hitap etmek, konuşmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ansprechen.mp3"
+    }
   },
   {
     "id": "wB1-1-0041",
     "level": "B1.1",
-    "word": "ausleihen",
-    "translation_fa": "امانت گرفتن / امانت دادن",
-    "translation_en": "to borrow; to lend out",
-    "translation_ps": "پور اخیستل / پور ورکول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ausleihen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "ausleihen",
+      "en": "to borrow; to lend out",
+      "fa": "امانت گرفتن / امانت دادن",
+      "ps": "پور اخیستل / پور ورکول",
+      "fr": "emprunter; prêter",
+      "tr": "ödünç almak; ödünç vermek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ausleihen.mp3"
+    }
   },
   {
     "id": "wB1-1-0042",
     "level": "B1.1",
-    "word": "begegnen",
-    "translation_fa": "روبه‌رو شدن / برخورد کردن با کسی",
-    "translation_en": "to meet, to encounter",
-    "translation_ps": "مخامخ کېدل / مخامخ کېدل له چا سره",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/begegnen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "begegnen",
+      "en": "to meet, to encounter",
+      "fa": "روبه‌رو شدن / برخورد کردن با کسی",
+      "ps": "مخامخ کېدل / مخامخ کېدل له چا سره",
+      "fr": "rencontrer, faire face à",
+      "tr": "karşılaşmak, rastlamak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/begegnen.mp3"
+    }
   },
   {
     "id": "wB1-1-0043",
     "level": "B1.1",
-    "word": "Disko / Club",
-    "translation_fa": "دیسکو / کلاب",
-    "translation_en": "disco, club",
-    "translation_ps": "Disko / Club",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/disko_/_club.mp3",
     "image": "",
     "category": [
       "culture_events",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Disko / Club",
+      "en": "disco, club",
+      "fa": "دیسکو / کلاب",
+      "ps": "Disko / Club",
+      "fr": "disco, club",
+      "tr": "disko, kulüp"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/disko_/_club.mp3"
+    }
   },
   {
     "id": "wB1-1-0044",
     "level": "B1.1",
-    "word": "Gesellschaft",
-    "translation_fa": "جامعه؛ جمع / همراهی",
-    "translation_en": "society; company (people)",
-    "translation_ps": "ټولنه؛ ملګرتیا / ډله",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gesellschaft.mp3",
     "image": "",
     "category": [
       "people_family",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Gesellschaft",
+      "en": "society; company (people)",
+      "fa": "جامعه؛ جمع / همراهی",
+      "ps": "ټولنه؛ ملګرتیا / ډله",
+      "fr": "société; groupe (personnes)",
+      "tr": "toplum; grup (insanlar)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gesellschaft.mp3"
+    }
   },
   {
     "id": "wB1-1-0049",
     "level": "B1.1",
-    "word": "Vergnügen",
-    "translation_fa": "لذت / سرگرمی",
-    "translation_en": "pleasure, fun",
-    "translation_ps": "خوند / ساتېرۍ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/vergnügen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Vergnügen",
+      "en": "pleasure, fun",
+      "fa": "لذت / سرگرمی",
+      "ps": "خوند / ساتېرۍ",
+      "fr": "plaisir, amusement",
+      "tr": "zevk, eğlence"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/vergnügen.mp3"
+    }
   },
   {
     "id": "wB1-1-0050",
     "level": "B1.1",
-    "word": "zufällig",
-    "translation_fa": "تصادفی / شانسی",
-    "translation_en": "by chance, accidental(ly)",
-    "translation_ps": "په تصادفي ډول / ناڅاپي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zufällig.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "zufällig",
+      "en": "by chance, accidental(ly)",
+      "fa": "تصادفی / شانسی",
+      "ps": "په تصادفي ډول / ناڅاپي",
+      "fr": "par hasard, accidentel",
+      "tr": "tesadüfen, kazara"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zufällig.mp3"
+    }
   },
   {
     "id": "wB1-1-0051",
     "level": "B1.1",
-    "word": "befreundet sein (mit)",
-    "translation_fa": "دوست بودن با کسی",
-    "translation_en": "to be friends (with)",
-    "translation_ps": "له چا سره ملګری اوسېدل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/befreundet_sein_(mit).mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "befreundet sein (mit)",
+      "en": "to be friends (with)",
+      "fa": "دوست بودن با کسی",
+      "ps": "له چا سره ملګری اوسېدل",
+      "fr": "être ami (avec)",
+      "tr": "arkadaş olmak (birisiyle)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/befreundet_sein_(mit).mp3"
+    }
   },
   {
     "id": "wB1-1-0053",
     "level": "B1.1",
-    "word": "Bürgerinitiative",
-    "translation_fa": "ابتکار عمل شهروندی / گروه مردمی",
-    "translation_en": "citizens’ initiative",
-    "translation_ps": "د ښاریانو ابتکار / ډله",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bürgerinitiative.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Bürgerinitiative",
+      "en": "citizens’ initiative",
+      "fa": "ابتکار عمل شهروندی / گروه مردمی",
+      "ps": "د ښاریانو ابتکار / ډله",
+      "fr": "initiative citoyenne",
+      "tr": "vatandaş girişimi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bürgerinitiative.mp3"
+    }
   },
   {
     "id": "wB1-1-0054",
     "level": "B1.1",
-    "word": "Engagement",
-    "translation_fa": "مشارکت / درگیر بودن فعالانه",
-    "translation_en": "engagement, involvement",
-    "translation_ps": "ګډون / فعاله برخه اخیستل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/engagement.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Engagement",
+      "en": "engagement, involvement",
+      "fa": "مشارکت / درگیر بودن فعالانه",
+      "ps": "ګډون / فعاله برخه اخیستل",
+      "fr": "engagement, implication",
+      "tr": "katılım, dahil olma"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/engagement.mp3"
+    }
   },
   {
     "id": "wB1-1-0055",
     "level": "B1.1",
-    "word": "sich engagieren für",
-    "translation_fa": "برای چیزی/کسی فعالانه تلاش کردن",
-    "translation_en": "to be committed/active for",
-    "translation_ps": "د چا یا څه لپاره فعاله هڅه کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_engagieren_für.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "sich engagieren für",
+      "en": "to be committed/active for",
+      "fa": "برای چیزی/کسی فعالانه تلاش کردن",
+      "ps": "د چا یا څه لپاره فعاله هڅه کول",
+      "fr": "s'engager pour",
+      "tr": "bir şey için aktif olmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_engagieren_für.mp3"
+    }
   },
   {
     "id": "wB1-1-0057",
     "level": "B1.1",
-    "word": "Kulturschock",
-    "translation_fa": "شوک فرهنگی",
-    "translation_en": "culture shock",
-    "translation_ps": "کلتوري ټکان",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kulturschock.mp3",
     "image": "",
     "category": [
       "feelings_emotions",
       "noun"
-    ]
+    ],
+    "words": {
+      "de": "Kulturschock",
+      "en": "culture shock",
+      "fa": "شوک فرهنگی",
+      "ps": "کلتوري ټکان",
+      "fr": "choc culturel",
+      "tr": "kültür şoku"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kulturschock.mp3"
+    }
   },
   {
     "id": "wB1-1-0058",
     "level": "B1.1",
-    "word": "Phase",
-    "translation_fa": "فاز / مرحله",
-    "translation_en": "phase, stage",
-    "translation_ps": "پړاو / مرحله",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/phase.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Phase",
+      "en": "phase, stage",
+      "fa": "فاز / مرحله",
+      "ps": "پړاو / مرحله",
+      "fr": "phase, étape",
+      "tr": "aşama, evre"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/phase.mp3"
+    }
   },
   {
     "id": "wB1-1-0059",
     "level": "B1.1",
-    "word": "Vorurteil",
-    "translation_fa": "پیش‌داوری / تعصب",
-    "translation_en": "prejudice",
-    "translation_ps": "مخکېنی تعصب",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/vorurteil.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Vorurteil",
+      "en": "prejudice",
+      "fa": "پیش‌داوری / تعصب",
+      "ps": "مخکېنی تعصب",
+      "fr": "préjugé",
+      "tr": "önyargı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/vorurteil.mp3"
+    }
   },
   {
     "id": "wB1-1-0060",
     "level": "B1.1",
-    "word": "Arbeitsbedingungen",
-    "translation_fa": "شرایط کار",
-    "translation_en": "working conditions",
-    "translation_ps": "د کار شرایط",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/arbeitsbedingungen.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Arbeitsbedingungen",
+      "en": "working conditions",
+      "fa": "شرایط کار",
+      "ps": "د کار شرایط",
+      "fr": "conditions de travail",
+      "tr": "çalışma koşulları"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/arbeitsbedingungen.mp3"
+    }
   },
   {
     "id": "wB1-1-0061",
     "level": "B1.1",
-    "word": "Arbeitnehmer",
-    "translation_fa": "کارمند / کارگر (مرد)",
-    "translation_en": "employee (male)",
-    "translation_ps": "کارکوونکی (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/arbeitnehmer.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Arbeitnehmer",
+      "en": "employee (male)",
+      "fa": "کارمند / کارگر (مرد)",
+      "ps": "کارکوونکی (نرینه)",
+      "fr": "employé",
+      "tr": "çalışan (erkek)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/arbeitnehmer.mp3"
+    }
   },
   {
     "id": "wB1-1-0062",
     "level": "B1.1",
-    "word": "Arbeitnehmerin",
-    "translation_fa": "کارمند / کارگر (زن)",
-    "translation_en": "employee (female)",
-    "translation_ps": "کارکوونکې (ښځینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/arbeitnehmerin.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Arbeitnehmerin",
+      "en": "employee (female)",
+      "fa": "کارمند / کارگر (زن)",
+      "ps": "کارکوونکې (ښځینه)",
+      "fr": "employée",
+      "tr": "çalışan (kadın)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/arbeitnehmerin.mp3"
+    }
   },
   {
     "id": "wB1-1-0063",
     "level": "B1.1",
-    "word": "Arbeitgeber",
-    "translation_fa": "کارفرما (مرد)",
-    "translation_en": "employer (male)",
-    "translation_ps": "کارګمارونکی (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/arbeitgeber.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Arbeitgeber",
+      "en": "employer (male)",
+      "fa": "کارفرما (مرد)",
+      "ps": "کارګمارونکی (نرینه)",
+      "fr": "employeur",
+      "tr": "işveren (erkek)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/arbeitgeber.mp3"
+    }
   },
   {
     "id": "wB1-1-0064",
     "level": "B1.1",
-    "word": "Arbeitgeberin",
-    "translation_fa": "کارفرما (زن)",
-    "translation_en": "employer (female)",
-    "translation_ps": "کارګمارونکې (ښځینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/arbeitgeberin.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Arbeitgeberin",
+      "en": "employer (female)",
+      "fa": "کارفرما (زن)",
+      "ps": "کارګمارونکې (ښځینه)",
+      "fr": "employeuse",
+      "tr": "işveren (kadın)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/arbeitgeberin.mp3"
+    }
   },
   {
     "id": "wB1-1-0066",
     "level": "B1.1",
-    "word": "finanziell",
-    "translation_fa": "مالی",
-    "translation_en": "financial",
-    "translation_ps": "مالي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/finanziell.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "finanziell",
+      "en": "financial",
+      "fa": "مالی",
+      "ps": "مالي",
+      "fr": "financier",
+      "tr": "mali"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/finanziell.mp3"
+    }
   },
   {
     "id": "wB1-1-0067",
     "level": "B1.1",
-    "word": "Gewerkschaft",
-    "translation_fa": "اتحادیه کارگری",
-    "translation_en": "trade union",
-    "translation_ps": "کاري اتحادیه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gewerkschaft.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Gewerkschaft",
+      "en": "trade union",
+      "fa": "اتحادیه کارگری",
+      "ps": "کاري اتحادیه",
+      "fr": "syndicat",
+      "tr": "sendika"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gewerkschaft.mp3"
+    }
   },
   {
     "id": "wB1-1-0068",
     "level": "B1.1",
-    "word": "insgesamt",
-    "translation_fa": "در مجموع / کلاً",
-    "translation_en": "in total, altogether",
-    "translation_ps": "ټولټال",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/insgesamt.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0070",
-    "level": "B1.1",
-    "word": "merken",
-    "translation_fa": "متوجه شدن / به خاطر سپردن",
-    "translation_en": "to notice, to remember",
-    "translation_ps": "خبرېدل / په یاد ساتل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/merken.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0071",
-    "level": "B1.1",
-    "word": "scheitern",
-    "translation_fa": "شکست خوردن",
-    "translation_en": "to fail",
-    "translation_ps": "ناکامېدل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/scheitern.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0072",
-    "level": "B1.1",
-    "word": "Streik",
-    "translation_fa": "اعتصاب",
-    "translation_en": "strike",
-    "translation_ps": "اعتصاب",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/streik.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "der"
+    "words": {
+      "de": "insgesamt",
+      "en": "in total, altogether",
+      "fa": "در مجموع / کلاً",
+      "ps": "ټولټال",
+      "fr": "au total",
+      "tr": "toplamda"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/insgesamt.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0070",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "words": {
+      "de": "merken",
+      "en": "to notice, to remember",
+      "fa": "متوجه شدن / به خاطر سپردن",
+      "ps": "خبرېدل / په یاد ساتل",
+      "fr": "remarquer, se souvenir",
+      "tr": "fark etmek, hatırlamak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/merken.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0071",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "words": {
+      "de": "scheitern",
+      "en": "to fail",
+      "fa": "شکست خوردن",
+      "ps": "ناکامېدل",
+      "fr": "échouer",
+      "tr": "başarısız olmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/scheitern.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0072",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "article": "der",
+    "words": {
+      "de": "Streik",
+      "en": "strike",
+      "fa": "اعتصاب",
+      "ps": "اعتصاب",
+      "fr": "grève",
+      "tr": "grev"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/streik.mp3"
+    }
   },
   {
     "id": "wB1-1-0073",
     "level": "B1.1",
-    "word": "streiken",
-    "translation_fa": "اعتصاب کردن",
-    "translation_en": "to go on strike",
-    "translation_ps": "اعتصاب کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/streiken.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "streiken",
+      "en": "to go on strike",
+      "fa": "اعتصاب کردن",
+      "ps": "اعتصاب کول",
+      "fr": "faire grève",
+      "tr": "greve gitmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/streiken.mp3"
+    }
   },
   {
     "id": "wB1-1-0074",
     "level": "B1.1",
-    "word": "Tarifvertrag",
-    "translation_fa": "قرارداد دستمزد / توافق‌نامهٔ تعرفه‌ای",
-    "translation_en": "collective wage agreement",
-    "translation_ps": "ټولیز معاش تړون",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/tarifvertrag.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Tarifvertrag",
+      "en": "collective wage agreement",
+      "fa": "قرارداد دستمزد / توافق‌نامهٔ تعرفه‌ای",
+      "ps": "ټولیز معاش تړون",
+      "fr": "convention collective",
+      "tr": "toplu iş sözleşmesi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/tarifvertrag.mp3"
+    }
   },
   {
     "id": "wB1-1-0075",
     "level": "B1.1",
-    "word": "sich verbessern",
-    "translation_fa": "بهتر شدن / خود را بهتر کردن",
-    "translation_en": "to improve (oneself)",
-    "translation_ps": "ښه کېدل / ځان ښه کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_verbessern.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "sich verbessern",
+      "en": "to improve (oneself)",
+      "fa": "بهتر شدن / خود را بهتر کردن",
+      "ps": "ښه کېدل / ځان ښه کول",
+      "fr": "s'améliorer",
+      "tr": "kendini geliştirmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_verbessern.mp3"
+    }
   },
   {
     "id": "wB1-1-0076",
     "level": "B1.1",
-    "word": "verhandeln",
-    "translation_fa": "مذاکره کردن",
-    "translation_en": "to negotiate",
-    "translation_ps": "مذاکره کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verhandeln.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "verhandeln",
+      "en": "to negotiate",
+      "fa": "مذاکره کردن",
+      "ps": "مذاکره کول",
+      "fr": "négocier",
+      "tr": "müzakere etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verhandeln.mp3"
+    }
   },
   {
     "id": "wB1-1-0077",
     "level": "B1.1",
-    "word": "Festanstellung",
-    "translation_fa": "شغل ثابت / قراردادی دائمی",
-    "translation_en": "permanent job",
-    "translation_ps": "دائمي دنده",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/festanstellung.mp3",
     "image": "",
     "category": [
       "jobs_professions",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Festanstellung",
+      "en": "permanent job",
+      "fa": "شغل ثابت / قراردادی دائمی",
+      "ps": "دائمي دنده",
+      "fr": "emploi permanent",
+      "tr": "kalıcı iş"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/festanstellung.mp3"
+    }
   },
   {
     "id": "wB1-1-0081",
     "level": "B1.1",
-    "word": "Betrieb",
-    "translation_fa": "شرکت / واحد تولیدی",
-    "translation_en": "company, plant",
-    "translation_ps": "شرکت / فابریکه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/betrieb.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Betrieb",
+      "en": "company, plant",
+      "fa": "شرکت / واحد تولیدی",
+      "ps": "شرکت / فابریکه",
+      "fr": "entreprise, usine",
+      "tr": "şirket, fabrika"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/betrieb.mp3"
+    }
   },
   {
     "id": "wB1-1-0082",
     "level": "B1.1",
-    "word": "Unternehmen",
-    "translation_fa": "شرکت / بنگاه",
-    "translation_en": "company, enterprise",
-    "translation_ps": "شرکت / تصدۍ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unternehmen.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Unternehmen",
+      "en": "company, enterprise",
+      "fa": "شرکت / بنگاه",
+      "ps": "شرکت / تصدۍ",
+      "fr": "entreprise",
+      "tr": "şirket"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unternehmen.mp3"
+    }
   },
   {
     "id": "wB1-1-0084",
     "level": "B1.1",
-    "word": "Branche",
-    "translation_fa": "بخش / صنعت",
-    "translation_en": "sector, industry",
-    "translation_ps": "څانګه / صنعت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/branche.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Branche",
+      "en": "sector, industry",
+      "fa": "بخش / صنعت",
+      "ps": "څانګه / صنعت",
+      "fr": "secteur",
+      "tr": "sektör"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/branche.mp3"
+    }
   },
   {
     "id": "wB1-1-0085",
     "level": "B1.1",
-    "word": "befristet",
-    "translation_fa": "موقت / مدت‌دار",
-    "translation_en": "limited (time), temporary",
-    "translation_ps": "موقتي / محدود وخت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/befristet.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "befristet",
+      "en": "limited (time), temporary",
+      "fa": "موقت / مدت‌دار",
+      "ps": "موقتي / محدود وخت",
+      "fr": "temporaire",
+      "tr": "süreli"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/befristet.mp3"
+    }
   },
   {
     "id": "wB1-1-0086",
     "level": "B1.1",
-    "word": "unbefristet",
-    "translation_fa": "دائم / بدون مدت",
-    "translation_en": "permanent, unlimited",
-    "translation_ps": "دائمي / نامحدود",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unbefristet.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "unbefristet",
+      "en": "permanent, unlimited",
+      "fa": "دائم / بدون مدت",
+      "ps": "دائمي / نامحدود",
+      "fr": "permanent",
+      "tr": "süresiz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unbefristet.mp3"
+    }
   },
   {
     "id": "wB1-1-0089",
     "level": "B1.1",
-    "word": "einstellen",
-    "translation_fa": "استخدام کردن",
-    "translation_en": "to employ, to hire",
-    "translation_ps": "استخدامول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einstellen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "einstellen",
+      "en": "to employ, to hire",
+      "fa": "استخدام کردن",
+      "ps": "استخدامول",
+      "fr": "embaucher",
+      "tr": "işe almak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einstellen.mp3"
+    }
   },
   {
     "id": "wB1-1-0090",
     "level": "B1.1",
-    "word": "Einstellung",
-    "translation_fa": "استخدام؛ طرز فکر",
-    "translation_en": "employment; attitude",
-    "translation_ps": "استخدام؛ چلند",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einstellung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Einstellung",
+      "en": "employment; attitude",
+      "fa": "استخدام؛ طرز فکر",
+      "ps": "استخدام؛ چلند",
+      "fr": "emploi; attitude",
+      "tr": "iş; tutum"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einstellung.mp3"
+    }
   },
   {
     "id": "wB1-1-0091",
     "level": "B1.1",
-    "word": "entlassen",
-    "translation_fa": "اخراج کردن",
-    "translation_en": "to dismiss, to fire",
-    "translation_ps": "بهر کول / رخصت کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/entlassen.mp3",
     "image": "",
     "category": [
       "safety_emergency",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "entlassen",
+      "en": "to dismiss, to fire",
+      "fa": "اخراج کردن",
+      "ps": "بهر کول / رخصت کول",
+      "fr": "licencier",
+      "tr": "işten çıkarmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/entlassen.mp3"
+    }
   },
   {
     "id": "wB1-1-0092",
     "level": "B1.1",
-    "word": "Entlassung",
-    "translation_fa": "اخراج",
-    "translation_en": "dismissal",
-    "translation_ps": "رخصتي / بهر کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/entlassung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Entlassung",
+      "en": "dismissal",
+      "fa": "اخراج",
+      "ps": "رخصتي / بهر کول",
+      "fr": "licenciement",
+      "tr": "işten çıkarma"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/entlassung.mp3"
+    }
   },
   {
     "id": "wB1-1-0094",
     "level": "B1.1",
-    "word": "Ausbildung",
-    "translation_fa": "آموزش حرفه‌ای / دورهٔ کارآموزی",
-    "translation_en": "vocational training",
-    "translation_ps": "مسلکي روزنه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ausbildung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Ausbildung",
+      "en": "vocational training",
+      "fa": "آموزش حرفه‌ای / دورهٔ کارآموزی",
+      "ps": "مسلکي روزنه",
+      "fr": "formation professionnelle",
+      "tr": "mesleki eğitim"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ausbildung.mp3"
+    }
   },
   {
     "id": "wB1-1-0095",
     "level": "B1.1",
-    "word": "Weiterbildung",
-    "translation_fa": "آموزش تکمیلی / دورهٔ مهارت افزایی",
-    "translation_en": "further training",
-    "translation_ps": "نوره روزنه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/weiterbildung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Weiterbildung",
+      "en": "further training",
+      "fa": "آموزش تکمیلی / دورهٔ مهارت افزایی",
+      "ps": "نوره روزنه",
+      "fr": "formation continue",
+      "tr": "ileri eğitim"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/weiterbildung.mp3"
+    }
   },
   {
     "id": "wB1-1-0096",
     "level": "B1.1",
-    "word": "Studium",
-    "translation_fa": "تحصیلات دانشگاهی",
-    "translation_en": "university studies",
-    "translation_ps": "پوهنتون زده کړې",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/studium.mp3",
     "image": "",
     "category": [
       "places_buildings",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Studium",
+      "en": "university studies",
+      "fa": "تحصیلات دانشگاهی",
+      "ps": "پوهنتون زده کړې",
+      "fr": "études universitaires",
+      "tr": "üniversite eğitimi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/studium.mp3"
+    }
   },
   {
     "id": "wB1-1-0097",
     "level": "B1.1",
-    "word": "Berufserfahrung",
-    "translation_fa": "تجربهٔ کاری",
-    "translation_en": "work experience",
-    "translation_ps": "کاري تجربه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/berufserfahrung.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Berufserfahrung",
+      "en": "work experience",
+      "fa": "تجربهٔ کاری",
+      "ps": "کاري تجربه",
+      "fr": "expérience professionnelle",
+      "tr": "iş deneyimi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/berufserfahrung.mp3"
+    }
   },
   {
     "id": "wB1-1-0098",
     "level": "B1.1",
-    "word": "Bewerbungsunterlagen",
-    "translation_fa": "مدارک درخواست شغل",
-    "translation_en": "application documents",
-    "translation_ps": "د دندې غوښتنلیک اسناد",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bewerbungsunterlagen.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Bewerbungsunterlagen",
+      "en": "application documents",
+      "fa": "مدارک درخواست شغل",
+      "ps": "د دندې غوښتنلیک اسناد",
+      "fr": "documents de candidature",
+      "tr": "başvuru belgeleri"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bewerbungsunterlagen.mp3"
+    }
   },
   {
     "id": "wB1-1-0099",
     "level": "B1.1",
-    "word": "Bewerbungsanschreiben",
-    "translation_fa": "نامهٔ انگیزشی / کاور لتر",
-    "translation_en": "cover letter",
-    "translation_ps": "پوښ لیک / د غوښتنلیک لیک",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bewerbungsanschreiben.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Bewerbungsanschreiben",
+      "en": "cover letter",
+      "fa": "نامهٔ انگیزشی / کاور لتر",
+      "ps": "پوښ لیک / د غوښتنلیک لیک",
+      "fr": "lettre de motivation",
+      "tr": "ön yazı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bewerbungsanschreiben.mp3"
+    }
   },
   {
     "id": "wB1-1-0100",
     "level": "B1.1",
-    "word": "Stellenausschreibung",
-    "translation_fa": "آگهی شغلی",
-    "translation_en": "job advertisement",
-    "translation_ps": "دندې اعلان",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/stellenausschreibung.mp3",
     "image": "",
     "category": [
       "jobs_professions",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Stellenausschreibung",
+      "en": "job advertisement",
+      "fa": "آگهی شغلی",
+      "ps": "دندې اعلان",
+      "fr": "offre d'emploi",
+      "tr": "iş ilanı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/stellenausschreibung.mp3"
+    }
   },
   {
     "id": "wB1-1-0101",
     "level": "B1.1",
-    "word": "Stellenanzeige",
-    "translation_fa": "آگهی استخدام",
-    "translation_en": "job ad",
-    "translation_ps": "دندې اعلان",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/stellenanzeige.mp3",
     "image": "",
     "category": [
       "jobs_professions",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Stellenanzeige",
+      "en": "job ad",
+      "fa": "آگهی استخدام",
+      "ps": "دندې اعلان",
+      "fr": "annonce d'emploi",
+      "tr": "iş ilanı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/stellenanzeige.mp3"
+    }
   },
   {
     "id": "wB1-1-0102",
     "level": "B1.1",
-    "word": "Bewerbungsfrist",
-    "translation_fa": "مهلت ارسال درخواست",
-    "translation_en": "application deadline",
-    "translation_ps": "د غوښتنلیک وروستۍ نېټه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bewerbungsfrist.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Bewerbungsfrist",
+      "en": "application deadline",
+      "fa": "مهلت ارسال درخواست",
+      "ps": "د غوښتنلیک وروستۍ نېټه",
+      "fr": "date limite de candidature",
+      "tr": "başvuru süresi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bewerbungsfrist.mp3"
+    }
   },
   {
     "id": "wB1-1-0104",
     "level": "B1.1",
-    "word": "sich bewerben (um/auf)",
-    "translation_fa": "درخواست شغل دادن / اپلای کردن",
-    "translation_en": "to apply (for a job)",
-    "translation_ps": "دندې لپاره غوښتنلیک ورکول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_bewerben_(um/auf).mp3",
     "image": "",
     "category": [
       "jobs_professions",
       "verb",
       "reflexive_verb"
-    ]
+    ],
+    "words": {
+      "de": "sich bewerben (um/auf)",
+      "en": "to apply (for a job)",
+      "fa": "درخواست شغل دادن / اپلای کردن",
+      "ps": "دندې لپاره غوښتنلیک ورکول",
+      "fr": "postuler (à un emploi)",
+      "tr": "başvurmak (iş için)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_bewerben_(um/auf).mp3"
+    }
   },
   {
     "id": "wB1-1-0106",
     "level": "B1.1",
-    "word": "Stellenbörse",
-    "translation_fa": "پورتال کاریابی / بازار کار",
-    "translation_en": "job exchange / job portal",
-    "translation_ps": "دندې بازار / دندې پورټل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/stellenbörse.mp3",
     "image": "",
     "category": [
       "jobs_professions",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Stellenbörse",
+      "en": "job exchange / job portal",
+      "fa": "پورتال کاریابی / بازار کار",
+      "ps": "دندې بازار / دندې پورټل",
+      "fr": "bourse de l'emploi / portail d'emploi",
+      "tr": "iş borsası / iş portalı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/stellenbörse.mp3"
+    }
   },
   {
     "id": "wB1-1-0109",
     "level": "B1.1",
-    "word": "sicher",
-    "translation_fa": "مطمئن؛ امن",
-    "translation_en": "sure; safe",
-    "translation_ps": "باوري؛ خوندي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sicher.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0110",
-    "level": "B1.1",
-    "word": "unsicher",
-    "translation_fa": "نامطمئن؛ ناامن",
-    "translation_en": "unsure; unsafe",
-    "translation_ps": "بې باوره؛ نا خوندي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unsicher.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0111",
-    "level": "B1.1",
-    "word": "gleichberechtigt",
-    "translation_fa": "برابر از نظر حقوق",
-    "translation_en": "having equal rights",
-    "translation_ps": "برابر حقوق لرونکی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gleichberechtigt.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0112",
-    "level": "B1.1",
-    "word": "Gleichberechtigung",
-    "translation_fa": "برابری حقوق",
-    "translation_en": "equal rights, equality",
-    "translation_ps": "برابر حقوق، مساوات",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gleichberechtigung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "words": {
+      "de": "sicher",
+      "en": "sure; safe",
+      "fa": "مطمئن؛ امن",
+      "ps": "باوري؛ خوندي",
+      "fr": "sûr; sûr",
+      "tr": "emin; güvenli"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sicher.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0110",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "words": {
+      "de": "unsicher",
+      "en": "unsure; unsafe",
+      "fa": "نامطمئن؛ ناامن",
+      "ps": "بې باوره؛ نا خوندي",
+      "fr": "incertain; dangereux",
+      "tr": "emin değil; güvensiz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unsicher.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0111",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "words": {
+      "de": "gleichberechtigt",
+      "en": "having equal rights",
+      "fa": "برابر از نظر حقوق",
+      "ps": "برابر حقوق لرونکی",
+      "fr": "ayant des droits égaux",
+      "tr": "eşit haklara sahip"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gleichberechtigt.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0112",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "article": "die",
+    "words": {
+      "de": "Gleichberechtigung",
+      "en": "equal rights, equality",
+      "fa": "برابری حقوق",
+      "ps": "برابر حقوق، مساوات",
+      "fr": "égalité des droits",
+      "tr": "eşit haklar, eşitlik"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gleichberechtigung.mp3"
+    }
   },
   {
     "id": "wB1-1-0113",
     "level": "B1.1",
-    "word": "Behinderung",
-    "translation_fa": "ناتوانی / معلولیت",
-    "translation_en": "disability",
-    "translation_ps": "معذوري",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/behinderung.mp3",
     "image": "",
     "category": [
       "greetings_politeness",
       "conversation_phrases",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Behinderung",
+      "en": "disability",
+      "fa": "ناتوانی / معلولیت",
+      "ps": "معذوري",
+      "fr": "handicap",
+      "tr": "engellilik"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/behinderung.mp3"
+    }
   },
   {
     "id": "wB1-1-0114",
     "level": "B1.1",
-    "word": "behindert",
-    "translation_fa": "معلول",
-    "translation_en": "disabled",
-    "translation_ps": "معیوب",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/behindert.mp3",
     "image": "",
     "category": [
       "greetings_politeness",
       "conversation_phrases"
-    ]
+    ],
+    "words": {
+      "de": "behindert",
+      "en": "disabled",
+      "fa": "معلول",
+      "ps": "معیوب",
+      "fr": "handicapé",
+      "tr": "engelli"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/behindert.mp3"
+    }
   },
   {
     "id": "wB1-1-0115",
     "level": "B1.1",
-    "word": "Diskriminierung",
-    "translation_fa": "تبعیض",
-    "translation_en": "discrimination",
-    "translation_ps": "تبعیض",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/diskriminierung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Diskriminierung",
+      "en": "discrimination",
+      "fa": "تبعیض",
+      "ps": "تبعیض",
+      "fr": "discrimination",
+      "tr": "ayrımcılık"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/diskriminierung.mp3"
+    }
   },
   {
     "id": "wB1-1-0116",
     "level": "B1.1",
-    "word": "diskriminieren",
-    "translation_fa": "تبعیض قائل شدن",
-    "translation_en": "to discriminate",
-    "translation_ps": "تبعیض کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/diskriminieren.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0117",
-    "level": "B1.1",
-    "word": "Argument",
-    "translation_fa": "استدلال / دلیل",
-    "translation_en": "argument (reason)",
-    "translation_ps": "دلیل / استدلال",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/argument.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "das"
+    "words": {
+      "de": "diskriminieren",
+      "en": "to discriminate",
+      "fa": "تبعیض قائل شدن",
+      "ps": "تبعیض کول",
+      "fr": "discriminer",
+      "tr": "ayrım yapmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/diskriminieren.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0117",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "article": "das",
+    "words": {
+      "de": "Argument",
+      "en": "argument (reason)",
+      "fa": "استدلال / دلیل",
+      "ps": "دلیل / استدلال",
+      "fr": "argument (raison)",
+      "tr": "argüman (sebep)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/argument.mp3"
+    }
   },
   {
     "id": "wB1-1-0118",
     "level": "B1.1",
-    "word": "also",
-    "translation_fa": "بنابراین / پس",
-    "translation_en": "so, therefore",
-    "translation_ps": "نو، له همدې امله",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/also.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "also",
+      "en": "so, therefore",
+      "fa": "بنابراین / پس",
+      "ps": "نو، له همدې امله",
+      "fr": "donc",
+      "tr": "bu yüzden"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/also.mp3"
+    }
   },
   {
     "id": "wB1-1-0119",
     "level": "B1.1",
-    "word": "einen Beitrag leisten (zu)",
-    "translation_fa": "سهمی داشتن / مشارکت کردن در",
-    "translation_en": "to make a contribution (to)",
-    "translation_ps": "ګډون کول / برخه اخیستل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einen_beitrag_leisten_(zu).mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "verb",
       "article"
-    ]
+    ],
+    "words": {
+      "de": "einen Beitrag leisten (zu)",
+      "en": "to make a contribution (to)",
+      "fa": "سهمی داشتن / مشارکت کردن در",
+      "ps": "ګډون کول / برخه اخیستل",
+      "fr": "apporter une contribution (à)",
+      "tr": "katkıda bulunmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einen_beitrag_leisten_(zu).mp3"
+    }
   },
   {
     "id": "wB1-1-0120",
     "level": "B1.1",
-    "word": "Es fällt mir leicht …",
-    "translation_fa": "برایم آسان است که ...",
-    "translation_en": "It is easy for me to …",
-    "translation_ps": "زما لپاره آسانه ده چې ...",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/es_fällt_mir_leicht_….mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "pronoun"
-    ]
+    ],
+    "words": {
+      "de": "Es fällt mir leicht …",
+      "en": "It is easy for me to …",
+      "fa": "برایم آسان است که ...",
+      "ps": "زما لپاره آسانه ده چې ...",
+      "fr": "Il m'est facile de …",
+      "tr": "Benim için kolay …"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/es_fällt_mir_leicht_….mp3"
+    }
   },
   {
     "id": "wB1-1-0121",
     "level": "B1.1",
-    "word": "Es fällt mir schwer …",
-    "translation_fa": "برایم سخت است که ...",
-    "translation_en": "It is hard for me to …",
-    "translation_ps": "زما لپاره سخته ده چې ...",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/es_fällt_mir_schwer_….mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "pronoun"
-    ]
+    ],
+    "words": {
+      "de": "Es fällt mir schwer …",
+      "en": "It is hard for me to …",
+      "fa": "برایم سخت است که ...",
+      "ps": "زما لپاره سخته ده چې ...",
+      "fr": "Il m'est difficile de …",
+      "tr": "Benim için zor …"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/es_fällt_mir_schwer_….mp3"
+    }
   },
   {
     "id": "wB1-1-0122",
     "level": "B1.1",
-    "word": "Integration",
-    "translation_fa": "ادغام / جذب در جامعه",
-    "translation_en": "integration",
-    "translation_ps": "یوځای کېدل / مدغم کېدل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/integration.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Integration",
+      "en": "integration",
+      "fa": "ادغام / جذب در جامعه",
+      "ps": "یوځای کېدل / مدغم کېدل",
+      "fr": "intégration",
+      "tr": "entegrasyon"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/integration.mp3"
+    }
   },
   {
     "id": "wB1-1-0123",
     "level": "B1.1",
-    "word": "integrieren",
-    "translation_fa": "ادغام کردن / جذب کردن",
-    "translation_en": "to integrate",
-    "translation_ps": "یوځای کول / مدغم کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/integrieren.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "integrieren",
+      "en": "to integrate",
+      "fa": "ادغام کردن / جذب کردن",
+      "ps": "یوځای کول / مدغم کول",
+      "fr": "intégrer",
+      "tr": "entegre etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/integrieren.mp3"
+    }
   },
   {
     "id": "wB1-1-0124",
     "level": "B1.1",
-    "word": "Migration",
-    "translation_fa": "مهاجرت",
-    "translation_en": "migration",
-    "translation_ps": "کډوالۍ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/migration.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Migration",
+      "en": "migration",
+      "fa": "مهاجرت",
+      "ps": "کډوالۍ",
+      "fr": "migration",
+      "tr": "göç"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/migration.mp3"
+    }
   },
   {
     "id": "wB1-1-0125",
     "level": "B1.1",
-    "word": "Migrant",
-    "translation_fa": "مهاجر (مرد)",
-    "translation_en": "migrant (male)",
-    "translation_ps": "کډوال (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/migrant.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Migrant",
+      "en": "migrant (male)",
+      "fa": "مهاجر (مرد)",
+      "ps": "کډوال (نرینه)",
+      "fr": "migrant (masculin)",
+      "tr": "göçmen (erkek)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/migrant.mp3"
+    }
   },
   {
     "id": "wB1-1-0126",
     "level": "B1.1",
-    "word": "Migrantin",
-    "translation_fa": "مهاجر (زن)",
-    "translation_en": "migrant (female)",
-    "translation_ps": "مهاجره",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/migrantin.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Migrantin",
+      "en": "migrant (female)",
+      "fa": "مهاجر (زن)",
+      "ps": "مهاجره",
+      "fr": "migrante (féminin)",
+      "tr": "göçmen (kadın)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/migrantin.mp3"
+    }
   },
   {
     "id": "wB1-1-0127",
     "level": "B1.1",
-    "word": "Flüchtling",
-    "translation_fa": "پناهنده / آواره",
-    "translation_en": "refugee",
-    "translation_ps": "کډوال",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/flüchtling.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Flüchtling",
+      "en": "refugee",
+      "fa": "پناهنده / آواره",
+      "ps": "کډوال",
+      "fr": "réfugié",
+      "tr": "mülteci"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/flüchtling.mp3"
+    }
   },
   {
     "id": "wB1-1-0128",
     "level": "B1.1",
-    "word": "Herkunft",
-    "translation_fa": "اصل و نسب / پیشینه",
-    "translation_en": "origin, background",
-    "translation_ps": "اصل او نسب",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/herkunft.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Herkunft",
+      "en": "origin, background",
+      "fa": "اصل و نسب / پیشینه",
+      "ps": "اصل او نسب",
+      "fr": "origine, origine sociale",
+      "tr": "köken, geçmiş"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/herkunft.mp3"
+    }
   },
   {
     "id": "wB1-1-0129",
     "level": "B1.1",
-    "word": "Staatsangehörigkeit",
-    "translation_fa": "تابعیت",
-    "translation_en": "nationality, citizenship",
-    "translation_ps": "تابعیت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/staatsangehörigkeit.mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Staatsangehörigkeit",
+      "en": "nationality, citizenship",
+      "fa": "تابعیت",
+      "ps": "تابعیت",
+      "fr": "nationalité, citoyenneté",
+      "tr": "uyruk, vatandaşlık"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/staatsangehörigkeit.mp3"
+    }
   },
   {
     "id": "wB1-1-0130",
     "level": "B1.1",
-    "word": "Informatik",
-    "translation_fa": "علوم کامپیوتر / انفورماتیک",
-    "translation_en": "computer science",
-    "translation_ps": "کمپیوټر ساینس",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/informatik.mp3",
     "image": "",
     "category": [
       "technology_internet",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Informatik",
+      "en": "computer science",
+      "fa": "علوم کامپیوتر / انفورماتیک",
+      "ps": "کمپیوټر ساینس",
+      "fr": "informatique",
+      "tr": "bilgisayar bilimi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/informatik.mp3"
+    }
   },
   {
     "id": "wB1-1-0131",
     "level": "B1.1",
-    "word": "Informatiker",
-    "translation_fa": "متخصص انفورماتیک (مرد)",
-    "translation_en": "computer scientist (male)",
-    "translation_ps": "کمپیوټر ساینس پوه (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/informatiker.mp3",
     "image": "",
     "category": [
       "technology_internet",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Informatiker",
+      "en": "computer scientist (male)",
+      "fa": "متخصص انفورماتیک (مرد)",
+      "ps": "کمپیوټر ساینس پوه (نرینه)",
+      "fr": "informaticien",
+      "tr": "bilgisayar bilimci (erkek)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/informatiker.mp3"
+    }
   },
   {
     "id": "wB1-1-0132",
     "level": "B1.1",
-    "word": "Informatikerin",
-    "translation_fa": "متخصص انفورماتیک (زن)",
-    "translation_en": "computer scientist (female)",
-    "translation_ps": "کمپیوټر ساینس پوهه (ښځه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/informatikerin.mp3",
     "image": "",
     "category": [
       "technology_internet",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Informatikerin",
+      "en": "computer scientist (female)",
+      "fa": "متخصص انفورماتیک (زن)",
+      "ps": "کمپیوټر ساینس پوهه (ښځه)",
+      "fr": "informaticienne",
+      "tr": "bilgisayar bilimci (kadın)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/informatikerin.mp3"
+    }
   },
   {
     "id": "wB1-1-0133",
     "level": "B1.1",
-    "word": "IT",
-    "translation_fa": "آی‌تی / فناوری اطلاعات",
-    "translation_en": "IT (information technology)",
-    "translation_ps": "IT",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/it.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "IT",
+      "en": "IT (information technology)",
+      "fa": "آی‌تی / فناوری اطلاعات",
+      "ps": "IT",
+      "fr": "IT (technologie de l'information)",
+      "tr": "BT (bilgi teknolojisi)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/it.mp3"
+    }
   },
   {
     "id": "wB1-1-0134",
     "level": "B1.1",
-    "word": "Digitalisierung",
-    "translation_fa": "دیجیتالی‌سازی",
-    "translation_en": "digitalization",
-    "translation_ps": "ډیجیټل کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/digitalisierung.mp3",
     "image": "",
     "category": [
       "technology_internet",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Digitalisierung",
+      "en": "digitalization",
+      "fa": "دیجیتالی‌سازی",
+      "ps": "ډیجیټل کول",
+      "fr": "numérisation",
+      "tr": "dijitalleşme"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/digitalisierung.mp3"
+    }
   },
   {
     "id": "wB1-1-0135",
     "level": "B1.1",
-    "word": "Kenntnis",
-    "translation_fa": "دانش / آگاهی",
-    "translation_en": "knowledge (of something)",
-    "translation_ps": "پوهاوی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kenntnis.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Kenntnis",
+      "en": "knowledge (of something)",
+      "fa": "دانش / آگاهی",
+      "ps": "پوهاوی",
+      "fr": "connaissance",
+      "tr": "bilgi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kenntnis.mp3"
+    }
   },
   {
     "id": "wB1-1-0136",
     "level": "B1.1",
-    "word": "Kenntnisse",
-    "translation_fa": "مهارت‌ها / معلومات",
-    "translation_en": "skills, knowledge",
-    "translation_ps": "مهارتونه او پوهه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kenntnisse.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "Kenntnisse",
+      "en": "skills, knowledge",
+      "fa": "مهارت‌ها / معلومات",
+      "ps": "مهارتونه او پوهه",
+      "fr": "compétences",
+      "tr": "beceriler, bilgi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kenntnisse.mp3"
+    }
   },
   {
     "id": "wB1-1-0137",
     "level": "B1.1",
-    "word": "leisten",
-    "translation_fa": "انجام دادن / انجام رساندن",
-    "translation_en": "to achieve, to perform",
-    "translation_ps": "ترسره کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/leisten.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "leisten",
+      "en": "to achieve, to perform",
+      "fa": "انجام دادن / انجام رساندن",
+      "ps": "ترسره کول",
+      "fr": "réaliser",
+      "tr": "başarmak, gerçekleştirmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/leisten.mp3"
+    }
   },
   {
     "id": "wB1-1-0138",
     "level": "B1.1",
-    "word": "sich auskennen (mit)",
-    "translation_fa": "وارد بودن / شناخت خوب داشتن از",
-    "translation_en": "to be familiar (with)",
-    "translation_ps": "بلدتیا لرل (په) / ښه پوهیدل (په)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_auskennen_(mit).mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "sich auskennen (mit)",
+      "en": "to be familiar (with)",
+      "fa": "وارد بودن / شناخت خوب داشتن از",
+      "ps": "بلدتیا لرل (په) / ښه پوهیدل (په)",
+      "fr": "être familier (avec)",
+      "tr": "bir şey hakkında bilgi sahibi olmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_auskennen_(mit).mp3"
+    }
   },
   {
     "id": "wB1-1-0139",
     "level": "B1.1",
-    "word": "zuständig sein (für)",
-    "translation_fa": "مسئول چیزی بودن",
-    "translation_en": "to be responsible (for)",
-    "translation_ps": "مسؤلیت لرل (د) / مسؤل اوسېدل (د)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zuständig_sein_(für).mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "zuständig sein (für)",
+      "en": "to be responsible (for)",
+      "fa": "مسئول چیزی بودن",
+      "ps": "مسؤلیت لرل (د) / مسؤل اوسېدل (د)",
+      "fr": "être responsable (de)",
+      "tr": "sorumlu olmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zuständig_sein_(für).mp3"
+    }
   },
   {
     "id": "wB1-1-0140",
     "level": "B1.1",
-    "word": "Risiko",
-    "translation_fa": "ریسک / خطر",
-    "translation_en": "risk",
-    "translation_ps": "خطره",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/risiko.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Risiko",
+      "en": "risk",
+      "fa": "ریسک / خطر",
+      "ps": "خطره",
+      "fr": "risque",
+      "tr": "risk"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/risiko.mp3"
+    }
   },
   {
     "id": "wB1-1-0141",
     "level": "B1.1",
-    "word": "riskant",
-    "translation_fa": "پرخطر / ریسکی",
-    "translation_en": "risky",
-    "translation_ps": "خطرناک",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/riskant.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "riskant",
+      "en": "risky",
+      "fa": "پرخطر / ریسکی",
+      "ps": "خطرناک",
+      "fr": "risqué",
+      "tr": "riskli"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/riskant.mp3"
+    }
   },
   {
     "id": "wB1-1-0144",
     "level": "B1.1",
-    "word": "Vereinbarung",
-    "translation_fa": "توافق / قرار",
-    "translation_en": "agreement",
-    "translation_ps": "تفاهمنامه / تړون",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/vereinbarung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Vereinbarung",
+      "en": "agreement",
+      "fa": "توافق / قرار",
+      "ps": "تفاهمنامه / تړون",
+      "fr": "accord",
+      "tr": "anlaşma"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/vereinbarung.mp3"
+    }
   },
   {
     "id": "wB1-1-0151",
     "level": "B1.1",
-    "word": "Vorsorge",
-    "translation_fa": "پیشگیری / مراقبت پیشگیرانه",
-    "translation_en": "prevention, precaution",
-    "translation_ps": "مخنیوی / احتیاط",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/vorsorge.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Vorsorge",
+      "en": "prevention, precaution",
+      "fa": "پیشگیری / مراقبت پیشگیرانه",
+      "ps": "مخنیوی / احتیاط",
+      "fr": "prévention",
+      "tr": "önlem"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/vorsorge.mp3"
+    }
   },
   {
     "id": "wB1-1-0153",
     "level": "B1.1",
-    "word": "Patient",
-    "translation_fa": "بیمار (مرد)",
-    "translation_en": "patient (male)",
-    "translation_ps": "روغتیایي ناروغ (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/patient.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Patient",
+      "en": "patient (male)",
+      "fa": "بیمار (مرد)",
+      "ps": "روغتیایي ناروغ (نرینه)",
+      "fr": "patient (homme)",
+      "tr": "hasta (erkek)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/patient.mp3"
+    }
   },
   {
     "id": "wB1-1-0154",
     "level": "B1.1",
-    "word": "Patientin",
-    "translation_fa": "بیمار (زن)",
-    "translation_en": "patient (female)",
-    "translation_ps": "روغتیایي ناروغه (ښځه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/patientin.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Patientin",
+      "en": "patient (female)",
+      "fa": "بیمار (زن)",
+      "ps": "روغتیایي ناروغه (ښځه)",
+      "fr": "patiente",
+      "tr": "hasta (kadın)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/patientin.mp3"
+    }
   },
   {
     "id": "wB1-1-0158",
     "level": "B1.1",
-    "word": "Nebenwirkungen",
-    "translation_fa": "عوارض جانبی",
-    "translation_en": "side effects",
-    "translation_ps": "جانبي عوارض",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/nebenwirkungen.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Nebenwirkungen",
+      "en": "side effects",
+      "fa": "عوارض جانبی",
+      "ps": "جانبي عوارض",
+      "fr": "effets secondaires",
+      "tr": "yan etkiler"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/nebenwirkungen.mp3"
+    }
   },
   {
     "id": "wB1-1-0159",
     "level": "B1.1",
-    "word": "Klima",
-    "translation_fa": "اقلیم / آب‌وهوا",
-    "translation_en": "climate",
-    "translation_ps": "اقلیم",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/klima.mp3",
     "image": "",
     "category": [
       "plants_environment",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Klima",
+      "en": "climate",
+      "fa": "اقلیم / آب‌وهوا",
+      "ps": "اقلیم",
+      "fr": "climat",
+      "tr": "iklim"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/klima.mp3"
+    }
   },
   {
     "id": "wB1-1-0160",
     "level": "B1.1",
-    "word": "Klimawandel",
-    "translation_fa": "تغییرات اقلیمی",
-    "translation_en": "climate change",
-    "translation_ps": "د اقلیم بدلون",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/klimawandel.mp3",
     "image": "",
     "category": [
       "shopping_money",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Klimawandel",
+      "en": "climate change",
+      "fa": "تغییرات اقلیمی",
+      "ps": "د اقلیم بدلون",
+      "fr": "changement climatique",
+      "tr": "iklim değişikliği"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/klimawandel.mp3"
+    }
   },
   {
     "id": "wB1-1-0163",
     "level": "B1.1",
-    "word": "Müllberg",
-    "translation_fa": "کوه زباله",
-    "translation_en": "mountain of rubbish",
-    "translation_ps": "د کثافاتو غر",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/müllberg.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Müllberg",
+      "en": "mountain of rubbish",
+      "fa": "کوه زباله",
+      "ps": "د کثافاتو غر",
+      "fr": "montagne de déchets",
+      "tr": "çöp dağı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/müllberg.mp3"
+    }
   },
   {
     "id": "wB1-1-0164",
     "level": "B1.1",
-    "word": "recyceln",
-    "translation_fa": "بازیافت کردن",
-    "translation_en": "to recycle",
-    "translation_ps": "بیا کارول / بیا پروسس کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/recyceln.mp3",
     "image": "",
     "category": [
       "plants_environment",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "recyceln",
+      "en": "to recycle",
+      "fa": "بازیافت کردن",
+      "ps": "بیا کارول / بیا پروسس کول",
+      "fr": "recycler",
+      "tr": "geri dönüştürmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/recyceln.mp3"
+    }
   },
   {
     "id": "wB1-1-0165",
     "level": "B1.1",
-    "word": "Recycling",
-    "translation_fa": "بازیافت",
-    "translation_en": "recycling",
-    "translation_ps": "بیا کارونه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/recycling.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Recycling",
+      "en": "recycling",
+      "fa": "بازیافت",
+      "ps": "بیا کارونه",
+      "fr": "recyclage",
+      "tr": "geri dönüşüm"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/recycling.mp3"
+    }
   },
   {
     "id": "wB1-1-0166",
     "level": "B1.1",
-    "word": "sparsam",
-    "translation_fa": "صرفه‌جو",
-    "translation_en": "economical, thrifty",
-    "translation_ps": "سپما کوونکی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sparsam.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0167",
-    "level": "B1.1",
-    "word": "verschwenden",
-    "translation_fa": "هدر دادن",
-    "translation_en": "to waste",
-    "translation_ps": "ضایع کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verschwenden.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0168",
-    "level": "B1.1",
-    "word": "Verschwendung",
-    "translation_fa": "اسراف / هدررفت",
-    "translation_en": "waste",
-    "translation_ps": "ضایع",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verschwendung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "words": {
+      "de": "sparsam",
+      "en": "economical, thrifty",
+      "fa": "صرفه‌جو",
+      "ps": "سپما کوونکی",
+      "fr": "économe",
+      "tr": "tutumlu"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sparsam.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0167",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "words": {
+      "de": "verschwenden",
+      "en": "to waste",
+      "fa": "هدر دادن",
+      "ps": "ضایع کول",
+      "fr": "gaspiller",
+      "tr": "israf etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verschwenden.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0168",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "article": "die",
+    "words": {
+      "de": "Verschwendung",
+      "en": "waste",
+      "fa": "اسراف / هدررفت",
+      "ps": "ضایع",
+      "fr": "gaspillage",
+      "tr": "israf"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verschwendung.mp3"
+    }
   },
   {
     "id": "wB1-1-0169",
     "level": "B1.1",
-    "word": "Meldung",
-    "translation_fa": "گزارش / خبر",
-    "translation_en": "report, message (news)",
-    "translation_ps": "رپوټ، خبر",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/meldung.mp3",
     "image": "",
     "category": [
       "media_social",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Meldung",
+      "en": "report, message (news)",
+      "fa": "گزارش / خبر",
+      "ps": "رپوټ، خبر",
+      "fr": "rapport, message (actualité)",
+      "tr": "rapor, mesaj (haber)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/meldung.mp3"
+    }
   },
   {
     "id": "wB1-1-0170",
     "level": "B1.1",
-    "word": "Schlagzeile",
-    "translation_fa": "تیتر",
-    "translation_en": "headline",
-    "translation_ps": "سرلیک",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/schlagzeile.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Schlagzeile",
+      "en": "headline",
+      "fa": "تیتر",
+      "ps": "سرلیک",
+      "fr": "titre",
+      "tr": "manşet"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/schlagzeile.mp3"
+    }
   },
   {
     "id": "wB1-1-0172",
     "level": "B1.1",
-    "word": "Quelle",
-    "translation_fa": "منبع",
-    "translation_en": "source",
-    "translation_ps": "سرچینه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/quelle.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Quelle",
+      "en": "source",
+      "fa": "منبع",
+      "ps": "سرچینه",
+      "fr": "source",
+      "tr": "kaynak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/quelle.mp3"
+    }
   },
   {
     "id": "wB1-1-0173",
     "level": "B1.1",
-    "word": "übertreiben",
-    "translation_fa": "اغراق کردن",
-    "translation_en": "to exaggerate",
-    "translation_ps": "غلو کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/übertreiben.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0174",
-    "level": "B1.1",
-    "word": "Übertreibung",
-    "translation_fa": "اغراق",
-    "translation_en": "exaggeration",
-    "translation_ps": "غلو",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/übertreibung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "words": {
+      "de": "übertreiben",
+      "en": "to exaggerate",
+      "fa": "اغراق کردن",
+      "ps": "غلو کول",
+      "fr": "exagérer",
+      "tr": "abartmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/übertreiben.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0174",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "article": "die",
+    "words": {
+      "de": "Übertreibung",
+      "en": "exaggeration",
+      "fa": "اغراق",
+      "ps": "غلو",
+      "fr": "exagération",
+      "tr": "abartı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/übertreibung.mp3"
+    }
   },
   {
     "id": "wB1-1-0175",
     "level": "B1.1",
-    "word": "Freizeitgestaltung",
-    "translation_fa": "پر کردن اوقات فراغت",
-    "translation_en": "leisure activities, organisation of free time",
-    "translation_ps": "د فراغت فعالیتونه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/freizeitgestaltung.mp3",
     "image": "",
     "category": [
       "time_date",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Freizeitgestaltung",
+      "en": "leisure activities, organisation of free time",
+      "fa": "پر کردن اوقات فراغت",
+      "ps": "د فراغت فعالیتونه",
+      "fr": "activités de loisirs",
+      "tr": "boş zaman aktiviteleri"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/freizeitgestaltung.mp3"
+    }
   },
   {
     "id": "wB1-1-0176",
     "level": "B1.1",
-    "word": "Gewohnheit",
-    "translation_fa": "عادت",
-    "translation_en": "habit",
-    "translation_ps": "عادت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gewohnheit.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Gewohnheit",
+      "en": "habit",
+      "fa": "عادت",
+      "ps": "عادت",
+      "fr": "habitude",
+      "tr": "alışkanlık"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gewohnheit.mp3"
+    }
   },
   {
     "id": "wB1-1-0177",
     "level": "B1.1",
-    "word": "sich gewöhnen an",
-    "translation_fa": "عادت کردن به",
-    "translation_en": "to get used to",
-    "translation_ps": "عادت کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_gewöhnen_an.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "sich gewöhnen an",
+      "en": "to get used to",
+      "fa": "عادت کردن به",
+      "ps": "عادت کول",
+      "fr": "s'habituer à",
+      "tr": "alışmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_gewöhnen_an.mp3"
+    }
   },
   {
     "id": "wB1-1-0178",
     "level": "B1.1",
-    "word": "Voraussetzung",
-    "translation_fa": "پیش‌شرط / شرط لازم",
-    "translation_en": "requirement, prerequisite",
-    "translation_ps": "شرط، اړتیا",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/voraussetzung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Voraussetzung",
+      "en": "requirement, prerequisite",
+      "fa": "پیش‌شرط / شرط لازم",
+      "ps": "شرط، اړتیا",
+      "fr": "exigence, condition préalable",
+      "tr": "gereklilik, önkoşul"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/voraussetzung.mp3"
+    }
   },
   {
     "id": "wB1-1-0179",
     "level": "B1.1",
-    "word": "voraussetzen",
-    "translation_fa": "مفروض گرفتن / شرط دانستن",
-    "translation_en": "to presuppose, to assume",
-    "translation_ps": "فرض کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/voraussetzen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "voraussetzen",
+      "en": "to presuppose, to assume",
+      "fa": "مفروض گرفتن / شرط دانستن",
+      "ps": "فرض کول",
+      "fr": "supposer, présumer",
+      "tr": "varsaymak, farz etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/voraussetzen.mp3"
+    }
   },
   {
     "id": "wB1-1-0180",
     "level": "B1.1",
-    "word": "Folge",
-    "translation_fa": "پیامد؛ قسمت (سریال)",
-    "translation_en": "consequence; episode",
-    "translation_ps": "پايله؛ برخه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/folge.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Folge",
+      "en": "consequence; episode",
+      "fa": "پیامد؛ قسمت (سریال)",
+      "ps": "پايله؛ برخه",
+      "fr": "conséquence; épisode",
+      "tr": "sonuç; bölüm"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/folge.mp3"
+    }
   },
   {
     "id": "wB1-1-0181",
     "level": "B1.1",
-    "word": "folgen",
-    "translation_fa": "دنبال کردن",
-    "translation_en": "to follow",
-    "translation_ps": "تعقیبول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/folgen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "folgen",
+      "en": "to follow",
+      "fa": "دنبال کردن",
+      "ps": "تعقیبول",
+      "fr": "suivre",
+      "tr": "takip etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/folgen.mp3"
+    }
   },
   {
     "id": "wB1-1-0182",
     "level": "B1.1",
-    "word": "Einstellung (zu etwas)",
-    "translation_fa": "نگرش / طرز فکر نسبت به چیزی",
-    "translation_en": "attitude (towards something)",
-    "translation_ps": "رویه (د څه په اړه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einstellung_(zu_etwas).mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Einstellung (zu etwas)",
+      "en": "attitude (towards something)",
+      "fa": "نگرش / طرز فکر نسبت به چیزی",
+      "ps": "رویه (د څه په اړه)",
+      "fr": "attitude (à l'égard de quelque chose)",
+      "tr": "tutum (bir şeye karşı)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einstellung_(zu_etwas).mp3"
+    }
   },
   {
     "id": "wB1-1-0184",
     "level": "B1.1",
-    "word": "zufrieden sein (mit)",
-    "translation_fa": "راضی بودن از",
-    "translation_en": "to be satisfied (with)",
-    "translation_ps": "خوښ او راضي اوسېدل (له څه سره)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zufrieden_sein_(mit).mp3",
     "image": "",
     "category": [
       "feelings_emotions",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "zufrieden sein (mit)",
+      "en": "to be satisfied (with)",
+      "fa": "راضی بودن از",
+      "ps": "خوښ او راضي اوسېدل (له څه سره)",
+      "fr": "être satisfait (de)",
+      "tr": "memnun olmak (bir şeyden)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zufrieden_sein_(mit).mp3"
+    }
   },
   {
     "id": "wB1-1-0186",
     "level": "B1.1",
-    "word": "herausfordernd",
-    "translation_fa": "چالش‌برانگیز",
-    "translation_en": "challenging",
-    "translation_ps": "ستونزمن",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/herausfordernd.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "herausfordernd",
+      "en": "challenging",
+      "fa": "چالش‌برانگیز",
+      "ps": "ستونزمن",
+      "fr": "stimulant",
+      "tr": "zorlayıcı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/herausfordernd.mp3"
+    }
   },
   {
     "id": "wB1-1-0187",
     "level": "B1.1",
-    "word": "Bewerbung um eine Stelle",
-    "translation_fa": "درخواست برای یک شغل",
-    "translation_en": "application for a job",
-    "translation_ps": "دندې لپاره غوښتنلیک",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bewerbung_um_eine_stelle.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Bewerbung um eine Stelle",
+      "en": "application for a job",
+      "fa": "درخواست برای یک شغل",
+      "ps": "دندې لپاره غوښتنلیک",
+      "fr": "candidature à un emploi",
+      "tr": "iş başvurusu"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bewerbung_um_eine_stelle.mp3"
+    }
   },
   {
     "id": "wB1-1-0188",
     "level": "B1.1",
-    "word": "Probezeit",
-    "translation_fa": "دوره آزمایشی کار",
-    "translation_en": "probationary period",
-    "translation_ps": "ازمایښتي دوره",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/probezeit.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Probezeit",
+      "en": "probationary period",
+      "fa": "دوره آزمایشی کار",
+      "ps": "ازمایښتي دوره",
+      "fr": "période d'essai",
+      "tr": "deneme süresi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/probezeit.mp3"
+    }
   },
   {
     "id": "wB1-1-0189",
     "level": "B1.1",
-    "word": "Beförderung",
-    "translation_fa": "ترفیع شغلی",
-    "translation_en": "promotion (at work)",
-    "translation_ps": "ترقی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beförderung.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Beförderung",
+      "en": "promotion (at work)",
+      "fa": "ترفیع شغلی",
+      "ps": "ترقی",
+      "fr": "promotion",
+      "tr": "terfi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beförderung.mp3"
+    }
   },
   {
     "id": "wB1-1-0190",
     "level": "B1.1",
-    "word": "erfolgreich sein",
-    "translation_fa": "موفق بودن",
-    "translation_en": "to be successful",
-    "translation_ps": "بریالی اوسېدل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/erfolgreich_sein.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "erfolgreich sein",
+      "en": "to be successful",
+      "fa": "موفق بودن",
+      "ps": "بریالی اوسېدل",
+      "fr": "réussir",
+      "tr": "başarılı olmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/erfolgreich_sein.mp3"
+    }
   },
   {
     "id": "wB1-1-0191",
     "level": "B1.1",
-    "word": "Ungerechtigkeit",
-    "translation_fa": "بی‌عدالتی",
-    "translation_en": "injustice",
-    "translation_ps": "بې عدالتۍ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ungerechtigkeit.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Ungerechtigkeit",
+      "en": "injustice",
+      "fa": "بی‌عدالتی",
+      "ps": "بې عدالتۍ",
+      "fr": "injustice",
+      "tr": "adaletsizlik"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ungerechtigkeit.mp3"
+    }
   },
   {
     "id": "wB1-1-0192",
     "level": "B1.1",
-    "word": "gerecht",
-    "translation_fa": "عادلانه",
-    "translation_en": "fair, just",
-    "translation_ps": "عادلانه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gerecht.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "gerecht",
+      "en": "fair, just",
+      "fa": "عادلانه",
+      "ps": "عادلانه",
+      "fr": "juste, équitable",
+      "tr": "adil"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gerecht.mp3"
+    }
   },
   {
     "id": "wB1-1-0193",
     "level": "B1.1",
-    "word": "ungerecht",
-    "translation_fa": "ناعادلانه",
-    "translation_en": "unfair",
-    "translation_ps": "ناعادلانه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ungerecht.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "ungerecht",
+      "en": "unfair",
+      "fa": "ناعادلانه",
+      "ps": "ناعادلانه",
+      "fr": "injuste, inéquitable",
+      "tr": "adil olmayan"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ungerecht.mp3"
+    }
   },
   {
     "id": "wB1-1-0196",
     "level": "B1.1",
-    "word": "Unterstützung durch den Staat",
-    "translation_fa": "حمایت از طرف دولت",
-    "translation_en": "support from the state",
-    "translation_ps": "د دولت ملاتړ",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unterstützung_durch_den_staat.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Unterstützung durch den Staat",
+      "en": "support from the state",
+      "fa": "حمایت از طرف دولت",
+      "ps": "د دولت ملاتړ",
+      "fr": "soutien de l'État",
+      "tr": "devlet desteği"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unterstützung_durch_den_staat.mp3"
+    }
   },
   {
     "id": "wB1-1-0197",
     "level": "B1.1",
-    "word": "Sozialleistungen",
-    "translation_fa": "کمک‌های اجتماعی / مزایای اجتماعی",
-    "translation_en": "social benefits",
-    "translation_ps": "ټولنیزې ګټې",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sozialleistungen.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Sozialleistungen",
+      "en": "social benefits",
+      "fa": "کمک‌های اجتماعی / مزایای اجتماعی",
+      "ps": "ټولنیزې ګټې",
+      "fr": "prestations sociales",
+      "tr": "sosyal yardımlar"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sozialleistungen.mp3"
+    }
   },
   {
     "id": "wB1-1-0198",
     "level": "B1.1",
-    "word": "Bürgergeld",
-    "translation_fa": "کمک‌هزینهٔ Bürgergeld",
-    "translation_en": "citizen’s income (Bürgergeld)",
-    "translation_ps": "Bürgergeld",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bürgergeld.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Bürgergeld",
+      "en": "citizen’s income (Bürgergeld)",
+      "fa": "کمک‌هزینهٔ Bürgergeld",
+      "ps": "Bürgergeld",
+      "fr": "Bürgergeld",
+      "tr": "Bürgergeld"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bürgergeld.mp3"
+    }
   },
   {
     "id": "wB1-1-0199",
     "level": "B1.1",
-    "word": "Behörde",
-    "translation_fa": "اداره / نهاد دولتی",
-    "translation_en": "public authority, office",
-    "translation_ps": "عامه اداره",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/behörde.mp3",
     "image": "",
     "category": [
       "places_buildings",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Behörde",
+      "en": "public authority, office",
+      "fa": "اداره / نهاد دولتی",
+      "ps": "عامه اداره",
+      "fr": "autorité publique",
+      "tr": "kamu kurumu"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/behörde.mp3"
+    }
   },
   {
     "id": "wB1-1-0201",
     "level": "B1.1",
-    "word": "Zuschuss",
-    "translation_fa": "کمک‌هزینه / یارانه",
-    "translation_en": "subsidy, grant",
-    "translation_ps": "مرسته / سبسایډي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zuschuss.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Zuschuss",
+      "en": "subsidy, grant",
+      "fa": "کمک‌هزینه / یارانه",
+      "ps": "مرسته / سبسایډي",
+      "fr": "subvention",
+      "tr": "hibe"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zuschuss.mp3"
+    }
   },
   {
     "id": "wB1-1-0202",
     "level": "B1.1",
-    "word": "beantragen",
-    "translation_fa": "درخواست دادن",
-    "translation_en": "to apply for",
-    "translation_ps": "درخواست کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beantragen.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "beantragen",
+      "en": "to apply for",
+      "fa": "درخواست دادن",
+      "ps": "درخواست کول",
+      "fr": "demander",
+      "tr": "başvurmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beantragen.mp3"
+    }
   },
   {
     "id": "wB1-1-0203",
     "level": "B1.1",
-    "word": "Antrag",
-    "translation_fa": "درخواست / فرم درخواست",
-    "translation_en": "application form, request",
-    "translation_ps": "درخواست",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/antrag.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Antrag",
+      "en": "application form, request",
+      "fa": "درخواست / فرم درخواست",
+      "ps": "درخواست",
+      "fr": "demande",
+      "tr": "başvuru"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/antrag.mp3"
+    }
   },
   {
     "id": "wB1-1-0204",
     "level": "B1.1",
-    "word": "einreichen",
-    "translation_fa": "تحویل دادن / ارائه کردن",
-    "translation_en": "to submit",
-    "translation_ps": "سپارل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einreichen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "einreichen",
+      "en": "to submit",
+      "fa": "تحویل دادن / ارائه کردن",
+      "ps": "سپارل",
+      "fr": "soumettre",
+      "tr": "teslim etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einreichen.mp3"
+    }
   },
   {
     "id": "wB1-1-0205",
     "level": "B1.1",
-    "word": "Frist",
-    "translation_fa": "مهلت",
-    "translation_en": "deadline, time limit",
-    "translation_ps": "وروستۍ نېټه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/frist.mp3",
     "image": "",
     "category": [
       "time_date",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Frist",
+      "en": "deadline, time limit",
+      "fa": "مهلت",
+      "ps": "وروستۍ نېټه",
+      "fr": "date limite",
+      "tr": "son tarih"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/frist.mp3"
+    }
   },
   {
     "id": "wB1-1-0206",
     "level": "B1.1",
-    "word": "fristgerecht",
-    "translation_fa": "در مهلت تعیین‌شده",
-    "translation_en": "within deadline",
-    "translation_ps": "د ټاکلې نېټې دننه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/fristgerecht.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0207",
-    "level": "B1.1",
-    "word": "Nachweis",
-    "translation_fa": "مدرک / اثبات",
-    "translation_en": "proof, evidence",
-    "translation_ps": "ثبوت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/nachweis.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "der"
+    "words": {
+      "de": "fristgerecht",
+      "en": "within deadline",
+      "fa": "در مهلت تعیین‌شده",
+      "ps": "د ټاکلې نېټې دننه",
+      "fr": "dans les délais",
+      "tr": "süre içinde"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/fristgerecht.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0207",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "article": "der",
+    "words": {
+      "de": "Nachweis",
+      "en": "proof, evidence",
+      "fa": "مدرک / اثبات",
+      "ps": "ثبوت",
+      "fr": "preuve",
+      "tr": "kanıt"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/nachweis.mp3"
+    }
   },
   {
     "id": "wB1-1-0208",
     "level": "B1.1",
-    "word": "nachweisen",
-    "translation_fa": "اثبات کردن",
-    "translation_en": "to prove",
-    "translation_ps": "ثابتول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/nachweisen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "nachweisen",
+      "en": "to prove",
+      "fa": "اثبات کردن",
+      "ps": "ثابتول",
+      "fr": "prouver",
+      "tr": "kanıtlamak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/nachweisen.mp3"
+    }
   },
   {
     "id": "wB1-1-0209",
     "level": "B1.1",
-    "word": "Zeugnis",
-    "translation_fa": "گواهی‌نامه / کارنامه",
-    "translation_en": "certificate, report",
-    "translation_ps": "سند",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zeugnis.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Zeugnis",
+      "en": "certificate, report",
+      "fa": "گواهی‌نامه / کارنامه",
+      "ps": "سند",
+      "fr": "certificat, rapport",
+      "tr": "sertifika, rapor"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zeugnis.mp3"
+    }
   },
   {
     "id": "wB1-1-0210",
     "level": "B1.1",
-    "word": "Verantwortung übernehmen",
-    "translation_fa": "مسئولیت بر عهده گرفتن",
-    "translation_en": "to take responsibility",
-    "translation_ps": "مسئولیت منل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verantwortung_übernehmen.mp3",
     "image": "",
     "category": [
       "school_learning",
       "verb",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Verantwortung übernehmen",
+      "en": "to take responsibility",
+      "fa": "مسئولیت بر عهده گرفتن",
+      "ps": "مسئولیت منل",
+      "fr": "assumer la responsabilité",
+      "tr": "sorumluluk almak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verantwortung_übernehmen.mp3"
+    }
   },
   {
     "id": "wB1-1-0211",
     "level": "B1.1",
-    "word": "verantwortungsvoll",
-    "translation_fa": "مسئولانه",
-    "translation_en": "responsible (behavior)",
-    "translation_ps": "مسئولانه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verantwortungsvoll.mp3",
     "image": "",
     "category": [
       "school_learning",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "verantwortungsvoll",
+      "en": "responsible (behavior)",
+      "fa": "مسئولانه",
+      "ps": "مسئولانه",
+      "fr": "responsable",
+      "tr": "sorumlu"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verantwortungsvoll.mp3"
+    }
   },
   {
     "id": "wB1-1-0213",
     "level": "B1.1",
-    "word": "lohnend",
-    "translation_fa": "ارزشمند",
-    "translation_en": "worthwhile",
-    "translation_ps": "ارزښتناک",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/lohnend.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0214",
-    "level": "B1.1",
-    "word": "Voraussetzung erfüllen",
-    "translation_fa": "برآورده کردن شرط لازم",
-    "translation_en": "to meet a requirement",
-    "translation_ps": "شرط پوره کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/voraussetzung_erfüllen.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "words": {
+      "de": "lohnend",
+      "en": "worthwhile",
+      "fa": "ارزشمند",
+      "ps": "ارزښتناک",
+      "fr": "valeur",
+      "tr": "değerli"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/lohnend.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0214",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "article": "die",
+    "words": {
+      "de": "Voraussetzung erfüllen",
+      "en": "to meet a requirement",
+      "fa": "برآورده کردن شرط لازم",
+      "ps": "شرط پوره کول",
+      "fr": "satisfaire une exigence",
+      "tr": "bir gerekliliği karşılamak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/voraussetzung_erfüllen.mp3"
+    }
   },
   {
     "id": "wB1-1-0219",
     "level": "B1.1",
-    "word": "unfähig",
-    "translation_fa": "ناتوان",
-    "translation_en": "incapable",
-    "translation_ps": "ناتوان",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unfähig.mp3",
     "image": "",
     "category": [
       "greetings_politeness",
       "conversation_phrases",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "unfähig",
+      "en": "incapable",
+      "fa": "ناتوان",
+      "ps": "ناتوان",
+      "fr": "incapable",
+      "tr": "yetersiz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unfähig.mp3"
+    }
   },
   {
     "id": "wB1-1-0220",
     "level": "B1.1",
-    "word": "Pflicht",
-    "translation_fa": "وظیفه / تعهد",
-    "translation_en": "duty, obligation",
-    "translation_ps": "وجیبه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/pflicht.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Pflicht",
+      "en": "duty, obligation",
+      "fa": "وظیفه / تعهد",
+      "ps": "وجیبه",
+      "fr": "devoir, obligation",
+      "tr": "görev, zorunluluk"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/pflicht.mp3"
+    }
   },
   {
     "id": "wB1-1-0221",
     "level": "B1.1",
-    "word": "pflichtig",
-    "translation_fa": "موظف / الزامی",
-    "translation_en": "obliged, required",
-    "translation_ps": "مجبور / اړین",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/pflichtig.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "pflichtig",
+      "en": "obliged, required",
+      "fa": "موظف / الزامی",
+      "ps": "مجبور / اړین",
+      "fr": "obligé, requis",
+      "tr": "zorunlu, gerekli"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/pflichtig.mp3"
+    }
   },
   {
     "id": "wB1-1-0222",
     "level": "B1.1",
-    "word": "vermeiden",
-    "translation_fa": "اجتناب کردن",
-    "translation_en": "to avoid",
-    "translation_ps": "ډډه کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/vermeiden.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "vermeiden",
+      "en": "to avoid",
+      "fa": "اجتناب کردن",
+      "ps": "ډډه کول",
+      "fr": "éviter",
+      "tr": "kaçınmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/vermeiden.mp3"
+    }
   },
   {
     "id": "wB1-1-0224",
     "level": "B1.1",
-    "word": "Bedingung",
-    "translation_fa": "شرط",
-    "translation_en": "condition",
-    "translation_ps": "شرط",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bedingung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Bedingung",
+      "en": "condition",
+      "fa": "شرط",
+      "ps": "شرط",
+      "fr": "condition",
+      "tr": "şart"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bedingung.mp3"
+    }
   },
   {
     "id": "wB1-1-0225",
     "level": "B1.1",
-    "word": "unter der Bedingung, dass …",
-    "translation_fa": "به شرط اینکه ...",
-    "translation_en": "under the condition that …",
-    "translation_ps": "په دې شرط چې ...",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unter_der_bedingung,_dass_….mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "preposition"
-    ]
+    ],
+    "words": {
+      "de": "unter der Bedingung, dass …",
+      "en": "under the condition that …",
+      "fa": "به شرط اینکه ...",
+      "ps": "په دې شرط چې ...",
+      "fr": "à condition que …",
+      "tr": "şartıyla …"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unter_der_bedingung,_dass_….mp3"
+    }
   },
   {
     "id": "wB1-1-0226",
     "level": "B1.1",
-    "word": "abhängig sein von",
-    "translation_fa": "وابسته بودن به",
-    "translation_en": "to depend on",
-    "translation_ps": "په ... پورې تړلی/متکي وي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/abhängig_sein_von.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "abhängig sein von",
+      "en": "to depend on",
+      "fa": "وابسته بودن به",
+      "ps": "په ... پورې تړلی/متکي وي",
+      "fr": "dépendre de",
+      "tr": "bağlı olmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/abhängig_sein_von.mp3"
+    }
   },
   {
     "id": "wB1-1-0228",
     "level": "B1.1",
-    "word": "Genehmigung",
-    "translation_fa": "مجوز / اجازه",
-    "translation_en": "permission, approval",
-    "translation_ps": "اجازه / منظوري",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/genehmigung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Genehmigung",
+      "en": "permission, approval",
+      "fa": "مجوز / اجازه",
+      "ps": "اجازه / منظوري",
+      "fr": "autorisation, approbation",
+      "tr": "izin, onay"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/genehmigung.mp3"
+    }
   },
   {
     "id": "wB1-1-0229",
     "level": "B1.1",
-    "word": "genehmigen",
-    "translation_fa": "اجازه دادن / تایید کردن",
-    "translation_en": "to approve, permit",
-    "translation_ps": "منظور کول، اجازه ورکول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/genehmigen.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "genehmigen",
+      "en": "to approve, permit",
+      "fa": "اجازه دادن / تایید کردن",
+      "ps": "منظور کول، اجازه ورکول",
+      "fr": "approuver, autoriser",
+      "tr": "onaylamak, izin vermek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/genehmigen.mp3"
+    }
   },
   {
     "id": "wB1-1-0230",
     "level": "B1.1",
-    "word": "Aufenthaltserlaubnis",
-    "translation_fa": "اجازهٔ اقامت",
-    "translation_en": "residence permit",
-    "translation_ps": "د اوسېدو اجازه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/aufenthaltserlaubnis.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Aufenthaltserlaubnis",
+      "en": "residence permit",
+      "fa": "اجازهٔ اقامت",
+      "ps": "د اوسېدو اجازه",
+      "fr": "titre de séjour",
+      "tr": "oturma izni"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/aufenthaltserlaubnis.mp3"
+    }
   },
   {
     "id": "wB1-1-0232",
     "level": "B1.1",
-    "word": "Verlängerung",
-    "translation_fa": "تمدید",
-    "translation_en": "extension",
-    "translation_ps": "غځول، اوږدول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verlängerung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Verlängerung",
+      "en": "extension",
+      "fa": "تمدید",
+      "ps": "غځول، اوږدول",
+      "fr": "extension",
+      "tr": "uzatma"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verlängerung.mp3"
+    }
   },
   {
     "id": "wB1-1-0233",
     "level": "B1.1",
-    "word": "Einbürgerung",
-    "translation_fa": "دریافت تابعیت / شهروندی",
-    "translation_en": "naturalization",
-    "translation_ps": "تابعیت اخیستل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einbürgerung.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Einbürgerung",
+      "en": "naturalization",
+      "fa": "دریافت تابعیت / شهروندی",
+      "ps": "تابعیت اخیستل",
+      "fr": "naturalisation",
+      "tr": "vatandaşlığa geçiş"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einbürgerung.mp3"
+    }
   },
   {
     "id": "wB1-1-0234",
     "level": "B1.1",
-    "word": "sich einbürgern lassen",
-    "translation_fa": "شهروند شدن",
-    "translation_en": "to become naturalized",
-    "translation_ps": "تابعیت ترلاسه کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_einbürgern_lassen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "sich einbürgern lassen",
+      "en": "to become naturalized",
+      "fa": "شهروند شدن",
+      "ps": "تابعیت ترلاسه کول",
+      "fr": "devenir naturalisé",
+      "tr": "vatandaşlığa geçmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_einbürgern_lassen.mp3"
+    }
   },
   {
     "id": "wB1-1-0235",
     "level": "B1.1",
-    "word": "gültig",
-    "translation_fa": "معتبر",
-    "translation_en": "valid",
-    "translation_ps": "باوري، معتبر",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gültig.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "gültig",
+      "en": "valid",
+      "fa": "معتبر",
+      "ps": "باوري، معتبر",
+      "fr": "valide",
+      "tr": "geçerli"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gültig.mp3"
+    }
   },
   {
     "id": "wB1-1-0236",
     "level": "B1.1",
-    "word": "ungültig",
-    "translation_fa": "نامعتبر",
-    "translation_en": "invalid",
-    "translation_ps": "ناسم، بې اعتبار",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ungültig.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "ungültig",
+      "en": "invalid",
+      "fa": "نامعتبر",
+      "ps": "ناسم، بې اعتبار",
+      "fr": "invalide",
+      "tr": "geçersiz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ungültig.mp3"
+    }
   },
   {
     "id": "wB1-1-0237",
     "level": "B1.1",
-    "word": "Versicherung",
-    "translation_fa": "بیمه",
-    "translation_en": "insurance",
-    "translation_ps": "بیمه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/versicherung.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Versicherung",
+      "en": "insurance",
+      "fa": "بیمه",
+      "ps": "بیمه",
+      "fr": "assurance",
+      "tr": "sigorta"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/versicherung.mp3"
+    }
   },
   {
     "id": "wB1-1-0238",
     "level": "B1.1",
-    "word": "versichert sein",
-    "translation_fa": "بیمه بودن",
-    "translation_en": "to be insured",
-    "translation_ps": "بیمه لرل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/versichert_sein.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "versichert sein",
+      "en": "to be insured",
+      "fa": "بیمه بودن",
+      "ps": "بیمه لرل",
+      "fr": "être assuré",
+      "tr": "sigortalı olmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/versichert_sein.mp3"
+    }
   },
   {
     "id": "wB1-1-0239",
     "level": "B1.1",
-    "word": "Krankenversicherung",
-    "translation_fa": "بیمه درمانی",
-    "translation_en": "health insurance",
-    "translation_ps": "د روغتیا بیمه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/krankenversicherung.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Krankenversicherung",
+      "en": "health insurance",
+      "fa": "بیمه درمانی",
+      "ps": "د روغتیا بیمه",
+      "fr": "assurance maladie",
+      "tr": "sağlık sigortası"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/krankenversicherung.mp3"
+    }
   },
   {
     "id": "wB1-1-0240",
     "level": "B1.1",
-    "word": "Haftpflichtversicherung",
-    "translation_fa": "بیمه مسئولیت",
-    "translation_en": "liability insurance",
-    "translation_ps": "د مسئولیت بیمه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/haftpflichtversicherung.mp3",
     "image": "",
     "category": [
       "services_authorities",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Haftpflichtversicherung",
+      "en": "liability insurance",
+      "fa": "بیمه مسئولیت",
+      "ps": "د مسئولیت بیمه",
+      "fr": "assurance responsabilité",
+      "tr": "sorumluluk sigortası"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/haftpflichtversicherung.mp3"
+    }
   },
   {
     "id": "wB1-1-0241",
     "level": "B1.1",
-    "word": "Altersvorsorge",
-    "translation_fa": "پس‌انداز دوران بازنشستگی",
-    "translation_en": "retirement provision",
-    "translation_ps": "د تقاعد لپاره چمتوالی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/altersvorsorge.mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Altersvorsorge",
+      "en": "retirement provision",
+      "fa": "پس‌انداز دوران بازنشستگی",
+      "ps": "د تقاعد لپاره چمتوالی",
+      "fr": "prévoyance retraite",
+      "tr": "emeklilik tasarrufu"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/altersvorsorge.mp3"
+    }
   },
   {
     "id": "wB1-1-0242",
     "level": "B1.1",
-    "word": "Rente",
-    "translation_fa": "بازنشستگی / حقوق بازنشستگی",
-    "translation_en": "pension",
-    "translation_ps": "تقاعد، تقاعدي معاش",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/rente.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Rente",
+      "en": "pension",
+      "fa": "بازنشستگی / حقوق بازنشستگی",
+      "ps": "تقاعد، تقاعدي معاش",
+      "fr": "pension",
+      "tr": "emekli maaşı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/rente.mp3"
+    }
   },
   {
     "id": "wB1-1-0243",
     "level": "B1.1",
-    "word": "in Rente gehen",
-    "translation_fa": "بازنشسته شدن",
-    "translation_en": "to retire",
-    "translation_ps": "تقاعد ته تلل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/in_rente_gehen.mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "verb",
       "preposition"
-    ]
+    ],
+    "words": {
+      "de": "in Rente gehen",
+      "en": "to retire",
+      "fa": "بازنشسته شدن",
+      "ps": "تقاعد ته تلل",
+      "fr": "prendre sa retraite",
+      "tr": "emekli olmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/in_rente_gehen.mp3"
+    }
   },
   {
     "id": "wB1-1-0244",
     "level": "B1.1",
-    "word": "Belastung",
-    "translation_fa": "فشار / بار روانی",
-    "translation_en": "burden, stress",
-    "translation_ps": "بار، فشار",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/belastung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Belastung",
+      "en": "burden, stress",
+      "fa": "فشار / بار روانی",
+      "ps": "بار، فشار",
+      "fr": "charge, stress",
+      "tr": "yük, stres"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/belastung.mp3"
+    }
   },
   {
     "id": "wB1-1-0245",
     "level": "B1.1",
-    "word": "belastend",
-    "translation_fa": "فشارآور",
-    "translation_en": "burdensome",
-    "translation_ps": "دروند، فشار راوړونکی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/belastend.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "belastend",
+      "en": "burdensome",
+      "fa": "فشارآور",
+      "ps": "دروند، فشار راوړونکی",
+      "fr": "pénible",
+      "tr": "yükleyici"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/belastend.mp3"
+    }
   },
   {
     "id": "wB1-1-0246",
     "level": "B1.1",
-    "word": "Herausforderung meistern",
-    "translation_fa": "غلبه کردن بر چالش",
-    "translation_en": "to master a challenge",
-    "translation_ps": "له ستونزې بریالی کېدل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/herausforderung_meistern.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Herausforderung meistern",
+      "en": "to master a challenge",
+      "fa": "غلبه کردن بر چالش",
+      "ps": "له ستونزې بریالی کېدل",
+      "fr": "relever un défi",
+      "tr": "bir zorluğun üstesinden gelmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/herausforderung_meistern.mp3"
+    }
   },
   {
     "id": "wB1-1-0247",
     "level": "B1.1",
-    "word": "bewältigen",
-    "translation_fa": "غلبه کردن / مدیریت کردن",
-    "translation_en": "to cope with, overcome",
-    "translation_ps": "غلبه کول، مقابله کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bewältigen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "bewältigen",
+      "en": "to cope with, overcome",
+      "fa": "غلبه کردن / مدیریت کردن",
+      "ps": "غلبه کول، مقابله کول",
+      "fr": "gérer, surmonter",
+      "tr": "üstesinden gelmek, başa çıkmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bewältigen.mp3"
+    }
   },
   {
     "id": "wB1-1-0248",
     "level": "B1.1",
-    "word": "Zusammenfassung",
-    "translation_fa": "خلاصه",
-    "translation_en": "summary",
-    "translation_ps": "لنډیز",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zusammenfassung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Zusammenfassung",
+      "en": "summary",
+      "fa": "خلاصه",
+      "ps": "لنډیز",
+      "fr": "résumé",
+      "tr": "özet"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zusammenfassung.mp3"
+    }
   },
   {
     "id": "wB1-1-0249",
     "level": "B1.1",
-    "word": "zusammenfassen",
-    "translation_fa": "خلاصه کردن",
-    "translation_en": "to summarize",
-    "translation_ps": "لنډول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zusammenfassen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "zusammenfassen",
+      "en": "to summarize",
+      "fa": "خلاصه کردن",
+      "ps": "لنډول",
+      "fr": "résumer",
+      "tr": "özetlemek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zusammenfassen.mp3"
+    }
   },
   {
     "id": "wB1-1-0250",
     "level": "B1.1",
-    "word": "Ursache",
-    "translation_fa": "علت",
-    "translation_en": "cause",
-    "translation_ps": "سبب، علت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ursache.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Ursache",
+      "en": "cause",
+      "fa": "علت",
+      "ps": "سبب، علت",
+      "fr": "cause",
+      "tr": "sebep"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ursache.mp3"
+    }
   },
   {
     "id": "wB1-1-0251",
     "level": "B1.1",
-    "word": "Wirkung",
-    "translation_fa": "اثر",
-    "translation_en": "effect",
-    "translation_ps": "اغېز، نتیجه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/wirkung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Wirkung",
+      "en": "effect",
+      "fa": "اثر",
+      "ps": "اغېز، نتیجه",
+      "fr": "effet",
+      "tr": "etki"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/wirkung.mp3"
+    }
   },
   {
     "id": "wB1-1-0253",
     "level": "B1.1",
-    "word": "Voraussetzung schaffen",
-    "translation_fa": "ایجاد شرایط لازم",
-    "translation_en": "to create the conditions",
-    "translation_ps": "شرایط برابرول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/voraussetzung_schaffen.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Voraussetzung schaffen",
+      "en": "to create the conditions",
+      "fa": "ایجاد شرایط لازم",
+      "ps": "شرایط برابرول",
+      "fr": "créer les conditions",
+      "tr": "şartları oluşturmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/voraussetzung_schaffen.mp3"
+    }
   },
   {
     "id": "wB1-1-0254",
     "level": "B1.1",
-    "word": "zweifeln an",
-    "translation_fa": "شک کردن به",
-    "translation_en": "to doubt",
-    "translation_ps": "په... شک کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zweifeln_an.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0255",
-    "level": "B1.1",
-    "word": "zweifellos",
-    "translation_fa": "بی‌شک",
-    "translation_en": "without a doubt",
-    "translation_ps": "بې له شکه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zweifellos.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0256",
-    "level": "B1.1",
-    "word": "bevorzugen",
-    "translation_fa": "ترجیح دادن",
-    "translation_en": "to prefer",
-    "translation_ps": "ترجیح ورکول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bevorzugen.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0257",
-    "level": "B1.1",
-    "word": "Vorliebe",
-    "translation_fa": "علاقه / ترجیح",
-    "translation_en": "preference",
-    "translation_ps": "خوښي / ترجیح",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/vorliebe.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "words": {
+      "de": "zweifeln an",
+      "en": "to doubt",
+      "fa": "شک کردن به",
+      "ps": "په... شک کول",
+      "fr": "douter de",
+      "tr": "şüphe etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zweifeln_an.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0255",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "words": {
+      "de": "zweifellos",
+      "en": "without a doubt",
+      "fa": "بی‌شک",
+      "ps": "بې له شکه",
+      "fr": "sans aucun doute",
+      "tr": "şüphesiz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zweifellos.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0256",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "words": {
+      "de": "bevorzugen",
+      "en": "to prefer",
+      "fa": "ترجیح دادن",
+      "ps": "ترجیح ورکول",
+      "fr": "préférer",
+      "tr": "tercih etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bevorzugen.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0257",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "article": "die",
+    "words": {
+      "de": "Vorliebe",
+      "en": "preference",
+      "fa": "علاقه / ترجیح",
+      "ps": "خوښي / ترجیح",
+      "fr": "préférence",
+      "tr": "tercih"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/vorliebe.mp3"
+    }
   },
   {
     "id": "wB1-1-0258",
     "level": "B1.1",
-    "word": "sowohl … als auch",
-    "translation_fa": "هم … و هم",
-    "translation_en": "both … and",
-    "translation_ps": "هم … او هم",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sowohl_…_als_auch.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "sowohl … als auch",
+      "en": "both … and",
+      "fa": "هم … و هم",
+      "ps": "هم … او هم",
+      "fr": "à la fois … et",
+      "tr": "hem … hem de"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sowohl_…_als_auch.mp3"
+    }
   },
   {
     "id": "wB1-1-0259",
     "level": "B1.1",
-    "word": "entweder … oder",
-    "translation_fa": "یا … یا",
-    "translation_en": "either … or",
-    "translation_ps": "یا … یا",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/entweder_…_oder.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "entweder … oder",
+      "en": "either … or",
+      "fa": "یا … یا",
+      "ps": "یا … یا",
+      "fr": "soit … soit",
+      "tr": "ya … ya"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/entweder_…_oder.mp3"
+    }
   },
   {
     "id": "wB1-1-0260",
     "level": "B1.1",
-    "word": "weder … noch",
-    "translation_fa": "نه … نه",
-    "translation_en": "neither … nor",
-    "translation_ps": "نه … او نه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/weder_…_noch.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "weder … noch",
+      "en": "neither … nor",
+      "fa": "نه … نه",
+      "ps": "نه … او نه",
+      "fr": "ni … ni",
+      "tr": "ne … ne de"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/weder_…_noch.mp3"
+    }
   },
   {
     "id": "wB1-1-0261",
     "level": "B1.1",
-    "word": "obwohl",
-    "translation_fa": "با اینکه / هرچند",
-    "translation_en": "although, even though",
-    "translation_ps": "سره له دې چې",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/obwohl.mp3",
     "image": "",
     "category": [
       "conversation_phrases",
       "conjunction"
-    ]
+    ],
+    "words": {
+      "de": "obwohl",
+      "en": "although, even though",
+      "fa": "با اینکه / هرچند",
+      "ps": "سره له دې چې",
+      "fr": "bien que",
+      "tr": "rağmen"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/obwohl.mp3"
+    }
   },
   {
     "id": "wB1-1-0262",
     "level": "B1.1",
-    "word": "trotzdem",
-    "translation_fa": "با این حال / با وجود این",
-    "translation_en": "nevertheless",
-    "translation_ps": "باوجود دې",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/trotzdem.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "trotzdem",
+      "en": "nevertheless",
+      "fa": "با این حال / با وجود این",
+      "ps": "باوجود دې",
+      "fr": "néanmoins",
+      "tr": "yine de"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/trotzdem.mp3"
+    }
   },
   {
     "id": "wB1-1-0263",
     "level": "B1.1",
-    "word": "daher",
-    "translation_fa": "از این رو / بنابراین",
-    "translation_en": "therefore",
-    "translation_ps": "له همدې امله",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/daher.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "daher",
+      "en": "therefore",
+      "fa": "از این رو / بنابراین",
+      "ps": "له همدې امله",
+      "fr": "donc",
+      "tr": "bu yüzden"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/daher.mp3"
+    }
   },
   {
     "id": "wB1-1-0264",
     "level": "B1.1",
-    "word": "darum",
-    "translation_fa": "به همین دلیل",
-    "translation_en": "therefore, that’s why",
-    "translation_ps": "له همدې امله",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/darum.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "darum",
+      "en": "therefore, that’s why",
+      "fa": "به همین دلیل",
+      "ps": "له همدې امله",
+      "fr": "c’est pourquoi",
+      "tr": "işte bu yüzden"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/darum.mp3"
+    }
   },
   {
     "id": "wB1-1-0265",
     "level": "B1.1",
-    "word": "weshalb",
-    "translation_fa": "چرا / به چه دلیل",
-    "translation_en": "why, for what reason",
-    "translation_ps": "ولې / د څه لپاره",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/weshalb.mp3",
     "image": "",
     "category": [
       "questions_answers",
       "conversation_phrases",
       "question_word"
-    ]
+    ],
+    "words": {
+      "de": "weshalb",
+      "en": "why, for what reason",
+      "fa": "چرا / به چه دلیل",
+      "ps": "ولې / د څه لپاره",
+      "fr": "pourquoi",
+      "tr": "neden"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/weshalb.mp3"
+    }
   },
   {
     "id": "wB1-1-0266",
     "level": "B1.1",
-    "word": "zwar",
-    "translation_fa": "البته … اما",
-    "translation_en": "indeed … but",
-    "translation_ps": "په رښتیا … خو",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zwar.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "zwar",
+      "en": "indeed … but",
+      "fa": "البته … اما",
+      "ps": "په رښتیا … خو",
+      "fr": "certes … mais",
+      "tr": "gerçi … ama"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zwar.mp3"
+    }
   },
   {
     "id": "wB1-1-0267",
     "level": "B1.1",
-    "word": "künstlerisch",
-    "translation_fa": "هنری",
-    "translation_en": "artistic",
-    "translation_ps": "هنري",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/künstlerisch.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "künstlerisch",
+      "en": "artistic",
+      "fa": "هنری",
+      "ps": "هنري",
+      "fr": "artistique",
+      "tr": "sanatsal"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/künstlerisch.mp3"
+    }
   },
   {
     "id": "wB1-1-0268",
     "level": "B1.1",
-    "word": "Kunst",
-    "translation_fa": "هنر",
-    "translation_en": "art",
-    "translation_ps": "هنر",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kunst.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Kunst",
+      "en": "art",
+      "fa": "هنر",
+      "ps": "هنر",
+      "fr": "art",
+      "tr": "sanat"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kunst.mp3"
+    }
   },
   {
     "id": "wB1-1-0269",
     "level": "B1.1",
-    "word": "Künstler",
-    "translation_fa": "هنرمند (مرد)",
-    "translation_en": "artist (male)",
-    "translation_ps": "هنرمند (نرینه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/künstler.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Künstler",
+      "en": "artist (male)",
+      "fa": "هنرمند (مرد)",
+      "ps": "هنرمند (نرینه)",
+      "fr": "artiste (homme)",
+      "tr": "erkek sanatçı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/künstler.mp3"
+    }
   },
   {
     "id": "wB1-1-0270",
     "level": "B1.1",
-    "word": "Künstlerin",
-    "translation_fa": "هنرمند (زن)",
-    "translation_en": "artist (female)",
-    "translation_ps": "هنرمنده (ښځه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/künstlerin.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Künstlerin",
+      "en": "artist (female)",
+      "fa": "هنرمند (زن)",
+      "ps": "هنرمنده (ښځه)",
+      "fr": "artiste (femme)",
+      "tr": "kadın sanatçı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/künstlerin.mp3"
+    }
   },
   {
     "id": "wB1-1-0271",
     "level": "B1.1",
-    "word": "Ausstellung",
-    "translation_fa": "نمایشگاه",
-    "translation_en": "exhibition",
-    "translation_ps": "نندارتون",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ausstellung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Ausstellung",
+      "en": "exhibition",
+      "fa": "نمایشگاه",
+      "ps": "نندارتون",
+      "fr": "exposition",
+      "tr": "sergi"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ausstellung.mp3"
+    }
   },
   {
     "id": "wB1-1-0272",
     "level": "B1.1",
-    "word": "Werk",
-    "translation_fa": "اثر هنری",
-    "translation_en": "work of art",
-    "translation_ps": "هنري اثر",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/werk.mp3",
     "image": "",
     "category": [
       "work_office",
       "noun"
     ],
-    "article": "das"
+    "article": "das",
+    "words": {
+      "de": "Werk",
+      "en": "work of art",
+      "fa": "اثر هنری",
+      "ps": "هنري اثر",
+      "fr": "œuvre d'art",
+      "tr": "sanat eseri"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/werk.mp3"
+    }
   },
   {
     "id": "wB1-1-0274",
     "level": "B1.1",
-    "word": "veranstalten",
-    "translation_fa": "برگزار کردن",
-    "translation_en": "to organize (an event)",
-    "translation_ps": "تنظیمول (یو پیښه)",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/veranstalten.mp3",
     "image": "",
     "category": [
       "culture_events",
       "verb"
-    ]
+    ],
+    "words": {
+      "de": "veranstalten",
+      "en": "to organize (an event)",
+      "fa": "برگزار کردن",
+      "ps": "تنظیمول (یو پیښه)",
+      "fr": "organiser (un événement)",
+      "tr": "düzenlemek (bir etkinlik)"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/veranstalten.mp3"
+    }
   },
   {
     "id": "wB1-1-0281",
     "level": "B1.1",
-    "word": "Erzählung",
-    "translation_fa": "روایت",
-    "translation_en": "narrative",
-    "translation_ps": "کیسه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/erzählung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Erzählung",
+      "en": "narrative",
+      "fa": "روایت",
+      "ps": "کیسه",
+      "fr": "récit",
+      "tr": "anlatı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/erzählung.mp3"
+    }
   },
   {
     "id": "wB1-1-0282",
     "level": "B1.1",
-    "word": "Inhalt",
-    "translation_fa": "محتوا",
-    "translation_en": "content",
-    "translation_ps": "مینځپانګه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/inhalt.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Inhalt",
+      "en": "content",
+      "fa": "محتوا",
+      "ps": "مینځپانګه",
+      "fr": "contenu",
+      "tr": "içerik"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/inhalt.mp3"
+    }
   },
   {
     "id": "wB1-1-0283",
     "level": "B1.1",
-    "word": "enthalten",
-    "translation_fa": "شامل بودن",
-    "translation_en": "to contain",
-    "translation_ps": "لرل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/enthalten.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "enthalten",
+      "en": "to contain",
+      "fa": "شامل بودن",
+      "ps": "لرل",
+      "fr": "contenir",
+      "tr": "içermek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/enthalten.mp3"
+    }
   },
   {
     "id": "wB1-1-0286",
     "level": "B1.1",
-    "word": "Bericht",
-    "translation_fa": "گزارش",
-    "translation_en": "report",
-    "translation_ps": "راپور",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bericht.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Bericht",
+      "en": "report",
+      "fa": "گزارش",
+      "ps": "راپور",
+      "fr": "rapport",
+      "tr": "rapor"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/bericht.mp3"
+    }
   },
   {
     "id": "wB1-1-0287",
     "level": "B1.1",
-    "word": "berichten",
-    "translation_fa": "گزارش دادن",
-    "translation_en": "to report",
-    "translation_ps": "راپور ورکول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/berichten.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0290",
-    "level": "B1.1",
-    "word": "Enttäuschung",
-    "translation_fa": "ناامیدی / دل‌سردی",
-    "translation_en": "disappointment",
-    "translation_ps": "مایوسي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/enttäuschung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "words": {
+      "de": "berichten",
+      "en": "to report",
+      "fa": "گزارش دادن",
+      "ps": "راپور ورکول",
+      "fr": "rapporter",
+      "tr": "rapor vermek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/berichten.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0290",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "article": "die",
+    "words": {
+      "de": "Enttäuschung",
+      "en": "disappointment",
+      "fa": "ناامیدی / دل‌سردی",
+      "ps": "مایوسي",
+      "fr": "déception",
+      "tr": "hayal kırıklığı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/enttäuschung.mp3"
+    }
   },
   {
     "id": "wB1-1-0291",
     "level": "B1.1",
-    "word": "enttäuscht sein",
-    "translation_fa": "ناامید بودن",
-    "translation_en": "to be disappointed",
-    "translation_ps": "مایوسه کېدل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/enttäuscht_sein.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "enttäuscht sein",
+      "en": "to be disappointed",
+      "fa": "ناامید بودن",
+      "ps": "مایوسه کېدل",
+      "fr": "être déçu",
+      "tr": "hayal kırıklığına uğramak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/enttäuscht_sein.mp3"
+    }
   },
   {
     "id": "wB1-1-0293",
     "level": "B1.1",
-    "word": "hoffnungsvoll",
-    "translation_fa": "امیدوار",
-    "translation_en": "hopeful",
-    "translation_ps": "هیله‌مند",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/hoffnungsvoll.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "hoffnungsvoll",
+      "en": "hopeful",
+      "fa": "امیدوار",
+      "ps": "هیله‌مند",
+      "fr": "plein d'espoir",
+      "tr": "umutlu"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/hoffnungsvoll.mp3"
+    }
   },
   {
     "id": "wB1-1-0294",
     "level": "B1.1",
-    "word": "hoffnungslos",
-    "translation_fa": "ناامید",
-    "translation_en": "hopeless",
-    "translation_ps": "بې‌هیله",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/hoffnungslos.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "hoffnungslos",
+      "en": "hopeless",
+      "fa": "ناامید",
+      "ps": "بې‌هیله",
+      "fr": "sans espoir",
+      "tr": "umutsuz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/hoffnungslos.mp3"
+    }
   },
   {
     "id": "wB1-1-0298",
     "level": "B1.1",
-    "word": "beeindrucken",
-    "translation_fa": "تحت تأثیر قرار دادن",
-    "translation_en": "to impress",
-    "translation_ps": "متاثر کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beeindrucken.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "beeindrucken",
+      "en": "to impress",
+      "fa": "تحت تأثیر قرار دادن",
+      "ps": "متاثر کول",
+      "fr": "impressionner",
+      "tr": "etkilemek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beeindrucken.mp3"
+    }
   },
   {
     "id": "wB1-1-0303",
     "level": "B1.1",
-    "word": "unterscheiden",
-    "translation_fa": "تشخیص دادن / فرق گذاشتن",
-    "translation_en": "to distinguish",
-    "translation_ps": "بیل کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unterscheiden.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "unterscheiden",
+      "en": "to distinguish",
+      "fa": "تشخیص دادن / فرق گذاشتن",
+      "ps": "بیل کول",
+      "fr": "distinguer",
+      "tr": "ayırt etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unterscheiden.mp3"
+    }
   },
   {
     "id": "wB1-1-0304",
     "level": "B1.1",
-    "word": "Unterschied",
-    "translation_fa": "تفاوت",
-    "translation_en": "difference",
-    "translation_ps": "فرق",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unterschied.mp3",
     "image": "",
     "category": [
       "greetings_politeness",
       "conversation_phrases",
       "noun"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Unterschied",
+      "en": "difference",
+      "fa": "تفاوت",
+      "ps": "فرق",
+      "fr": "différence",
+      "tr": "fark"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/unterschied.mp3"
+    }
   },
   {
     "id": "wB1-1-0305",
     "level": "B1.1",
-    "word": "beurteilen",
-    "translation_fa": "قضاوت کردن / ارزیابی کردن",
-    "translation_en": "to judge, to assess",
-    "translation_ps": "قضاوت کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beurteilen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "beurteilen",
+      "en": "to judge, to assess",
+      "fa": "قضاوت کردن / ارزیابی کردن",
+      "ps": "قضاوت کول",
+      "fr": "juger, évaluer",
+      "tr": "yargılamak, değerlendirmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beurteilen.mp3"
+    }
   },
   {
     "id": "wB1-1-0306",
     "level": "B1.1",
-    "word": "Beurteilung",
-    "translation_fa": "ارزیابی / قضاوت",
-    "translation_en": "assessment",
-    "translation_ps": "ارزونه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beurteilung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Beurteilung",
+      "en": "assessment",
+      "fa": "ارزیابی / قضاوت",
+      "ps": "ارزونه",
+      "fr": "évaluation",
+      "tr": "değerlendirme"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beurteilung.mp3"
+    }
   },
   {
     "id": "wB1-1-0309",
     "level": "B1.1",
-    "word": "kritisch",
-    "translation_fa": "انتقادی",
-    "translation_en": "critical",
-    "translation_ps": "انتقادي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kritisch.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "kritisch",
+      "en": "critical",
+      "fa": "انتقادی",
+      "ps": "انتقادي",
+      "fr": "critique",
+      "tr": "eleştirel"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kritisch.mp3"
+    }
   },
   {
     "id": "wB1-1-0310",
     "level": "B1.1",
-    "word": "Kritik",
-    "translation_fa": "انتقاد",
-    "translation_en": "criticism",
-    "translation_ps": "انتقاد",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kritik.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Kritik",
+      "en": "criticism",
+      "fa": "انتقاد",
+      "ps": "انتقاد",
+      "fr": "critique",
+      "tr": "eleştiri"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kritik.mp3"
+    }
   },
   {
     "id": "wB1-1-0311",
     "level": "B1.1",
-    "word": "kritisieren",
-    "translation_fa": "انتقاد کردن",
-    "translation_en": "to criticize",
-    "translation_ps": "انتقاد کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kritisieren.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "kritisieren",
+      "en": "to criticize",
+      "fa": "انتقاد کردن",
+      "ps": "انتقاد کول",
+      "fr": "critiquer",
+      "tr": "eleştirmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/kritisieren.mp3"
+    }
   },
   {
     "id": "wB1-1-0312",
     "level": "B1.1",
-    "word": "Zustimmung",
-    "translation_fa": "موافقت",
-    "translation_en": "approval, agreement",
-    "translation_ps": "موافقت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zustimmung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Zustimmung",
+      "en": "approval, agreement",
+      "fa": "موافقت",
+      "ps": "موافقت",
+      "fr": "approbation",
+      "tr": "onay"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zustimmung.mp3"
+    }
   },
   {
     "id": "wB1-1-0314",
     "level": "B1.1",
-    "word": "Ablehnung",
-    "translation_fa": "رد / عدم پذیرش",
-    "translation_en": "rejection",
-    "translation_ps": "رد",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ablehnung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Ablehnung",
+      "en": "rejection",
+      "fa": "رد / عدم پذیرش",
+      "ps": "رد",
+      "fr": "rejet",
+      "tr": "reddetme"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/ablehnung.mp3"
+    }
   },
   {
     "id": "wB1-1-0317",
     "level": "B1.1",
-    "word": "werben für",
-    "translation_fa": "تبلیغ کردن برای",
-    "translation_en": "to advertise for",
-    "translation_ps": "اعلان کول د",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/werben_für.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "werben für",
+      "en": "to advertise for",
+      "fa": "تبلیغ کردن برای",
+      "ps": "اعلان کول د",
+      "fr": "faire la publicité de",
+      "tr": "reklam yapmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/werben_für.mp3"
+    }
   },
   {
     "id": "wB1-1-0319",
     "level": "B1.1",
-    "word": "überzeugend",
-    "translation_fa": "قانع‌کننده",
-    "translation_en": "convincing",
-    "translation_ps": "قانع کوونکی",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/überzeugend.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "überzeugend",
+      "en": "convincing",
+      "fa": "قانع‌کننده",
+      "ps": "قانع کوونکی",
+      "fr": "convaincant",
+      "tr": "inandırıcı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/überzeugend.mp3"
+    }
   },
   {
     "id": "wB1-1-0324",
     "level": "B1.1",
-    "word": "Beitrag",
-    "translation_fa": "مشارکت / سهم",
-    "translation_en": "contribution",
-    "translation_ps": "ګډون",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beitrag.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Beitrag",
+      "en": "contribution",
+      "fa": "مشارکت / سهم",
+      "ps": "ګډون",
+      "fr": "contribution",
+      "tr": "katkı"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beitrag.mp3"
+    }
   },
   {
     "id": "wB1-1-0325",
     "level": "B1.1",
-    "word": "beitragen zu",
-    "translation_fa": "سهم داشتن در",
-    "translation_en": "to contribute to",
-    "translation_ps": "ګډون کول په",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beitragen_zu.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "beitragen zu",
+      "en": "to contribute to",
+      "fa": "سهم داشتن در",
+      "ps": "ګډون کول په",
+      "fr": "contribuer à",
+      "tr": "katkıda bulunmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/beitragen_zu.mp3"
+    }
   },
   {
     "id": "wB1-1-0326",
     "level": "B1.1",
-    "word": "Anerkennung",
-    "translation_fa": "قدردانی / شناسایی",
-    "translation_en": "recognition",
-    "translation_ps": "پیژندنه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/anerkennung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Anerkennung",
+      "en": "recognition",
+      "fa": "قدردانی / شناسایی",
+      "ps": "پیژندنه",
+      "fr": "reconnaissance",
+      "tr": "tanıma"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/anerkennung.mp3"
+    }
   },
   {
     "id": "wB1-1-0327",
     "level": "B1.1",
-    "word": "anerkennen",
-    "translation_fa": "به رسمیت شناختن / قدردانی کردن",
-    "translation_en": "to recognize, appreciate",
-    "translation_ps": "پیژندل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/anerkennen.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "anerkennen",
+      "en": "to recognize, appreciate",
+      "fa": "به رسمیت شناختن / قدردانی کردن",
+      "ps": "پیژندل",
+      "fr": "reconnaître, apprécier",
+      "tr": "tanımak, takdir etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/anerkennen.mp3"
+    }
   },
   {
     "id": "wB1-1-0329",
     "level": "B1.1",
-    "word": "konfliktfrei",
-    "translation_fa": "بدون اختلاف",
-    "translation_en": "without conflict",
-    "translation_ps": "بې شخړې",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/konfliktfrei.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "konfliktfrei",
+      "en": "without conflict",
+      "fa": "بدون اختلاف",
+      "ps": "بې شخړې",
+      "fr": "sans conflit",
+      "tr": "çatışmasız"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/konfliktfrei.mp3"
+    }
   },
   {
     "id": "wB1-1-0332",
     "level": "B1.1",
-    "word": "Pflicht erfüllen",
-    "translation_fa": "انجام وظیفه",
-    "translation_en": "to fulfill one’s duty",
-    "translation_ps": "خپل مسئولیت پوره کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/pflicht_erfüllen.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Pflicht erfüllen",
+      "en": "to fulfill one’s duty",
+      "fa": "انجام وظیفه",
+      "ps": "خپل مسئولیت پوره کول",
+      "fr": "remplir son devoir",
+      "tr": "görevini yerine getirmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/pflicht_erfüllen.mp3"
+    }
   },
   {
     "id": "wB1-1-0336",
     "level": "B1.1",
-    "word": "Zusammenhang",
-    "translation_fa": "ارتباط / زمینه",
-    "translation_en": "connection, context",
-    "translation_ps": "اړیکه",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zusammenhang.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "der"
+    "article": "der",
+    "words": {
+      "de": "Zusammenhang",
+      "en": "connection, context",
+      "fa": "ارتباط / زمینه",
+      "ps": "اړیکه",
+      "fr": "lien, contexte",
+      "tr": "bağlantı, bağlam"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zusammenhang.mp3"
+    }
   },
   {
     "id": "wB1-1-0337",
     "level": "B1.1",
-    "word": "zusammenhängen mit",
-    "translation_fa": "مرتبط بودن با",
-    "translation_en": "to be connected with",
-    "translation_ps": "اړیکه لرل له",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zusammenhängen_mit.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "zusammenhängen mit",
+      "en": "to be connected with",
+      "fa": "مرتبط بودن با",
+      "ps": "اړیکه لرل له",
+      "fr": "être lié à",
+      "tr": "ile bağlantılı olmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/zusammenhängen_mit.mp3"
+    }
   },
   {
     "id": "wB1-1-0338",
     "level": "B1.1",
-    "word": "gewöhnlich",
-    "translation_fa": "عادی / معمولی",
-    "translation_en": "usual, ordinary",
-    "translation_ps": "عادي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gewöhnlich.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "gewöhnlich",
+      "en": "usual, ordinary",
+      "fa": "عادی / معمولی",
+      "ps": "عادي",
+      "fr": "habituel, ordinaire",
+      "tr": "alışılmış, sıradan"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/gewöhnlich.mp3"
+    }
   },
   {
     "id": "wB1-1-0344",
     "level": "B1.1",
-    "word": "sich erkälten",
-    "translation_fa": "سرما خوردن",
-    "translation_en": "to catch a cold",
-    "translation_ps": "سړه کېدل",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_erkälten.mp3",
     "image": "",
     "category": [
       "uncategorized"
-    ]
+    ],
+    "words": {
+      "de": "sich erkälten",
+      "en": "to catch a cold",
+      "fa": "سرما خوردن",
+      "ps": "سړه کېدل",
+      "fr": "attraper un rhume",
+      "tr": "soğuk algınlığına yakalanmak"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sich_erkälten.mp3"
+    }
   },
   {
     "id": "wB1-1-0345",
     "level": "B1.1",
-    "word": "Verantwortungslosigkeit",
-    "translation_fa": "بی‌مسئولیتی",
-    "translation_en": "irresponsibility",
-    "translation_ps": "بې‌مسئولیتي",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verantwortungslosigkeit.mp3",
     "image": "",
     "category": [
       "school_learning",
       "noun"
     ],
-    "article": "die"
+    "article": "die",
+    "words": {
+      "de": "Verantwortungslosigkeit",
+      "en": "irresponsibility",
+      "fa": "بی‌مسئولیتی",
+      "ps": "بې‌مسئولیتي",
+      "fr": "irresponsabilité",
+      "tr": "sorumsuzluk"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verantwortungslosigkeit.mp3"
+    }
   },
   {
     "id": "wB1-1-0346",
     "level": "B1.1",
-    "word": "verantwortungslos",
-    "translation_fa": "بی‌مسئولیت",
-    "translation_en": "irresponsible",
-    "translation_ps": "بې‌مسؤلیت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verantwortungslos.mp3",
     "image": "",
     "category": [
       "school_learning",
       "adjective"
-    ]
+    ],
+    "words": {
+      "de": "verantwortungslos",
+      "en": "irresponsible",
+      "fa": "بی‌مسئولیت",
+      "ps": "بې‌مسؤلیت",
+      "fr": "irresponsable",
+      "tr": "sorumsuz"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/verantwortungslos.mp3"
+    }
   },
   {
     "id": "wB1-1-0352",
     "level": "B1.1",
-    "word": "sicherstellen",
-    "translation_fa": "تضمین کردن",
-    "translation_en": "to ensure",
-    "translation_ps": "باوري کول",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sicherstellen.mp3",
-    "image": "",
-    "category": [
-      "uncategorized"
-    ]
-  },
-  {
-    "id": "wB1-1-0353",
-    "level": "B1.1",
-    "word": "Einschränkung",
-    "translation_fa": "محدودیت",
-    "translation_en": "limitation, restriction",
-    "translation_ps": "محدودیت",
-    "example": "",
-    "audio": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einschränkung.mp3",
     "image": "",
     "category": [
       "uncategorized"
     ],
-    "article": "die"
+    "words": {
+      "de": "sicherstellen",
+      "en": "to ensure",
+      "fa": "تضمین کردن",
+      "ps": "باوري کول",
+      "fr": "assurer",
+      "tr": "garanti etmek"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/sicherstellen.mp3"
+    }
+  },
+  {
+    "id": "wB1-1-0353",
+    "level": "B1.1",
+    "image": "",
+    "category": [
+      "uncategorized"
+    ],
+    "article": "die",
+    "words": {
+      "de": "Einschränkung",
+      "en": "limitation, restriction",
+      "fa": "محدودیت",
+      "ps": "محدودیت",
+      "fr": "limitation, restriction",
+      "tr": "kısıtlama, sınırlama"
+    },
+    "examples": {},
+    "audios": {
+      "de": "https://wordmap-audio.s3.eu-north-1.amazonaws.com/B1/einschränkung.mp3"
+    }
   }
 ]
