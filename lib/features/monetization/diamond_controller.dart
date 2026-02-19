@@ -4,18 +4,18 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:word_map_app/services/ads/rewarded_ad_service.dart';
 
-enum DiamondWatchResult {
-  activated,
-  adLoading,
-  notRewarded,
-}
+enum DiamondWatchResult { activated, adLoading, notRewarded }
 
 class DiamondController extends ChangeNotifier {
   DiamondController({
     required RewardedAdService rewardedAdService,
+    required bool enableWordLimit,
   }) : _rewardedAdService = rewardedAdService {
+    _isWordLimitEnabled = enableWordLimit;
     unawaited(_loadFromPrefs());
-    unawaited(_rewardedAdService.load());
+    if (isRewardedFlowEnabled) {
+      unawaited(_rewardedAdService.load());
+    }
   }
 
   static const int startCounter = 50;
@@ -27,6 +27,7 @@ class DiamondController extends ChangeNotifier {
   static const String _prefsCooldownUntilKey = 'diamond_cooldown_until_ms';
 
   final RewardedAdService _rewardedAdService;
+  late final bool _isWordLimitEnabled;
 
   int _counter = startCounter;
   DateTime? _diamondExpireAt;
@@ -38,17 +39,22 @@ class DiamondController extends ChangeNotifier {
   bool get isLoaded => _isLoaded;
   int get counter => _counter;
   int get activationGeneration => _activationGeneration;
+  bool get isWordLimitEnabled => _isWordLimitEnabled;
+  bool get isRewardedFlowEnabled =>
+      _isWordLimitEnabled && _rewardedAdService.isEnabled;
 
   DateTime? get diamondExpireAt => _diamondExpireAt;
   DateTime? get cooldownUntil => _cooldownUntil;
 
   bool get isDiamondActive {
+    if (!_isWordLimitEnabled) return false;
     final expiry = _diamondExpireAt;
     if (expiry == null) return false;
     return expiry.isAfter(DateTime.now());
   }
 
   bool get isCooldownActive {
+    if (!_isWordLimitEnabled) return false;
     final until = _cooldownUntil;
     if (until == null) return false;
     return until.isAfter(DateTime.now());
@@ -92,7 +98,8 @@ class DiamondController extends ChangeNotifier {
     final prefs = await SharedPreferences.getInstance();
     final storedCounter = prefs.getInt(_prefsCounterKey);
     _counter = storedCounter ?? startCounter;
-    if (storedCounter == _legacyStartCounter && startCounter > _legacyStartCounter) {
+    if (storedCounter == _legacyStartCounter &&
+        startCounter > _legacyStartCounter) {
       _counter = startCounter;
     }
     if (_counter > startCounter) {
@@ -102,11 +109,13 @@ class DiamondController extends ChangeNotifier {
       await prefs.setInt(_prefsCounterKey, _counter);
     }
     final expireMs = prefs.getInt(_prefsExpireAtKey);
-    _diamondExpireAt =
-        expireMs != null && expireMs > 0 ? DateTime.fromMillisecondsSinceEpoch(expireMs) : null;
+    _diamondExpireAt = expireMs != null && expireMs > 0
+        ? DateTime.fromMillisecondsSinceEpoch(expireMs)
+        : null;
     final cooldownMs = prefs.getInt(_prefsCooldownUntilKey);
-    _cooldownUntil =
-        cooldownMs != null && cooldownMs > 0 ? DateTime.fromMillisecondsSinceEpoch(cooldownMs) : null;
+    _cooldownUntil = cooldownMs != null && cooldownMs > 0
+        ? DateTime.fromMillisecondsSinceEpoch(cooldownMs)
+        : null;
 
     _completeCooldownInMemoryIfExpired();
     _isLoaded = true;
@@ -148,12 +157,14 @@ class DiamondController extends ChangeNotifier {
   }
 
   Future<void> resetCounter() async {
+    if (!_isWordLimitEnabled) return;
     _counter = startCounter;
     notifyListeners();
     await _saveCounter();
   }
 
   Future<void> startCooldown() async {
+    if (!_isWordLimitEnabled) return;
     if (isDiamondActive) return;
     _counter = 0;
     _cooldownUntil = DateTime.now().add(diamondDuration);
@@ -164,6 +175,7 @@ class DiamondController extends ChangeNotifier {
   }
 
   Future<void> clearCooldown() async {
+    if (!_isWordLimitEnabled) return;
     if (_cooldownUntil == null) return;
     _cooldownUntil = null;
     _syncTicker();
@@ -172,6 +184,7 @@ class DiamondController extends ChangeNotifier {
   }
 
   Future<void> _activateDiamondFor(Duration duration) async {
+    if (!_isWordLimitEnabled) return;
     _diamondExpireAt = DateTime.now().add(duration);
     _activationGeneration += 1;
     _syncTicker();
@@ -180,6 +193,9 @@ class DiamondController extends ChangeNotifier {
   }
 
   Future<DiamondWatchResult> watchAdForDiamond() async {
+    if (!isRewardedFlowEnabled) {
+      return DiamondWatchResult.notRewarded;
+    }
     if (!_rewardedAdService.isReady) {
       unawaited(_rewardedAdService.load());
       return DiamondWatchResult.adLoading;
@@ -197,6 +213,7 @@ class DiamondController extends ChangeNotifier {
   }
 
   bool onWordSelected() {
+    if (!_isWordLimitEnabled) return true;
     if (isDiamondActive) return true;
     _completeCooldownInMemoryIfExpired();
     if (isCooldownActive) return false;

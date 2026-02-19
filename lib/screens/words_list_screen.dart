@@ -333,6 +333,8 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
   }
 
   Future<void> _maybeShowSupportBanner() async {
+    final diamond = context.read<DiamondController>();
+    if (!diamond.isRewardedFlowEnabled) return;
     final shouldShow = await _supportBannerService.shouldShow();
     if (!shouldShow || !mounted) return;
     await _supportBannerService.markShown();
@@ -342,6 +344,7 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
 
   Future<void> _handleSupportBannerSupport() async {
     final diamond = context.read<DiamondController>();
+    if (!diamond.isRewardedFlowEnabled) return;
     final loc = AppLocalizations.of(context)!;
     final result = await diamond.watchAdForDiamond();
     if (!mounted) return;
@@ -657,6 +660,10 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
   Future<void> _handleWordTap(VocabWord word) async {
     final diamond = context.read<DiamondController>();
     final loc = AppLocalizations.of(context)!;
+    if (!diamond.isWordLimitEnabled) {
+      await _onWordTapped(word);
+      return;
+    }
     if (diamond.isCooldownActive) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
@@ -753,23 +760,25 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                     final isNarrow = constraints.maxWidth < 390;
                     final maxButtonWidth = constraints.maxWidth * 0.52;
                     final maxDiamondWidth = constraints.maxWidth * 0.38;
+                    final showMonetization = diamond.isWordLimitEnabled;
                     return Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       textDirection: TextDirection.ltr,
                       children: [
                         _buildStatsBadge(textTheme, viewedCount),
-                        const SizedBox(width: 10),
-                        ConstrainedBox(
-                          constraints: BoxConstraints(
-                            maxWidth: maxDiamondWidth,
+                        if (showMonetization) const SizedBox(width: 10),
+                        if (showMonetization)
+                          ConstrainedBox(
+                            constraints: BoxConstraints(
+                              maxWidth: maxDiamondWidth,
+                            ),
+                            child: _buildDiamondBadge(
+                              textTheme,
+                              diamond,
+                              compact: isNarrow,
+                            ),
                           ),
-                          child: _buildDiamondBadge(
-                            textTheme,
-                            diamond,
-                            compact: isNarrow,
-                          ),
-                        ),
-                        const SizedBox(width: 10),
+                        if (showMonetization) const SizedBox(width: 10),
                         const Spacer(),
                         ConstrainedBox(
                           constraints: BoxConstraints(maxWidth: maxButtonWidth),
@@ -788,7 +797,7 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
               Expanded(child: _buildWordsTab(textTheme)),
             ],
           ),
-          if (_showSupportBanner)
+          if (_showSupportBanner && diamond.isRewardedFlowEnabled)
             Positioned(
               left: 16,
               right: 80,
@@ -801,37 +810,38 @@ class _WordsHomeTabState extends State<WordsHomeTab> {
                 },
               ),
             ),
-          Positioned(
-            right: 16,
-            bottom: 16,
-            child: FloatingActionButton(
-              onPressed: () async {
-                final result = await diamond.watchAdForDiamond();
-                if (!context.mounted) return;
-                final loc = AppLocalizations.of(context)!;
-                if (result == DiamondWatchResult.adLoading) {
-                  if (diamond.counter <= 0 &&
-                      !diamond.isDiamondActive &&
-                      !diamond.isCooldownActive) {
-                    unawaited(diamond.startCooldown());
+          if (diamond.isRewardedFlowEnabled)
+            Positioned(
+              right: 16,
+              bottom: 16,
+              child: FloatingActionButton(
+                onPressed: () async {
+                  final result = await diamond.watchAdForDiamond();
+                  if (!context.mounted) return;
+                  final loc = AppLocalizations.of(context)!;
+                  if (result == DiamondWatchResult.adLoading) {
+                    if (diamond.counter <= 0 &&
+                        !diamond.isDiamondActive &&
+                        !diamond.isCooldownActive) {
+                      unawaited(diamond.startCooldown());
+                    }
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(loc.adLoading),
+                        duration: Duration(seconds: 2),
+                      ),
+                    );
+                    return;
                   }
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(
-                      content: Text(loc.adLoading),
-                      duration: Duration(seconds: 2),
-                    ),
-                  );
-                  return;
-                }
-                if (result == DiamondWatchResult.activated) {
-                  await ThankYouLottieOverlay.show(context);
-                }
-              },
-              backgroundColor: Colors.black,
-              foregroundColor: Colors.white,
-              child: const Icon(LucideIcons.gem),
+                  if (result == DiamondWatchResult.activated) {
+                    await ThankYouLottieOverlay.show(context);
+                  }
+                },
+                backgroundColor: Colors.black,
+                foregroundColor: Colors.white,
+                child: const Icon(LucideIcons.gem),
+              ),
             ),
-          ),
         ],
       ),
     );

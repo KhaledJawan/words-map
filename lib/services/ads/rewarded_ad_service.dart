@@ -4,14 +4,19 @@ import 'package:flutter/foundation.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class RewardedAdService {
+  RewardedAdService({required bool enableRewardedAds})
+    : _enableRewardedAds = enableRewardedAds;
+
   static const String rewardedAdUnitIdAndroid =
       'ca-app-pub-5088702480788455/6692824796';
   static const String rewardedAdUnitIdIos =
       'ca-app-pub-5088702480788455/6692824796';
 
+  final bool _enableRewardedAds;
   RewardedAd? _rewardedAd;
   bool _isLoading = false;
 
+  bool get isEnabled => _enableRewardedAds;
   bool get isReady => _rewardedAd != null;
   bool get isLoading => _isLoading;
 
@@ -28,6 +33,7 @@ class RewardedAdService {
   }
 
   Future<void> load() async {
+    if (!_enableRewardedAds) return;
     if (_isLoading || _rewardedAd != null) return;
     _isLoading = true;
     await RewardedAd.load(
@@ -62,6 +68,7 @@ class RewardedAdService {
   }
 
   Future<bool> show({VoidCallback? onRewardEarned}) async {
+    if (!_enableRewardedAds) return false;
     final ad = _rewardedAd;
     if (ad == null) {
       unawaited(load());

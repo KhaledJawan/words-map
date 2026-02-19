@@ -12,6 +12,7 @@ import 'package:word_map_app/screens/words_list_init.dart';
 import 'screens/main_page.dart';
 import 'screens/settings_screen.dart';
 import 'services/ads/rewarded_ad_service.dart';
+import 'config/ad_policy.dart';
 import 'theme_controller.dart';
 import 'models/app_language.dart';
 
@@ -20,6 +21,9 @@ Future<void> main() async {
   final appState = AppState();
   await appState.loadInitialData();
 
+  await MobileAds.instance.updateRequestConfiguration(
+    AdPolicy.requestConfiguration(),
+  );
   await MobileAds.instance.initialize();
 
   try {
@@ -35,8 +39,11 @@ Future<void> main() async {
     // Ignore duplicate-app errors; rethrow others.
     final msg = e.toString();
     if (!msg.contains('duplicate-app')) {
-      developer.log('Firebase initialization error: $e',
-          name: 'main', error: e);
+      developer.log(
+        'Firebase initialization error: $e',
+        name: 'main',
+        error: e,
+      );
       rethrow;
     }
   }
@@ -45,12 +52,15 @@ Future<void> main() async {
       providers: [
         ChangeNotifierProvider.value(value: appState),
         Provider<RewardedAdService>(
-          create: (_) => RewardedAdService()..load(),
+          create: (_) =>
+              RewardedAdService(enableRewardedAds: AdPolicy.enableRewardedFlow)
+                ..load(),
           dispose: (_, service) => service.dispose(),
         ),
         ChangeNotifierProvider<DiamondController>(
           create: (context) => DiamondController(
             rewardedAdService: context.read<RewardedAdService>(),
+            enableWordLimit: AdPolicy.enableRewardedFlow,
           ),
         ),
       ],
@@ -126,32 +136,22 @@ ThemeData _buildLightTheme(String? fontFamily, bool isFarsi) {
       color: WordMapColors.lightCard,
       elevation: 0,
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(20),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       shadowColor: Colors.black.withValues(alpha: 0.05),
     ),
     listTileTheme: const ListTileThemeData(
       iconColor: WordMapColors.primaryBlue,
       textColor: Colors.black,
-      subtitleTextStyle: TextStyle(
-        color: Colors.black54,
-        fontSize: 13,
-      ),
+      subtitleTextStyle: TextStyle(color: Colors.black54, fontSize: 13),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: WordMapColors.primaryBlue,
         foregroundColor: Colors.white,
         elevation: 0,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(14),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
         padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 24),
-        textStyle: const TextStyle(
-          fontSize: 16,
-          fontWeight: FontWeight.w600,
-        ),
+        textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
       ),
     ),
     textTheme: const TextTheme(
@@ -188,8 +188,9 @@ ThemeData _buildLightTheme(String? fontFamily, bool isFarsi) {
   if (isFarsi) {
     themedText = themedText.copyWith(
       titleLarge: themedText.titleLarge?.copyWith(fontWeight: FontWeight.w400),
-      titleMedium:
-          themedText.titleMedium?.copyWith(fontWeight: FontWeight.w400),
+      titleMedium: themedText.titleMedium?.copyWith(
+        fontWeight: FontWeight.w400,
+      ),
       labelLarge: themedText.labelLarge?.copyWith(fontWeight: FontWeight.w400),
     );
   }
@@ -210,9 +211,11 @@ ThemeData _buildLightTheme(String? fontFamily, bool isFarsi) {
             fontWeight: isFarsi
                 ? FontWeight.w400
                 : base.elevatedButtonTheme.style?.textStyle
-                    ?.resolve({})?.fontWeight,
+                      ?.resolve({})
+                      ?.fontWeight,
             fontSize: base.elevatedButtonTheme.style?.textStyle
-                ?.resolve({})?.fontSize,
+                ?.resolve({})
+                ?.fontSize,
           ),
         ),
       ),
@@ -225,9 +228,11 @@ ThemeData _buildLightTheme(String? fontFamily, bool isFarsi) {
             fontWeight: isFarsi
                 ? FontWeight.w400
                 : base.outlinedButtonTheme.style?.textStyle
-                    ?.resolve({})?.fontWeight,
+                      ?.resolve({})
+                      ?.fontWeight,
             fontSize: base.outlinedButtonTheme.style?.textStyle
-                ?.resolve({})?.fontSize,
+                ?.resolve({})
+                ?.fontSize,
           ),
         ),
       ),
@@ -252,8 +257,9 @@ ThemeData _buildDarkTheme(String? fontFamily, bool isFarsi) {
       appBarTheme: base.appBarTheme.copyWith(
         backgroundColor: WordMapColors.darkSurface,
         foregroundColor: Colors.white,
-        titleTextStyle:
-            base.appBarTheme.titleTextStyle?.copyWith(color: Colors.white),
+        titleTextStyle: base.appBarTheme.titleTextStyle?.copyWith(
+          color: Colors.white,
+        ),
       ),
       cardTheme: base.cardTheme.copyWith(color: WordMapColors.darkCard),
       listTileTheme: base.listTileTheme.copyWith(
@@ -265,7 +271,9 @@ ThemeData _buildDarkTheme(String? fontFamily, bool isFarsi) {
           .apply(bodyColor: Colors.white70, displayColor: Colors.white70)
           .copyWith(
             titleLarge: const TextStyle(
-                color: Colors.white, fontWeight: FontWeight.w600),
+              color: Colors.white,
+              fontWeight: FontWeight.w600,
+            ),
             titleMedium: const TextStyle(color: Colors.white70),
             labelLarge: const TextStyle(color: Colors.white),
           ),

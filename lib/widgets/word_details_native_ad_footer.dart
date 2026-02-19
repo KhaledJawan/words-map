@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:word_map_app/config/ad_policy.dart';
 
 class WordDetailsNativeAdFooter extends StatefulWidget {
   const WordDetailsNativeAdFooter({super.key, this.height = 128});
@@ -10,7 +11,8 @@ class WordDetailsNativeAdFooter extends StatefulWidget {
   static const String factoryId = 'wordDetailsFooter';
 
   @override
-  State<WordDetailsNativeAdFooter> createState() => _WordDetailsNativeAdFooterState();
+  State<WordDetailsNativeAdFooter> createState() =>
+      _WordDetailsNativeAdFooterState();
 }
 
 class _WordDetailsNativeAdFooterState extends State<WordDetailsNativeAdFooter> {
@@ -22,6 +24,10 @@ class _WordDetailsNativeAdFooterState extends State<WordDetailsNativeAdFooter> {
   @override
   void initState() {
     super.initState();
+    if (!AdPolicy.enableNativeAds) {
+      _failed = true;
+      return;
+    }
     _load();
   }
 
@@ -74,7 +80,7 @@ class _WordDetailsNativeAdFooterState extends State<WordDetailsNativeAdFooter> {
 
   @override
   Widget build(BuildContext context) {
-    if (_failed) return const SizedBox.shrink();
+    if (_failed || !AdPolicy.enableNativeAds) return const SizedBox.shrink();
 
     final theme = Theme.of(context);
     final bg = theme.colorScheme.surface;
@@ -137,12 +143,15 @@ class _AdLabel extends StatelessWidget {
     final textTheme = Theme.of(context).textTheme;
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
-    final pillBg =
-        isDark ? Colors.white.withValues(alpha: 0.10) : Colors.black.withValues(alpha: 0.06);
-    final pillFg =
-        isDark ? Colors.white.withValues(alpha: 0.85) : Colors.black.withValues(alpha: 0.75);
-    final labelFg =
-        isDark ? Colors.white.withValues(alpha: 0.65) : Colors.black.withValues(alpha: 0.55);
+    final pillBg = isDark
+        ? Colors.white.withValues(alpha: 0.10)
+        : Colors.black.withValues(alpha: 0.06);
+    final pillFg = isDark
+        ? Colors.white.withValues(alpha: 0.85)
+        : Colors.black.withValues(alpha: 0.75);
+    final labelFg = isDark
+        ? Colors.white.withValues(alpha: 0.65)
+        : Colors.black.withValues(alpha: 0.55);
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
