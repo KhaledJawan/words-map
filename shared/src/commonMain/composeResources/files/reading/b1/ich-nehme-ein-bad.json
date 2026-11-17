@@ -1,0 +1,72 @@
+{
+  "order": 4,
+  "title": "Ich nehme ein Bad",
+  "description": {
+    "de": "Nach einem langen Tag: ein warmes Bad.",
+    "en": "After a long day: a warm bath.",
+    "fa": "بعد از یک روز طولانی: یک حمام گرم."
+  },
+  "keywords": [
+    "Bad",
+    "Badewanne",
+    "entspannen"
+  ],
+  "text": "Nach einem langen, anstrengenden Tag nehme ich immer gerne ein Bad in der Badewanne. Das ist entspannend.\n\nHeute musste ich wieder sehr lange arbeiten. Es ist schon 19 Uhr, als ich nach Hause komme. Ich gehe ins Badezimmer und drehe das Wasser für die Badewanne auf. Dann gebe ich ein Schaumbad ins Wasser. Es riecht nach Kokosnuss.\n\nDie Badewanne braucht ein bisschen Zeit, bis sie voll ist, also gehe ich ins Schlafzimmer und hole mir frische Kleidung und ein Handtuch aus meinem Schrank.\n\nIch gehe zurück ins Badezimmer. Dort ziehe ich mich aus und werfe meine alte Kleidung in den Wäschekorb. Dann kann ich endlich in die Badewanne steigen. Das Wasser ist schön warm und ich kann sofort entspannen.",
+  "questions": [
+    {
+      "question": "Was nehme ich nach einem anstrengenden Tag gerne?",
+      "answers": [
+        "Bad",
+        "Tabletten",
+        "Essen",
+        "Schlaf"
+      ]
+    },
+    {
+      "question": "Wo nimmt man ein Bad?",
+      "answers": [
+        "in der Badewanne",
+        "im Waschbecken",
+        "in der Spüle",
+        "im Pool"
+      ]
+    },
+    {
+      "question": "Wie spät ist es schon?",
+      "answers": [
+        "19 Uhr",
+        "20 Uhr",
+        "18 Uhr",
+        "21 Uhr"
+      ]
+    },
+    {
+      "question": "Was gebe ich ins Wasser in der Badewanne?",
+      "answers": [
+        "Schaumbad",
+        "Badebombe",
+        "Badesalz",
+        "Shampoo"
+      ]
+    },
+    {
+      "question": "Was hole ich mir neben frischer Kleidung noch aus meinem Schrank?",
+      "answers": [
+        "Handtuch",
+        "Socken",
+        "Unterhose",
+        "Hose"
+      ]
+    },
+    {
+      "question": "Wo werfe ich meine alte Kleidung hinein?",
+      "answers": [
+        "Wäschekorb",
+        "Mülleimer",
+        "Waschmaschine",
+        "Toilette"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/ich-nehme-ein-bad/"
+}

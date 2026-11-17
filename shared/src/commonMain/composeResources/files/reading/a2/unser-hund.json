@@ -1,0 +1,72 @@
+{
+  "order": 7,
+  "title": "Unser Hund",
+  "description": {
+    "de": "Daisy, der Labrador, gehört zur Familie.",
+    "en": "Daisy the Labrador is part of the family.",
+    "fa": "دیزی، سگ لابرادور، عضوی از خانواده است."
+  },
+  "keywords": [
+    "Hund",
+    "Labrador",
+    "Haustier"
+  ],
+  "text": "Meine Familie ist nur komplett mit unserem Hund Daisy. Für meine Eltern ist sie wie ein zweites Kind und für mich ist sie wie eine kleine Schwester.\n\nDaisy ist ein Labrador und sehr freundlich. Labradore sind die perfekten Familienhunde, weil sie sehr geduldig sind.\n\nDaisy ist jetzt schon sechs Jahre alt und wir haben sie bekommen, als sie noch ein Welpe (Baby) war. Sie war sehr süß und klein. Jetzt ist sie erwachsen und groß, aber sie ist immer noch süß. Sie liebt es, wenn man mit ihr Gassi geht und ein Stöckchen wirft. Dann läuft sie sehr schnell und bringt das Stöckchen wieder. Dann werfe ich es nochmal. Das macht Spaß und Daisy ist glücklich.",
+  "questions": [
+    {
+      "question": "Wie heißt unser Hund?",
+      "answers": [
+        "Daisy",
+        "Donald",
+        "Doggo",
+        "Diggi"
+      ]
+    },
+    {
+      "question": "Welche Hunderasse ist Daisy?",
+      "answers": [
+        "Labrador",
+        "Schäferhund",
+        "Pudel",
+        "Golden Retriever"
+      ]
+    },
+    {
+      "question": "Was sind Labradore?",
+      "answers": [
+        "Familienhunde",
+        "Schäferhunde",
+        "Hütehunde",
+        "Schlittenhunde"
+      ]
+    },
+    {
+      "question": "Wie alt ist Daisy?",
+      "answers": [
+        "6 Jahre",
+        "5 Jahre",
+        "7 Jahre",
+        "16 Jahre"
+      ]
+    },
+    {
+      "question": "Wie wird ein Baby-Hund genannt?",
+      "answers": [
+        "Welpe",
+        "Kalb",
+        "Fohlen",
+        "Lamm"
+      ]
+    },
+    {
+      "question": "Was werfe ich beim Gassigehen?",
+      "answers": [
+        "Ein Stöckchen",
+        "Einen Stein",
+        "Ein Spielzeug",
+        "Einen Stock"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/unser-hund/"
+}

@@ -1,0 +1,1865 @@
+{
+ "wB2-1-0001": {
+  "en": "catering / restaurant trade"
+ },
+ "wB2-1-0002": {
+  "en": "wholesale trade"
+ },
+ "wB2-1-0003": {
+  "en": "retail trade"
+ },
+ "wB2-1-0004": {
+  "en": "real estate sector"
+ },
+ "wB2-1-0005": {
+  "en": "IT sector"
+ },
+ "wB2-1-0006": {
+  "en": "mechanical engineering"
+ },
+ "wB2-1-0007": {
+  "en": "media"
+ },
+ "wB2-1-0008": {
+  "en": "metal industry"
+ },
+ "wB2-1-0009": {
+  "en": "public service / civil service"
+ },
+ "wB2-1-0010": {
+  "en": "pharmaceutical industry"
+ },
+ "wB2-1-0011": {
+  "en": "transport and logistics"
+ },
+ "wB2-1-0013": {
+  "en": "finance department"
+ },
+ "wB2-1-0014": {
+  "en": "management / executive board"
+ },
+ "wB2-1-0015": {
+  "en": "customer service / customer support"
+ },
+ "wB2-1-0016": {
+  "en": "warehouse"
+ },
+ "wB2-1-0017": {
+  "en": "marketing department"
+ },
+ "wB2-1-0018": {
+  "en": "human resources department"
+ },
+ "wB2-1-0019": {
+  "en": "production"
+ },
+ "wB2-1-0020": {
+  "en": "career opportunities"
+ },
+ "wB2-1-0021": {
+  "en": "duty roster / deployment plan"
+ },
+ "wB2-1-0022": {
+  "en": "competition"
+ },
+ "wB2-1-0023": {
+  "en": "supervisor / superior"
+ },
+ "wB2-1-0025": {
+  "en": "form of address"
+ },
+ "wB2-1-0026": {
+  "en": "company philosophy"
+ },
+ "wB2-1-0027": {
+  "en": "image"
+ },
+ "wB2-1-0028": {
+  "en": "to address someone informally (with \"du\")"
+ },
+ "wB2-1-0029": {
+  "en": "to address someone formally (with \"Sie\")"
+ },
+ "wB2-1-0030": {
+  "en": "appropriate"
+ },
+ "wB2-1-0031": {
+  "en": "formal"
+ },
+ "wB2-1-0032": {
+  "en": "conservative"
+ },
+ "wB2-1-0033": {
+  "en": "relaxed / casual"
+ },
+ "wB2-1-0034": {
+  "en": "disrespectful"
+ },
+ "wB2-1-0035": {
+  "en": "rich in tradition"
+ },
+ "wB2-1-0036": {
+  "en": "to offer someone the informal \"du\""
+ },
+ "wB2-1-0037": {
+  "en": "to take the first step"
+ },
+ "wB2-1-0038": {
+  "en": "to be on informal / formal terms"
+ },
+ "wB2-1-0039": {
+  "en": "to be taboo"
+ },
+ "wB2-1-0041": {
+  "en": "occupation requiring formal training"
+ },
+ "wB2-1-0042": {
+  "en": "full-time vocational school"
+ },
+ "wB2-1-0043": {
+  "en": "career information centre (BIZ)"
+ },
+ "wB2-1-0044": {
+  "en": "vocational college"
+ },
+ "wB2-1-0045": {
+  "en": "pre-vocational training year"
+ },
+ "wB2-1-0046": {
+  "en": "academy for further training"
+ },
+ "wB2-1-0047": {
+  "en": "business language / language of trade"
+ },
+ "wB2-1-0048": {
+  "en": "language skills"
+ },
+ "wB2-1-0049": {
+  "en": "to complete (a course, a training)"
+ },
+ "wB2-1-0050": {
+  "en": "to gain experience"
+ },
+ "wB2-1-0051": {
+  "en": "trained profession (the profession one learned)"
+ },
+ "wB2-1-0052": {
+  "en": "solid / well-founded training"
+ },
+ "wB2-1-0053": {
+  "en": "age limit"
+ },
+ "wB2-1-0054": {
+  "en": "concern / request"
+ },
+ "wB2-1-0055": {
+  "en": "temporary job"
+ },
+ "wB2-1-0056": {
+  "en": "job advertisement / call for tenders"
+ },
+ "wB2-1-0057": {
+  "en": "application documents"
+ },
+ "wB2-1-0058": {
+  "en": "job portal / job exchange"
+ },
+ "wB2-1-0059": {
+  "en": "head of human resources"
+ },
+ "wB2-1-0061": {
+  "en": "to do casual work / to work a side job"
+ },
+ "wB2-1-0062": {
+  "en": "current / present"
+ },
+ "wB2-1-0063": {
+  "en": "occasional / occasionally"
+ },
+ "wB2-1-0065": {
+  "en": "smooth / without problems"
+ },
+ "wB2-1-0066": {
+  "en": "reliable"
+ },
+ "wB2-1-0067": {
+  "en": "now and then"
+ },
+ "wB2-1-0068": {
+  "en": "to shorten the training"
+ },
+ "wB2-1-0069": {
+  "en": "to get ahead professionally"
+ },
+ "wB2-1-0070": {
+  "en": "permanent job"
+ },
+ "wB2-1-0071": {
+  "en": "around the clock"
+ },
+ "wB2-1-0072": {
+  "en": "plant mechanic"
+ },
+ "wB2-1-0073": {
+  "en": "certified accountant"
+ },
+ "wB2-1-0074": {
+  "en": "office administrator / office clerk"
+ },
+ "wB2-1-0075": {
+  "en": "gardener"
+ },
+ "wB2-1-0076": {
+  "en": "nurse (health and nursing care)"
+ },
+ "wB2-1-0077": {
+  "en": "sewer / seamstress"
+ },
+ "wB2-1-0078": {
+  "en": "service staff member"
+ },
+ "wB2-1-0079": {
+  "en": "room service"
+ },
+ "wB2-1-0080": {
+  "en": "promotion prospects / opportunities for advancement"
+ },
+ "wB2-1-0081": {
+  "en": "off-site appointment"
+ },
+ "wB2-1-0082": {
+  "en": "meeting / discussion"
+ },
+ "wB2-1-0083": {
+  "en": "canteen"
+ },
+ "wB2-1-0084": {
+  "en": "social benefits"
+ },
+ "wB2-1-0085": {
+  "en": "to do someone a favour"
+ },
+ "wB2-1-0086": {
+  "en": "to negotiate the salary"
+ },
+ "wB2-1-0087": {
+  "en": "to make a career"
+ },
+ "wB2-1-0088": {
+  "en": "to have priority"
+ },
+ "wB2-1-0089": {
+  "en": "to work through tasks"
+ },
+ "wB2-1-0090": {
+  "en": "to stay objective / to stick to the facts"
+ },
+ "wB2-1-0091": {
+  "en": "to be paid appropriately"
+ },
+ "wB2-1-0092": {
+  "en": "to be dissatisfied in the long run"
+ },
+ "wB2-1-0093": {
+  "en": "to express concerns"
+ },
+ "wB2-1-0094": {
+  "en": "the chemistry is (not) right"
+ },
+ "wB2-1-0095": {
+  "en": "to be worn out / exhausted"
+ },
+ "wB2-1-0096": {
+  "en": "to keep one's patience"
+ },
+ "wB2-1-0097": {
+  "en": "to be (not) socially recognised"
+ },
+ "wB2-1-0098": {
+  "en": "to have a heavy workload"
+ },
+ "wB2-1-0099": {
+  "en": "monotonous task"
+ },
+ "wB2-1-0100": {
+  "en": "not to do anything rash"
+ },
+ "wB2-1-0101": {
+  "en": "to have nothing to give away"
+ },
+ "wB2-1-0102": {
+  "en": "to be in a bad mood"
+ },
+ "wB2-1-0103": {
+  "en": "to feel over- / under-challenged"
+ },
+ "wB2-1-0104": {
+  "en": "to be bored to death"
+ },
+ "wB2-1-0105": {
+  "en": "40-hour week"
+ },
+ "wB2-1-0106": {
+  "en": "concession / accommodating gesture"
+ },
+ "wB2-1-0107": {
+  "en": "flexitime"
+ },
+ "wB2-1-0108": {
+  "en": "core working hours"
+ },
+ "wB2-1-0109": {
+  "en": "rotating shift"
+ },
+ "wB2-1-0110": {
+  "en": "flexible working hours"
+ },
+ "wB2-1-0111": {
+  "en": "fixed working hours"
+ },
+ "wB2-1-0112": {
+  "en": "to work overtime"
+ },
+ "wB2-1-0113": {
+  "en": "to agree by contract"
+ },
+ "wB2-1-0114": {
+  "en": "childcare services"
+ },
+ "wB2-1-0115": {
+  "en": "childminder"
+ },
+ "wB2-1-0116": {
+  "en": "single parent (raising a child alone)"
+ },
+ "wB2-1-0117": {
+  "en": "family-friendly"
+ },
+ "wB2-1-0118": {
+  "en": "to depend on / to rely on"
+ },
+ "wB2-1-0119": {
+  "en": "to reconcile work and family"
+ },
+ "wB2-1-0120": {
+  "en": "arrival / departure"
+ },
+ "wB2-1-0121": {
+  "en": "meeting room"
+ },
+ "wB2-1-0122": {
+  "en": "booking confirmation"
+ },
+ "wB2-1-0123": {
+  "en": "double room"
+ },
+ "wB2-1-0124": {
+  "en": "single room"
+ },
+ "wB2-1-0125": {
+  "en": "car pool"
+ },
+ "wB2-1-0126": {
+  "en": "flight connection"
+ },
+ "wB2-1-0127": {
+  "en": "industrial estate / business park"
+ },
+ "wB2-1-0128": {
+  "en": "meeting"
+ },
+ "wB2-1-0129": {
+  "en": "rental car"
+ },
+ "wB2-1-0130": {
+  "en": "parking facility"
+ },
+ "wB2-1-0131": {
+  "en": "conference hotel"
+ },
+ "wB2-1-0132": {
+  "en": "underground car park"
+ },
+ "wB2-1-0133": {
+  "en": "room / hotel category"
+ },
+ "wB2-1-0134": {
+  "en": "to go on an installation job (away from home)"
+ },
+ "wB2-1-0135": {
+  "en": "job description"
+ },
+ "wB2-1-0136": {
+  "en": "quality assurance"
+ },
+ "wB2-1-0137": {
+  "en": "guidelines"
+ },
+ "wB2-1-0138": {
+  "en": "foreman / forewoman"
+ },
+ "wB2-1-0139": {
+  "en": "procedure / course of action"
+ },
+ "wB2-1-0140": {
+  "en": "to regulate work processes"
+ },
+ "wB2-1-0141": {
+  "en": "to understand instructions"
+ },
+ "wB2-1-0142": {
+  "en": "to record work steps in small stages"
+ },
+ "wB2-1-0143": {
+  "en": "to save on a USB stick"
+ },
+ "wB2-1-0144": {
+  "en": "to submit a report"
+ },
+ "wB2-1-0145": {
+  "en": "to present results"
+ },
+ "wB2-1-0146": {
+  "en": "to go through something together"
+ },
+ "wB2-1-0147": {
+  "en": "to insert a chart / graphic"
+ },
+ "wB2-1-0148": {
+  "en": "to shut down the laptop"
+ },
+ "wB2-1-0149": {
+  "en": "to do a trial run"
+ },
+ "wB2-1-0150": {
+  "en": "to make a backup copy"
+ },
+ "wB2-1-0151": {
+  "en": "to document an activity in writing"
+ },
+ "wB2-1-0152": {
+  "en": "to compile documents"
+ },
+ "wB2-1-0153": {
+  "en": "to make preparations"
+ },
+ "wB2-1-0155": {
+  "en": "to ask for something"
+ },
+ "wB2-1-0156": {
+  "en": "to make a counter-proposal"
+ },
+ "wB2-1-0157": {
+  "en": "to express one's opinion"
+ },
+ "wB2-1-0158": {
+  "en": "to ask / to enquire again"
+ },
+ "wB2-1-0161": {
+  "en": "sticker"
+ },
+ "wB2-1-0162": {
+  "en": "exhibitor"
+ },
+ "wB2-1-0164": {
+  "en": "data sheet"
+ },
+ "wB2-1-0165": {
+  "en": "detail"
+ },
+ "wB2-1-0167": {
+  "en": "flyer"
+ },
+ "wB2-1-0168": {
+  "en": "giveaway"
+ },
+ "wB2-1-0169": {
+  "en": "wholesaler"
+ },
+ "wB2-1-0170": {
+  "en": "catalogue"
+ },
+ "wB2-1-0171": {
+  "en": "trade show / performance show"
+ },
+ "wB2-1-0172": {
+  "en": "logo"
+ },
+ "wB2-1-0173": {
+  "en": "sample / pattern"
+ },
+ "wB2-1-0174": {
+  "en": "poster"
+ },
+ "wB2-1-0175": {
+  "en": "brochure stand"
+ },
+ "wB2-1-0176": {
+  "en": "stand / booth"
+ },
+ "wB2-1-0177": {
+  "en": "start-up company"
+ },
+ "wB2-1-0178": {
+  "en": "to-do list"
+ },
+ "wB2-1-0179": {
+  "en": "organiser"
+ },
+ "wB2-1-0180": {
+  "en": "business card"
+ },
+ "wB2-1-0181": {
+  "en": "promotional gift"
+ },
+ "wB2-1-0182": {
+  "en": "competitor"
+ },
+ "wB2-1-0183": {
+  "en": "innovative"
+ },
+ "wB2-1-0185": {
+  "en": "competitive"
+ },
+ "wB2-1-0186": {
+  "en": "the current market situation"
+ },
+ "wB2-1-0187": {
+  "en": "to compare offers"
+ },
+ "wB2-1-0188": {
+  "en": "not to waste time"
+ },
+ "wB2-1-0189": {
+  "en": "to show presence"
+ },
+ "wB2-1-0190": {
+  "en": "to enclose a price list"
+ },
+ "wB2-1-0191": {
+  "en": "to present products"
+ },
+ "wB2-1-0192": {
+  "en": "to find out about trends"
+ },
+ "wB2-1-0193": {
+  "en": "to generate revenue / to make sales"
+ },
+ "wB2-1-0194": {
+  "en": "rejection / acceptance"
+ },
+ "wB2-1-0195": {
+  "en": "branch"
+ },
+ "wB2-1-0197": {
+  "en": "season"
+ },
+ "wB2-1-0198": {
+  "en": "maintenance"
+ },
+ "wB2-1-0199": {
+  "en": "to discuss details"
+ },
+ "wB2-1-0200": {
+  "en": "to ask targeted questions"
+ },
+ "wB2-1-0201": {
+  "en": "terms of delivery and payment"
+ },
+ "wB2-1-0202": {
+  "en": "to take notes"
+ },
+ "wB2-1-0203": {
+  "en": "to think up a practical solution"
+ },
+ "wB2-1-0204": {
+  "en": "to ask follow-up questions"
+ },
+ "wB2-1-0205": {
+  "en": "to concentrate on the conversation"
+ },
+ "wB2-1-0206": {
+  "en": "enquiry / request"
+ },
+ "wB2-1-0207": {
+  "en": "express surcharge"
+ },
+ "wB2-1-0208": {
+  "en": "total price"
+ },
+ "wB2-1-0209": {
+  "en": "mailing"
+ },
+ "wB2-1-0210": {
+  "en": "net price"
+ },
+ "wB2-1-0211": {
+  "en": "gross price"
+ },
+ "wB2-1-0212": {
+  "en": "new customer acquisition"
+ },
+ "wB2-1-0213": {
+  "en": "special request"
+ },
+ "wB2-1-0214": {
+  "en": "the offer is valid until …"
+ },
+ "wB2-1-0215": {
+  "en": "to submit an offer"
+ },
+ "wB2-1-0216": {
+  "en": "to negotiate an offer"
+ },
+ "wB2-1-0217": {
+  "en": "non-binding offer"
+ },
+ "wB2-1-0218": {
+  "en": "plus statutory value added tax"
+ },
+ "wB2-1-0219": {
+  "en": "including statutory value added tax"
+ },
+ "wB2-1-0220": {
+  "en": "delivery costs"
+ },
+ "wB2-1-0221": {
+  "en": "discount / price reduction"
+ },
+ "wB2-1-0223": {
+  "en": "payment by instalments"
+ },
+ "wB2-1-0224": {
+  "en": "cash discount (for prompt payment)"
+ },
+ "wB2-1-0225": {
+  "en": "advance payment"
+ },
+ "wB2-1-0226": {
+  "en": "working day"
+ },
+ "wB2-1-0227": {
+  "en": "ex works"
+ },
+ "wB2-1-0228": {
+  "en": "on receipt of the goods"
+ },
+ "wB2-1-0229": {
+  "en": "to exchange the goods"
+ },
+ "wB2-1-0230": {
+  "en": "free to the border (delivered at frontier)"
+ },
+ "wB2-1-0231": {
+  "en": "free delivery / carriage paid"
+ },
+ "wB2-1-0232": {
+  "en": "to give no guarantee"
+ },
+ "wB2-1-0233": {
+  "en": "attached / in the attachment"
+ },
+ "wB2-1-0235": {
+  "en": "at the earliest"
+ },
+ "wB2-1-0237": {
+  "en": "at least"
+ },
+ "wB2-1-0238": {
+  "en": "at the latest"
+ },
+ "wB2-1-0239": {
+  "en": "to be bankrupt"
+ },
+ "wB2-1-0240": {
+  "en": "payable within … days"
+ },
+ "wB2-1-0241": {
+  "en": "office communication"
+ },
+ "wB2-1-0242": {
+  "en": "sales knowledge / sales skills"
+ },
+ "wB2-1-0243": {
+  "en": "future-oriented"
+ },
+ "wB2-1-0244": {
+  "en": "common computer programs"
+ },
+ "wB2-1-0245": {
+  "en": "item number"
+ },
+ "wB2-1-0246": {
+  "en": "order number"
+ },
+ "wB2-1-0247": {
+  "en": "item description"
+ },
+ "wB2-1-0248": {
+  "en": "existing customer"
+ },
+ "wB2-1-0249": {
+  "en": "customer number"
+ },
+ "wB2-1-0250": {
+  "en": "new customer"
+ },
+ "wB2-1-0251": {
+  "en": "online shop"
+ },
+ "wB2-1-0252": {
+  "en": "mail-order business"
+ },
+ "wB2-1-0253": {
+  "en": "to be available (for purchase)"
+ },
+ "wB2-1-0254": {
+  "en": "to pass a message on to someone"
+ },
+ "wB2-1-0255": {
+  "en": "to leave a message"
+ },
+ "wB2-1-0256": {
+  "en": "to be available"
+ },
+ "wB2-1-0257": {
+  "en": "cash payment"
+ },
+ "wB2-1-0258": {
+  "en": "reminder / dunning notice"
+ },
+ "wB2-1-0259": {
+  "en": "online banking"
+ },
+ "wB2-1-0260": {
+  "en": "online payment service"
+ },
+ "wB2-1-0261": {
+  "en": "security concerns"
+ },
+ "wB2-1-0262": {
+  "en": "payee"
+ },
+ "wB2-1-0263": {
+  "en": "the amount is due on …"
+ },
+ "wB2-1-0264": {
+  "en": "to spend … euros"
+ },
+ "wB2-1-0265": {
+  "en": "an amount of …"
+ },
+ "wB2-1-0266": {
+  "en": "to transfer an amount"
+ },
+ "wB2-1-0267": {
+  "en": "to debit an amount from the account"
+ },
+ "wB2-1-0268": {
+  "en": "to pay in cash"
+ },
+ "wB2-1-0269": {
+  "en": "by direct debit"
+ },
+ "wB2-1-0270": {
+  "en": "by bank transfer"
+ },
+ "wB2-1-0271": {
+  "en": "to settle an invoice"
+ },
+ "wB2-1-0272": {
+  "en": "the payment has been received"
+ },
+ "wB2-1-0273": {
+  "en": "payment reminder"
+ },
+ "wB2-1-0274": {
+  "en": "to consider something no longer relevant"
+ },
+ "wB2-1-0275": {
+  "en": "budget"
+ },
+ "wB2-1-0276": {
+  "en": "comma / decimal point"
+ },
+ "wB2-1-0277": {
+  "en": "third (one third)"
+ },
+ "wB2-1-0278": {
+  "en": "eighth (one eighth)"
+ },
+ "wB2-1-0279": {
+  "en": "quarter"
+ },
+ "wB2-1-0280": {
+  "en": "divided by"
+ },
+ "wB2-1-0282": {
+  "en": "times"
+ },
+ "wB2-1-0283": {
+  "en": "minus"
+ },
+ "wB2-1-0284": {
+  "en": "plus"
+ },
+ "wB2-1-0285": {
+  "en": "to manage money well / badly"
+ },
+ "wB2-1-0286": {
+  "en": "to be left over"
+ },
+ "wB2-1-0289": {
+  "en": "consequences"
+ },
+ "wB2-1-0290": {
+  "en": "dispute / argument"
+ },
+ "wB2-1-0291": {
+  "en": "incident"
+ },
+ "wB2-1-0292": {
+  "en": "accusation / reproach"
+ },
+ "wB2-1-0293": {
+  "en": "faulty / defective"
+ },
+ "wB2-1-0295": {
+  "en": "to work to one's limits"
+ },
+ "wB2-1-0296": {
+  "en": "to generalise something"
+ },
+ "wB2-1-0297": {
+  "en": "to be forced to do something"
+ },
+ "wB2-1-0298": {
+  "en": "not to recommend someone"
+ },
+ "wB2-1-0299": {
+  "en": "not to match the specifications"
+ },
+ "wB2-1-0300": {
+  "en": "to be proved right"
+ },
+ "wB2-1-0301": {
+  "en": "to feel disturbed"
+ },
+ "wB2-1-0302": {
+  "en": "to answer complaints"
+ },
+ "wB2-1-0303": {
+  "en": "constructive dispute"
+ },
+ "wB2-1-0304": {
+  "en": "to resolve a one-off incident"
+ },
+ "wB2-1-0305": {
+  "en": "to regret something"
+ },
+ "wB2-1-0306": {
+  "en": "to pass something on"
+ },
+ "wB2-1-0307": {
+  "en": "to make up for something"
+ },
+ "wB2-1-0308": {
+  "en": "something will not happen again"
+ },
+ "wB2-1-0309": {
+  "en": "to offer a voucher"
+ },
+ "wB2-1-0310": {
+  "en": "to find a solution"
+ },
+ "wB2-1-0311": {
+  "en": "to fix an error"
+ },
+ "wB2-1-0312": {
+  "en": "to admit a mistake"
+ },
+ "wB2-1-0313": {
+  "en": "to put oneself in the other person's position"
+ },
+ "wB2-1-0314": {
+  "en": "to ask for understanding"
+ },
+ "wB2-1-0315": {
+  "en": "to show understanding"
+ },
+ "wB2-1-0316": {
+  "en": "requirement"
+ },
+ "wB2-1-0317": {
+  "en": "standard / norm"
+ },
+ "wB2-1-0318": {
+  "en": "quality management system"
+ },
+ "wB2-1-0319": {
+  "en": "to review working methods"
+ },
+ "wB2-1-0320": {
+  "en": "to increase motivation"
+ },
+ "wB2-1-0321": {
+  "en": "to improve the products continuously"
+ },
+ "wB2-1-0322": {
+  "en": "to plan the individual production steps"
+ },
+ "wB2-1-0323": {
+  "en": "to define processes"
+ },
+ "wB2-1-0324": {
+  "en": "to record processes in writing"
+ },
+ "wB2-1-0325": {
+  "en": "to ensure quality"
+ },
+ "wB2-1-0326": {
+  "en": "to adapt to / to comply with"
+ },
+ "wB2-1-0327": {
+  "en": "to improve the economic situation"
+ },
+ "wB2-1-0328": {
+  "en": "agenda"
+ },
+ "wB2-1-0332": {
+  "en": "minutes of a meeting"
+ },
+ "wB2-1-0333": {
+  "en": "minutes of results (summary of decisions)"
+ },
+ "wB2-1-0334": {
+  "en": "staff meeting"
+ },
+ "wB2-1-0335": {
+  "en": "project presentation"
+ },
+ "wB2-1-0336": {
+  "en": "review / look back"
+ },
+ "wB2-1-0337": {
+  "en": "session / meeting"
+ },
+ "wB2-1-0338": {
+  "en": "agenda item"
+ },
+ "wB2-1-0339": {
+  "en": "team meeting"
+ },
+ "wB2-1-0340": {
+  "en": "detailed minutes (record of proceedings)"
+ },
+ "wB2-1-0341": {
+  "en": "preliminary meeting"
+ },
+ "wB2-1-0342": {
+  "en": "to email"
+ },
+ "wB2-1-0343": {
+  "en": "to comprehend / to follow"
+ },
+ "wB2-1-0344": {
+  "en": "to take minutes"
+ },
+ "wB2-1-0345": {
+  "en": "to contradict / to disagree"
+ },
+ "wB2-1-0346": {
+  "en": "to be of the opinion that …"
+ },
+ "wB2-1-0347": {
+  "en": "to hold a meeting"
+ },
+ "wB2-1-0348": {
+  "en": "to bring an appointment forward"
+ },
+ "wB2-1-0349": {
+  "en": "projector"
+ },
+ "wB2-1-0350": {
+  "en": "meeting documents"
+ },
+ "wB2-1-0351": {
+  "en": "flip chart"
+ },
+ "wB2-1-0352": {
+  "en": "internet access"
+ },
+ "wB2-1-0353": {
+  "en": "projection screen"
+ },
+ "wB2-1-0354": {
+  "en": "moderation cards"
+ },
+ "wB2-1-0355": {
+  "en": "facilitator's toolkit (moderation case)"
+ },
+ "wB2-1-0356": {
+  "en": "network connection"
+ },
+ "wB2-1-0357": {
+  "en": "pinboard"
+ },
+ "wB2-1-0358": {
+  "en": "conference room"
+ },
+ "wB2-1-0360": {
+  "en": "outlook"
+ },
+ "wB2-1-0361": {
+  "en": "financial controlling"
+ },
+ "wB2-1-0362": {
+  "en": "annual balance sheet"
+ },
+ "wB2-1-0363": {
+  "en": "forecast"
+ },
+ "wB2-1-0364": {
+  "en": "quarterly statement"
+ },
+ "wB2-1-0365": {
+  "en": "rate / quota"
+ },
+ "wB2-1-0366": {
+  "en": "just under / barely"
+ },
+ "wB2-1-0367": {
+  "en": "approximately"
+ },
+ "wB2-1-0368": {
+  "en": "cover"
+ },
+ "wB2-1-0369": {
+  "en": "connector contact"
+ },
+ "wB2-1-0370": {
+  "en": "display"
+ },
+ "wB2-1-0371": {
+  "en": "arrow"
+ },
+ "wB2-1-0372": {
+  "en": "QR code"
+ },
+ "wB2-1-0373": {
+  "en": "location / site"
+ },
+ "wB2-1-0374": {
+  "en": "touchscreen"
+ },
+ "wB2-1-0375": {
+  "en": "USB port"
+ },
+ "wB2-1-0376": {
+  "en": "to update"
+ },
+ "wB2-1-0377": {
+  "en": "to click into place / to engage"
+ },
+ "wB2-1-0380": {
+  "en": "to navigate"
+ },
+ "wB2-1-0381": {
+  "en": "to zoom"
+ },
+ "wB2-1-0382": {
+  "en": "incapacity for work"
+ },
+ "wB2-1-0383": {
+  "en": "regulations / provisions"
+ },
+ "wB2-1-0384": {
+  "en": "release from work / leave of absence"
+ },
+ "wB2-1-0385": {
+  "en": "time off in lieu"
+ },
+ "wB2-1-0386": {
+  "en": "calendar year"
+ },
+ "wB2-1-0387": {
+  "en": "operational necessity"
+ },
+ "wB2-1-0388": {
+  "en": "safety shoes"
+ },
+ "wB2-1-0389": {
+  "en": "occupational group"
+ },
+ "wB2-1-0390": {
+  "en": "bleeding"
+ },
+ "wB2-1-0391": {
+  "en": "first aider"
+ },
+ "wB2-1-0392": {
+  "en": "evacuation"
+ },
+ "wB2-1-0393": {
+  "en": "escape / rescue route"
+ },
+ "wB2-1-0394": {
+  "en": "hearing protection"
+ },
+ "wB2-1-0395": {
+  "en": "emergency exit"
+ },
+ "wB2-1-0396": {
+  "en": "laceration / gash"
+ },
+ "wB2-1-0397": {
+  "en": "ambulance"
+ },
+ "wB2-1-0398": {
+  "en": "danger of slipping"
+ },
+ "wB2-1-0399": {
+  "en": "assembly point"
+ },
+ "wB2-1-0400": {
+  "en": "paramedic"
+ },
+ "wB2-1-0401": {
+  "en": "protective equipment"
+ },
+ "wB2-1-0402": {
+  "en": "safety goggles"
+ },
+ "wB2-1-0403": {
+  "en": "safety helmet"
+ },
+ "wB2-1-0404": {
+  "en": "danger of tripping / falling"
+ },
+ "wB2-1-0405": {
+  "en": "to lose one's balance"
+ },
+ "wB2-1-0406": {
+  "en": "to give first aid"
+ },
+ "wB2-1-0407": {
+  "en": "to endanger"
+ },
+ "wB2-1-0408": {
+  "en": "to follow safety regulations"
+ },
+ "wB2-1-0409": {
+  "en": "written warning"
+ },
+ "wB2-1-0410": {
+  "en": "special permit / exemption"
+ },
+ "wB2-1-0412": {
+  "en": "leadership qualities"
+ },
+ "wB2-1-0413": {
+  "en": "freelance work paid by fee"
+ },
+ "wB2-1-0414": {
+  "en": "mini-job (marginal employment)"
+ },
+ "wB2-1-0415": {
+  "en": "secondary job / sideline"
+ },
+ "wB2-1-0416": {
+  "en": "blocking period (for unemployment benefit)"
+ },
+ "wB2-1-0417": {
+  "en": "contract for work and services"
+ },
+ "wB2-1-0418": {
+  "en": "temporary agency work"
+ },
+ "wB2-1-0420": {
+  "en": "on both sides / mutually"
+ },
+ "wB2-1-0421": {
+  "en": "expiry of the notice period"
+ },
+ "wB2-1-0422": {
+  "en": "offsetting of remaining leave"
+ },
+ "wB2-1-0423": {
+  "en": "medical certificate"
+ },
+ "wB2-1-0424": {
+  "en": "for operational reasons"
+ },
+ "wB2-1-0425": {
+  "en": "dismissal for operational reasons / redundancy"
+ },
+ "wB2-1-0426": {
+  "en": "something must be in writing"
+ },
+ "wB2-1-0427": {
+  "en": "continued payment of salary / remuneration"
+ },
+ "wB2-1-0428": {
+  "en": "to work from home"
+ },
+ "wB2-1-0429": {
+  "en": "internal matter"
+ },
+ "wB2-1-0430": {
+  "en": "regular weekly working hours"
+ },
+ "wB2-1-0431": {
+  "en": "to register as a jobseeker"
+ },
+ "wB2-1-0432": {
+  "en": "to extend the contract"
+ },
+ "wB2-1-0433": {
+  "en": "unemployment insurance"
+ },
+ "wB2-1-0434": {
+  "en": "gross remuneration"
+ },
+ "wB2-1-0435": {
+  "en": "church tax"
+ },
+ "wB2-1-0436": {
+  "en": "religious denomination"
+ },
+ "wB2-1-0437": {
+  "en": "wage tax"
+ },
+ "wB2-1-0438": {
+  "en": "net earnings"
+ },
+ "wB2-1-0439": {
+  "en": "long-term care insurance"
+ },
+ "wB2-1-0440": {
+  "en": "pension insurance"
+ },
+ "wB2-1-0441": {
+  "en": "solidarity surcharge"
+ },
+ "wB2-1-0442": {
+  "en": "tax class / tax bracket"
+ },
+ "wB2-1-0443": {
+  "en": "to deduct"
+ },
+ "wB2-1-0444": {
+  "en": "to withhold"
+ },
+ "wB2-1-0445": {
+  "en": "workforce / staff"
+ },
+ "wB2-1-0448": {
+  "en": "successor"
+ },
+ "wB2-1-0449": {
+  "en": "severely disabled person"
+ },
+ "wB2-2-0001": {
+  "en": "employer"
+ },
+ "wB2-2-0002": {
+  "en": "architect"
+ },
+ "wB2-2-0003": {
+  "en": "car mechanic"
+ },
+ "wB2-2-0004": {
+  "en": "car manufacturer"
+ },
+ "wB2-2-0009": {
+  "en": "family business"
+ },
+ "wB2-2-0010": {
+  "en": "aid organisation"
+ },
+ "wB2-2-0011": {
+  "en": "international company"
+ },
+ "wB2-2-0012": {
+  "en": "food industry"
+ },
+ "wB2-2-0013": {
+  "en": "painting and decorating business"
+ },
+ "wB2-2-0014": {
+  "en": "social sector"
+ },
+ "wB2-2-0015": {
+  "en": "to employ"
+ },
+ "wB2-2-0020": {
+  "en": "primary school"
+ },
+ "wB2-2-0021": {
+  "en": "secondary school"
+ },
+ "wB2-2-0022": {
+  "en": "Hauptschule (lower secondary school)"
+ },
+ "wB2-2-0023": {
+  "en": "Mittelschule (middle school)"
+ },
+ "wB2-2-0024": {
+  "en": "Realschule (intermediate secondary school)"
+ },
+ "wB2-2-0025": {
+  "en": "comprehensive school"
+ },
+ "wB2-2-0027": {
+  "en": "lower / intermediate secondary school certificate"
+ },
+ "wB2-2-0028": {
+  "en": "Abitur (university entrance qualification)"
+ },
+ "wB2-2-0029": {
+  "en": "intermediate school-leaving certificate"
+ },
+ "wB2-2-0030": {
+  "en": "vocational training"
+ },
+ "wB2-2-0031": {
+  "en": "vocational qualification"
+ },
+ "wB2-2-0032": {
+  "en": "bachelor's degree"
+ },
+ "wB2-2-0033": {
+  "en": "master's degree"
+ },
+ "wB2-2-0034": {
+  "en": "certificate"
+ },
+ "wB2-2-0035": {
+  "en": "more than"
+ },
+ "wB2-2-0036": {
+  "en": "less than"
+ },
+ "wB2-2-0037": {
+  "en": "(almost) all"
+ },
+ "wB2-2-0038": {
+  "en": "half"
+ },
+ "wB2-2-0039": {
+  "en": "a quarter"
+ },
+ "wB2-2-0040": {
+  "en": "a third"
+ },
+ "wB2-2-0041": {
+  "en": "one in ten"
+ },
+ "wB2-2-0042": {
+  "en": "contact person"
+ },
+ "wB2-2-0043": {
+  "en": "advice centre"
+ },
+ "wB2-2-0044": {
+  "en": "work placement / internship"
+ },
+ "wB2-2-0045": {
+  "en": "dual vocational training"
+ },
+ "wB2-2-0046": {
+  "en": "technical college"
+ },
+ "wB2-2-0047": {
+  "en": "further training"
+ },
+ "wB2-2-0048": {
+  "en": "master craftsman's examination"
+ },
+ "wB2-2-0049": {
+  "en": "shift work"
+ },
+ "wB2-2-0050": {
+  "en": "state-recognised training"
+ },
+ "wB2-2-0052": {
+  "en": "dream job"
+ },
+ "wB2-2-0053": {
+  "en": "entry requirements"
+ },
+ "wB2-2-0054": {
+  "en": "to practise a profession"
+ },
+ "wB2-2-0055": {
+  "en": "to have one's vocational qualification recognised"
+ },
+ "wB2-2-0056": {
+  "en": "to apply for financial support (from the state)"
+ },
+ "wB2-2-0058": {
+  "en": "to be compulsory"
+ },
+ "wB2-2-0059": {
+  "en": "to work in administration"
+ },
+ "wB2-2-0060": {
+  "en": "to become self-employed"
+ },
+ "wB2-2-0061": {
+  "en": "to be responsible"
+ },
+ "wB2-2-0062": {
+  "en": "weakness"
+ },
+ "wB2-2-0063": {
+  "en": "strength"
+ },
+ "wB2-2-0064": {
+  "en": "resilient / able to work under pressure"
+ },
+ "wB2-2-0065": {
+  "en": "proactive / showing initiative"
+ },
+ "wB2-2-0066": {
+  "en": "flexible"
+ },
+ "wB2-2-0067": {
+  "en": "helpful"
+ },
+ "wB2-2-0068": {
+  "en": "creative"
+ },
+ "wB2-2-0069": {
+  "en": "willing to learn"
+ },
+ "wB2-2-0070": {
+  "en": "(dis)organised"
+ },
+ "wB2-2-0071": {
+  "en": "self-confident"
+ },
+ "wB2-2-0073": {
+  "en": "tolerant"
+ },
+ "wB2-2-0074": {
+  "en": "responsible / conscientious"
+ },
+ "wB2-2-0078": {
+  "en": "documents"
+ },
+ "wB2-2-0080": {
+  "en": "admission / licence"
+ },
+ "wB2-2-0081": {
+  "en": "workflow"
+ },
+ "wB2-2-0082": {
+  "en": "occupational field"
+ },
+ "wB2-2-0083": {
+  "en": "technical German / German for professional purposes"
+ },
+ "wB2-2-0084": {
+  "en": "specialists / skilled workers"
+ },
+ "wB2-2-0085": {
+  "en": "specialist vocabulary"
+ },
+ "wB2-2-0086": {
+  "en": "craftsman / tradesperson"
+ },
+ "wB2-2-0087": {
+  "en": "STEM profession"
+ },
+ "wB2-2-0090": {
+  "en": "in-demand profession"
+ },
+ "wB2-2-0091": {
+  "en": "dealing with customers"
+ },
+ "wB2-2-0092": {
+  "en": "authorisation / entitlement"
+ },
+ "wB2-2-0093": {
+  "en": "support / funding"
+ },
+ "wB2-2-0094": {
+  "en": "training course"
+ },
+ "wB2-2-0095": {
+  "en": "proof of German language skills"
+ },
+ "wB2-2-0096": {
+  "en": "prior knowledge"
+ },
+ "wB2-2-0097": {
+  "en": "agent / intermediary"
+ },
+ "wB2-2-0098": {
+  "en": "entry requirement"
+ },
+ "wB2-2-0099": {
+  "en": "to take the master craftsman's examination"
+ },
+ "wB2-2-0100": {
+  "en": "to come by in person"
+ },
+ "wB2-2-0101": {
+  "en": "to change career direction"
+ },
+ "wB2-2-0102": {
+  "en": "certified copy"
+ },
+ "wB2-2-0103": {
+  "en": "certified translation"
+ },
+ "wB2-2-0104": {
+  "en": "to apply for professional recognition"
+ },
+ "wB2-2-0106": {
+  "en": "translation agency"
+ },
+ "wB2-2-0107": {
+  "en": "sole trader"
+ },
+ "wB2-2-0108": {
+  "en": "business partner"
+ },
+ "wB2-2-0109": {
+  "en": "to get off to a good / bad start"
+ },
+ "wB2-2-0110": {
+  "en": "freelance work"
+ },
+ "wB2-2-0111": {
+  "en": "to become self-employed"
+ },
+ "wB2-2-0112": {
+  "en": "to found a company"
+ },
+ "wB2-2-0114": {
+  "en": "job application training"
+ },
+ "wB2-2-0115": {
+  "en": "specialisation"
+ },
+ "wB2-2-0116": {
+  "en": "job-wanted advertisement"
+ },
+ "wB2-2-0118": {
+  "en": "jobseeker"
+ },
+ "wB2-2-0119": {
+  "en": "medium-sized company"
+ },
+ "wB2-2-0120": {
+  "en": "to ask about the current status"
+ },
+ "wB2-2-0121": {
+  "en": "to turn to someone / to contact someone"
+ },
+ "wB2-2-0122": {
+  "en": "to refer to an advertisement"
+ },
+ "wB2-2-0123": {
+  "en": "to apply for a job"
+ },
+ "wB2-2-0125": {
+  "en": "school education"
+ },
+ "wB2-2-0126": {
+  "en": "special skills"
+ },
+ "wB2-2-0127": {
+  "en": "career stage"
+ },
+ "wB2-2-0128": {
+  "en": "personal details"
+ },
+ "wB2-2-0129": {
+  "en": "business fluent (confident in negotiations)"
+ },
+ "wB2-2-0130": {
+  "en": "advertised position"
+ },
+ "wB2-2-0131": {
+  "en": "to write a letter of application"
+ },
+ "wB2-2-0132": {
+  "en": "to be available for questions"
+ },
+ "wB2-2-0133": {
+  "en": "to match the interests and qualifications"
+ },
+ "wB2-2-0134": {
+  "en": "salary expectation"
+ },
+ "wB2-2-0136": {
+  "en": "to make a good impression"
+ },
+ "wB2-2-0137": {
+  "en": "to master a difficult situation"
+ },
+ "wB2-2-0138": {
+  "en": "to enquire about the state of affairs"
+ },
+ "wB2-2-0139": {
+  "en": "to decide on an applicant"
+ },
+ "wB2-2-0140": {
+  "en": "to take up a position"
+ },
+ "wB2-2-0141": {
+  "en": "employment relationship"
+ },
+ "wB2-2-0142": {
+  "en": "trade secret"
+ },
+ "wB2-2-0144": {
+  "en": "sick note / notification of illness"
+ },
+ "wB2-2-0145": {
+  "en": "notice period"
+ },
+ "wB2-2-0146": {
+  "en": "continued payment of wages"
+ },
+ "wB2-2-0148": {
+  "en": "hour of overtime"
+ },
+ "wB2-2-0149": {
+  "en": "earnings"
+ },
+ "wB2-2-0150": {
+  "en": "remuneration"
+ },
+ "wB2-2-0151": {
+  "en": "duty of confidentiality"
+ },
+ "wB2-2-0152": {
+  "en": "instruction"
+ },
+ "wB2-2-0153": {
+  "en": "danger spot"
+ },
+ "wB2-2-0154": {
+  "en": "sign"
+ },
+ "wB2-2-0155": {
+  "en": "suggestion for improvement"
+ },
+ "wB2-2-0156": {
+  "en": "sign / symbol"
+ },
+ "wB2-2-0157": {
+  "en": "to switch on the alarm system"
+ },
+ "wB2-2-0158": {
+  "en": "corrosive acid"
+ },
+ "wB2-2-0159": {
+  "en": "to keep a training record book"
+ },
+ "wB2-2-0160": {
+  "en": "burning material"
+ },
+ "wB2-2-0161": {
+  "en": "to display a document in the company"
+ },
+ "wB2-2-0162": {
+  "en": "electrical voltage"
+ },
+ "wB2-2-0163": {
+  "en": "explosive material"
+ },
+ "wB2-2-0164": {
+  "en": "toxic material"
+ },
+ "wB2-2-0165": {
+  "en": "to pay attention to hygiene"
+ },
+ "wB2-2-0166": {
+  "en": "to accompany the customer to the checkout"
+ },
+ "wB2-2-0167": {
+  "en": "not to lose any time"
+ },
+ "wB2-2-0168": {
+  "en": "to have one's papers with one"
+ },
+ "wB2-2-0169": {
+  "en": "to keep receipts"
+ },
+ "wB2-2-0170": {
+  "en": "to give notice in good time"
+ },
+ "wB2-2-0171": {
+  "en": "to cancel an appointment"
+ },
+ "wB2-2-0172": {
+  "en": "to reschedule an appointment"
+ },
+ "wB2-2-0173": {
+  "en": "to take over an appointment"
+ },
+ "wB2-2-0174": {
+  "en": "to calculate overtime"
+ },
+ "wB2-2-0175": {
+  "en": "medical certificate / sick note"
+ },
+ "wB2-2-0176": {
+  "en": "dizziness"
+ },
+ "wB2-2-0177": {
+  "en": "electric shock"
+ },
+ "wB2-2-0178": {
+  "en": "nausea"
+ },
+ "wB2-2-0179": {
+  "en": "to call a doctor"
+ },
+ "wB2-2-0180": {
+  "en": "to have health problems"
+ },
+ "wB2-2-0181": {
+  "en": "to cool the skin"
+ },
+ "wB2-2-0182": {
+  "en": "to call the emergency services"
+ },
+ "wB2-2-0183": {
+  "en": "to report sick"
+ },
+ "wB2-2-0184": {
+  "en": "to switch off the power source"
+ },
+ "wB2-2-0185": {
+  "en": "to arrange cover (a stand-in)"
+ },
+ "wB2-2-0186": {
+  "en": "to write the accident report"
+ },
+ "wB2-2-0187": {
+  "en": "antibacterial soap"
+ },
+ "wB2-2-0188": {
+  "en": "order / tidiness"
+ },
+ "wB2-2-0189": {
+  "en": "cleaning cloth"
+ },
+ "wB2-2-0190": {
+  "en": "vacuum cleaner"
+ },
+ "wB2-2-0191": {
+  "en": "washbasin"
+ },
+ "wB2-2-0192": {
+  "en": "bulk discount"
+ },
+ "wB2-2-0193": {
+  "en": "price quotation / stated price"
+ },
+ "wB2-2-0195": {
+  "en": "to place an order"
+ },
+ "wB2-2-0196": {
+  "en": "to pass on an order (by phone)"
+ },
+ "wB2-2-0197": {
+  "en": "to confirm the booking"
+ },
+ "wB2-2-0198": {
+  "en": "to clarify a delivery date"
+ },
+ "wB2-2-0199": {
+  "en": "to settle an open question"
+ },
+ "wB2-2-0200": {
+  "en": "agreed appointment"
+ },
+ "wB2-2-0202": {
+  "en": "to drop by"
+ },
+ "wB2-2-0203": {
+  "en": "on the phone / speaking"
+ },
+ "wB2-2-0204": {
+  "en": "to leave a message on the answering machine"
+ },
+ "wB2-2-0205": {
+  "en": "to give information"
+ },
+ "wB2-2-0206": {
+  "en": "to call outside consultation hours"
+ },
+ "wB2-2-0207": {
+  "en": "to refer to"
+ },
+ "wB2-2-0208": {
+  "en": "in urgent cases"
+ },
+ "wB2-2-0209": {
+  "en": "to give brief feedback"
+ },
+ "wB2-2-0210": {
+  "en": "without prior appointment"
+ },
+ "wB2-2-0211": {
+  "en": "to turn to / to contact"
+ },
+ "wB2-2-0212": {
+  "en": "misunderstanding"
+ },
+ "wB2-2-0213": {
+  "en": "to respond to complaints"
+ },
+ "wB2-2-0214": {
+  "en": "on request"
+ },
+ "wB2-2-0216": {
+  "en": "to be given an introduction to the program"
+ },
+ "wB2-2-0217": {
+  "en": "to resolve a conflict"
+ },
+ "wB2-2-0219": {
+  "en": "to be (not) satisfied with"
+ },
+ "wB2-2-0220": {
+  "en": "impression (dental)"
+ },
+ "wB2-2-0221": {
+  "en": "anaesthetic injection"
+ },
+ "wB2-2-0222": {
+  "en": "temporary filling"
+ },
+ "wB2-2-0223": {
+  "en": "durability / shelf life"
+ },
+ "wB2-2-0224": {
+  "en": "inlay"
+ },
+ "wB2-2-0225": {
+  "en": "tooth decay / caries"
+ },
+ "wB2-2-0226": {
+  "en": "ceramic"
+ },
+ "wB2-2-0227": {
+  "en": "laboratory"
+ },
+ "wB2-2-0228": {
+  "en": "emergency service"
+ },
+ "wB2-2-0229": {
+  "en": "to brush one's teeth thoroughly"
+ },
+ "wB2-2-0230": {
+  "en": "to endure pain"
+ }
+}

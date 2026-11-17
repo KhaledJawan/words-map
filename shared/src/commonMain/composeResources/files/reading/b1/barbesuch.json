@@ -1,0 +1,72 @@
+{
+  "order": 3,
+  "title": "Barbesuch",
+  "description": {
+    "de": "Ein Abend mit Freundinnen in einer Bar.",
+    "en": "An evening with friends in a bar.",
+    "fa": "یک شب با دوستان در یک بار."
+  },
+  "keywords": [
+    "Bar",
+    "Freundinnen",
+    "Billard"
+  ],
+  "text": "Meine Freundinnen und ich gehen heute in eine Bar. Dafür mache ich mich schick. Ich lege etwas Make-up auf: Puder, Lidschatten und Mascara. Dann frisiere ich meine Haare.\n\nUm 20 Uhr treffen wir uns vor der Bar. Ich umarme meine Freundinnen. Dann gehen wir hinein. Drinnen ist es laut. Es sind viele Menschen da und es läuft Musik.\n\nWir gehen an den Tresen und warten auf den Barkeeper. Bei ihm bestellen wir uns Cola.\n\nDann gehen wir an einen Billardtisch. Das ist ein grüner Tisch. Darauf kann man Billard spielen. Wir lachen, reden und haben sehr viel Spaß. Es ist ein toller Barbesuch!",
+  "questions": [
+    {
+      "question": "Wohin gehen meine Freundinnen und ich heute?",
+      "answers": [
+        "Bar",
+        "Arbeit",
+        "Disco",
+        "Schule"
+      ]
+    },
+    {
+      "question": "Was ist KEIN Make-up?",
+      "answers": [
+        "Brille",
+        "Lidschatten",
+        "Mascara",
+        "Puder"
+      ]
+    },
+    {
+      "question": "Wann treffen wir uns?",
+      "answers": [
+        "20 Uhr",
+        "2 Uhr",
+        "19 Uhr",
+        "21 Uhr"
+      ]
+    },
+    {
+      "question": "Wie ist es drinnen?",
+      "answers": [
+        "laut",
+        "ruhig",
+        "leise",
+        "langweilig"
+      ]
+    },
+    {
+      "question": "Was bestellen wir bei dem Barkeeper?",
+      "answers": [
+        "Cola",
+        "Wasser",
+        "Bier",
+        "Energydrinks"
+      ]
+    },
+    {
+      "question": "Welche Farbe hat ein Billardtisch?",
+      "answers": [
+        "grün",
+        "weiß",
+        "gelb",
+        "blau"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/barbesuch/"
+}

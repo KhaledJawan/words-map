@@ -1,0 +1,72 @@
+{
+  "order": 2,
+  "title": "Der Kater Carlo",
+  "description": {
+    "de": "Ein schwarzer Kater und seine Familie.",
+    "en": "A black cat and his family.",
+    "fa": "یک گربهٔ سیاه و خانواده‌اش."
+  },
+  "keywords": [
+    "Kater",
+    "Katze",
+    "Familie"
+  ],
+  "text": "Carlo ist ein schwarzer Kater. Er lebt bei Familie Müller. Die kleine Tochter der Familie kuschelt ganz viel mit Carlo. Sie ist sechs Jahre alt und heißt Mia. Familie Müller hat auch einen Sohn. Er heißt Simon und ist zehn Jahre alt. Simon spielt viel mit Carlo. Carlo und Simon toben dann durch das ganze Haus und den Garten.\n\nCarlo ist kein reiner Hauskater. Er darf auch nach draußen. Oft ist er den ganzen Tag im Freien, aber er kommt abends immer nach Hause.\n\nDann legt er sich in sein Katzenbett, rollt sich zusammen und schläft die ganze Nacht. Morgens wacht er dann auf und fängt an zu miauen, weil er Hunger hat.",
+  "questions": [
+    {
+      "question": "Welche Farbe hat Carlo?",
+      "answers": [
+        "schwarz",
+        "weiß",
+        "braun",
+        "rot"
+      ]
+    },
+    {
+      "question": "Wie heißt Carlos Familie?",
+      "answers": [
+        "Müller",
+        "Schmidt",
+        "Huber",
+        "Meier"
+      ]
+    },
+    {
+      "question": "Wie heißt die Tochter der Familie?",
+      "answers": [
+        "Mia",
+        "Amelie",
+        "Sophie",
+        "Theresa"
+      ]
+    },
+    {
+      "question": "Wie alt ist der Sohn der Familie?",
+      "answers": [
+        "zehn",
+        "sechs",
+        "sieben",
+        "elf"
+      ]
+    },
+    {
+      "question": "Wo spielt Simon mit Carlo?",
+      "answers": [
+        "Haus und Garten",
+        "Garten und Straße",
+        "nur im Haus",
+        "auf der Straße"
+      ]
+    },
+    {
+      "question": "Wohin legt sich Carlo zum Schlafen?",
+      "answers": [
+        "Katzenbett",
+        "Bett",
+        "Sofa",
+        "Boden"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/der-kater-carlo/"
+}

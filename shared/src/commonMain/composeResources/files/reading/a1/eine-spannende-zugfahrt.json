@@ -1,0 +1,72 @@
+{
+  "order": 11,
+  "title": "Eine spannende Zugfahrt",
+  "description": {
+    "de": "Mit dem Zug nach Italien – aber wo sind die Fahrkarten?",
+    "en": "By train to Italy – but where are the tickets?",
+    "fa": "با قطار به ایتالیا – اما بلیت‌ها کجاست؟"
+  },
+  "keywords": [
+    "Zug",
+    "Bahnhof",
+    "Fahrkarte"
+  ],
+  "text": "Meine Familie und ich stehen am Gleis 2 am Bahnhof. Wir warten auf den Zug, der nach Italien fährt. Wir wollen dort nämlich Urlaub machen.\n\nDann fährt der Zug ein. Wir nehmen unsere Koffer und steigen ein. Im Zug suchen wir uns einen Platz. Wir können alle zusammen sitzen und uns unterhalten und Kartenspiele spielen.\n\nDann kommt der Schaffner und möchte unsere Fahrkarten sehen. Meine Mutter hatte sie am Bahnhof gekauft – aber wo hatte sie sie hingesteckt? Sie sucht in ihrer Jacke und in ihrer Handtasche. Dann fällt ihr ein, dass sie sie in ihren Koffer gesteckt hatte. Puh!",
+  "questions": [
+    {
+      "question": "An welchem Gleis warten wir?",
+      "answers": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "question": "Wohin fährt unser Zug?",
+      "answers": [
+        "Italien",
+        "München",
+        "Berlin",
+        "Spanien"
+      ]
+    },
+    {
+      "question": "Was machen wir in Italien?",
+      "answers": [
+        "Urlaub",
+        "arbeiten",
+        "schlafen",
+        "Nichts"
+      ]
+    },
+    {
+      "question": "Was machen wir im Zug?",
+      "answers": [
+        "Karten spielen",
+        "schlafen",
+        "streiten",
+        "essen"
+      ]
+    },
+    {
+      "question": "Wer will unsere Fahrkarten sehen?",
+      "answers": [
+        "Der Schaffner",
+        "Der Polizist",
+        "Der Feuerwehrmann",
+        "Der Koch"
+      ]
+    },
+    {
+      "question": "Wo waren unsere Fahrkarten?",
+      "answers": [
+        "Im Koffer",
+        "In der Jacke",
+        "In der Handtasche",
+        "In der Hand"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/eine-spannende-zugfahrt/"
+}

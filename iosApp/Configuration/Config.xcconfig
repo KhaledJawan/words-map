@@ -1,0 +1,9 @@
+// The iOS app's identity, read by the Xcode project.
+// Raise CURRENT_PROJECT_VERSION by one for every upload to App Store Connect.
+TEAM_ID = 8HT2897WG7
+DEVELOPMENT_TEAM = $(TEAM_ID)
+PRODUCT_BUNDLE_IDENTIFIER = dev.nefrin.wordsmap
+PRODUCT_NAME = WordsMap
+APP_NAME = WordsMap
+MARKETING_VERSION = 2.2.0
+CURRENT_PROJECT_VERSION = 8

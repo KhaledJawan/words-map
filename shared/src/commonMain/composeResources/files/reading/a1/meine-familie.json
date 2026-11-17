@@ -1,0 +1,72 @@
+{
+  "order": 8,
+  "title": "Meine Familie",
+  "description": {
+    "de": "Eltern, Geschwister, ein Hund und viel Sport.",
+    "en": "Parents, siblings, a dog and lots of sport.",
+    "fa": "پدر و مادر، خواهر و برادر، یک سگ و کلی ورزش."
+  },
+  "keywords": [
+    "Familie",
+    "Geschwister",
+    "Sport"
+  ],
+  "text": "Zu meiner Familie gehören meine Eltern, mein Bruder Tom, meine Schwester Anna, mein Hund Bobo und ich. Tom und ich sehen aus wie unser Vater. Wir sind alle groß und haben blonde Haare. Anna hat braune Haare wie unsere Mutter. Dafür ist Anna die Lauteste in der Familie. Ich bin ruhig, so wie meine Mutter.\n\nAlle in der Familie sind fleißig, nur Tom ist faul. Er liegt am liebsten im Bett. Zur Schule gehen mag er nicht. Aber er mag Sport und geht gerne lange mit unserem Hund Bobo spazieren. In meiner Familie mögen alle Sport. Anna und ich spielen Basketball und Tom spielt Fußball. Mein Vater und meine Mutter lieben es, jeden Winter in den Bergen Ski zu fahren.",
+  "questions": [
+    {
+      "question": "Wer ist die Lauteste in der Familie?",
+      "answers": [
+        "Anna",
+        "Tom",
+        "Bobo",
+        "Vater"
+      ]
+    },
+    {
+      "question": "Was für ein Haustier habe ich?",
+      "answers": [
+        "Hund",
+        "Katze",
+        "Meerschweinchen",
+        "Vogel"
+      ]
+    },
+    {
+      "question": "Wo fahren meine Eltern immer Ski?",
+      "answers": [
+        "In den Bergen",
+        "In Österreich",
+        "Am Strand",
+        "Sie fahren nicht Ski, sondern Schlitten"
+      ]
+    },
+    {
+      "question": "Welchen Sport treibt Tom?",
+      "answers": [
+        "Fußball",
+        "Skifahren",
+        "Basketball",
+        "Volleyball"
+      ]
+    },
+    {
+      "question": "Welche Haarfarbe hat meine Mutter?",
+      "answers": [
+        "Braun",
+        "Schwarz",
+        "Blond",
+        "Grau"
+      ]
+    },
+    {
+      "question": "Was mag Tom nicht?",
+      "answers": [
+        "Zur Schule gehen",
+        "Skifahren",
+        "Mit dem Hund spazieren gehen",
+        "Im Bett liegen"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/meine-familie2/"
+}

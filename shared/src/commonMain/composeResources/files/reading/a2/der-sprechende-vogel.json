@@ -1,0 +1,72 @@
+{
+  "order": 11,
+  "title": "Der sprechende Vogel",
+  "description": {
+    "de": "Vivienne hat einen Papagei, der sprechen kann.",
+    "en": "Vivienne has a parrot that can talk.",
+    "fa": "ویوین طوطی‌ای دارد که حرف می‌زند."
+  },
+  "keywords": [
+    "Papagei",
+    "Vogel",
+    "Haustier"
+  ],
+  "text": "Gestern war ich bei einer neuen Freundin aus der Schule zu Besuch. Sie heißt Vivienne und ist neu in der Stadt. Sie wohnt in einem großen Haus mit einem großen Garten.\n\nIch war ein bisschen aufgeregt, denn Vivienne hat erzählt, dass sie einen sprechenden Vogel hat. Es ist ein Papagei und in der Schule hat sie gesagt, dass er sehr groß ist. In dem Haus hat der Papagei sogar ein eigenes Zimmer.\n\nWir gingen in das Zimmer und dann sah ich ihn. Er war rot mit ein paar grünen Federn am Schwanz. Ich war ganz gespannt. Plötzlich sagte der Vogel: „Hallo!“",
+  "questions": [
+    {
+      "question": "Wie heißt meine neue Freundin?",
+      "answers": [
+        "Vivienne",
+        "Veronika",
+        "Viktoria",
+        "Vanessa"
+      ]
+    },
+    {
+      "question": "Woher kenne ich sie?",
+      "answers": [
+        "Schule",
+        "Arbeit",
+        "Kirche",
+        "Sportverein"
+      ]
+    },
+    {
+      "question": "Welches Haustier hat Vivienne?",
+      "answers": [
+        "Vogel",
+        "Hamster",
+        "Hund",
+        "Katze"
+      ]
+    },
+    {
+      "question": "Was hat der Papagei?",
+      "answers": [
+        "Eigenes Zimmer",
+        "Eigenes Haus",
+        "Eigenes Essen",
+        "Eigene Kleidung"
+      ]
+    },
+    {
+      "question": "Welche Farbe hat der Papagei?",
+      "answers": [
+        "rot",
+        "braun",
+        "schwarz",
+        "gelb"
+      ]
+    },
+    {
+      "question": "Was sagt der Papagei?",
+      "answers": [
+        "Hallo!",
+        "Tschüss!",
+        "Guten Tag!",
+        "Auf Wiedersehen!"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/der-sprechende-vogel/"
+}

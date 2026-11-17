@@ -1,0 +1,72 @@
+{
+  "order": 12,
+  "title": "Der erste Schultag nach den Sommerferien",
+  "description": {
+    "de": "Wieder in der Schule nach den Sommerferien.",
+    "en": "Back to school after the summer holidays.",
+    "fa": "بازگشت به مدرسه بعد از تعطیلات تابستان."
+  },
+  "keywords": [
+    "Schule",
+    "Sommerferien",
+    "Stundenplan"
+  ],
+  "text": "Heute ist der erste Schultag nach den langen Sommerferien. Ich stehe früh auf und bin ein bisschen nervös. Mein Rucksack ist gepackt, und ich freue mich auf meine Freunde. In der Schule begrüßt uns unsere Lehrerin mit einem Lächeln. Alle Kinder erzählen, was sie in den Ferien erlebt haben. Manche waren am Meer, andere sind zu Hause geblieben. Ich berichte von meinem Besuch bei meinen Großeltern auf dem Land. Es ist schön, wieder mit meiner Klasse zusammen zu sein.\n\nNach der Pause bekommen wir unsere Stundenpläne für das neue Schuljahr. Einige Fächer sind neu, zum Beispiel Sachkunde. Wir dürfen auch neue Hefte austauschen und unsere Plätze wählen. Ich sitze neben Lukas, meinem besten Freund. Nach dem Unterricht fühle ich mich glücklich und ein wenig müde. Der erste Schultag ist geschafft, und ich bin gespannt auf das, was noch kommt.",
+  "questions": [
+    {
+      "question": "Wann findet der beschriebene Tag statt?",
+      "answers": [
+        "Am ersten Schultag nach den Sommerferien.",
+        "Am letzten Schultag vor den Sommerferien.",
+        "Am ersten Tag der Herbstferien.",
+        "Am ersten Montag der Winterferien."
+      ]
+    },
+    {
+      "question": "Wie fühlt sich der Erzähler am Morgen?",
+      "answers": [
+        "Ein bisschen nervös vor dem ersten Schultag.",
+        "Ziemlich krank an diesem ersten Schultag.",
+        "Völlig gelangweilt vor dem ersten Schultag.",
+        "Sehr wütend über den ersten Schultag."
+      ]
+    },
+    {
+      "question": "Wen hat der Erzähler in den Ferien besucht?",
+      "answers": [
+        "Seine Großeltern auf dem Land.",
+        "Seine Cousins in den Bergen.",
+        "Seine Tante an der Küste.",
+        "Seine Freunde in der Stadt."
+      ]
+    },
+    {
+      "question": "Was bekommen die Kinder nach der Pause?",
+      "answers": [
+        "Ihre Stundenpläne für das neue Schuljahr.",
+        "Ihre Sporttaschen für den Sportunterricht.",
+        "Ihre Ausweise für die Schulbibliothek.",
+        "Ihre Zeugnisse aus dem letzten Halbjahr."
+      ]
+    },
+    {
+      "question": "Welches Fach ist in diesem Schuljahr neu?",
+      "answers": [
+        "Sachkunde ist neu im Stundenplan.",
+        "Latein ist neu im Stundenplan.",
+        "Biologie ist neu im Stundenplan.",
+        "Informatik ist neu im Stundenplan."
+      ]
+    },
+    {
+      "question": "Wie fühlt sich der Erzähler nach dem Unterricht?",
+      "answers": [
+        "Glücklich und ein wenig müde.",
+        "Verärgert und sehr gestresst.",
+        "Krank und ziemlich benommen.",
+        "Traurig und völlig erschöpft."
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/der-erste-schultag-nach-den-sommerferien/"
+}

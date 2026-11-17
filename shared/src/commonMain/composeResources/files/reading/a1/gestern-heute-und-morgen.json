@@ -1,0 +1,72 @@
+{
+  "order": 3,
+  "title": "Gestern, heute und morgen",
+  "description": {
+    "de": "Ein Schultag in drei Zeiten.",
+    "en": "A school day in three tenses.",
+    "fa": "یک روز مدرسه در سه زمان."
+  },
+  "keywords": [
+    "Schule",
+    "Hausaufgaben",
+    "krank"
+  ],
+  "text": "Gestern ging ich in die Schule, heute gehe ich in die Schule und morgen werde ich in die Schule gehen.\n\nGestern hatten wir mein Lieblingsfach Englisch. Die Lehrerin war sehr gut drauf und gab uns keine Hausaufgaben auf.\n\nHeute haben wir Deutsch. Ich mag dieses Fach auch, aber der Lehrer gibt uns viele Hausaufgaben auf. Das mag ich nicht, weil ich jetzt den ganzen Tag am Schreibtisch sitze und Hausaufgaben mache.\n\nNormalerweise gehe ich jeden Tag in die Schule, aber heute fühle ich mich ein bisschen krank. Vielleicht werde ich morgen nicht in die Schule gehen. Aber meine Mutter sagt mir, dass ich mehr trinken soll. Dann geht es mir besser und ich werde morgen doch in die Schule gehen.",
+  "questions": [
+    {
+      "question": "Wohin gehe ich heute?",
+      "answers": [
+        "in die Schule",
+        "in die Arbeit",
+        "nach Hause",
+        "in den Urlaub"
+      ]
+    },
+    {
+      "question": "Welches Fach hatten wir gestern?",
+      "answers": [
+        "Englisch",
+        "Deutsch",
+        "Sport",
+        "Erdkunde"
+      ]
+    },
+    {
+      "question": "Was gab uns die Lehrerin nicht auf?",
+      "answers": [
+        "Hausaufgaben",
+        "Texte",
+        "Proben",
+        "nichts"
+      ]
+    },
+    {
+      "question": "Welches Fach haben wir heute?",
+      "answers": [
+        "Deutsch",
+        "Mathe",
+        "Englisch",
+        "Sport"
+      ]
+    },
+    {
+      "question": "Wo sitze ich den ganzen Tag und mache Hausaufgaben?",
+      "answers": [
+        "Schreibtisch",
+        "Tisch",
+        "Esstisch",
+        "Küchentisch"
+      ]
+    },
+    {
+      "question": "Wie fühle ich mich ein bisschen?",
+      "answers": [
+        "krank",
+        "gesund",
+        "schlapp",
+        "müde"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/gestern-heute-und-morgen/"
+}

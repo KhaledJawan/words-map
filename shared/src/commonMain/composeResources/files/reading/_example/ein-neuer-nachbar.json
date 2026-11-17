@@ -1,0 +1,61 @@
+{
+  "order": 1,
+  "title": "Ein neuer Nachbar",
+  "description": {
+    "de": "Es klingelt – und ein neuer Freund steht vor der Tür.",
+    "en": "A knock on the door and a new friend.",
+    "fa": "یک زنگ در و یک دوست تازه."
+  },
+  "keywords": [
+    "Nachbar",
+    "Schach"
+  ],
+  "text": "Herr Becker wohnt in einer kleinen Wohnung in Köln. Am Samstag klingelt es an der Tür. Vor der Tür steht ein junger Mann. Er heißt Omid und kommt aus Afghanistan. Omid wohnt seit Montag im Haus, im zweiten Stock.\n\n„Hallo, ich bin Ihr neuer Nachbar“, sagt Omid. „Haben Sie vielleicht einen Hammer? Ich möchte ein Bild an die Wand hängen.“ Herr Becker lacht. „Natürlich! Kommen Sie herein.“\n\nHerr Becker gibt Omid den Hammer. Dann trinken die beiden zusammen einen Tee. Omid erzählt: Er lernt Deutsch und arbeitet in einer Bäckerei. Herr Becker ist Rentner und spielt gern Schach. „Spielen Sie auch Schach?“, fragt er. „Ja, sehr gern!“, sagt Omid. Am Sonntag spielen sie zusammen.",
+  "questions": [
+    {
+      "question": "Wo wohnt Herr Becker?",
+      "answers": [
+        "In Köln",
+        "In Berlin",
+        "In Hamburg",
+        "In München"
+      ]
+    },
+    {
+      "question": "Woher kommt Omid?",
+      "answers": [
+        "Aus Afghanistan",
+        "Aus Syrien",
+        "Aus der Türkei",
+        "Aus dem Iran"
+      ]
+    },
+    {
+      "question": "Was möchte Omid von Herrn Becker?",
+      "answers": [
+        "Einen Hammer",
+        "Ein Bild",
+        "Einen Tee",
+        "Ein Buch"
+      ]
+    },
+    {
+      "question": "Wo arbeitet Omid?",
+      "answers": [
+        "In einer Bäckerei",
+        "In einem Supermarkt",
+        "In einer Schule",
+        "In einem Café"
+      ]
+    },
+    {
+      "question": "Was machen die beiden am Sonntag?",
+      "answers": [
+        "Sie spielen Schach.",
+        "Sie trinken Kaffee.",
+        "Sie hängen ein Bild auf.",
+        "Sie gehen spazieren."
+      ]
+    }
+  ]
+}

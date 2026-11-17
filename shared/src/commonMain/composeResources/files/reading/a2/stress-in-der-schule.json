@@ -1,0 +1,72 @@
+{
+  "order": 2,
+  "title": "Stress in der Schule",
+  "description": {
+    "de": "Tests, Hausaufgaben und ein bisschen Ruhe.",
+    "en": "Tests, homework and a little rest.",
+    "fa": "امتحان، تکلیف و کمی آرامش."
+  },
+  "keywords": [
+    "Schule",
+    "Stress",
+    "Test"
+  ],
+  "text": "Die Schule ist nicht immer leicht. Ich gehe in die 9. Klasse einer Realschule. Die Realschule hat nur 10 Klassen und unsere Schulnoten aus der 9. Klasse sind sehr wichtig. Damit müssen wir uns später für einen Beruf bewerben. Außerdem bereiten wir uns schon langsam auf unsere Abschlussprüfungen nächstes Jahr vor.\n\nWir haben immer viele Hausaufgaben auf und schreiben in der Schule viele Tests. Diese Woche haben wir zum Beispiel einen großen Test in Mathe und zwei kleine Tests in Deutsch und Physik. Und wir haben noch einen Vokabeltest in Englisch – das hätte ich fast vergessen!\n\nIch muss jeden Tag lernen. Der Stress ist manchmal zu viel, aber dann lege ich mich eine Stunde ins Bett und höre Meditationsmusik.",
+  "questions": [
+    {
+      "question": "In welche Klasse gehe ich?",
+      "answers": [
+        "9. Klasse",
+        "8. Klasse",
+        "6. Klasse",
+        "10. Klasse"
+      ]
+    },
+    {
+      "question": "Wie viele Klassen hat die Realschule?",
+      "answers": [
+        "zehn",
+        "neun",
+        "dreizehn",
+        "zwölf"
+      ]
+    },
+    {
+      "question": "Auf was bereiten wir uns in der 9. Klasse vor?",
+      "answers": [
+        "Abschlussprüfungen",
+        "Hausaufgaben",
+        "Beruf",
+        "Schule"
+      ]
+    },
+    {
+      "question": "In welchem Fach schreiben wir den großen Test?",
+      "answers": [
+        "Mathe",
+        "Englisch",
+        "Physik",
+        "Deutsch"
+      ]
+    },
+    {
+      "question": "In welchem Fach haben wir einen Vokabeltest?",
+      "answers": [
+        "Englisch",
+        "Spanisch",
+        "Deutsch",
+        "Mathe"
+      ]
+    },
+    {
+      "question": "Was höre ich, wenn der Stress zu viel wird?",
+      "answers": [
+        "Meditationsmusik",
+        "Rockmusik",
+        "klassische Musik",
+        "Popmusik"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/stress-in-der-schule/"
+}

@@ -1,0 +1,10222 @@
+[
+ {
+  "id": "w1",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Hallo",
+   "en": "Hello",
+   "fa": "سلام",
+   "ps": "سلام",
+   "fr": "Bonjour",
+   "tr": "Merhaba"
+  },
+  "examples": {
+   "de": "Hallo, wie geht's?"
+  }
+ },
+ {
+  "id": "wA1-1-0002",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "adverb"
+  ],
+  "words": {
+   "de": "auch",
+   "en": "also",
+   "fa": "همچنین",
+   "ps": "همدارنګه",
+   "fr": "aussi",
+   "tr": "de"
+  }
+ },
+ {
+  "id": "wA1-1-0003",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "a1_core",
+   "adverb"
+  ],
+  "words": {
+   "de": "bitte",
+   "en": "please",
+   "fa": "لطفاً",
+   "ps": "مهرباني وکړئ",
+   "fr": "s'il vous plaît",
+   "tr": "lütfen"
+  }
+ },
+ {
+  "id": "wA1-1-0004",
+  "category": [
+   "school_learning",
+   "proper_noun",
+   "noun"
+  ],
+  "words": {
+   "de": "Deutsch",
+   "en": "German",
+   "fa": "آلمانی",
+   "ps": "آلماني",
+   "fr": "allemand",
+   "tr": "Almanca"
+  }
+ },
+ {
+  "id": "wA1-1-0005",
+  "category": [
+   "proper_noun",
+   "noun"
+  ],
+  "words": {
+   "de": "Deutschland",
+   "en": "Germany",
+   "fa": "آلمان",
+   "ps": "آلمان",
+   "fr": "Allemagne",
+   "tr": "Almanya"
+  }
+ },
+ {
+  "id": "wA1-1-0006",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "words": {
+   "de": "Englisch",
+   "en": "English",
+   "fa": "انگلیسی",
+   "ps": "انګلیسي",
+   "fr": "anglais",
+   "tr": "İngilizce"
+  }
+ },
+ {
+  "id": "wA1-1-0007",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "words": {
+   "de": "Französisch",
+   "en": "French",
+   "fa": "فرانسه",
+   "ps": "فرانسوي",
+   "fr": "français",
+   "tr": "Fransızca"
+  }
+ },
+ {
+  "id": "wA1-1-0008",
+  "category": [
+   "people_family",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Frauen",
+  "words": {
+   "de": "Frau",
+   "en": "woman; Mrs.",
+   "fa": "خانم",
+   "ps": "میرمن",
+   "fr": "femme; Mme",
+   "tr": "kadın; Bayan"
+  },
+  "examples": {
+   "de": "Guten Morgen, Frau Müller!"
+  }
+ },
+ {
+  "id": "wA1-1-0009",
+  "category": [
+   "feelings_emotions",
+   "adjective"
+  ],
+  "words": {
+   "de": "gut",
+   "en": "good",
+   "fa": "خوب",
+   "ps": "ښه",
+   "fr": "bon",
+   "tr": "iyi"
+  }
+ },
+ {
+  "id": "wA1-1-0010",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "heißen",
+   "en": "to be called",
+   "fa": "نامیدن؛ اسم ... بودن",
+   "ps": "نومېدل",
+   "fr": "s'appeler",
+   "tr": "adlandırılmak"
+  },
+  "examples": {
+   "de": "Ich heiße Khaled."
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "heiße",
+    "du": "heißt",
+    "er/sie/es": "heißt",
+    "wir": "heißen",
+    "ihr": "heißt",
+    "sie/Sie": "heißen"
+   },
+   "Präteritum": {
+    "ich": "hieß",
+    "du": "hießest",
+    "er/sie/es": "hieß",
+    "wir": "hießen",
+    "ihr": "hießt",
+    "sie/Sie": "hießen"
+   },
+   "Perfekt": {
+    "ich": "habe geheißen",
+    "du": "hast geheißen",
+    "er/sie/es": "hat geheißen",
+    "wir": "haben geheißen",
+    "ihr": "habt geheißen",
+    "sie/Sie": "haben geheißen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geheißen",
+    "du": "hattest geheißen",
+    "er/sie/es": "hatte geheißen",
+    "wir": "hatten geheißen",
+    "ihr": "hattet geheißen",
+    "sie/Sie": "hatten geheißen"
+   },
+   "Futur I": {
+    "ich": "werde heißen",
+    "du": "wirst heißen",
+    "er/sie/es": "wird heißen",
+    "wir": "werden heißen",
+    "ihr": "werdet heißen",
+    "sie/Sie": "werden heißen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde heißen",
+    "du": "würdest heißen",
+    "er/sie/es": "würde heißen",
+    "wir": "würden heißen",
+    "ihr": "würdet heißen",
+    "sie/Sie": "würden heißen"
+   },
+   "Imperativ": {
+    "du": "heiß!",
+    "ihr": "heißt!",
+    "Sie": "heißen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0011",
+  "category": [
+   "people_family",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Herr",
+   "en": "man; Mr.",
+   "fa": "آقا",
+   "ps": "ښاغلی",
+   "fr": "homme; M.",
+   "tr": "adam; Bay"
+  },
+  "examples": {
+   "de": "Guten Tag, Herr Jones!"
+  }
+ },
+ {
+  "id": "wA1-1-0012",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "kommen (aus)",
+   "en": "to come from",
+   "fa": "اهلِ … بودن",
+   "ps": "راځې (له)",
+   "fr": "venir de",
+   "tr": "…'den gelmek"
+  },
+  "examples": {
+   "de": "Ich komme aus Deutschland."
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "komme",
+    "du": "kommst",
+    "er/sie/es": "kommt",
+    "wir": "kommen",
+    "ihr": "kommt",
+    "sie/Sie": "kommen"
+   },
+   "Präteritum": {
+    "ich": "kam",
+    "du": "kamst",
+    "er/sie/es": "kam",
+    "wir": "kamen",
+    "ihr": "kamt",
+    "sie/Sie": "kamen"
+   },
+   "Perfekt": {
+    "ich": "bin gekommen",
+    "du": "bist gekommen",
+    "er/sie/es": "ist gekommen",
+    "wir": "sind gekommen",
+    "ihr": "seid gekommen",
+    "sie/Sie": "sind gekommen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war gekommen",
+    "du": "warst gekommen",
+    "er/sie/es": "war gekommen",
+    "wir": "waren gekommen",
+    "ihr": "wart gekommen",
+    "sie/Sie": "waren gekommen"
+   },
+   "Futur I": {
+    "ich": "werde kommen",
+    "du": "wirst kommen",
+    "er/sie/es": "wird kommen",
+    "wir": "werden kommen",
+    "ihr": "werdet kommen",
+    "sie/Sie": "werden kommen"
+   },
+   "Konjunktiv II": {
+    "ich": "käme",
+    "du": "kämest",
+    "er/sie/es": "käme",
+    "wir": "kämen",
+    "ihr": "kämet",
+    "sie/Sie": "kämen"
+   },
+   "Imperativ": {
+    "du": "komm!",
+    "ihr": "kommt!",
+    "Sie": "kommen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0013",
+  "category": [
+   "school_learning",
+   "verb"
+  ],
+  "words": {
+   "de": "lernen",
+   "en": "to learn",
+   "fa": "یاد گرفتن",
+   "ps": "زده کول",
+   "fr": "apprendre",
+   "tr": "öğrenmek"
+  },
+  "examples": {
+   "de": "Ich lerne Deutsch."
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "lerne",
+    "du": "lernst",
+    "er/sie/es": "lernt",
+    "wir": "lernen",
+    "ihr": "lernt",
+    "sie/Sie": "lernen"
+   },
+   "Präteritum": {
+    "ich": "lernte",
+    "du": "lerntest",
+    "er/sie/es": "lernte",
+    "wir": "lernten",
+    "ihr": "lerntet",
+    "sie/Sie": "lernten"
+   },
+   "Perfekt": {
+    "ich": "habe gelernt",
+    "du": "hast gelernt",
+    "er/sie/es": "hat gelernt",
+    "wir": "haben gelernt",
+    "ihr": "habt gelernt",
+    "sie/Sie": "haben gelernt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gelernt",
+    "du": "hattest gelernt",
+    "er/sie/es": "hatte gelernt",
+    "wir": "hatten gelernt",
+    "ihr": "hattet gelernt",
+    "sie/Sie": "hatten gelernt"
+   },
+   "Futur I": {
+    "ich": "werde lernen",
+    "du": "wirst lernen",
+    "er/sie/es": "wird lernen",
+    "wir": "werden lernen",
+    "ihr": "werdet lernen",
+    "sie/Sie": "werden lernen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde lernen",
+    "du": "würdest lernen",
+    "er/sie/es": "würde lernen",
+    "wir": "würden lernen",
+    "ihr": "würdet lernen",
+    "sie/Sie": "würden lernen"
+   },
+   "Imperativ": {
+    "du": "lerne!",
+    "ihr": "lernt!",
+    "Sie": "lernen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0014",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Namen",
+  "words": {
+   "de": "Name",
+   "en": "name",
+   "fa": "نام",
+   "ps": "نوم",
+   "fr": "nom",
+   "tr": "isim"
+  }
+ },
+ {
+  "id": "wA1-1-0015",
+  "category": [
+   "technology_internet",
+   "verb"
+  ],
+  "words": {
+   "de": "drucken",
+   "en": "to print",
+   "fa": "چاپ کردن",
+   "ps": "چاپول",
+   "fr": "imprimer",
+   "tr": "yazdırmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "drucke",
+    "du": "druckst",
+    "er/sie/es": "druckt",
+    "wir": "drucken",
+    "ihr": "druckt",
+    "sie/Sie": "drucken"
+   },
+   "Präteritum": {
+    "ich": "druckte",
+    "du": "drucktest",
+    "er/sie/es": "druckte",
+    "wir": "druckten",
+    "ihr": "drucktet",
+    "sie/Sie": "druckten"
+   },
+   "Perfekt": {
+    "ich": "habe gedruckt",
+    "du": "hast gedruckt",
+    "er/sie/es": "hat gedruckt",
+    "wir": "haben gedruckt",
+    "ihr": "habt gedruckt",
+    "sie/Sie": "haben gedruckt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gedruckt",
+    "du": "hattest gedruckt",
+    "er/sie/es": "hatte gedruckt",
+    "wir": "hatten gedruckt",
+    "ihr": "hattet gedruckt",
+    "sie/Sie": "hatten gedruckt"
+   },
+   "Futur I": {
+    "ich": "werde drucken",
+    "du": "wirst drucken",
+    "er/sie/es": "wird drucken",
+    "wir": "werden drucken",
+    "ihr": "werdet drucken",
+    "sie/Sie": "werden drucken"
+   },
+   "Konjunktiv II": {
+    "ich": "würde drucken",
+    "du": "würdest drucken",
+    "er/sie/es": "würde drucken",
+    "wir": "würden drucken",
+    "ihr": "würdet drucken",
+    "sie/Sie": "würden drucken"
+   },
+   "Imperativ": {
+    "du": "druck!",
+    "ihr": "druckt!",
+    "Sie": "drucken Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0016",
+  "category": [
+   "proper_noun",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Schweiz",
+   "en": "Switzerland",
+   "fa": "سوئیس",
+   "ps": "سوئیس",
+   "fr": "Suisse",
+   "tr": "İsviçre"
+  }
+ },
+ {
+  "id": "wA1-1-0017",
+  "category": [
+   "conversation_phrases",
+   "daily_life",
+   "a1_core",
+   "verb",
+   "irregular_verb"
+  ],
+  "words": {
+   "de": "sein",
+   "en": "to be",
+   "fa": "بودن",
+   "ps": "بودل",
+   "fr": "être",
+   "tr": "olmak"
+  },
+  "examples": {
+   "de": "Ich bin müde."
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "bin",
+    "du": "bist",
+    "er/sie/es": "ist",
+    "wir": "sind",
+    "ihr": "seid",
+    "sie/Sie": "sind"
+   },
+   "Präteritum": {
+    "ich": "war",
+    "du": "warst",
+    "er/sie/es": "war",
+    "wir": "waren",
+    "ihr": "wart",
+    "sie/Sie": "waren"
+   },
+   "Perfekt": {
+    "ich": "bin gewesen",
+    "du": "bist gewesen",
+    "er/sie/es": "ist gewesen",
+    "wir": "sind gewesen",
+    "ihr": "seid gewesen",
+    "sie/Sie": "sind gewesen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war gewesen",
+    "du": "warst gewesen",
+    "er/sie/es": "war gewesen",
+    "wir": "waren gewesen",
+    "ihr": "wart gewesen",
+    "sie/Sie": "waren gewesen"
+   },
+   "Futur I": {
+    "ich": "werde sein",
+    "du": "wirst sein",
+    "er/sie/es": "wird sein",
+    "wir": "werden sein",
+    "ihr": "werdet sein",
+    "sie/Sie": "werden sein"
+   },
+   "Konjunktiv II": {
+    "ich": "wäre",
+    "du": "wärst",
+    "er/sie/es": "wäre",
+    "wir": "wären",
+    "ihr": "wärt",
+    "sie/Sie": "wären"
+   },
+   "Imperativ": {
+    "du": "sei!",
+    "ihr": "seid!",
+    "Sie": "seien Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0018",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "sprechen",
+   "en": "to speak",
+   "fa": "صحبت کردن",
+   "ps": "خبرې کول",
+   "fr": "parler",
+   "tr": "konuşmak"
+  },
+  "examples": {
+   "de": "Ich spreche Deutsch."
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "spreche",
+    "du": "sprichst",
+    "er/sie/es": "spricht",
+    "wir": "sprechen",
+    "ihr": "sprecht",
+    "sie/Sie": "sprechen"
+   },
+   "Präteritum": {
+    "ich": "sprach",
+    "du": "sprachst",
+    "er/sie/es": "sprach",
+    "wir": "sprachen",
+    "ihr": "spracht",
+    "sie/Sie": "sprachen"
+   },
+   "Perfekt": {
+    "ich": "habe gesprochen",
+    "du": "hast gesprochen",
+    "er/sie/es": "hat gesprochen",
+    "wir": "haben gesprochen",
+    "ihr": "habt gesprochen",
+    "sie/Sie": "haben gesprochen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gesprochen",
+    "du": "hattest gesprochen",
+    "er/sie/es": "hatte gesprochen",
+    "wir": "hatten gesprochen",
+    "ihr": "hattet gesprochen",
+    "sie/Sie": "hatten gesprochen"
+   },
+   "Futur I": {
+    "ich": "werde sprechen",
+    "du": "wirst sprechen",
+    "er/sie/es": "wird sprechen",
+    "wir": "werden sprechen",
+    "ihr": "werdet sprechen",
+    "sie/Sie": "werden sprechen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde sprechen",
+    "du": "würdest sprechen",
+    "er/sie/es": "würde sprechen",
+    "wir": "würden sprechen",
+    "ihr": "würdet sprechen",
+    "sie/Sie": "würden sprechen"
+   },
+   "Imperativ": {
+    "du": "sprich!",
+    "ihr": "sprecht!",
+    "Sie": "sprechen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0019",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "conjunction"
+  ],
+  "words": {
+   "de": "und",
+   "en": "and",
+   "fa": "و",
+   "ps": "او",
+   "fr": "et",
+   "tr": "ve"
+  }
+ },
+ {
+  "id": "wA1-1-0020",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "wohnen",
+   "en": "to live; to reside",
+   "fa": "سکونت کردن",
+   "ps": "اوېدل",
+   "fr": "habiter",
+   "tr": "oturmak"
+  },
+  "examples": {
+   "de": "Ich wohne in Trier."
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "wohne",
+    "du": "wohnst",
+    "er/sie/es": "wohnt",
+    "wir": "wohnen",
+    "ihr": "wohnt",
+    "sie/Sie": "wohnen"
+   },
+   "Präteritum": {
+    "ich": "wohnte",
+    "du": "wohntest",
+    "er/sie/es": "wohnte",
+    "wir": "wohnten",
+    "ihr": "wohntet",
+    "sie/Sie": "wohnten"
+   },
+   "Perfekt": {
+    "ich": "habe gewohnt",
+    "du": "hast gewohnt",
+    "er/sie/es": "hat gewohnt",
+    "wir": "haben gewohnt",
+    "ihr": "habt gewohnt",
+    "sie/Sie": "haben gewohnt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gewohnt",
+    "du": "hattest gewohnt",
+    "er/sie/es": "hatte gewohnt",
+    "wir": "hatten gewohnt",
+    "ihr": "hattet gewohnt",
+    "sie/Sie": "hatten gewohnt"
+   },
+   "Futur I": {
+    "ich": "werde wohnen",
+    "du": "wirst wohnen",
+    "er/sie/es": "wird wohnen",
+    "wir": "werden wohnen",
+    "ihr": "werdet wohnen",
+    "sie/Sie": "werden wohnen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde wohnen",
+    "du": "würdest wohnen",
+    "er/sie/es": "würde wohnen",
+    "wir": "würden wohnen",
+    "ihr": "würdet wohnen",
+    "sie/Sie": "würden wohnen"
+   },
+   "Imperativ": {
+    "du": "wohne!",
+    "ihr": "wohnt!",
+    "Sie": "wohnen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0021",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Wer?",
+   "en": "Who?",
+   "fa": "چه کسی؟",
+   "ps": "څوک؟",
+   "fr": "Qui?",
+   "tr": "Kim?"
+  }
+ },
+ {
+  "id": "wA1-1-0022",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Wie?",
+   "en": "How?",
+   "fa": "چگونه؟",
+   "ps": "څنګه؟",
+   "fr": "Comment?",
+   "tr": "Nasıl?"
+  }
+ },
+ {
+  "id": "wA1-1-0023",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Wo?",
+   "en": "Where?",
+   "fa": "کجا؟",
+   "ps": "چېرته؟",
+   "fr": "Où?",
+   "tr": "Nerede?"
+  }
+ },
+ {
+  "id": "wA1-1-0024",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Woher?",
+   "en": "From where?",
+   "fa": "از کجا؟",
+   "ps": "له کوم ځایه؟",
+   "fr": "D'où?",
+   "tr": "Nereden?"
+  }
+ },
+ {
+  "id": "wA1-1-0025",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Hallo!",
+   "en": "Hello!",
+   "fa": "سلام!",
+   "ps": "سلام!",
+   "fr": "Bonjour!",
+   "tr": "Merhaba!"
+  }
+ },
+ {
+  "id": "wA1-1-0026",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Hi!",
+   "en": "Hi!",
+   "fa": "سلام!",
+   "ps": "سلام!",
+   "fr": "Salut!",
+   "tr": "Merhaba!"
+  }
+ },
+ {
+  "id": "wA1-1-0027",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Tschüss!",
+   "en": "Bye!",
+   "fa": "خداحافظ!",
+   "ps": "خدای پامان!",
+   "fr": "Salut!",
+   "tr": "Hoşça kal!"
+  }
+ },
+ {
+  "id": "wA1-1-0028",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "noun",
+   "preposition"
+  ],
+  "words": {
+   "de": "Bis bald!",
+   "en": "See you soon!",
+   "fa": "تا بعد!",
+   "ps": "ژر به لیدو کیږو!",
+   "fr": "À bientôt!",
+   "tr": "Görüşürüz!"
+  }
+ },
+ {
+  "id": "wA1-1-0029",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Danke!",
+   "en": "Thanks!",
+   "fa": "تشکر!",
+   "ps": "مننه!",
+   "fr": "Merci!",
+   "tr": "Teşekkürler!"
+  }
+ },
+ {
+  "id": "wA1-1-0030",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Mein Name ist ...",
+   "en": "My name is ...",
+   "fa": "نام من ... است.",
+   "ps": "زما نوم ... دی.",
+   "fr": "Je m'appelle ...",
+   "tr": "Benim adım ..."
+  }
+ },
+ {
+  "id": "wA1-1-0031",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "a1_core",
+   "noun",
+   "question_word"
+  ],
+  "words": {
+   "de": "Wie geht es dir/Ihnen?",
+   "en": "How are you?",
+   "fa": "حالتان/حالت چطور است؟",
+   "ps": "څنګه یې؟",
+   "fr": "Comment ça va ?",
+   "tr": "Nasılsın?"
+  }
+ },
+ {
+  "id": "wA1-1-0032",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Mir geht es (sehr) gut.",
+   "en": "I am (very) well.",
+   "fa": "حالم (خیلی) خوب است.",
+   "ps": "زه (ډېر) ښه یم.",
+   "fr": "Je vais (très) bien.",
+   "tr": "(Çok) iyiyim."
+  }
+ },
+ {
+  "id": "wA1-1-0033",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "a1_core",
+   "noun",
+   "question_word"
+  ],
+  "words": {
+   "de": "Welche Sprachen sprechen Sie?",
+   "en": "Which languages do you speak?",
+   "fa": "شما به چه زبان‌هایی صحبت می‌کنید؟",
+   "ps": "تاسو کومې ژبې خبرې کوئ؟",
+   "fr": "Quelles langues parlez-vous ?",
+   "tr": "Hangi dilleri konuşuyorsunuz?"
+  }
+ },
+ {
+  "id": "wA1-1-0034",
+  "category": [
+   "school_learning",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Ich spreche ein bisschen Deutsch.",
+   "en": "I speak a little German.",
+   "fa": "من کمی آلمانی صحبت می‌کنم.",
+   "ps": "زه لږ څه جرمني خبرې کوم.",
+   "fr": "Je parle un peu allemand.",
+   "tr": "Biraz Almanca konuşuyorum."
+  }
+ },
+ {
+  "id": "wA1-1-0035",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "a1_core",
+   "noun",
+   "conjunction"
+  ],
+  "words": {
+   "de": "Und wer ist das?",
+   "en": "And who is that?",
+   "fa": "و او/این کیست؟",
+   "ps": "او دا څوک دی؟",
+   "fr": "Et qui est-ce ?",
+   "tr": "O da kim?"
+  }
+ },
+ {
+  "id": "wA1-1-0036",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "a1_core",
+   "adverb",
+   "place_expression"
+  ],
+  "words": {
+   "de": "hier",
+   "en": "here",
+   "fa": "اینجا",
+   "ps": "دلته",
+   "fr": "ici",
+   "tr": "burada"
+  }
+ },
+ {
+  "id": "wA1-1-0037",
+  "category": [
+   "time_date",
+   "a1_core",
+   "adverb",
+   "time_expression"
+  ],
+  "words": {
+   "de": "jetzt",
+   "en": "now",
+   "fa": "اکنون",
+   "ps": "اوس",
+   "fr": "maintenant",
+   "tr": "şimdi"
+  }
+ },
+ {
+  "id": "wA1-1-0038",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Länder",
+  "words": {
+   "de": "Land",
+   "en": "country",
+   "fa": "کشور",
+   "ps": "هیواد",
+   "fr": "pays",
+   "tr": "ülke"
+  }
+ },
+ {
+  "id": "wA1-1-0039",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Nachnamen",
+  "words": {
+   "de": "Nachname",
+   "en": "surname; last name",
+   "fa": "نام خانوادگی",
+   "ps": "تخلص",
+   "fr": "nom de famille",
+   "tr": "soyadı"
+  }
+ },
+ {
+  "id": "wA1-1-0040",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Sprachen",
+  "words": {
+   "de": "Sprache",
+   "en": "language",
+   "fa": "زبان",
+   "ps": "ژبه",
+   "fr": "langue",
+   "tr": "dil"
+  }
+ },
+ {
+  "id": "wA1-1-0041",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Vornamen",
+  "words": {
+   "de": "Vorname",
+   "en": "first name",
+   "fa": "نام کوچک",
+   "ps": "لومړی نوم",
+   "fr": "prénom",
+   "tr": "isim"
+  }
+ },
+ {
+  "id": "wA1-1-0042",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Wohnort",
+   "en": "place of residence",
+   "fa": "محل سکونت",
+   "ps": "د اوسېدو ځای",
+   "fr": "lieu de résidence",
+   "tr": "ikamet yeri"
+  }
+ },
+ {
+  "id": "wA1-1-0043",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "pronoun",
+   "article"
+  ],
+  "words": {
+   "de": "Das ist ... / Das sind ...",
+   "en": "This is ... / These are ...",
+   "fa": "این ... است / این‌ها ... هستند.",
+   "ps": "دا دی ... / دا دي ...",
+   "fr": "C'est ... / Ce sont ...",
+   "tr": "Bu ... / Bunlar ..."
+  }
+ },
+ {
+  "id": "wA1-1-0044",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "a1_core",
+   "noun",
+   "preposition"
+  ],
+  "words": {
+   "de": "Auf Wiedersehen!",
+   "en": "Goodbye!",
+   "fa": "به امید دیدار!",
+   "ps": "په خیر پاتې شه!",
+   "fr": "Au revoir!",
+   "tr": "Hoşça kal!"
+  }
+ },
+ {
+  "id": "wA1-1-0045",
+  "category": [
+   "school_learning",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Ich lerne Deutsch.",
+   "en": "I am learning German.",
+   "fa": "من آلمانی یاد می‌گیرم.",
+   "ps": "زه جرمني زده کوم.",
+   "fr": "J'apprends l'allemand.",
+   "tr": "Almanca öğreniyorum."
+  }
+ },
+ {
+  "id": "wA1-1-0046",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "conjunction"
+  ],
+  "words": {
+   "de": "aber",
+   "en": "but",
+   "fa": "ولی",
+   "ps": "خو",
+   "fr": "mais",
+   "tr": "ama"
+  }
+ },
+ {
+  "id": "wA1-1-0047",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Adresse",
+   "en": "address",
+   "fa": "آدرس",
+   "ps": "پته",
+   "fr": "adresse",
+   "tr": "adres"
+  }
+ },
+ {
+  "id": "wA1-1-0048",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Alter",
+   "en": "age",
+   "fa": "سن",
+   "ps": "عمر",
+   "fr": "âge",
+   "tr": "yaş"
+  }
+ },
+ {
+  "id": "wA1-1-0049",
+  "category": [
+   "school_learning",
+   "verb"
+  ],
+  "words": {
+   "de": "buchstabieren",
+   "en": "to spell",
+   "fa": "هجی کردن",
+   "ps": "توري کول",
+   "fr": "épeler",
+   "tr": "hecelemek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "buchstabiere",
+    "du": "buchstabierst",
+    "er/sie/es": "buchstabiert",
+    "wir": "buchstabieren",
+    "ihr": "buchstabiert",
+    "sie/Sie": "buchstabieren"
+   },
+   "Präteritum": {
+    "ich": "buchstabierte",
+    "du": "buchstabiertest",
+    "er/sie/es": "buchstabierte",
+    "wir": "buchstabierten",
+    "ihr": "buchstabiertet",
+    "sie/Sie": "buchstabierten"
+   },
+   "Perfekt": {
+    "ich": "habe buchstabiert",
+    "du": "hast buchstabiert",
+    "er/sie/es": "hat buchstabiert",
+    "wir": "haben buchstabiert",
+    "ihr": "habt buchstabiert",
+    "sie/Sie": "haben buchstabiert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte buchstabiert",
+    "du": "hattest buchstabiert",
+    "er/sie/es": "hatte buchstabiert",
+    "wir": "hatten buchstabiert",
+    "ihr": "hattet buchstabiert",
+    "sie/Sie": "hatten buchstabiert"
+   },
+   "Futur I": {
+    "ich": "werde buchstabieren",
+    "du": "wirst buchstabieren",
+    "er/sie/es": "wird buchstabieren",
+    "wir": "werden buchstabieren",
+    "ihr": "werdet buchstabieren",
+    "sie/Sie": "werden buchstabieren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde buchstabieren",
+    "du": "würdest buchstabieren",
+    "er/sie/es": "würde buchstabieren",
+    "wir": "würden buchstabieren",
+    "ihr": "würdet buchstabieren",
+    "sie/Sie": "würden buchstabieren"
+   },
+   "Imperativ": {
+    "du": "buchstabiere!",
+    "ihr": "buchstabiert!",
+    "Sie": "buchstabieren Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0050",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Familiennamen",
+  "words": {
+   "de": "Familienname",
+   "en": "family name",
+   "fa": "نام خانوادگی",
+   "ps": "تخلص",
+   "fr": "nom de famille",
+   "tr": "soyadı"
+  }
+ },
+ {
+  "id": "wA1-1-0051",
+  "category": [
+   "home_household",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Hausnummer",
+   "en": "house number",
+   "fa": "پلاک خانه",
+   "ps": "د کور شمېره",
+   "fr": "numéro de maison",
+   "tr": "ev numarası"
+  }
+ },
+ {
+  "id": "wA1-1-0052",
+  "category": [
+   "time_date",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Jahre",
+  "words": {
+   "de": "Jahr",
+   "en": "year",
+   "fa": "سال",
+   "ps": "کال",
+   "fr": "année",
+   "tr": "yıl"
+  }
+ },
+ {
+  "id": "wA1-1-0053",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "conjunction"
+  ],
+  "words": {
+   "de": "oder",
+   "en": "or",
+   "fa": "یا",
+   "ps": "یا",
+   "fr": "ou",
+   "tr": "veya"
+  }
+ },
+ {
+  "id": "wA1-1-0054",
+  "category": [
+   "proper_noun",
+   "noun"
+  ],
+  "words": {
+   "de": "Österreich",
+   "en": "Austria",
+   "fa": "اتریش",
+   "ps": "Österreich",
+   "fr": "Österreich",
+   "tr": "Österreich"
+  }
+ },
+ {
+  "id": "wA1-1-0055",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Postleitzahl",
+   "en": "postal code",
+   "fa": "کد پستی",
+   "ps": "پوستي کود",
+   "fr": "code postal",
+   "tr": "posta kodu"
+  }
+ },
+ {
+  "id": "wA1-1-0056",
+  "category": [
+   "places_buildings",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Stadt",
+   "en": "city",
+   "fa": "شهر",
+   "ps": "ښار",
+   "fr": "ville",
+   "tr": "şehir"
+  }
+ },
+ {
+  "id": "wA1-1-0057",
+  "category": [
+   "places_buildings",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Straße",
+   "en": "street",
+   "fa": "خیابان",
+   "ps": "کوڅه",
+   "fr": "rue",
+   "tr": "sokak"
+  }
+ },
+ {
+  "id": "wA1-1-0058",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Telefonnummer",
+   "en": "telephone number",
+   "fa": "شماره تلفن",
+   "ps": "د تلیفون شمېره",
+   "fr": "numéro de téléphone",
+   "tr": "telefon numarası"
+  }
+ },
+ {
+  "id": "wA1-1-0059",
+  "category": [
+   "people_family",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Muttersprache",
+   "en": "mother tongue",
+   "fa": "زبان مادری",
+   "ps": "مورنی ژبه",
+   "fr": "langue maternelle",
+   "tr": "ana dili"
+  }
+ },
+ {
+  "id": "wA1-1-0060",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Ich bin … Jahre alt.",
+   "en": "I am ... years old.",
+   "fa": "من ... سال دارم.",
+   "ps": "زه ... کلن یم.",
+   "fr": "J'ai ... ans.",
+   "tr": "... yaşındayım."
+  }
+ },
+ {
+  "id": "wA1-1-0061",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Ich lebe in …",
+   "en": "I live in ...",
+   "fa": "من در ... زندگی می‌کنم.",
+   "ps": "زه په ... کې ژوند کوم.",
+   "fr": "Je vis à ...",
+   "tr": "...'de yaşıyorum."
+  }
+ },
+ {
+  "id": "wA1-1-0062",
+  "category": [
+   "conversation_phrases",
+   "technology_internet",
+   "a1_core",
+   "noun",
+   "preposition"
+  ],
+  "words": {
+   "de": "Auf Wiederhören!",
+   "en": "Goodbye! (on the phone)",
+   "fa": "به امید صحبت دوباره!",
+   "ps": "په تلیفون کې بیا خبرې کوو!",
+   "fr": "Au revoir ! (au téléphone)",
+   "tr": "Görüşürüz! (telefonda)"
+  }
+ },
+ {
+  "id": "wA1-1-0063",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Ist das richtig?",
+   "en": "Is that correct?",
+   "fa": "آیا این درست است؟",
+   "ps": "آیا دا سم دی؟",
+   "fr": "C'est correct ?",
+   "tr": "Doğru mu?"
+  }
+ },
+ {
+  "id": "wA1-1-0064",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Vielen Dank!",
+   "en": "Many thanks!",
+   "fa": "تشکر فراوان!",
+   "ps": "ډېر مننه!",
+   "fr": "Merci beaucoup !",
+   "tr": "Çok teşekkürler!"
+  }
+ },
+ {
+  "id": "wA1-1-0065",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Bücher",
+  "words": {
+   "de": "Buch",
+   "en": "book",
+   "fa": "کتاب",
+   "ps": "کتاب",
+   "fr": "livre",
+   "tr": "kitap"
+  }
+ },
+ {
+  "id": "wA1-1-0066",
+  "category": [
+   "technology_internet",
+   "loanword_international",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Computer",
+  "words": {
+   "de": "Computer",
+   "en": "computer",
+   "fa": "کامپیوتر",
+   "ps": "کمپیوټر",
+   "fr": "ordinateur",
+   "tr": "bilgisayar"
+  }
+ },
+ {
+  "id": "wA1-1-0067",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Dialoge",
+  "words": {
+   "de": "Dialog",
+   "en": "dialogue",
+   "fa": "گفتگو",
+   "ps": "خبرې اترې",
+   "fr": "dialogue",
+   "tr": "diyalog"
+  }
+ },
+ {
+  "id": "wA1-1-0068",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Handys",
+  "words": {
+   "de": "Handy",
+   "en": "mobile phone",
+   "fa": "تلفن همراه",
+   "ps": "موبایل تلیفون",
+   "fr": "téléphone portable",
+   "tr": "cep telefonu"
+  }
+ },
+ {
+  "id": "wA1-1-0069",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "hören",
+   "en": "to hear",
+   "fa": "شنیدن",
+   "ps": "اورېدل",
+   "fr": "entendre",
+   "tr": "duymak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "höre",
+    "du": "hörst",
+    "er/sie/es": "hört",
+    "wir": "hören",
+    "ihr": "hört",
+    "sie/Sie": "hören"
+   },
+   "Präteritum": {
+    "ich": "hörte",
+    "du": "hörtest",
+    "er/sie/es": "hörte",
+    "wir": "hörten",
+    "ihr": "hörtet",
+    "sie/Sie": "hörten"
+   },
+   "Perfekt": {
+    "ich": "habe gehört",
+    "du": "hast gehört",
+    "er/sie/es": "hat gehört",
+    "wir": "haben gehört",
+    "ihr": "habt gehört",
+    "sie/Sie": "haben gehört"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gehört",
+    "du": "hattest gehört",
+    "er/sie/es": "hatte gehört",
+    "wir": "hatten gehört",
+    "ihr": "hattet gehört",
+    "sie/Sie": "hatten gehört"
+   },
+   "Futur I": {
+    "ich": "werde hören",
+    "du": "wirst hören",
+    "er/sie/es": "wird hören",
+    "wir": "werden hören",
+    "ihr": "werdet hören",
+    "sie/Sie": "werden hören"
+   },
+   "Konjunktiv II": {
+    "ich": "würde hören",
+    "du": "würdest hören",
+    "er/sie/es": "würde hören",
+    "wir": "würden hören",
+    "ihr": "würdet hören",
+    "sie/Sie": "würden hören"
+   },
+   "Imperativ": {
+    "du": "hör!",
+    "ihr": "hört!",
+    "Sie": "hören Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0070",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Kurse",
+  "words": {
+   "de": "Kurs",
+   "en": "course",
+   "fa": "دوره",
+   "ps": "کورس",
+   "fr": "cours",
+   "tr": "kurs"
+  }
+ },
+ {
+  "id": "wA1-1-0071",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Kursleiter",
+  "words": {
+   "de": "Kursleiter",
+   "en": "course instructor (male)",
+   "fa": "مدرس دوره (مرد)",
+   "ps": "د کورس ښوونکی (نرینه)",
+   "fr": "instructeur de cours (homme)",
+   "tr": "kurs eğitmeni (erkek)"
+  }
+ },
+ {
+  "id": "wA1-1-0072",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Kursleiterinnen",
+  "words": {
+   "de": "Kursleiterin",
+   "en": "course instructor (female)",
+   "fa": "مدرس دوره (زن)",
+   "ps": "د کورس ښوونکې (ښځینه)",
+   "fr": "instructrice de cours (femme)",
+   "tr": "kurs eğitmeni (kadın)"
+  }
+ },
+ {
+  "id": "wA1-1-0073",
+  "category": [
+   "school_learning",
+   "verb"
+  ],
+  "words": {
+   "de": "lesen",
+   "en": "to read",
+   "fa": "خواندن",
+   "ps": "لوستل",
+   "fr": "lire",
+   "tr": "okumak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "lese",
+    "du": "liest",
+    "er/sie/es": "liest",
+    "wir": "lesen",
+    "ihr": "lest",
+    "sie/Sie": "lesen"
+   },
+   "Präteritum": {
+    "ich": "las",
+    "du": "lasest",
+    "er/sie/es": "las",
+    "wir": "lasen",
+    "ihr": "last",
+    "sie/Sie": "lasen"
+   },
+   "Perfekt": {
+    "ich": "habe gelesen",
+    "du": "hast gelesen",
+    "er/sie/es": "hat gelesen",
+    "wir": "haben gelesen",
+    "ihr": "habt gelesen",
+    "sie/Sie": "haben gelesen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gelesen",
+    "du": "hattest gelesen",
+    "er/sie/es": "hatte gelesen",
+    "wir": "hatten gelesen",
+    "ihr": "hattet gelesen",
+    "sie/Sie": "hatten gelesen"
+   },
+   "Futur I": {
+    "ich": "werde lesen",
+    "du": "wirst lesen",
+    "er/sie/es": "wird lesen",
+    "wir": "werden lesen",
+    "ihr": "werdet lesen",
+    "sie/Sie": "werden lesen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde lesen",
+    "du": "würdest lesen",
+    "er/sie/es": "würde lesen",
+    "wir": "würden lesen",
+    "ihr": "würdet lesen",
+    "sie/Sie": "würden lesen"
+   },
+   "Imperativ": {
+    "du": "lies!",
+    "ihr": "lest!",
+    "Sie": "lesen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0074",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "sagen",
+   "en": "to say",
+   "fa": "گفتن",
+   "ps": "ویل",
+   "fr": "dire",
+   "tr": "söylemek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "sage",
+    "du": "sagst",
+    "er/sie/es": "sagt",
+    "wir": "sagen",
+    "ihr": "sagt",
+    "sie/Sie": "sagen"
+   },
+   "Präteritum": {
+    "ich": "sagte",
+    "du": "sagtest",
+    "er/sie/es": "sagte",
+    "wir": "sagten",
+    "ihr": "sagtet",
+    "sie/Sie": "sagten"
+   },
+   "Perfekt": {
+    "ich": "habe gesagt",
+    "du": "hast gesagt",
+    "er/sie/es": "hat gesagt",
+    "wir": "haben gesagt",
+    "ihr": "habt gesagt",
+    "sie/Sie": "haben gesagt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gesagt",
+    "du": "hattest gesagt",
+    "er/sie/es": "hatte gesagt",
+    "wir": "hatten gesagt",
+    "ihr": "hattet gesagt",
+    "sie/Sie": "hatten gesagt"
+   },
+   "Futur I": {
+    "ich": "werde sagen",
+    "du": "wirst sagen",
+    "er/sie/es": "wird sagen",
+    "wir": "werden sagen",
+    "ihr": "werdet sagen",
+    "sie/Sie": "werden sagen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde sagen",
+    "du": "würdest sagen",
+    "er/sie/es": "würde sagen",
+    "wir": "würden sagen",
+    "ihr": "würdet sagen",
+    "sie/Sie": "würden sagen"
+   },
+   "Imperativ": {
+    "du": "sag!",
+    "ihr": "sagt!",
+    "Sie": "sagen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0075",
+  "category": [
+   "school_learning",
+   "verb"
+  ],
+  "words": {
+   "de": "schreiben",
+   "en": "to write",
+   "fa": "نوشتن",
+   "ps": "لیکل",
+   "fr": "écrire",
+   "tr": "yazmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "schreibe",
+    "du": "schreibst",
+    "er/sie/es": "schreibt",
+    "wir": "schreiben",
+    "ihr": "schreibt",
+    "sie/Sie": "schreiben"
+   },
+   "Präteritum": {
+    "ich": "schrieb",
+    "du": "schriebst",
+    "er/sie/es": "schrieb",
+    "wir": "schrieben",
+    "ihr": "schriebt",
+    "sie/Sie": "schrieben"
+   },
+   "Perfekt": {
+    "ich": "habe geschrieben",
+    "du": "hast geschrieben",
+    "er/sie/es": "hat geschrieben",
+    "wir": "haben geschrieben",
+    "ihr": "habt geschrieben",
+    "sie/Sie": "haben geschrieben"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geschrieben",
+    "du": "hattest geschrieben",
+    "er/sie/es": "hatte geschrieben",
+    "wir": "hatten geschrieben",
+    "ihr": "hattet geschrieben",
+    "sie/Sie": "hatten geschrieben"
+   },
+   "Futur I": {
+    "ich": "werde schreiben",
+    "du": "wirst schreiben",
+    "er/sie/es": "wird schreiben",
+    "wir": "werden schreiben",
+    "ihr": "werdet schreiben",
+    "sie/Sie": "werden schreiben"
+   },
+   "Konjunktiv II": {
+    "ich": "würde schreiben",
+    "du": "würdest schreiben",
+    "er/sie/es": "würde schreiben",
+    "wir": "würden schreiben",
+    "ihr": "würdet schreiben",
+    "sie/Sie": "würden schreiben"
+   },
+   "Imperativ": {
+    "du": "schreibe!",
+    "ihr": "schreibt!",
+    "Sie": "schreiben Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0076",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Texte",
+  "words": {
+   "de": "Text",
+   "en": "text",
+   "fa": "متن",
+   "ps": "متن",
+   "fr": "texte",
+   "tr": "metin"
+  }
+ },
+ {
+  "id": "wA1-1-0077",
+  "category": [
+   "school_learning",
+   "verb"
+  ],
+  "words": {
+   "de": "verstehen",
+   "en": "to understand",
+   "fa": "فهمیدن",
+   "ps": "درک کول",
+   "fr": "comprendre",
+   "tr": "anlamak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "verstehe",
+    "du": "verstehst",
+    "er/sie/es": "versteht",
+    "wir": "verstehen",
+    "ihr": "versteht",
+    "sie/Sie": "verstehen"
+   },
+   "Präteritum": {
+    "ich": "verstand",
+    "du": "verstandest",
+    "er/sie/es": "verstand",
+    "wir": "verstanden",
+    "ihr": "verstandet",
+    "sie/Sie": "verstanden"
+   },
+   "Perfekt": {
+    "ich": "habe verstanden",
+    "du": "hast verstanden",
+    "er/sie/es": "hat verstanden",
+    "wir": "haben verstanden",
+    "ihr": "habt verstanden",
+    "sie/Sie": "haben verstanden"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte verstanden",
+    "du": "hattest verstanden",
+    "er/sie/es": "hatte verstanden",
+    "wir": "hatten verstanden",
+    "ihr": "hattet verstanden",
+    "sie/Sie": "hatten verstanden"
+   },
+   "Futur I": {
+    "ich": "werde verstehen",
+    "du": "wirst verstehen",
+    "er/sie/es": "wird verstehen",
+    "wir": "werden verstehen",
+    "ihr": "werdet verstehen",
+    "sie/Sie": "werden verstehen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde verstehen",
+    "du": "würdest verstehen",
+    "er/sie/es": "würde verstehen",
+    "wir": "würden verstehen",
+    "ihr": "würdet verstehen",
+    "sie/Sie": "würden verstehen"
+   },
+   "Imperativ": {
+    "du": "verstehe!",
+    "ihr": "versteht!",
+    "Sie": "verstehen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0078",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "wiederholen",
+   "en": "to repeat",
+   "fa": "تکرار کردن",
+   "ps": "تکرارول",
+   "fr": "répéter",
+   "tr": "tekrarlamak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "wiederhole",
+    "du": "wiederholst",
+    "er/sie/es": "wiederholt",
+    "wir": "wiederholen",
+    "ihr": "wiederholt",
+    "sie/Sie": "wiederholen"
+   },
+   "Präteritum": {
+    "ich": "wiederholte",
+    "du": "wiederholtest",
+    "er/sie/es": "wiederholte",
+    "wir": "wiederholten",
+    "ihr": "wiederholtet",
+    "sie/Sie": "wiederholten"
+   },
+   "Perfekt": {
+    "ich": "habe wiederholt",
+    "du": "hast wiederholt",
+    "er/sie/es": "hat wiederholt",
+    "wir": "haben wiederholt",
+    "ihr": "habt wiederholt",
+    "sie/Sie": "haben wiederholt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte wiederholt",
+    "du": "hattest wiederholt",
+    "er/sie/es": "hatte wiederholt",
+    "wir": "hatten wiederholt",
+    "ihr": "hattet wiederholt",
+    "sie/Sie": "hatten wiederholt"
+   },
+   "Futur I": {
+    "ich": "werde wiederholen",
+    "du": "wirst wiederholen",
+    "er/sie/es": "wird wiederholen",
+    "wir": "werden wiederholen",
+    "ihr": "werdet wiederholen",
+    "sie/Sie": "werden wiederholen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde wiederholen",
+    "du": "würdest wiederholen",
+    "er/sie/es": "würde wiederholen",
+    "wir": "würden wiederholen",
+    "ihr": "würdet wiederholen",
+    "sie/Sie": "würden wiederholen"
+   },
+   "Imperativ": {
+    "du": "wiederhol!",
+    "ihr": "wiederholt!",
+    "Sie": "wiederholen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0079",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Wörter",
+  "words": {
+   "de": "Wort",
+   "en": "word",
+   "fa": "کلمه",
+   "ps": "کلمه",
+   "fr": "mot",
+   "tr": "kelime"
+  }
+ },
+ {
+  "id": "wA1-1-0080",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Fragen",
+  "words": {
+   "de": "Frage",
+   "en": "question",
+   "fa": "پرسش",
+   "ps": "پوښتنه",
+   "fr": "question",
+   "tr": "soru"
+  }
+ },
+ {
+  "id": "wA1-1-0081",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Antworten",
+  "words": {
+   "de": "Antwort",
+   "en": "answer",
+   "fa": "پاسخ",
+   "ps": "ځواب",
+   "fr": "réponse",
+   "tr": "cevap"
+  }
+ },
+ {
+  "id": "wA1-1-0082",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "fragen",
+   "en": "to ask",
+   "fa": "پرسیدن",
+   "ps": "پوښتنه کول",
+   "fr": "demander",
+   "tr": "sormak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "frage",
+    "du": "fragst",
+    "er/sie/es": "fragt",
+    "wir": "fragen",
+    "ihr": "fragt",
+    "sie/Sie": "fragen"
+   },
+   "Präteritum": {
+    "ich": "fragte",
+    "du": "fragtest",
+    "er/sie/es": "fragte",
+    "wir": "fragten",
+    "ihr": "fragtet",
+    "sie/Sie": "fragten"
+   },
+   "Perfekt": {
+    "ich": "habe gefragt",
+    "du": "hast gefragt",
+    "er/sie/es": "hat gefragt",
+    "wir": "haben gefragt",
+    "ihr": "habt gefragt",
+    "sie/Sie": "haben gefragt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gefragt",
+    "du": "hattest gefragt",
+    "er/sie/es": "hatte gefragt",
+    "wir": "hatten gefragt",
+    "ihr": "hattet gefragt",
+    "sie/Sie": "hatten gefragt"
+   },
+   "Futur I": {
+    "ich": "werde fragen",
+    "du": "wirst fragen",
+    "er/sie/es": "wird fragen",
+    "wir": "werden fragen",
+    "ihr": "werdet fragen",
+    "sie/Sie": "werden fragen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde fragen",
+    "du": "würdest fragen",
+    "er/sie/es": "würde fragen",
+    "wir": "würden fragen",
+    "ihr": "würdet fragen",
+    "sie/Sie": "würden fragen"
+   },
+   "Imperativ": {
+    "du": "frag!",
+    "ihr": "fragt!",
+    "Sie": "fragen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0083",
+  "category": [
+   "school_learning",
+   "verb"
+  ],
+  "words": {
+   "de": "antworten",
+   "en": "to answer",
+   "fa": "پاسخ دادن",
+   "ps": "ځواب ورکول",
+   "fr": "répondre",
+   "tr": "cevap vermek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "antworte",
+    "du": "antwortest",
+    "er/sie/es": "antwortet",
+    "wir": "antworten",
+    "ihr": "antwortet",
+    "sie/Sie": "antworten"
+   },
+   "Präteritum": {
+    "ich": "antwortete",
+    "du": "antwortetest",
+    "er/sie/es": "antwortete",
+    "wir": "antworteten",
+    "ihr": "antwortetet",
+    "sie/Sie": "antworteten"
+   },
+   "Perfekt": {
+    "ich": "habe geantwortet",
+    "du": "hast geantwortet",
+    "er/sie/es": "hat geantwortet",
+    "wir": "haben geantwortet",
+    "ihr": "habt geantwortet",
+    "sie/Sie": "haben geantwortet"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geantwortet",
+    "du": "hattest geantwortet",
+    "er/sie/es": "hatte geantwortet",
+    "wir": "hatten geantwortet",
+    "ihr": "hattet geantwortet",
+    "sie/Sie": "hatten geantwortet"
+   },
+   "Futur I": {
+    "ich": "werde antworten",
+    "du": "wirst antworten",
+    "er/sie/es": "wird antworten",
+    "wir": "werden antworten",
+    "ihr": "werdet antworten",
+    "sie/Sie": "werden antworten"
+   },
+   "Konjunktiv II": {
+    "ich": "würde antworten",
+    "du": "würdest antworten",
+    "er/sie/es": "würde antworten",
+    "wir": "würden antworten",
+    "ihr": "würdet antworten",
+    "sie/Sie": "würden antworten"
+   },
+   "Imperativ": {
+    "du": "antworte!",
+    "ihr": "antwortet!",
+    "Sie": "antworten Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0084",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "öffnen",
+   "en": "to open",
+   "fa": "باز کردن",
+   "ps": "پرانیستل",
+   "fr": "ouvrir",
+   "tr": "açmak"
+  },
+  "examples": {
+   "de": "Öffnen Sie bitte das Buch."
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "öffne",
+    "du": "öffnest",
+    "er/sie/es": "öffnet",
+    "wir": "öffnen",
+    "ihr": "öffnet",
+    "sie/Sie": "öffnen"
+   },
+   "Präteritum": {
+    "ich": "öffnete",
+    "du": "öffnetest",
+    "er/sie/es": "öffnete",
+    "wir": "öffneten",
+    "ihr": "öffnetet",
+    "sie/Sie": "öffneten"
+   },
+   "Perfekt": {
+    "ich": "habe geöffnet",
+    "du": "hast geöffnet",
+    "er/sie/es": "hat geöffnet",
+    "wir": "haben geöffnet",
+    "ihr": "habt geöffnet",
+    "sie/Sie": "haben geöffnet"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geöffnet",
+    "du": "hattest geöffnet",
+    "er/sie/es": "hatte geöffnet",
+    "wir": "hatten geöffnet",
+    "ihr": "hattet geöffnet",
+    "sie/Sie": "hatten geöffnet"
+   },
+   "Futur I": {
+    "ich": "werde öffnen",
+    "du": "wirst öffnen",
+    "er/sie/es": "wird öffnen",
+    "wir": "werden öffnen",
+    "ihr": "werdet öffnen",
+    "sie/Sie": "werden öffnen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde öffnen",
+    "du": "würdest öffnen",
+    "er/sie/es": "würde öffnen",
+    "wir": "würden öffnen",
+    "ihr": "würdet öffnen",
+    "sie/Sie": "würden öffnen"
+   },
+   "Imperativ": {
+    "du": "öffne!",
+    "ihr": "öffnet!",
+    "Sie": "öffnen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0085",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "schließen",
+   "en": "to close",
+   "fa": "بستن",
+   "ps": "بندول",
+   "fr": "fermer",
+   "tr": "kapatmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "schließe",
+    "du": "schließt",
+    "er/sie/es": "schließt",
+    "wir": "schließen",
+    "ihr": "schließt",
+    "sie/Sie": "schließen"
+   },
+   "Präteritum": {
+    "ich": "schloss",
+    "du": "schlossest",
+    "er/sie/es": "schloss",
+    "wir": "schlossen",
+    "ihr": "schlosst",
+    "sie/Sie": "schlossen"
+   },
+   "Perfekt": {
+    "ich": "habe geschlossen",
+    "du": "hast geschlossen",
+    "er/sie/es": "hat geschlossen",
+    "wir": "haben geschlossen",
+    "ihr": "habt geschlossen",
+    "sie/Sie": "haben geschlossen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geschlossen",
+    "du": "hattest geschlossen",
+    "er/sie/es": "hatte geschlossen",
+    "wir": "hatten geschlossen",
+    "ihr": "hattet geschlossen",
+    "sie/Sie": "hatten geschlossen"
+   },
+   "Futur I": {
+    "ich": "werde schließen",
+    "du": "wirst schließen",
+    "er/sie/es": "wird schließen",
+    "wir": "werden schließen",
+    "ihr": "werdet schließen",
+    "sie/Sie": "werden schließen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde schließen",
+    "du": "würdest schließen",
+    "er/sie/es": "würde schließen",
+    "wir": "würden schließen",
+    "ihr": "würdet schließen",
+    "sie/Sie": "würden schließen"
+   },
+   "Imperativ": {
+    "du": "schließe!",
+    "ihr": "schließt!",
+    "Sie": "schließen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0086",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "adverb"
+  ],
+  "words": {
+   "de": "ja",
+   "en": "yes / as you know",
+   "fa": "بله / که می‌دانی",
+   "ps": "هو / لکه چې پوهېږې",
+   "fr": "oui / comme tu sais",
+   "tr": "evet / biliyorsun ya"
+  },
+  "examples": {
+   "de": "Du weißt ja, dass ich morgen arbeiten muss."
+  }
+ },
+ {
+  "id": "wA1-1-0087",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "adverb"
+  ],
+  "words": {
+   "de": "nein",
+   "en": "no",
+   "fa": "خیر",
+   "ps": "نه",
+   "fr": "non",
+   "tr": "hayır"
+  }
+ },
+ {
+  "id": "wA1-1-0088",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "richtig",
+   "en": "correct",
+   "fa": "درست",
+   "ps": "سم",
+   "fr": "correct",
+   "tr": "doğru"
+  }
+ },
+ {
+  "id": "wA1-1-0089",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "falsch",
+   "en": "wrong",
+   "fa": "نادرست",
+   "ps": "ناسم",
+   "fr": "faux",
+   "tr": "yanlış"
+  }
+ },
+ {
+  "id": "wA1-1-0090",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Was?",
+   "en": "What?",
+   "fa": "چه؟",
+   "ps": "څه؟",
+   "fr": "Quoi ?",
+   "tr": "Ne?"
+  }
+ },
+ {
+  "id": "wA1-1-0091",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Entschuldigung!",
+   "en": "Sorry!",
+   "fa": "پوزش!",
+   "ps": "بخښنه غواړم!",
+   "fr": "Pardon !",
+   "tr": "Üzgünüm!"
+  }
+ },
+ {
+  "id": "wA1-1-0092",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Alles klar!",
+   "en": "All clear!",
+   "fa": "همه چیز مفهوم است!",
+   "ps": "ټول روښانه دي!",
+   "fr": "Tout est clair !",
+   "tr": "Her şey net!"
+  }
+ },
+ {
+  "id": "wA1-1-0093",
+  "category": [
+   "school_learning",
+   "a1_core",
+   "pronoun",
+   "article"
+  ],
+  "words": {
+   "de": "Das ist mein Kursraum.",
+   "en": "This is my classroom.",
+   "fa": "این کلاس من است.",
+   "ps": "دا زما د ټولګي خونه ده.",
+   "fr": "C'est ma salle de classe.",
+   "tr": "Burası benim sınıfım."
+  }
+ },
+ {
+  "id": "wA1-1-0094",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Fenster",
+  "words": {
+   "de": "Fenster",
+   "en": "window",
+   "fa": "پنجره",
+   "ps": "کړکۍ",
+   "fr": "fenêtre",
+   "tr": "pencere"
+  }
+ },
+ {
+  "id": "wA1-1-0095",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "finden",
+   "en": "to find",
+   "fa": "پیدا کردن",
+   "ps": "موندل",
+   "fr": "trouver",
+   "tr": "bulmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "finde",
+    "du": "findest",
+    "er/sie/es": "findet",
+    "wir": "finden",
+    "ihr": "findet",
+    "sie/Sie": "finden"
+   },
+   "Präteritum": {
+    "ich": "fand",
+    "du": "fandest",
+    "er/sie/es": "fand",
+    "wir": "fanden",
+    "ihr": "fandet",
+    "sie/Sie": "fanden"
+   },
+   "Perfekt": {
+    "ich": "habe gefunden",
+    "du": "hast gefunden",
+    "er/sie/es": "hat gefunden",
+    "wir": "haben gefunden",
+    "ihr": "habt gefunden",
+    "sie/Sie": "haben gefunden"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gefunden",
+    "du": "hattest gefunden",
+    "er/sie/es": "hatte gefunden",
+    "wir": "hatten gefunden",
+    "ihr": "hattet gefunden",
+    "sie/Sie": "hatten gefunden"
+   },
+   "Futur I": {
+    "ich": "werde finden",
+    "du": "wirst finden",
+    "er/sie/es": "wird finden",
+    "wir": "werden finden",
+    "ihr": "werdet finden",
+    "sie/Sie": "werden finden"
+   },
+   "Konjunktiv II": {
+    "ich": "fände",
+    "du": "fändest",
+    "er/sie/es": "fände",
+    "wir": "fänden",
+    "ihr": "fändet",
+    "sie/Sie": "fänden"
+   },
+   "Imperativ": {
+    "du": "finde!",
+    "ihr": "findet!",
+    "Sie": "finden Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0096",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Flaschen",
+  "words": {
+   "de": "Flasche",
+   "en": "bottle",
+   "fa": "بطری",
+   "ps": "بوتل",
+   "fr": "bouteille",
+   "tr": "şişe"
+  }
+ },
+ {
+  "id": "wA1-1-0097",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Hefte",
+  "words": {
+   "de": "Heft",
+   "en": "notebook; exercise book",
+   "fa": "دفتر",
+   "ps": "کتابچه",
+   "fr": "cahier",
+   "tr": "defter"
+  }
+ },
+ {
+  "id": "wA1-1-0098",
+  "category": [
+   "technology_internet",
+   "loanword_international",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Internet",
+   "en": "internet",
+   "fa": "اینترنت",
+   "ps": "انټرنیټ",
+   "fr": "Internet",
+   "tr": "Internet"
+  }
+ },
+ {
+  "id": "wA1-1-0099",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Kulis",
+  "words": {
+   "de": "Kuli",
+   "en": "ballpoint pen",
+   "fa": "خودکار",
+   "ps": "ګولۍ قلم",
+   "fr": "stylo-bille",
+   "tr": "tükenmez kalem"
+  }
+ },
+ {
+  "id": "wA1-1-0100",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Kursräume",
+  "words": {
+   "de": "Kursraum",
+   "en": "course room; classroom",
+   "fa": "محل دوره / کلاس",
+   "ps": "د کورس خونه / ټولګي",
+   "fr": "salle de cours",
+   "tr": "kurs odası; sınıf"
+  }
+ },
+ {
+  "id": "wA1-1-0101",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Kursteilnehmer",
+  "words": {
+   "de": "Kursteilnehmer",
+   "en": "course participant (male)",
+   "fa": "شرکت‌کننده‌ی دوره (مرد)",
+   "ps": "د کورس ګډونوال (نرینه)",
+   "fr": "participant au cours (homme)",
+   "tr": "kurs katılımcısı (erkek)"
+  }
+ },
+ {
+  "id": "wA1-1-0102",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Kursteilnehmerinnen",
+  "words": {
+   "de": "Kursteilnehmerin",
+   "en": "course participant (female)",
+   "fa": "شرکت‌کننده‌ی دوره (زن)",
+   "ps": "د کورس ګډونواله (ښځینه)",
+   "fr": "participante au cours (femme)",
+   "tr": "kurs katılımcısı (kadın)"
+  }
+ },
+ {
+  "id": "wA1-1-0103",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Lampen",
+  "words": {
+   "de": "Lampe",
+   "en": "lamp",
+   "fa": "لامپ",
+   "ps": "چراغ",
+   "fr": "lampe",
+   "tr": "lamba"
+  }
+ },
+ {
+  "id": "wA1-1-0104",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Laptops",
+  "words": {
+   "de": "Laptop",
+   "en": "laptop",
+   "fa": "لپ‌تاپ",
+   "ps": "لپټاپ",
+   "fr": "laptop",
+   "tr": "laptop"
+  }
+ },
+ {
+  "id": "wA1-1-0105",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Lehrer",
+  "words": {
+   "de": "Lehrer",
+   "en": "teacher (male)",
+   "fa": "معلم (مرد)",
+   "ps": "ښوونکی (نرینه)",
+   "fr": "enseignant (homme)",
+   "tr": "öğretmen (erkek)"
+  }
+ },
+ {
+  "id": "wA1-1-0106",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Lehrerinnen",
+  "words": {
+   "de": "Lehrerin",
+   "en": "teacher (female)",
+   "fa": "معلم (زن)",
+   "ps": "ښوونکې (ښځینه)",
+   "fr": "professeure",
+   "tr": "öğretmen (kadın)"
+  }
+ },
+ {
+  "id": "wA1-1-0107",
+  "category": [
+   "places_buildings",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Sprachschulen",
+  "words": {
+   "de": "Sprachschule",
+   "en": "language school",
+   "fa": "آموزشگاه زبان",
+   "ps": "د ژبې ښوونځی",
+   "fr": "école de langues",
+   "tr": "dil okulu"
+  }
+ },
+ {
+  "id": "wA1-1-0108",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Stifte",
+  "words": {
+   "de": "Stift",
+   "en": "pen; pencil",
+   "fa": "مداد / خودکار",
+   "ps": "قلم؛ پنسل",
+   "fr": "stylo; crayon",
+   "tr": "kalem; kurşun kalem"
+  }
+ },
+ {
+  "id": "wA1-1-0109",
+  "category": [
+   "furniture_rooms",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Stühle",
+  "words": {
+   "de": "Stuhl",
+   "en": "chair",
+   "fa": "صندلی",
+   "ps": "چوکۍ",
+   "fr": "chaise",
+   "tr": "sandalye"
+  }
+ },
+ {
+  "id": "wA1-1-0110",
+  "category": [
+   "feelings_emotions",
+   "adjective"
+  ],
+  "words": {
+   "de": "super",
+   "en": "great; awesome",
+   "fa": "عالی",
+   "ps": "عالي",
+   "fr": "super",
+   "tr": "harika"
+  },
+  "examples": {
+   "de": "Es ist super, oder?"
+  }
+ },
+ {
+  "id": "wA1-1-0111",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Tablets",
+  "words": {
+   "de": "Tablet",
+   "en": "tablet",
+   "fa": "تبلت",
+   "ps": "ټابلیټ",
+   "fr": "tablet",
+   "tr": "tablet"
+  }
+ },
+ {
+  "id": "wA1-1-0112",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Tafeln",
+  "words": {
+   "de": "Tafel",
+   "en": "board (blackboard/chalkboard)",
+   "fa": "تخته سیاه / وایت‌برد کلاسیک",
+   "ps": "تخته (تور تخته/چاک تخته)",
+   "fr": "tableau (noir/blanc)",
+   "tr": "tahta (kara/beyaz)"
+  }
+ },
+ {
+  "id": "wA1-1-0113",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Tassen",
+  "words": {
+   "de": "Tasse",
+   "en": "cup (mug)",
+   "fa": "فنجان",
+   "ps": "پیاله (کاپ)",
+   "fr": "tasse",
+   "tr": "kupa"
+  }
+ },
+ {
+  "id": "wA1-1-0114",
+  "category": [
+   "furniture_rooms",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Tische",
+  "words": {
+   "de": "Tisch",
+   "en": "table",
+   "fa": "میز",
+   "ps": "میز",
+   "fr": "table",
+   "tr": "masa"
+  }
+ },
+ {
+  "id": "wA1-1-0115",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Türen",
+  "words": {
+   "de": "Tür",
+   "en": "door",
+   "fa": "درب",
+   "ps": "دروازه",
+   "fr": "porte",
+   "tr": "kapı"
+  }
+ },
+ {
+  "id": "wA1-1-0116",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Vokabelhefte",
+  "words": {
+   "de": "Vokabelheft",
+   "en": "vocabulary notebook",
+   "fa": "دفتر لغات",
+   "ps": "د لغتونو کتابچه",
+   "fr": "cahier de vocabulaire",
+   "tr": "kelime defteri"
+  }
+ },
+ {
+  "id": "wA1-1-0117",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Whiteboards",
+  "words": {
+   "de": "Whiteboard",
+   "en": "whiteboard",
+   "fa": "وایت‌بُرد",
+   "ps": "سپینه تخته",
+   "fr": "tableau blanc",
+   "tr": "beyaz tahta"
+  }
+ },
+ {
+  "id": "wA1-1-0118",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "groß",
+   "en": "big; large",
+   "fa": "بزرگ",
+   "ps": "لوی",
+   "fr": "grand",
+   "tr": "büyük"
+  }
+ },
+ {
+  "id": "wA1-1-0119",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "klein",
+   "en": "small",
+   "fa": "کوچک",
+   "ps": "وړه",
+   "fr": "petit",
+   "tr": "küçük"
+  }
+ },
+ {
+  "id": "wA1-1-0120",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Es gibt ...",
+   "en": "There is / There are ...",
+   "fa": "وجود دارد ...",
+   "ps": "دلته شته ...",
+   "fr": "Il y a ...",
+   "tr": "... var / ... var"
+  },
+  "examples": {
+   "de": "Es gibt Getränke und Snacks in meiner Sprachschule."
+  }
+ },
+ {
+  "id": "wA1-1-0121",
+  "category": [
+   "conversation_phrases",
+   "school_learning",
+   "a1_core",
+   "pronoun",
+   "article"
+  ],
+  "words": {
+   "de": "Der Kurs macht Spaß!",
+   "en": "The course is fun!",
+   "fa": "دوره لذّت‌بخش است!",
+   "ps": "کورس خوندور دی!",
+   "fr": "Le cours est amusant !",
+   "tr": "Kurs eğlenceli!"
+  }
+ },
+ {
+  "id": "wA1-1-0122",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "words": {
+   "de": "So lerne ich.",
+   "en": "This is how I learn.",
+   "fa": "این‌طور یاد می‌گیرم.",
+   "ps": "زه همداسې زده کړه کوم.",
+   "fr": "C’est comme ça que j’apprends.",
+   "tr": "Ben böyle öğreniyorum."
+  }
+ },
+ {
+  "id": "wA1-1-0123",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Apps",
+  "words": {
+   "de": "App",
+   "en": "app; application",
+   "fa": "اپلیکیشن",
+   "ps": "اپلیکیشن",
+   "fr": "application",
+   "tr": "uygulama"
+  }
+ },
+ {
+  "id": "wA1-1-0124",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Artikel",
+  "words": {
+   "de": "Artikel",
+   "en": "article",
+   "fa": "مقاله / آرتیکل",
+   "ps": "مقاله",
+   "fr": "article",
+   "tr": "makale"
+  }
+ },
+ {
+  "id": "wA1-1-0125",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Beispiele",
+  "words": {
+   "de": "Beispiel",
+   "en": "example",
+   "fa": "مثال",
+   "ps": "بیلګه",
+   "fr": "exemple",
+   "tr": "örnek"
+  }
+ },
+ {
+  "id": "wA1-1-0126",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Fehler",
+  "words": {
+   "de": "Fehler",
+   "en": "mistake; error",
+   "fa": "اشتباه",
+   "ps": "تېروتنه",
+   "fr": "erreur",
+   "tr": "hata"
+  }
+ },
+ {
+  "id": "wA1-1-0127",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Grammatik",
+   "en": "grammar",
+   "fa": "گرامر",
+   "ps": "ګرامر",
+   "fr": "grammaire",
+   "tr": "dilbilgisi"
+  }
+ },
+ {
+  "id": "wA1-1-0128",
+  "category": [
+   "daily_life",
+   "a1_core",
+   "verb",
+   "irregular_verb"
+  ],
+  "words": {
+   "de": "haben",
+   "en": "to have",
+   "fa": "داشتن",
+   "ps": "درلودل",
+   "fr": "avoir",
+   "tr": "sahip olmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "habe",
+    "du": "hast",
+    "er/sie/es": "hat",
+    "wir": "haben",
+    "ihr": "habt",
+    "sie/Sie": "haben"
+   },
+   "Präteritum": {
+    "ich": "hatte",
+    "du": "hattest",
+    "er/sie/es": "hatte",
+    "wir": "hatten",
+    "ihr": "hattet",
+    "sie/Sie": "hatten"
+   },
+   "Perfekt": {
+    "ich": "habe gehabt",
+    "du": "hast gehabt",
+    "er/sie/es": "hat gehabt",
+    "wir": "haben gehabt",
+    "ihr": "habt gehabt",
+    "sie/Sie": "haben gehabt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gehabt",
+    "du": "hattest gehabt",
+    "er/sie/es": "hatte gehabt",
+    "wir": "hatten gehabt",
+    "ihr": "hattet gehabt",
+    "sie/Sie": "hatten gehabt"
+   },
+   "Futur I": {
+    "ich": "werde haben",
+    "du": "wirst haben",
+    "er/sie/es": "wird haben",
+    "wir": "werden haben",
+    "ihr": "werdet haben",
+    "sie/Sie": "werden haben"
+   },
+   "Konjunktiv II": {
+    "ich": "hätte",
+    "du": "hättest",
+    "er/sie/es": "hätte",
+    "wir": "hätten",
+    "ihr": "hättet",
+    "sie/Sie": "hätten"
+   },
+   "Imperativ": {
+    "du": "habe!",
+    "ihr": "habt!",
+    "Sie": "haben Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0129",
+  "category": [
+   "shopping_money",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Karteikarten",
+  "words": {
+   "de": "Karteikarte",
+   "en": "index card; flashcard",
+   "fa": "کارت یادداشت",
+   "ps": "یاداشت کارت",
+   "fr": "fiche",
+   "tr": "kartvizit"
+  }
+ },
+ {
+  "id": "wA1-1-0130",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Lernpartner",
+  "words": {
+   "de": "Lernpartner",
+   "en": "learning partner (male)",
+   "fa": "همراهِ یادگیری (مرد)",
+   "ps": "د زده کړې ملګری (نر)",
+   "fr": "partenaire d'apprentissage (homme)",
+   "tr": "öğrenme partneri (erkek)"
+  }
+ },
+ {
+  "id": "wA1-1-0131",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Lernpartnerinnen",
+  "words": {
+   "de": "Lernpartnerin",
+   "en": "learning partner (female)",
+   "fa": "همراهِ یادگیری (زن)",
+   "ps": "د زده کړې ملګرې (ښځه)",
+   "fr": "partenaire d'apprentissage (femme)",
+   "tr": "öğrenme partneri (kadın)"
+  }
+ },
+ {
+  "id": "wA1-1-0132",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Probleme",
+  "words": {
+   "de": "Problem",
+   "en": "problem",
+   "fa": "مشکل",
+   "ps": "ستونزه",
+   "fr": "problème",
+   "tr": "sorun"
+  }
+ },
+ {
+  "id": "wA1-1-0133",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Regeln",
+  "words": {
+   "de": "Regel",
+   "en": "rule",
+   "fa": "قانون / قاعده",
+   "ps": "قانون / قاعده",
+   "fr": "règle",
+   "tr": "kural"
+  }
+ },
+ {
+  "id": "wA1-1-0134",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Sätze",
+  "words": {
+   "de": "Satz",
+   "en": "sentence",
+   "fa": "جمله",
+   "ps": "جمله",
+   "fr": "phrase",
+   "tr": "cümle"
+  }
+ },
+ {
+  "id": "wA1-1-0135",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Tipps",
+  "words": {
+   "de": "Tipp",
+   "en": "tip; hint",
+   "fa": "نکته",
+   "ps": "مشوره / لارښوونه",
+   "fr": "astuce",
+   "tr": "ipuç"
+  }
+ },
+ {
+  "id": "wA1-1-0136",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Verben",
+  "words": {
+   "de": "Verb",
+   "en": "verb",
+   "fa": "فعل",
+   "ps": "فعل",
+   "fr": "verbe",
+   "tr": "fiil"
+  }
+ },
+ {
+  "id": "wA1-1-0137",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Wortschatz",
+   "en": "vocabulary",
+   "fa": "واژگان / واژه‌نامه",
+   "ps": "لغتونه / کلمات",
+   "fr": "vocabulaire",
+   "tr": "kelime dağarcığı"
+  }
+ },
+ {
+  "id": "wA1-1-0138",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "einfach",
+   "en": "easy; simple",
+   "fa": "آسان",
+   "ps": "اسانه",
+   "fr": "facile",
+   "tr": "kolay"
+  }
+ },
+ {
+  "id": "wA1-1-0139",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "schwierig",
+   "en": "difficult; hard",
+   "fa": "سخت",
+   "ps": "سخت",
+   "fr": "difficile",
+   "tr": "zor"
+  }
+ },
+ {
+  "id": "wA1-1-0140",
+  "category": [
+   "daily_life",
+   "verb",
+   "noun"
+  ],
+  "words": {
+   "de": "Fehler machen",
+   "en": "to make mistakes",
+   "fa": "اشتباه کردن",
+   "ps": "تېروتنې کول",
+   "fr": "faire des erreurs",
+   "tr": "hata yapmak"
+  }
+ },
+ {
+  "id": "wA1-1-0141",
+  "category": [
+   "school_learning",
+   "verb",
+   "noun"
+  ],
+  "words": {
+   "de": "Hausaufgaben machen",
+   "en": "to do homework",
+   "fa": "تکالیف خانگی انجام دادن",
+   "ps": "کورنی کار کول",
+   "fr": "faire les devoirs",
+   "tr": "ödev yapmak"
+  }
+ },
+ {
+  "id": "wA1-1-0142",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "a1_core",
+   "pronoun",
+   "article"
+  ],
+  "words": {
+   "de": "Das hilft mir!",
+   "en": "That helps me!",
+   "fa": "این به من کمک می‌کند!",
+   "ps": "دا ماته مرسته کوي!",
+   "fr": "Ça m'aide !",
+   "tr": "Bu bana yardımcı oluyor!"
+  }
+ },
+ {
+  "id": "wA1-1-0143",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Viel Spaß!",
+   "en": "Have fun!",
+   "fa": "خوش بگذره!",
+   "ps": "خوشحاله اوسئ!",
+   "fr": "Amuse-toi bien !",
+   "tr": "İyi eğlenceler!"
+  }
+ },
+ {
+  "id": "wA1-1-0144",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "fahren",
+   "en": "to drive / to go (by vehicle)",
+   "fa": "راندن / با وسیله رفتن",
+   "ps": "چلول / په موټر تګ",
+   "fr": "conduire / aller (en véhicule)",
+   "tr": "sürmek / (araçla) gitmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "fahre",
+    "du": "fährst",
+    "er/sie/es": "fährt",
+    "wir": "fahren",
+    "ihr": "fahrt",
+    "sie/Sie": "fahren"
+   },
+   "Präteritum": {
+    "ich": "fuhr",
+    "du": "fuhrst",
+    "er/sie/es": "fuhr",
+    "wir": "fuhren",
+    "ihr": "fuhrt",
+    "sie/Sie": "fuhren"
+   },
+   "Perfekt": {
+    "ich": "bin gefahren",
+    "du": "bist gefahren",
+    "er/sie/es": "ist gefahren",
+    "wir": "sind gefahren",
+    "ihr": "seid gefahren",
+    "sie/Sie": "sind gefahren"
+   },
+   "Plusquamperfekt": {
+    "ich": "war gefahren",
+    "du": "warst gefahren",
+    "er/sie/es": "war gefahren",
+    "wir": "waren gefahren",
+    "ihr": "wart gefahren",
+    "sie/Sie": "waren gefahren"
+   },
+   "Futur I": {
+    "ich": "werde fahren",
+    "du": "wirst fahren",
+    "er/sie/es": "wird fahren",
+    "wir": "werden fahren",
+    "ihr": "werdet fahren",
+    "sie/Sie": "werden fahren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde fahren",
+    "du": "würdest fahren",
+    "er/sie/es": "würde fahren",
+    "wir": "würden fahren",
+    "ihr": "würdet fahren",
+    "sie/Sie": "würden fahren"
+   },
+   "Imperativ": {
+    "du": "fahr!",
+    "ihr": "fahrt!",
+    "Sie": "fahren Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0145",
+  "category": [
+   "time_date",
+   "a1_core",
+   "pronoun",
+   "article"
+  ],
+  "words": {
+   "de": "die Freizeit",
+   "en": "free time",
+   "fa": "وقت فراغت",
+   "ps": "خالي وخت",
+   "fr": "le temps libre",
+   "tr": "boş zaman"
+  }
+ },
+ {
+  "id": "wA1-1-0146",
+  "category": [
+   "relationships",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Freunde",
+  "words": {
+   "de": "Freund",
+   "en": "friend (male)",
+   "fa": "دوست (مرد)",
+   "ps": "ملګری (نر)",
+   "fr": "ami (masculin)",
+   "tr": "erkek arkadaş"
+  }
+ },
+ {
+  "id": "wA1-1-0147",
+  "category": [
+   "relationships",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Freundinnen",
+  "words": {
+   "de": "Freundin",
+   "en": "friend (female)",
+   "fa": "دوست (زن)",
+   "ps": "ملګرې (ښځه)",
+   "fr": "amie (féminin)",
+   "tr": "kız arkadaş"
+  }
+ },
+ {
+  "id": "wA1-1-0148",
+  "category": [
+   "health_body",
+   "a1_core",
+   "verb",
+   "irregular_verb"
+  ],
+  "words": {
+   "de": "gehen",
+   "en": "to go (on foot)",
+   "fa": "رفتن (پای پیاده)",
+   "ps": "پر پښو تګ",
+   "fr": "aller (à pied)",
+   "tr": "yürümek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "gehe",
+    "du": "gehst",
+    "er/sie/es": "geht",
+    "wir": "gehen",
+    "ihr": "geht",
+    "sie/Sie": "gehen"
+   },
+   "Präteritum": {
+    "ich": "ging",
+    "du": "gingst",
+    "er/sie/es": "ging",
+    "wir": "gingen",
+    "ihr": "gingt",
+    "sie/Sie": "gingen"
+   },
+   "Perfekt": {
+    "ich": "bin gegangen",
+    "du": "bist gegangen",
+    "er/sie/es": "ist gegangen",
+    "wir": "sind gegangen",
+    "ihr": "seid gegangen",
+    "sie/Sie": "sind gegangen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war gegangen",
+    "du": "warst gegangen",
+    "er/sie/es": "war gegangen",
+    "wir": "waren gegangen",
+    "ihr": "wart gegangen",
+    "sie/Sie": "waren gegangen"
+   },
+   "Futur I": {
+    "ich": "werde gehen",
+    "du": "wirst gehen",
+    "er/sie/es": "wird gehen",
+    "wir": "werden gehen",
+    "ihr": "werdet gehen",
+    "sie/Sie": "werden gehen"
+   },
+   "Konjunktiv II": {
+    "ich": "ginge",
+    "du": "gingest",
+    "er/sie/es": "ginge",
+    "wir": "gingen",
+    "ihr": "ginget",
+    "sie/Sie": "gingen"
+   },
+   "Imperativ": {
+    "du": "geh!",
+    "ihr": "geht!",
+    "Sie": "gehen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0149",
+  "category": [
+   "time_date",
+   "a1_core",
+   "adverb",
+   "time_expression"
+  ],
+  "words": {
+   "de": "heute",
+   "en": "today",
+   "fa": "امروز",
+   "ps": "نن",
+   "fr": "aujourd'hui",
+   "tr": "bugün"
+  }
+ },
+ {
+  "id": "wA1-1-0150",
+  "category": [
+   "hobbies_sports",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Hobbys",
+  "words": {
+   "de": "Hobby",
+   "en": "hobby",
+   "fa": "سرگرمی",
+   "ps": "شوق",
+   "fr": "loisir",
+   "tr": "hobi"
+  }
+ },
+ {
+  "id": "wA1-1-0151",
+  "category": [
+   "hobbies_sports",
+   "verb"
+  ],
+  "words": {
+   "de": "laufen",
+   "en": "to run / to walk",
+   "fa": "دویدن / راه رفتن",
+   "ps": "منډه وهل / مزل کول",
+   "fr": "courir / marcher",
+   "tr": "koşmak / yürümek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "laufe",
+    "du": "läufst",
+    "er/sie/es": "läuft",
+    "wir": "laufen",
+    "ihr": "lauft",
+    "sie/Sie": "laufen"
+   },
+   "Präteritum": {
+    "ich": "lief",
+    "du": "liefst",
+    "er/sie/es": "lief",
+    "wir": "liefen",
+    "ihr": "lieft",
+    "sie/Sie": "liefen"
+   },
+   "Perfekt": {
+    "ich": "bin gelaufen",
+    "du": "bist gelaufen",
+    "er/sie/es": "ist gelaufen",
+    "wir": "sind gelaufen",
+    "ihr": "seid gelaufen",
+    "sie/Sie": "sind gelaufen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war gelaufen",
+    "du": "warst gelaufen",
+    "er/sie/es": "war gelaufen",
+    "wir": "waren gelaufen",
+    "ihr": "wart gelaufen",
+    "sie/Sie": "waren gelaufen"
+   },
+   "Futur I": {
+    "ich": "werde laufen",
+    "du": "wirst laufen",
+    "er/sie/es": "wird laufen",
+    "wir": "werden laufen",
+    "ihr": "werdet laufen",
+    "sie/Sie": "werden laufen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde laufen",
+    "du": "würdest laufen",
+    "er/sie/es": "würde laufen",
+    "wir": "würden laufen",
+    "ihr": "würdet laufen",
+    "sie/Sie": "würden laufen"
+   },
+   "Imperativ": {
+    "du": "lauf!",
+    "ihr": "lauft!",
+    "Sie": "laufen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0152",
+  "category": [
+   "people_family",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Leute",
+   "en": "people",
+   "fa": "مردم / افراد",
+   "ps": "خلک",
+   "fr": "gens",
+   "tr": "insanlar"
+  }
+ },
+ {
+  "id": "wA1-1-0153",
+  "category": [
+   "time_date",
+   "a1_core",
+   "adverb",
+   "time_expression"
+  ],
+  "words": {
+   "de": "manchmal",
+   "en": "sometimes",
+   "fa": "گاهی / بعضی‌وقت‌ها",
+   "ps": "ځینې وختونه",
+   "fr": "parfois",
+   "tr": "bazen"
+  }
+ },
+ {
+  "id": "wA1-1-0154",
+  "category": [
+   "hobbies_sports",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Musik",
+   "en": "music",
+   "fa": "موسیقی",
+   "ps": "موسیقي",
+   "fr": "musique",
+   "tr": "müzik"
+  }
+ },
+ {
+  "id": "wA1-1-0155",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "neu",
+   "en": "new",
+   "fa": "جدید",
+   "ps": "نوې",
+   "fr": "nouveau",
+   "tr": "yeni"
+  }
+ },
+ {
+  "id": "wA1-1-0156",
+  "category": [
+   "time_date",
+   "a1_core",
+   "adverb",
+   "time_expression"
+  ],
+  "words": {
+   "de": "oft",
+   "en": "often",
+   "fa": "اغلب",
+   "ps": "ډېر ځله",
+   "fr": "souvent",
+   "tr": "sık sık"
+  }
+ },
+ {
+  "id": "wA1-1-0157",
+  "category": [
+   "media_social",
+   "loanword_international",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Radios",
+  "words": {
+   "de": "Radio",
+   "en": "radio",
+   "fa": "رادیو",
+   "ps": "Radio",
+   "fr": "radio",
+   "tr": "radyo"
+  }
+ },
+ {
+  "id": "wA1-1-0158",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "schlafen",
+   "en": "to sleep",
+   "fa": "خوابیدن",
+   "ps": "خوب کول",
+   "fr": "dormir",
+   "tr": "uyumak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "schlafe",
+    "du": "schläfst",
+    "er/sie/es": "schläft",
+    "wir": "schlafen",
+    "ihr": "schlaft",
+    "sie/Sie": "schlafen"
+   },
+   "Präteritum": {
+    "ich": "schlief",
+    "du": "schliefst",
+    "er/sie/es": "schlief",
+    "wir": "schliefen",
+    "ihr": "schlieft",
+    "sie/Sie": "schliefen"
+   },
+   "Perfekt": {
+    "ich": "habe geschlafen",
+    "du": "hast geschlafen",
+    "er/sie/es": "hat geschlafen",
+    "wir": "haben geschlafen",
+    "ihr": "habt geschlafen",
+    "sie/Sie": "haben geschlafen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geschlafen",
+    "du": "hattest geschlafen",
+    "er/sie/es": "hatte geschlafen",
+    "wir": "hatten geschlafen",
+    "ihr": "hattet geschlafen",
+    "sie/Sie": "hatten geschlafen"
+   },
+   "Futur I": {
+    "ich": "werde schlafen",
+    "du": "wirst schlafen",
+    "er/sie/es": "wird schlafen",
+    "wir": "werden schlafen",
+    "ihr": "werdet schlafen",
+    "sie/Sie": "werden schlafen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde schlafen",
+    "du": "würdest schlafen",
+    "er/sie/es": "würde schlafen",
+    "wir": "würden schlafen",
+    "ihr": "würdet schlafen",
+    "sie/Sie": "würden schlafen"
+   },
+   "Imperativ": {
+    "du": "schlaf!",
+    "ihr": "schlaft!",
+    "Sie": "schlafen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0159",
+  "category": [
+   "daily_life",
+   "a1_core",
+   "verb",
+   "irregular_verb"
+  ],
+  "words": {
+   "de": "sehen",
+   "en": "to see",
+   "fa": "دیدن",
+   "ps": "کتل",
+   "fr": "voir",
+   "tr": "görmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "sehe",
+    "du": "siehst",
+    "er/sie/es": "sieht",
+    "wir": "sehen",
+    "ihr": "seht",
+    "sie/Sie": "sehen"
+   },
+   "Präteritum": {
+    "ich": "sah",
+    "du": "sahst",
+    "er/sie/es": "sah",
+    "wir": "sahen",
+    "ihr": "saht",
+    "sie/Sie": "sahen"
+   },
+   "Perfekt": {
+    "ich": "habe gesehen",
+    "du": "hast gesehen",
+    "er/sie/es": "hat gesehen",
+    "wir": "haben gesehen",
+    "ihr": "habt gesehen",
+    "sie/Sie": "haben gesehen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gesehen",
+    "du": "hattest gesehen",
+    "er/sie/es": "hatte gesehen",
+    "wir": "hatten gesehen",
+    "ihr": "hattet gesehen",
+    "sie/Sie": "hatten gesehen"
+   },
+   "Futur I": {
+    "ich": "werde sehen",
+    "du": "wirst sehen",
+    "er/sie/es": "wird sehen",
+    "wir": "werden sehen",
+    "ihr": "werdet sehen",
+    "sie/Sie": "werden sehen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde sehen",
+    "du": "würdest sehen",
+    "er/sie/es": "würde sehen",
+    "wir": "würden sehen",
+    "ihr": "würdet sehen",
+    "sie/Sie": "würden sehen"
+   },
+   "Imperativ": {
+    "du": "siehe!",
+    "ihr": "seht!",
+    "Sie": "sehen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0160",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "spielen",
+   "en": "to play",
+   "fa": "بازی کردن",
+   "ps": "لوبې کول",
+   "fr": "jouer",
+   "tr": "oynamak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "spiele",
+    "du": "spielst",
+    "er/sie/es": "spielt",
+    "wir": "spielen",
+    "ihr": "spielt",
+    "sie/Sie": "spielen"
+   },
+   "Präteritum": {
+    "ich": "spielte",
+    "du": "spieltest",
+    "er/sie/es": "spielte",
+    "wir": "spielten",
+    "ihr": "spieltet",
+    "sie/Sie": "spielten"
+   },
+   "Perfekt": {
+    "ich": "habe gespielt",
+    "du": "hast gespielt",
+    "er/sie/es": "hat gespielt",
+    "wir": "haben gespielt",
+    "ihr": "habt gespielt",
+    "sie/Sie": "haben gespielt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gespielt",
+    "du": "hattest gespielt",
+    "er/sie/es": "hatte gespielt",
+    "wir": "hatten gespielt",
+    "ihr": "hattet gespielt",
+    "sie/Sie": "hatten gespielt"
+   },
+   "Futur I": {
+    "ich": "werde spielen",
+    "du": "wirst spielen",
+    "er/sie/es": "wird spielen",
+    "wir": "werden spielen",
+    "ihr": "werdet spielen",
+    "sie/Sie": "werden spielen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde spielen",
+    "du": "würdest spielen",
+    "er/sie/es": "würde spielen",
+    "wir": "würden spielen",
+    "ihr": "würdet spielen",
+    "sie/Sie": "würden spielen"
+   },
+   "Imperativ": {
+    "du": "spiel!",
+    "ihr": "spielt!",
+    "Sie": "spielen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0161",
+  "category": [
+   "hobbies_sports",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Sport",
+   "en": "sport",
+   "fa": "ورزش",
+   "ps": "Sport",
+   "fr": "sport",
+   "tr": "spor"
+  }
+ },
+ {
+  "id": "wA1-1-0162",
+  "category": [
+   "hobbies_sports",
+   "verb"
+  ],
+  "words": {
+   "de": "tanzen",
+   "en": "to dance",
+   "fa": "رقصیدن",
+   "ps": "رقص کول",
+   "fr": "danser",
+   "tr": "dans etmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "tanze",
+    "du": "tanzt",
+    "er/sie/es": "tanzt",
+    "wir": "tanzen",
+    "ihr": "tanzt",
+    "sie/Sie": "tanzen"
+   },
+   "Präteritum": {
+    "ich": "tanzte",
+    "du": "tanztest",
+    "er/sie/es": "tanzte",
+    "wir": "tanzten",
+    "ihr": "tanztet",
+    "sie/Sie": "tanzten"
+   },
+   "Perfekt": {
+    "ich": "habe getanzt",
+    "du": "hast getanzt",
+    "er/sie/es": "hat getanzt",
+    "wir": "haben getanzt",
+    "ihr": "habt getanzt",
+    "sie/Sie": "haben getanzt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte getanzt",
+    "du": "hattest getanzt",
+    "er/sie/es": "hatte getanzt",
+    "wir": "hatten getanzt",
+    "ihr": "hattet getanzt",
+    "sie/Sie": "hatten getanzt"
+   },
+   "Futur I": {
+    "ich": "werde tanzen",
+    "du": "wirst tanzen",
+    "er/sie/es": "wird tanzen",
+    "wir": "werden tanzen",
+    "ihr": "werdet tanzen",
+    "sie/Sie": "werden tanzen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde tanzen",
+    "du": "würdest tanzen",
+    "er/sie/es": "würde tanzen",
+    "wir": "würden tanzen",
+    "ihr": "würdet tanzen",
+    "sie/Sie": "würden tanzen"
+   },
+   "Imperativ": {
+    "du": "tanze!",
+    "ihr": "tanzt!",
+    "Sie": "tanzen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0163",
+  "category": [
+   "directions_navigation",
+   "place_expression"
+  ],
+  "words": {
+   "de": "draußen",
+   "en": "outside",
+   "fa": "بیرون / خارج",
+   "ps": "باندې / بهر",
+   "fr": "dehors",
+   "tr": "dışarıda"
+  }
+ },
+ {
+  "id": "wA1-1-0164",
+  "category": [
+   "directions_navigation",
+   "place_expression"
+  ],
+  "words": {
+   "de": "drinnen",
+   "en": "inside",
+   "fa": "داخل / درون",
+   "ps": "په دننه کې",
+   "fr": "dedans",
+   "tr": "içeride"
+  }
+ },
+ {
+  "id": "wA1-1-0165",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "interessant",
+   "en": "interesting",
+   "fa": "جالب",
+   "ps": "په زړه پورې",
+   "fr": "intéressant",
+   "tr": "ilginç"
+  }
+ },
+ {
+  "id": "wA1-1-0166",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "langweilig",
+   "en": "boring",
+   "fa": "کسل‌کننده",
+   "ps": "خسته کوونکی",
+   "fr": "ennuyeux",
+   "tr": "sıkıcı"
+  }
+ },
+ {
+  "id": "wA1-1-0167",
+  "category": [
+   "time_date",
+   "a1_core",
+   "adverb",
+   "time_expression"
+  ],
+  "words": {
+   "de": "immer",
+   "en": "always",
+   "fa": "همیشه",
+   "ps": "تل",
+   "fr": "toujours",
+   "tr": "her zaman"
+  }
+ },
+ {
+  "id": "wA1-1-0168",
+  "category": [
+   "time_date",
+   "a1_core",
+   "negation",
+   "time_expression"
+  ],
+  "words": {
+   "de": "nie",
+   "en": "never",
+   "fa": "هرگز / هیچ‌وقت",
+   "ps": "هېڅکله",
+   "fr": "jamais",
+   "tr": "asla / hiç"
+  },
+  "examples": {
+   "de": "Ich trinke nie Alkohol."
+  }
+ },
+ {
+  "id": "wA1-1-0169",
+  "category": [
+   "daily_life",
+   "verb",
+   "noun"
+  ],
+  "words": {
+   "de": "Freunde treffen",
+   "en": "to meet friends",
+   "fa": "دیدار با دوستان",
+   "ps": "له ملګرو سره لیدل",
+   "fr": "rencontrer des amis",
+   "tr": "arkadaşlarla buluşmak"
+  }
+ },
+ {
+  "id": "wA1-1-0170",
+  "category": [
+   "hobbies_sports",
+   "verb",
+   "noun"
+  ],
+  "words": {
+   "de": "Basketball/Fußball spielen",
+   "en": "to play basketball/football",
+   "fa": "بازی کردن بسکتبال/فوتبال",
+   "ps": "د باسکټبال/فټبال لوبه کول",
+   "fr": "jouer au basket/football",
+   "tr": "basketbol/futbol oynamak"
+  }
+ },
+ {
+  "id": "wA1-1-0171",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "verb",
+   "article"
+  ],
+  "words": {
+   "de": "ein Instrument spielen",
+   "en": "to play an instrument",
+   "fa": "نواختن یک ساز",
+   "ps": "یو آله غږول",
+   "fr": "jouer d'un instrument",
+   "tr": "bir enstrüman çalmak"
+  }
+ },
+ {
+  "id": "wA1-1-0172",
+  "category": [
+   "culture_events",
+   "verb"
+  ],
+  "words": {
+   "de": "ins Theater/Museum/Konzert gehen",
+   "en": "to go to the theatre/museum/concert",
+   "fa": "رفتن به تئاتر/موزه/کنسرت",
+   "ps": "تئاتر/موزیم/کنسرت ته تلل",
+   "fr": "aller au théâtre/musée/concert",
+   "tr": "tiyatro/müze/konser gitmek"
+  }
+ },
+ {
+  "id": "wA1-1-0173",
+  "category": [
+   "daily_life",
+   "verb",
+   "noun"
+  ],
+  "words": {
+   "de": "Motorrad fahren",
+   "en": "to ride a motorcycle",
+   "fa": "موتورسواری کردن",
+   "ps": "د موټرسایکل چلول",
+   "fr": "faire de la moto",
+   "tr": "motosiklet sürmek"
+  }
+ },
+ {
+  "id": "wA1-1-0174",
+  "category": [
+   "daily_life",
+   "verb",
+   "noun"
+  ],
+  "words": {
+   "de": "Sport machen",
+   "en": "to do sports",
+   "fa": "ورزش کردن",
+   "ps": "ورزش کول",
+   "fr": "faire du sport",
+   "tr": "spor yapmak"
+  }
+ },
+ {
+  "id": "wA1-1-0175",
+  "category": [
+   "people_family",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Ich treffe gern neue Leute.",
+   "en": "I like meeting new people.",
+   "fa": "من دوست دارم با آدم‌های جدید آشنا شوم.",
+   "ps": "زه خوښ یم چې له نوو خلکو سره ووینم.",
+   "fr": "J'aime rencontrer de nouvelles personnes.",
+   "tr": "Yeni insanlarla tanışmayı seviyorum."
+  }
+ },
+ {
+  "id": "wA1-1-0176",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Abende",
+  "words": {
+   "de": "Abend",
+   "en": "evening",
+   "fa": "عصر",
+   "ps": "ماښام",
+   "fr": "soir",
+   "tr": "akşam"
+  }
+ },
+ {
+  "id": "wA1-1-0177",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Abendessen",
+   "en": "dinner",
+   "fa": "شام",
+   "ps": "ماښامنۍ",
+   "fr": "dîner",
+   "tr": "akşam yemeği"
+  }
+ },
+ {
+  "id": "wA1-1-0178",
+  "category": [
+   "time_date",
+   "a1_core",
+   "adverb",
+   "time_expression"
+  ],
+  "words": {
+   "de": "abends",
+   "en": "in the evenings",
+   "fa": "عصرها / شب‌ها",
+   "ps": "په ماښامونو کې",
+   "fr": "le soir",
+   "tr": "akşamları"
+  }
+ },
+ {
+  "id": "wA1-1-0179",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Arbeit",
+   "en": "work",
+   "fa": "کار",
+   "ps": "کار",
+   "fr": "travail",
+   "tr": "iş"
+  }
+ },
+ {
+  "id": "wA1-1-0180",
+  "category": [
+   "work_office",
+   "verb"
+  ],
+  "words": {
+   "de": "arbeiten",
+   "en": "to work",
+   "fa": "کار کردن",
+   "ps": "کار کول",
+   "fr": "travailler",
+   "tr": "çalışmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "arbeite",
+    "du": "arbeitest",
+    "er/sie/es": "arbeitet",
+    "wir": "arbeiten",
+    "ihr": "arbeitet",
+    "sie/Sie": "arbeiten"
+   },
+   "Präteritum": {
+    "ich": "arbeitete",
+    "du": "arbeitetest",
+    "er/sie/es": "arbeitete",
+    "wir": "arbeiteten",
+    "ihr": "arbeitetet",
+    "sie/Sie": "arbeiteten"
+   },
+   "Perfekt": {
+    "ich": "habe gearbeitet",
+    "du": "hast gearbeitet",
+    "er/sie/es": "hat gearbeitet",
+    "wir": "haben gearbeitet",
+    "ihr": "habt gearbeitet",
+    "sie/Sie": "haben gearbeitet"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gearbeitet",
+    "du": "hattest gearbeitet",
+    "er/sie/es": "hatte gearbeitet",
+    "wir": "hatten gearbeitet",
+    "ihr": "hattet gearbeitet",
+    "sie/Sie": "hatten gearbeitet"
+   },
+   "Futur I": {
+    "ich": "werde arbeiten",
+    "du": "wirst arbeiten",
+    "er/sie/es": "wird arbeiten",
+    "wir": "werden arbeiten",
+    "ihr": "werdet arbeiten",
+    "sie/Sie": "werden arbeiten"
+   },
+   "Konjunktiv II": {
+    "ich": "würde arbeiten",
+    "du": "würdest arbeiten",
+    "er/sie/es": "würde arbeiten",
+    "wir": "würden arbeiten",
+    "ihr": "würdet arbeiten",
+    "sie/Sie": "würden arbeiten"
+   },
+   "Imperativ": {
+    "du": "arbeite!",
+    "ihr": "arbeitet!",
+    "Sie": "arbeiten Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0181",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "aufstehen",
+   "en": "to get up",
+   "fa": "بلند شدن (از خواب)",
+   "ps": "پاڅېدل",
+   "fr": "se lever",
+   "tr": "uyanmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "stehe auf",
+    "du": "stehst auf",
+    "er/sie/es": "steht auf",
+    "wir": "stehen auf",
+    "ihr": "steht auf",
+    "sie/Sie": "stehen auf"
+   },
+   "Präteritum": {
+    "ich": "stand auf",
+    "du": "standest auf",
+    "er/sie/es": "stand auf",
+    "wir": "standen auf",
+    "ihr": "standet auf",
+    "sie/Sie": "standen auf"
+   },
+   "Perfekt": {
+    "ich": "bin aufgestanden",
+    "du": "bist aufgestanden",
+    "er/sie/es": "ist aufgestanden",
+    "wir": "sind aufgestanden",
+    "ihr": "seid aufgestanden",
+    "sie/Sie": "sind aufgestanden"
+   },
+   "Plusquamperfekt": {
+    "ich": "war aufgestanden",
+    "du": "warst aufgestanden",
+    "er/sie/es": "war aufgestanden",
+    "wir": "waren aufgestanden",
+    "ihr": "wart aufgestanden",
+    "sie/Sie": "waren aufgestanden"
+   },
+   "Futur I": {
+    "ich": "werde aufstehen",
+    "du": "wirst aufstehen",
+    "er/sie/es": "wird aufstehen",
+    "wir": "werden aufstehen",
+    "ihr": "werdet aufstehen",
+    "sie/Sie": "werden aufstehen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde aufstehen",
+    "du": "würdest aufstehen",
+    "er/sie/es": "würde aufstehen",
+    "wir": "würden aufstehen",
+    "ihr": "würdet aufstehen",
+    "sie/Sie": "würden aufstehen"
+   },
+   "Imperativ": {
+    "du": "steh auf!",
+    "ihr": "steht auf!",
+    "Sie": "stehen Sie auf!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0182",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "aufwachen",
+   "en": "to wake up",
+   "fa": "بیدار شدن",
+   "ps": "ویښېدل",
+   "fr": "se réveiller",
+   "tr": "uyanmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "wache auf",
+    "du": "wachst auf",
+    "er/sie/es": "wacht auf",
+    "wir": "wachen auf",
+    "ihr": "wacht auf",
+    "sie/Sie": "wachen auf"
+   },
+   "Präteritum": {
+    "ich": "wachte auf",
+    "du": "wachtest auf",
+    "er/sie/es": "wachte auf",
+    "wir": "wachten auf",
+    "ihr": "wachtet auf",
+    "sie/Sie": "wachten auf"
+   },
+   "Perfekt": {
+    "ich": "bin aufgewacht",
+    "du": "bist aufgewacht",
+    "er/sie/es": "ist aufgewacht",
+    "wir": "sind aufgewacht",
+    "ihr": "seid aufgewacht",
+    "sie/Sie": "sind aufgewacht"
+   },
+   "Plusquamperfekt": {
+    "ich": "war aufgewacht",
+    "du": "warst aufgewacht",
+    "er/sie/es": "war aufgewacht",
+    "wir": "waren aufgewacht",
+    "ihr": "wart aufgewacht",
+    "sie/Sie": "waren aufgewacht"
+   },
+   "Futur I": {
+    "ich": "werde aufwachen",
+    "du": "wirst aufwachen",
+    "er/sie/es": "wird aufwachen",
+    "wir": "werden aufwachen",
+    "ihr": "werdet aufwachen",
+    "sie/Sie": "werden aufwachen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde aufwachen",
+    "du": "würdest aufwachen",
+    "er/sie/es": "würde aufwachen",
+    "wir": "würden aufwachen",
+    "ihr": "würdet aufwachen",
+    "sie/Sie": "würden aufwachen"
+   },
+   "Imperativ": {
+    "du": "wach auf!",
+    "ihr": "wacht auf!",
+    "Sie": "wachen Sie auf!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0183",
+  "category": [
+   "time_date",
+   "a1_core",
+   "adverb",
+   "time_expression"
+  ],
+  "words": {
+   "de": "danach",
+   "en": "afterwards / after that",
+   "fa": "بعد از آن",
+   "ps": "له هغه وروسته",
+   "fr": "après / ensuite",
+   "tr": "ondan sonra"
+  },
+  "examples": {
+   "de": "Wir essen zu Abend und danach sehen wir einen Film."
+  }
+ },
+ {
+  "id": "wA1-1-0184",
+  "category": [
+   "time_date",
+   "a1_core",
+   "adverb",
+   "time_expression"
+  ],
+  "words": {
+   "de": "dann",
+   "en": "then",
+   "fa": "بعد / سپس",
+   "ps": "بیا",
+   "fr": "puis",
+   "tr": "sonra"
+  }
+ },
+ {
+  "id": "wA1-1-0185",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "duschen",
+   "en": "to take a shower",
+   "fa": "دوش گرفتن",
+   "ps": "شاور اخیستل",
+   "fr": "prendre une douche",
+   "tr": "duş almak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "dusche",
+    "du": "duschst",
+    "er/sie/es": "duscht",
+    "wir": "duschen",
+    "ihr": "duscht",
+    "sie/Sie": "duschen"
+   },
+   "Präteritum": {
+    "ich": "duschte",
+    "du": "duschtest",
+    "er/sie/es": "duschte",
+    "wir": "duschten",
+    "ihr": "duschtet",
+    "sie/Sie": "duschten"
+   },
+   "Perfekt": {
+    "ich": "habe geduscht",
+    "du": "hast geduscht",
+    "er/sie/es": "hat geduscht",
+    "wir": "haben geduscht",
+    "ihr": "habt geduscht",
+    "sie/Sie": "haben geduscht"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geduscht",
+    "du": "hattest geduscht",
+    "er/sie/es": "hatte geduscht",
+    "wir": "hatten geduscht",
+    "ihr": "hattet geduscht",
+    "sie/Sie": "hatten geduscht"
+   },
+   "Futur I": {
+    "ich": "werde duschen",
+    "du": "wirst duschen",
+    "er/sie/es": "wird duschen",
+    "wir": "werden duschen",
+    "ihr": "werdet duschen",
+    "sie/Sie": "werden duschen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde duschen",
+    "du": "würdest duschen",
+    "er/sie/es": "würde duschen",
+    "wir": "würden duschen",
+    "ihr": "würdet duschen",
+    "sie/Sie": "würden duschen"
+   },
+   "Imperativ": {
+    "du": "dusch!",
+    "ihr": "duscht!",
+    "Sie": "duschen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0186",
+  "category": [
+   "daily_life",
+   "a1_core",
+   "verb",
+   "irregular_verb"
+  ],
+  "words": {
+   "de": "essen",
+   "en": "to eat",
+   "fa": "غذا خوردن",
+   "ps": "خوړل",
+   "fr": "manger",
+   "tr": "yemek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "esse",
+    "du": "isst",
+    "er/sie/es": "isst",
+    "wir": "essen",
+    "ihr": "esst",
+    "sie/Sie": "essen"
+   },
+   "Präteritum": {
+    "ich": "aß",
+    "du": "aßest",
+    "er/sie/es": "aß",
+    "wir": "aßen",
+    "ihr": "aßt",
+    "sie/Sie": "aßen"
+   },
+   "Perfekt": {
+    "ich": "habe gegessen",
+    "du": "hast gegessen",
+    "er/sie/es": "hat gegessen",
+    "wir": "haben gegessen",
+    "ihr": "habt gegessen",
+    "sie/Sie": "haben gegessen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gegessen",
+    "du": "hattest gegessen",
+    "er/sie/es": "hatte gegessen",
+    "wir": "hatten gegessen",
+    "ihr": "hattet gegessen",
+    "sie/Sie": "hatten gegessen"
+   },
+   "Futur I": {
+    "ich": "werde essen",
+    "du": "wirst essen",
+    "er/sie/es": "wird essen",
+    "wir": "werden essen",
+    "ihr": "werdet essen",
+    "sie/Sie": "werden essen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde essen",
+    "du": "würdest essen",
+    "er/sie/es": "würde essen",
+    "wir": "würden essen",
+    "ihr": "würdet essen",
+    "sie/Sie": "würden essen"
+   },
+   "Imperativ": {
+    "du": "iss!",
+    "ihr": "esst!",
+    "Sie": "essen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0187",
+  "category": [
+   "food_drink",
+   "verb"
+  ],
+  "words": {
+   "de": "frühstücken",
+   "en": "to eat breakfast",
+   "fa": "صبحانه خوردن",
+   "ps": "ناشتا کول",
+   "fr": "prendre le petit déjeuner",
+   "tr": "kahvaltı yapmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "frühstücke",
+    "du": "frühstückst",
+    "er/sie/es": "frühstückt",
+    "wir": "frühstücken",
+    "ihr": "frühstückt",
+    "sie/Sie": "frühstücken"
+   },
+   "Präteritum": {
+    "ich": "frühstückte",
+    "du": "frühstücktest",
+    "er/sie/es": "frühstückte",
+    "wir": "frühstückten",
+    "ihr": "frühstücktet",
+    "sie/Sie": "frühstückten"
+   },
+   "Perfekt": {
+    "ich": "habe gefrühstückt",
+    "du": "hast gefrühstückt",
+    "er/sie/es": "hat gefrühstückt",
+    "wir": "haben gefrühstückt",
+    "ihr": "habt gefrühstückt",
+    "sie/Sie": "haben gefrühstückt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gefrühstückt",
+    "du": "hattest gefrühstückt",
+    "er/sie/es": "hatte gefrühstückt",
+    "wir": "hatten gefrühstückt",
+    "ihr": "hattet gefrühstückt",
+    "sie/Sie": "hatten gefrühstückt"
+   },
+   "Futur I": {
+    "ich": "werde frühstücken",
+    "du": "wirst frühstücken",
+    "er/sie/es": "wird frühstücken",
+    "wir": "werden frühstücken",
+    "ihr": "werdet frühstücken",
+    "sie/Sie": "werden frühstücken"
+   },
+   "Konjunktiv II": {
+    "ich": "würde frühstücken",
+    "du": "würdest frühstücken",
+    "er/sie/es": "würde frühstücken",
+    "wir": "würden frühstücken",
+    "ihr": "würdet frühstücken",
+    "sie/Sie": "würden frühstücken"
+   },
+   "Imperativ": {
+    "du": "frühstücke!",
+    "ihr": "frühstückt!",
+    "Sie": "frühstücken Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0188",
+  "category": [
+   "places_buildings",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Universitäten",
+  "words": {
+   "de": "Universität",
+   "en": "university",
+   "fa": "دانشگاه",
+   "ps": "Universität",
+   "fr": "Universität",
+   "tr": "Universität"
+  }
+ },
+ {
+  "id": "wA1-1-0189",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "wandern",
+   "en": "to hike",
+   "fa": "قدم زدن / کوهنوردی سبک",
+   "ps": "مزل کول",
+   "fr": "faire de la randonnée",
+   "tr": "yürüyüş yapmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "wandere",
+    "du": "wanderst",
+    "er/sie/es": "wandert",
+    "wir": "wandern",
+    "ihr": "wandert",
+    "sie/Sie": "wandern"
+   },
+   "Präteritum": {
+    "ich": "wanderte",
+    "du": "wandertest",
+    "er/sie/es": "wanderte",
+    "wir": "wanderten",
+    "ihr": "wandertet",
+    "sie/Sie": "wanderten"
+   },
+   "Perfekt": {
+    "ich": "bin gewandert",
+    "du": "bist gewandert",
+    "er/sie/es": "ist gewandert",
+    "wir": "sind gewandert",
+    "ihr": "seid gewandert",
+    "sie/Sie": "sind gewandert"
+   },
+   "Plusquamperfekt": {
+    "ich": "war gewandert",
+    "du": "warst gewandert",
+    "er/sie/es": "war gewandert",
+    "wir": "waren gewandert",
+    "ihr": "wart gewandert",
+    "sie/Sie": "waren gewandert"
+   },
+   "Futur I": {
+    "ich": "werde wandern",
+    "du": "wirst wandern",
+    "er/sie/es": "wird wandern",
+    "wir": "werden wandern",
+    "ihr": "werdet wandern",
+    "sie/Sie": "werden wandern"
+   },
+   "Konjunktiv II": {
+    "ich": "würde wandern",
+    "du": "würdest wandern",
+    "er/sie/es": "würde wandern",
+    "wir": "würden wandern",
+    "ihr": "würdet wandern",
+    "sie/Sie": "würden wandern"
+   },
+   "Imperativ": {
+    "du": "wandere!",
+    "ihr": "wandert!",
+    "Sie": "wandern Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0190",
+  "category": [
+   "food_drink",
+   "verb",
+   "noun"
+  ],
+  "words": {
+   "de": "Abendessen essen",
+   "en": "to eat dinner",
+   "fa": "شام خوردن",
+   "ps": "ماښامنۍ خوړل",
+   "fr": "dîner",
+   "tr": "akşam yemeği yemek"
+  }
+ },
+ {
+  "id": "wA1-1-0191",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "schlafen gehen",
+   "en": "to go to sleep",
+   "fa": "به خواب رفتن / رفتن برای خواب",
+   "ps": "خوب ته تلل",
+   "fr": "aller dormir",
+   "tr": "uyumaya gitmek"
+  }
+ },
+ {
+  "id": "wA1-1-0192",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "a1_core",
+   "noun",
+   "preposition"
+  ],
+  "words": {
+   "de": "Um wie viel Uhr?",
+   "en": "At what time?",
+   "fa": "ساعت چند؟",
+   "ps": "په څو بجو؟",
+   "fr": "À quelle heure ?",
+   "tr": "Saat kaçta?"
+  }
+ },
+ {
+  "id": "wA1-1-0193",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Wann?",
+   "en": "When?",
+   "fa": "چه زمانی؟",
+   "ps": "کله؟",
+   "fr": "Quand ?",
+   "tr": "Ne zaman?"
+  }
+ },
+ {
+  "id": "wA1-1-0194",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "ausgehen",
+   "en": "to go out",
+   "fa": "بیرون رفتن",
+   "ps": "بهر تلل",
+   "fr": "sortir",
+   "tr": "dışarı çıkmak"
+  },
+  "examples": {
+   "de": "Ich gehe am Wochenende gern aus."
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "gehe aus",
+    "du": "gehst aus",
+    "er/sie/es": "geht aus",
+    "wir": "gehen aus",
+    "ihr": "geht aus",
+    "sie/Sie": "gehen aus"
+   },
+   "Präteritum": {
+    "ich": "ging aus",
+    "du": "gingst aus",
+    "er/sie/es": "ging aus",
+    "wir": "gingen aus",
+    "ihr": "gingt aus",
+    "sie/Sie": "gingen aus"
+   },
+   "Perfekt": {
+    "ich": "bin ausgegangen",
+    "du": "bist ausgegangen",
+    "er/sie/es": "ist ausgegangen",
+    "wir": "sind ausgegangen",
+    "ihr": "seid ausgegangen",
+    "sie/Sie": "sind ausgegangen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war ausgegangen",
+    "du": "warst ausgegangen",
+    "er/sie/es": "war ausgegangen",
+    "wir": "waren ausgegangen",
+    "ihr": "wart ausgegangen",
+    "sie/Sie": "waren ausgegangen"
+   },
+   "Futur I": {
+    "ich": "werde ausgehen",
+    "du": "wirst ausgehen",
+    "er/sie/es": "wird ausgehen",
+    "wir": "werden ausgehen",
+    "ihr": "werdet ausgehen",
+    "sie/Sie": "werden ausgehen"
+   },
+   "Konjunktiv II": {
+    "ich": "ginge aus",
+    "du": "gingest aus",
+    "er/sie/es": "ginge aus",
+    "wir": "gingen aus",
+    "ihr": "ginget aus",
+    "sie/Sie": "gingen aus"
+   },
+   "Imperativ": {
+    "du": "geh aus!",
+    "ihr": "geht aus!",
+    "Sie": "gehen Sie aus!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0195",
+  "category": [
+   "shopping_money",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Geld",
+   "en": "money",
+   "fa": "پول",
+   "ps": "پیسې",
+   "fr": "argent",
+   "tr": "para"
+  }
+ },
+ {
+  "id": "wA1-1-0196",
+  "category": [
+   "people_family",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Kinder",
+  "words": {
+   "de": "Kind",
+   "en": "child",
+   "fa": "کودک",
+   "ps": "ماشوم",
+   "fr": "enfant",
+   "tr": "çocuk"
+  }
+ },
+ {
+  "id": "wA1-1-0197",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "klettern",
+   "en": "to climb",
+   "fa": "بالا رفتن / صخره‌نوردی سبک",
+   "ps": "پورته ختل",
+   "fr": "grimper",
+   "tr": "tırmanmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "klettere",
+    "du": "kletterst",
+    "er/sie/es": "klettert",
+    "wir": "klettern",
+    "ihr": "klettert",
+    "sie/Sie": "klettern"
+   },
+   "Präteritum": {
+    "ich": "kletterte",
+    "du": "klettertest",
+    "er/sie/es": "kletterte",
+    "wir": "kletterten",
+    "ihr": "klettertet",
+    "sie/Sie": "kletterten"
+   },
+   "Perfekt": {
+    "ich": "bin geklettert",
+    "du": "bist geklettert",
+    "er/sie/es": "ist geklettert",
+    "wir": "sind geklettert",
+    "ihr": "seid geklettert",
+    "sie/Sie": "sind geklettert"
+   },
+   "Plusquamperfekt": {
+    "ich": "war geklettert",
+    "du": "warst geklettert",
+    "er/sie/es": "war geklettert",
+    "wir": "waren geklettert",
+    "ihr": "wart geklettert",
+    "sie/Sie": "waren geklettert"
+   },
+   "Futur I": {
+    "ich": "werde klettern",
+    "du": "wirst klettern",
+    "er/sie/es": "wird klettern",
+    "wir": "werden klettern",
+    "ihr": "werdet klettern",
+    "sie/Sie": "werden klettern"
+   },
+   "Konjunktiv II": {
+    "ich": "würde klettern",
+    "du": "würdest klettern",
+    "er/sie/es": "würde klettern",
+    "wir": "würden klettern",
+    "ihr": "würdet klettern",
+    "sie/Sie": "würden klettern"
+   },
+   "Imperativ": {
+    "du": "kletter!",
+    "ihr": "klettert!",
+    "Sie": "klettern Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0198",
+  "category": [
+   "people_family",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Menschen",
+  "words": {
+   "de": "Mensch",
+   "en": "human / person",
+   "fa": "انسان",
+   "ps": "انسان",
+   "fr": "personne",
+   "tr": "insan"
+  }
+ },
+ {
+  "id": "wA1-1-0199",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "mitkommen",
+   "en": "to come along",
+   "fa": "همراه شدن / هم‌راهی کردن",
+   "ps": "سره راتلل",
+   "fr": "venir avec",
+   "tr": "birlikte gelmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "komme mit",
+    "du": "kommst mit",
+    "er/sie/es": "kommt mit",
+    "wir": "kommen mit",
+    "ihr": "kommt mit",
+    "sie/Sie": "kommen mit"
+   },
+   "Präteritum": {
+    "ich": "kam mit",
+    "du": "kamst mit",
+    "er/sie/es": "kam mit",
+    "wir": "kamen mit",
+    "ihr": "kamt mit",
+    "sie/Sie": "kamen mit"
+   },
+   "Perfekt": {
+    "ich": "bin mitgekommen",
+    "du": "bist mitgekommen",
+    "er/sie/es": "ist mitgekommen",
+    "wir": "sind mitgekommen",
+    "ihr": "seid mitgekommen",
+    "sie/Sie": "sind mitgekommen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war mitgekommen",
+    "du": "warst mitgekommen",
+    "er/sie/es": "war mitgekommen",
+    "wir": "waren mitgekommen",
+    "ihr": "wart mitgekommen",
+    "sie/Sie": "waren mitgekommen"
+   },
+   "Futur I": {
+    "ich": "werde mitkommen",
+    "du": "wirst mitkommen",
+    "er/sie/es": "wird mitkommen",
+    "wir": "werden mitkommen",
+    "ihr": "werdet mitkommen",
+    "sie/Sie": "werden mitkommen"
+   },
+   "Konjunktiv II": {
+    "ich": "käme mit",
+    "du": "kämest mit",
+    "er/sie/es": "käme mit",
+    "wir": "kämen mit",
+    "ihr": "kämet mit",
+    "sie/Sie": "kämen mit"
+   },
+   "Imperativ": {
+    "du": "komme mit!",
+    "ihr": "kommt mit!",
+    "Sie": "kommen Sie mit!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0200",
+  "category": [
+   "time_date",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Stunden",
+  "words": {
+   "de": "Stunde",
+   "en": "hour",
+   "fa": "ساعت (واحد زمان)",
+   "ps": "ساعت",
+   "fr": "heure",
+   "tr": "saat"
+  }
+ },
+ {
+  "id": "wA1-1-0201",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "wichtig",
+   "en": "important",
+   "fa": "مهم",
+   "ps": "مهم",
+   "fr": "important",
+   "tr": "önemli"
+  }
+ },
+ {
+  "id": "wA1-1-0202",
+  "category": [
+   "time_date",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Wochen",
+  "words": {
+   "de": "Woche",
+   "en": "week",
+   "fa": "هفته",
+   "ps": "اونۍ",
+   "fr": "semaine",
+   "tr": "hafta"
+  }
+ },
+ {
+  "id": "wA1-1-0203",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Wochenenden",
+  "words": {
+   "de": "Wochenende",
+   "en": "weekend",
+   "fa": "آخر هفته",
+   "ps": "اونۍ پای",
+   "fr": "week-end",
+   "tr": "hafta sonu"
+  }
+ },
+ {
+  "id": "wA1-1-0204",
+  "category": [
+   "time_date",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zeit",
+   "en": "time",
+   "fa": "زمان",
+   "ps": "وخت",
+   "fr": "temps",
+   "tr": "zaman"
+  }
+ },
+ {
+  "id": "wA1-1-0205",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "pro Woche",
+   "en": "per week",
+   "fa": "در هفته",
+   "ps": "په اونۍ کې",
+   "fr": "par semaine",
+   "tr": "haftada"
+  }
+ },
+ {
+  "id": "wA1-1-0206",
+  "category": [
+   "time_date",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Ich habe viel/wenig Freizeit.",
+   "en": "I have a lot of/little free time.",
+   "fa": "من وقت فراغت زیاد/کم دارم.",
+   "ps": "زه ډېر/کم وړیا وخت لرم.",
+   "fr": "J'ai beaucoup/peu de temps libre.",
+   "tr": "Çok/az boş zamanım var."
+  }
+ },
+ {
+  "id": "wA1-1-0207",
+  "category": [
+   "kitchen_cooking",
+   "verb"
+  ],
+  "words": {
+   "de": "backen",
+   "en": "to bake",
+   "fa": "نان/کیک پختن",
+   "ps": "پخول",
+   "fr": "cuire au four",
+   "tr": "fırında pişirmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "backe",
+    "du": "bäckst",
+    "er/sie/es": "bäckt",
+    "wir": "backen",
+    "ihr": "backt",
+    "sie/Sie": "backen"
+   },
+   "Präteritum": {
+    "ich": "buk",
+    "du": "bukst",
+    "er/sie/es": "buk",
+    "wir": "buken",
+    "ihr": "bukt",
+    "sie/Sie": "buken"
+   },
+   "Perfekt": {
+    "ich": "habe gebacken",
+    "du": "hast gebacken",
+    "er/sie/es": "hat gebacken",
+    "wir": "haben gebacken",
+    "ihr": "habt gebacken",
+    "sie/Sie": "haben gebacken"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gebacken",
+    "du": "hattest gebacken",
+    "er/sie/es": "hatte gebacken",
+    "wir": "hatten gebacken",
+    "ihr": "hattet gebacken",
+    "sie/Sie": "hatten gebacken"
+   },
+   "Futur I": {
+    "ich": "werde backen",
+    "du": "wirst backen",
+    "er/sie/es": "wird backen",
+    "wir": "werden backen",
+    "ihr": "werdet backen",
+    "sie/Sie": "werden backen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde backen",
+    "du": "würdest backen",
+    "er/sie/es": "würde backen",
+    "wir": "würden backen",
+    "ihr": "würdet backen",
+    "sie/Sie": "würden backen"
+   },
+   "Imperativ": {
+    "du": "backe!",
+    "ihr": "backt!",
+    "Sie": "backen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0208",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "brauchen",
+   "en": "to need",
+   "fa": "نیاز داشتن",
+   "ps": "اړتیا لرل",
+   "fr": "avoir besoin de",
+   "tr": "ihtiyacı olmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "brauche",
+    "du": "brauchst",
+    "er/sie/es": "braucht",
+    "wir": "brauchen",
+    "ihr": "braucht",
+    "sie/Sie": "brauchen"
+   },
+   "Präteritum": {
+    "ich": "brauchte",
+    "du": "brauchtest",
+    "er/sie/es": "brauchte",
+    "wir": "brauchten",
+    "ihr": "brauchtet",
+    "sie/Sie": "brauchten"
+   },
+   "Perfekt": {
+    "ich": "habe gebraucht",
+    "du": "hast gebraucht",
+    "er/sie/es": "hat gebraucht",
+    "wir": "haben gebraucht",
+    "ihr": "habt gebraucht",
+    "sie/Sie": "haben gebraucht"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gebraucht",
+    "du": "hattest gebraucht",
+    "er/sie/es": "hatte gebraucht",
+    "wir": "hatten gebraucht",
+    "ihr": "hattet gebraucht",
+    "sie/Sie": "hatten gebraucht"
+   },
+   "Futur I": {
+    "ich": "werde brauchen",
+    "du": "wirst brauchen",
+    "er/sie/es": "wird brauchen",
+    "wir": "werden brauchen",
+    "ihr": "werdet brauchen",
+    "sie/Sie": "werden brauchen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde brauchen",
+    "du": "würdest brauchen",
+    "er/sie/es": "würde brauchen",
+    "wir": "würden brauchen",
+    "ihr": "würdet brauchen",
+    "sie/Sie": "würden brauchen"
+   },
+   "Imperativ": {
+    "du": "brauche!",
+    "ihr": "braucht!",
+    "Sie": "brauchen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0209",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Brokkoli",
+   "en": "broccoli",
+   "fa": "بروکلی",
+   "ps": "بروکولي",
+   "fr": "brocoli",
+   "tr": "brokoli"
+  }
+ },
+ {
+  "id": "wA1-1-0210",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "denken",
+   "en": "to think",
+   "fa": "فکر کردن",
+   "ps": "فکر کول",
+   "fr": "penser",
+   "tr": "düşünmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "denke",
+    "du": "denkst",
+    "er/sie/es": "denkt",
+    "wir": "denken",
+    "ihr": "denkt",
+    "sie/Sie": "denken"
+   },
+   "Präteritum": {
+    "ich": "dachte",
+    "du": "dachtest",
+    "er/sie/es": "dachte",
+    "wir": "dachten",
+    "ihr": "dachtet",
+    "sie/Sie": "dachten"
+   },
+   "Perfekt": {
+    "ich": "habe gedacht",
+    "du": "hast gedacht",
+    "er/sie/es": "hat gedacht",
+    "wir": "haben gedacht",
+    "ihr": "habt gedacht",
+    "sie/Sie": "haben gedacht"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gedacht",
+    "du": "hattest gedacht",
+    "er/sie/es": "hatte gedacht",
+    "wir": "hatten gedacht",
+    "ihr": "hattet gedacht",
+    "sie/Sie": "hatten gedacht"
+   },
+   "Futur I": {
+    "ich": "werde denken",
+    "du": "wirst denken",
+    "er/sie/es": "wird denken",
+    "wir": "werden denken",
+    "ihr": "werdet denken",
+    "sie/Sie": "werden denken"
+   },
+   "Konjunktiv II": {
+    "ich": "würde denken",
+    "du": "würdest denken",
+    "er/sie/es": "würde denken",
+    "wir": "würden denken",
+    "ihr": "würdet denken",
+    "sie/Sie": "würden denken"
+   },
+   "Imperativ": {
+    "du": "denk!",
+    "ihr": "denkt!",
+    "Sie": "denken Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0211",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Fisch",
+   "en": "fish",
+   "fa": "ماهی",
+   "ps": "کبان",
+   "fr": "poisson",
+   "tr": "balık"
+  }
+ },
+ {
+  "id": "wA1-1-0212",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Fleisch",
+   "en": "meat",
+   "fa": "گوشت",
+   "ps": "غوښه",
+   "fr": "viande",
+   "tr": "et"
+  }
+ },
+ {
+  "id": "wA1-1-0213",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "frisch",
+   "en": "fresh",
+   "fa": "تازه",
+   "ps": "تازه",
+   "fr": "frais",
+   "tr": "taze"
+  }
+ },
+ {
+  "id": "wA1-1-0214",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Gemüse",
+   "en": "vegetables",
+   "fa": "سبزی",
+   "ps": "سبزيجات",
+   "fr": "légumes",
+   "tr": "sebzeler"
+  }
+ },
+ {
+  "id": "wA1-1-0215",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Getränke",
+  "words": {
+   "de": "Getränk",
+   "en": "drink; beverage",
+   "fa": "نوشیدنی",
+   "ps": "څښاک",
+   "fr": "boisson",
+   "tr": "içecek"
+  }
+ },
+ {
+  "id": "wA1-1-0216",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Gläser",
+  "words": {
+   "de": "Glas",
+   "en": "glass",
+   "fa": "لیوان / لیوان شیشه‌ای",
+   "ps": "ګیلاس",
+   "fr": "verre",
+   "tr": "bardak"
+  }
+ },
+ {
+  "id": "wA1-1-0217",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Honig",
+   "en": "honey",
+   "fa": "عسل",
+   "ps": "شات",
+   "fr": "miel",
+   "tr": "bal"
+  }
+ },
+ {
+  "id": "wA1-1-0218",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Kaffee",
+   "en": "coffee",
+   "fa": "قهوه",
+   "ps": "کافي",
+   "fr": "café",
+   "tr": "kahve"
+  }
+ },
+ {
+  "id": "wA1-1-0219",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Kartoffeln",
+  "words": {
+   "de": "Kartoffel",
+   "en": "potato",
+   "fa": "سیب‌زمینی",
+   "ps": "کچالو",
+   "fr": "pomme de terre",
+   "tr": "patates"
+  }
+ },
+ {
+  "id": "wA1-1-0220",
+  "category": [
+   "kitchen_cooking",
+   "verb"
+  ],
+  "words": {
+   "de": "kochen",
+   "en": "to cook",
+   "fa": "پختن / آشپزی کردن",
+   "ps": "پخول",
+   "fr": "cuisiner",
+   "tr": "pişirmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "koche",
+    "du": "kochst",
+    "er/sie/es": "kocht",
+    "wir": "kochen",
+    "ihr": "kocht",
+    "sie/Sie": "kochen"
+   },
+   "Präteritum": {
+    "ich": "kochte",
+    "du": "kochtest",
+    "er/sie/es": "kochte",
+    "wir": "kochten",
+    "ihr": "kochtet",
+    "sie/Sie": "kochten"
+   },
+   "Perfekt": {
+    "ich": "habe gekocht",
+    "du": "hast gekocht",
+    "er/sie/es": "hat gekocht",
+    "wir": "haben gekocht",
+    "ihr": "habt gekocht",
+    "sie/Sie": "haben gekocht"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gekocht",
+    "du": "hattest gekocht",
+    "er/sie/es": "hatte gekocht",
+    "wir": "hatten gekocht",
+    "ihr": "hattet gekocht",
+    "sie/Sie": "hatten gekocht"
+   },
+   "Futur I": {
+    "ich": "werde kochen",
+    "du": "wirst kochen",
+    "er/sie/es": "wird kochen",
+    "wir": "werden kochen",
+    "ihr": "werdet kochen",
+    "sie/Sie": "werden kochen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde kochen",
+    "du": "würdest kochen",
+    "er/sie/es": "würde kochen",
+    "wir": "würden kochen",
+    "ihr": "würdet kochen",
+    "sie/Sie": "würden kochen"
+   },
+   "Imperativ": {
+    "du": "koch!",
+    "ihr": "kocht!",
+    "Sie": "kochen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0221",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "lecker",
+   "en": "delicious",
+   "fa": "خوشمزه",
+   "ps": "خوندور",
+   "fr": "délicieux",
+   "tr": "lezzetli"
+  }
+ },
+ {
+  "id": "wA1-1-0222",
+  "category": [
+   "daily_life",
+   "a1_core",
+   "verb",
+   "modal_verb"
+  ],
+  "words": {
+   "de": "mögen",
+   "en": "to like",
+   "fa": "دوست داشتن",
+   "ps": "خوښول",
+   "fr": "aimer",
+   "tr": "sevmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "mag",
+    "du": "magst",
+    "er/sie/es": "mag",
+    "wir": "mögen",
+    "ihr": "mögt",
+    "sie/Sie": "mögen"
+   },
+   "Präteritum": {
+    "ich": "mochte",
+    "du": "mochtest",
+    "er/sie/es": "mochte",
+    "wir": "mochten",
+    "ihr": "mochtet",
+    "sie/Sie": "mochten"
+   },
+   "Perfekt": {
+    "ich": "habe gemocht",
+    "du": "hast gemocht",
+    "er/sie/es": "hat gemocht",
+    "wir": "haben gemocht",
+    "ihr": "habt gemocht",
+    "sie/Sie": "haben gemocht"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gemocht",
+    "du": "hattest gemocht",
+    "er/sie/es": "hatte gemocht",
+    "wir": "hatten gemocht",
+    "ihr": "hattet gemocht",
+    "sie/Sie": "hatten gemocht"
+   },
+   "Futur I": {
+    "ich": "werde mögen",
+    "du": "wirst mögen",
+    "er/sie/es": "wird mögen",
+    "wir": "werden mögen",
+    "ihr": "werdet mögen",
+    "sie/Sie": "werden mögen"
+   },
+   "Konjunktiv II": {
+    "ich": "möchte",
+    "du": "möchtest",
+    "er/sie/es": "möchte",
+    "wir": "möchten",
+    "ihr": "möchtet",
+    "sie/Sie": "möchten"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0223",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Möhren",
+  "words": {
+   "de": "Möhre",
+   "en": "carrot",
+   "fa": "هویج",
+   "ps": "ګازرې",
+   "fr": "carotte",
+   "tr": "havuç"
+  }
+ },
+ {
+  "id": "wA1-1-0224",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "negation"
+  ],
+  "words": {
+   "de": "nicht",
+   "en": "not",
+   "fa": "نه / نیست",
+   "ps": "نه",
+   "fr": "ne … pas",
+   "tr": "değil"
+  },
+  "examples": {
+   "de": "Ich verstehe das nicht."
+  }
+ },
+ {
+  "id": "wA1-1-0225",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "pronoun",
+   "article"
+  ],
+  "words": {
+   "de": "die Nudeln",
+   "en": "noodles (pl.)",
+   "fa": "نودل‌ها / ماکارونی (جمع)",
+   "ps": "نوډلز",
+   "fr": "les nouilles",
+   "tr": "erişte"
+  }
+ },
+ {
+  "id": "wA1-1-0226",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Öl",
+   "en": "oil",
+   "fa": "روغن",
+   "ps": "تیل",
+   "fr": "huile",
+   "tr": "yağ"
+  }
+ },
+ {
+  "id": "wA1-1-0227",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Paprika",
+   "en": "bell pepper / paprika",
+   "fa": "فلفل دلمه‌ای / پاپریکا",
+   "ps": "مرچ دلمه‌ای / پاپریکا",
+   "fr": "poivron / paprika",
+   "tr": "dolmalık biber / paprika"
+  }
+ },
+ {
+  "id": "wA1-1-0228",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Pfannen",
+  "words": {
+   "de": "Pfanne",
+   "en": "pan",
+   "fa": "تابه",
+   "ps": "تابه",
+   "fr": "poêle",
+   "tr": "tava"
+  }
+ },
+ {
+  "id": "wA1-1-0229",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Pfeffer",
+   "en": "pepper",
+   "fa": "فلفل",
+   "ps": "مرچ",
+   "fr": "poivre",
+   "tr": "karabiber"
+  }
+ },
+ {
+  "id": "wA1-1-0230",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Pilze",
+  "words": {
+   "de": "Pilz",
+   "en": "mushroom",
+   "fa": "قارچ",
+   "ps": "مشروم",
+   "fr": "champignon",
+   "tr": "mantar"
+  }
+ },
+ {
+  "id": "wA1-1-0231",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Pizzas/Pizzen",
+  "words": {
+   "de": "Pizza",
+   "en": "pizza",
+   "fa": "پیتزا",
+   "ps": "پیتزا",
+   "fr": "pizza",
+   "tr": "pizza"
+  }
+ },
+ {
+  "id": "wA1-1-0232",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Reis",
+   "en": "rice",
+   "fa": "برنج",
+   "ps": "وړه",
+   "fr": "riz",
+   "tr": "pirinç"
+  }
+ },
+ {
+  "id": "wA1-1-0233",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Säfte",
+  "words": {
+   "de": "Saft",
+   "en": "juice",
+   "fa": "آب میوه",
+   "ps": "جوس",
+   "fr": "jus",
+   "tr": "meyve suyu"
+  }
+ },
+ {
+  "id": "wA1-1-0234",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Salate",
+  "words": {
+   "de": "Salat",
+   "en": "salad",
+   "fa": "سالاد",
+   "ps": "سلاد",
+   "fr": "salade",
+   "tr": "salata"
+  }
+ },
+ {
+  "id": "wA1-1-0235",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Salz",
+   "en": "salt",
+   "fa": "نمک",
+   "ps": "مالګه",
+   "fr": "sel",
+   "tr": "tuz"
+  }
+ },
+ {
+  "id": "wA1-1-0236",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "schneiden",
+   "en": "to cut",
+   "fa": "بریدن",
+   "ps": "پرې کول",
+   "fr": "couper",
+   "tr": "kesmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "schneide",
+    "du": "schneidest",
+    "er/sie/es": "schneidet",
+    "wir": "schneiden",
+    "ihr": "schneidet",
+    "sie/Sie": "schneiden"
+   },
+   "Präteritum": {
+    "ich": "schnitt",
+    "du": "schnittest",
+    "er/sie/es": "schnitt",
+    "wir": "schnitten",
+    "ihr": "schnittet",
+    "sie/Sie": "schnitten"
+   },
+   "Perfekt": {
+    "ich": "habe geschnitten",
+    "du": "hast geschnitten",
+    "er/sie/es": "hat geschnitten",
+    "wir": "haben geschnitten",
+    "ihr": "habt geschnitten",
+    "sie/Sie": "haben geschnitten"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geschnitten",
+    "du": "hattest geschnitten",
+    "er/sie/es": "hatte geschnitten",
+    "wir": "hatten geschnitten",
+    "ihr": "hattet geschnitten",
+    "sie/Sie": "hatten geschnitten"
+   },
+   "Futur I": {
+    "ich": "werde schneiden",
+    "du": "wirst schneiden",
+    "er/sie/es": "wird schneiden",
+    "wir": "werden schneiden",
+    "ihr": "werdet schneiden",
+    "sie/Sie": "werden schneiden"
+   },
+   "Konjunktiv II": {
+    "ich": "würde schneiden",
+    "du": "würdest schneiden",
+    "er/sie/es": "würde schneiden",
+    "wir": "würden schneiden",
+    "ihr": "würdet schneiden",
+    "sie/Sie": "würden schneiden"
+   },
+   "Imperativ": {
+    "du": "schneide!",
+    "ihr": "schneidet!",
+    "Sie": "schneiden Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0237",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "adverb"
+  ],
+  "words": {
+   "de": "sehr",
+   "en": "very",
+   "fa": "خیلی",
+   "ps": "ډېر",
+   "fr": "très",
+   "tr": "çok"
+  }
+ },
+ {
+  "id": "wA1-1-0238",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Soßen",
+  "words": {
+   "de": "Soße",
+   "en": "sauce",
+   "fa": "سس",
+   "ps": "چاشني",
+   "fr": "sauce",
+   "tr": "sos"
+  }
+ },
+ {
+  "id": "wA1-1-0239",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Suppen",
+  "words": {
+   "de": "Suppe",
+   "en": "soup",
+   "fa": "سوپ",
+   "ps": "سوپ",
+   "fr": "soupe",
+   "tr": "çorba"
+  }
+ },
+ {
+  "id": "wA1-1-0240",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "süß",
+   "en": "sweet",
+   "fa": "شیرین",
+   "ps": "خوږ",
+   "fr": "doux",
+   "tr": "tatlı"
+  }
+ },
+ {
+  "id": "wA1-1-0241",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Tee",
+   "en": "tea",
+   "fa": "چای",
+   "ps": "چای",
+   "fr": "thé",
+   "tr": "çay"
+  }
+ },
+ {
+  "id": "wA1-1-0242",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Tomaten",
+  "words": {
+   "de": "Tomate",
+   "en": "tomato",
+   "fa": "گوجه‌فرنگی",
+   "ps": "رومي بانجان",
+   "fr": "tomate",
+   "tr": "domates"
+  }
+ },
+ {
+  "id": "wA1-1-0243",
+  "category": [
+   "food_drink",
+   "a1_core",
+   "verb",
+   "irregular_verb"
+  ],
+  "words": {
+   "de": "trinken",
+   "en": "to drink",
+   "fa": "نوشیدن",
+   "ps": "څښل",
+   "fr": "boire",
+   "tr": "içmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "trinke",
+    "du": "trinkst",
+    "er/sie/es": "trinkt",
+    "wir": "trinken",
+    "ihr": "trinkt",
+    "sie/Sie": "trinken"
+   },
+   "Präteritum": {
+    "ich": "trank",
+    "du": "trankst",
+    "er/sie/es": "trank",
+    "wir": "tranken",
+    "ihr": "trankt",
+    "sie/Sie": "tranken"
+   },
+   "Perfekt": {
+    "ich": "habe getrunken",
+    "du": "hast getrunken",
+    "er/sie/es": "hat getrunken",
+    "wir": "haben getrunken",
+    "ihr": "habt getrunken",
+    "sie/Sie": "haben getrunken"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte getrunken",
+    "du": "hattest getrunken",
+    "er/sie/es": "hatte getrunken",
+    "wir": "hatten getrunken",
+    "ihr": "hattet getrunken",
+    "sie/Sie": "hatten getrunken"
+   },
+   "Futur I": {
+    "ich": "werde trinken",
+    "du": "wirst trinken",
+    "er/sie/es": "wird trinken",
+    "wir": "werden trinken",
+    "ihr": "werdet trinken",
+    "sie/Sie": "werden trinken"
+   },
+   "Konjunktiv II": {
+    "ich": "würde trinken",
+    "du": "würdest trinken",
+    "er/sie/es": "würde trinken",
+    "wir": "würden trinken",
+    "ihr": "würdet trinken",
+    "sie/Sie": "würden trinken"
+   },
+   "Imperativ": {
+    "du": "trink!",
+    "ihr": "trinkt!",
+    "Sie": "trinken Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0244",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Wasser",
+   "en": "water",
+   "fa": "آب",
+   "ps": "اوبه",
+   "fr": "eau",
+   "tr": "su"
+  }
+ },
+ {
+  "id": "wA1-1-0245",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Zwiebeln",
+  "words": {
+   "de": "Zwiebel",
+   "en": "onion",
+   "fa": "پیاز",
+   "ps": "پیاز",
+   "fr": "oignon",
+   "tr": "soğan"
+  }
+ },
+ {
+  "id": "wA1-1-0246",
+  "category": [
+   "health_body",
+   "adjective"
+  ],
+  "words": {
+   "de": "gesund",
+   "en": "healthy",
+   "fa": "سالم",
+   "ps": "روغ",
+   "fr": "sain",
+   "tr": "sağlıklı"
+  }
+ },
+ {
+  "id": "wA1-1-0247",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "ungesund",
+   "en": "unhealthy",
+   "fa": "ناسالم",
+   "ps": "ناروغ",
+   "fr": "malsain",
+   "tr": "sağlıksız"
+  }
+ },
+ {
+  "id": "wA1-1-0248",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Eier",
+  "words": {
+   "de": "Ei",
+   "en": "egg",
+   "fa": "تخم‌مرغ",
+   "ps": "هګۍ",
+   "fr": "œuf",
+   "tr": "yumurta"
+  }
+ },
+ {
+  "id": "wA1-1-0249",
+  "category": [
+   "shopping_money",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Einkäufe",
+  "words": {
+   "de": "Einkauf",
+   "en": "shopping; purchase",
+   "fa": "خرید",
+   "ps": "پېرودل",
+   "fr": "achat",
+   "tr": "alışveriş"
+  }
+ },
+ {
+  "id": "wA1-1-0250",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "plural": "Einladungen",
+  "words": {
+   "de": "Einladung",
+   "en": "invitation",
+   "fa": "دعوت",
+   "ps": "بلنه",
+   "fr": "invitation",
+   "tr": "davet"
+  }
+ },
+ {
+  "id": "wA1-1-0251",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Joghurts",
+  "words": {
+   "de": "Joghurt",
+   "en": "yogurt",
+   "fa": "ماست",
+   "ps": "ماست",
+   "fr": "yaourt",
+   "tr": "yoğurt"
+  }
+ },
+ {
+  "id": "wA1-1-0252",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Milch",
+   "en": "milk",
+   "fa": "شیر",
+   "ps": "شیدې",
+   "fr": "lait",
+   "tr": "süt"
+  }
+ },
+ {
+  "id": "wA1-1-0253",
+  "category": [
+   "time_date",
+   "a1_core",
+   "adverb",
+   "time_expression"
+  ],
+  "words": {
+   "de": "morgen",
+   "en": "tomorrow",
+   "fa": "فردا",
+   "ps": "سبا",
+   "fr": "demain",
+   "tr": "yarın"
+  }
+ },
+ {
+  "id": "wA1-1-0254",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Torten",
+  "words": {
+   "de": "Torte",
+   "en": "cream cake / tart",
+   "fa": "کیک (تورت)",
+   "ps": "کریم کیک / ټارټ",
+   "fr": "tarte / gâteau à la crème",
+   "tr": "kremalı pasta / tart"
+  }
+ },
+ {
+  "id": "wA1-1-0255",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "vegetarisch",
+   "en": "vegetarian",
+   "fa": "گیاه‌خوار / گیاهی",
+   "ps": "سبزیجات خوړونکی",
+   "fr": "végétarien",
+   "tr": "vejetaryen"
+  }
+ },
+ {
+  "id": "wA1-1-0256",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Weine",
+  "words": {
+   "de": "Wein",
+   "en": "wine",
+   "fa": "شراب",
+   "ps": "شراب",
+   "fr": "vin",
+   "tr": "şarap"
+  }
+ },
+ {
+  "id": "wA1-1-0257",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Zucker",
+   "en": "sugar",
+   "fa": "شکر",
+   "ps": "بوره",
+   "fr": "sucre",
+   "tr": "şeker"
+  }
+ },
+ {
+  "id": "wA1-1-0258",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "preposition"
+  ],
+  "words": {
+   "de": "mit",
+   "en": "with",
+   "fa": "با",
+   "ps": "سره",
+   "fr": "avec",
+   "tr": "ile"
+  }
+ },
+ {
+  "id": "wA1-1-0259",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "preposition"
+  ],
+  "words": {
+   "de": "ohne",
+   "en": "without",
+   "fa": "بدون",
+   "ps": "بې له",
+   "fr": "sans",
+   "tr": "olmadan"
+  }
+ },
+ {
+  "id": "wA1-1-0260",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Viele Grüße!",
+   "en": "Many greetings!",
+   "fa": "با احترامات فراوان!",
+   "ps": "ډېرې سلامونه!",
+   "fr": "Bien à vous !",
+   "tr": "Selamlar!"
+  }
+ },
+ {
+  "id": "wA1-1-0261",
+  "category": [
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Liebe Grüße!",
+   "en": "Kind regards!",
+   "fa": "با احترام صمیمانه!",
+   "ps": "په مینه سلامونه!",
+   "fr": "Cordialement !",
+   "tr": "Sevgiler!"
+  }
+ },
+ {
+  "id": "wA1-1-0262",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Äpfel",
+  "words": {
+   "de": "Apfel",
+   "en": "apple",
+   "fa": "سیب",
+   "ps": "مڼه",
+   "fr": "pomme",
+   "tr": "elma"
+  }
+ },
+ {
+  "id": "wA1-1-0263",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Bananen",
+  "words": {
+   "de": "Banane",
+   "en": "banana",
+   "fa": "موز",
+   "ps": "کیله",
+   "fr": "banane",
+   "tr": "muz"
+  }
+ },
+ {
+  "id": "wA1-1-0264",
+  "category": [
+   "shopping_money",
+   "verb"
+  ],
+  "words": {
+   "de": "bezahlen",
+   "en": "to pay",
+   "fa": "پرداخت کردن",
+   "ps": "ورکړه کول",
+   "fr": "payer",
+   "tr": "ödemek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "bezahle",
+    "du": "bezahlst",
+    "er/sie/es": "bezahlt",
+    "wir": "bezahlen",
+    "ihr": "bezahlt",
+    "sie/Sie": "bezahlen"
+   },
+   "Präteritum": {
+    "ich": "bezahlte",
+    "du": "bezahltest",
+    "er/sie/es": "bezahlte",
+    "wir": "bezahlten",
+    "ihr": "bezahltet",
+    "sie/Sie": "bezahlten"
+   },
+   "Perfekt": {
+    "ich": "habe bezahlt",
+    "du": "hast bezahlt",
+    "er/sie/es": "hat bezahlt",
+    "wir": "haben bezahlt",
+    "ihr": "habt bezahlt",
+    "sie/Sie": "haben bezahlt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte bezahlt",
+    "du": "hattest bezahlt",
+    "er/sie/es": "hatte bezahlt",
+    "wir": "hatten bezahlt",
+    "ihr": "hattet bezahlt",
+    "sie/Sie": "hatten bezahlt"
+   },
+   "Futur I": {
+    "ich": "werde bezahlen",
+    "du": "wirst bezahlen",
+    "er/sie/es": "wird bezahlen",
+    "wir": "werden bezahlen",
+    "ihr": "werdet bezahlen",
+    "sie/Sie": "werden bezahlen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde bezahlen",
+    "du": "würdest bezahlen",
+    "er/sie/es": "würde bezahlen",
+    "wir": "würden bezahlen",
+    "ihr": "würdet bezahlen",
+    "sie/Sie": "würden bezahlen"
+   },
+   "Imperativ": {
+    "du": "bezahle!",
+    "ihr": "bezahlt!",
+    "Sie": "bezahlen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0265",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Brote",
+  "words": {
+   "de": "Brot",
+   "en": "bread",
+   "fa": "نان",
+   "ps": "ډوډۍ",
+   "fr": "pain",
+   "tr": "ekmek"
+  }
+ },
+ {
+  "id": "wA1-1-0266",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Butter",
+   "en": "butter",
+   "fa": "کره",
+   "ps": "مکھن",
+   "fr": "beurre",
+   "tr": "tereyağı"
+  }
+ },
+ {
+  "id": "wA1-1-0267",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Gurken",
+  "words": {
+   "de": "Gurke",
+   "en": "cucumber",
+   "fa": "خیار",
+   "ps": "کاکړ",
+   "fr": "concombre",
+   "tr": "salatalık"
+  }
+ },
+ {
+  "id": "wA1-1-0268",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Käse",
+   "en": "cheese",
+   "fa": "پنیر",
+   "ps": "پنیر",
+   "fr": "fromage",
+   "tr": "peynir"
+  }
+ },
+ {
+  "id": "wA1-1-0269",
+  "category": [
+   "shopping_money",
+   "verb"
+  ],
+  "words": {
+   "de": "kaufen",
+   "en": "to buy",
+   "fa": "خریدن",
+   "ps": "اخستل",
+   "fr": "acheter",
+   "tr": "satın almak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "kaufe",
+    "du": "kaufst",
+    "er/sie/es": "kauft",
+    "wir": "kaufen",
+    "ihr": "kauft",
+    "sie/Sie": "kaufen"
+   },
+   "Präteritum": {
+    "ich": "kaufte",
+    "du": "kauftest",
+    "er/sie/es": "kaufte",
+    "wir": "kauften",
+    "ihr": "kauftet",
+    "sie/Sie": "kauften"
+   },
+   "Perfekt": {
+    "ich": "habe gekauft",
+    "du": "hast gekauft",
+    "er/sie/es": "hat gekauft",
+    "wir": "haben gekauft",
+    "ihr": "habt gekauft",
+    "sie/Sie": "haben gekauft"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gekauft",
+    "du": "hattest gekauft",
+    "er/sie/es": "hatte gekauft",
+    "wir": "hatten gekauft",
+    "ihr": "hattet gekauft",
+    "sie/Sie": "hatten gekauft"
+   },
+   "Futur I": {
+    "ich": "werde kaufen",
+    "du": "wirst kaufen",
+    "er/sie/es": "wird kaufen",
+    "wir": "werden kaufen",
+    "ihr": "werdet kaufen",
+    "sie/Sie": "werden kaufen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde kaufen",
+    "du": "würdest kaufen",
+    "er/sie/es": "würde kaufen",
+    "wir": "würden kaufen",
+    "ihr": "würdet kaufen",
+    "sie/Sie": "würden kaufen"
+   },
+   "Imperativ": {
+    "du": "kauf!",
+    "ihr": "kauft!",
+    "Sie": "kaufen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0270",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "kosten",
+   "en": "to cost",
+   "fa": "قیمت داشتن",
+   "ps": "بیه لرل",
+   "fr": "coûter",
+   "tr": "mal olmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "koste",
+    "du": "kostest",
+    "er/sie/es": "kostet",
+    "wir": "kosten",
+    "ihr": "kostet",
+    "sie/Sie": "kosten"
+   },
+   "Präteritum": {
+    "ich": "kostete",
+    "du": "kostetest",
+    "er/sie/es": "kostete",
+    "wir": "kosteten",
+    "ihr": "kostetet",
+    "sie/Sie": "kosteten"
+   },
+   "Perfekt": {
+    "ich": "habe gekostet",
+    "du": "hast gekostet",
+    "er/sie/es": "hat gekostet",
+    "wir": "haben gekostet",
+    "ihr": "habt gekostet",
+    "sie/Sie": "haben gekostet"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gekostet",
+    "du": "hattest gekostet",
+    "er/sie/es": "hatte gekostet",
+    "wir": "hatten gekostet",
+    "ihr": "hattet gekostet",
+    "sie/Sie": "hatten gekostet"
+   },
+   "Futur I": {
+    "ich": "werde kosten",
+    "du": "wirst kosten",
+    "er/sie/es": "wird kosten",
+    "wir": "werden kosten",
+    "ihr": "werdet kosten",
+    "sie/Sie": "werden kosten"
+   },
+   "Konjunktiv II": {
+    "ich": "würde kosten",
+    "du": "würdest kosten",
+    "er/sie/es": "würde kosten",
+    "wir": "würden kosten",
+    "ihr": "würdet kosten",
+    "sie/Sie": "würden kosten"
+   },
+   "Imperativ": {
+    "du": "koste!",
+    "ihr": "kostet!",
+    "Sie": "kosten Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0271",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Lebensmittel",
+  "words": {
+   "de": "Lebensmittel",
+   "en": "food item; groceries",
+   "fa": "ماده غذایی",
+   "ps": "خوراکي توکي",
+   "fr": "aliment; épicerie",
+   "tr": "gıda maddesi; market alışverişi"
+  }
+ },
+ {
+  "id": "wA1-1-0272",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Mehl",
+   "en": "flour",
+   "fa": "آرد",
+   "ps": "اوړه",
+   "fr": "farine",
+   "tr": "un"
+  }
+ },
+ {
+  "id": "wA1-1-0273",
+  "category": [
+   "food_drink",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Obst",
+   "en": "fruit",
+   "fa": "میوه",
+   "ps": "میوه",
+   "fr": "fruit",
+   "tr": "meyve"
+  }
+ },
+ {
+  "id": "wA1-1-0274",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "okay",
+   "en": "okay",
+   "fa": "اوکی / تأیید",
+   "ps": "سمه ده",
+   "fr": "d'accord",
+   "tr": "tamam"
+  }
+ },
+ {
+  "id": "wA1-1-0275",
+  "category": [
+   "colors_shapes",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Orangen",
+  "words": {
+   "de": "Orange",
+   "en": "orange",
+   "fa": "پرتقال",
+   "ps": "نارنج",
+   "fr": "orange",
+   "tr": "portakal"
+  }
+ },
+ {
+  "id": "wA1-1-0276",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "plural": "Packungen",
+  "words": {
+   "de": "Packung",
+   "en": "package; pack",
+   "fa": "بسته‌بندی / پک",
+   "ps": "بسته",
+   "fr": "paquet",
+   "tr": "paket"
+  }
+ },
+ {
+  "id": "wA1-1-0277",
+  "category": [
+   "places_buildings",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Supermärkte",
+  "words": {
+   "de": "Supermarkt",
+   "en": "supermarket",
+   "fa": "سوپرمارکت",
+   "ps": "Supermarkt",
+   "fr": "supermarché",
+   "tr": "süpermarket"
+  }
+ },
+ {
+  "id": "wA1-1-0278",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Auto",
+   "en": "car",
+   "fa": "اتومبیل",
+   "ps": "موټر",
+   "fr": "voiture",
+   "tr": "araba"
+  }
+ },
+ {
+  "id": "wA1-1-0279",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Bus",
+   "en": "bus",
+   "fa": "اتوبوس",
+   "ps": "بس",
+   "fr": "bus",
+   "tr": "otobüs"
+  }
+ },
+ {
+  "id": "wA1-1-0280",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Fahrrad",
+   "en": "bicycle",
+   "fa": "دوچرخه",
+   "ps": "بایسکل",
+   "fr": "vélo",
+   "tr": "bisiklet"
+  }
+ },
+ {
+  "id": "wA1-1-0281",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Haltestelle",
+   "en": "stop (bus/tram)",
+   "fa": "ایستگاه",
+   "ps": "تمځای",
+   "fr": "arrêt (bus/tram)",
+   "tr": "durak (otobüs/tramvay)"
+  }
+ },
+ {
+  "id": "wA1-1-0282",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Kino",
+   "en": "cinema",
+   "fa": "سینما",
+   "ps": "سینما",
+   "fr": "cinéma",
+   "tr": "sinema"
+  }
+ },
+ {
+  "id": "wA1-1-0283",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "klicken",
+   "en": "to click",
+   "fa": "کلیک کردن",
+   "ps": "کلیک کول",
+   "fr": "cliquer",
+   "tr": "tıklamak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "klicke",
+    "du": "klickst",
+    "er/sie/es": "klickt",
+    "wir": "klicken",
+    "ihr": "klickt",
+    "sie/Sie": "klicken"
+   },
+   "Präteritum": {
+    "ich": "klickte",
+    "du": "klicktest",
+    "er/sie/es": "klickte",
+    "wir": "klickten",
+    "ihr": "klicktet",
+    "sie/Sie": "klickten"
+   },
+   "Perfekt": {
+    "ich": "habe geklickt",
+    "du": "hast geklickt",
+    "er/sie/es": "hat geklickt",
+    "wir": "haben geklickt",
+    "ihr": "habt geklickt",
+    "sie/Sie": "haben geklickt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geklickt",
+    "du": "hattest geklickt",
+    "er/sie/es": "hatte geklickt",
+    "wir": "hatten geklickt",
+    "ihr": "hattet geklickt",
+    "sie/Sie": "hatten geklickt"
+   },
+   "Futur I": {
+    "ich": "werde klicken",
+    "du": "wirst klicken",
+    "er/sie/es": "wird klicken",
+    "wir": "werden klicken",
+    "ihr": "werdet klicken",
+    "sie/Sie": "werden klicken"
+   },
+   "Konjunktiv II": {
+    "ich": "würde klicken",
+    "du": "würdest klicken",
+    "er/sie/es": "würde klicken",
+    "wir": "würden klicken",
+    "ihr": "würdet klicken",
+    "sie/Sie": "würden klicken"
+   },
+   "Imperativ": {
+    "du": "klick!",
+    "ihr": "klickt!",
+    "Sie": "klicken Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0284",
+  "category": [
+   "time_date",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Minute",
+   "en": "minute",
+   "fa": "دقیقه",
+   "ps": "دقیقه",
+   "fr": "minute",
+   "tr": "dakika"
+  }
+ },
+ {
+  "id": "wA1-1-0285",
+  "category": [
+   "time_date",
+   "a1_core",
+   "adverb",
+   "time_expression"
+  ],
+  "words": {
+   "de": "nachts",
+   "en": "at night",
+   "fa": "در شب",
+   "ps": "په شپه",
+   "fr": "la nuit",
+   "tr": "gece"
+  }
+ },
+ {
+  "id": "wA1-1-0286",
+  "category": [
+   "daily_life",
+   "a1_core",
+   "verb",
+   "irregular_verb"
+  ],
+  "words": {
+   "de": "nehmen",
+   "en": "to take",
+   "fa": "برداشتن / سوار شدن",
+   "ps": "اخستل / اخیستل",
+   "fr": "prendre",
+   "tr": "almak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "nehme",
+    "du": "nimmst",
+    "er/sie/es": "nimmt",
+    "wir": "nehmen",
+    "ihr": "nehmt",
+    "sie/Sie": "nehmen"
+   },
+   "Präteritum": {
+    "ich": "nahm",
+    "du": "nahmst",
+    "er/sie/es": "nahm",
+    "wir": "nahmen",
+    "ihr": "nahmt",
+    "sie/Sie": "nahmen"
+   },
+   "Perfekt": {
+    "ich": "habe genommen",
+    "du": "hast genommen",
+    "er/sie/es": "hat genommen",
+    "wir": "haben genommen",
+    "ihr": "habt genommen",
+    "sie/Sie": "haben genommen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte genommen",
+    "du": "hattest genommen",
+    "er/sie/es": "hatte genommen",
+    "wir": "hatten genommen",
+    "ihr": "hattet genommen",
+    "sie/Sie": "hatten genommen"
+   },
+   "Futur I": {
+    "ich": "werde nehmen",
+    "du": "wirst nehmen",
+    "er/sie/es": "wird nehmen",
+    "wir": "werden nehmen",
+    "ihr": "werdet nehmen",
+    "sie/Sie": "werden nehmen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde nehmen",
+    "du": "würdest nehmen",
+    "er/sie/es": "würde nehmen",
+    "wir": "würden nehmen",
+    "ihr": "würdet nehmen",
+    "sie/Sie": "würden nehmen"
+   },
+   "Imperativ": {
+    "du": "nimm!",
+    "ihr": "nehmt!",
+    "Sie": "nehmen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0287",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "adverb"
+  ],
+  "words": {
+   "de": "nur",
+   "en": "only",
+   "fa": "فقط",
+   "ps": "یوازې",
+   "fr": "seulement",
+   "tr": "sadece"
+  }
+ },
+ {
+  "id": "wA1-1-0288",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Motorrad",
+   "en": "motorbike",
+   "fa": "موتورسیکلت",
+   "ps": "موټرسايکل",
+   "fr": "moto",
+   "tr": "motosiklet"
+  }
+ },
+ {
+  "id": "wA1-1-0289",
+  "category": [
+   "places_buildings",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Station",
+   "en": "station",
+   "fa": "ایستگاه",
+   "ps": "تمځای",
+   "fr": "station",
+   "tr": "istasyon"
+  }
+ },
+ {
+  "id": "wA1-1-0290",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "S-Bahn",
+   "en": "suburban train",
+   "fa": "متروی S",
+   "ps": "S-Bahn",
+   "fr": "S-Bahn",
+   "tr": "S-Bahn"
+  }
+ },
+ {
+  "id": "wA1-1-0291",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Straßenbahn",
+   "en": "tram",
+   "fa": "تراموا",
+   "ps": "ټرام",
+   "fr": "tramway",
+   "tr": "tramvay"
+  }
+ },
+ {
+  "id": "wA1-1-0292",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "suchen",
+   "en": "to search",
+   "fa": "جستجو کردن",
+   "ps": "لټول",
+   "fr": "chercher",
+   "tr": "aramak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "suche",
+    "du": "suchst",
+    "er/sie/es": "sucht",
+    "wir": "suchen",
+    "ihr": "sucht",
+    "sie/Sie": "suchen"
+   },
+   "Präteritum": {
+    "ich": "suchte",
+    "du": "suchtest",
+    "er/sie/es": "suchte",
+    "wir": "suchten",
+    "ihr": "suchtet",
+    "sie/Sie": "suchten"
+   },
+   "Perfekt": {
+    "ich": "habe gesucht",
+    "du": "hast gesucht",
+    "er/sie/es": "hat gesucht",
+    "wir": "haben gesucht",
+    "ihr": "habt gesucht",
+    "sie/Sie": "haben gesucht"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gesucht",
+    "du": "hattest gesucht",
+    "er/sie/es": "hatte gesucht",
+    "wir": "hatten gesucht",
+    "ihr": "hattet gesucht",
+    "sie/Sie": "hatten gesucht"
+   },
+   "Futur I": {
+    "ich": "werde suchen",
+    "du": "wirst suchen",
+    "er/sie/es": "wird suchen",
+    "wir": "werden suchen",
+    "ihr": "werdet suchen",
+    "sie/Sie": "werden suchen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde suchen",
+    "du": "würdest suchen",
+    "er/sie/es": "würde suchen",
+    "wir": "würden suchen",
+    "ihr": "würdet suchen",
+    "sie/Sie": "würden suchen"
+   },
+   "Imperativ": {
+    "du": "suche!",
+    "ihr": "sucht!",
+    "Sie": "suchen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0293",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Ticket",
+   "en": "ticket",
+   "fa": "بلیط",
+   "ps": "ټکټ",
+   "fr": "billet",
+   "tr": "bilet"
+  }
+ },
+ {
+  "id": "wA1-1-0294",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "U-Bahn",
+   "en": "underground / subway",
+   "fa": "متروی U",
+   "ps": "U-Bahn",
+   "fr": "métro",
+   "tr": "metro"
+  }
+ },
+ {
+  "id": "wA1-1-0295",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Verkehrsmittel",
+   "en": "means of transport",
+   "fa": "وسیلهٔ نقلیه",
+   "ps": "د ترانسپورت وسیله",
+   "fr": "moyen de transport",
+   "tr": "ulaşım aracı"
+  }
+ },
+ {
+  "id": "wA1-1-0296",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Weg",
+   "en": "way / path",
+   "fa": "راه",
+   "ps": "لار",
+   "fr": "chemin",
+   "tr": "yol"
+  }
+ },
+ {
+  "id": "wA1-1-0297",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Zug",
+   "en": "train",
+   "fa": "قطار",
+   "ps": "رېل ګاډی",
+   "fr": "train",
+   "tr": "tren"
+  }
+ },
+ {
+  "id": "wA1-1-0298",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Eingang",
+   "en": "entrance",
+   "fa": "ورودی",
+   "ps": "ورود",
+   "fr": "entrée",
+   "tr": "giriş"
+  }
+ },
+ {
+  "id": "wA1-1-0299",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Ausgang",
+   "en": "exit",
+   "fa": "خروجی",
+   "ps": "وتنه",
+   "fr": "sortie",
+   "tr": "çıkış"
+  }
+ },
+ {
+  "id": "wA1-1-0300",
+  "category": [
+   "health_body",
+   "a1_core",
+   "verb",
+   "preposition"
+  ],
+  "words": {
+   "de": "zu Fuß gehen",
+   "en": "to go on foot",
+   "fa": "پیاده رفتن",
+   "ps": "پلې تګ",
+   "fr": "aller à pied",
+   "tr": "yürüyerek gitmek"
+  }
+ },
+ {
+  "id": "wA1-1-0301",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Ich hole dich ab.",
+   "en": "I’ll pick you up.",
+   "fa": "من به دنبالت می‌آیم.",
+   "ps": "زه به تا را واخلم.",
+   "fr": "Je viens te chercher.",
+   "tr": "Seni almaya geliyorum."
+  }
+ },
+ {
+  "id": "wA1-1-0302",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Ampel",
+   "en": "traffic light",
+   "fa": "چراغ راهنما",
+   "ps": "ټرافیک څراغ",
+   "fr": "feu de circulation",
+   "tr": "trafik ışığı"
+  }
+ },
+ {
+  "id": "wA1-1-0303",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "aussteigen",
+   "en": "to get off",
+   "fa": "پیاده شدن",
+   "ps": "کښته کېدل",
+   "fr": "descendre",
+   "tr": "inmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "steige aus",
+    "du": "steigst aus",
+    "er/sie/es": "steigt aus",
+    "wir": "steigen aus",
+    "ihr": "steigt aus",
+    "sie/Sie": "steigen aus"
+   },
+   "Präteritum": {
+    "ich": "stieg aus",
+    "du": "stiegst aus",
+    "er/sie/es": "stieg aus",
+    "wir": "stiegen aus",
+    "ihr": "stiegt aus",
+    "sie/Sie": "stiegen aus"
+   },
+   "Perfekt": {
+    "ich": "bin ausgestiegen",
+    "du": "bist ausgestiegen",
+    "er/sie/es": "ist ausgestiegen",
+    "wir": "sind ausgestiegen",
+    "ihr": "seid ausgestiegen",
+    "sie/Sie": "sind ausgestiegen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war ausgestiegen",
+    "du": "warst ausgestiegen",
+    "er/sie/es": "war ausgestiegen",
+    "wir": "waren ausgestiegen",
+    "ihr": "wart ausgestiegen",
+    "sie/Sie": "waren ausgestiegen"
+   },
+   "Futur I": {
+    "ich": "werde aussteigen",
+    "du": "wirst aussteigen",
+    "er/sie/es": "wird aussteigen",
+    "wir": "werden aussteigen",
+    "ihr": "werdet aussteigen",
+    "sie/Sie": "werden aussteigen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde aussteigen",
+    "du": "würdest aussteigen",
+    "er/sie/es": "würde aussteigen",
+    "wir": "würden aussteigen",
+    "ihr": "würdet aussteigen",
+    "sie/Sie": "würden aussteigen"
+   },
+   "Imperativ": {
+    "du": "steig aus!",
+    "ihr": "steigt aus!",
+    "Sie": "steigen Sie aus!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0304",
+  "category": [
+   "places_buildings",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Bahnhof",
+   "en": "train station",
+   "fa": "ایستگاه قطار",
+   "ps": "د اورګاډي تمځای",
+   "fr": "gare",
+   "tr": "tren istasyonu"
+  }
+ },
+ {
+  "id": "wA1-1-0305",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Café",
+   "en": "café",
+   "fa": "کافه",
+   "ps": "کافي",
+   "fr": "café",
+   "tr": "kafe"
+  }
+ },
+ {
+  "id": "wA1-1-0306",
+  "category": [
+   "directions_navigation",
+   "a1_core",
+   "adverb",
+   "place_expression"
+  ],
+  "words": {
+   "de": "dort",
+   "en": "there",
+   "fa": "آنجا",
+   "ps": "هلته",
+   "fr": "là",
+   "tr": "orada"
+  }
+ },
+ {
+  "id": "wA1-1-0307",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Drogerie",
+   "en": "drugstore / chemist's",
+   "fa": "داروخانه (درگرى)",
+   "ps": "درملتون",
+   "fr": "pharmacie",
+   "tr": "eczane"
+  }
+ },
+ {
+  "id": "wA1-1-0308",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Fahrplan",
+   "en": "timetable",
+   "fa": "برنامهٔ حرکت",
+   "ps": "د سفر مهالویش",
+   "fr": "horaire",
+   "tr": "tarife"
+  }
+ },
+ {
+  "id": "wA1-1-0309",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Fluss",
+   "en": "river",
+   "fa": "رودخانه",
+   "ps": "سیند",
+   "fr": "rivière",
+   "tr": "nehir"
+  }
+ },
+ {
+  "id": "wA1-1-0310",
+  "category": [
+   "directions_navigation",
+   "place_expression"
+  ],
+  "words": {
+   "de": "geradeaus",
+   "en": "straight ahead",
+   "fa": "مستقیم جلو",
+   "ps": "مستقیم مخکې",
+   "fr": "tout droit",
+   "tr": "düz ileri"
+  }
+ },
+ {
+  "id": "wA1-1-0311",
+  "category": [
+   "places_buildings",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Hauptbahnhof",
+   "en": "central station",
+   "fa": "ایستگاه مرکزی",
+   "ps": "مرکزي تمځای",
+   "fr": "Hauptbahnhof",
+   "tr": "Hauptbahnhof"
+  }
+ },
+ {
+  "id": "wA1-1-0312",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Kreuzung",
+   "en": "crossroads / junction",
+   "fa": "تقاطع",
+   "ps": "څلورلارې",
+   "fr": "carrefour",
+   "tr": "kavşak"
+  }
+ },
+ {
+  "id": "wA1-1-0313",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Linie",
+   "en": "line / route",
+   "fa": "خط",
+   "ps": "کرښه / لاره",
+   "fr": "ligne / itinéraire",
+   "tr": "hat / güzergah"
+  }
+ },
+ {
+  "id": "wA1-1-0314",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Museum",
+   "en": "museum",
+   "fa": "موزه",
+   "ps": "موزیم",
+   "fr": "musée",
+   "tr": "müze"
+  }
+ },
+ {
+  "id": "wA1-1-0315",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Park",
+   "en": "park",
+   "fa": "پارک",
+   "ps": "پارک",
+   "fr": "parc",
+   "tr": "park"
+  }
+ },
+ {
+  "id": "wA1-1-0316",
+  "category": [
+   "directions_navigation",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Richtung",
+   "en": "direction",
+   "fa": "جهت",
+   "ps": "لوری",
+   "fr": "direction",
+   "tr": "yön"
+  }
+ },
+ {
+  "id": "wA1-1-0317",
+  "category": [
+   "places_buildings",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Stadtrundfahrt",
+   "en": "city tour",
+   "fa": "تور شهر",
+   "ps": "د ښار ګرځندوی سفر",
+   "fr": "tour de la ville",
+   "tr": "şehir turu"
+  }
+ },
+ {
+  "id": "wA1-1-0318",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "abfahren",
+   "en": "to depart",
+   "fa": "حرکت کردن (راه افتادن)",
+   "ps": "وتل / روانېدل",
+   "fr": "partir",
+   "tr": "hareket etmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "fahre ab",
+    "du": "fährst ab",
+    "er/sie/es": "fährt ab",
+    "wir": "fahren ab",
+    "ihr": "fahrt ab",
+    "sie/Sie": "fahren ab"
+   },
+   "Präteritum": {
+    "ich": "fuhr ab",
+    "du": "fuhrst ab",
+    "er/sie/es": "fuhr ab",
+    "wir": "fuhren ab",
+    "ihr": "fuhrt ab",
+    "sie/Sie": "fuhren ab"
+   },
+   "Perfekt": {
+    "ich": "bin abgefahren",
+    "du": "bist abgefahren",
+    "er/sie/es": "ist abgefahren",
+    "wir": "sind abgefahren",
+    "ihr": "seid abgefahren",
+    "sie/Sie": "sind abgefahren"
+   },
+   "Plusquamperfekt": {
+    "ich": "war abgefahren",
+    "du": "warst abgefahren",
+    "er/sie/es": "war abgefahren",
+    "wir": "waren abgefahren",
+    "ihr": "wart abgefahren",
+    "sie/Sie": "waren abgefahren"
+   },
+   "Futur I": {
+    "ich": "werde abfahren",
+    "du": "wirst abfahren",
+    "er/sie/es": "wird abfahren",
+    "wir": "werden abfahren",
+    "ihr": "werdet abfahren",
+    "sie/Sie": "werden abfahren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde abfahren",
+    "du": "würdest abfahren",
+    "er/sie/es": "würde abfahren",
+    "wir": "würden abfahren",
+    "ihr": "würdet abfahren",
+    "sie/Sie": "würden abfahren"
+   },
+   "Imperativ": {
+    "du": "fahre ab!",
+    "ihr": "fahrt ab!",
+    "Sie": "fahren Sie ab!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0319",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "ankommen",
+   "en": "to arrive",
+   "fa": "رسیدن",
+   "ps": "رسېدل",
+   "fr": "arriver",
+   "tr": "varmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "komme an",
+    "du": "kommst an",
+    "er/sie/es": "kommt an",
+    "wir": "kommen an",
+    "ihr": "kommt an",
+    "sie/Sie": "kommen an"
+   },
+   "Präteritum": {
+    "ich": "kam an",
+    "du": "kamst an",
+    "er/sie/es": "kam an",
+    "wir": "kamen an",
+    "ihr": "kamt an",
+    "sie/Sie": "kamen an"
+   },
+   "Perfekt": {
+    "ich": "bin angekommen",
+    "du": "bist angekommen",
+    "er/sie/es": "ist angekommen",
+    "wir": "sind angekommen",
+    "ihr": "seid angekommen",
+    "sie/Sie": "sind angekommen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war angekommen",
+    "du": "warst angekommen",
+    "er/sie/es": "war angekommen",
+    "wir": "waren angekommen",
+    "ihr": "wart angekommen",
+    "sie/Sie": "waren angekommen"
+   },
+   "Futur I": {
+    "ich": "werde ankommen",
+    "du": "wirst ankommen",
+    "er/sie/es": "wird ankommen",
+    "wir": "werden ankommen",
+    "ihr": "werdet ankommen",
+    "sie/Sie": "werden ankommen"
+   },
+   "Konjunktiv II": {
+    "ich": "käme an",
+    "du": "kämest an",
+    "er/sie/es": "käme an",
+    "wir": "kämen an",
+    "ihr": "kämet an",
+    "sie/Sie": "kämen an"
+   },
+   "Imperativ": {
+    "du": "komm an!",
+    "ihr": "kommt an!",
+    "Sie": "kommen Sie an!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0320",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Abfahrt",
+   "en": "departure",
+   "fa": "حرکت / عزیمت",
+   "ps": "وتل",
+   "fr": "départ",
+   "tr": "kalkış"
+  }
+ },
+ {
+  "id": "wA1-1-0321",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Ankunft",
+   "en": "arrival",
+   "fa": "ورود",
+   "ps": "رسېدل",
+   "fr": "arrivée",
+   "tr": "varış"
+  }
+ },
+ {
+  "id": "wA1-1-0322",
+  "category": [
+   "directions_navigation",
+   "place_expression"
+  ],
+  "words": {
+   "de": "links",
+   "en": "left",
+   "fa": "چپ",
+   "ps": "چپ",
+   "fr": "gauche",
+   "tr": "sol"
+  }
+ },
+ {
+  "id": "wA1-1-0323",
+  "category": [
+   "directions_navigation",
+   "place_expression"
+  ],
+  "words": {
+   "de": "rechts",
+   "en": "right",
+   "fa": "راست",
+   "ps": "ښي",
+   "fr": "droite",
+   "tr": "sağ"
+  }
+ },
+ {
+  "id": "wA1-1-0324",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Kannst du mir etwas empfehlen?",
+   "en": "Can you recommend something to me?",
+   "fa": "می‌توانی چیزی به من توصیه کنی؟",
+   "ps": "ته ماته څه سپارښتنه کولی شې؟",
+   "fr": "Peux-tu me recommander quelque chose ?",
+   "tr": "Bana bir şey tavsiye edebilir misin?"
+  }
+ },
+ {
+  "id": "wA1-1-0325",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "words": {
+   "de": "Sieh dir … an.",
+   "en": "Have a look at …",
+   "fa": "به ... نگاه کن.",
+   "ps": "… ته وګوره.",
+   "fr": "Regarde …",
+   "tr": "…'e bak."
+  }
+ },
+ {
+  "id": "wA1-1-0326",
+  "category": [
+   "conversation_phrases",
+   "culture_events",
+   "noun"
+  ],
+  "words": {
+   "de": "Sieh dir das Kunstmuseum an!",
+   "en": "Have a look at the art museum!",
+   "fa": "به موزهٔ هنر نگاه کن!",
+   "ps": "د هنر موزیم ته وګوره!",
+   "fr": "Regarde le musée d'art !",
+   "tr": "Sanat müzesine bak!"
+  }
+ },
+ {
+  "id": "wA1-1-0327",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Wir treffen uns beim …",
+   "en": "We meet at …",
+   "fa": "ما در ... همدیگر را ملاقات می‌کنیم.",
+   "ps": "موږ په ... کې سره ګورو.",
+   "fr": "Nous nous retrouvons à …",
+   "tr": "…'de buluşuyoruz."
+  }
+ },
+ {
+  "id": "wA1-1-0328",
+  "category": [
+   "places_buildings",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Apotheke",
+   "en": "pharmacy",
+   "fa": "داروخانه",
+   "ps": "درملتون",
+   "fr": "pharmacie",
+   "tr": "eczane"
+  }
+ },
+ {
+  "id": "wA1-1-0329",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Bahnsteig",
+   "en": "platform",
+   "fa": "سکوی راه‌آهن",
+   "ps": "سکوی",
+   "fr": "quai",
+   "tr": "peron"
+  }
+ },
+ {
+  "id": "wA1-1-0330",
+  "category": [
+   "directions_navigation",
+   "a1_core",
+   "adverb"
+  ],
+  "words": {
+   "de": "gleich",
+   "en": "same / right away",
+   "fa": "یکسان / فوراً",
+   "ps": "همدا اوس / سمدلاسه",
+   "fr": "pareil / tout de suite",
+   "tr": "aynı / hemen"
+  }
+ },
+ {
+  "id": "wA1-1-0331",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Gleis",
+   "en": "track / platform",
+   "fa": "ریل / سکوی قطار",
+   "ps": "ریل / سکوی",
+   "fr": "voie / quai",
+   "tr": "ray / peron"
+  }
+ },
+ {
+  "id": "wA1-1-0332",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "stehen",
+   "en": "to stand",
+   "fa": "ایستادن",
+   "ps": "درېدل",
+   "fr": "être debout",
+   "tr": "ayakta durmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "stehe",
+    "du": "stehst",
+    "er/sie/es": "steht",
+    "wir": "stehen",
+    "ihr": "steht",
+    "sie/Sie": "stehen"
+   },
+   "Präteritum": {
+    "ich": "stand",
+    "du": "standest",
+    "er/sie/es": "stand",
+    "wir": "standen",
+    "ihr": "standet",
+    "sie/Sie": "standen"
+   },
+   "Perfekt": {
+    "ich": "habe gestanden",
+    "du": "hast gestanden",
+    "er/sie/es": "hat gestanden",
+    "wir": "haben gestanden",
+    "ihr": "habt gestanden",
+    "sie/Sie": "haben gestanden"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gestanden",
+    "du": "hattest gestanden",
+    "er/sie/es": "hatte gestanden",
+    "wir": "hatten gestanden",
+    "ihr": "hattet gestanden",
+    "sie/Sie": "hatten gestanden"
+   },
+   "Futur I": {
+    "ich": "werde stehen",
+    "du": "wirst stehen",
+    "er/sie/es": "wird stehen",
+    "wir": "werden stehen",
+    "ihr": "werdet stehen",
+    "sie/Sie": "werden stehen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde stehen",
+    "du": "würdest stehen",
+    "er/sie/es": "würde stehen",
+    "wir": "würden stehen",
+    "ihr": "würdet stehen",
+    "sie/Sie": "würden stehen"
+   },
+   "Imperativ": {
+    "du": "stehe!",
+    "ihr": "steht!",
+    "Sie": "stehen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0333",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "einsteigen",
+   "en": "to get on / to board",
+   "fa": "سوار شدن",
+   "ps": "سپاره کېدل",
+   "fr": "monter (dans un véhicule)",
+   "tr": "binmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "steige ein",
+    "du": "steigst ein",
+    "er/sie/es": "steigt ein",
+    "wir": "steigen ein",
+    "ihr": "steigt ein",
+    "sie/Sie": "steigen ein"
+   },
+   "Präteritum": {
+    "ich": "stieg ein",
+    "du": "stiegst ein",
+    "er/sie/es": "stieg ein",
+    "wir": "stiegen ein",
+    "ihr": "stiegt ein",
+    "sie/Sie": "stiegen ein"
+   },
+   "Perfekt": {
+    "ich": "bin eingestiegen",
+    "du": "bist eingestiegen",
+    "er/sie/es": "ist eingestiegen",
+    "wir": "sind eingestiegen",
+    "ihr": "seid eingestiegen",
+    "sie/Sie": "sind eingestiegen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war eingestiegen",
+    "du": "warst eingestiegen",
+    "er/sie/es": "war eingestiegen",
+    "wir": "waren eingestiegen",
+    "ihr": "wart eingestiegen",
+    "sie/Sie": "waren eingestiegen"
+   },
+   "Futur I": {
+    "ich": "werde einsteigen",
+    "du": "wirst einsteigen",
+    "er/sie/es": "wird einsteigen",
+    "wir": "werden einsteigen",
+    "ihr": "werdet einsteigen",
+    "sie/Sie": "werden einsteigen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde einsteigen",
+    "du": "würdest einsteigen",
+    "er/sie/es": "würde einsteigen",
+    "wir": "würden einsteigen",
+    "ihr": "würdet einsteigen",
+    "sie/Sie": "würden einsteigen"
+   },
+   "Imperativ": {
+    "du": "steig ein!",
+    "ihr": "steigt ein!",
+    "Sie": "steigen Sie ein!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0334",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Bäckerei",
+   "en": "bakery",
+   "fa": "نانوایی",
+   "ps": "نانوايي",
+   "fr": "boulangerie",
+   "tr": "fırın"
+  }
+ },
+ {
+  "id": "wA1-1-0335",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Kiosk",
+   "en": "kiosk / newsstand",
+   "fa": "کیوسک",
+   "ps": "کیوسک",
+   "fr": "kiosque",
+   "tr": "kiosk"
+  }
+ },
+ {
+  "id": "wA1-1-0336",
+  "category": [
+   "city_transport",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Ticketautomat",
+   "en": "ticket machine",
+   "fa": "دستگاه خرید بلیت",
+   "ps": "د ټکټ ماشین",
+   "fr": "distributeur de billets",
+   "tr": "bilet otomatı"
+  }
+ },
+ {
+  "id": "wA1-1-0337",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Treffpunkt",
+   "en": "meeting point",
+   "fa": "محل دیدار",
+   "ps": "د لیدو ځای",
+   "fr": "point de rencontre",
+   "tr": "buluşma noktası"
+  }
+ },
+ {
+  "id": "wA1-1-0338",
+  "category": [
+   "shopping_money",
+   "verb"
+  ],
+  "words": {
+   "de": "umsteigen",
+   "en": "to change (trains/buses)",
+   "fa": "تعویض وسیله / پیاده و سوار شدن",
+   "ps": "بدلول (قطار/بس)",
+   "fr": "changer (trains/bus)",
+   "tr": "aktarma (tren/otobüs)"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "steige um",
+    "du": "steigst um",
+    "er/sie/es": "steigt um",
+    "wir": "steigen um",
+    "ihr": "steigt um",
+    "sie/Sie": "steigen um"
+   },
+   "Präteritum": {
+    "ich": "stieg um",
+    "du": "stiegst um",
+    "er/sie/es": "stieg um",
+    "wir": "stiegen um",
+    "ihr": "stiegt um",
+    "sie/Sie": "stiegen um"
+   },
+   "Perfekt": {
+    "ich": "bin umgestiegen",
+    "du": "bist umgestiegen",
+    "er/sie/es": "ist umgestiegen",
+    "wir": "sind umgestiegen",
+    "ihr": "seid umgestiegen",
+    "sie/Sie": "sind umgestiegen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war umgestiegen",
+    "du": "warst umgestiegen",
+    "er/sie/es": "war umgestiegen",
+    "wir": "waren umgestiegen",
+    "ihr": "wart umgestiegen",
+    "sie/Sie": "waren umgestiegen"
+   },
+   "Futur I": {
+    "ich": "werde umsteigen",
+    "du": "wirst umsteigen",
+    "er/sie/es": "wird umsteigen",
+    "wir": "werden umsteigen",
+    "ihr": "werdet umsteigen",
+    "sie/Sie": "werden umsteigen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde umsteigen",
+    "du": "würdest umsteigen",
+    "er/sie/es": "würde umsteigen",
+    "wir": "würden umsteigen",
+    "ihr": "würdet umsteigen",
+    "sie/Sie": "würden umsteigen"
+   },
+   "Imperativ": {
+    "du": "steig um!",
+    "ihr": "steigt um!",
+    "Sie": "steigen Sie um!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0339",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "nächste Mal",
+   "en": "next time",
+   "fa": "دفعهٔ بعد",
+   "ps": "راتلونکی ځل",
+   "fr": "la prochaine fois",
+   "tr": "bir dahaki sefer"
+  }
+ },
+ {
+  "id": "wA1-1-0340",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Ich bin gleich da.",
+   "en": "I’ll be there in a moment.",
+   "fa": "همین الان می‌رسم.",
+   "ps": "زه سمدلاسه هلته یم.",
+   "fr": "J'arrive tout de suite.",
+   "tr": "Hemen orada olacağım."
+  }
+ },
+ {
+  "id": "wA1-1-0341",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "allein",
+   "en": "alone",
+   "fa": "تنها",
+   "ps": "یواځې",
+   "fr": "seul",
+   "tr": "yalnız"
+  }
+ },
+ {
+  "id": "wA1-1-0342",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Aufzug",
+   "en": "lift / elevator",
+   "fa": "آسانسور",
+   "ps": "لفټ",
+   "fr": "ascenseur",
+   "tr": "asansör"
+  }
+ },
+ {
+  "id": "wA1-1-0343",
+  "category": [
+   "furniture_rooms",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Bad",
+   "en": "bathroom",
+   "fa": "حمام",
+   "ps": "تشناب",
+   "fr": "salle de bain",
+   "tr": "banyo"
+  }
+ },
+ {
+  "id": "wA1-1-0344",
+  "category": [
+   "furniture_rooms",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Badezimmer",
+   "en": "bathroom",
+   "fa": "حمام",
+   "ps": "تشناب",
+   "fr": "salle de bain",
+   "tr": "banyo"
+  }
+ },
+ {
+  "id": "wA1-1-0345",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Balkon",
+   "en": "balcony",
+   "fa": "بالکن",
+   "ps": "بالکن",
+   "fr": "balcon",
+   "tr": "balkon"
+  }
+ },
+ {
+  "id": "wA1-1-0346",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Dorf",
+   "en": "village",
+   "fa": "روستا",
+   "ps": "کلی",
+   "fr": "village",
+   "tr": "köy"
+  }
+ },
+ {
+  "id": "wA1-1-0347",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Erdgeschoss",
+   "en": "ground floor",
+   "fa": "طبقهٔ همکف",
+   "ps": "همکف",
+   "fr": "rez-de-chaussée",
+   "tr": "zemin kat"
+  }
+ },
+ {
+  "id": "wA1-1-0348",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Etage",
+   "en": "floor / storey",
+   "fa": "طبقه",
+   "ps": "پوړ",
+   "fr": "étage",
+   "tr": "kat"
+  }
+ },
+ {
+  "id": "wA1-1-0349",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Flur",
+   "en": "hallway / corridor",
+   "fa": "راهرو",
+   "ps": "دهلیز",
+   "fr": "couloir",
+   "tr": "koridor"
+  }
+ },
+ {
+  "id": "wA1-1-0350",
+  "category": [
+   "home_household",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Garten",
+   "en": "garden / yard",
+   "fa": "حیاط / باغچه",
+   "ps": "باغ / انګړ",
+   "fr": "jardin",
+   "tr": "bahçe"
+  }
+ },
+ {
+  "id": "wA1-1-0351",
+  "category": [
+   "home_household",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Haus",
+   "en": "house / building",
+   "fa": "خانه / ساختمان",
+   "ps": "کور / ودانۍ",
+   "fr": "maison",
+   "tr": "ev"
+  }
+ },
+ {
+  "id": "wA1-1-0352",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Keller",
+   "en": "basement",
+   "fa": "زیرزمین",
+   "ps": "زیرزمین",
+   "fr": "sous-sol",
+   "tr": "bodrum"
+  }
+ },
+ {
+  "id": "wA1-1-0353",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "adverb"
+  ],
+  "words": {
+   "de": "leider",
+   "en": "unfortunately",
+   "fa": "متأسفانه",
+   "ps": "له بده مرغه",
+   "fr": "malheureusement",
+   "tr": "maalesef"
+  }
+ },
+ {
+  "id": "wA1-1-0354",
+  "category": [
+   "furniture_rooms",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Küche",
+   "en": "kitchen",
+   "fa": "آشپزخانه",
+   "ps": "پخلنځی",
+   "fr": "cuisine",
+   "tr": "mutfak"
+  }
+ },
+ {
+  "id": "wA1-1-0355",
+  "category": [
+   "home_household",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Miete",
+   "en": "rent",
+   "fa": "کرایه / اجاره‌بها",
+   "ps": "کرایه",
+   "fr": "loyer",
+   "tr": "kira"
+  }
+ },
+ {
+  "id": "wA1-1-0356",
+  "category": [
+   "furniture_rooms",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Platz",
+   "en": "space / room",
+   "fa": "جا / فضا",
+   "ps": "ځای / خونه",
+   "fr": "espace",
+   "tr": "yer"
+  }
+ },
+ {
+  "id": "wA1-1-0357",
+  "category": [
+   "colors_shapes",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Quadratmeter",
+   "en": "square metre",
+   "fa": "متر مربع",
+   "ps": "مربع متر",
+   "fr": "mètre carré",
+   "tr": "metrekare"
+  }
+ },
+ {
+  "id": "wA1-1-0358",
+  "category": [
+   "furniture_rooms",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Schlafzimmer",
+   "en": "bedroom",
+   "fa": "اتاق خواب",
+   "ps": "د خوب خونه",
+   "fr": "chambre",
+   "tr": "yatak odası"
+  }
+ },
+ {
+  "id": "wA1-1-0359",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Stock",
+   "en": "floor / storey",
+   "fa": "طبقه",
+   "ps": "پوړ",
+   "fr": "étage",
+   "tr": "kat"
+  }
+ },
+ {
+  "id": "wA1-1-0360",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Terrasse",
+   "en": "terrace",
+   "fa": "تراس",
+   "ps": "تراس",
+   "fr": "terrasse",
+   "tr": "teras"
+  }
+ },
+ {
+  "id": "wA1-1-0361",
+  "category": [
+   "home_household",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Wohnung",
+   "en": "flat / apartment",
+   "fa": "آپارتمان",
+   "ps": "اپارتمان",
+   "fr": "appartement",
+   "tr": "daire"
+  },
+  "plural": "Wohnungen"
+ },
+ {
+  "id": "wA1-1-0362",
+  "category": [
+   "furniture_rooms",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Wohnzimmer",
+   "en": "living room",
+   "fa": "اتاق نشیمن",
+   "ps": "د استوګنې خونه",
+   "fr": "salon",
+   "tr": "oturma odası"
+  }
+ },
+ {
+  "id": "wA1-1-0363",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Zentrum",
+   "en": "centre",
+   "fa": "مرکز",
+   "ps": "مرکز",
+   "fr": "centre",
+   "tr": "merkez"
+  }
+ },
+ {
+  "id": "wA1-1-0364",
+  "category": [
+   "furniture_rooms",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Zimmer",
+   "en": "room",
+   "fa": "اتاق",
+   "ps": "خونه",
+   "fr": "pièce",
+   "tr": "oda"
+  }
+ },
+ {
+  "id": "wA1-1-0365",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "gemütlich",
+   "en": "cosy",
+   "fa": "راحت / دنج",
+   "ps": "ارام / راحته",
+   "fr": "confortable",
+   "tr": "rahat"
+  }
+ },
+ {
+  "id": "wA1-1-0366",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "ungemütlich",
+   "en": "uncomfortable / not cosy",
+   "fa": "غیرراحت / نادلپذیر",
+   "ps": "ناارامه / نا راحته",
+   "fr": "inconfortable / pas cosy",
+   "tr": "rahatsız / konforsuz"
+  }
+ },
+ {
+  "id": "wA1-1-0367",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "hell",
+   "en": "bright",
+   "fa": "روشن",
+   "ps": "روښانه",
+   "fr": "brillant",
+   "tr": "parlak"
+  }
+ },
+ {
+  "id": "wA1-1-0368",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "dunkel",
+   "en": "dark",
+   "fa": "تاریک",
+   "ps": "توره",
+   "fr": "sombre",
+   "tr": "koyu"
+  }
+ },
+ {
+  "id": "wA1-1-0369",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "laut",
+   "en": "loud / noisy",
+   "fa": "پر صدا",
+   "ps": "غږور / شور ماشور لرونکی",
+   "fr": "fort / bruyant",
+   "tr": "yüksek sesli / gürültülü"
+  }
+ },
+ {
+  "id": "wA1-1-0370",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "adjective"
+  ],
+  "words": {
+   "de": "ruhig",
+   "en": "quiet",
+   "fa": "آرام / ساکت",
+   "ps": "ارام / چوپ",
+   "fr": "calme",
+   "tr": "sessiz"
+  }
+ },
+ {
+  "id": "wA1-1-0371",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "modern",
+   "en": "modern",
+   "fa": "مدرن",
+   "ps": "عصري",
+   "fr": "moderne",
+   "tr": "modern"
+  }
+ },
+ {
+  "id": "wA1-1-0372",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "altmodisch",
+   "en": "old-fashioned",
+   "fa": "قدیمی / از مد افتاده",
+   "ps": "زوړ / زاړه طرز",
+   "fr": "démodé",
+   "tr": "eski moda"
+  }
+ },
+ {
+  "id": "wA1-1-0373",
+  "category": [
+   "feelings_emotions",
+   "adjective"
+  ],
+  "words": {
+   "de": "schön",
+   "en": "beautiful / nice",
+   "fa": "زیبا / قشنگ",
+   "ps": "ښکلی / ښه",
+   "fr": "beau / joli",
+   "tr": "güzel / hoş"
+  }
+ },
+ {
+  "id": "wA1-1-0374",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "hässlich",
+   "en": "ugly",
+   "fa": "زشت",
+   "ps": "بدصورت",
+   "fr": "laid",
+   "tr": "çirkin"
+  }
+ },
+ {
+  "id": "wA1-1-0375",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "teuer",
+   "en": "expensive",
+   "fa": "گران",
+   "ps": "ګران",
+   "fr": "cher",
+   "tr": "pahalı"
+  }
+ },
+ {
+  "id": "wA1-1-0376",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "günstig",
+   "en": "cheap / affordable",
+   "fa": "ارزان / مناسب",
+   "ps": "ارزانه / مناسب",
+   "fr": "bon marché / abordable",
+   "tr": "ucuz / uygun"
+  }
+ },
+ {
+  "id": "wA1-1-0377",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "warm",
+   "en": "warm",
+   "fa": "گرم",
+   "ps": "ګرم",
+   "fr": "chaud",
+   "tr": "sıcak"
+  }
+ },
+ {
+  "id": "wA1-1-0378",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "kalt",
+   "en": "cold",
+   "fa": "سرد",
+   "ps": "سړه",
+   "fr": "froid",
+   "tr": "soğuk"
+  }
+ },
+ {
+  "id": "wA1-1-0379",
+  "category": [
+   "conversation_phrases",
+   "a1_core",
+   "preposition"
+  ],
+  "words": {
+   "de": "in der Nähe",
+   "en": "nearby",
+   "fa": "در نزدیکی",
+   "ps": "نږدې",
+   "fr": "à proximité",
+   "tr": "yakında"
+  }
+ },
+ {
+  "id": "wA1-1-0380",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "zur Miete wohnen",
+   "en": "to live in rented accommodation",
+   "fa": "به‌صورت مستأجر زندگی کردن",
+   "ps": "په کرايه کې اوسېدل",
+   "fr": "vivre en location",
+   "tr": "kiralık oturmak"
+  }
+ },
+ {
+  "id": "wA1-1-0381",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Anzeige",
+   "en": "advertisement (ad)",
+   "fa": "آگهی",
+   "ps": "اعلان",
+   "fr": "annonce",
+   "tr": "ilan"
+  }
+ },
+ {
+  "id": "wA1-1-0382",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "frei",
+   "en": "free / available",
+   "fa": "خالی / آزاد",
+   "ps": "خالي / موجود",
+   "fr": "libre / disponible",
+   "tr": "boş / müsait"
+  }
+ },
+ {
+  "id": "wA1-1-0383",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Mieter",
+   "en": "tenant (male)",
+   "fa": "مستأجر (مرد)",
+   "ps": "کرایه دار (نرینه)",
+   "fr": "locataire (homme)",
+   "tr": "kiracı (erkek)"
+  }
+ },
+ {
+  "id": "wA1-1-0384",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Mieterin",
+   "en": "tenant (female)",
+   "fa": "مستأجر (زن)",
+   "ps": "کرایه دار (ښځینه)",
+   "fr": "locataire (femme)",
+   "tr": "kiracı (kadın)"
+  }
+ },
+ {
+  "id": "wA1-1-0385",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Nachbar",
+   "en": "neighbour (male)",
+   "fa": "همسایه (مرد)",
+   "ps": "ګاونډی (نرینه)",
+   "fr": "voisin (homme)",
+   "tr": "komşu (erkek)"
+  }
+ },
+ {
+  "id": "wA1-1-0386",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Nachbarin",
+   "en": "neighbour (female)",
+   "fa": "همسایه (زن)",
+   "ps": "ګاونډۍ (ښځینه)",
+   "fr": "voisine (femme)",
+   "tr": "komşu (kadın)"
+  }
+ },
+ {
+  "id": "wA1-1-0387",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Nebenkosten",
+   "en": "additional costs / utilities",
+   "fa": "هزینه‌های جانبی",
+   "ps": "اضافي لګښتونه / خدمات",
+   "fr": "charges supplémentaires / services",
+   "tr": "ek masraflar / hizmetler"
+  }
+ },
+ {
+  "id": "wA1-1-0388",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "nett",
+   "en": "nice / kind",
+   "fa": "خوش‌برخورد / مهربان",
+   "ps": "ښه / مهربان",
+   "fr": "gentil / aimable",
+   "tr": "nazik / kibar"
+  }
+ },
+ {
+  "id": "wA1-1-0389",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Obergeschoss",
+   "en": "upper floor",
+   "fa": "طبقهٔ بالا",
+   "ps": "پورته پوړ",
+   "fr": "étage supérieur",
+   "tr": "üst kat"
+  }
+ },
+ {
+  "id": "wA1-1-0390",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Paar",
+   "en": "couple / pair",
+   "fa": "زوج / جفت",
+   "ps": "جوړه / جوړه",
+   "fr": "couple / paire",
+   "tr": "çift"
+  }
+ },
+ {
+  "id": "wA1-1-0391",
+  "category": [
+   "shopping_money",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Preis",
+   "en": "price",
+   "fa": "قیمت",
+   "ps": "بیه",
+   "fr": "prix",
+   "tr": "fiyat"
+  }
+ },
+ {
+  "id": "wA1-1-0392",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Vermieter",
+   "en": "landlord (male)",
+   "fa": "اجاره‌دهنده (مرد)",
+   "ps": "کورورکونکی (نرینه)",
+   "fr": "propriétaire (homme)",
+   "tr": "ev sahibi (erkek)"
+  }
+ },
+ {
+  "id": "wA1-1-0393",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Vermieterin",
+   "en": "landlady (female)",
+   "fa": "اجاره‌دهنده (زن)",
+   "ps": "کورورکونکې (ښځینه)",
+   "fr": "propriétaire (femme)",
+   "tr": "ev sahibi (kadın)"
+  }
+ },
+ {
+  "id": "wA1-1-0394",
+  "category": [
+   "home_household",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Wohngemeinschaft",
+   "en": "shared flat",
+   "fa": "خانهٔ مشترک / WG",
+   "ps": "شریک اپارتمان",
+   "fr": "colocation",
+   "tr": "paylaşımlı daire"
+  }
+ },
+ {
+  "id": "wA1-1-0395",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "jung",
+   "en": "young",
+   "fa": "جوان",
+   "ps": "ځوان",
+   "fr": "jeune",
+   "tr": "genç"
+  }
+ },
+ {
+  "id": "wA1-1-0396",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "alt",
+   "en": "old",
+   "fa": "پیر / قدیمی",
+   "ps": "زوړ / زاړه",
+   "fr": "vieux",
+   "tr": "yaşlı"
+  }
+ },
+ {
+  "id": "wA1-1-0397",
+  "category": [
+   "home_household",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Warmmiete",
+   "en": "warm rent (incl. heating etc.)",
+   "fa": "اجارهٔ گرم (با هزینهٔ گرمایش و غیره)",
+   "ps": "ګرم کرايه (د تودوخې او نورو لګښتونو سره)",
+   "fr": "loyer charges comprises",
+   "tr": "sıcak kira (aidat dahil)"
+  }
+ },
+ {
+  "id": "wA1-1-0398",
+  "category": [
+   "home_household",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Kaltmiete",
+   "en": "cold rent (without utilities)",
+   "fa": "اجارهٔ سرد (بدون هزینهٔ جانبی)",
+   "ps": "سړه کرايه (د اضافي لګښتونو پرته)",
+   "fr": "loyer hors charges",
+   "tr": "soğuk kira (aidatsız)"
+  }
+ },
+ {
+  "id": "wA1-1-0399",
+  "category": [
+   "home_household",
+   "a1_core",
+   "pronoun"
+  ],
+  "words": {
+   "de": "Ich ziehe um.",
+   "en": "I’m moving (house).",
+   "fa": "من اسباب‌کشی می‌کنم / نقل مکان می‌کنم.",
+   "ps": "زه کډه کوم.",
+   "fr": "Je déménage.",
+   "tr": "Taşınıyorum."
+  }
+ },
+ {
+  "id": "wA1-1-0400",
+  "category": [
+   "technology_internet",
+   "verb"
+  ],
+  "words": {
+   "de": "anrufen",
+   "en": "to call (on the phone)",
+   "fa": "تماس گرفتن / زنگ زدن",
+   "ps": "تلیفون کول / زنګ وهل",
+   "fr": "appeler (au téléphone)",
+   "tr": "telefonla aramak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "rufe an",
+    "du": "rufst an",
+    "er/sie/es": "ruft an",
+    "wir": "rufen an",
+    "ihr": "ruft an",
+    "sie/Sie": "rufen an"
+   },
+   "Präteritum": {
+    "ich": "rief an",
+    "du": "riefst an",
+    "er/sie/es": "rief an",
+    "wir": "riefen an",
+    "ihr": "rieft an",
+    "sie/Sie": "riefen an"
+   },
+   "Perfekt": {
+    "ich": "habe angerufen",
+    "du": "hast angerufen",
+    "er/sie/es": "hat angerufen",
+    "wir": "haben angerufen",
+    "ihr": "habt angerufen",
+    "sie/Sie": "haben angerufen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte angerufen",
+    "du": "hattest angerufen",
+    "er/sie/es": "hatte angerufen",
+    "wir": "hatten angerufen",
+    "ihr": "hattet angerufen",
+    "sie/Sie": "hatten angerufen"
+   },
+   "Futur I": {
+    "ich": "werde anrufen",
+    "du": "wirst anrufen",
+    "er/sie/es": "wird anrufen",
+    "wir": "werden anrufen",
+    "ihr": "werdet anrufen",
+    "sie/Sie": "werden anrufen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde anrufen",
+    "du": "würdest anrufen",
+    "er/sie/es": "würde anrufen",
+    "wir": "würden anrufen",
+    "ihr": "würdet anrufen",
+    "sie/Sie": "würden anrufen"
+   },
+   "Imperativ": {
+    "du": "ruf an!",
+    "ihr": "ruft an!",
+    "Sie": "rufen Sie an!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0401",
+  "category": [
+   "furniture_rooms",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Bett",
+   "en": "bed",
+   "fa": "تختخواب",
+   "ps": "تخت",
+   "fr": "lit",
+   "tr": "yatak"
+  }
+ },
+ {
+  "id": "wA1-1-0402",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Kühlschrank",
+   "en": "fridge",
+   "fa": "یخچال",
+   "ps": "یخچال",
+   "fr": "réfrigérateur",
+   "tr": "buzdolabı"
+  }
+ },
+ {
+  "id": "wA1-1-0403",
+  "category": [
+   "home_household",
+   "verb"
+  ],
+  "words": {
+   "de": "mieten",
+   "en": "to rent",
+   "fa": "اجاره کردن",
+   "ps": "کرایه کول",
+   "fr": "louer",
+   "tr": "kiralamak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "miete",
+    "du": "mietest",
+    "er/sie/es": "mietet",
+    "wir": "mieten",
+    "ihr": "mietet",
+    "sie/Sie": "mieten"
+   },
+   "Präteritum": {
+    "ich": "mietete",
+    "du": "mietetest",
+    "er/sie/es": "mietete",
+    "wir": "mieteten",
+    "ihr": "mietetet",
+    "sie/Sie": "mieteten"
+   },
+   "Perfekt": {
+    "ich": "habe gemietet",
+    "du": "hast gemietet",
+    "er/sie/es": "hat gemietet",
+    "wir": "haben gemietet",
+    "ihr": "habt gemietet",
+    "sie/Sie": "haben gemietet"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gemietet",
+    "du": "hattest gemietet",
+    "er/sie/es": "hatte gemietet",
+    "wir": "hatten gemietet",
+    "ihr": "hattet gemietet",
+    "sie/Sie": "hatten gemietet"
+   },
+   "Futur I": {
+    "ich": "werde mieten",
+    "du": "wirst mieten",
+    "er/sie/es": "wird mieten",
+    "wir": "werden mieten",
+    "ihr": "werdet mieten",
+    "sie/Sie": "werden mieten"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mieten",
+    "du": "würdest mieten",
+    "er/sie/es": "würde mieten",
+    "wir": "würden mieten",
+    "ihr": "würdet mieten",
+    "sie/Sie": "würden mieten"
+   },
+   "Imperativ": {
+    "du": "miete!",
+    "ihr": "mietet!",
+    "Sie": "mieten Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0404",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Möbel",
+   "en": "furniture",
+   "fa": "مبلمان",
+   "ps": "فرنیچر",
+   "fr": "meubles",
+   "tr": "mobilya"
+  }
+ },
+ {
+  "id": "wA1-1-0405",
+  "category": [
+   "numbers_math",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Prozent",
+   "en": "percent",
+   "fa": "درصد",
+   "ps": "سلنه",
+   "fr": "pourcentage",
+   "tr": "yüzde"
+  }
+ },
+ {
+  "id": "wA1-1-0406",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Regal",
+   "en": "shelf",
+   "fa": "قفسه",
+   "ps": "شلف",
+   "fr": "étagère",
+   "tr": "raf"
+  }
+ },
+ {
+  "id": "wA1-1-0407",
+  "category": [
+   "furniture_rooms",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Schrank",
+   "en": "cupboard / wardrobe",
+   "fa": "کمد",
+   "ps": "الماری",
+   "fr": "armoire",
+   "tr": "dolap"
+  }
+ },
+ {
+  "id": "wA1-1-0408",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Sessel",
+   "en": "armchair",
+   "fa": "صندلی راحتی",
+   "ps": "آرام څوکۍ",
+   "fr": "fauteuil",
+   "tr": "koltuk"
+  }
+ },
+ {
+  "id": "wA1-1-0409",
+  "category": [
+   "furniture_rooms",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Sofa",
+   "en": "sofa",
+   "fa": "مبل",
+   "ps": "صوفه",
+   "fr": "canapé",
+   "tr": "kanepe"
+  }
+ },
+ {
+  "id": "wA1-1-0410",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "stellen",
+   "en": "to put / place (upright)",
+   "fa": "گذاشتن / قرار دادن",
+   "ps": "کېښودل / ځای پر ځای کول",
+   "fr": "mettre / placer (debout)",
+   "tr": "koymak / dik yerleştirmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "stelle",
+    "du": "stellst",
+    "er/sie/es": "stellt",
+    "wir": "stellen",
+    "ihr": "stellt",
+    "sie/Sie": "stellen"
+   },
+   "Präteritum": {
+    "ich": "stellte",
+    "du": "stelltest",
+    "er/sie/es": "stellte",
+    "wir": "stellten",
+    "ihr": "stelltet",
+    "sie/Sie": "stellten"
+   },
+   "Perfekt": {
+    "ich": "habe gestellt",
+    "du": "hast gestellt",
+    "er/sie/es": "hat gestellt",
+    "wir": "haben gestellt",
+    "ihr": "habt gestellt",
+    "sie/Sie": "haben gestellt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gestellt",
+    "du": "hattest gestellt",
+    "er/sie/es": "hatte gestellt",
+    "wir": "hatten gestellt",
+    "ihr": "hattet gestellt",
+    "sie/Sie": "hatten gestellt"
+   },
+   "Futur I": {
+    "ich": "werde stellen",
+    "du": "wirst stellen",
+    "er/sie/es": "wird stellen",
+    "wir": "werden stellen",
+    "ihr": "werdet stellen",
+    "sie/Sie": "werden stellen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde stellen",
+    "du": "würdest stellen",
+    "er/sie/es": "würde stellen",
+    "wir": "würden stellen",
+    "ihr": "würdet stellen",
+    "sie/Sie": "würden stellen"
+   },
+   "Imperativ": {
+    "du": "stelle!",
+    "ihr": "stellt!",
+    "Sie": "stellen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0411",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Teppich",
+   "en": "carpet",
+   "fa": "فرش",
+   "ps": "فرش",
+   "fr": "tapis",
+   "tr": "halı"
+  }
+ },
+ {
+  "id": "wA1-1-0412",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Treppe",
+   "en": "stairs",
+   "fa": "پله",
+   "ps": "زینې",
+   "fr": "escalier",
+   "tr": "merdiven"
+  }
+ },
+ {
+  "id": "wA1-1-0413",
+  "category": [
+   "home_household",
+   "verb"
+  ],
+  "words": {
+   "de": "umziehen",
+   "en": "to move (house)",
+   "fa": "نقل مکان کردن / اسباب‌کشی کردن",
+   "ps": "کور بدلول",
+   "fr": "déménager",
+   "tr": "taşınmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "ziehe um",
+    "du": "ziehst um",
+    "er/sie/es": "zieht um",
+    "wir": "ziehen um",
+    "ihr": "zieht um",
+    "sie/Sie": "ziehen um"
+   },
+   "Präteritum": {
+    "ich": "zog um",
+    "du": "zogst um",
+    "er/sie/es": "zog um",
+    "wir": "zogen um",
+    "ihr": "zogt um",
+    "sie/Sie": "zogen um"
+   },
+   "Perfekt": {
+    "ich": "bin umgezogen",
+    "du": "bist umgezogen",
+    "er/sie/es": "ist umgezogen",
+    "wir": "sind umgezogen",
+    "ihr": "seid umgezogen",
+    "sie/Sie": "sind umgezogen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war umgezogen",
+    "du": "warst umgezogen",
+    "er/sie/es": "war umgezogen",
+    "wir": "waren umgezogen",
+    "ihr": "wart umgezogen",
+    "sie/Sie": "waren umgezogen"
+   },
+   "Futur I": {
+    "ich": "werde umziehen",
+    "du": "wirst umziehen",
+    "er/sie/es": "wird umziehen",
+    "wir": "werden umziehen",
+    "ihr": "werdet umziehen",
+    "sie/Sie": "werden umziehen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde umziehen",
+    "du": "würdest umziehen",
+    "er/sie/es": "würde umziehen",
+    "wir": "würden umziehen",
+    "ihr": "würdet umziehen",
+    "sie/Sie": "würden umziehen"
+   },
+   "Imperativ": {
+    "du": "zieh um!",
+    "ihr": "zieht um!",
+    "Sie": "ziehen Sie um!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0414",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Umzug",
+   "en": "move / relocation",
+   "fa": "اسباب‌کشی / نقل مکان",
+   "ps": "کور بدلول / انتقال",
+   "fr": "déménagement",
+   "tr": "taşınma / nakil"
+  }
+ },
+ {
+  "id": "wA1-1-0415",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Waschmaschine",
+   "en": "washing machine",
+   "fa": "ماشین لباسشویی",
+   "ps": "د کالو مینځلو ماشین",
+   "fr": "machine à laver",
+   "tr": "çamaşır makinesi"
+  }
+ },
+ {
+  "id": "wA1-1-0416",
+  "category": [
+   "questions_answers",
+   "conversation_phrases",
+   "noun"
+  ],
+  "words": {
+   "de": "Wohin?",
+   "en": "Where to?",
+   "fa": "به کجا؟",
+   "ps": "چیرته؟",
+   "fr": "Où ?",
+   "tr": "Nereye?"
+  }
+ },
+ {
+  "id": "wA1-1-0417",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "aufmachen",
+   "en": "to open",
+   "fa": "باز کردن",
+   "ps": "پرانیستل",
+   "fr": "ouvrir",
+   "tr": "açmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "mache auf",
+    "du": "machst auf",
+    "er/sie/es": "macht auf",
+    "wir": "machen auf",
+    "ihr": "macht auf",
+    "sie/Sie": "machen auf"
+   },
+   "Präteritum": {
+    "ich": "machte auf",
+    "du": "machtest auf",
+    "er/sie/es": "machte auf",
+    "wir": "machten auf",
+    "ihr": "machtet auf",
+    "sie/Sie": "machten auf"
+   },
+   "Perfekt": {
+    "ich": "habe aufgemacht",
+    "du": "hast aufgemacht",
+    "er/sie/es": "hat aufgemacht",
+    "wir": "haben aufgemacht",
+    "ihr": "habt aufgemacht",
+    "sie/Sie": "haben aufgemacht"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte aufgemacht",
+    "du": "hattest aufgemacht",
+    "er/sie/es": "hatte aufgemacht",
+    "wir": "hatten aufgemacht",
+    "ihr": "hattet aufgemacht",
+    "sie/Sie": "hatten aufgemacht"
+   },
+   "Futur I": {
+    "ich": "werde aufmachen",
+    "du": "wirst aufmachen",
+    "er/sie/es": "wird aufmachen",
+    "wir": "werden aufmachen",
+    "ihr": "werdet aufmachen",
+    "sie/Sie": "werden aufmachen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde aufmachen",
+    "du": "würdest aufmachen",
+    "er/sie/es": "würde aufmachen",
+    "wir": "würden aufmachen",
+    "ihr": "würdet aufmachen",
+    "sie/Sie": "würden aufmachen"
+   },
+   "Imperativ": {
+    "du": "mach auf!",
+    "ihr": "macht auf!",
+    "Sie": "machen Sie auf!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0418",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "zumachen",
+   "en": "to close",
+   "fa": "بستن",
+   "ps": "بندول",
+   "fr": "fermer",
+   "tr": "kapatmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "mache zu",
+    "du": "machst zu",
+    "er/sie/es": "macht zu",
+    "wir": "machen zu",
+    "ihr": "macht zu",
+    "sie/Sie": "machen zu"
+   },
+   "Präteritum": {
+    "ich": "machte zu",
+    "du": "machtest zu",
+    "er/sie/es": "machte zu",
+    "wir": "machten zu",
+    "ihr": "machtet zu",
+    "sie/Sie": "machten zu"
+   },
+   "Perfekt": {
+    "ich": "habe zugemacht",
+    "du": "hast zugemacht",
+    "er/sie/es": "hat zugemacht",
+    "wir": "haben zugemacht",
+    "ihr": "habt zugemacht",
+    "sie/Sie": "haben zugemacht"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte zugemacht",
+    "du": "hattest zugemacht",
+    "er/sie/es": "hatte zugemacht",
+    "wir": "hatten zugemacht",
+    "ihr": "hattet zugemacht",
+    "sie/Sie": "hatten zugemacht"
+   },
+   "Futur I": {
+    "ich": "werde zumachen",
+    "du": "wirst zumachen",
+    "er/sie/es": "wird zumachen",
+    "wir": "werden zumachen",
+    "ihr": "werdet zumachen",
+    "sie/Sie": "werden zumachen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde zumachen",
+    "du": "würdest zumachen",
+    "er/sie/es": "würde zumachen",
+    "wir": "würden zumachen",
+    "ihr": "würdet zumachen",
+    "sie/Sie": "würden zumachen"
+   },
+   "Imperativ": {
+    "du": "mach zu!",
+    "ihr": "macht zu!",
+    "Sie": "machen Sie zu!"
+   }
+  }
+ },
+ {
+  "id": "wA1-1-0419",
+  "category": [
+   "time_date",
+   "adverb"
+  ],
+  "words": {
+   "de": "schon",
+   "en": "already",
+   "fa": "قبلاً / از قبل",
+   "ps": "لا دمخه",
+   "fr": "déjà",
+   "tr": "zaten / çoktan"
+  },
+  "examples": {
+   "de": "Ich habe schon gegessen."
+  }
+ },
+ {
+  "id": "wA1-1-0420",
+  "category": [
+   "time_date",
+   "adverb"
+  ],
+  "words": {
+   "de": "noch",
+   "en": "still / yet",
+   "fa": "هنوز / باز هم",
+   "ps": "لا هم / تر اوسه",
+   "fr": "encore",
+   "tr": "hâlâ / henüz"
+  },
+  "examples": {
+   "de": "Ich bin noch nicht fertig."
+  }
+ },
+ {
+  "id": "wA1-1-0421",
+  "category": [
+   "a1_core",
+   "article",
+   "negation"
+  ],
+  "words": {
+   "de": "kein",
+   "en": "no / not any",
+   "fa": "هیچ / نه",
+   "ps": "هېڅ / نه",
+   "fr": "aucun / pas de",
+   "tr": "hiç / yok"
+  },
+  "examples": {
+   "de": "Ich habe heute keine Zeit."
+  }
+ }
+]

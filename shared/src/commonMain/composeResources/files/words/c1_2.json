@@ -1,0 +1,8650 @@
+[
+ {
+  "id": "wC1-2-0001",
+  "category": [
+   "school_learning",
+   "adjective"
+  ],
+  "words": {
+   "de": "nachvollziehbar",
+   "en": "comprehensible",
+   "fa": "قابل درک",
+   "ps": "د پوهېدو وړ",
+   "fr": "compréhensible",
+   "tr": "anlaşılır"
+  },
+  "examples": {
+   "de": "Seine Entscheidung ist nachvollziehbar."
+  }
+ },
+ {
+  "id": "wC1-2-0002",
+  "category": [
+   "school_learning",
+   "adjective"
+  ],
+  "words": {
+   "de": "glaubwürdig",
+   "en": "credible",
+   "fa": "باورپذیر",
+   "ps": "د باور وړ",
+   "fr": "crédible",
+   "tr": "inandırıcı"
+  },
+  "examples": {
+   "de": "Die Aussage wirkt glaubwürdig."
+  }
+ },
+ {
+  "id": "wC1-2-0003",
+  "category": [
+   "school_learning",
+   "adjective"
+  ],
+  "words": {
+   "de": "bedenklich",
+   "en": "worrying / questionable",
+   "fa": "نگران‌کننده / محل تردید",
+   "ps": "د اندېښنې وړ",
+   "fr": "préoccupant",
+   "tr": "endişe verici"
+  },
+  "examples": {
+   "de": "Diese Entwicklung ist bedenklich."
+  }
+ },
+ {
+  "id": "wC1-2-0004",
+  "category": [
+   "school_learning",
+   "adjective"
+  ],
+  "words": {
+   "de": "umstritten",
+   "en": "controversial",
+   "fa": "بحث‌برانگیز",
+   "ps": "جنجالي",
+   "fr": "controversé",
+   "tr": "tartışmalı"
+  },
+  "examples": {
+   "de": "Der Vorschlag bleibt umstritten."
+  }
+ },
+ {
+  "id": "wC1-2-0005",
+  "category": [
+   "school_learning",
+   "adjective"
+  ],
+  "words": {
+   "de": "ausschlaggebend",
+   "en": "decisive",
+   "fa": "تعیین‌کننده",
+   "ps": "ټاکونکی",
+   "fr": "décisif",
+   "tr": "belirleyici"
+  },
+  "examples": {
+   "de": "Die Erfahrung war für die Einstellung ausschlaggebend."
+  }
+ },
+ {
+  "id": "wC1-2-0006",
+  "category": [
+   "school_learning",
+   "adjective"
+  ],
+  "words": {
+   "de": "erheblich",
+   "en": "considerable / significant",
+   "fa": "قابل توجه",
+   "ps": "د پام وړ",
+   "fr": "considérable",
+   "tr": "önemli ölçüde"
+  },
+  "examples": {
+   "de": "Die Kosten sind erheblich gestiegen."
+  }
+ },
+ {
+  "id": "wC1-2-0007",
+  "category": [
+   "school_learning",
+   "adjective"
+  ],
+  "words": {
+   "de": "nachhaltig",
+   "en": "sustainable",
+   "fa": "پایدار",
+   "ps": "دوامدار",
+   "fr": "durable",
+   "tr": "sürdürülebilir"
+  },
+  "examples": {
+   "de": "Wir brauchen eine nachhaltige Lösung."
+  }
+ },
+ {
+  "id": "wC1-2-0008",
+  "category": [
+   "school_learning",
+   "adjective"
+  ],
+  "words": {
+   "de": "umfassend",
+   "en": "comprehensive / extensive",
+   "fa": "جامع / گسترده",
+   "ps": "هر اړخیز",
+   "fr": "complet / approfondi",
+   "tr": "kapsamlı"
+  },
+  "examples": {
+   "de": "Der Bericht bietet eine umfassende Analyse."
+  }
+ },
+ {
+  "id": "wC1-2-0009",
+  "category": [
+   "school_learning",
+   "adjective"
+  ],
+  "words": {
+   "de": "vage",
+   "en": "vague",
+   "fa": "مبهم",
+   "ps": "ناڅرګند",
+   "fr": "vague",
+   "tr": "belirsiz"
+  },
+  "examples": {
+   "de": "Die Angaben waren zu vage."
+  }
+ },
+ {
+  "id": "wC1-2-0010",
+  "category": [
+   "school_learning",
+   "adjective"
+  ],
+  "words": {
+   "de": "verhältnismäßig",
+   "en": "proportionate",
+   "fa": "متناسب",
+   "ps": "متناسب",
+   "fr": "proportionné",
+   "tr": "orantılı"
+  },
+  "examples": {
+   "de": "Die Maßnahme muss verhältnismäßig sein."
+  }
+ },
+ {
+  "id": "wC1-2-0011",
+  "category": [
+   "school_learning",
+   "adjective"
+  ],
+  "words": {
+   "de": "überschaubar",
+   "en": "manageable",
+   "fa": "قابل مدیریت / محدود",
+   "ps": "د اداره کولو وړ",
+   "fr": "gérable",
+   "tr": "yönetilebilir"
+  },
+  "examples": {
+   "de": "Der Aufwand bleibt überschaubar."
+  }
+ },
+ {
+  "id": "wC1-2-0012",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Prüfungsleistungen",
+  "words": {
+   "de": "Prüfungsleistung",
+   "en": "assessed work / exam performance",
+   "fa": "کار امتحانی / عملکرد امتحانی",
+   "ps": "د ازموینې کار",
+   "fr": "épreuve / résultat d'examen",
+   "tr": "sınav performansı"
+  },
+  "examples": {
+   "de": "Alle Prüfungsleistungen müssen bis zum Ende des Semesters erbracht werden."
+  }
+ },
+ {
+  "id": "wC1-2-0013",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Hochschulsysteme",
+  "words": {
+   "de": "Hochschulsystem",
+   "en": "higher education system",
+   "fa": "نظام آموزش عالی",
+   "ps": "د لوړو زده کړو نظام",
+   "fr": "système d'enseignement supérieur",
+   "tr": "yükseköğretim sistemi"
+  },
+  "examples": {
+   "de": "Das deutsche Hochschulsystem unterscheidet zwischen Universitäten und Fachhochschulen."
+  }
+ },
+ {
+  "id": "wC1-2-0014",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Zulassungsvoraussetzungen",
+  "words": {
+   "de": "Zulassungsvoraussetzung",
+   "en": "admission requirement",
+   "fa": "شرط پذیرش",
+   "ps": "د داخلې شرط",
+   "fr": "condition d'admission",
+   "tr": "kabul şartı"
+  },
+  "examples": {
+   "de": "Ein Bachelorabschluss ist eine Zulassungsvoraussetzung für den Master."
+  }
+ },
+ {
+  "id": "wC1-2-0015",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Seminarangebote",
+  "words": {
+   "de": "Seminarangebot",
+   "en": "range of seminars",
+   "fa": "سمینارهای ارائه‌شده",
+   "ps": "وړاندې شوي سیمینارونه",
+   "fr": "offre de séminaires",
+   "tr": "seminer programı"
+  },
+  "examples": {
+   "de": "Das Seminarangebot in diesem Semester ist besonders vielfältig."
+  }
+ },
+ {
+  "id": "wC1-2-0016",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Fachschaften",
+  "words": {
+   "de": "Fachschaft",
+   "en": "departmental student council",
+   "fa": "انجمن دانشجویی رشته",
+   "ps": "د پوهنځي د محصلینو ټولنه",
+   "fr": "association étudiante de filière",
+   "tr": "bölüm öğrenci temsilciliği"
+  },
+  "examples": {
+   "de": "Die Fachschaft organisiert für die Erstsemester eine Einführungswoche."
+  }
+ },
+ {
+  "id": "wC1-2-0017",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Modulbeschreibungen",
+  "words": {
+   "de": "Modulbeschreibung",
+   "en": "module description",
+   "fa": "شرح درس",
+   "ps": "د ماډل تشریح",
+   "fr": "descriptif de module",
+   "tr": "modül tanımı"
+  },
+  "examples": {
+   "de": "In der Modulbeschreibung sind die Lernziele genau festgelegt."
+  }
+ },
+ {
+  "id": "wC1-2-0018",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "wissenschaftliche Betreuung",
+   "en": "academic supervision",
+   "fa": "راهنمایی علمی",
+   "ps": "علمي لارښوونه",
+   "fr": "encadrement scientifique",
+   "tr": "akademik danışmanlık"
+  },
+  "examples": {
+   "de": "Eine gute wissenschaftliche Betreuung ist für eine Doktorarbeit entscheidend."
+  }
+ },
+ {
+  "id": "wC1-2-0019",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Dozenturen",
+  "words": {
+   "de": "Dozentur",
+   "en": "lectureship",
+   "fa": "سمت مدرس دانشگاه",
+   "ps": "په پوهنتون کې د تدریس دنده",
+   "fr": "poste de chargé de cours",
+   "tr": "öğretim görevliliği"
+  },
+  "examples": {
+   "de": "Sie hat eine Dozentur für Germanistik in Wien übernommen."
+  }
+ },
+ {
+  "id": "wC1-2-0020",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Semesterapparate",
+  "words": {
+   "de": "Semesterapparat",
+   "en": "course reserve",
+   "fa": "منابع رزروشدهٔ درس",
+   "ps": "د درس لپاره ځانګړي کتابونه",
+   "fr": "réserve de cours",
+   "tr": "ders için ayrılmış kaynaklar"
+  },
+  "examples": {
+   "de": "Die Pflichtlektüre steht im Semesterapparat der Bibliothek."
+  }
+ },
+ {
+  "id": "wC1-2-0021",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Studierendenwerke",
+  "words": {
+   "de": "Studierendenwerk",
+   "en": "student services organization",
+   "fa": "سازمان خدمات دانشجویی",
+   "ps": "د محصلینو د خدماتو اداره",
+   "fr": "œuvres universitaires",
+   "tr": "öğrenci hizmetleri kurumu"
+  },
+  "examples": {
+   "de": "Das Studierendenwerk vermittelt günstige Zimmer in Wohnheimen."
+  }
+ },
+ {
+  "id": "wC1-2-0022",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Hausarbeiten",
+  "words": {
+   "de": "Hausarbeit",
+   "en": "term paper / housework",
+   "fa": "مقالهٔ پایان ترم / کار خانه",
+   "ps": "د سمستر مقاله / د کور کار",
+   "fr": "dossier écrit / tâches ménagères",
+   "tr": "dönem ödevi / ev işi"
+  },
+  "examples": {
+   "de": "Bis Ende März muss ich noch zwei Hausarbeiten abgeben."
+  }
+ },
+ {
+  "id": "wC1-2-0023",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Präsenzpflicht",
+   "en": "compulsory attendance",
+   "fa": "حضور اجباری",
+   "ps": "اجباري حاضري",
+   "fr": "présence obligatoire",
+   "tr": "devam zorunluluğu"
+  },
+  "examples": {
+   "de": "In vielen Seminaren gibt es inzwischen keine Präsenzpflicht mehr."
+  }
+ },
+ {
+  "id": "wC1-2-0024",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Lernplattformen",
+  "words": {
+   "de": "Lernplattform",
+   "en": "learning platform",
+   "fa": "سامانهٔ آموزش آنلاین",
+   "ps": "د زده کړې پلاټفارم",
+   "fr": "plateforme d'apprentissage",
+   "tr": "öğrenme platformu"
+  },
+  "examples": {
+   "de": "Die Unterlagen zur Vorlesung finden Sie auf der Lernplattform."
+  }
+ },
+ {
+  "id": "wC1-2-0025",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "akademische Jahr",
+   "en": "academic year",
+   "fa": "سال تحصیلی",
+   "ps": "تعلیمي کال",
+   "fr": "année universitaire",
+   "tr": "akademik yıl"
+  },
+  "examples": {
+   "de": "Das akademische Jahr beginnt in Deutschland meist im Oktober."
+  }
+ },
+ {
+  "id": "wC1-2-0026",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Erasmusprogramm",
+   "en": "Erasmus programme",
+   "fa": "برنامهٔ اراسموس",
+   "ps": "د اېراسموس پروګرام",
+   "fr": "programme Erasmus",
+   "tr": "Erasmus programı"
+  },
+  "examples": {
+   "de": "Über das Erasmusprogramm hat sie ein Semester in Lissabon studiert."
+  }
+ },
+ {
+  "id": "wC1-2-0027",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Einschreibungen",
+  "words": {
+   "de": "Einschreibung",
+   "en": "enrolment / registration",
+   "fa": "ثبت‌نام",
+   "ps": "نوم لیکنه",
+   "fr": "inscription",
+   "tr": "kayıt"
+  },
+  "examples": {
+   "de": "Die Frist für die Einschreibung endet am 15. September."
+  }
+ },
+ {
+  "id": "wC1-2-0028",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Leistungsbewertungen",
+  "words": {
+   "de": "Leistungsbewertung",
+   "en": "assessment / performance evaluation",
+   "fa": "ارزشیابی عملکرد",
+   "ps": "د کړنو ارزونه",
+   "fr": "évaluation des performances",
+   "tr": "performans değerlendirmesi"
+  },
+  "examples": {
+   "de": "Die Leistungsbewertung erfolgt in diesem Kurs durch eine mündliche Prüfung."
+  }
+ },
+ {
+  "id": "wC1-2-0029",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "akademische Laufbahn",
+   "en": "academic career",
+   "fa": "مسیر شغلی دانشگاهی",
+   "ps": "علمي مسلکي لاره",
+   "fr": "carrière universitaire",
+   "tr": "akademik kariyer"
+  },
+  "examples": {
+   "de": "Er strebt eine akademische Laufbahn an und will promovieren."
+  }
+ },
+ {
+  "id": "wC1-2-0030",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Nachweis der Sprachkenntnisse",
+   "en": "proof of language proficiency",
+   "fa": "مدرک زبان",
+   "ps": "د ژبې د پوهې سند",
+   "fr": "attestation de niveau de langue",
+   "tr": "dil yeterlilik belgesi"
+  },
+  "examples": {
+   "de": "Für die Bewerbung ist ein Nachweis der Sprachkenntnisse erforderlich."
+  }
+ },
+ {
+  "id": "wC1-2-0031",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Fachbereiche",
+  "words": {
+   "de": "Fachbereich",
+   "en": "department / faculty",
+   "fa": "گروه آموزشی / دانشکده",
+   "ps": "څانګه / پوهنځی",
+   "fr": "département / faculté",
+   "tr": "bölüm / fakülte"
+  },
+  "examples": {
+   "de": "Der Fachbereich Wirtschaftswissenschaften bietet drei Masterstudiengänge an."
+  }
+ },
+ {
+  "id": "wC1-2-0032",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Semesterwochenstunden",
+  "words": {
+   "de": "Semesterwochenstunde (SWS)",
+   "en": "weekly contact hour per semester",
+   "fa": "ساعت درسی هفتگی در ترم",
+   "ps": "په سمستر کې اوونیز درسي ساعت",
+   "fr": "heure hebdomadaire semestrielle",
+   "tr": "dönemlik haftalık ders saati"
+  },
+  "examples": {
+   "de": "Das Seminar umfasst zwei Semesterwochenstunden."
+  }
+ },
+ {
+  "id": "wC1-2-0033",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Betreuungsaufwand",
+   "en": "supervision workload",
+   "fa": "بار کاری راهنمایی",
+   "ps": "د لارښوونې کاري بار",
+   "fr": "charge d'encadrement",
+   "tr": "danışmanlık yükü"
+  },
+  "examples": {
+   "de": "Der Betreuungsaufwand für Abschlussarbeiten wird oft unterschätzt."
+  }
+ },
+ {
+  "id": "wC1-2-0034",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Forschungsdatenbanken",
+  "words": {
+   "de": "Forschungsdatenbank",
+   "en": "research database",
+   "fa": "پایگاه دادهٔ پژوهشی",
+   "ps": "د څېړنې ډیټابېس",
+   "fr": "base de données de recherche",
+   "tr": "araştırma veri tabanı"
+  },
+  "examples": {
+   "de": "Die Artikel sind über eine Forschungsdatenbank der Universität zugänglich."
+  }
+ },
+ {
+  "id": "wC1-2-0035",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Ambivalenzen",
+  "words": {
+   "de": "Ambivalenz",
+   "en": "ambivalence",
+   "fa": "دوسوگرایی",
+   "ps": "دوه زړتوب",
+   "fr": "ambivalence",
+   "tr": "ikircilik"
+  },
+  "examples": {
+   "de": "Seine Haltung zur Globalisierung ist von deutlicher Ambivalenz geprägt."
+  }
+ },
+ {
+  "id": "wC1-2-0036",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Diskrepanzen",
+  "words": {
+   "de": "Diskrepanz",
+   "en": "discrepancy",
+   "fa": "ناهمخوانی / اختلاف",
+   "ps": "توپیر / ناهمغږي",
+   "fr": "écart / décalage",
+   "tr": "tutarsızlık / uyuşmazlık"
+  },
+  "examples": {
+   "de": "Zwischen Anspruch und Wirklichkeit besteht eine erhebliche Diskrepanz."
+  }
+ },
+ {
+  "id": "wC1-2-0037",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Denkansätze",
+  "words": {
+   "de": "Denkansatz",
+   "en": "approach / line of thought",
+   "fa": "رویکرد فکری",
+   "ps": "فکري لید",
+   "fr": "approche / piste de réflexion",
+   "tr": "düşünce yaklaşımı"
+  },
+  "examples": {
+   "de": "Dieser Denkansatz eröffnet völlig neue Perspektiven auf das Problem."
+  }
+ },
+ {
+  "id": "wC1-2-0038",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Paradoxien",
+  "words": {
+   "de": "Paradoxie",
+   "en": "paradox",
+   "fa": "تناقض‌نما / پارادوکس",
+   "ps": "تناقض",
+   "fr": "paradoxe",
+   "tr": "paradoks"
+  },
+  "examples": {
+   "de": "Die Paradoxie besteht darin, dass mehr Auswahl oft zu weniger Zufriedenheit führt."
+  }
+ },
+ {
+  "id": "wC1-2-0039",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Gegenpositionen",
+  "words": {
+   "de": "Gegenposition",
+   "en": "opposing position",
+   "fa": "دیدگاه مخالف",
+   "ps": "مخالف دریځ",
+   "fr": "position contraire",
+   "tr": "karşı görüş"
+  },
+  "examples": {
+   "de": "In einer Erörterung sollten Sie auch die Gegenposition darstellen."
+  }
+ },
+ {
+  "id": "wC1-2-0040",
+  "category": [
+   "relationships",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Wechselseitigkeit",
+   "en": "reciprocity / mutuality",
+   "fa": "دوسویگی / متقابل بودن",
+   "ps": "دوه اړخیز والی",
+   "fr": "réciprocité",
+   "tr": "karşılıklılık"
+  },
+  "examples": {
+   "de": "Echtes Vertrauen beruht auf Wechselseitigkeit."
+  }
+ },
+ {
+  "id": "wC1-2-0041",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Generalisierungen",
+  "words": {
+   "de": "Generalisierung",
+   "en": "generalization",
+   "fa": "تعمیم",
+   "ps": "عمومي کول",
+   "fr": "généralisation",
+   "tr": "genelleme"
+  },
+  "examples": {
+   "de": "Vorschnelle Generalisierungen führen häufig zu Vorurteilen."
+  }
+ },
+ {
+  "id": "wC1-2-0042",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Sinnstiftung",
+   "en": "creation of meaning",
+   "fa": "معنابخشی",
+   "ps": "معنا ورکول",
+   "fr": "création de sens",
+   "tr": "anlam yaratma"
+  },
+  "examples": {
+   "de": "Für viele Menschen ist die Arbeit eine wichtige Quelle der Sinnstiftung."
+  }
+ },
+ {
+  "id": "wC1-2-0043",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Relevanzfragen",
+  "words": {
+   "de": "Relevanzfrage",
+   "en": "question of relevance",
+   "fa": "پرسش از اهمیت",
+   "ps": "د اړوندوالي پوښتنه",
+   "fr": "question de la pertinence",
+   "tr": "ilgililik sorusu"
+  },
+  "examples": {
+   "de": "Bei jeder Quelle stellt sich zunächst die Relevanzfrage."
+  }
+ },
+ {
+  "id": "wC1-2-0044",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Kontroversen",
+  "words": {
+   "de": "Kontroverse",
+   "en": "controversy",
+   "fa": "مناقشه / جنجال",
+   "ps": "جنجال / شخړه",
+   "fr": "controverse",
+   "tr": "tartışma / anlaşmazlık"
+  },
+  "examples": {
+   "de": "Der Kommentar löste in den Medien eine heftige Kontroverse aus."
+  }
+ },
+ {
+  "id": "wC1-2-0045",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Abstraktionsniveaus",
+  "words": {
+   "de": "Abstraktionsniveau",
+   "en": "level of abstraction",
+   "fa": "سطح انتزاع",
+   "ps": "د انتزاع کچه",
+   "fr": "niveau d'abstraction",
+   "tr": "soyutlama düzeyi"
+  },
+  "examples": {
+   "de": "Der Aufsatz bewegt sich auf einem sehr hohen Abstraktionsniveau."
+  }
+ },
+ {
+  "id": "wC1-2-0046",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Einordnungen",
+  "words": {
+   "de": "Einordnung",
+   "en": "classification / contextualization",
+   "fa": "طبقه‌بندی / جای‌دادن در بافت",
+   "ps": "ډلبندي / ځای ټاکنه",
+   "fr": "classement / mise en contexte",
+   "tr": "sınıflandırma / bağlama oturtma"
+  },
+  "examples": {
+   "de": "Die historische Einordnung des Romans erleichtert das Verständnis."
+  }
+ },
+ {
+  "id": "wC1-2-0047",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Widersprüchlichkeiten",
+  "words": {
+   "de": "Widersprüchlichkeit",
+   "en": "contradictoriness / inconsistency",
+   "fa": "تناقض / ناسازگاری",
+   "ps": "تناقض",
+   "fr": "contradiction / incohérence",
+   "tr": "çelişkililik / tutarsızlık"
+  },
+  "examples": {
+   "de": "Die Widersprüchlichkeit seiner Aussagen machte ihn unglaubwürdig."
+  }
+ },
+ {
+  "id": "wC1-2-0048",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "These und Antithese",
+   "en": "thesis and antithesis",
+   "fa": "تز و آنتی‌تز",
+   "ps": "تېزس او انټي تېزس",
+   "fr": "thèse et antithèse",
+   "tr": "tez ve antitez"
+  },
+  "examples": {
+   "de": "Der Essay folgt dem klassischen Schema von These und Antithese."
+  }
+ },
+ {
+  "id": "wC1-2-0049",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Deutungshoheit",
+   "en": "interpretive authority",
+   "fa": "انحصار تفسیر",
+   "ps": "د تفسیر واک",
+   "fr": "monopole de l'interprétation",
+   "tr": "yorumlama tekeli"
+  },
+  "examples": {
+   "de": "Im Streit um die Deutungshoheit über die Ereignisse prallten zwei Lager aufeinander."
+  }
+ },
+ {
+  "id": "wC1-2-0050",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Konsensfindung",
+   "en": "consensus building",
+   "fa": "دستیابی به اجماع",
+   "ps": "اجماع ته رسېدل",
+   "fr": "recherche de consensus",
+   "tr": "uzlaşı arayışı"
+  },
+  "examples": {
+   "de": "Die Konsensfindung in der Kommission zog sich über Monate hin."
+  }
+ },
+ {
+  "id": "wC1-2-0051",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Validität",
+   "en": "validity",
+   "fa": "اعتبار / روایی",
+   "ps": "اعتبار",
+   "fr": "validité",
+   "tr": "geçerlilik"
+  },
+  "examples": {
+   "de": "Die Validität der Studie wird von mehreren Experten angezweifelt."
+  }
+ },
+ {
+  "id": "wC1-2-0052",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Kausalitäten",
+  "words": {
+   "de": "Kausalität",
+   "en": "causality",
+   "fa": "علیت",
+   "ps": "علیت",
+   "fr": "causalité",
+   "tr": "nedensellik"
+  },
+  "examples": {
+   "de": "Eine Korrelation ist nicht mit Kausalität gleichzusetzen."
+  }
+ },
+ {
+  "id": "wC1-2-0053",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Erklärungsansätze",
+  "words": {
+   "de": "Erklärungsansatz",
+   "en": "explanatory approach",
+   "fa": "رویکرد تبیینی",
+   "ps": "تشریحي لید",
+   "fr": "approche explicative",
+   "tr": "açıklama yaklaşımı"
+  },
+  "examples": {
+   "de": "Für dieses Phänomen gibt es mehrere konkurrierende Erklärungsansätze."
+  }
+ },
+ {
+  "id": "wC1-2-0054",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zielgerichtetheit",
+   "en": "goal-directedness / purposefulness",
+   "fa": "هدفمندی",
+   "ps": "هدفمندي",
+   "fr": "détermination / finalité",
+   "tr": "amaca yöneliklik"
+  },
+  "examples": {
+   "de": "Ihre Zielgerichtetheit hat ihr im Studium sehr geholfen."
+  }
+ },
+ {
+  "id": "wC1-2-0055",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Irritationsfähigkeit",
+   "en": "capacity for self-questioning",
+   "fa": "توان زیر سؤال بردن پیش‌فرض‌ها",
+   "ps": "د خپلو انګېرنو د ننګولو وړتیا",
+   "fr": "capacité de remise en question",
+   "tr": "sorgulamaya açıklık"
+  },
+  "examples": {
+   "de": "Irritationsfähigkeit gilt als wichtige Voraussetzung für interkulturelles Lernen."
+  }
+ },
+ {
+  "id": "wC1-2-0056",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Ambiguitätstoleranz",
+   "en": "tolerance of ambiguity",
+   "fa": "تحمل ابهام",
+   "ps": "د ابهام زغم",
+   "fr": "tolérance à l'ambiguïté",
+   "tr": "belirsizliğe tahammül"
+  },
+  "examples": {
+   "de": "Wer im Ausland lebt, braucht ein hohes Maß an Ambiguitätstoleranz."
+  }
+ },
+ {
+  "id": "wC1-2-0057",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Erklärungsmodelle",
+  "words": {
+   "de": "Erklärungsmodell",
+   "en": "explanatory model",
+   "fa": "مدل تبیینی",
+   "ps": "تشریحي ماډل",
+   "fr": "modèle explicatif",
+   "tr": "açıklayıcı model"
+  },
+  "examples": {
+   "de": "Das Erklärungsmodell berücksichtigt sowohl soziale als auch biologische Faktoren."
+  }
+ },
+ {
+  "id": "wC1-2-0058",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Reflexionsfähigkeit",
+   "en": "ability to reflect",
+   "fa": "توان تأمل",
+   "ps": "د غور وړتیا",
+   "fr": "capacité de réflexion",
+   "tr": "öz-yansıtma becerisi"
+  },
+  "examples": {
+   "de": "Das Praktikum soll die Reflexionsfähigkeit der Studierenden stärken."
+  }
+ },
+ {
+  "id": "wC1-2-0059",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Kohärenz",
+   "en": "coherence",
+   "fa": "انسجام",
+   "ps": "انسجام",
+   "fr": "cohérence",
+   "tr": "tutarlılık"
+  },
+  "examples": {
+   "de": "Achten Sie in Ihrem Text auf inhaltliche Kohärenz."
+  }
+ },
+ {
+  "id": "wC1-2-0060",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Differenzierungen",
+  "words": {
+   "de": "Differenzierung",
+   "en": "differentiation / distinction",
+   "fa": "تمایز / تفکیک",
+   "ps": "توپیر",
+   "fr": "différenciation / distinction",
+   "tr": "ayrım / farklılaştırma"
+  },
+  "examples": {
+   "de": "Das Thema erfordert eine sorgfältige Differenzierung zwischen Ursache und Wirkung."
+  }
+ },
+ {
+  "id": "wC1-2-0061",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Metaperspektiven",
+  "words": {
+   "de": "Metaperspektive",
+   "en": "meta-perspective",
+   "fa": "فرادیدگاه",
+   "ps": "لوړ لیدلوری",
+   "fr": "métaperspective",
+   "tr": "üst bakış açısı"
+  },
+  "examples": {
+   "de": "Aus einer Metaperspektive betrachtet, wirkt der Streit beinahe absurd."
+  }
+ },
+ {
+  "id": "wC1-2-0062",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Argumentationsstrukturen",
+  "words": {
+   "de": "Argumentationsstruktur",
+   "en": "structure of an argument",
+   "fa": "ساختار استدلال",
+   "ps": "د استدلال جوړښت",
+   "fr": "structure argumentative",
+   "tr": "argümantasyon yapısı"
+  },
+  "examples": {
+   "de": "Analysieren Sie die Argumentationsstruktur des Kommentars."
+  }
+ },
+ {
+  "id": "wC1-2-0063",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Rechtsauffassungen",
+  "words": {
+   "de": "Rechtsauffassung",
+   "en": "legal opinion / legal view",
+   "fa": "دیدگاه حقوقی",
+   "ps": "حقوقي نظر",
+   "fr": "conception juridique / avis juridique",
+   "tr": "hukuki görüş"
+  },
+  "examples": {
+   "de": "Das Gericht teilte die Rechtsauffassung der Klägerin nicht."
+  }
+ },
+ {
+  "id": "wC1-2-0064",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Tatbestände",
+  "words": {
+   "de": "Tatbestand",
+   "en": "elements of an offence / facts of the case",
+   "fa": "ارکان جرم / وقایع پرونده",
+   "ps": "د جرم عناصر / د قضیې حقایق",
+   "fr": "éléments constitutifs / faits",
+   "tr": "suçun unsurları / olay"
+  },
+  "examples": {
+   "de": "Der Tatbestand des Betrugs ist in diesem Fall eindeutig erfüllt."
+  }
+ },
+ {
+  "id": "wC1-2-0065",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Beweislast",
+   "en": "burden of proof",
+   "fa": "بار اثبات",
+   "ps": "د ثبوت بار",
+   "fr": "charge de la preuve",
+   "tr": "ispat yükü"
+  },
+  "examples": {
+   "de": "Die Beweislast liegt in diesem Fall beim Arbeitgeber."
+  }
+ },
+ {
+  "id": "wC1-2-0066",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Verfassungsgerichte",
+  "words": {
+   "de": "Verfassungsgericht",
+   "en": "constitutional court",
+   "fa": "دادگاه قانون اساسی",
+   "ps": "د اساسي قانون محکمه",
+   "fr": "cour constitutionnelle",
+   "tr": "anayasa mahkemesi"
+  },
+  "examples": {
+   "de": "Das Verfassungsgericht erklärte das Gesetz für nichtig."
+  }
+ },
+ {
+  "id": "wC1-2-0067",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Justizirrtümer",
+  "words": {
+   "de": "Justizirrtum",
+   "en": "miscarriage of justice",
+   "fa": "خطای قضایی",
+   "ps": "قضايي تېروتنه",
+   "fr": "erreur judiciaire",
+   "tr": "adli hata"
+  },
+  "examples": {
+   "de": "Nach 15 Jahren Haft stellte sich heraus, dass es sich um einen Justizirrtum handelte."
+  }
+ },
+ {
+  "id": "wC1-2-0068",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Ermessensspielräume",
+  "words": {
+   "de": "Ermessensspielraum",
+   "en": "discretion / scope for discretion",
+   "fa": "اختیار تشخیص",
+   "ps": "اختیاري واک",
+   "fr": "marge d'appréciation",
+   "tr": "takdir yetkisi"
+  },
+  "examples": {
+   "de": "Die Behörde hat bei dieser Entscheidung einen gewissen Ermessensspielraum."
+  }
+ },
+ {
+  "id": "wC1-2-0069",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Gesetzeslücken",
+  "words": {
+   "de": "Gesetzeslücke",
+   "en": "legal loophole",
+   "fa": "خلأ قانونی",
+   "ps": "قانوني تشه",
+   "fr": "vide juridique",
+   "tr": "yasal boşluk"
+  },
+  "examples": {
+   "de": "Die Firma nutzte eine Gesetzeslücke, um Steuern zu sparen."
+  }
+ },
+ {
+  "id": "wC1-2-0070",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Berufungsverhandlungen",
+  "words": {
+   "de": "Berufungsverhandlung",
+   "en": "appeal hearing",
+   "fa": "جلسهٔ رسیدگی تجدیدنظر",
+   "ps": "د استیناف اورېدنه",
+   "fr": "audience d'appel",
+   "tr": "istinaf duruşması"
+  },
+  "examples": {
+   "de": "Die Berufungsverhandlung findet im kommenden Frühjahr statt."
+  }
+ },
+ {
+  "id": "wC1-2-0071",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Strafmilderungen",
+  "words": {
+   "de": "Strafmilderung",
+   "en": "mitigation of sentence",
+   "fa": "تخفیف مجازات",
+   "ps": "د سزا کمښت",
+   "fr": "atténuation de la peine",
+   "tr": "ceza indirimi"
+  },
+  "examples": {
+   "de": "Sein umfassendes Geständnis führte zu einer Strafmilderung."
+  }
+ },
+ {
+  "id": "wC1-2-0072",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Delikte",
+  "words": {
+   "de": "Delikt",
+   "en": "offence",
+   "fa": "جرم / بزه",
+   "ps": "جرم",
+   "fr": "délit",
+   "tr": "suç"
+  },
+  "examples": {
+   "de": "Steuerhinterziehung ist ein ernstzunehmendes Delikt."
+  }
+ },
+ {
+  "id": "wC1-2-0073",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Klagebefugnis",
+   "en": "standing to sue",
+   "fa": "اهلیت اقامهٔ دعوا",
+   "ps": "د دعوې اهلیت",
+   "fr": "qualité pour agir",
+   "tr": "dava açma ehliyeti"
+  },
+  "examples": {
+   "de": "Das Gericht verneinte die Klagebefugnis des Vereins."
+  }
+ },
+ {
+  "id": "wC1-2-0074",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Prozessordnungen",
+  "words": {
+   "de": "Prozessordnung",
+   "en": "rules of procedure / code of procedure",
+   "fa": "آیین دادرسی",
+   "ps": "د محاکمې اصول",
+   "fr": "code de procédure",
+   "tr": "usul kanunu"
+  },
+  "examples": {
+   "de": "Die Prozessordnung regelt den Ablauf eines Gerichtsverfahrens."
+  }
+ },
+ {
+  "id": "wC1-2-0075",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Urteilsverkündungen",
+  "words": {
+   "de": "Urteilsverkündung",
+   "en": "pronouncement of the verdict",
+   "fa": "اعلام رأی",
+   "ps": "د حکم اعلان",
+   "fr": "prononcé du jugement",
+   "tr": "kararın açıklanması"
+  },
+  "examples": {
+   "de": "Zur Urteilsverkündung waren zahlreiche Journalisten erschienen."
+  }
+ },
+ {
+  "id": "wC1-2-0076",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Klagerechte",
+  "words": {
+   "de": "Klagerecht",
+   "en": "right to sue",
+   "fa": "حق اقامهٔ دعوا",
+   "ps": "د دعوې حق",
+   "fr": "droit d'agir en justice",
+   "tr": "dava hakkı"
+  },
+  "examples": {
+   "de": "Verbraucherverbände erhalten künftig ein erweitertes Klagerecht."
+  }
+ },
+ {
+  "id": "wC1-2-0077",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Gesetzeskraft",
+   "en": "force of law",
+   "fa": "قوت قانونی",
+   "ps": "قانوني اعتبار",
+   "fr": "force de loi",
+   "tr": "kanun hükmü"
+  },
+  "examples": {
+   "de": "Die Verordnung erlangt mit ihrer Veröffentlichung Gesetzeskraft."
+  }
+ },
+ {
+  "id": "wC1-2-0078",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "gerichtliche Instanz",
+   "en": "court instance / level of jurisdiction",
+   "fa": "مرجع قضایی / مرحلهٔ دادرسی",
+   "ps": "قضايي مرجع",
+   "fr": "instance judiciaire",
+   "tr": "yargı mercii"
+  },
+  "examples": {
+   "de": "Der Fall wurde in der nächsthöheren gerichtlichen Instanz erneut verhandelt."
+  }
+ },
+ {
+  "id": "wC1-2-0079",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Begründungspflicht",
+   "en": "duty to state reasons",
+   "fa": "الزام به ذکر دلایل",
+   "ps": "د دلیل وړاندې کولو مکلفیت",
+   "fr": "obligation de motivation",
+   "tr": "gerekçe gösterme yükümlülüğü"
+  },
+  "examples": {
+   "de": "Behörden unterliegen bei Ablehnungen einer Begründungspflicht."
+  }
+ },
+ {
+  "id": "wC1-2-0080",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Gesetzesverstöße",
+  "words": {
+   "de": "Gesetzesverstoß",
+   "en": "violation of the law",
+   "fa": "نقض قانون",
+   "ps": "د قانون سرغړونه",
+   "fr": "infraction à la loi",
+   "tr": "yasa ihlali"
+  },
+  "examples": {
+   "de": "Schon ein geringfügiger Gesetzesverstoß kann hohe Bußgelder nach sich ziehen."
+  }
+ },
+ {
+  "id": "wC1-2-0081",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Verfassungsmäßigkeit",
+   "en": "constitutionality",
+   "fa": "مطابقت با قانون اساسی",
+   "ps": "له اساسي قانون سره سمون",
+   "fr": "constitutionnalité",
+   "tr": "anayasaya uygunluk"
+  },
+  "examples": {
+   "de": "Die Verfassungsmäßigkeit des neuen Gesetzes wird derzeit geprüft."
+  }
+ },
+ {
+  "id": "wC1-2-0082",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Zeugenvernehmungen",
+  "words": {
+   "de": "Zeugenvernehmung",
+   "en": "examination of witnesses",
+   "fa": "استماع شهادت شهود",
+   "ps": "د شاهدانو اورېدنه",
+   "fr": "audition des témoins",
+   "tr": "tanık dinleme"
+  },
+  "examples": {
+   "de": "Die Zeugenvernehmung dauerte den ganzen Vormittag."
+  }
+ },
+ {
+  "id": "wC1-2-0083",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Schuldprinzip",
+   "en": "principle of culpability",
+   "fa": "اصل تقصیر",
+   "ps": "د ملامتیا اصل",
+   "fr": "principe de culpabilité",
+   "tr": "kusur ilkesi"
+  },
+  "examples": {
+   "de": "Nach dem Schuldprinzip darf nur bestraft werden, wer schuldhaft gehandelt hat."
+  }
+ },
+ {
+  "id": "wC1-2-0084",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Verfahrensverzögerungen",
+  "words": {
+   "de": "Verfahrensverzögerung",
+   "en": "delay in proceedings",
+   "fa": "تأخیر در رسیدگی",
+   "ps": "په محاکمه کې ځنډ",
+   "fr": "retard de procédure",
+   "tr": "yargılamanın gecikmesi"
+  },
+  "examples": {
+   "de": "Wegen einer übermäßigen Verfahrensverzögerung wurde der Angeklagte entschädigt."
+  }
+ },
+ {
+  "id": "wC1-2-0085",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Instanzenzüge",
+  "words": {
+   "de": "Instanzenzug",
+   "en": "hierarchy of courts / chain of appeal",
+   "fa": "سلسله‌مراتب دادگاه‌ها",
+   "ps": "د محکمو درجې",
+   "fr": "degrés de juridiction / voies de recours",
+   "tr": "yargı kademeleri / kanun yolu"
+  },
+  "examples": {
+   "de": "Der Kläger hat den gesamten Instanzenzug ausgeschöpft."
+  }
+ },
+ {
+  "id": "wC1-2-0086",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Tatverdachtslage",
+   "en": "grounds for suspicion",
+   "fa": "وضعیت ظن به ارتکاب جرم",
+   "ps": "د جرم د شک حالت",
+   "fr": "état des soupçons",
+   "tr": "suç şüphesi durumu"
+  },
+  "examples": {
+   "de": "Angesichts der dünnen Tatverdachtslage musste der Mann freigelassen werden."
+  }
+ },
+ {
+  "id": "wC1-2-0087",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Rechtsfolgenabschätzungen",
+  "words": {
+   "de": "Rechtsfolgenabschätzung",
+   "en": "assessment of legal consequences",
+   "fa": "ارزیابی پیامدهای حقوقی",
+   "ps": "د حقوقي پایلو ارزونه",
+   "fr": "évaluation des conséquences juridiques",
+   "tr": "hukuki sonuçların değerlendirilmesi"
+  },
+  "examples": {
+   "de": "Vor der Reform wurde eine umfassende Rechtsfolgenabschätzung durchgeführt."
+  }
+ },
+ {
+  "id": "wC1-2-0088",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "richterliche Unabhängigkeit",
+   "en": "judicial independence",
+   "fa": "استقلال قضایی",
+   "ps": "قضايي خپلواکي",
+   "fr": "indépendance judiciaire",
+   "tr": "yargı bağımsızlığı"
+  },
+  "examples": {
+   "de": "Die richterliche Unabhängigkeit ist ein Grundpfeiler des Rechtsstaats."
+  }
+ },
+ {
+  "id": "wC1-2-0089",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Rechtsauslegungen",
+  "words": {
+   "de": "Rechtsauslegung",
+   "en": "interpretation of the law",
+   "fa": "تفسیر قانون",
+   "ps": "د قانون تفسیر",
+   "fr": "interprétation du droit",
+   "tr": "hukukun yorumlanması"
+  },
+  "examples": {
+   "de": "Über die richtige Rechtsauslegung sind sich die Juristen uneinig."
+  }
+ },
+ {
+  "id": "wC1-2-0090",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Erzählerperspektiven",
+  "words": {
+   "de": "Erzählerperspektive",
+   "en": "narrative perspective",
+   "fa": "زاویهٔ دید راوی",
+   "ps": "د راوي لیدلوری",
+   "fr": "perspective narrative",
+   "tr": "anlatıcı bakış açısı"
+  },
+  "examples": {
+   "de": "Der Roman ist aus der Erzählerperspektive eines Kindes geschrieben."
+  }
+ },
+ {
+  "id": "wC1-2-0091",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Figurenzeichnungen",
+  "words": {
+   "de": "Figurenzeichnung",
+   "en": "characterization",
+   "fa": "شخصیت‌پردازی",
+   "ps": "د کرکټرونو انځورونه",
+   "fr": "caractérisation des personnages",
+   "tr": "karakter çizimi"
+  },
+  "examples": {
+   "de": "Die Figurenzeichnung in diesem Roman ist äußerst differenziert."
+  }
+ },
+ {
+  "id": "wC1-2-0092",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Handlungsführung",
+   "en": "plot structure / plot development",
+   "fa": "پیرنگ / روند داستان",
+   "ps": "د کیسې جوړښت",
+   "fr": "conduite de l'intrigue",
+   "tr": "olay örgüsü kurgusu"
+  },
+  "examples": {
+   "de": "Die Handlungsführung ist spannend, wirkt aber stellenweise konstruiert."
+  }
+ },
+ {
+  "id": "wC1-2-0093",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Stilistik",
+   "en": "stylistics",
+   "fa": "سبک‌شناسی",
+   "ps": "سبک پېژندنه",
+   "fr": "stylistique",
+   "tr": "üslup bilimi"
+  },
+  "examples": {
+   "de": "In der Stilistik untersucht man die sprachliche Gestaltung von Texten."
+  }
+ },
+ {
+  "id": "wC1-2-0094",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "sprachliche Dichte",
+   "en": "linguistic density",
+   "fa": "فشردگی زبانی",
+   "ps": "ژبنی غلظت",
+   "fr": "densité linguistique",
+   "tr": "dilsel yoğunluk"
+  },
+  "examples": {
+   "de": "Die sprachliche Dichte ihrer Gedichte verlangt ein langsames Lesen."
+  }
+ },
+ {
+  "id": "wC1-2-0095",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Erzähltempo",
+   "en": "narrative pace",
+   "fa": "سرعت روایت",
+   "ps": "د روایت چټکتیا",
+   "fr": "rythme narratif",
+   "tr": "anlatım temposu"
+  },
+  "examples": {
+   "de": "Im zweiten Teil des Romans zieht das Erzähltempo deutlich an."
+  }
+ },
+ {
+  "id": "wC1-2-0096",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Symbolik",
+   "en": "symbolism",
+   "fa": "نمادپردازی",
+   "ps": "سمبولیزم",
+   "fr": "symbolique",
+   "tr": "sembolizm"
+  },
+  "examples": {
+   "de": "Die Symbolik der Farben spielt in dem Film eine zentrale Rolle."
+  }
+ },
+ {
+  "id": "wC1-2-0097",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Bildsprache",
+   "en": "imagery / visual language",
+   "fa": "تصویرپردازی / زبان تصویری",
+   "ps": "انځوریزه ژبه",
+   "fr": "langage imagé / imagerie",
+   "tr": "imgelem / görsel dil"
+  },
+  "examples": {
+   "de": "Die Bildsprache des Gedichts ist reich an Naturmetaphern."
+  }
+ },
+ {
+  "id": "wC1-2-0098",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Rahmenhandlungen",
+  "words": {
+   "de": "Rahmenhandlung",
+   "en": "frame story",
+   "fa": "داستان قاب",
+   "ps": "چوکاټي کیسه",
+   "fr": "récit-cadre",
+   "tr": "çerçeve öykü"
+  },
+  "examples": {
+   "de": "Die Rahmenhandlung verbindet die einzelnen Erzählungen miteinander."
+  }
+ },
+ {
+  "id": "wC1-2-0099",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "literarische Gattung",
+   "en": "literary genre",
+   "fa": "گونهٔ ادبی",
+   "ps": "ادبي ژانر",
+   "fr": "genre littéraire",
+   "tr": "edebi tür"
+  },
+  "examples": {
+   "de": "Die Novelle gilt als eigenständige literarische Gattung."
+  }
+ },
+ {
+  "id": "wC1-2-0100",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Epochenbewusstsein",
+   "en": "awareness of one's era",
+   "fa": "آگاهی از دوره و عصر",
+   "ps": "د دورې پوهاوی",
+   "fr": "conscience d'époque",
+   "tr": "dönem bilinci"
+  },
+  "examples": {
+   "de": "Das Werk zeugt von einem ausgeprägten Epochenbewusstsein des Autors."
+  }
+ },
+ {
+  "id": "wC1-2-0101",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Wortwahl",
+   "en": "choice of words / wording",
+   "fa": "گزینش واژه‌ها",
+   "ps": "د کلمو ټاکنه",
+   "fr": "choix des mots",
+   "tr": "kelime seçimi"
+  },
+  "examples": {
+   "de": "Die Wortwahl des Politikers sorgte für Empörung."
+  }
+ },
+ {
+  "id": "wC1-2-0102",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Textinterpretationen",
+  "words": {
+   "de": "Textinterpretation",
+   "en": "text interpretation",
+   "fa": "تفسیر متن",
+   "ps": "د متن تفسیر",
+   "fr": "interprétation de texte",
+   "tr": "metin yorumu"
+  },
+  "examples": {
+   "de": "Für die Abiturprüfung üben wir intensiv die Textinterpretation."
+  }
+ },
+ {
+  "id": "wC1-2-0103",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Interpretationsansätze",
+  "words": {
+   "de": "Interpretationsansatz",
+   "en": "interpretive approach",
+   "fa": "رویکرد تفسیری",
+   "ps": "تفسیري لید",
+   "fr": "approche interprétative",
+   "tr": "yorum yaklaşımı"
+  },
+  "examples": {
+   "de": "Ein psychoanalytischer Interpretationsansatz liefert hier interessante Erkenntnisse."
+  }
+ },
+ {
+  "id": "wC1-2-0104",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Schreibstile",
+  "words": {
+   "de": "Schreibstil",
+   "en": "writing style",
+   "fa": "سبک نگارش",
+   "ps": "د لیکلو سبک",
+   "fr": "style d'écriture",
+   "tr": "yazım üslubu"
+  },
+  "examples": {
+   "de": "Ihr Schreibstil ist klar, präzise und dennoch poetisch."
+  }
+ },
+ {
+  "id": "wC1-2-0105",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Lesarten",
+  "words": {
+   "de": "Lesart",
+   "en": "reading / interpretation",
+   "fa": "خوانش / برداشت",
+   "ps": "لوستنه / تفسیر",
+   "fr": "lecture / interprétation",
+   "tr": "okuma / yorum"
+  },
+  "examples": {
+   "de": "Der Text lässt durchaus mehrere Lesarten zu."
+  }
+ },
+ {
+  "id": "wC1-2-0106",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Werkimmanenz",
+   "en": "text-immanent interpretation",
+   "fa": "رویکرد درون‌متنی",
+   "ps": "د متن دننه تفسیر",
+   "fr": "approche immanente",
+   "tr": "yapıt içi yorum"
+  },
+  "examples": {
+   "de": "Die Werkimmanenz verzichtet bewusst auf die Biografie des Autors."
+  }
+ },
+ {
+  "id": "wC1-2-0107",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Textgattungen",
+  "words": {
+   "de": "Textgattung",
+   "en": "text type / genre",
+   "fa": "نوع متن",
+   "ps": "د متن ډول",
+   "fr": "type de texte",
+   "tr": "metin türü"
+  },
+  "examples": {
+   "de": "Die Reportage ist eine typisch journalistische Textgattung."
+  }
+ },
+ {
+  "id": "wC1-2-0108",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Subtexte",
+  "words": {
+   "de": "Subtext",
+   "en": "subtext",
+   "fa": "زیرمتن / معنای ضمنی",
+   "ps": "پټه معنا",
+   "fr": "sous-texte",
+   "tr": "alt metin"
+  },
+  "examples": {
+   "de": "Unter der höflichen Oberfläche des Dialogs liegt ein bedrohlicher Subtext."
+  }
+ },
+ {
+  "id": "wC1-2-0109",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Textkritik",
+   "en": "textual criticism",
+   "fa": "نقد متن",
+   "ps": "د متن نقد",
+   "fr": "critique textuelle",
+   "tr": "metin eleştirisi"
+  },
+  "examples": {
+   "de": "Die Textkritik versucht, die ursprüngliche Fassung eines Werkes zu rekonstruieren."
+  }
+ },
+ {
+  "id": "wC1-2-0110",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Erzählerstandpunkte",
+  "words": {
+   "de": "Erzählerstandpunkt",
+   "en": "narrator's point of view",
+   "fa": "دیدگاه راوی",
+   "ps": "د راوي دریځ",
+   "fr": "point de vue du narrateur",
+   "tr": "anlatıcının bakış açısı"
+  },
+  "examples": {
+   "de": "Der Erzählerstandpunkt wechselt im Laufe des Romans mehrfach."
+  }
+ },
+ {
+  "id": "wC1-2-0111",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "inhaltliche Tiefe",
+   "en": "depth of content",
+   "fa": "عمق محتوایی",
+   "ps": "د منځپانګې ژوروالی",
+   "fr": "profondeur du contenu",
+   "tr": "içerik derinliği"
+  },
+  "examples": {
+   "de": "Trotz beeindruckender Bilder fehlt dem Film inhaltliche Tiefe."
+  }
+ },
+ {
+  "id": "wC1-2-0112",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Dramaturgien",
+  "words": {
+   "de": "Dramaturgie",
+   "en": "dramaturgy",
+   "fa": "دراماتورژی",
+   "ps": "ډراماتورژي",
+   "fr": "dramaturgie",
+   "tr": "dramaturji"
+  },
+  "examples": {
+   "de": "Die Dramaturgie des Stücks ist geschickt auf den Höhepunkt hin angelegt."
+  }
+ },
+ {
+  "id": "wC1-2-0113",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Rezeptionen",
+  "words": {
+   "de": "Rezeption",
+   "en": "reception / response",
+   "fa": "دریافت / استقبال",
+   "ps": "استقبال / هرکلی",
+   "fr": "réception",
+   "tr": "alımlama"
+  },
+  "examples": {
+   "de": "Die Rezeption des Romans war in Frankreich deutlich positiver als in Deutschland."
+  }
+ },
+ {
+  "id": "wC1-2-0114",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Forschungsfragen",
+  "words": {
+   "de": "Forschungsfrage",
+   "en": "research question",
+   "fa": "پرسش پژوهش",
+   "ps": "د څېړنې پوښتنه",
+   "fr": "question de recherche",
+   "tr": "araştırma sorusu"
+  },
+  "examples": {
+   "de": "Formulieren Sie Ihre Forschungsfrage möglichst präzise."
+  }
+ },
+ {
+  "id": "wC1-2-0115",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Methodenauswahl",
+   "en": "choice of methods",
+   "fa": "انتخاب روش",
+   "ps": "د میتودونو ټاکنه",
+   "fr": "choix des méthodes",
+   "tr": "yöntem seçimi"
+  },
+  "examples": {
+   "de": "Die Methodenauswahl muss in der Arbeit nachvollziehbar begründet werden."
+  }
+ },
+ {
+  "id": "wC1-2-0116",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Studiendesigns",
+  "words": {
+   "de": "Studiendesign",
+   "en": "study design",
+   "fa": "طرح پژوهش",
+   "ps": "د څېړنې ډیزاین",
+   "fr": "conception de l'étude",
+   "tr": "çalışma tasarımı"
+  },
+  "examples": {
+   "de": "Das Studiendesign wurde von der Ethikkommission genehmigt."
+  }
+ },
+ {
+  "id": "wC1-2-0117",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Kontrollgruppen",
+  "words": {
+   "de": "Kontrollgruppe",
+   "en": "control group",
+   "fa": "گروه کنترل",
+   "ps": "کنټرول ډله",
+   "fr": "groupe témoin",
+   "tr": "kontrol grubu"
+  },
+  "examples": {
+   "de": "Die Kontrollgruppe erhielt lediglich ein Placebo."
+  }
+ },
+ {
+  "id": "wC1-2-0118",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Datenerhebungen",
+  "words": {
+   "de": "Datenerhebung",
+   "en": "data collection",
+   "fa": "گردآوری داده",
+   "ps": "د معلوماتو راټولول",
+   "fr": "collecte de données",
+   "tr": "veri toplama"
+  },
+  "examples": {
+   "de": "Die Datenerhebung erfolgte mithilfe standardisierter Fragebögen."
+  }
+ },
+ {
+  "id": "wC1-2-0119",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Fallstudien",
+  "words": {
+   "de": "Fallstudie",
+   "en": "case study",
+   "fa": "مطالعهٔ موردی",
+   "ps": "د یوې قضیې څېړنه",
+   "fr": "étude de cas",
+   "tr": "vaka çalışması"
+  },
+  "examples": {
+   "de": "Anhand einer Fallstudie wird die Theorie anschaulich erläutert."
+  }
+ },
+ {
+  "id": "wC1-2-0120",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Forschungsansätze",
+  "words": {
+   "de": "Forschungsansatz",
+   "en": "research approach",
+   "fa": "رویکرد پژوهشی",
+   "ps": "څېړنیز لید",
+   "fr": "approche de recherche",
+   "tr": "araştırma yaklaşımı"
+  },
+  "examples": {
+   "de": "Der qualitative Forschungsansatz eignet sich besonders für explorative Fragestellungen."
+  }
+ },
+ {
+  "id": "wC1-2-0121",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Vergleichbarkeit",
+   "en": "comparability",
+   "fa": "قابلیت مقایسه",
+   "ps": "د پرتلې وړتیا",
+   "fr": "comparabilité",
+   "tr": "karşılaştırılabilirlik"
+  },
+  "examples": {
+   "de": "Um die Vergleichbarkeit zu sichern, fanden alle Tests unter gleichen Bedingungen statt."
+  }
+ },
+ {
+  "id": "wC1-2-0122",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Skalierbarkeit",
+   "en": "scalability",
+   "fa": "مقیاس‌پذیری",
+   "ps": "د پراختیا وړتیا",
+   "fr": "évolutivité",
+   "tr": "ölçeklenebilirlik"
+  },
+  "examples": {
+   "de": "Die Skalierbarkeit des Verfahrens muss noch genauer geprüft werden."
+  }
+ },
+ {
+  "id": "wC1-2-0123",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Versuchsanordnungen",
+  "words": {
+   "de": "Versuchsanordnung",
+   "en": "experimental setup",
+   "fa": "چیدمان آزمایش",
+   "ps": "د ازمېښت ترتیب",
+   "fr": "dispositif expérimental",
+   "tr": "deney düzeneği"
+  },
+  "examples": {
+   "de": "Die Versuchsanordnung wurde so gewählt, dass Störfaktoren ausgeschlossen sind."
+  }
+ },
+ {
+  "id": "wC1-2-0124",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Blindversuche",
+  "words": {
+   "de": "Blindversuch",
+   "en": "blind trial / blind test",
+   "fa": "آزمایش کور",
+   "ps": "پټه ازموینه",
+   "fr": "essai à l'aveugle",
+   "tr": "kör deney"
+  },
+  "examples": {
+   "de": "Im Blindversuch konnten die Teilnehmer die beiden Getränke nicht unterscheiden."
+  }
+ },
+ {
+  "id": "wC1-2-0125",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Forschungsethikkomitees",
+  "words": {
+   "de": "Forschungsethikkomitee",
+   "en": "research ethics committee",
+   "fa": "کمیتهٔ اخلاق پژوهش",
+   "ps": "د څېړنیزو اخلاقو کمېټه",
+   "fr": "comité d'éthique de la recherche",
+   "tr": "araştırma etik kurulu"
+  },
+  "examples": {
+   "de": "Das Forschungsethikkomitee muss jede Studie mit Patienten vorab genehmigen."
+  }
+ },
+ {
+  "id": "wC1-2-0126",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Rückmeldungen",
+  "words": {
+   "de": "Rückmeldung",
+   "en": "feedback / response",
+   "fa": "بازخورد / پاسخ",
+   "ps": "غبرګون / فیډبیک",
+   "fr": "retour / réponse",
+   "tr": "geri bildirim"
+  },
+  "examples": {
+   "de": "Vielen Dank für Ihre schnelle Rückmeldung zu unserem Fragebogen."
+  }
+ },
+ {
+  "id": "wC1-2-0127",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "wissenschaftliche Genauigkeit",
+   "en": "scientific accuracy / rigour",
+   "fa": "دقت علمی",
+   "ps": "علمي دقت",
+   "fr": "rigueur scientifique",
+   "tr": "bilimsel titizlik"
+  },
+  "examples": {
+   "de": "Die Arbeit überzeugt vor allem durch ihre wissenschaftliche Genauigkeit."
+  }
+ },
+ {
+  "id": "wC1-2-0128",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Messmethoden",
+  "words": {
+   "de": "Messmethode",
+   "en": "measurement method",
+   "fa": "روش اندازه‌گیری",
+   "ps": "د اندازه کولو طریقه",
+   "fr": "méthode de mesure",
+   "tr": "ölçüm yöntemi"
+  },
+  "examples": {
+   "de": "Mit der neuen Messmethode lassen sich deutlich genauere Werte erzielen."
+  }
+ },
+ {
+  "id": "wC1-2-0129",
+  "category": [
+   "numbers_math",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Standardabweichungen",
+  "words": {
+   "de": "Standardabweichung",
+   "en": "standard deviation",
+   "fa": "انحراف معیار",
+   "ps": "معیاري انحراف",
+   "fr": "écart type",
+   "tr": "standart sapma"
+  },
+  "examples": {
+   "de": "Die Standardabweichung gibt an, wie stark die Werte um den Mittelwert streuen."
+  }
+ },
+ {
+  "id": "wC1-2-0130",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Langzeitstudien",
+  "words": {
+   "de": "Langzeitstudie",
+   "en": "long-term study / longitudinal study",
+   "fa": "مطالعهٔ طولی / پژوهش بلندمدت",
+   "ps": "اوږدمهاله څېړنه",
+   "fr": "étude longitudinale",
+   "tr": "uzun süreli çalışma"
+  },
+  "examples": {
+   "de": "Eine Langzeitstudie hat die Teilnehmer über zwanzig Jahre begleitet."
+  }
+ },
+ {
+  "id": "wC1-2-0131",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Plausibilitätsprüfungen",
+  "words": {
+   "de": "Plausibilitätsprüfung",
+   "en": "plausibility check",
+   "fa": "بررسی معقول بودن",
+   "ps": "د منطقي والي ازموینه",
+   "fr": "contrôle de plausibilité",
+   "tr": "makullük kontrolü"
+  },
+  "examples": {
+   "de": "Vor der Auswertung werden alle Daten einer Plausibilitätsprüfung unterzogen."
+  }
+ },
+ {
+  "id": "wC1-2-0132",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Laborversuche",
+  "words": {
+   "de": "Laborversuch",
+   "en": "laboratory experiment",
+   "fa": "آزمایش آزمایشگاهی",
+   "ps": "لابراتواري ازمېښت",
+   "fr": "expérience en laboratoire",
+   "tr": "laboratuvar deneyi"
+  },
+  "examples": {
+   "de": "Die Wirkung des Medikaments wurde zunächst im Laborversuch getestet."
+  }
+ },
+ {
+  "id": "wC1-2-0133",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Literaturauswertungen",
+  "words": {
+   "de": "Literaturauswertung",
+   "en": "literature review",
+   "fa": "مرور منابع",
+   "ps": "د سرچینو بیاکتنه",
+   "fr": "revue de la littérature",
+   "tr": "literatür taraması"
+  },
+  "examples": {
+   "de": "Eine systematische Literaturauswertung bildet die Grundlage der Arbeit."
+  }
+ },
+ {
+  "id": "wC1-2-0134",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Forschungsförderung",
+   "en": "research funding",
+   "fa": "حمایت مالی از پژوهش",
+   "ps": "د څېړنې تمویل",
+   "fr": "financement de la recherche",
+   "tr": "araştırma desteği"
+  },
+  "examples": {
+   "de": "Die Forschungsförderung des Bundes wurde im letzten Jahr deutlich erhöht."
+  }
+ },
+ {
+  "id": "wC1-2-0135",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Primärquellen",
+  "words": {
+   "de": "Primärquelle",
+   "en": "primary source",
+   "fa": "منبع دست اول",
+   "ps": "لومړنۍ سرچینه",
+   "fr": "source primaire",
+   "tr": "birincil kaynak"
+  },
+  "examples": {
+   "de": "Historiker stützen sich vor allem auf Primärquellen."
+  }
+ },
+ {
+  "id": "wC1-2-0136",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "moralische Verantwortung",
+   "en": "moral responsibility",
+   "fa": "مسئولیت اخلاقی",
+   "ps": "اخلاقي مسؤلیت",
+   "fr": "responsabilité morale",
+   "tr": "ahlaki sorumluluk"
+  },
+  "examples": {
+   "de": "Unternehmen tragen auch eine moralische Verantwortung gegenüber der Umwelt."
+  }
+ },
+ {
+  "id": "wC1-2-0137",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Technologiemissbrauch",
+   "en": "misuse of technology",
+   "fa": "سوءاستفاده از فناوری",
+   "ps": "له ټکنالوژۍ ناوړه ګټه اخیستنه",
+   "fr": "utilisation abusive de la technologie",
+   "tr": "teknolojinin kötüye kullanımı"
+  },
+  "examples": {
+   "de": "Strenge Gesetze sollen Technologiemissbrauch verhindern."
+  }
+ },
+ {
+  "id": "wC1-2-0138",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Transparenzpflichten",
+  "words": {
+   "de": "Transparenzpflicht",
+   "en": "duty of transparency",
+   "fa": "الزام به شفافیت",
+   "ps": "د روڼتیا مکلفیت",
+   "fr": "obligation de transparence",
+   "tr": "şeffaflık yükümlülüğü"
+  },
+  "examples": {
+   "de": "Für Parteispenden gilt eine strenge Transparenzpflicht."
+  }
+ },
+ {
+  "id": "wC1-2-0139",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "ethische Dilemma",
+   "en": "ethical dilemma",
+   "fa": "دوراهی اخلاقی",
+   "ps": "اخلاقي کشمکش",
+   "fr": "dilemme éthique",
+   "tr": "etik ikilem"
+  },
+  "examples": {
+   "de": "Ärztinnen und Ärzte stehen oft vor einem ethischen Dilemma."
+  }
+ },
+ {
+  "id": "wC1-2-0140",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Überwachungstechnologien",
+  "words": {
+   "de": "Überwachungstechnologie",
+   "en": "surveillance technology",
+   "fa": "فناوری نظارتی",
+   "ps": "د څارنې ټکنالوژي",
+   "fr": "technologie de surveillance",
+   "tr": "gözetim teknolojisi"
+  },
+  "examples": {
+   "de": "Der Einsatz von Überwachungstechnologie im öffentlichen Raum ist umstritten."
+  }
+ },
+ {
+  "id": "wC1-2-0141",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Privatsphäre",
+   "en": "privacy",
+   "fa": "حریم خصوصی",
+   "ps": "شخصي حریم",
+   "fr": "vie privée",
+   "tr": "mahremiyet / özel hayat"
+  },
+  "examples": {
+   "de": "Viele Nutzer sozialer Netzwerke vernachlässigen den Schutz ihrer Privatsphäre."
+  }
+ },
+ {
+  "id": "wC1-2-0142",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Ethikrichtlinien",
+  "words": {
+   "de": "Ethikrichtlinie",
+   "en": "code of ethics / ethical guideline",
+   "fa": "آیین‌نامهٔ اخلاقی",
+   "ps": "اخلاقي لارښود",
+   "fr": "code d'éthique",
+   "tr": "etik yönerge"
+  },
+  "examples": {
+   "de": "Alle Mitarbeitenden müssen die Ethikrichtlinien des Unternehmens einhalten."
+  }
+ },
+ {
+  "id": "wC1-2-0143",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Rechenschaftspflicht",
+   "en": "accountability",
+   "fa": "پاسخگویی",
+   "ps": "د حساب ورکولو مکلفیت",
+   "fr": "obligation de rendre des comptes",
+   "tr": "hesap verebilirlik"
+  },
+  "examples": {
+   "de": "Die Regierung unterliegt einer Rechenschaftspflicht gegenüber dem Parlament."
+  }
+ },
+ {
+  "id": "wC1-2-0144",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Algorithmentransparenz",
+   "en": "algorithmic transparency",
+   "fa": "شفافیت الگوریتم‌ها",
+   "ps": "د الګوریتمونو روڼتیا",
+   "fr": "transparence des algorithmes",
+   "tr": "algoritma şeffaflığı"
+  },
+  "examples": {
+   "de": "Datenschützer fordern mehr Algorithmentransparenz bei sozialen Netzwerken."
+  }
+ },
+ {
+  "id": "wC1-2-0145",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "KI-Ethik",
+   "en": "AI ethics",
+   "fa": "اخلاق هوش مصنوعی",
+   "ps": "د مصنوعي ځیرکتیا اخلاق",
+   "fr": "éthique de l'IA",
+   "tr": "yapay zekâ etiği"
+  },
+  "examples": {
+   "de": "Die KI-Ethik beschäftigt sich mit der Verantwortung für automatisierte Entscheidungen."
+  }
+ },
+ {
+  "id": "wC1-2-0146",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Fremdbestimmung",
+   "en": "heteronomy / external control",
+   "fa": "دگرسالاری / تحت کنترل دیگران بودن",
+   "ps": "د نورو له خوا ټاکل کېدل",
+   "fr": "hétéronomie / dépendance",
+   "tr": "dışarıdan belirlenme"
+  },
+  "examples": {
+   "de": "Viele Beschäftigte empfinden starre Arbeitszeiten als Fremdbestimmung."
+  }
+ },
+ {
+  "id": "wC1-2-0147",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Technikdeterminismus",
+   "en": "technological determinism",
+   "fa": "جبرگرایی فناورانه",
+   "ps": "ټکنالوژیک جبر",
+   "fr": "déterminisme technologique",
+   "tr": "teknolojik determinizm"
+  },
+  "examples": {
+   "de": "Kritiker werfen dem Autor einen naiven Technikdeterminismus vor."
+  }
+ },
+ {
+  "id": "wC1-2-0148",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Entscheidungsautonomie",
+   "en": "decision-making autonomy",
+   "fa": "استقلال در تصمیم‌گیری",
+   "ps": "د پرېکړې خپلواکي",
+   "fr": "autonomie décisionnelle",
+   "tr": "karar özerkliği"
+  },
+  "examples": {
+   "de": "Die Entscheidungsautonomie der Patienten muss stets respektiert werden."
+  }
+ },
+ {
+  "id": "wC1-2-0149",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "ethische Richtlinie",
+   "en": "ethical guideline",
+   "fa": "رهنمود اخلاقی",
+   "ps": "اخلاقي لارښوونه",
+   "fr": "directive éthique",
+   "tr": "etik ilke"
+  },
+  "examples": {
+   "de": "Jedes Forschungsprojekt muss sich an eine verbindliche ethische Richtlinie halten."
+  }
+ },
+ {
+  "id": "wC1-2-0150",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Datenhoheit",
+   "en": "data sovereignty",
+   "fa": "حاکمیت بر داده‌ها",
+   "ps": "پر معلوماتو واک",
+   "fr": "souveraineté des données",
+   "tr": "veri egemenliği"
+  },
+  "examples": {
+   "de": "Nutzer sollen die Datenhoheit über ihre persönlichen Informationen behalten."
+  }
+ },
+ {
+  "id": "wC1-2-0151",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Diskriminierungsfreiheit",
+   "en": "freedom from discrimination",
+   "fa": "عدم تبعیض",
+   "ps": "بې تبعیضه چلند",
+   "fr": "non-discrimination",
+   "tr": "ayrımcılık yapmama"
+  },
+  "examples": {
+   "de": "Bei der Entwicklung von KI-Systemen muss Diskriminierungsfreiheit gewährleistet sein."
+  }
+ },
+ {
+  "id": "wC1-2-0152",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "gesellschaftliche Verantwortung",
+   "en": "social responsibility",
+   "fa": "مسئولیت اجتماعی",
+   "ps": "ټولنیز مسؤلیت",
+   "fr": "responsabilité sociale",
+   "tr": "toplumsal sorumluluk"
+  },
+  "examples": {
+   "de": "Die Medien tragen eine große gesellschaftliche Verantwortung."
+  }
+ },
+ {
+  "id": "wC1-2-0153",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Vorsorgeprinzip",
+   "en": "precautionary principle",
+   "fa": "اصل احتیاط",
+   "ps": "د احتیاط اصل",
+   "fr": "principe de précaution",
+   "tr": "ihtiyat ilkesi"
+  },
+  "examples": {
+   "de": "Nach dem Vorsorgeprinzip darf ein Stoff verboten werden, bevor seine Schädlichkeit bewiesen ist."
+  }
+ },
+ {
+  "id": "wC1-2-0154",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "digitale Gerechtigkeit",
+   "en": "digital justice / digital equity",
+   "fa": "عدالت دیجیتال",
+   "ps": "ډیجیټل عدالت",
+   "fr": "justice numérique",
+   "tr": "dijital adalet"
+  },
+  "examples": {
+   "de": "Digitale Gerechtigkeit bedeutet auch, dass alle Menschen Zugang zum Internet haben."
+  }
+ },
+ {
+  "id": "wC1-2-0155",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Ethikräte",
+  "words": {
+   "de": "Ethikrat",
+   "en": "ethics council",
+   "fa": "شورای اخلاق",
+   "ps": "د اخلاقو شورا",
+   "fr": "conseil d'éthique",
+   "tr": "etik kurulu"
+  },
+  "examples": {
+   "de": "Der Ethikrat hat eine ausführliche Stellungnahme zur Gentechnik veröffentlicht."
+  }
+ },
+ {
+  "id": "wC1-2-0156",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Fairnesskriterien",
+  "words": {
+   "de": "Fairnesskriterium",
+   "en": "fairness criterion",
+   "fa": "معیار انصاف",
+   "ps": "د انصاف معیار",
+   "fr": "critère d'équité",
+   "tr": "hakkaniyet ölçütü"
+  },
+  "examples": {
+   "de": "Der Algorithmus muss bestimmte Fairnesskriterien erfüllen."
+  }
+ },
+ {
+  "id": "wC1-2-0157",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zweckbindung",
+   "en": "purpose limitation",
+   "fa": "محدودیت هدف",
+   "ps": "د موخې محدودیت",
+   "fr": "limitation des finalités",
+   "tr": "amaçla sınırlılık"
+  },
+  "examples": {
+   "de": "Nach dem Grundsatz der Zweckbindung dürfen Daten nur für den angegebenen Zweck genutzt werden."
+  }
+ },
+ {
+  "id": "wC1-2-0158",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Regulierungslücken",
+  "words": {
+   "de": "Regulierungslücke",
+   "en": "regulatory gap",
+   "fa": "خلأ مقرراتی",
+   "ps": "تنظیمي تشه",
+   "fr": "vide réglementaire",
+   "tr": "düzenleme boşluğu"
+  },
+  "examples": {
+   "de": "Im Bereich der künstlichen Intelligenz besteht noch eine erhebliche Regulierungslücke."
+  }
+ },
+ {
+  "id": "wC1-2-0159",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "gesellschaftliche Nutzen",
+   "en": "social benefit",
+   "fa": "سود اجتماعی",
+   "ps": "ټولنیزه ګټه",
+   "fr": "utilité sociale",
+   "tr": "toplumsal fayda"
+  },
+  "examples": {
+   "de": "Der gesellschaftliche Nutzen der Forschung muss die Risiken überwiegen."
+  }
+ },
+ {
+  "id": "wC1-2-0160",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Werteabwägungen",
+  "words": {
+   "de": "Werteabwägung",
+   "en": "weighing of values",
+   "fa": "سنجش ارزش‌ها",
+   "ps": "د ارزښتونو تله کول",
+   "fr": "mise en balance des valeurs",
+   "tr": "değerlerin tartılması"
+  },
+  "examples": {
+   "de": "Jede politische Entscheidung erfordert eine sorgfältige Werteabwägung."
+  }
+ },
+ {
+  "id": "wC1-2-0161",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Transparenzanforderungen",
+  "words": {
+   "de": "Transparenzanforderung",
+   "en": "transparency requirement",
+   "fa": "الزام شفافیت",
+   "ps": "د روڼتیا غوښتنه",
+   "fr": "exigence de transparence",
+   "tr": "şeffaflık gerekliliği"
+  },
+  "examples": {
+   "de": "Die neuen Transparenzanforderungen gelten ab dem nächsten Jahr für alle Plattformen."
+  }
+ },
+ {
+  "id": "wC1-2-0162",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Kontrollmechanismen",
+  "words": {
+   "de": "Kontrollmechanismus",
+   "en": "control mechanism / oversight mechanism",
+   "fa": "سازوکار نظارتی",
+   "ps": "د څارنې مېکانیزم",
+   "fr": "mécanisme de contrôle",
+   "tr": "denetim mekanizması"
+  },
+  "examples": {
+   "de": "Unabhängige Kontrollmechanismen sollen Machtmissbrauch verhindern."
+  }
+ },
+ {
+  "id": "wC1-2-0163",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "ethische Abwägung",
+   "en": "ethical consideration",
+   "fa": "سنجش اخلاقی",
+   "ps": "اخلاقي سنجش",
+   "fr": "réflexion éthique",
+   "tr": "etik değerlendirme"
+  },
+  "examples": {
+   "de": "Bei der Organspende ist eine sorgfältige ethische Abwägung notwendig."
+  }
+ },
+ {
+  "id": "wC1-2-0164",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Verhaltensmuster",
+  "words": {
+   "de": "Verhaltensmuster",
+   "en": "behavioural pattern",
+   "fa": "الگوی رفتاری",
+   "ps": "د چلند بڼه",
+   "fr": "schéma comportemental",
+   "tr": "davranış kalıbı"
+  },
+  "examples": {
+   "de": "Alte Verhaltensmuster lassen sich nur schwer ablegen."
+  }
+ },
+ {
+  "id": "wC1-2-0165",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Reizverarbeitung",
+   "en": "stimulus processing",
+   "fa": "پردازش محرک‌ها",
+   "ps": "د محرکونو پروسس",
+   "fr": "traitement des stimuli",
+   "tr": "uyaran işleme"
+  },
+  "examples": {
+   "de": "Bei hochsensiblen Menschen verläuft die Reizverarbeitung besonders intensiv."
+  }
+ },
+ {
+  "id": "wC1-2-0166",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Impulskontrolle",
+   "en": "impulse control",
+   "fa": "کنترل تکانه",
+   "ps": "پر ناڅاپي غوښتنو کنټرول",
+   "fr": "contrôle des impulsions",
+   "tr": "dürtü kontrolü"
+  },
+  "examples": {
+   "de": "Kleinkinder verfügen erst über eine geringe Impulskontrolle."
+  }
+ },
+ {
+  "id": "wC1-2-0167",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "soziale Anpassung",
+   "en": "social adjustment / social adaptation",
+   "fa": "سازگاری اجتماعی",
+   "ps": "ټولنیز تطابق",
+   "fr": "adaptation sociale",
+   "tr": "sosyal uyum"
+  },
+  "examples": {
+   "de": "Die soziale Anpassung an die neue Umgebung fiel ihm anfangs schwer."
+  }
+ },
+ {
+  "id": "wC1-2-0168",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Verhaltensänderungen",
+  "words": {
+   "de": "Verhaltensänderung",
+   "en": "change in behaviour",
+   "fa": "تغییر رفتار",
+   "ps": "د چلند بدلون",
+   "fr": "changement de comportement",
+   "tr": "davranış değişikliği"
+  },
+  "examples": {
+   "de": "Eine dauerhafte Verhaltensänderung braucht Zeit und Geduld."
+  }
+ },
+ {
+  "id": "wC1-2-0169",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Gruppenzwang",
+   "en": "peer pressure",
+   "fa": "فشار گروه / فشار همسالان",
+   "ps": "د ډلې فشار",
+   "fr": "pression du groupe",
+   "tr": "akran baskısı"
+  },
+  "examples": {
+   "de": "Viele Jugendliche beginnen aus Gruppenzwang zu rauchen."
+  }
+ },
+ {
+  "id": "wC1-2-0170",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "kognitive Verzerrung",
+   "en": "cognitive bias",
+   "fa": "سوگیری شناختی",
+   "ps": "ذهني تعصب",
+   "fr": "biais cognitif",
+   "tr": "bilişsel önyargı"
+  },
+  "examples": {
+   "de": "Der Bestätigungsfehler ist eine weit verbreitete kognitive Verzerrung."
+  }
+ },
+ {
+  "id": "wC1-2-0171",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Verunsicherungen",
+  "words": {
+   "de": "Verunsicherung",
+   "en": "uncertainty / insecurity",
+   "fa": "تزلزل / بی‌اطمینانی",
+   "ps": "ناډاډي",
+   "fr": "désarroi / incertitude",
+   "tr": "huzursuzluk / belirsizlik"
+  },
+  "examples": {
+   "de": "Die widersprüchlichen Meldungen sorgten für große Verunsicherung in der Bevölkerung."
+  }
+ },
+ {
+  "id": "wC1-2-0172",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Entscheidungsschwäche",
+   "en": "indecisiveness",
+   "fa": "دودلی / ناتوانی در تصمیم‌گیری",
+   "ps": "بې پرېکړګي",
+   "fr": "indécision",
+   "tr": "kararsızlık"
+  },
+  "examples": {
+   "de": "Seine Entscheidungsschwäche verzögert das gesamte Projekt."
+  }
+ },
+ {
+  "id": "wC1-2-0173",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Konfliktvermeidung",
+   "en": "conflict avoidance",
+   "fa": "پرهیز از درگیری",
+   "ps": "له شخړې ډډه کول",
+   "fr": "évitement des conflits",
+   "tr": "çatışmadan kaçınma"
+  },
+  "examples": {
+   "de": "Ständige Konfliktvermeidung kann eine Beziehung auf Dauer belasten."
+  }
+ },
+ {
+  "id": "wC1-2-0174",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Realitätssinn",
+   "en": "sense of reality / realism",
+   "fa": "واقع‌بینی",
+   "ps": "واقع بیني",
+   "fr": "sens des réalités",
+   "tr": "gerçekçilik"
+  },
+  "examples": {
+   "de": "Bei aller Begeisterung sollte man den Realitätssinn nicht verlieren."
+  }
+ },
+ {
+  "id": "wC1-2-0175",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "emotionale Intelligenz",
+   "en": "emotional intelligence",
+   "fa": "هوش هیجانی",
+   "ps": "احساساتي ځیرکتیا",
+   "fr": "intelligence émotionnelle",
+   "tr": "duygusal zekâ"
+  },
+  "examples": {
+   "de": "Führungskräfte mit hoher emotionaler Intelligenz motivieren ihr Team besser."
+  }
+ },
+ {
+  "id": "wC1-2-0176",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Abwehrmechanismen",
+  "words": {
+   "de": "Abwehrmechanismus",
+   "en": "defence mechanism",
+   "fa": "سازوکار دفاعی",
+   "ps": "دفاعي مېکانیزم",
+   "fr": "mécanisme de défense",
+   "tr": "savunma mekanizması"
+  },
+  "examples": {
+   "de": "Verdrängung gilt in der Psychoanalyse als klassischer Abwehrmechanismus."
+  }
+ },
+ {
+  "id": "wC1-2-0177",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Bedürfnislagen",
+  "words": {
+   "de": "Bedürfnislage",
+   "en": "needs / situation of need",
+   "fa": "وضعیت نیازها",
+   "ps": "د اړتیاوو حالت",
+   "fr": "besoins / situation de besoin",
+   "tr": "ihtiyaç durumu"
+  },
+  "examples": {
+   "de": "Die Beratung richtet sich nach der individuellen Bedürfnislage der Klienten."
+  }
+ },
+ {
+  "id": "wC1-2-0178",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Selbstschutzverhalten",
+   "en": "self-protective behaviour",
+   "fa": "رفتار خودمحافظتی",
+   "ps": "د ځان ساتنې چلند",
+   "fr": "comportement d'autoprotection",
+   "tr": "kendini koruma davranışı"
+  },
+  "examples": {
+   "de": "Rückzug kann nach einer Enttäuschung ein typisches Selbstschutzverhalten sein."
+  }
+ },
+ {
+  "id": "wC1-2-0179",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Vertrauensverluste",
+  "words": {
+   "de": "Vertrauensverlust",
+   "en": "loss of trust",
+   "fa": "از دست رفتن اعتماد",
+   "ps": "د باور له لاسه ورکول",
+   "fr": "perte de confiance",
+   "tr": "güven kaybı"
+  },
+  "examples": {
+   "de": "Der Skandal führte zu einem massiven Vertrauensverlust in die Politik."
+  }
+ },
+ {
+  "id": "wC1-2-0180",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Selbstregulation",
+   "en": "self-regulation",
+   "fa": "خودتنظیمی",
+   "ps": "ځان تنظیمول",
+   "fr": "autorégulation",
+   "tr": "öz düzenleme"
+  },
+  "examples": {
+   "de": "Schon im Kindergarten lernen Kinder erste Formen der Selbstregulation."
+  }
+ },
+ {
+  "id": "wC1-2-0181",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Handlungsmotivation",
+   "en": "motivation to act",
+   "fa": "انگیزهٔ عمل",
+   "ps": "د عمل انګېزه",
+   "fr": "motivation à agir",
+   "tr": "eylem motivasyonu"
+  },
+  "examples": {
+   "de": "Ohne klare Ziele sinkt die Handlungsmotivation deutlich."
+  }
+ },
+ {
+  "id": "wC1-2-0182",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Coping-Verhalten",
+   "en": "coping behaviour",
+   "fa": "رفتار مقابله‌ای",
+   "ps": "له ستونزو سره د مقابلې چلند",
+   "fr": "comportement d'adaptation",
+   "tr": "başa çıkma davranışı"
+  },
+  "examples": {
+   "de": "Regelmäßiger Sport ist ein gesundes Coping-Verhalten bei Stress."
+  }
+ },
+ {
+  "id": "wC1-2-0183",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Verhaltensforschung",
+   "en": "behavioural research",
+   "fa": "پژوهش رفتاری / رفتارشناسی",
+   "ps": "د چلند څېړنه",
+   "fr": "recherche comportementale",
+   "tr": "davranış araştırması"
+  },
+  "examples": {
+   "de": "Die Verhaltensforschung untersucht, wie Lebewesen auf ihre Umwelt reagieren."
+  }
+ },
+ {
+  "id": "wC1-2-0184",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Stressauslöser",
+  "words": {
+   "de": "Stressauslöser",
+   "en": "stressor / stress trigger",
+   "fa": "عامل استرس",
+   "ps": "د فشار لامل",
+   "fr": "facteur de stress",
+   "tr": "stres faktörü"
+  },
+  "examples": {
+   "de": "Lärm am Arbeitsplatz ist ein häufiger Stressauslöser."
+  }
+ },
+ {
+  "id": "wC1-2-0185",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Bindungstheorie",
+   "en": "attachment theory",
+   "fa": "نظریهٔ دلبستگی",
+   "ps": "د تړاو تیوري",
+   "fr": "théorie de l'attachement",
+   "tr": "bağlanma kuramı"
+  },
+  "examples": {
+   "de": "Die Bindungstheorie betont die Bedeutung früher Beziehungen für die Entwicklung."
+  }
+ },
+ {
+  "id": "wC1-2-0186",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Persönlichkeitsaspekte",
+  "words": {
+   "de": "Persönlichkeitsaspekt",
+   "en": "aspect of personality",
+   "fa": "جنبهٔ شخصیتی",
+   "ps": "د شخصیت اړخ",
+   "fr": "aspect de la personnalité",
+   "tr": "kişilik yönü"
+  },
+  "examples": {
+   "de": "Kreativität ist ein Persönlichkeitsaspekt, der in Bewerbungsgesprächen oft übersehen wird."
+  }
+ },
+ {
+  "id": "wC1-2-0187",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Emotionsmanagement",
+   "en": "emotion management",
+   "fa": "مدیریت هیجان",
+   "ps": "د احساساتو مدیریت",
+   "fr": "gestion des émotions",
+   "tr": "duygu yönetimi"
+  },
+  "examples": {
+   "de": "Emotionsmanagement wird inzwischen in vielen Führungsseminaren trainiert."
+  }
+ },
+ {
+  "id": "wC1-2-0188",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Handlungsspielräume",
+  "words": {
+   "de": "Handlungsspielraum",
+   "en": "scope for action / room for manoeuvre",
+   "fa": "آزادی عمل",
+   "ps": "د عمل واک",
+   "fr": "marge de manœuvre",
+   "tr": "hareket alanı"
+  },
+  "examples": {
+   "de": "Durch die neuen Vorgaben ist unser Handlungsspielraum stark eingeschränkt."
+  }
+ },
+ {
+  "id": "wC1-2-0189",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Projektzeiträume",
+  "words": {
+   "de": "Projektzeitraum",
+   "en": "project period / project timeline",
+   "fa": "مدت پروژه",
+   "ps": "د پروژې موده",
+   "fr": "durée du projet",
+   "tr": "proje süresi"
+  },
+  "examples": {
+   "de": "Der Projektzeitraum erstreckt sich über achtzehn Monate."
+  }
+ },
+ {
+  "id": "wC1-2-0190",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Aufgabenverteilungen",
+  "words": {
+   "de": "Aufgabenverteilung",
+   "en": "distribution of tasks",
+   "fa": "تقسیم وظایف",
+   "ps": "د دندو وېش",
+   "fr": "répartition des tâches",
+   "tr": "görev dağılımı"
+  },
+  "examples": {
+   "de": "Die Aufgabenverteilung im Team wurde gleich im ersten Meeting festgelegt."
+  }
+ },
+ {
+  "id": "wC1-2-0191",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Projektstatus",
+  "words": {
+   "de": "Projektstatus",
+   "en": "project status",
+   "fa": "وضعیت پروژه",
+   "ps": "د پروژې حالت",
+   "fr": "état d'avancement du projet",
+   "tr": "proje durumu"
+  },
+  "examples": {
+   "de": "Jeden Montag informieren wir die Geschäftsleitung über den Projektstatus."
+  }
+ },
+ {
+  "id": "wC1-2-0192",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Projektbudgets",
+  "words": {
+   "de": "Projektbudget",
+   "en": "project budget",
+   "fa": "بودجهٔ پروژه",
+   "ps": "د پروژې بودیجه",
+   "fr": "budget du projet",
+   "tr": "proje bütçesi"
+  },
+  "examples": {
+   "de": "Das Projektbudget wurde bereits um zehn Prozent überschritten."
+  }
+ },
+ {
+  "id": "wC1-2-0193",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Teamkonstellationen",
+  "words": {
+   "de": "Teamkonstellation",
+   "en": "team composition",
+   "fa": "ترکیب تیم",
+   "ps": "د ټیم جوړښت",
+   "fr": "composition de l'équipe",
+   "tr": "ekip yapısı"
+  },
+  "examples": {
+   "de": "In dieser Teamkonstellation arbeiten wir zum ersten Mal zusammen."
+  }
+ },
+ {
+  "id": "wC1-2-0194",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Arbeitspakete",
+  "words": {
+   "de": "Arbeitspaket",
+   "en": "work package",
+   "fa": "بستهٔ کاری",
+   "ps": "کاري کڅوړه",
+   "fr": "lot de travaux",
+   "tr": "iş paketi"
+  },
+  "examples": {
+   "de": "Für jedes Arbeitspaket gibt es eine klar benannte verantwortliche Person."
+  }
+ },
+ {
+  "id": "wC1-2-0195",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Projektmeilensteine",
+  "words": {
+   "de": "Projektmeilenstein",
+   "en": "project milestone",
+   "fa": "نقطهٔ عطف پروژه",
+   "ps": "د پروژې مهم پړاو",
+   "fr": "jalon du projet",
+   "tr": "proje kilometre taşı"
+  },
+  "examples": {
+   "de": "Der erste Projektmeilenstein wurde termingerecht erreicht."
+  }
+ },
+ {
+  "id": "wC1-2-0196",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Stakeholderanalysen",
+  "words": {
+   "de": "Stakeholderanalyse",
+   "en": "stakeholder analysis",
+   "fa": "تحلیل ذی‌نفعان",
+   "ps": "د ذینفعانو تحلیل",
+   "fr": "analyse des parties prenantes",
+   "tr": "paydaş analizi"
+  },
+  "examples": {
+   "de": "Zu Beginn des Projekts führen wir eine Stakeholderanalyse durch."
+  }
+ },
+ {
+  "id": "wC1-2-0197",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Verantwortungsmatrizen",
+  "words": {
+   "de": "Verantwortungsmatrix",
+   "en": "responsibility matrix",
+   "fa": "ماتریس مسئولیت‌ها",
+   "ps": "د مسؤلیتونو جدول",
+   "fr": "matrice des responsabilités",
+   "tr": "sorumluluk matrisi"
+  },
+  "examples": {
+   "de": "Die Verantwortungsmatrix zeigt, wer für welche Aufgabe zuständig ist."
+  }
+ },
+ {
+  "id": "wC1-2-0198",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Projektcontrolling",
+   "en": "project controlling / project monitoring",
+   "fa": "کنترل پروژه",
+   "ps": "د پروژې څارنه",
+   "fr": "contrôle de projet",
+   "tr": "proje kontrolü"
+  },
+  "examples": {
+   "de": "Das Projektcontrolling überwacht Kosten, Termine und Qualität."
+  }
+ },
+ {
+  "id": "wC1-2-0199",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Zielabweichungen",
+  "words": {
+   "de": "Zielabweichung",
+   "en": "deviation from target",
+   "fa": "انحراف از هدف",
+   "ps": "له هدف څخه انحراف",
+   "fr": "écart par rapport à l'objectif",
+   "tr": "hedeften sapma"
+  },
+  "examples": {
+   "de": "Größere Zielabweichungen müssen sofort an die Projektleitung gemeldet werden."
+  }
+ },
+ {
+  "id": "wC1-2-0200",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Koordinationsaufgaben",
+  "words": {
+   "de": "Koordinationsaufgabe",
+   "en": "coordination task",
+   "fa": "وظیفهٔ هماهنگی",
+   "ps": "د همغږۍ دنده",
+   "fr": "tâche de coordination",
+   "tr": "koordinasyon görevi"
+  },
+  "examples": {
+   "de": "Als Teamleiterin übernimmt sie vor allem Koordinationsaufgaben."
+  }
+ },
+ {
+  "id": "wC1-2-0201",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zielerreichung",
+   "en": "achievement of objectives",
+   "fa": "دستیابی به هدف",
+   "ps": "هدف ته رسېدل",
+   "fr": "atteinte des objectifs",
+   "tr": "hedefe ulaşma"
+  },
+  "examples": {
+   "de": "Die Zielerreichung wird am Ende jedes Quartals überprüft."
+  }
+ },
+ {
+  "id": "wC1-2-0202",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Umsetzungsstrategien",
+  "words": {
+   "de": "Umsetzungsstrategie",
+   "en": "implementation strategy",
+   "fa": "راهبرد اجرا",
+   "ps": "د پلي کولو ستراتیژي",
+   "fr": "stratégie de mise en œuvre",
+   "tr": "uygulama stratejisi"
+  },
+  "examples": {
+   "de": "Für die Reform fehlt bislang eine überzeugende Umsetzungsstrategie."
+  }
+ },
+ {
+  "id": "wC1-2-0203",
+  "category": [
+   "jobs_professions",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Projektleiter / Projektleiterinnen",
+  "words": {
+   "de": "Projektleiter / die Projektleiterin",
+   "en": "project manager",
+   "fa": "مدیر پروژه",
+   "ps": "د پروژې مشر",
+   "fr": "chef de projet",
+   "tr": "proje yöneticisi"
+  },
+  "examples": {
+   "de": "Die Projektleiterin stellte den überarbeiteten Zeitplan in der Sitzung vor."
+  }
+ },
+ {
+  "id": "wC1-2-0204",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Abstimmungen",
+  "words": {
+   "de": "Abstimmung",
+   "en": "coordination / vote",
+   "fa": "هماهنگی / رأی‌گیری",
+   "ps": "همغږي / رایه ورکونه",
+   "fr": "concertation / vote",
+   "tr": "koordinasyon / oylama"
+  },
+  "examples": {
+   "de": "Nach kurzer Abstimmung mit dem Team konnten wir das Angebot verschicken."
+  }
+ },
+ {
+  "id": "wC1-2-0205",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Schnittstellenkommunikation",
+   "en": "cross-functional communication",
+   "fa": "ارتباط میان بخش‌ها",
+   "ps": "د څانګو ترمنځ اړیکې",
+   "fr": "communication entre services",
+   "tr": "birimler arası iletişim"
+  },
+  "examples": {
+   "de": "Mangelhafte Schnittstellenkommunikation führt häufig zu Verzögerungen."
+  }
+ },
+ {
+  "id": "wC1-2-0206",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Fortschrittsberichte",
+  "words": {
+   "de": "Fortschrittsbericht",
+   "en": "progress report",
+   "fa": "گزارش پیشرفت",
+   "ps": "د پرمختګ راپور",
+   "fr": "rapport d'avancement",
+   "tr": "ilerleme raporu"
+  },
+  "examples": {
+   "de": "Der Fortschrittsbericht muss monatlich eingereicht werden."
+  }
+ },
+ {
+  "id": "wC1-2-0207",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Zeitüberschreitungen",
+  "words": {
+   "de": "Zeitüberschreitung",
+   "en": "time overrun / timeout",
+   "fa": "فراتر رفتن از زمان",
+   "ps": "له وخت تېرېدل",
+   "fr": "dépassement de délai",
+   "tr": "süre aşımı"
+  },
+  "examples": {
+   "de": "Wegen technischer Probleme kam es zu einer erheblichen Zeitüberschreitung."
+  }
+ },
+ {
+  "id": "wC1-2-0208",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Risikomanagement",
+   "en": "risk management",
+   "fa": "مدیریت ریسک",
+   "ps": "د خطر مدیریت",
+   "fr": "gestion des risques",
+   "tr": "risk yönetimi"
+  },
+  "examples": {
+   "de": "Ein gutes Risikomanagement erkennt Probleme, bevor sie entstehen."
+  }
+ },
+ {
+  "id": "wC1-2-0209",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Entscheidungsfindung",
+   "en": "decision-making",
+   "fa": "تصمیم‌گیری",
+   "ps": "پرېکړه کول",
+   "fr": "prise de décision",
+   "tr": "karar alma"
+  },
+  "examples": {
+   "de": "Die Mitarbeitenden werden stärker in die Entscheidungsfindung einbezogen."
+  }
+ },
+ {
+  "id": "wC1-2-0210",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Konfliktmoderation",
+   "en": "conflict mediation / conflict facilitation",
+   "fa": "میانجی‌گری در اختلاف",
+   "ps": "د شخړې منځګړیتوب",
+   "fr": "médiation des conflits",
+   "tr": "çatışma arabuluculuğu"
+  },
+  "examples": {
+   "de": "Für die Konfliktmoderation wurde eine externe Beraterin hinzugezogen."
+  }
+ },
+ {
+  "id": "wC1-2-0211",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zieltransparenz",
+   "en": "clarity of goals",
+   "fa": "شفافیت اهداف",
+   "ps": "د موخو روڼتیا",
+   "fr": "transparence des objectifs",
+   "tr": "hedef şeffaflığı"
+  },
+  "examples": {
+   "de": "Zieltransparenz erhöht die Motivation im Team spürbar."
+  }
+ },
+ {
+  "id": "wC1-2-0212",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Ergebnisdokumentationen",
+  "words": {
+   "de": "Ergebnisdokumentation",
+   "en": "documentation of results",
+   "fa": "مستندسازی نتایج",
+   "ps": "د پایلو ثبتول",
+   "fr": "documentation des résultats",
+   "tr": "sonuçların belgelenmesi"
+  },
+  "examples": {
+   "de": "Eine sorgfältige Ergebnisdokumentation erleichtert spätere Projekte."
+  }
+ },
+ {
+  "id": "wC1-2-0213",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Verantwortungsübernahme",
+   "en": "taking responsibility",
+   "fa": "پذیرش مسئولیت",
+   "ps": "د مسؤلیت منل",
+   "fr": "prise de responsabilité",
+   "tr": "sorumluluk üstlenme"
+  },
+  "examples": {
+   "de": "Von Führungskräften wird eine klare Verantwortungsübernahme erwartet."
+  }
+ },
+ {
+  "id": "wC1-2-0214",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Rückschritte",
+  "words": {
+   "de": "Rückschritt",
+   "en": "setback / step backwards",
+   "fa": "پسرفت",
+   "ps": "شاتګ",
+   "fr": "recul / régression",
+   "tr": "gerileme"
+  },
+  "examples": {
+   "de": "Die neue Regelung ist ein deutlicher Rückschritt für den Umweltschutz."
+  }
+ },
+ {
+  "id": "wC1-2-0215",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Kapazitätsengpässe",
+  "words": {
+   "de": "Kapazitätsengpass",
+   "en": "capacity bottleneck / capacity shortage",
+   "fa": "کمبود ظرفیت / گلوگاه ظرفیت",
+   "ps": "د ظرفیت کمښت",
+   "fr": "goulot d'étranglement / manque de capacité",
+   "tr": "kapasite darboğazı"
+  },
+  "examples": {
+   "de": "Wegen eines Kapazitätsengpasses verzögert sich die Auslieferung um zwei Wochen."
+  }
+ },
+ {
+  "id": "wC1-2-0216",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Leistungskennzahlen",
+  "words": {
+   "de": "Leistungskennzahl",
+   "en": "key performance indicator / performance metric",
+   "fa": "شاخص کلیدی عملکرد",
+   "ps": "د کړنو شاخص",
+   "fr": "indicateur de performance",
+   "tr": "performans göstergesi"
+  },
+  "examples": {
+   "de": "Der Umsatz pro Mitarbeiter ist eine wichtige Leistungskennzahl."
+  }
+ },
+ {
+  "id": "wC1-2-0217",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Markenwahrnehmung",
+   "en": "brand perception",
+   "fa": "برداشت از برند",
+   "ps": "د برانډ درک",
+   "fr": "perception de la marque",
+   "tr": "marka algısı"
+  },
+  "examples": {
+   "de": "Die Kampagne hat die Markenwahrnehmung bei jungen Kunden deutlich verbessert."
+  }
+ },
+ {
+  "id": "wC1-2-0218",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Zielgruppenanalysen",
+  "words": {
+   "de": "Zielgruppenanalyse",
+   "en": "target group analysis",
+   "fa": "تحلیل گروه هدف",
+   "ps": "د هدف ډلې تحلیل",
+   "fr": "analyse du groupe cible",
+   "tr": "hedef kitle analizi"
+  },
+  "examples": {
+   "de": "Vor dem Produktstart führte das Team eine gründliche Zielgruppenanalyse durch."
+  }
+ },
+ {
+  "id": "wC1-2-0219",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Alleinstellungsmerkmale",
+  "words": {
+   "de": "Alleinstellungsmerkmal",
+   "en": "unique selling point",
+   "fa": "ویژگی منحصربه‌فرد / مزیت رقابتی",
+   "ps": "ځانګړې ځانګړنه",
+   "fr": "argument de vente unique",
+   "tr": "benzersiz satış özelliği"
+  },
+  "examples": {
+   "de": "Das Alleinstellungsmerkmal unseres Produkts ist seine extrem lange Lebensdauer."
+  }
+ },
+ {
+  "id": "wC1-2-0220",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Markenidentitäten",
+  "words": {
+   "de": "Markenidentität",
+   "en": "brand identity",
+   "fa": "هویت برند",
+   "ps": "د برانډ هویت",
+   "fr": "identité de marque",
+   "tr": "marka kimliği"
+  },
+  "examples": {
+   "de": "Eine klare Markenidentität schafft Vertrauen bei den Kunden."
+  }
+ },
+ {
+  "id": "wC1-2-0221",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Werbeauftritte",
+  "words": {
+   "de": "Werbeauftritt",
+   "en": "advertising presence / advertising image",
+   "fa": "حضور تبلیغاتی",
+   "ps": "تبلیغاتي حضور",
+   "fr": "présence publicitaire",
+   "tr": "reklam görünümü"
+  },
+  "examples": {
+   "de": "Der neue Werbeauftritt des Unternehmens wirkt moderner und frischer."
+  }
+ },
+ {
+  "id": "wC1-2-0222",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Konsumverhaltensanalysen",
+  "words": {
+   "de": "Konsumverhaltensanalyse",
+   "en": "consumer behaviour analysis",
+   "fa": "تحلیل رفتار مصرف‌کننده",
+   "ps": "د مصرفوونکي د چلند تحلیل",
+   "fr": "analyse du comportement des consommateurs",
+   "tr": "tüketici davranışı analizi"
+  },
+  "examples": {
+   "de": "Die Konsumverhaltensanalyse zeigt, dass immer mehr Menschen online einkaufen."
+  }
+ },
+ {
+  "id": "wC1-2-0223",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Marktauftritte",
+  "words": {
+   "de": "Marktauftritt",
+   "en": "market presence",
+   "fa": "حضور در بازار",
+   "ps": "په بازار کې حضور",
+   "fr": "présence sur le marché",
+   "tr": "pazardaki görünüm"
+  },
+  "examples": {
+   "de": "Mit einem einheitlichen Marktauftritt will die Firma international bekannter werden."
+  }
+ },
+ {
+  "id": "wC1-2-0224",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Kundenbindung",
+   "en": "customer loyalty / customer retention",
+   "fa": "وفاداری مشتری / حفظ مشتری",
+   "ps": "د پېرودونکو وفاداري",
+   "fr": "fidélisation de la clientèle",
+   "tr": "müşteri sadakati"
+  },
+  "examples": {
+   "de": "Bonusprogramme sollen die Kundenbindung langfristig stärken."
+  }
+ },
+ {
+  "id": "wC1-2-0225",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Positionierungsstrategien",
+  "words": {
+   "de": "Positionierungsstrategie",
+   "en": "positioning strategy",
+   "fa": "راهبرد جایگاه‌یابی",
+   "ps": "د ځای ټاکنې ستراتیژي",
+   "fr": "stratégie de positionnement",
+   "tr": "konumlandırma stratejisi"
+  },
+  "examples": {
+   "de": "Die Positionierungsstrategie richtet sich gezielt an anspruchsvolle Kunden."
+  }
+ },
+ {
+  "id": "wC1-2-0226",
+  "category": [
+   "work_office",
+   "shopping_money",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Kaufverhalten",
+   "en": "buying behaviour",
+   "fa": "رفتار خرید",
+   "ps": "د پېرلو چلند",
+   "fr": "comportement d'achat",
+   "tr": "satın alma davranışı"
+  },
+  "examples": {
+   "de": "Die Pandemie hat das Kaufverhalten vieler Menschen nachhaltig verändert."
+  }
+ },
+ {
+  "id": "wC1-2-0227",
+  "category": [
+   "work_office",
+   "media_social",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Werbeträger",
+  "words": {
+   "de": "Werbeträger",
+   "en": "advertising medium",
+   "fa": "رسانهٔ تبلیغاتی",
+   "ps": "تبلیغاتي رسنۍ",
+   "fr": "support publicitaire",
+   "tr": "reklam aracı"
+  },
+  "examples": {
+   "de": "Plakate gelten immer noch als wirksamer Werbeträger."
+  }
+ },
+ {
+  "id": "wC1-2-0228",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Markenbindung",
+   "en": "brand loyalty",
+   "fa": "وفاداری به برند",
+   "ps": "برانډ ته وفاداري",
+   "fr": "fidélité à la marque",
+   "tr": "marka bağlılığı"
+  },
+  "examples": {
+   "de": "Eine starke Markenbindung macht Kunden weniger preisempfindlich."
+  }
+ },
+ {
+  "id": "wC1-2-0229",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Wiedererkennungswert",
+   "en": "recognition value / recognisability",
+   "fa": "قابلیت بازشناسی",
+   "ps": "د پېژندنې ارزښت",
+   "fr": "valeur de reconnaissance",
+   "tr": "tanınırlık"
+  },
+  "examples": {
+   "de": "Das Logo hat einen hohen Wiedererkennungswert."
+  }
+ },
+ {
+  "id": "wC1-2-0230",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Markenarchitekturen",
+  "words": {
+   "de": "Markenarchitektur",
+   "en": "brand architecture",
+   "fa": "معماری برند",
+   "ps": "د برانډ جوړښت",
+   "fr": "architecture de marque",
+   "tr": "marka mimarisi"
+  },
+  "examples": {
+   "de": "Die Markenarchitektur des Konzerns umfasst mehrere Untermarken."
+  }
+ },
+ {
+  "id": "wC1-2-0231",
+  "category": [
+   "work_office",
+   "media_social",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Testimonials",
+  "words": {
+   "de": "Testimonial",
+   "en": "testimonial / celebrity endorser",
+   "fa": "تأیید تبلیغاتی / چهرهٔ تبلیغاتی",
+   "ps": "تبلیغاتي تایید / تبلیغاتي څېره",
+   "fr": "témoignage publicitaire / égérie",
+   "tr": "referans / reklam yüzü"
+  },
+  "examples": {
+   "de": "Als Testimonial wirbt eine bekannte Sportlerin für die neue Laufschuhserie."
+  }
+ },
+ {
+  "id": "wC1-2-0232",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Reichweiten",
+  "words": {
+   "de": "Reichweite",
+   "en": "reach / range",
+   "fa": "دامنهٔ دسترسی / برد",
+   "ps": "رسېدنه / برد",
+   "fr": "portée",
+   "tr": "erişim / menzil"
+  },
+  "examples": {
+   "de": "Der Beitrag erzielte in den sozialen Medien eine enorme Reichweite."
+  }
+ },
+ {
+  "id": "wC1-2-0233",
+  "category": [
+   "work_office",
+   "noun",
+   "loanword_international"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Corporate Identity",
+   "en": "corporate identity",
+   "fa": "هویت سازمانی",
+   "ps": "سازماني هویت",
+   "fr": "identité d'entreprise",
+   "tr": "kurumsal kimlik"
+  },
+  "examples": {
+   "de": "Farben und Logo sind zentrale Elemente der Corporate Identity."
+  }
+ },
+ {
+  "id": "wC1-2-0234",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Produktpaletten",
+  "words": {
+   "de": "Produktpalette",
+   "en": "product range",
+   "fa": "سبد محصولات / طیف محصولات",
+   "ps": "د محصولاتو لړۍ",
+   "fr": "gamme de produits",
+   "tr": "ürün yelpazesi"
+  },
+  "examples": {
+   "de": "Das Unternehmen erweitert seine Produktpalette um vegane Artikel."
+  }
+ },
+ {
+  "id": "wC1-2-0235",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Markteintritte",
+  "words": {
+   "de": "Markteintritt",
+   "en": "market entry",
+   "fa": "ورود به بازار",
+   "ps": "بازار ته ننوتل",
+   "fr": "entrée sur le marché",
+   "tr": "pazara giriş"
+  },
+  "examples": {
+   "de": "Der Markteintritt in Asien ist für nächstes Jahr geplant."
+  }
+ },
+ {
+  "id": "wC1-2-0236",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Vertriebskanäle",
+  "words": {
+   "de": "Vertriebskanal",
+   "en": "distribution channel / sales channel",
+   "fa": "کانال توزیع / کانال فروش",
+   "ps": "د وېش چینل",
+   "fr": "canal de distribution",
+   "tr": "dağıtım kanalı"
+  },
+  "examples": {
+   "de": "Der Onlinehandel ist inzwischen unser wichtigster Vertriebskanal."
+  }
+ },
+ {
+  "id": "wC1-2-0237",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Markenbotschaften",
+  "words": {
+   "de": "Markenbotschaft",
+   "en": "brand message",
+   "fa": "پیام برند",
+   "ps": "د برانډ پیغام",
+   "fr": "message de marque",
+   "tr": "marka mesajı"
+  },
+  "examples": {
+   "de": "Die Markenbotschaft muss in wenigen Sekunden verständlich sein."
+  }
+ },
+ {
+  "id": "wC1-2-0238",
+  "category": [
+   "work_office",
+   "shopping_money",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Preisgestaltung",
+   "en": "pricing",
+   "fa": "قیمت‌گذاری",
+   "ps": "بیه ټاکنه",
+   "fr": "fixation des prix / tarification",
+   "tr": "fiyatlandırma"
+  },
+  "examples": {
+   "de": "Bei der Preisgestaltung müssen auch die Preise der Konkurrenz berücksichtigt werden."
+  }
+ },
+ {
+  "id": "wC1-2-0239",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Kommunikationsstrategien",
+  "words": {
+   "de": "Kommunikationsstrategie",
+   "en": "communication strategy",
+   "fa": "راهبرد ارتباطی",
+   "ps": "د اړیکو ستراتیژي",
+   "fr": "stratégie de communication",
+   "tr": "iletişim stratejisi"
+  },
+  "examples": {
+   "de": "Nach der Krise überarbeitete das Unternehmen seine gesamte Kommunikationsstrategie."
+  }
+ },
+ {
+  "id": "wC1-2-0240",
+  "category": [
+   "work_office",
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Produktplatzierungen",
+  "words": {
+   "de": "Produktplatzierung",
+   "en": "product placement",
+   "fa": "جایگذاری محصول",
+   "ps": "د محصول ښودنه",
+   "fr": "placement de produit",
+   "tr": "ürün yerleştirme"
+  },
+  "examples": {
+   "de": "In dem Film fällt die auffällige Produktplatzierung eines Autoherstellers auf."
+  }
+ },
+ {
+  "id": "wC1-2-0241",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Markenwerte",
+  "words": {
+   "de": "Markenwert",
+   "en": "brand value / brand equity",
+   "fa": "ارزش برند",
+   "ps": "د برانډ ارزښت",
+   "fr": "valeur de la marque",
+   "tr": "marka değeri"
+  },
+  "examples": {
+   "de": "Der Markenwert des Konzerns wird auf mehrere Milliarden Euro geschätzt."
+  }
+ },
+ {
+  "id": "wC1-2-0242",
+  "category": [
+   "work_office",
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Werbekampagnen",
+  "words": {
+   "de": "Werbekampagne",
+   "en": "advertising campaign",
+   "fa": "کارزار تبلیغاتی",
+   "ps": "تبلیغاتي کمپاین",
+   "fr": "campagne publicitaire",
+   "tr": "reklam kampanyası"
+  },
+  "examples": {
+   "de": "Die neue Werbekampagne läuft ab Montag im Fernsehen und online."
+  }
+ },
+ {
+  "id": "wC1-2-0243",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Imagepflege",
+   "en": "image management / image cultivation",
+   "fa": "حفظ وجهه",
+   "ps": "د عامه وجهې ساتنه",
+   "fr": "soin de l'image",
+   "tr": "imaj yönetimi"
+  },
+  "examples": {
+   "de": "Die Spende des Konzerns diente wohl vor allem der Imagepflege."
+  }
+ },
+ {
+  "id": "wC1-2-0244",
+  "category": [
+   "work_office",
+   "shopping_money",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Wiederkäufe",
+  "words": {
+   "de": "Wiederkauf",
+   "en": "repeat purchase",
+   "fa": "خرید مجدد",
+   "ps": "بیا پېرل",
+   "fr": "rachat / achat répété",
+   "tr": "tekrar satın alma"
+  },
+  "examples": {
+   "de": "Ein guter Kundenservice erhöht die Wahrscheinlichkeit eines Wiederkaufs."
+  }
+ },
+ {
+  "id": "wC1-2-0245",
+  "category": [
+   "work_office",
+   "noun",
+   "loanword_international"
+  ],
+  "article": "die",
+  "plural": "Conversion-Rates",
+  "words": {
+   "de": "Conversion-Rate",
+   "en": "conversion rate",
+   "fa": "نرخ تبدیل",
+   "ps": "د بدلون کچه",
+   "fr": "taux de conversion",
+   "tr": "dönüşüm oranı"
+  },
+  "examples": {
+   "de": "Nach der Überarbeitung der Website stieg die Conversion-Rate deutlich."
+  }
+ },
+ {
+  "id": "wC1-2-0246",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Konsumentenvertrauen",
+   "en": "consumer confidence / consumer trust",
+   "fa": "اعتماد مصرف‌کننده",
+   "ps": "د مصرفوونکو باور",
+   "fr": "confiance des consommateurs",
+   "tr": "tüketici güveni"
+  },
+  "examples": {
+   "de": "Nach dem Lebensmittelskandal ist das Konsumentenvertrauen stark gesunken."
+  }
+ },
+ {
+  "id": "wC1-2-0247",
+  "category": [
+   "work_office",
+   "shopping_money",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Kaufentscheidungen",
+  "words": {
+   "de": "Kaufentscheidung",
+   "en": "purchase decision",
+   "fa": "تصمیم خرید",
+   "ps": "د پېرلو پرېکړه",
+   "fr": "décision d'achat",
+   "tr": "satın alma kararı"
+  },
+  "examples": {
+   "de": "Online-Bewertungen beeinflussen die Kaufentscheidung vieler Verbraucher."
+  }
+ },
+ {
+  "id": "wC1-2-0248",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Markenstrategien",
+  "words": {
+   "de": "Markenstrategie",
+   "en": "brand strategy",
+   "fa": "راهبرد برند",
+   "ps": "د برانډ ستراتیژي",
+   "fr": "stratégie de marque",
+   "tr": "marka stratejisi"
+  },
+  "examples": {
+   "de": "Die Markenstrategie setzt konsequent auf Nachhaltigkeit."
+  }
+ },
+ {
+  "id": "wC1-2-0249",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Kundenversprechen",
+  "words": {
+   "de": "Kundenversprechen",
+   "en": "customer promise",
+   "fa": "تعهد به مشتری",
+   "ps": "پېرودونکي ته ژمنه",
+   "fr": "promesse client",
+   "tr": "müşteri vaadi"
+  },
+  "examples": {
+   "de": "Schnelle Lieferung ist das zentrale Kundenversprechen des Händlers."
+  }
+ },
+ {
+  "id": "wC1-2-0250",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Brandingprozesse",
+  "words": {
+   "de": "Brandingprozess",
+   "en": "branding process",
+   "fa": "فرایند برندسازی",
+   "ps": "د برانډ جوړونې بهیر",
+   "fr": "processus de création de marque",
+   "tr": "markalaşma süreci"
+  },
+  "examples": {
+   "de": "Der Brandingprozess für das neue Start-up dauerte fast ein Jahr."
+  }
+ },
+ {
+  "id": "wC1-2-0251",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Ressourcenverbrauch",
+   "en": "resource consumption",
+   "fa": "مصرف منابع",
+   "ps": "د سرچینو مصرف",
+   "fr": "consommation de ressources",
+   "tr": "kaynak tüketimi"
+  },
+  "examples": {
+   "de": "Die Industrie muss ihren Ressourcenverbrauch drastisch senken."
+  }
+ },
+ {
+  "id": "wC1-2-0252",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "ökologische Fußabdruck",
+   "en": "ecological footprint",
+   "fa": "ردپای اکولوژیک",
+   "ps": "ایکولوژیکي پل",
+   "fr": "empreinte écologique",
+   "tr": "ekolojik ayak izi"
+  },
+  "examples": {
+   "de": "Wer weniger fliegt, verkleinert seinen ökologischen Fußabdruck."
+  }
+ },
+ {
+  "id": "wC1-2-0253",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "CO2-Bilanzen",
+  "words": {
+   "de": "CO2-Bilanz",
+   "en": "carbon footprint / carbon balance",
+   "fa": "ردپای کربن / ترازنامهٔ کربن",
+   "ps": "د کاربن بیلانس",
+   "fr": "bilan carbone",
+   "tr": "karbon ayak izi"
+  },
+  "examples": {
+   "de": "Die Firma will ihre CO2-Bilanz bis 2030 deutlich verbessern."
+  }
+ },
+ {
+  "id": "wC1-2-0254",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Emissionsreduktionen",
+  "words": {
+   "de": "Emissionsreduktion",
+   "en": "emission reduction",
+   "fa": "کاهش انتشار آلاینده‌ها",
+   "ps": "د ګازونو د خپرېدو کمول",
+   "fr": "réduction des émissions",
+   "tr": "emisyon azaltımı"
+  },
+  "examples": {
+   "de": "Ohne eine deutliche Emissionsreduktion lassen sich die Klimaziele nicht erreichen."
+  }
+ },
+ {
+  "id": "wC1-2-0255",
+  "category": [
+   "plants_environment",
+   "law_rules",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Umweltschutzgesetze",
+  "words": {
+   "de": "Umweltschutzgesetz",
+   "en": "environmental protection law",
+   "fa": "قانون حفاظت از محیط زیست",
+   "ps": "د چاپېریال ساتنې قانون",
+   "fr": "loi sur la protection de l'environnement",
+   "tr": "çevre koruma kanunu"
+  },
+  "examples": {
+   "de": "Das neue Umweltschutzgesetz verschärft die Grenzwerte für Abwasser."
+  }
+ },
+ {
+  "id": "wC1-2-0256",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Klimafolgenanpassung",
+   "en": "climate adaptation",
+   "fa": "سازگاری با پیامدهای تغییر اقلیم",
+   "ps": "د اقلیمي بدلون له اغېزو سره عیارېدل",
+   "fr": "adaptation au changement climatique",
+   "tr": "iklim değişikliğine uyum"
+  },
+  "examples": {
+   "de": "Städte investieren zunehmend in die Klimafolgenanpassung, etwa durch mehr Grünflächen."
+  }
+ },
+ {
+  "id": "wC1-2-0257",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "regenerative Energie",
+   "en": "renewable energy",
+   "fa": "انرژی تجدیدپذیر",
+   "ps": "بیا تولیدېدونکې انرژي",
+   "fr": "énergie renouvelable",
+   "tr": "yenilenebilir enerji"
+  },
+  "examples": {
+   "de": "Der Anteil regenerativer Energie am Strommix wächst stetig."
+  }
+ },
+ {
+  "id": "wC1-2-0258",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Abfallmanagement",
+   "en": "waste management",
+   "fa": "مدیریت پسماند",
+   "ps": "د کثافاتو مدیریت",
+   "fr": "gestion des déchets",
+   "tr": "atık yönetimi"
+  },
+  "examples": {
+   "de": "Ein effizientes Abfallmanagement spart Kosten und schont die Umwelt."
+  }
+ },
+ {
+  "id": "wC1-2-0259",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "CO2-Ausstoß",
+   "en": "CO2 emissions",
+   "fa": "انتشار کربن دی‌اکسید",
+   "ps": "د کاربن ډای اکسایډ خپرېدل",
+   "fr": "émissions de CO2",
+   "tr": "karbondioksit salımı"
+  },
+  "examples": {
+   "de": "Der CO2-Ausstoß im Verkehrssektor ist kaum gesunken."
+  }
+ },
+ {
+  "id": "wC1-2-0260",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Bodenbelastungen",
+  "words": {
+   "de": "Bodenbelastung",
+   "en": "soil pollution / soil contamination",
+   "fa": "آلودگی خاک",
+   "ps": "د خاورې ککړتیا",
+   "fr": "pollution des sols",
+   "tr": "toprak kirliliği"
+  },
+  "examples": {
+   "de": "Die Bodenbelastung rund um das alte Industriegelände ist erheblich."
+  }
+ },
+ {
+  "id": "wC1-2-0261",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Energiebedarf",
+   "en": "energy demand / energy requirement",
+   "fa": "نیاز انرژی",
+   "ps": "د انرژۍ اړتیا",
+   "fr": "besoins énergétiques",
+   "tr": "enerji ihtiyacı"
+  },
+  "examples": {
+   "de": "Der Energiebedarf von Rechenzentren steigt rasant."
+  }
+ },
+ {
+  "id": "wC1-2-0262",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Klimaneutralität",
+   "en": "climate neutrality",
+   "fa": "خنثی‌بودن اقلیمی",
+   "ps": "اقلیمي بې‌طرفي",
+   "fr": "neutralité climatique",
+   "tr": "iklim nötrlüğü"
+  },
+  "examples": {
+   "de": "Deutschland strebt bis 2045 Klimaneutralität an."
+  }
+ },
+ {
+  "id": "wC1-2-0263",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Ressourcenschonung",
+   "en": "resource conservation",
+   "fa": "حفظ منابع / صرفه‌جویی در منابع",
+   "ps": "د سرچینو ساتنه",
+   "fr": "préservation des ressources",
+   "tr": "kaynakların korunması"
+  },
+  "examples": {
+   "de": "Recycling leistet einen wichtigen Beitrag zur Ressourcenschonung."
+  }
+ },
+ {
+  "id": "wC1-2-0264",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Artenschutzmaßnahmen",
+  "words": {
+   "de": "Artenschutzmaßnahme",
+   "en": "species protection measure",
+   "fa": "اقدام حفاظت از گونه‌ها",
+   "ps": "د ژوو د ډولونو د ساتنې اقدام",
+   "fr": "mesure de protection des espèces",
+   "tr": "türleri koruma önlemi"
+  },
+  "examples": {
+   "de": "Dank gezielter Artenschutzmaßnahmen hat sich der Bestand der Luchse erholt."
+  }
+ },
+ {
+  "id": "wC1-2-0265",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Renaturierungen",
+  "words": {
+   "de": "Renaturierung",
+   "en": "renaturation / ecological restoration",
+   "fa": "احیای طبیعت",
+   "ps": "طبیعي حالت ته راګرځول",
+   "fr": "renaturation",
+   "tr": "doğaya geri kazandırma"
+  },
+  "examples": {
+   "de": "Die Renaturierung des Flusses hat vielen Tierarten neuen Lebensraum geschaffen."
+  }
+ },
+ {
+  "id": "wC1-2-0266",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Schutzgebiete",
+  "words": {
+   "de": "Schutzgebiet",
+   "en": "protected area / conservation area",
+   "fa": "منطقهٔ حفاظت‌شده",
+   "ps": "ساتل شوې سیمه",
+   "fr": "zone protégée",
+   "tr": "koruma alanı"
+  },
+  "examples": {
+   "de": "In diesem Schutzgebiet ist das Verlassen der Wege verboten."
+  }
+ },
+ {
+  "id": "wC1-2-0267",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Umweltgipfel",
+  "words": {
+   "de": "Umweltgipfel",
+   "en": "environmental summit",
+   "fa": "اجلاس محیط زیست",
+   "ps": "چاپېریالي سرمشریزه غونډه",
+   "fr": "sommet sur l'environnement",
+   "tr": "çevre zirvesi"
+  },
+  "examples": {
+   "de": "Auf dem Umweltgipfel einigten sich die Staaten auf neue Klimaziele."
+  }
+ },
+ {
+  "id": "wC1-2-0268",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Feinstaubbelastungen",
+  "words": {
+   "de": "Feinstaubbelastung",
+   "en": "fine dust pollution / particulate pollution",
+   "fa": "آلودگی ذرات معلق",
+   "ps": "د وړو ذرو ککړتیا",
+   "fr": "pollution aux particules fines",
+   "tr": "ince toz kirliliği"
+  },
+  "examples": {
+   "de": "An stark befahrenen Straßen ist die Feinstaubbelastung besonders hoch."
+  }
+ },
+ {
+  "id": "wC1-2-0269",
+  "category": [
+   "plants_environment",
+   "weather",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Temperaturanstiege",
+  "words": {
+   "de": "Temperaturanstieg",
+   "en": "temperature rise",
+   "fa": "افزایش دما",
+   "ps": "د تودوخې زیاتوالی",
+   "fr": "hausse des températures",
+   "tr": "sıcaklık artışı"
+  },
+  "examples": {
+   "de": "Der globale Temperaturanstieg soll auf 1,5 Grad begrenzt werden."
+  }
+ },
+ {
+  "id": "wC1-2-0270",
+  "category": [
+   "plants_environment",
+   "safety_emergency",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Überschwemmungsgefahr",
+   "en": "flood risk",
+   "fa": "خطر سیل",
+   "ps": "د سېلاب خطر",
+   "fr": "risque d'inondation",
+   "tr": "sel tehlikesi"
+  },
+  "examples": {
+   "de": "Nach tagelangem Regen besteht in mehreren Regionen akute Überschwemmungsgefahr."
+  }
+ },
+ {
+  "id": "wC1-2-0271",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "ökologische Sanierung",
+   "en": "eco-friendly renovation / ecological restoration",
+   "fa": "نوسازی سازگار با محیط زیست",
+   "ps": "چاپېریال دوسته بیارغونه",
+   "fr": "rénovation écologique",
+   "tr": "ekolojik yenileme"
+  },
+  "examples": {
+   "de": "Die ökologische Sanierung des Altbaus wurde staatlich gefördert."
+  }
+ },
+ {
+  "id": "wC1-2-0272",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Umweltindikatoren",
+  "words": {
+   "de": "Umweltindikator",
+   "en": "environmental indicator",
+   "fa": "شاخص زیست‌محیطی",
+   "ps": "چاپېریالي شاخص",
+   "fr": "indicateur environnemental",
+   "tr": "çevre göstergesi"
+  },
+  "examples": {
+   "de": "Die Wasserqualität gilt als wichtiger Umweltindikator."
+  }
+ },
+ {
+  "id": "wC1-2-0273",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Flächenversiegelung",
+   "en": "soil sealing / land sealing",
+   "fa": "نفوذناپذیر کردن سطح زمین",
+   "ps": "د ځمکې د سطحې پوښل",
+   "fr": "imperméabilisation des sols",
+   "tr": "toprak yüzeyinin kapatılması"
+  },
+  "examples": {
+   "de": "Durch die zunehmende Flächenversiegelung kann Regenwasser nicht mehr versickern."
+  }
+ },
+ {
+  "id": "wC1-2-0274",
+  "category": [
+   "plants_environment",
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Nachhaltigkeitsberichte",
+  "words": {
+   "de": "Nachhaltigkeitsbericht",
+   "en": "sustainability report",
+   "fa": "گزارش پایداری",
+   "ps": "د پایښت راپور",
+   "fr": "rapport de développement durable",
+   "tr": "sürdürülebilirlik raporu"
+  },
+  "examples": {
+   "de": "Große Unternehmen müssen jährlich einen Nachhaltigkeitsbericht veröffentlichen."
+  }
+ },
+ {
+  "id": "wC1-2-0275",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Umweltbilanzen",
+  "words": {
+   "de": "Umweltbilanz",
+   "en": "environmental balance / environmental footprint",
+   "fa": "ترازنامهٔ زیست‌محیطی",
+   "ps": "چاپېریالي بیلانس",
+   "fr": "bilan environnemental",
+   "tr": "çevresel bilanço"
+  },
+  "examples": {
+   "de": "Elektroautos haben nicht in jedem Fall eine bessere Umweltbilanz."
+  }
+ },
+ {
+  "id": "wC1-2-0276",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Umweltsensibilisierung",
+   "en": "environmental awareness raising",
+   "fa": "آگاه‌سازی زیست‌محیطی",
+   "ps": "چاپېریالي پوهاوی",
+   "fr": "sensibilisation à l'environnement",
+   "tr": "çevre bilinci oluşturma"
+  },
+  "examples": {
+   "de": "Schulprojekte tragen wesentlich zur Umweltsensibilisierung bei."
+  }
+ },
+ {
+  "id": "wC1-2-0277",
+  "category": [
+   "plants_environment",
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Ressourcenengpässe",
+  "words": {
+   "de": "Ressourcenengpass",
+   "en": "resource shortage / resource bottleneck",
+   "fa": "کمبود منابع",
+   "ps": "د سرچینو کمښت",
+   "fr": "pénurie de ressources",
+   "tr": "kaynak darboğazı"
+  },
+  "examples": {
+   "de": "Ein Ressourcenengpass bei seltenen Erden bremst die Produktion."
+  }
+ },
+ {
+  "id": "wC1-2-0278",
+  "category": [
+   "plants_environment",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Stoffkreisläufe",
+  "words": {
+   "de": "Stoffkreislauf",
+   "en": "material cycle / nutrient cycle",
+   "fa": "چرخهٔ مواد",
+   "ps": "د موادو دوران",
+   "fr": "cycle des matières",
+   "tr": "madde döngüsü"
+  },
+  "examples": {
+   "de": "Ziel der Kreislaufwirtschaft sind geschlossene Stoffkreisläufe."
+  }
+ },
+ {
+  "id": "wC1-2-0279",
+  "category": [
+   "plants_environment",
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Umweltethik",
+   "en": "environmental ethics",
+   "fa": "اخلاق زیست‌محیطی",
+   "ps": "چاپېریالي اخلاق",
+   "fr": "éthique environnementale",
+   "tr": "çevre etiği"
+  },
+  "examples": {
+   "de": "Die Umweltethik fragt nach unserer Verantwortung gegenüber der Natur."
+  }
+ },
+ {
+  "id": "wC1-2-0280",
+  "category": [
+   "work_office",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Geldpolitik",
+   "en": "monetary policy",
+   "fa": "سیاست پولی",
+   "ps": "پولي پالیسي",
+   "fr": "politique monétaire",
+   "tr": "para politikası"
+  },
+  "examples": {
+   "de": "Die Europäische Zentralbank ist für die Geldpolitik im Euroraum zuständig."
+  }
+ },
+ {
+  "id": "wC1-2-0281",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Wirtschaftslage",
+   "en": "economic situation",
+   "fa": "وضعیت اقتصادی",
+   "ps": "اقتصادي وضعیت",
+   "fr": "situation économique",
+   "tr": "ekonomik durum"
+  },
+  "examples": {
+   "de": "Die angespannte Wirtschaftslage belastet viele kleine Betriebe."
+  }
+ },
+ {
+  "id": "wC1-2-0282",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Konjunkturzyklen",
+  "words": {
+   "de": "Konjunkturzyklus",
+   "en": "business cycle / economic cycle",
+   "fa": "چرخهٔ اقتصادی",
+   "ps": "اقتصادي دوره",
+   "fr": "cycle conjoncturel",
+   "tr": "konjonktür döngüsü"
+  },
+  "examples": {
+   "de": "Im Konjunkturzyklus wechseln sich Aufschwung und Abschwung ab."
+  }
+ },
+ {
+  "id": "wC1-2-0283",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Finanzstabilität",
+   "en": "financial stability",
+   "fa": "ثبات مالی",
+   "ps": "مالي ثبات",
+   "fr": "stabilité financière",
+   "tr": "finansal istikrar"
+  },
+  "examples": {
+   "de": "Die Zentralbank warnt vor Risiken für die Finanzstabilität."
+  }
+ },
+ {
+  "id": "wC1-2-0284",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Lohnnebenkosten (Pl.)",
+   "en": "non-wage labour costs",
+   "fa": "هزینه‌های جانبی دستمزد",
+   "ps": "د معاش اضافي لګښتونه",
+   "fr": "charges sociales",
+   "tr": "ücret dışı işçilik maliyetleri"
+  },
+  "examples": {
+   "de": "Hohe Lohnnebenkosten machen Neueinstellungen für Unternehmen teuer."
+  }
+ },
+ {
+  "id": "wC1-2-0285",
+  "category": [
+   "work_office",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Steuerbelastungen",
+  "words": {
+   "de": "Steuerbelastung",
+   "en": "tax burden",
+   "fa": "بار مالیاتی",
+   "ps": "د مالیې بار",
+   "fr": "charge fiscale",
+   "tr": "vergi yükü"
+  },
+  "examples": {
+   "de": "Die Regierung will die Steuerbelastung für Familien senken."
+  }
+ },
+ {
+  "id": "wC1-2-0286",
+  "category": [
+   "work_office",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Abgabenquoten",
+  "words": {
+   "de": "Abgabenquote",
+   "en": "tax-to-GDP ratio / total tax rate",
+   "fa": "نسبت مالیات و عوارض",
+   "ps": "د مالیو او محصولونو کچه",
+   "fr": "taux de prélèvements obligatoires",
+   "tr": "vergi yükü oranı"
+  },
+  "examples": {
+   "de": "Deutschland hat im internationalen Vergleich eine hohe Abgabenquote."
+  }
+ },
+ {
+  "id": "wC1-2-0287",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Handelsdefizite",
+  "words": {
+   "de": "Handelsdefizit",
+   "en": "trade deficit",
+   "fa": "کسری تجاری",
+   "ps": "سوداګریز کسر",
+   "fr": "déficit commercial",
+   "tr": "dış ticaret açığı"
+  },
+  "examples": {
+   "de": "Das Handelsdefizit der USA gegenüber China ist erneut gewachsen."
+  }
+ },
+ {
+  "id": "wC1-2-0288",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Schuldenstände",
+  "words": {
+   "de": "Schuldenstand",
+   "en": "debt level",
+   "fa": "میزان بدهی",
+   "ps": "د پورونو کچه",
+   "fr": "niveau d'endettement",
+   "tr": "borç seviyesi"
+  },
+  "examples": {
+   "de": "Der Schuldenstand des Landes liegt bei über 60 Prozent der Wirtschaftsleistung."
+  }
+ },
+ {
+  "id": "wC1-2-0289",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zinspolitik",
+   "en": "interest rate policy",
+   "fa": "سیاست نرخ بهره",
+   "ps": "د سود د نرخ پالیسي",
+   "fr": "politique des taux d'intérêt",
+   "tr": "faiz politikası"
+  },
+  "examples": {
+   "de": "Die Zinspolitik der Zentralbank wirkt sich direkt auf Kredite aus."
+  }
+ },
+ {
+  "id": "wC1-2-0290",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Inflationsbekämpfung",
+   "en": "fight against inflation / inflation control",
+   "fa": "مبارزه با تورم",
+   "ps": "له انفلاسیون سره مبارزه",
+   "fr": "lutte contre l'inflation",
+   "tr": "enflasyonla mücadele"
+  },
+  "examples": {
+   "de": "Die Inflationsbekämpfung hat für die Notenbank derzeit oberste Priorität."
+  }
+ },
+ {
+  "id": "wC1-2-0291",
+  "category": [
+   "work_office",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Haushaltsüberschüsse",
+  "words": {
+   "de": "Haushaltsüberschuss",
+   "en": "budget surplus",
+   "fa": "مازاد بودجه",
+   "ps": "د بودیجې اضافه",
+   "fr": "excédent budgétaire",
+   "tr": "bütçe fazlası"
+  },
+  "examples": {
+   "de": "Erstmals seit Jahren erzielte die Stadt einen Haushaltsüberschuss."
+  }
+ },
+ {
+  "id": "wC1-2-0292",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Budgetplanungen",
+  "words": {
+   "de": "Budgetplanung",
+   "en": "budget planning",
+   "fa": "برنامه‌ریزی بودجه",
+   "ps": "د بودیجې پلان جوړونه",
+   "fr": "planification budgétaire",
+   "tr": "bütçe planlaması"
+  },
+  "examples": {
+   "de": "Bei der Budgetplanung für das nächste Jahr müssen wir sparen."
+  }
+ },
+ {
+  "id": "wC1-2-0293",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Kreditwesen",
+   "en": "credit system / banking",
+   "fa": "نظام اعتباری / بانکداری",
+   "ps": "د پور سیستم",
+   "fr": "système de crédit",
+   "tr": "kredi sistemi / bankacılık"
+  },
+  "examples": {
+   "de": "Die Bankenaufsicht überwacht das gesamte Kreditwesen."
+  }
+ },
+ {
+  "id": "wC1-2-0294",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Kapitalbeschaffung",
+   "en": "raising capital / capital procurement",
+   "fa": "تأمین سرمایه",
+   "ps": "د پانګې برابرول",
+   "fr": "levée de fonds",
+   "tr": "sermaye temini"
+  },
+  "examples": {
+   "de": "Für Start-ups ist die Kapitalbeschaffung oft die größte Hürde."
+  }
+ },
+ {
+  "id": "wC1-2-0295",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Investitionsquoten",
+  "words": {
+   "de": "Investitionsquote",
+   "en": "investment rate / investment ratio",
+   "fa": "نرخ سرمایه‌گذاری",
+   "ps": "د پانګونې کچه",
+   "fr": "taux d'investissement",
+   "tr": "yatırım oranı"
+  },
+  "examples": {
+   "de": "Die Investitionsquote der öffentlichen Hand ist seit Jahren zu niedrig."
+  }
+ },
+ {
+  "id": "wC1-2-0296",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Wirtschaftsleistungen",
+  "words": {
+   "de": "Wirtschaftsleistung",
+   "en": "economic output",
+   "fa": "تولید اقتصادی",
+   "ps": "اقتصادي تولید",
+   "fr": "production économique",
+   "tr": "ekonomik çıktı"
+  },
+  "examples": {
+   "de": "Die Wirtschaftsleistung ist im letzten Quartal leicht gesunken."
+  }
+ },
+ {
+  "id": "wC1-2-0297",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Nachfrageentwicklung",
+   "en": "development of demand / demand trend",
+   "fa": "روند تقاضا",
+   "ps": "د غوښتنې بهیر",
+   "fr": "évolution de la demande",
+   "tr": "talep gelişimi"
+  },
+  "examples": {
+   "de": "Die Nachfrageentwicklung bei Elektroautos bleibt hinter den Erwartungen zurück."
+  }
+ },
+ {
+  "id": "wC1-2-0298",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Außenhandelsbilanzen",
+  "words": {
+   "de": "Außenhandelsbilanz",
+   "en": "balance of trade",
+   "fa": "تراز تجارت خارجی",
+   "ps": "د بهرنۍ سوداګرۍ بیلانس",
+   "fr": "balance commerciale",
+   "tr": "dış ticaret dengesi"
+  },
+  "examples": {
+   "de": "Die Außenhandelsbilanz weist einen deutlichen Überschuss auf."
+  }
+ },
+ {
+  "id": "wC1-2-0299",
+  "category": [
+   "work_office",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Staatszuschüsse",
+  "words": {
+   "de": "Staatszuschuss",
+   "en": "government subsidy",
+   "fa": "یارانهٔ دولتی",
+   "ps": "دولتي مرسته",
+   "fr": "subvention publique",
+   "tr": "devlet sübvansiyonu"
+  },
+  "examples": {
+   "de": "Ohne Staatszuschuss könnte das Theater nicht überleben."
+  }
+ },
+ {
+  "id": "wC1-2-0300",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Devisenmärkte",
+  "words": {
+   "de": "Devisenmarkt",
+   "en": "foreign exchange market",
+   "fa": "بازار ارز",
+   "ps": "د اسعارو بازار",
+   "fr": "marché des changes",
+   "tr": "döviz piyasası"
+  },
+  "examples": {
+   "de": "Auf dem Devisenmarkt verlor der Euro gegenüber dem Dollar an Wert."
+  }
+ },
+ {
+  "id": "wC1-2-0301",
+  "category": [
+   "work_office",
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Marktregulierungen",
+  "words": {
+   "de": "Marktregulierung",
+   "en": "market regulation",
+   "fa": "تنظیم بازار",
+   "ps": "د بازار تنظیم",
+   "fr": "régulation du marché",
+   "tr": "piyasa düzenlemesi"
+  },
+  "examples": {
+   "de": "Kritiker fordern eine strengere Marktregulierung im Finanzsektor."
+  }
+ },
+ {
+  "id": "wC1-2-0302",
+  "category": [
+   "work_office",
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Betriebswirtschaft",
+   "en": "business administration / business economics",
+   "fa": "مدیریت بازرگانی",
+   "ps": "د سوداګرۍ اداره",
+   "fr": "gestion d'entreprise",
+   "tr": "işletme"
+  },
+  "examples": {
+   "de": "Sie hat Betriebswirtschaft an der Universität Mannheim studiert."
+  }
+ },
+ {
+  "id": "wC1-2-0303",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Konjunkturprognosen",
+  "words": {
+   "de": "Konjunkturprognose",
+   "en": "economic forecast",
+   "fa": "پیش‌بینی اقتصادی",
+   "ps": "اقتصادي وړاندوینه",
+   "fr": "prévision conjoncturelle",
+   "tr": "ekonomik tahmin"
+  },
+  "examples": {
+   "de": "Die Institute haben ihre Konjunkturprognose für das kommende Jahr gesenkt."
+  }
+ },
+ {
+  "id": "wC1-2-0304",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Börsenwerte",
+  "words": {
+   "de": "Börsenwert",
+   "en": "market capitalisation / stock market value",
+   "fa": "ارزش بازار سهام",
+   "ps": "په بورس کې ارزښت",
+   "fr": "capitalisation boursière",
+   "tr": "borsa değeri"
+  },
+  "examples": {
+   "de": "Der Börsenwert des Technologiekonzerns übersteigt eine Billion Dollar."
+  }
+ },
+ {
+  "id": "wC1-2-0305",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Budgetdisziplin",
+   "en": "budgetary discipline",
+   "fa": "انضباط بودجه‌ای",
+   "ps": "د بودیجې انضباط",
+   "fr": "discipline budgétaire",
+   "tr": "bütçe disiplini"
+  },
+  "examples": {
+   "de": "Die Ministerin mahnt alle Ressorts zu strikter Budgetdisziplin."
+  }
+ },
+ {
+  "id": "wC1-2-0306",
+  "category": [
+   "work_office",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Steuerfreibeträge",
+  "words": {
+   "de": "Steuerfreibetrag",
+   "en": "tax allowance / tax-free amount",
+   "fa": "مبلغ معاف از مالیات",
+   "ps": "له مالیې معاف مقدار",
+   "fr": "abattement fiscal",
+   "tr": "vergi muafiyet tutarı"
+  },
+  "examples": {
+   "de": "Der Steuerfreibetrag für Kinder wird im nächsten Jahr erhöht."
+  }
+ },
+ {
+  "id": "wC1-2-0307",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Unternehmensbewertungen",
+  "words": {
+   "de": "Unternehmensbewertung",
+   "en": "company valuation",
+   "fa": "ارزش‌گذاری شرکت",
+   "ps": "د شرکت ارزونه",
+   "fr": "évaluation d'entreprise",
+   "tr": "şirket değerlemesi"
+  },
+  "examples": {
+   "de": "Für die Unternehmensbewertung wurden externe Gutachter beauftragt."
+  }
+ },
+ {
+  "id": "wC1-2-0308",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Schuldentragfähigkeit",
+   "en": "debt sustainability",
+   "fa": "پایداری بدهی",
+   "ps": "د پورونو د زغملو وړتیا",
+   "fr": "soutenabilité de la dette",
+   "tr": "borç sürdürülebilirliği"
+  },
+  "examples": {
+   "de": "Experten zweifeln an der Schuldentragfähigkeit des hoch verschuldeten Staates."
+  }
+ },
+ {
+  "id": "wC1-2-0309",
+  "category": [
+   "school_learning",
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Volkswirtschaftslehre",
+   "en": "economics",
+   "fa": "علم اقتصاد",
+   "ps": "د اقتصاد علم",
+   "fr": "sciences économiques",
+   "tr": "iktisat"
+  },
+  "examples": {
+   "de": "Die Volkswirtschaftslehre untersucht, wie Gesellschaften mit knappen Ressourcen umgehen."
+  }
+ },
+ {
+  "id": "wC1-2-0310",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Leitzinsen",
+  "words": {
+   "de": "Leitzins",
+   "en": "key interest rate / base rate",
+   "fa": "نرخ بهرهٔ پایه",
+   "ps": "د سود بنسټیز نرخ",
+   "fr": "taux directeur",
+   "tr": "politika faizi"
+  },
+  "examples": {
+   "de": "Die Zentralbank hat den Leitzins erneut um einen Viertelprozentpunkt angehoben."
+  }
+ },
+ {
+  "id": "wC1-2-0311",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Kapitalrenditen",
+  "words": {
+   "de": "Kapitalrendite",
+   "en": "return on capital",
+   "fa": "بازده سرمایه",
+   "ps": "د پانګې ګټه",
+   "fr": "rentabilité du capital",
+   "tr": "sermaye getirisi"
+  },
+  "examples": {
+   "de": "Investoren erwarten eine Kapitalrendite von mindestens acht Prozent."
+  }
+ },
+ {
+  "id": "wC1-2-0312",
+  "category": [
+   "school_learning",
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Werkstoffkunde",
+   "en": "materials science",
+   "fa": "علم مواد",
+   "ps": "د موادو پوهه",
+   "fr": "science des matériaux",
+   "tr": "malzeme bilimi"
+  },
+  "examples": {
+   "de": "Im Maschinenbaustudium ist Werkstoffkunde ein Pflichtfach."
+  }
+ },
+ {
+  "id": "wC1-2-0313",
+  "category": [
+   "technology_internet",
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Fertigungsverfahren",
+  "words": {
+   "de": "Fertigungsverfahren",
+   "en": "manufacturing process",
+   "fa": "روش تولید / فرایند ساخت",
+   "ps": "د تولید طریقه",
+   "fr": "procédé de fabrication",
+   "tr": "üretim yöntemi"
+  },
+  "examples": {
+   "de": "Mit dem neuen Fertigungsverfahren sinken die Produktionskosten um ein Drittel."
+  }
+ },
+ {
+  "id": "wC1-2-0314",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Produktionsketten",
+  "words": {
+   "de": "Produktionskette",
+   "en": "production chain",
+   "fa": "زنجیرهٔ تولید",
+   "ps": "د تولید ځنځیر",
+   "fr": "chaîne de production",
+   "tr": "üretim zinciri"
+  },
+  "examples": {
+   "de": "Ein Ausfall an einer Stelle kann die gesamte Produktionskette lahmlegen."
+  }
+ },
+ {
+  "id": "wC1-2-0315",
+  "category": [
+   "work_office",
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Maschinenbedienung",
+   "en": "machine operation",
+   "fa": "کار با ماشین‌آلات",
+   "ps": "د ماشین چلول",
+   "fr": "conduite de machines",
+   "tr": "makine kullanımı"
+  },
+  "examples": {
+   "de": "Für die Maschinenbedienung ist eine spezielle Schulung erforderlich."
+  }
+ },
+ {
+  "id": "wC1-2-0316",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "CAD-Zeichnungen",
+  "words": {
+   "de": "CAD-Zeichnung",
+   "en": "CAD drawing",
+   "fa": "نقشهٔ رایانه‌ای",
+   "ps": "کمپیوټري نقشه",
+   "fr": "dessin CAO",
+   "tr": "CAD çizimi"
+  },
+  "examples": {
+   "de": "Der Ingenieur hat die CAD-Zeichnung für das neue Bauteil fertiggestellt."
+  }
+ },
+ {
+  "id": "wC1-2-0317",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Prototypenbau",
+   "en": "prototype construction / prototyping",
+   "fa": "ساخت نمونهٔ اولیه",
+   "ps": "د لومړنۍ نمونې جوړول",
+   "fr": "construction de prototypes",
+   "tr": "prototip yapımı"
+  },
+  "examples": {
+   "de": "Im Prototypenbau kommen zunehmend 3D-Drucker zum Einsatz."
+  }
+ },
+ {
+  "id": "wC1-2-0318",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Materialermüdung",
+   "en": "material fatigue",
+   "fa": "خستگی مواد",
+   "ps": "د موادو ستړیا",
+   "fr": "fatigue des matériaux",
+   "tr": "malzeme yorulması"
+  },
+  "examples": {
+   "de": "Ursache des Unglücks war vermutlich Materialermüdung an einer Achse."
+  }
+ },
+ {
+  "id": "wC1-2-0319",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Verschleißfestigkeit",
+   "en": "wear resistance",
+   "fa": "مقاومت در برابر سایش",
+   "ps": "د خوړل کېدو پر وړاندې مقاومت",
+   "fr": "résistance à l'usure",
+   "tr": "aşınma direnci"
+  },
+  "examples": {
+   "de": "Diese Beschichtung erhöht die Verschleißfestigkeit der Werkzeuge erheblich."
+  }
+ },
+ {
+  "id": "wC1-2-0320",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Fließbandfertigung",
+   "en": "assembly line production",
+   "fa": "تولید با خط مونتاژ",
+   "ps": "د مونتاژ په کرښه تولید",
+   "fr": "production à la chaîne",
+   "tr": "bant üretimi"
+  },
+  "examples": {
+   "de": "Henry Ford führte die Fließbandfertigung in der Autoindustrie ein."
+  }
+ },
+ {
+  "id": "wC1-2-0321",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Serienproduktion",
+   "en": "series production / mass production",
+   "fa": "تولید انبوه",
+   "ps": "ډله‌ییز تولید",
+   "fr": "production en série",
+   "tr": "seri üretim"
+  },
+  "examples": {
+   "de": "Das neue Modell geht im Frühjahr in Serienproduktion."
+  }
+ },
+ {
+  "id": "wC1-2-0322",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Fehlertoleranz",
+   "en": "fault tolerance / error tolerance",
+   "fa": "تحمل خطا",
+   "ps": "د تېروتنې زغم",
+   "fr": "tolérance aux pannes",
+   "tr": "hata toleransı"
+  },
+  "examples": {
+   "de": "Das System wurde mit einer hohen Fehlertoleranz konzipiert."
+  }
+ },
+ {
+  "id": "wC1-2-0323",
+  "category": [
+   "technology_internet",
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Montageaufwand",
+   "en": "assembly effort",
+   "fa": "زحمت مونتاژ",
+   "ps": "د مونتاژ زحمت",
+   "fr": "effort de montage",
+   "tr": "montaj zahmeti"
+  },
+  "examples": {
+   "de": "Durch das neue Stecksystem verringert sich der Montageaufwand erheblich."
+  }
+ },
+ {
+  "id": "wC1-2-0324",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Maßgenauigkeit",
+   "en": "dimensional accuracy",
+   "fa": "دقت ابعادی",
+   "ps": "د اندازې دقت",
+   "fr": "précision dimensionnelle",
+   "tr": "boyutsal doğruluk"
+  },
+  "examples": {
+   "de": "Bei Präzisionsteilen kommt es auf höchste Maßgenauigkeit an."
+  }
+ },
+ {
+  "id": "wC1-2-0325",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Ingenieursleistungen",
+  "words": {
+   "de": "Ingenieursleistung",
+   "en": "engineering achievement / engineering feat",
+   "fa": "دستاورد مهندسی",
+   "ps": "انجینري لاسته راوړنه",
+   "fr": "prouesse technique",
+   "tr": "mühendislik başarısı"
+  },
+  "examples": {
+   "de": "Der Bau des Tunnels gilt als herausragende Ingenieursleistung."
+  }
+ },
+ {
+  "id": "wC1-2-0326",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Bauteiloptimierungen",
+  "words": {
+   "de": "Bauteiloptimierung",
+   "en": "component optimisation",
+   "fa": "بهینه‌سازی قطعه",
+   "ps": "د پرزو اصلاح",
+   "fr": "optimisation des composants",
+   "tr": "parça optimizasyonu"
+  },
+  "examples": {
+   "de": "Durch Bauteiloptimierung konnte das Gewicht des Fahrzeugs gesenkt werden."
+  }
+ },
+ {
+  "id": "wC1-2-0327",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Funktionstüchtigkeit",
+   "en": "functionality / working order",
+   "fa": "کارکرد درست",
+   "ps": "د کار وړتیا",
+   "fr": "bon fonctionnement",
+   "tr": "işlevsellik"
+  },
+  "examples": {
+   "de": "Vor der Auslieferung wird die Funktionstüchtigkeit jedes Geräts geprüft."
+  }
+ },
+ {
+  "id": "wC1-2-0328",
+  "category": [
+   "technology_internet",
+   "plants_environment",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Energieverbrauch",
+   "en": "energy consumption",
+   "fa": "مصرف انرژی",
+   "ps": "د انرژۍ مصرف",
+   "fr": "consommation d'énergie",
+   "tr": "enerji tüketimi"
+  },
+  "examples": {
+   "de": "Moderne Maschinen haben einen deutlich geringeren Energieverbrauch."
+  }
+ },
+ {
+  "id": "wC1-2-0329",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Toleranzgrenzen",
+  "words": {
+   "de": "Toleranzgrenze",
+   "en": "tolerance limit",
+   "fa": "حد تحمل / حد مجاز",
+   "ps": "د زغم پوله",
+   "fr": "limite de tolérance",
+   "tr": "tolerans sınırı"
+  },
+  "examples": {
+   "de": "Die Abweichung liegt noch innerhalb der Toleranzgrenze."
+  }
+ },
+ {
+  "id": "wC1-2-0330",
+  "category": [
+   "technology_internet",
+   "safety_emergency",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Sicherheitsfreigaben",
+  "words": {
+   "de": "Sicherheitsfreigabe",
+   "en": "safety clearance / safety approval",
+   "fa": "مجوز ایمنی",
+   "ps": "د خوندیتوب اجازه",
+   "fr": "autorisation de sécurité",
+   "tr": "güvenlik onayı"
+  },
+  "examples": {
+   "de": "Ohne Sicherheitsfreigabe darf die Anlage nicht in Betrieb genommen werden."
+  }
+ },
+ {
+  "id": "wC1-2-0331",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Qualitätskontrollen",
+  "words": {
+   "de": "Qualitätskontrolle",
+   "en": "quality control",
+   "fa": "کنترل کیفیت",
+   "ps": "د کیفیت کنټرول",
+   "fr": "contrôle qualité",
+   "tr": "kalite kontrolü"
+  },
+  "examples": {
+   "de": "Jedes Produkt durchläuft vor dem Versand eine strenge Qualitätskontrolle."
+  }
+ },
+ {
+  "id": "wC1-2-0332",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Konstruktionsfehler",
+  "words": {
+   "de": "Konstruktionsfehler",
+   "en": "design flaw / construction defect",
+   "fa": "نقص طراحی",
+   "ps": "د ډیزاین نیمګړتیا",
+   "fr": "défaut de conception",
+   "tr": "tasarım hatası"
+  },
+  "examples": {
+   "de": "Wegen eines Konstruktionsfehlers musste der Hersteller Tausende Autos zurückrufen."
+  }
+ },
+ {
+  "id": "wC1-2-0333",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Produktionsausfälle",
+  "words": {
+   "de": "Produktionsausfall",
+   "en": "production downtime / loss of production",
+   "fa": "توقف تولید",
+   "ps": "د تولید درېدل",
+   "fr": "arrêt de production",
+   "tr": "üretim kaybı"
+  },
+  "examples": {
+   "de": "Der Streik führte zu einem tagelangen Produktionsausfall."
+  }
+ },
+ {
+  "id": "wC1-2-0334",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Prüfstandmessungen",
+  "words": {
+   "de": "Prüfstandmessung",
+   "en": "test bench measurement",
+   "fa": "اندازه‌گیری روی میز آزمایش",
+   "ps": "د ازموینې په مېز اندازه‌ګیري",
+   "fr": "mesure sur banc d'essai",
+   "tr": "test tezgâhı ölçümü"
+  },
+  "examples": {
+   "de": "Die Prüfstandmessung ergab deutlich höhere Abgaswerte als angegeben."
+  }
+ },
+ {
+  "id": "wC1-2-0335",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Werkstoffprüfungen",
+  "words": {
+   "de": "Werkstoffprüfung",
+   "en": "materials testing",
+   "fa": "آزمون مواد",
+   "ps": "د موادو ازموینه",
+   "fr": "essai des matériaux",
+   "tr": "malzeme testi"
+  },
+  "examples": {
+   "de": "Bei der Werkstoffprüfung wurden feine Risse im Metall entdeckt."
+  }
+ },
+ {
+  "id": "wC1-2-0336",
+  "category": [
+   "work_office",
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Instandhaltung",
+   "en": "maintenance / upkeep",
+   "fa": "نگهداری و تعمیر",
+   "ps": "ساتنه او ترمیم",
+   "fr": "entretien / maintenance",
+   "tr": "bakım"
+  },
+  "examples": {
+   "de": "Die regelmäßige Instandhaltung der Anlagen verhindert teure Ausfälle."
+  }
+ },
+ {
+  "id": "wC1-2-0337",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Fertigungstechnologien",
+  "words": {
+   "de": "Fertigungstechnologie",
+   "en": "manufacturing technology / production technology",
+   "fa": "فناوری تولید",
+   "ps": "د تولید ټکنالوژي",
+   "fr": "technologie de fabrication",
+   "tr": "üretim teknolojisi"
+  },
+  "examples": {
+   "de": "Das Unternehmen investiert massiv in moderne Fertigungstechnologie."
+  }
+ },
+ {
+  "id": "wC1-2-0338",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Steuerungssysteme",
+  "words": {
+   "de": "Steuerungssystem",
+   "en": "control system",
+   "fa": "سامانهٔ کنترل",
+   "ps": "د کنټرول سیستم",
+   "fr": "système de commande",
+   "tr": "kontrol sistemi"
+  },
+  "examples": {
+   "de": "Das Steuerungssystem der Anlage wird komplett digitalisiert."
+  }
+ },
+ {
+  "id": "wC1-2-0339",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Ingenieurstandards",
+  "words": {
+   "de": "Ingenieurstandard",
+   "en": "engineering standard",
+   "fa": "استاندارد مهندسی",
+   "ps": "انجینري معیار",
+   "fr": "norme d'ingénierie",
+   "tr": "mühendislik standardı"
+  },
+  "examples": {
+   "de": "Die neue Brücke entspricht den höchsten Ingenieurstandards."
+  }
+ },
+ {
+  "id": "wC1-2-0340",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Umrüstzeiten",
+  "words": {
+   "de": "Umrüstzeit",
+   "en": "changeover time / setup time",
+   "fa": "زمان تغییر تنظیمات",
+   "ps": "د بیا تنظیم وخت",
+   "fr": "temps de changement de série",
+   "tr": "ayar değiştirme süresi"
+  },
+  "examples": {
+   "de": "Durch kürzere Umrüstzeiten kann die Fabrik flexibler produzieren."
+  }
+ },
+ {
+  "id": "wC1-2-0341",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Produktentwicklungen",
+  "words": {
+   "de": "Produktentwicklung",
+   "en": "product development",
+   "fa": "توسعهٔ محصول",
+   "ps": "د محصول پراختیا",
+   "fr": "développement de produits",
+   "tr": "ürün geliştirme"
+  },
+  "examples": {
+   "de": "Sie arbeitet in der Produktentwicklung eines Elektronikherstellers."
+  }
+ },
+ {
+  "id": "wC1-2-0342",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Produktionszyklen",
+  "words": {
+   "de": "Produktionszyklus",
+   "en": "production cycle",
+   "fa": "چرخهٔ تولید",
+   "ps": "د تولید دوره",
+   "fr": "cycle de production",
+   "tr": "üretim döngüsü"
+  },
+  "examples": {
+   "de": "Ein Produktionszyklus dauert in diesem Werk etwa drei Wochen."
+  }
+ },
+ {
+  "id": "wC1-2-0343",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Planungsmodule",
+  "words": {
+   "de": "Planungsmodul",
+   "en": "planning module",
+   "fa": "ماژول برنامه‌ریزی",
+   "ps": "د پلان جوړونې ماډیول",
+   "fr": "module de planification",
+   "tr": "planlama modülü"
+  },
+  "examples": {
+   "de": "Das Planungsmodul der Software berechnet automatisch die Liefertermine."
+  }
+ },
+ {
+  "id": "wC1-2-0344",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Bauweisen",
+  "words": {
+   "de": "Bauweise",
+   "en": "construction method / design",
+   "fa": "شیوهٔ ساخت",
+   "ps": "د جوړونې طریقه",
+   "fr": "mode de construction",
+   "tr": "yapı tarzı"
+  },
+  "examples": {
+   "de": "Die leichte Bauweise des Fahrzeugs spart Treibstoff."
+  }
+ },
+ {
+  "id": "wC1-2-0345",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Immunsysteme",
+  "words": {
+   "de": "Immunsystem",
+   "en": "immune system",
+   "fa": "سیستم ایمنی",
+   "ps": "د معافیت سیستم",
+   "fr": "système immunitaire",
+   "tr": "bağışıklık sistemi"
+  },
+  "examples": {
+   "de": "Ausreichend Schlaf stärkt das Immunsystem."
+  }
+ },
+ {
+  "id": "wC1-2-0346",
+  "category": [
+   "school_learning",
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Zellteilungen",
+  "words": {
+   "de": "Zellteilung",
+   "en": "cell division",
+   "fa": "تقسیم سلولی",
+   "ps": "د حجرې وېش",
+   "fr": "division cellulaire",
+   "tr": "hücre bölünmesi"
+  },
+  "examples": {
+   "de": "Bei der Zellteilung wird das Erbgut exakt kopiert."
+  }
+ },
+ {
+  "id": "wC1-2-0347",
+  "category": [
+   "school_learning",
+   "health_body",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Erbgut",
+   "en": "genetic material / genome",
+   "fa": "مادهٔ ژنتیکی",
+   "ps": "جنېټیکي مواد",
+   "fr": "patrimoine génétique",
+   "tr": "genetik materyal"
+  },
+  "examples": {
+   "de": "Forscher haben das Erbgut der Pflanze vollständig entschlüsselt."
+  }
+ },
+ {
+  "id": "wC1-2-0348",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Stoffwechsel",
+   "en": "metabolism",
+   "fa": "سوخت‌وساز / متابولیسم",
+   "ps": "میټابولیزم",
+   "fr": "métabolisme",
+   "tr": "metabolizma"
+  },
+  "examples": {
+   "de": "Regelmäßige Bewegung regt den Stoffwechsel an."
+  }
+ },
+ {
+  "id": "wC1-2-0349",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Organtransplantationen",
+  "words": {
+   "de": "Organtransplantation",
+   "en": "organ transplant",
+   "fa": "پیوند عضو",
+   "ps": "د غړي پیوند",
+   "fr": "greffe d'organe",
+   "tr": "organ nakli"
+  },
+  "examples": {
+   "de": "Nach der Organtransplantation muss der Patient lebenslang Medikamente nehmen."
+  }
+ },
+ {
+  "id": "wC1-2-0350",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Erbkrankheiten",
+  "words": {
+   "de": "Erbkrankheit",
+   "en": "hereditary disease / genetic disorder",
+   "fa": "بیماری ارثی",
+   "ps": "میراثي ناروغي",
+   "fr": "maladie héréditaire",
+   "tr": "kalıtsal hastalık"
+  },
+  "examples": {
+   "de": "Mukoviszidose ist eine seltene Erbkrankheit."
+  }
+ },
+ {
+  "id": "wC1-2-0351",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Tumorbildungen",
+  "words": {
+   "de": "Tumorbildung",
+   "en": "tumour formation",
+   "fa": "تشکیل تومور",
+   "ps": "د تومور جوړېدل",
+   "fr": "formation de tumeurs",
+   "tr": "tümör oluşumu"
+  },
+  "examples": {
+   "de": "Bestimmte Chemikalien können die Tumorbildung begünstigen."
+  }
+ },
+ {
+  "id": "wC1-2-0352",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Schmerzbehandlungen",
+  "words": {
+   "de": "Schmerzbehandlung",
+   "en": "pain management / pain treatment",
+   "fa": "درمان درد",
+   "ps": "د درد درملنه",
+   "fr": "traitement de la douleur",
+   "tr": "ağrı tedavisi"
+  },
+  "examples": {
+   "de": "Die Klinik hat sich auf die Schmerzbehandlung chronisch Kranker spezialisiert."
+  }
+ },
+ {
+  "id": "wC1-2-0353",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Nervensysteme",
+  "words": {
+   "de": "Nervensystem",
+   "en": "nervous system",
+   "fa": "دستگاه عصبی",
+   "ps": "عصبي سیستم",
+   "fr": "système nerveux",
+   "tr": "sinir sistemi"
+  },
+  "examples": {
+   "de": "Dauerstress kann das Nervensystem erheblich belasten."
+  }
+ },
+ {
+  "id": "wC1-2-0354",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Gewebeentnahmen",
+  "words": {
+   "de": "Gewebeentnahme",
+   "en": "biopsy / tissue sampling",
+   "fa": "نمونه‌برداری از بافت",
+   "ps": "د نسج نمونه اخیستل",
+   "fr": "biopsie / prélèvement de tissu",
+   "tr": "biyopsi / doku örneği alma"
+  },
+  "examples": {
+   "de": "Zur Abklärung des Befunds ist eine Gewebeentnahme notwendig."
+  }
+ },
+ {
+  "id": "wC1-2-0355",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Blutkreislauf",
+   "en": "blood circulation",
+   "fa": "گردش خون",
+   "ps": "د وینې دوران",
+   "fr": "circulation sanguine",
+   "tr": "kan dolaşımı"
+  },
+  "examples": {
+   "de": "Das Medikament gelangt über den Blutkreislauf in alle Organe."
+  }
+ },
+ {
+  "id": "wC1-2-0356",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Körperabwehr",
+   "en": "body's defences / immune defence",
+   "fa": "سیستم دفاعی بدن",
+   "ps": "د بدن دفاع",
+   "fr": "défenses de l'organisme",
+   "tr": "vücut savunması"
+  },
+  "examples": {
+   "de": "Vitamin C soll die Körperabwehr unterstützen."
+  }
+ },
+ {
+  "id": "wC1-2-0357",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Infektionsraten",
+  "words": {
+   "de": "Infektionsrate",
+   "en": "infection rate",
+   "fa": "نرخ ابتلا",
+   "ps": "د انتان کچه",
+   "fr": "taux d'infection",
+   "tr": "enfeksiyon oranı"
+  },
+  "examples": {
+   "de": "Im Winter steigt die Infektionsrate bei Atemwegserkrankungen."
+  }
+ },
+ {
+  "id": "wC1-2-0358",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Antibiotika",
+  "words": {
+   "de": "Antibiotikum",
+   "en": "antibiotic",
+   "fa": "آنتی‌بیوتیک",
+   "ps": "انټي بیوټیک",
+   "fr": "antibiotique",
+   "tr": "antibiyotik"
+  },
+  "examples": {
+   "de": "Gegen Viren hilft ein Antibiotikum nicht."
+  }
+ },
+ {
+  "id": "wC1-2-0359",
+  "category": [
+   "health_body",
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Resistenzbildungen",
+  "words": {
+   "de": "Resistenzbildung",
+   "en": "development of resistance",
+   "fa": "ایجاد مقاومت",
+   "ps": "د مقاومت جوړېدل",
+   "fr": "développement de résistances",
+   "tr": "direnç gelişimi"
+  },
+  "examples": {
+   "de": "Der übermäßige Einsatz von Antibiotika fördert die Resistenzbildung bei Bakterien."
+  }
+ },
+ {
+  "id": "wC1-2-0360",
+  "category": [
+   "school_learning",
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Genforschung",
+   "en": "genetic research",
+   "fa": "پژوهش ژنتیکی",
+   "ps": "جنېټیکي څېړنه",
+   "fr": "recherche génétique",
+   "tr": "genetik araştırma"
+  },
+  "examples": {
+   "de": "Die Genforschung eröffnet neue Möglichkeiten in der Krebstherapie."
+  }
+ },
+ {
+  "id": "wC1-2-0361",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zellerneuerung",
+   "en": "cell renewal / cell regeneration",
+   "fa": "بازسازی سلولی",
+   "ps": "د حجرو نوي کېدل",
+   "fr": "renouvellement cellulaire",
+   "tr": "hücre yenilenmesi"
+  },
+  "examples": {
+   "de": "Im Schlaf läuft die Zellerneuerung besonders intensiv ab."
+  }
+ },
+ {
+  "id": "wC1-2-0362",
+  "category": [
+   "school_learning",
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Vererbung",
+   "en": "heredity / inheritance",
+   "fa": "وراثت",
+   "ps": "وراثت",
+   "fr": "hérédité",
+   "tr": "kalıtım"
+  },
+  "examples": {
+   "de": "Gregor Mendel entdeckte die Grundregeln der Vererbung."
+  }
+ },
+ {
+  "id": "wC1-2-0363",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Hormonhaushalt",
+   "en": "hormonal balance",
+   "fa": "تعادل هورمونی",
+   "ps": "هورموني توازن",
+   "fr": "équilibre hormonal",
+   "tr": "hormon dengesi"
+  },
+  "examples": {
+   "de": "Dauerhafter Stress kann den Hormonhaushalt durcheinanderbringen."
+  }
+ },
+ {
+  "id": "wC1-2-0364",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Impfwirkung",
+   "en": "vaccine effectiveness / vaccine effect",
+   "fa": "اثربخشی واکسن",
+   "ps": "د واکسین اغېز",
+   "fr": "efficacité vaccinale",
+   "tr": "aşının etkisi"
+  },
+  "examples": {
+   "de": "Bei älteren Menschen ist die Impfwirkung oft schwächer."
+  }
+ },
+ {
+  "id": "wC1-2-0365",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Diagnosemethoden",
+  "words": {
+   "de": "Diagnosemethode",
+   "en": "diagnostic method",
+   "fa": "روش تشخیص",
+   "ps": "د تشخیص طریقه",
+   "fr": "méthode de diagnostic",
+   "tr": "teşhis yöntemi"
+  },
+  "examples": {
+   "de": "Die neue Diagnosemethode erkennt Krebs bereits im Frühstadium."
+  }
+ },
+ {
+  "id": "wC1-2-0366",
+  "category": [
+   "school_learning",
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Erbsubstanz",
+   "en": "hereditary material / DNA",
+   "fa": "مادهٔ وراثتی",
+   "ps": "ارثي ماده",
+   "fr": "substance héréditaire",
+   "tr": "kalıtım maddesi"
+  },
+  "examples": {
+   "de": "Radioaktive Strahlung kann die Erbsubstanz schädigen."
+  }
+ },
+ {
+  "id": "wC1-2-0367",
+  "category": [
+   "school_learning",
+   "health_body",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Signalstoffe",
+  "words": {
+   "de": "Signalstoff",
+   "en": "signalling substance / messenger substance",
+   "fa": "مادهٔ پیام‌رسان",
+   "ps": "پیغام وړونکې ماده",
+   "fr": "substance de signalisation",
+   "tr": "sinyal maddesi"
+  },
+  "examples": {
+   "de": "Nervenzellen kommunizieren über chemische Signalstoffe."
+  }
+ },
+ {
+  "id": "wC1-2-0368",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Reaktionsketten",
+  "words": {
+   "de": "Reaktionskette",
+   "en": "chain of reactions / chain reaction",
+   "fa": "واکنش زنجیره‌ای",
+   "ps": "ځنځیري غبرګون",
+   "fr": "réaction en chaîne",
+   "tr": "zincirleme reaksiyon"
+  },
+  "examples": {
+   "de": "Das Enzym löst im Körper eine ganze Reaktionskette aus."
+  }
+ },
+ {
+  "id": "wC1-2-0369",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Stoffwechselfunktionen",
+  "words": {
+   "de": "Stoffwechselfunktion",
+   "en": "metabolic function",
+   "fa": "عملکرد سوخت‌وسازی",
+   "ps": "د میټابولیزم دنده",
+   "fr": "fonction métabolique",
+   "tr": "metabolik işlev"
+  },
+  "examples": {
+   "de": "Die Leber erfüllt zahlreiche wichtige Stoffwechselfunktionen."
+  }
+ },
+ {
+  "id": "wC1-2-0370",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Behandlungsschemata",
+  "words": {
+   "de": "Behandlungsschema",
+   "en": "treatment regimen / treatment protocol",
+   "fa": "پروتکل درمان",
+   "ps": "د درملنې پلان",
+   "fr": "protocole de traitement",
+   "tr": "tedavi protokolü"
+  },
+  "examples": {
+   "de": "Der Arzt passte das Behandlungsschema an die Nebenwirkungen an."
+  }
+ },
+ {
+  "id": "wC1-2-0371",
+  "category": [
+   "health_body",
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Biokompatibilität",
+   "en": "biocompatibility",
+   "fa": "زیست‌سازگاری",
+   "ps": "بیولوژیکي سازګارتیا",
+   "fr": "biocompatibilité",
+   "tr": "biyouyumluluk"
+  },
+  "examples": {
+   "de": "Implantate müssen eine hohe Biokompatibilität aufweisen."
+  }
+ },
+ {
+  "id": "wC1-2-0372",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "molekulare Struktur",
+   "en": "molecular structure",
+   "fa": "ساختار مولکولی",
+   "ps": "مالیکولي جوړښت",
+   "fr": "structure moléculaire",
+   "tr": "moleküler yapı"
+  },
+  "examples": {
+   "de": "Die Forscher analysierten die molekulare Struktur des Virus."
+  }
+ },
+ {
+  "id": "wC1-2-0373",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Körperreaktionen",
+  "words": {
+   "de": "Körperreaktion",
+   "en": "bodily reaction / physical response",
+   "fa": "واکنش بدن",
+   "ps": "د بدن غبرګون",
+   "fr": "réaction corporelle",
+   "tr": "vücut tepkisi"
+  },
+  "examples": {
+   "de": "Schwitzen ist eine natürliche Körperreaktion auf Hitze."
+  }
+ },
+ {
+  "id": "wC1-2-0374",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Immunabwehr",
+   "en": "immune defence / immune response",
+   "fa": "دفاع ایمنی",
+   "ps": "معافیتي دفاع",
+   "fr": "défense immunitaire",
+   "tr": "bağışıklık savunması"
+  },
+  "examples": {
+   "de": "Eine geschwächte Immunabwehr erhöht das Risiko von Infektionen."
+  }
+ },
+ {
+  "id": "wC1-2-0375",
+  "category": [
+   "school_learning",
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zellforschung",
+   "en": "cell research",
+   "fa": "پژوهش سلولی",
+   "ps": "د حجرو څېړنه",
+   "fr": "recherche cellulaire",
+   "tr": "hücre araştırması"
+  },
+  "examples": {
+   "de": "Die Zellforschung hat in den letzten Jahrzehnten enorme Fortschritte gemacht."
+  }
+ },
+ {
+  "id": "wC1-2-0376",
+  "category": [
+   "school_learning",
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "DNA-Analysen",
+  "words": {
+   "de": "DNA-Analyse",
+   "en": "DNA analysis",
+   "fa": "آزمایش دی‌ان‌ای",
+   "ps": "د ډي ان اې تحلیل",
+   "fr": "analyse ADN",
+   "tr": "DNA analizi"
+  },
+  "examples": {
+   "de": "Eine DNA-Analyse überführte schließlich den Täter."
+  }
+ },
+ {
+  "id": "wC1-2-0377",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Gewebe",
+  "words": {
+   "de": "Gewebe",
+   "en": "tissue / fabric",
+   "fa": "بافت",
+   "ps": "نسج / ټوکر",
+   "fr": "tissu",
+   "tr": "doku / kumaş"
+  },
+  "examples": {
+   "de": "Das entzündete Gewebe muss operativ entfernt werden."
+  }
+ },
+ {
+  "id": "wC1-2-0378",
+  "category": [
+   "plants_environment",
+   "nature_animals",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "biologische Vielfalt",
+   "en": "biodiversity",
+   "fa": "تنوع زیستی",
+   "ps": "بیولوژیکي تنوع",
+   "fr": "diversité biologique",
+   "tr": "biyolojik çeşitlilik"
+  },
+  "examples": {
+   "de": "Der Schutz der biologischen Vielfalt ist eine globale Aufgabe."
+  }
+ },
+ {
+  "id": "wC1-2-0379",
+  "category": [
+   "law_rules",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Gesetzgebungskompetenzen",
+  "words": {
+   "de": "Gesetzgebungskompetenz",
+   "en": "legislative competence / legislative authority",
+   "fa": "صلاحیت قانون‌گذاری",
+   "ps": "د قانون جوړونې واک",
+   "fr": "compétence législative",
+   "tr": "yasama yetkisi"
+  },
+  "examples": {
+   "de": "Für das Schulwesen liegt die Gesetzgebungskompetenz bei den Ländern."
+  }
+ },
+ {
+  "id": "wC1-2-0380",
+  "category": [
+   "law_rules",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Gesetzgebungsprozesse",
+  "words": {
+   "de": "Gesetzgebungsprozess",
+   "en": "legislative process",
+   "fa": "فرایند قانون‌گذاری",
+   "ps": "د قانون جوړونې بهیر",
+   "fr": "processus législatif",
+   "tr": "yasama süreci"
+  },
+  "examples": {
+   "de": "Der Gesetzgebungsprozess kann mehrere Monate dauern."
+  }
+ },
+ {
+  "id": "wC1-2-0381",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Verwaltungsreformen",
+  "words": {
+   "de": "Verwaltungsreform",
+   "en": "administrative reform",
+   "fa": "اصلاحات اداری",
+   "ps": "اداري اصلاحات",
+   "fr": "réforme administrative",
+   "tr": "idari reform"
+  },
+  "examples": {
+   "de": "Die Verwaltungsreform soll Behördengänge vereinfachen."
+  }
+ },
+ {
+  "id": "wC1-2-0382",
+  "category": [
+   "law_rules",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Verfassungsänderungen",
+  "words": {
+   "de": "Verfassungsänderung",
+   "en": "constitutional amendment",
+   "fa": "اصلاح قانون اساسی",
+   "ps": "په اساسي قانون کې تعدیل",
+   "fr": "révision constitutionnelle",
+   "tr": "anayasa değişikliği"
+  },
+  "examples": {
+   "de": "Für eine Verfassungsänderung ist eine Zweidrittelmehrheit erforderlich."
+  }
+ },
+ {
+  "id": "wC1-2-0383",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Regierungsvorschläge",
+  "words": {
+   "de": "Regierungsvorschlag",
+   "en": "government proposal",
+   "fa": "پیشنهاد دولت",
+   "ps": "د حکومت وړاندیز",
+   "fr": "proposition du gouvernement",
+   "tr": "hükümet önerisi"
+  },
+  "examples": {
+   "de": "Die Opposition lehnte den Regierungsvorschlag geschlossen ab."
+  }
+ },
+ {
+  "id": "wC1-2-0384",
+  "category": [
+   "law_rules",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Gesetzesinitiativen",
+  "words": {
+   "de": "Gesetzesinitiative",
+   "en": "legislative initiative / bill",
+   "fa": "طرح قانونی",
+   "ps": "قانوني نوښت",
+   "fr": "initiative législative",
+   "tr": "kanun teklifi"
+  },
+  "examples": {
+   "de": "Die Fraktion hat eine Gesetzesinitiative zum Mieterschutz eingebracht."
+  }
+ },
+ {
+  "id": "wC1-2-0385",
+  "category": [
+   "services_authorities",
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Bundeskompetenzen",
+  "words": {
+   "de": "Bundeskompetenz",
+   "en": "federal competence / federal jurisdiction",
+   "fa": "صلاحیت فدرال",
+   "ps": "فدرالي واک",
+   "fr": "compétence fédérale",
+   "tr": "federal yetki"
+  },
+  "examples": {
+   "de": "Die Verteidigung fällt eindeutig in die Bundeskompetenz."
+  }
+ },
+ {
+  "id": "wC1-2-0386",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Zuständigkeitsverteilungen",
+  "words": {
+   "de": "Zuständigkeitsverteilung",
+   "en": "division of responsibilities / distribution of competences",
+   "fa": "تقسیم صلاحیت‌ها",
+   "ps": "د واکونو وېش",
+   "fr": "répartition des compétences",
+   "tr": "yetki dağılımı"
+  },
+  "examples": {
+   "de": "Die Zuständigkeitsverteilung zwischen Bund und Ländern ist im Grundgesetz geregelt."
+  }
+ },
+ {
+  "id": "wC1-2-0387",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Gesetzesrahmen",
+  "words": {
+   "de": "Gesetzesrahmen",
+   "en": "legal framework",
+   "fa": "چارچوب قانونی",
+   "ps": "قانوني چوکاټ",
+   "fr": "cadre législatif",
+   "tr": "yasal çerçeve"
+  },
+  "examples": {
+   "de": "Für das autonome Fahren fehlt bislang ein klarer Gesetzesrahmen."
+  }
+ },
+ {
+  "id": "wC1-2-0388",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Fraktionsdisziplin",
+   "en": "party discipline",
+   "fa": "انضباط حزبی",
+   "ps": "ګوندي انضباط",
+   "fr": "discipline de parti",
+   "tr": "parti disiplini"
+  },
+  "examples": {
+   "de": "Trotz Fraktionsdisziplin stimmten einige Abgeordnete gegen den Entwurf."
+  }
+ },
+ {
+  "id": "wC1-2-0389",
+  "category": [
+   "law_rules",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Gesetzesvorlagen",
+  "words": {
+   "de": "Gesetzesvorlage",
+   "en": "bill / draft law",
+   "fa": "لایحهٔ قانونی",
+   "ps": "د قانون مسوده",
+   "fr": "projet de loi",
+   "tr": "kanun tasarısı"
+  },
+  "examples": {
+   "de": "Die Gesetzesvorlage wird nächste Woche im Bundestag beraten."
+  }
+ },
+ {
+  "id": "wC1-2-0390",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Verfassungsbrüche",
+  "words": {
+   "de": "Verfassungsbruch",
+   "en": "breach of the constitution",
+   "fa": "نقض قانون اساسی",
+   "ps": "له اساسي قانون څخه سرغړونه",
+   "fr": "violation de la constitution",
+   "tr": "anayasa ihlali"
+  },
+  "examples": {
+   "de": "Die Opposition wirft der Regierung einen klaren Verfassungsbruch vor."
+  }
+ },
+ {
+  "id": "wC1-2-0391",
+  "category": [
+   "services_authorities",
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Bundeshaushalte",
+  "words": {
+   "de": "Bundeshaushalt",
+   "en": "federal budget",
+   "fa": "بودجهٔ فدرال",
+   "ps": "فدرالي بودیجه",
+   "fr": "budget fédéral",
+   "tr": "federal bütçe"
+  },
+  "examples": {
+   "de": "Der Bundeshaushalt für das kommende Jahr wurde nach langen Verhandlungen verabschiedet."
+  }
+ },
+ {
+  "id": "wC1-2-0392",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Ressortverteilungen",
+  "words": {
+   "de": "Ressortverteilung",
+   "en": "allocation of ministries / distribution of portfolios",
+   "fa": "تقسیم وزارتخانه‌ها",
+   "ps": "د وزارتونو وېش",
+   "fr": "répartition des portefeuilles",
+   "tr": "bakanlık dağılımı"
+  },
+  "examples": {
+   "de": "Über die Ressortverteilung wurde in den Koalitionsverhandlungen lange gestritten."
+  }
+ },
+ {
+  "id": "wC1-2-0393",
+  "category": [
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Gesetzesprüfungen",
+  "words": {
+   "de": "Gesetzesprüfung",
+   "en": "review of legislation / constitutional review",
+   "fa": "بررسی قانون",
+   "ps": "د قانون کتنه",
+   "fr": "contrôle des lois",
+   "tr": "kanun denetimi"
+  },
+  "examples": {
+   "de": "Das Verfassungsgericht hat die Gesetzesprüfung noch nicht abgeschlossen."
+  }
+ },
+ {
+  "id": "wC1-2-0394",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Abstimmungspflicht",
+   "en": "obligation to vote",
+   "fa": "الزام به رأی دادن",
+   "ps": "د رایې ورکولو مکلفیت",
+   "fr": "obligation de vote",
+   "tr": "oy verme zorunluluğu"
+  },
+  "examples": {
+   "de": "In diesem Gremium besteht für alle Mitglieder Abstimmungspflicht."
+  }
+ },
+ {
+  "id": "wC1-2-0395",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Regierungserklärungen",
+  "words": {
+   "de": "Regierungserklärung",
+   "en": "government statement / policy statement",
+   "fa": "بیانیهٔ دولت",
+   "ps": "د حکومت اعلامیه",
+   "fr": "déclaration de politique générale",
+   "tr": "hükümet bildirisi"
+  },
+  "examples": {
+   "de": "In ihrer ersten Regierungserklärung stellte die Kanzlerin ihre Ziele vor."
+  }
+ },
+ {
+  "id": "wC1-2-0396",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Entschließungen",
+  "words": {
+   "de": "Entschließung",
+   "en": "resolution",
+   "fa": "قطعنامه",
+   "ps": "پرېکړه‌لیک",
+   "fr": "résolution",
+   "tr": "karar"
+  },
+  "examples": {
+   "de": "Das Parlament verabschiedete eine Entschließung zum Schutz der Pressefreiheit."
+  }
+ },
+ {
+  "id": "wC1-2-0397",
+  "category": [
+   "services_authorities",
+   "law_rules",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Mehrheitserfordernisse",
+  "words": {
+   "de": "Mehrheitserfordernis",
+   "en": "majority requirement",
+   "fa": "الزام اکثریت",
+   "ps": "د اکثریت اړتیا",
+   "fr": "exigence de majorité",
+   "tr": "çoğunluk şartı"
+  },
+  "examples": {
+   "de": "Für Verfassungsänderungen gilt ein besonderes Mehrheitserfordernis."
+  }
+ },
+ {
+  "id": "wC1-2-0398",
+  "category": [
+   "services_authorities",
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Verhandlungsrunden",
+  "words": {
+   "de": "Verhandlungsrunde",
+   "en": "round of negotiations",
+   "fa": "دور مذاکرات",
+   "ps": "د خبرو اترو پړاو",
+   "fr": "cycle de négociations",
+   "tr": "müzakere turu"
+  },
+  "examples": {
+   "de": "Auch die dritte Verhandlungsrunde endete ohne Ergebnis."
+  }
+ },
+ {
+  "id": "wC1-2-0399",
+  "category": [
+   "services_authorities",
+   "law_rules",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Vermittlungsverfahren",
+  "words": {
+   "de": "Vermittlungsverfahren",
+   "en": "mediation procedure / conciliation procedure",
+   "fa": "روند میانجیگری",
+   "ps": "د منځګړیتوب بهیر",
+   "fr": "procédure de conciliation",
+   "tr": "uzlaştırma süreci"
+  },
+  "examples": {
+   "de": "Das Gesetz landete schließlich im Vermittlungsverfahren zwischen Bundestag und Bundesrat."
+  }
+ },
+ {
+  "id": "wC1-2-0400",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Abstimmungsmehrheiten",
+  "words": {
+   "de": "Abstimmungsmehrheit",
+   "en": "voting majority",
+   "fa": "اکثریت آرا",
+   "ps": "د رایو اکثریت",
+   "fr": "majorité des voix",
+   "tr": "oy çoğunluğu"
+  },
+  "examples": {
+   "de": "Die Koalition verfügt nur über eine knappe Abstimmungsmehrheit."
+  }
+ },
+ {
+  "id": "wC1-2-0401",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Amtseide",
+  "words": {
+   "de": "Amtseid",
+   "en": "oath of office",
+   "fa": "سوگند تحلیف",
+   "ps": "د دندې لوړه",
+   "fr": "serment d'entrée en fonction",
+   "tr": "görev yemini"
+  },
+  "examples": {
+   "de": "Der neue Präsident legte vor dem Parlament seinen Amtseid ab."
+  }
+ },
+ {
+  "id": "wC1-2-0402",
+  "category": [
+   "law_rules",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Durchführungsverordnungen",
+  "words": {
+   "de": "Durchführungsverordnung",
+   "en": "implementing regulation",
+   "fa": "آیین‌نامهٔ اجرایی",
+   "ps": "اجرایي مقرره",
+   "fr": "règlement d'exécution",
+   "tr": "uygulama yönetmeliği"
+  },
+  "examples": {
+   "de": "Die Details regelt eine Durchführungsverordnung des Ministeriums."
+  }
+ },
+ {
+  "id": "wC1-2-0403",
+  "category": [
+   "services_authorities",
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Entscheidungskompetenzen",
+  "words": {
+   "de": "Entscheidungskompetenz",
+   "en": "decision-making authority",
+   "fa": "اختیار تصمیم‌گیری",
+   "ps": "د پرېکړې واک",
+   "fr": "pouvoir de décision",
+   "tr": "karar yetkisi"
+  },
+  "examples": {
+   "de": "Die Abteilungsleiterin hat in Budgetfragen volle Entscheidungskompetenz."
+  }
+ },
+ {
+  "id": "wC1-2-0404",
+  "category": [
+   "law_rules",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Petitionsrecht",
+   "en": "right of petition",
+   "fa": "حق دادخواست",
+   "ps": "د عریضې حق",
+   "fr": "droit de pétition",
+   "tr": "dilekçe hakkı"
+  },
+  "examples": {
+   "de": "Das Petitionsrecht erlaubt jedem Bürger, sich direkt an das Parlament zu wenden."
+  }
+ },
+ {
+  "id": "wC1-2-0405",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Kontrollinstanzen",
+  "words": {
+   "de": "Kontrollinstanz",
+   "en": "supervisory body / oversight body",
+   "fa": "نهاد نظارتی",
+   "ps": "څارنیز ارګان",
+   "fr": "instance de contrôle",
+   "tr": "denetim mercii"
+  },
+  "examples": {
+   "de": "Der Rechnungshof dient als unabhängige Kontrollinstanz."
+  }
+ },
+ {
+  "id": "wC1-2-0406",
+  "category": [
+   "services_authorities",
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Legislative",
+   "en": "legislature / legislative branch",
+   "fa": "قوهٔ مقننه",
+   "ps": "مقننه قوه",
+   "fr": "pouvoir législatif",
+   "tr": "yasama"
+  },
+  "examples": {
+   "de": "Die Legislative beschließt die Gesetze, die die Exekutive umsetzt."
+  }
+ },
+ {
+  "id": "wC1-2-0407",
+  "category": [
+   "services_authorities",
+   "law_rules",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Exekutive",
+   "en": "executive / executive branch",
+   "fa": "قوهٔ مجریه",
+   "ps": "اجرائیه قوه",
+   "fr": "pouvoir exécutif",
+   "tr": "yürütme"
+  },
+  "examples": {
+   "de": "Die Polizei gehört zur Exekutive."
+  }
+ },
+ {
+  "id": "wC1-2-0408",
+  "category": [
+   "law_rules",
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Judikative",
+   "en": "judiciary",
+   "fa": "قوهٔ قضائیه",
+   "ps": "قضائیه قوه",
+   "fr": "pouvoir judiciaire",
+   "tr": "yargı"
+  },
+  "examples": {
+   "de": "Die Judikative muss unabhängig von der Regierung arbeiten können."
+  }
+ },
+ {
+  "id": "wC1-2-0409",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Transparenzforderungen",
+  "words": {
+   "de": "Transparenzforderung",
+   "en": "demand for transparency",
+   "fa": "درخواست شفافیت",
+   "ps": "د روڼتیا غوښتنه",
+   "fr": "exigence de transparence",
+   "tr": "şeffaflık talebi"
+  },
+  "examples": {
+   "de": "Die Transparenzforderungen der Bürger werden immer lauter."
+  }
+ },
+ {
+  "id": "wC1-2-0410",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Erkenntnisprozesse",
+  "words": {
+   "de": "Erkenntnisprozess",
+   "en": "process of understanding / cognitive process",
+   "fa": "فرایند شناخت",
+   "ps": "د پوهې بهیر",
+   "fr": "processus de connaissance",
+   "tr": "idrak süreci"
+  },
+  "examples": {
+   "de": "Wissenschaft ist ein nie abgeschlossener Erkenntnisprozess."
+  }
+ },
+ {
+  "id": "wC1-2-0411",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Wirklichkeitsauffassungen",
+  "words": {
+   "de": "Wirklichkeitsauffassung",
+   "en": "conception of reality / perception of reality",
+   "fa": "برداشت از واقعیت",
+   "ps": "د واقعیت درک",
+   "fr": "conception de la réalité",
+   "tr": "gerçeklik anlayışı"
+  },
+  "examples": {
+   "de": "Jede Kultur prägt die Wirklichkeitsauffassung ihrer Mitglieder."
+  }
+ },
+ {
+  "id": "wC1-2-0412",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "ethische Prinzip",
+   "en": "ethical principle",
+   "fa": "اصل اخلاقی",
+   "ps": "اخلاقي اصل",
+   "fr": "principe éthique",
+   "tr": "etik ilke"
+  },
+  "examples": {
+   "de": "Das ethische Prinzip der Menschenwürde steht über allen anderen Werten."
+  }
+ },
+ {
+  "id": "wC1-2-0413",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Existenzfragen",
+  "words": {
+   "de": "Existenzfrage",
+   "en": "existential question / matter of survival",
+   "fa": "مسئلهٔ وجودی / مسئلهٔ مرگ و زندگی",
+   "ps": "د وجود پوښتنه / د ژوند او مرګ مسئله",
+   "fr": "question existentielle / question de survie",
+   "tr": "varoluş sorusu / ölüm kalım meselesi"
+  },
+  "examples": {
+   "de": "Für viele kleine Betriebe ist die Energiekrise zur Existenzfrage geworden."
+  }
+ },
+ {
+  "id": "wC1-2-0414",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "moralische Imperativ",
+   "en": "moral imperative",
+   "fa": "الزام اخلاقی",
+   "ps": "اخلاقي حکم",
+   "fr": "impératif moral",
+   "tr": "ahlaki zorunluluk"
+  },
+  "examples": {
+   "de": "Der moralische Imperativ verlangt, Menschen in Not zu helfen."
+  }
+ },
+ {
+  "id": "wC1-2-0415",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Kausalitätsbeziehungen",
+  "words": {
+   "de": "Kausalitätsbeziehung",
+   "en": "causal relationship",
+   "fa": "رابطهٔ علّی",
+   "ps": "علّي اړیکه",
+   "fr": "relation de causalité",
+   "tr": "nedensellik ilişkisi"
+  },
+  "examples": {
+   "de": "Zwischen den beiden Phänomenen besteht keine nachweisbare Kausalitätsbeziehung."
+  }
+ },
+ {
+  "id": "wC1-2-0416",
+  "category": [
+   "school_learning",
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Deutungsfreiheit",
+   "en": "freedom of interpretation",
+   "fa": "آزادی تفسیر",
+   "ps": "د تفسیر آزادي",
+   "fr": "liberté d'interprétation",
+   "tr": "yorum özgürlüğü"
+  },
+  "examples": {
+   "de": "Das offene Ende des Romans lässt dem Leser große Deutungsfreiheit."
+  }
+ },
+ {
+  "id": "wC1-2-0417",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Schlüsse",
+  "words": {
+   "de": "Schluss",
+   "en": "conclusion / inference",
+   "fa": "نتیجه‌گیری / استنتاج",
+   "ps": "پایله / استنتاج",
+   "fr": "conclusion / déduction",
+   "tr": "sonuç / çıkarım"
+  },
+  "examples": {
+   "de": "Aus den vorliegenden Daten lässt sich kein eindeutiger Schluss ziehen."
+  }
+ },
+ {
+  "id": "wC1-2-0418",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Denkkategorien",
+  "words": {
+   "de": "Denkkategorie",
+   "en": "category of thought",
+   "fa": "مقولهٔ فکری",
+   "ps": "فکري کټګوري",
+   "fr": "catégorie de pensée",
+   "tr": "düşünce kategorisi"
+  },
+  "examples": {
+   "de": "Wir sollten uns von starren Denkkategorien wie Gut und Böse lösen."
+  }
+ },
+ {
+  "id": "wC1-2-0419",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Weltbilder",
+  "words": {
+   "de": "Weltbild",
+   "en": "worldview",
+   "fa": "جهان‌بینی",
+   "ps": "نړۍ لید",
+   "fr": "vision du monde",
+   "tr": "dünya görüşü"
+  },
+  "examples": {
+   "de": "Die Entdeckungen von Kopernikus veränderten das Weltbild der Menschen grundlegend."
+  }
+ },
+ {
+  "id": "wC1-2-0420",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Daseinsfragen",
+  "words": {
+   "de": "Daseinsfrage",
+   "en": "question of existence",
+   "fa": "پرسش هستی",
+   "ps": "د شتون پوښتنه",
+   "fr": "question de l'existence",
+   "tr": "varoluş sorusu"
+  },
+  "examples": {
+   "de": "Die Philosophie beschäftigt sich seit jeher mit den großen Daseinsfragen."
+  }
+ },
+ {
+  "id": "wC1-2-0421",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Vernunftbegabung",
+   "en": "capacity for reason / rationality",
+   "fa": "بهره‌مندی از عقل",
+   "ps": "د عقل لرلو وړتیا",
+   "fr": "faculté de raison",
+   "tr": "akıl yetisi"
+  },
+  "examples": {
+   "de": "Für Aristoteles ist die Vernunftbegabung das, was den Menschen vom Tier unterscheidet."
+  }
+ },
+ {
+  "id": "wC1-2-0422",
+  "category": [
+   "feelings_emotions",
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "ethische Reflexion",
+   "en": "ethical reflection",
+   "fa": "تأمل اخلاقی",
+   "ps": "اخلاقي غور",
+   "fr": "réflexion éthique",
+   "tr": "etik düşünme"
+  },
+  "examples": {
+   "de": "Neue Technologien erfordern eine sorgfältige ethische Reflexion."
+  }
+ },
+ {
+  "id": "wC1-2-0423",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Geltungsansprüche",
+  "words": {
+   "de": "Geltungsanspruch",
+   "en": "claim to validity",
+   "fa": "ادعای اعتبار",
+   "ps": "د اعتبار ادعا",
+   "fr": "prétention à la validité",
+   "tr": "geçerlilik iddiası"
+  },
+  "examples": {
+   "de": "Wissenschaftliche Aussagen erheben einen universellen Geltungsanspruch."
+  }
+ },
+ {
+  "id": "wC1-2-0424",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "das",
+  "plural": "Werturteile",
+  "words": {
+   "de": "Werturteil",
+   "en": "value judgement",
+   "fa": "داوری ارزشی",
+   "ps": "ارزښتي قضاوت",
+   "fr": "jugement de valeur",
+   "tr": "değer yargısı"
+  },
+  "examples": {
+   "de": "Ein guter Journalist trennt Fakten von persönlichen Werturteilen."
+  }
+ },
+ {
+  "id": "wC1-2-0425",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Urteilsvermögen",
+   "en": "judgement / discernment",
+   "fa": "قدرت تشخیص / قوهٔ داوری",
+   "ps": "د قضاوت وړتیا",
+   "fr": "discernement / jugement",
+   "tr": "muhakeme yeteneği"
+  },
+  "examples": {
+   "de": "Alkohol beeinträchtigt das Urteilsvermögen erheblich."
+  }
+ },
+ {
+  "id": "wC1-2-0426",
+  "category": [
+   "school_learning",
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "der",
+  "plural": "Perspektivenwechsel",
+  "words": {
+   "de": "Perspektivenwechsel",
+   "en": "change of perspective",
+   "fa": "تغییر دیدگاه",
+   "ps": "د لید بدلون",
+   "fr": "changement de perspective",
+   "tr": "bakış açısı değişikliği"
+  },
+  "examples": {
+   "de": "Ein Perspektivenwechsel hilft, die Position des Gegenübers besser zu verstehen."
+  }
+ },
+ {
+  "id": "wC1-2-0427",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Dialektik",
+   "en": "dialectics",
+   "fa": "دیالکتیک",
+   "ps": "ډیالکټیک",
+   "fr": "dialectique",
+   "tr": "diyalektik"
+  },
+  "examples": {
+   "de": "Hegels Dialektik beschreibt Entwicklung als Abfolge von These, Antithese und Synthese."
+  }
+ },
+ {
+  "id": "wC1-2-0428",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "begriffliche Schärfe",
+   "en": "conceptual precision / conceptual clarity",
+   "fa": "دقت مفهومی",
+   "ps": "مفهومي دقت",
+   "fr": "précision conceptuelle",
+   "tr": "kavramsal netlik"
+  },
+  "examples": {
+   "de": "Dem Aufsatz fehlt es an begrifflicher Schärfe."
+  }
+ },
+ {
+  "id": "wC1-2-0429",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Denkfiguren",
+  "words": {
+   "de": "Denkfigur",
+   "en": "figure of thought / thought pattern",
+   "fa": "الگوی فکری",
+   "ps": "فکري بڼه",
+   "fr": "figure de pensée",
+   "tr": "düşünce kalıbı"
+  },
+  "examples": {
+   "de": "Die Denkfigur des Gesellschaftsvertrags geht auf Hobbes und Rousseau zurück."
+  }
+ },
+ {
+  "id": "wC1-2-0430",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Erkenntniskritik",
+   "en": "epistemological critique / critique of knowledge",
+   "fa": "نقد شناخت",
+   "ps": "د پوهې نقد",
+   "fr": "critique de la connaissance",
+   "tr": "bilgi eleştirisi"
+  },
+  "examples": {
+   "de": "Kants Erkenntniskritik fragt nach den Grenzen des menschlichen Wissens."
+  }
+ },
+ {
+  "id": "wC1-2-0431",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Ontologie",
+   "en": "ontology",
+   "fa": "هستی‌شناسی",
+   "ps": "د وجود پېژندنه",
+   "fr": "ontologie",
+   "tr": "ontoloji / varlık bilimi"
+  },
+  "examples": {
+   "de": "Die Ontologie fragt nach dem Wesen des Seins."
+  }
+ },
+ {
+  "id": "wC1-2-0432",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Metaphysik",
+   "en": "metaphysics",
+   "fa": "مابعدالطبیعه / متافیزیک",
+   "ps": "متافزیک",
+   "fr": "métaphysique",
+   "tr": "metafizik"
+  },
+  "examples": {
+   "de": "Die Metaphysik untersucht, was jenseits der sinnlichen Erfahrung liegt."
+  }
+ },
+ {
+  "id": "wC1-2-0433",
+  "category": [
+   "school_learning",
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Zeitbewusstsein",
+   "en": "sense of time / time awareness",
+   "fa": "درک زمان",
+   "ps": "د وخت احساس",
+   "fr": "conscience du temps",
+   "tr": "zaman bilinci"
+  },
+  "examples": {
+   "de": "Im Urlaub verliert man leicht sein Zeitbewusstsein."
+  }
+ },
+ {
+  "id": "wC1-2-0434",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Teleologie",
+   "en": "teleology",
+   "fa": "غایت‌شناسی",
+   "ps": "غایت پېژندنه",
+   "fr": "téléologie",
+   "tr": "teleoloji / erekbilim"
+  },
+  "examples": {
+   "de": "Nach der Teleologie des Aristoteles strebt alles Seiende nach einem Ziel."
+  }
+ },
+ {
+  "id": "wC1-2-0435",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Begriffsbildung",
+   "en": "concept formation",
+   "fa": "مفهوم‌سازی",
+   "ps": "د مفهوم جوړونه",
+   "fr": "formation des concepts",
+   "tr": "kavram oluşturma"
+  },
+  "examples": {
+   "de": "Sprache spielt bei der Begriffsbildung von Kindern eine zentrale Rolle."
+  }
+ },
+ {
+  "id": "wC1-2-0436",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "philosophische Argument",
+   "en": "philosophical argument",
+   "fa": "استدلال فلسفی",
+   "ps": "فلسفي استدلال",
+   "fr": "argument philosophique",
+   "tr": "felsefi argüman"
+  },
+  "examples": {
+   "de": "Das philosophische Argument überzeugt durch seine klare Struktur."
+  }
+ },
+ {
+  "id": "wC1-2-0437",
+  "category": [
+   "feelings_emotions",
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "plural": "Wertediskussionen",
+  "words": {
+   "de": "Wertediskussion",
+   "en": "debate on values",
+   "fa": "بحث دربارهٔ ارزش‌ها",
+   "ps": "د ارزښتونو په اړه بحث",
+   "fr": "débat sur les valeurs",
+   "tr": "değerler tartışması"
+  },
+  "examples": {
+   "de": "Die Flüchtlingsfrage hat eine breite gesellschaftliche Wertediskussion ausgelöst."
+  }
+ },
+ {
+  "id": "wC1-2-0438",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Verantwortungspflicht",
+   "en": "duty of responsibility",
+   "fa": "وظیفهٔ مسئولیت‌پذیری",
+   "ps": "د مسؤلیت دنده",
+   "fr": "devoir de responsabilité",
+   "tr": "sorumluluk yükümlülüğü"
+  },
+  "examples": {
+   "de": "Unternehmen haben eine Verantwortungspflicht gegenüber kommenden Generationen."
+  }
+ },
+ {
+  "id": "wC1-2-0439",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Selbstvergewisserung",
+   "en": "self-reassurance / self-affirmation",
+   "fa": "اطمینان یافتن از خود",
+   "ps": "ځان ته ډاډ ورکول",
+   "fr": "réassurance de soi / affirmation de soi",
+   "tr": "kendinden emin olma / öz doğrulama"
+  },
+  "examples": {
+   "de": "Tagebuchschreiben dient vielen Menschen der Selbstvergewisserung."
+  }
+ }
+]

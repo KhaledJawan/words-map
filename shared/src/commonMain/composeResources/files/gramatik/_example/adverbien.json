@@ -1,0 +1,131 @@
+{
+  "order": 1,
+  "cover": "adverbien.webp",
+  "keywords": [
+    "Adverb",
+    "heute",
+    "hier",
+    "gern",
+    "oft"
+  ],
+  "title": {
+    "de": "Adverbien",
+    "en": "Adverbs",
+    "fa": "قیدها"
+  },
+  "description": {
+    "de": "Kleine Wörter, die sagen, wann, wo, wie oder wie oft etwas passiert.",
+    "en": "Small words that tell you when, where, how or how often something happens.",
+    "fa": "واژه‌های کوتاهی که می‌گویند کاری چه وقت، کجا، چطور یا چند بار انجام می‌شود."
+  },
+  "full_description": {
+    "de": "Ein Adverb gibt eine zusätzliche Information zum Verb oder zum ganzen Satz. Ein Adverb **verändert seine Form nie**: Es hat kein Genus, keinen Plural und keine Kasusendung.\n\nDie meisten Adverbien antworten auf eine von vier Fragen. **Wann?** heute, morgen, jetzt. **Wo?** hier, dort, oben. **Wie?** gern, zusammen, allein. **Wie oft?** immer, oft, manchmal, nie.\n\nDas Adverb steht meistens direkt nach dem Verb. Steht das Adverb am Satzanfang, bleibt das Verb auf Position 2 und das Subjekt kommt danach: **Heute** lerne ich Deutsch.",
+    "en": "An adverb gives extra information about a verb or a whole sentence. In German an adverb **never changes its form**: it has no gender, no plural and no case ending.\n\nMost adverbs answer one of four questions. **Wann?** (when): heute, morgen, jetzt. **Wo?** (where): hier, dort, oben. **Wie?** (how): gern, zusammen, allein. **Wie oft?** (how often): immer, oft, manchmal, nie.\n\nThe adverb usually stands right after the verb. If you start the sentence with the adverb, the verb stays in second position and the subject moves behind it: **Heute** lerne ich Deutsch.",
+    "fa": "قید اطلاعات بیشتری دربارهٔ فعل یا کل جمله می‌دهد. قید در آلمانی **هیچ‌وقت تغییر شکل نمی‌دهد**: نه جنس دارد، نه جمع و نه پایانهٔ حالت.\n\nبیشتر قیدها به یکی از این چهار پرسش پاسخ می‌دهند:\n**Wann** (چه وقت): heute, morgen, jetzt\n**Wo** (کجا): hier, dort, oben\n**Wie** (چطور): gern, zusammen, allein\n**Wie oft** (چند بار): immer, oft, manchmal, nie\n\nقید معمولاً درست بعد از فعل می‌آید. اگر جمله را با قید شروع کنی، فعل در جایگاه دوم می‌ماند و فاعل بعد از آن می‌آید:\n**Heute** lerne ich Deutsch"
+  },
+  "examples": [
+    {
+      "de": "Ich komme **heute**.",
+      "en": "I am coming **today**.",
+      "fa": "من **امروز** می‌آیم."
+    },
+    {
+      "de": "Wir wohnen **hier**.",
+      "en": "We live **here**.",
+      "fa": "ما **اینجا** زندگی می‌کنیم."
+    },
+    {
+      "de": "Er spielt **gern** Fußball.",
+      "en": "He **likes** playing football.",
+      "fa": "او فوتبال بازی کردن را **دوست دارد**."
+    },
+    {
+      "de": "**Manchmal** gehen wir ins Kino.",
+      "en": "**Sometimes** we go to the cinema.",
+      "fa": "ما **گاهی** به سینما می‌رویم."
+    }
+  ],
+  "questions": [
+    {
+      "question": {
+        "de": "Welches Wort ist ein Adverb der Zeit?",
+        "en": "Which word is an adverb of time?",
+        "fa": "کدام واژه قید زمان است؟"
+      },
+      "answers": [
+        "heute",
+        "hier",
+        "gern",
+        "allein"
+      ]
+    },
+    {
+      "question": {
+        "de": "Wo wohnst du? – Ich wohne ___.",
+        "en": "Fill the gap: Wo wohnst du? – Ich wohne ___.",
+        "fa": "جای خالی را پر کن: Wo wohnst du? – Ich wohne ___."
+      },
+      "answers": [
+        "hier",
+        "heute",
+        "oft",
+        "gern"
+      ]
+    },
+    {
+      "question": {
+        "de": "Welcher Satz ist richtig?",
+        "en": "Which sentence is correct?",
+        "fa": "کدام جمله درست است؟"
+      },
+      "answers": [
+        "Heute lerne ich Deutsch.",
+        "Heute ich lerne Deutsch.",
+        "Heute Deutsch lerne ich.",
+        "Ich heute Deutsch lerne."
+      ]
+    },
+    {
+      "question": {
+        "de": "Welches Adverb antwortet auf „Wie oft?“",
+        "en": "Which adverb answers „Wie oft?“ (how often)?",
+        "fa": "کدام قید به پرسش „Wie oft?“ (چند بار؟) پاسخ می‌دهد؟"
+      },
+      "answers": [
+        "manchmal",
+        "dort",
+        "morgen",
+        "zusammen"
+      ]
+    },
+    {
+      "question": {
+        "de": "Was stimmt?",
+        "en": "Which statement is true?",
+        "fa": "کدام گزاره درست است؟"
+      },
+      "answers": [
+        {
+          "de": "Adverbien haben keine Endungen.",
+          "en": "Adverbs have no endings.",
+          "fa": "قیدها پایانه ندارند."
+        },
+        {
+          "de": "Adverbien haben einen Artikel.",
+          "en": "Adverbs have an article.",
+          "fa": "قیدها حرف تعریف دارند."
+        },
+        {
+          "de": "Adverbien haben einen Plural.",
+          "en": "Adverbs have a plural.",
+          "fa": "قیدها جمع دارند."
+        },
+        {
+          "de": "Adverbien stehen immer am Satzende.",
+          "en": "Adverbs always come at the end of the sentence.",
+          "fa": "قیدها همیشه در پایان جمله می‌آیند."
+        }
+      ]
+    }
+  ]
+}

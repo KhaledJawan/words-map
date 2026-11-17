@@ -1,0 +1,63 @@
+{
+  "order": 10,
+  "title": "Vorstellung",
+  "description": {
+    "de": "Anna erzählt von sich, ihrer Familie und ihrem Sonntag.",
+    "en": "Anna talks about herself, her family and her Sundays.",
+    "fa": "آنا از خودش، خانواده‌اش و روز یکشنبه‌اش می‌گوید."
+  },
+  "keywords": [
+    "Vorstellung",
+    "Familie",
+    "Hobbys"
+  ],
+  "text": "Mein Name ist Anna. Ich komme aus Österreich und lebe seit drei Jahren in Deutschland. Ich bin 15 Jahre alt und habe zwei Geschwister: Meine Schwester heißt Klara und ist 13 Jahre alt, mein Bruder Michael ist 18 Jahre alt. Wir wohnen mit unseren Eltern in einem Haus in der Nähe von München. Meine Mutter ist Köchin, mein Vater arbeitet in einer Bank.\n\nIch lese gerne und mag Tiere: Wir haben einen Hund, zwei Katzen und im Garten einen Teich mit Goldfischen. Ich gehe auch gerne in die Schule, mein Lieblingsfach ist Mathematik. Physik und Chemie mag ich nicht so gerne.\n\nNach der Schule gehe ich oft mit meinen Freundinnen im Park spazieren, manchmal essen wir ein Eis. Am Samstag gehen wir oft ins Kino. Am Sonntag schlafe ich lange, dann koche ich mit meiner Mutter das Mittagessen. Nach dem Essen gehen wir mit dem Hund am See spazieren. Sonntag ist mein Lieblingstag!",
+  "questions": [
+    {
+      "question": "Wie alt ist Annas Schwester?",
+      "answers": [
+        "dreizehn Jahre",
+        "zwölf Jahre",
+        "vierzehn Jahre",
+        "fünfzehn Jahre"
+      ]
+    },
+    {
+      "question": "Wo arbeitet Annas Vater?",
+      "answers": [
+        "in einer Bank",
+        "in Österreich",
+        "im Kino",
+        "in der Schule"
+      ]
+    },
+    {
+      "question": "Was ist Annas Lieblingsfach in der Schule?",
+      "answers": [
+        "Mathematik",
+        "Physik",
+        "Chemie",
+        "Kochen"
+      ]
+    },
+    {
+      "question": "Was macht Anna nach der Schule?",
+      "answers": [
+        "Sie geht mit ihren Freundinnen spazieren.",
+        "Sie geht ins Kino.",
+        "Sie kocht das Mittagessen.",
+        "Sie schläft lange."
+      ]
+    },
+    {
+      "question": "Wo geht die Familie am Sonntag mit dem Hund spazieren?",
+      "answers": [
+        "am See",
+        "im Garten",
+        "im Park",
+        "im Haus"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/vorstellung/"
+}

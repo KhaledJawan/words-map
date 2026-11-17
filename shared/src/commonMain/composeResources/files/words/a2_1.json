@@ -1,0 +1,8488 @@
+[
+ {
+  "id": "wA2-1-0001",
+  "category": [
+   "feelings_emotions",
+   "adjective"
+  ],
+  "words": {
+   "de": "ängstlich",
+   "en": "anxious / scared",
+   "fa": "ترسناک / مضطرب",
+   "ps": "ډارېدلی / اندېښمن",
+   "fr": "anxieux / effrayé",
+   "tr": "endişeli / korkmuş"
+  }
+ },
+ {
+  "id": "wA2-1-0002",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich ärgern über",
+   "en": "to be annoyed about",
+   "fa": "عصبانی شدن دربارهٔ",
+   "ps": "له ... څخه خپه کېدل",
+   "fr": "être contrarié à propos de",
+   "tr": "bir şeyden rahatsız olmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "ärgere mich",
+    "du": "ärgerst dich",
+    "er/sie/es": "ärgert sich",
+    "wir": "ärgern uns",
+    "ihr": "ärgert euch",
+    "sie/Sie": "ärgern sich"
+   },
+   "Präteritum": {
+    "ich": "ärgerte mich",
+    "du": "ärgertest dich",
+    "er/sie/es": "ärgerte sich",
+    "wir": "ärgerten uns",
+    "ihr": "ärgertet euch",
+    "sie/Sie": "ärgerten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich geärgert",
+    "du": "hast dich geärgert",
+    "er/sie/es": "hat sich geärgert",
+    "wir": "haben uns geärgert",
+    "ihr": "habt euch geärgert",
+    "sie/Sie": "haben sich geärgert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich geärgert",
+    "du": "hattest dich geärgert",
+    "er/sie/es": "hatte sich geärgert",
+    "wir": "hatten uns geärgert",
+    "ihr": "hattet euch geärgert",
+    "sie/Sie": "hatten sich geärgert"
+   },
+   "Futur I": {
+    "ich": "werde mich ärgern",
+    "du": "wirst dich ärgern",
+    "er/sie/es": "wird sich ärgern",
+    "wir": "werden uns ärgern",
+    "ihr": "werdet euch ärgern",
+    "sie/Sie": "werden sich ärgern"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich ärgern",
+    "du": "würdest dich ärgern",
+    "er/sie/es": "würde sich ärgern",
+    "wir": "würden uns ärgern",
+    "ihr": "würdet euch ärgern",
+    "sie/Sie": "würden sich ärgern"
+   },
+   "Imperativ": {
+    "du": "ärgere dich!",
+    "ihr": "ärgert euch!",
+    "Sie": "ärgern Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0003",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Bild",
+   "en": "picture",
+   "fa": "تصویر",
+   "ps": "انځور",
+   "fr": "image",
+   "tr": "resim"
+  }
+ },
+ {
+  "id": "wA2-1-0004",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "dankbar",
+   "en": "thankful",
+   "fa": "سپاسگزار",
+   "ps": "منندوی",
+   "fr": "reconnaissant",
+   "tr": "minnettar"
+  }
+ },
+ {
+  "id": "wA2-1-0005",
+  "category": [
+   "feelings_emotions",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich freuen über",
+   "en": "to be happy about",
+   "fa": "خوشحال شدن دربارهٔ",
+   "ps": "له ... څخه خوشحالېدل",
+   "fr": "se réjouir de",
+   "tr": "bir şeyden memnun olmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "freue mich",
+    "du": "freust dich",
+    "er/sie/es": "freut sich",
+    "wir": "freuen uns",
+    "ihr": "freut euch",
+    "sie/Sie": "freuen sich"
+   },
+   "Präteritum": {
+    "ich": "freute mich",
+    "du": "freutest dich",
+    "er/sie/es": "freute sich",
+    "wir": "freuten uns",
+    "ihr": "freutet euch",
+    "sie/Sie": "freuten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich gefreut",
+    "du": "hast dich gefreut",
+    "er/sie/es": "hat sich gefreut",
+    "wir": "haben uns gefreut",
+    "ihr": "habt euch gefreut",
+    "sie/Sie": "haben sich gefreut"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich gefreut",
+    "du": "hattest dich gefreut",
+    "er/sie/es": "hatte sich gefreut",
+    "wir": "hatten uns gefreut",
+    "ihr": "hattet euch gefreut",
+    "sie/Sie": "hatten sich gefreut"
+   },
+   "Futur I": {
+    "ich": "werde mich freuen",
+    "du": "wirst dich freuen",
+    "er/sie/es": "wird sich freuen",
+    "wir": "werden uns freuen",
+    "ihr": "werdet euch freuen",
+    "sie/Sie": "werden sich freuen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich freuen",
+    "du": "würdest dich freuen",
+    "er/sie/es": "würde sich freuen",
+    "wir": "würden uns freuen",
+    "ihr": "würdet euch freuen",
+    "sie/Sie": "würden sich freuen"
+   },
+   "Imperativ": {
+    "du": "freu dich!",
+    "ihr": "freut euch!",
+    "Sie": "freuen Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0006",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Glück",
+   "en": "happiness / luck",
+   "fa": "خوشحالی / خوش‌شانسی",
+   "ps": "خوښي / نېکمرغي",
+   "fr": "bonheur / chance",
+   "tr": "mutluluk / şans"
+  }
+ },
+ {
+  "id": "wA2-1-0007",
+  "category": [
+   "feelings_emotions",
+   "adjective"
+  ],
+  "words": {
+   "de": "glücklich",
+   "en": "happy",
+   "fa": "خوشحال",
+   "ps": "خوشحال",
+   "fr": "heureux",
+   "tr": "mutlu"
+  }
+ },
+ {
+  "id": "wA2-1-0008",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich interessieren für",
+   "en": "to be interested in",
+   "fa": "علاقه‌مند بودن برای",
+   "ps": "په ... کې علاقه لرل",
+   "fr": "s'intéresser à",
+   "tr": "ilgi duymak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "interessiere mich",
+    "du": "interessierst dich",
+    "er/sie/es": "interessiert sich",
+    "wir": "interessieren uns",
+    "ihr": "interessiert euch",
+    "sie/Sie": "interessieren sich"
+   },
+   "Präteritum": {
+    "ich": "interessierte mich",
+    "du": "interessiertest dich",
+    "er/sie/es": "interessierte sich",
+    "wir": "interessierten uns",
+    "ihr": "interessiertet euch",
+    "sie/Sie": "interessierten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich interessiert",
+    "du": "hast dich interessiert",
+    "er/sie/es": "hat sich interessiert",
+    "wir": "haben uns interessiert",
+    "ihr": "habt euch interessiert",
+    "sie/Sie": "haben sich interessiert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich interessiert",
+    "du": "hattest dich interessiert",
+    "er/sie/es": "hatte sich interessiert",
+    "wir": "hatten uns interessiert",
+    "ihr": "hattet euch interessiert",
+    "sie/Sie": "hatten sich interessiert"
+   },
+   "Futur I": {
+    "ich": "werde mich interessieren",
+    "du": "wirst dich interessieren",
+    "er/sie/es": "wird sich interessieren",
+    "wir": "werden uns interessieren",
+    "ihr": "werdet euch interessieren",
+    "sie/Sie": "werden sich interessieren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich interessieren",
+    "du": "würdest dich interessieren",
+    "er/sie/es": "würde sich interessieren",
+    "wir": "würden uns interessieren",
+    "ihr": "würdet euch interessieren",
+    "sie/Sie": "würden sich interessieren"
+   },
+   "Imperativ": {
+    "du": "interessiere dich!",
+    "ihr": "interessiert euch!",
+    "Sie": "interessieren Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0009",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "leidtun",
+   "en": "to be sorry",
+   "fa": "احساس تأسف کردن",
+   "ps": "بښنه غوښتل",
+   "fr": "être désolé",
+   "tr": "üzgün olmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "tu leid",
+    "du": "tust leid",
+    "er/sie/es": "tut leid",
+    "wir": "tun leid",
+    "ihr": "tut leid",
+    "sie/Sie": "tun leid"
+   },
+   "Präteritum": {
+    "ich": "tat leid",
+    "du": "tatest leid",
+    "er/sie/es": "tat leid",
+    "wir": "taten leid",
+    "ihr": "tatet leid",
+    "sie/Sie": "taten leid"
+   },
+   "Perfekt": {
+    "ich": "habe leidgetan",
+    "du": "hast leidgetan",
+    "er/sie/es": "hat leidgetan",
+    "wir": "haben leidgetan",
+    "ihr": "habt leidgetan",
+    "sie/Sie": "haben leidgetan"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte leidgetan",
+    "du": "hattest leidgetan",
+    "er/sie/es": "hatte leidgetan",
+    "wir": "hatten leidgetan",
+    "ihr": "hattet leidgetan",
+    "sie/Sie": "hatten leidgetan"
+   },
+   "Futur I": {
+    "ich": "werde leidtun",
+    "du": "wirst leidtun",
+    "er/sie/es": "wird leidtun",
+    "wir": "werden leidtun",
+    "ihr": "werdet leidtun",
+    "sie/Sie": "werden leidtun"
+   },
+   "Konjunktiv II": {
+    "ich": "täte leid",
+    "du": "tätest leid",
+    "er/sie/es": "täte leid",
+    "wir": "täten leid",
+    "ihr": "tätet leid",
+    "sie/Sie": "täten leid"
+   },
+   "Imperativ": {
+    "du": "tu leid!",
+    "ihr": "tut leid!",
+    "Sie": "tun Sie leid!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0010",
+  "category": [
+   "feelings_emotions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Liebe",
+   "en": "love",
+   "fa": "عشق",
+   "ps": "مینه",
+   "fr": "amour",
+   "tr": "aşk"
+  }
+ },
+ {
+  "id": "wA2-1-0011",
+  "category": [
+   "feelings_emotions",
+   "adjective"
+  ],
+  "words": {
+   "de": "traurig",
+   "en": "sad",
+   "fa": "غمگین",
+   "ps": "خفه",
+   "fr": "triste",
+   "tr": "üzgün"
+  }
+ },
+ {
+  "id": "wA2-1-0012",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "überrascht",
+   "en": "surprised",
+   "fa": "غافلگیر شده",
+   "ps": "حیران",
+   "fr": "surpris",
+   "tr": "şaşırmış"
+  }
+ },
+ {
+  "id": "wA2-1-0014",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Unglück",
+   "en": "misfortune",
+   "fa": "بدشانسی",
+   "ps": "بدمرغي",
+   "fr": "malchance",
+   "tr": "talihsizlik"
+  }
+ },
+ {
+  "id": "wA2-1-0015",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "verliebt",
+   "en": "in love",
+   "fa": "عاشق",
+   "ps": "مېن",
+   "fr": "amoureux",
+   "tr": "aşık"
+  }
+ },
+ {
+  "id": "wA2-1-0016",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Vorsicht",
+   "en": "caution",
+   "fa": "احتیاط",
+   "ps": "احتیاط",
+   "fr": "prudence",
+   "tr": "dikkat"
+  }
+ },
+ {
+  "id": "wA2-1-0017",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich wundern über",
+   "en": "to be astonished about",
+   "fa": "شگفت‌زده شدن از",
+   "ps": "له ... څخه حیرانېدل",
+   "fr": "s'étonner de",
+   "tr": "şaşırmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "wundere mich",
+    "du": "wunderst dich",
+    "er/sie/es": "wundert sich",
+    "wir": "wundern uns",
+    "ihr": "wundert euch",
+    "sie/Sie": "wundern sich"
+   },
+   "Präteritum": {
+    "ich": "wunderte mich",
+    "du": "wundertest dich",
+    "er/sie/es": "wunderte sich",
+    "wir": "wunderten uns",
+    "ihr": "wundertet euch",
+    "sie/Sie": "wunderten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich gewundert",
+    "du": "hast dich gewundert",
+    "er/sie/es": "hat sich gewundert",
+    "wir": "haben uns gewundert",
+    "ihr": "habt euch gewundert",
+    "sie/Sie": "haben sich gewundert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich gewundert",
+    "du": "hattest dich gewundert",
+    "er/sie/es": "hatte sich gewundert",
+    "wir": "hatten uns gewundert",
+    "ihr": "hattet euch gewundert",
+    "sie/Sie": "hatten sich gewundert"
+   },
+   "Futur I": {
+    "ich": "werde mich wundern",
+    "du": "wirst dich wundern",
+    "er/sie/es": "wird sich wundern",
+    "wir": "werden uns wundern",
+    "ihr": "werdet euch wundern",
+    "sie/Sie": "werden sich wundern"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich wundern",
+    "du": "würdest dich wundern",
+    "er/sie/es": "würde sich wundern",
+    "wir": "würden uns wundern",
+    "ihr": "würdet euch wundern",
+    "sie/Sie": "würden sich wundern"
+   },
+   "Imperativ": {
+    "du": "wunder dich!",
+    "ihr": "wundert euch!",
+    "Sie": "wundern Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0018",
+  "category": [
+   "feelings_emotions",
+   "adjective"
+  ],
+  "words": {
+   "de": "wütend",
+   "en": "angry",
+   "fa": "عصبانی",
+   "ps": "غوسه",
+   "fr": "en colère",
+   "tr": "kızgın"
+  }
+ },
+ {
+  "id": "wA2-1-0019",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "zufrieden",
+   "en": "satisfied",
+   "fa": "راضی",
+   "ps": "راضي",
+   "fr": "satisfait",
+   "tr": "memnun"
+  }
+ },
+ {
+  "id": "wA2-1-0020",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "möglich",
+   "en": "possible",
+   "fa": "ممکن",
+   "ps": "ممکن",
+   "fr": "possible",
+   "tr": "mümkün"
+  }
+ },
+ {
+  "id": "wA2-1-0021",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "unmöglich",
+   "en": "impossible",
+   "fa": "ناممکن",
+   "ps": "ناممکن",
+   "fr": "impossible",
+   "tr": "imkansız"
+  }
+ },
+ {
+  "id": "wA2-1-0022",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "schnell",
+   "en": "fast",
+   "fa": "سریع",
+   "ps": "چټک",
+   "fr": "rapide",
+   "tr": "hızlı"
+  }
+ },
+ {
+  "id": "wA2-1-0023",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "langsam",
+   "en": "slow",
+   "fa": "آهسته",
+   "ps": "ورو",
+   "fr": "lent",
+   "tr": "yavaş"
+  }
+ },
+ {
+  "id": "wA2-1-0024",
+  "category": [
+   "feelings_emotions",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich schlecht/gut fühlen",
+   "en": "to feel bad/good",
+   "fa": "خوب/بد حس کردن",
+   "ps": "بد/ښه احساس کول",
+   "fr": "se sentir mal/bien",
+   "tr": "iyi/kötü hissetmek"
+  }
+ },
+ {
+  "id": "wA2-1-0025",
+  "category": [
+   "conversation_phrases",
+   "pronoun",
+   "article"
+  ],
+  "words": {
+   "de": "Das ist sehr schade.",
+   "en": "That is a pity.",
+   "fa": "این خیلی تأسف‌آور است.",
+   "ps": "دا ډېر د افسوس خبره ده.",
+   "fr": "C'est bien dommage.",
+   "tr": "Bu çok yazık."
+  }
+ },
+ {
+  "id": "wA2-1-0026",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "andere",
+   "en": "other",
+   "fa": "دیگری",
+   "ps": "بل",
+   "fr": "autre",
+   "tr": "diğer"
+  }
+ },
+ {
+  "id": "wA2-1-0027",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "echt",
+   "en": "really / truly",
+   "fa": "واقعاً",
+   "ps": "رښتیا",
+   "fr": "vraiment",
+   "tr": "gerçekten"
+  }
+ },
+ {
+  "id": "wA2-1-0028",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich erholen von",
+   "en": "to recover from",
+   "fa": "بهبود یافتن از",
+   "ps": "له ... څخه روغېدل",
+   "fr": "se remettre de",
+   "tr": "...dan iyileşmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "erhole mich",
+    "du": "erholst dich",
+    "er/sie/es": "erholt sich",
+    "wir": "erholen uns",
+    "ihr": "erholt euch",
+    "sie/Sie": "erholen sich"
+   },
+   "Präteritum": {
+    "ich": "erholte mich",
+    "du": "erholtest dich",
+    "er/sie/es": "erholte sich",
+    "wir": "erholten uns",
+    "ihr": "erholtet euch",
+    "sie/Sie": "erholten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich erholt",
+    "du": "hast dich erholt",
+    "er/sie/es": "hat sich erholt",
+    "wir": "haben uns erholt",
+    "ihr": "habt euch erholt",
+    "sie/Sie": "haben sich erholt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich erholt",
+    "du": "hattest dich erholt",
+    "er/sie/es": "hatte sich erholt",
+    "wir": "hatten uns erholt",
+    "ihr": "hattet euch erholt",
+    "sie/Sie": "hatten sich erholt"
+   },
+   "Futur I": {
+    "ich": "werde mich erholen",
+    "du": "wirst dich erholen",
+    "er/sie/es": "wird sich erholen",
+    "wir": "werden uns erholen",
+    "ihr": "werdet euch erholen",
+    "sie/Sie": "werden sich erholen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich erholen",
+    "du": "würdest dich erholen",
+    "er/sie/es": "würde sich erholen",
+    "wir": "würden uns erholen",
+    "ihr": "würdet euch erholen",
+    "sie/Sie": "würden sich erholen"
+   },
+   "Imperativ": {
+    "du": "erhole dich!",
+    "ihr": "erholt euch!",
+    "Sie": "erholen Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0029",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Freude",
+   "en": "joy",
+   "fa": "شادی",
+   "ps": "خوښي",
+   "fr": "joie",
+   "tr": "sevinç"
+  }
+ },
+ {
+  "id": "wA2-1-0030",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "fröhlich",
+   "en": "cheerful",
+   "fa": "خوشحال / بشاش",
+   "ps": "خوشاله",
+   "fr": "joyeux",
+   "tr": "neşeli"
+  }
+ },
+ {
+  "id": "wA2-1-0031",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich konzentrieren auf",
+   "en": "to concentrate on",
+   "fa": "متمرکز شدن روی",
+   "ps": "پر ... تمرکز کول",
+   "fr": "se concentrer sur",
+   "tr": "... üzerine odaklanmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "konzentriere mich",
+    "du": "konzentrierst dich",
+    "er/sie/es": "konzentriert sich",
+    "wir": "konzentrieren uns",
+    "ihr": "konzentriert euch",
+    "sie/Sie": "konzentrieren sich"
+   },
+   "Präteritum": {
+    "ich": "konzentrierte mich",
+    "du": "konzentriertest dich",
+    "er/sie/es": "konzentrierte sich",
+    "wir": "konzentrierten uns",
+    "ihr": "konzentriertet euch",
+    "sie/Sie": "konzentrierten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich konzentriert",
+    "du": "hast dich konzentriert",
+    "er/sie/es": "hat sich konzentriert",
+    "wir": "haben uns konzentriert",
+    "ihr": "habt euch konzentriert",
+    "sie/Sie": "haben sich konzentriert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich konzentriert",
+    "du": "hattest dich konzentriert",
+    "er/sie/es": "hatte sich konzentriert",
+    "wir": "hatten uns konzentriert",
+    "ihr": "hattet euch konzentriert",
+    "sie/Sie": "hatten sich konzentriert"
+   },
+   "Futur I": {
+    "ich": "werde mich konzentrieren",
+    "du": "wirst dich konzentrieren",
+    "er/sie/es": "wird sich konzentrieren",
+    "wir": "werden uns konzentrieren",
+    "ihr": "werdet euch konzentrieren",
+    "sie/Sie": "werden sich konzentrieren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich konzentrieren",
+    "du": "würdest dich konzentrieren",
+    "er/sie/es": "würde sich konzentrieren",
+    "wir": "würden uns konzentrieren",
+    "ihr": "würdet euch konzentrieren",
+    "sie/Sie": "würden sich konzentrieren"
+   },
+   "Imperativ": {
+    "du": "konzentriere dich!",
+    "ihr": "konzentriert euch!",
+    "Sie": "konzentrieren Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0032",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "lächeln",
+   "en": "to smile",
+   "fa": "لبخند زدن",
+   "ps": "مسکا کول",
+   "fr": "sourire",
+   "tr": "gülümsemek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "lächle",
+    "du": "lächelst",
+    "er/sie/es": "lächelt",
+    "wir": "lächeln",
+    "ihr": "lächelt",
+    "sie/Sie": "lächeln"
+   },
+   "Präteritum": {
+    "ich": "lächelte",
+    "du": "lächeltest",
+    "er/sie/es": "lächelte",
+    "wir": "lächelten",
+    "ihr": "lächeltet",
+    "sie/Sie": "lächelten"
+   },
+   "Perfekt": {
+    "ich": "habe gelächelt",
+    "du": "hast gelächelt",
+    "er/sie/es": "hat gelächelt",
+    "wir": "haben gelächelt",
+    "ihr": "habt gelächelt",
+    "sie/Sie": "haben gelächelt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gelächelt",
+    "du": "hattest gelächelt",
+    "er/sie/es": "hatte gelächelt",
+    "wir": "hatten gelächelt",
+    "ihr": "hattet gelächelt",
+    "sie/Sie": "hatten gelächelt"
+   },
+   "Futur I": {
+    "ich": "werde lächeln",
+    "du": "wirst lächeln",
+    "er/sie/es": "wird lächeln",
+    "wir": "werden lächeln",
+    "ihr": "werdet lächeln",
+    "sie/Sie": "werden lächeln"
+   },
+   "Konjunktiv II": {
+    "ich": "würde lächeln",
+    "du": "würdest lächeln",
+    "er/sie/es": "würde lächeln",
+    "wir": "würden lächeln",
+    "ihr": "würdet lächeln",
+    "sie/Sie": "würden lächeln"
+   },
+   "Imperativ": {
+    "du": "lächle!",
+    "ihr": "lächelt!",
+    "Sie": "lächeln Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0033",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "lachen",
+   "en": "to laugh",
+   "fa": "خندیدن",
+   "ps": "خندل",
+   "fr": "rire",
+   "tr": "gülmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "lache",
+    "du": "lachst",
+    "er/sie/es": "lacht",
+    "wir": "lachen",
+    "ihr": "lacht",
+    "sie/Sie": "lachen"
+   },
+   "Präteritum": {
+    "ich": "lachte",
+    "du": "lachtest",
+    "er/sie/es": "lachte",
+    "wir": "lachten",
+    "ihr": "lachtet",
+    "sie/Sie": "lachten"
+   },
+   "Perfekt": {
+    "ich": "habe gelacht",
+    "du": "hast gelacht",
+    "er/sie/es": "hat gelacht",
+    "wir": "haben gelacht",
+    "ihr": "habt gelacht",
+    "sie/Sie": "haben gelacht"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gelacht",
+    "du": "hattest gelacht",
+    "er/sie/es": "hatte gelacht",
+    "wir": "hatten gelacht",
+    "ihr": "hattet gelacht",
+    "sie/Sie": "hatten gelacht"
+   },
+   "Futur I": {
+    "ich": "werde lachen",
+    "du": "wirst lachen",
+    "er/sie/es": "wird lachen",
+    "wir": "werden lachen",
+    "ihr": "werdet lachen",
+    "sie/Sie": "werden lachen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde lachen",
+    "du": "würdest lachen",
+    "er/sie/es": "würde lachen",
+    "wir": "würden lachen",
+    "ihr": "würdet lachen",
+    "sie/Sie": "würden lachen"
+   },
+   "Imperativ": {
+    "du": "lache!",
+    "ihr": "lacht!",
+    "Sie": "lachen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0034",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "lustig",
+   "en": "funny",
+   "fa": "جالب / خنده‌دار",
+   "ps": "خندوونکی",
+   "fr": "drôle",
+   "tr": "komik"
+  }
+ },
+ {
+  "id": "wA2-1-0035",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "normal",
+   "en": "normal",
+   "fa": "عادی",
+   "ps": "عادي",
+   "fr": "normal",
+   "tr": "normal"
+  }
+ },
+ {
+  "id": "wA2-1-0036",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "verrückt",
+   "en": "crazy",
+   "fa": "دیوانه",
+   "ps": "لېونی",
+   "fr": "fou",
+   "tr": "deli"
+  }
+ },
+ {
+  "id": "wA2-1-0037",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "witzig",
+   "en": "witty / funny",
+   "fa": "بامزه",
+   "ps": "ټوکي کوونکی",
+   "fr": "drôle / spirituel",
+   "tr": "esprili / komik"
+  }
+ },
+ {
+  "id": "wA2-1-0038",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "aggressiv",
+   "en": "aggressive",
+   "fa": "تهاجمی",
+   "ps": "تهاجمي",
+   "fr": "agressif",
+   "tr": "agresif"
+  }
+ },
+ {
+  "id": "wA2-1-0039",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Dankbarkeit",
+   "en": "gratitude",
+   "fa": "سپاسگزاری",
+   "ps": "منندویي",
+   "fr": "gratitude",
+   "tr": "şükran"
+  }
+ },
+ {
+  "id": "wA2-1-0040",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "enttäuscht von",
+   "en": "disappointed by",
+   "fa": "ناامید بودن از",
+   "ps": "له ... څخه ناامېده کېدل",
+   "fr": "déçu par",
+   "tr": "hayal kırıklığına uğramış"
+  }
+ },
+ {
+  "id": "wA2-1-0041",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Gefühl",
+   "en": "feeling",
+   "fa": "احساس",
+   "ps": "احساس",
+   "fr": "sentiment",
+   "tr": "hissetmek"
+  }
+ },
+ {
+  "id": "wA2-1-0042",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "genervt von",
+   "en": "annoyed by",
+   "fa": "عصبی شدن از",
+   "ps": "له ... څخه تنګ شوی",
+   "fr": "énervé par",
+   "tr": "sinirli"
+  }
+ },
+ {
+  "id": "wA2-1-0043",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "geschockt von",
+   "en": "shocked by",
+   "fa": "شوک شدن از",
+   "ps": "له ... څخه سخت حېران شوی",
+   "fr": "choqué par",
+   "tr": "şok olmuş"
+  }
+ },
+ {
+  "id": "wA2-1-0044",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "gestresst von",
+   "en": "stressed by",
+   "fa": "مضطرب شدن از",
+   "ps": "له ... څخه تر فشار لاندې",
+   "fr": "stressé par",
+   "tr": "stresli"
+  }
+ },
+ {
+  "id": "wA2-1-0045",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Gewalt",
+   "en": "violence",
+   "fa": "خشونت",
+   "ps": "تاوتریخوالی",
+   "fr": "violence",
+   "tr": "şiddet"
+  }
+ },
+ {
+  "id": "wA2-1-0046",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "interessiert an",
+   "en": "interested in",
+   "fa": "علاقه‌مند به",
+   "ps": "په ... کې لېواله",
+   "fr": "intéressé par",
+   "tr": "ilgili"
+  }
+ },
+ {
+  "id": "wA2-1-0047",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Konflikt",
+   "en": "conflict",
+   "fa": "تنش / تعارض",
+   "ps": "شخړه",
+   "fr": "conflit",
+   "tr": "çatışma"
+  }
+ },
+ {
+  "id": "wA2-1-0048",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich melden bei",
+   "en": "to report to / to get in touch with",
+   "fa": "اطلاع دادن به",
+   "ps": "له ... سره اړیکه نیول",
+   "fr": "se signaler auprès de",
+   "tr": "ile iletişime geçmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "melde mich",
+    "du": "meldest dich",
+    "er/sie/es": "meldet sich",
+    "wir": "melden uns",
+    "ihr": "meldet euch",
+    "sie/Sie": "melden sich"
+   },
+   "Präteritum": {
+    "ich": "meldete mich",
+    "du": "meldetest dich",
+    "er/sie/es": "meldete sich",
+    "wir": "meldeten uns",
+    "ihr": "meldetet euch",
+    "sie/Sie": "meldeten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich gemeldet",
+    "du": "hast dich gemeldet",
+    "er/sie/es": "hat sich gemeldet",
+    "wir": "haben uns gemeldet",
+    "ihr": "habt euch gemeldet",
+    "sie/Sie": "haben sich gemeldet"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich gemeldet",
+    "du": "hattest dich gemeldet",
+    "er/sie/es": "hatte sich gemeldet",
+    "wir": "hatten uns gemeldet",
+    "ihr": "hattet euch gemeldet",
+    "sie/Sie": "hatten sich gemeldet"
+   },
+   "Futur I": {
+    "ich": "werde mich melden",
+    "du": "wirst dich melden",
+    "er/sie/es": "wird sich melden",
+    "wir": "werden uns melden",
+    "ihr": "werdet euch melden",
+    "sie/Sie": "werden sich melden"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich melden",
+    "du": "würdest dich melden",
+    "er/sie/es": "würde sich melden",
+    "wir": "würden uns melden",
+    "ihr": "würdet euch melden",
+    "sie/Sie": "würden sich melden"
+   },
+   "Imperativ": {
+    "du": "melde dich!",
+    "ihr": "meldet euch!",
+    "Sie": "melden Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0049",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "negativ",
+   "en": "negative",
+   "fa": "منفی",
+   "ps": "منفي",
+   "fr": "négatif",
+   "tr": "negatif"
+  }
+ },
+ {
+  "id": "wA2-1-0050",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "sauer auf",
+   "en": "angry at",
+   "fa": "عصبانی بودن از",
+   "ps": "پر ... قهر",
+   "fr": "en colère contre",
+   "tr": "kızgın olmak"
+  }
+ },
+ {
+  "id": "wA2-1-0051",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Streit",
+   "en": "argument / fight",
+   "fa": "دعوا",
+   "ps": "دعوا",
+   "fr": "dispute / combat",
+   "tr": "tartışma / kavga"
+  }
+ },
+ {
+  "id": "wA2-1-0052",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Training",
+   "en": "training",
+   "fa": "آموزش",
+   "ps": "تمرین",
+   "fr": "formation",
+   "tr": "eğitim"
+  }
+ },
+ {
+  "id": "wA2-1-0053",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich verabreden mit",
+   "en": "to make an appointment with",
+   "fa": "هماهنگ کردن با",
+   "ps": "له ... سره وخت ټاکل",
+   "fr": "prendre rendez-vous avec",
+   "tr": "randevu ayarlamak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "verabrede mich",
+    "du": "verabredest dich",
+    "er/sie/es": "verabredet sich",
+    "wir": "verabreden uns",
+    "ihr": "verabredet euch",
+    "sie/Sie": "verabreden sich"
+   },
+   "Präteritum": {
+    "ich": "verabredete mich",
+    "du": "verabredetest dich",
+    "er/sie/es": "verabredete sich",
+    "wir": "verabredeten uns",
+    "ihr": "verabredetet euch",
+    "sie/Sie": "verabredeten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich verabredet",
+    "du": "hast dich verabredet",
+    "er/sie/es": "hat sich verabredet",
+    "wir": "haben uns verabredet",
+    "ihr": "habt euch verabredet",
+    "sie/Sie": "haben sich verabredet"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich verabredet",
+    "du": "hattest dich verabredet",
+    "er/sie/es": "hatte sich verabredet",
+    "wir": "hatten uns verabredet",
+    "ihr": "hattet euch verabredet",
+    "sie/Sie": "hatten sich verabredet"
+   },
+   "Futur I": {
+    "ich": "werde mich verabreden",
+    "du": "wirst dich verabreden",
+    "er/sie/es": "wird sich verabreden",
+    "wir": "werden uns verabreden",
+    "ihr": "werdet euch verabreden",
+    "sie/Sie": "werden sich verabreden"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich verabreden",
+    "du": "würdest dich verabreden",
+    "er/sie/es": "würde sich verabreden",
+    "wir": "würden uns verabreden",
+    "ihr": "würdet euch verabreden",
+    "sie/Sie": "würden sich verabreden"
+   },
+   "Imperativ": {
+    "du": "verabrede dich!",
+    "ihr": "verabredet euch!",
+    "Sie": "verabreden Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0054",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Wut",
+   "en": "anger / rage",
+   "fa": "خشم",
+   "ps": "غوسه",
+   "fr": "colère / rage",
+   "tr": "öfke / öfke"
+  }
+ },
+ {
+  "id": "wA2-1-0055",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zufriedenheit",
+   "en": "contentment",
+   "fa": "رضایت",
+   "ps": "رضایت",
+   "fr": "contentement",
+   "tr": "memnuniyet"
+  }
+ },
+ {
+  "id": "wA2-1-0056",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Ernährung",
+   "en": "nutrition",
+   "fa": "تغذیه",
+   "ps": "تغذیه",
+   "fr": "nutrition",
+   "tr": "beslenme"
+  }
+ },
+ {
+  "id": "wA2-1-0057",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich ernähren",
+   "en": "to nourish oneself",
+   "fa": "تغذیه کردن",
+   "ps": "ځان ته خواړه برابرول",
+   "fr": "se nourrir",
+   "tr": "beslenmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "ernähre mich",
+    "du": "ernährst dich",
+    "er/sie/es": "ernährt sich",
+    "wir": "ernähren uns",
+    "ihr": "ernährt euch",
+    "sie/Sie": "ernähren sich"
+   },
+   "Präteritum": {
+    "ich": "ernährte mich",
+    "du": "ernährtest dich",
+    "er/sie/es": "ernährte sich",
+    "wir": "ernährten uns",
+    "ihr": "ernährtet euch",
+    "sie/Sie": "ernährten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich ernährt",
+    "du": "hast dich ernährt",
+    "er/sie/es": "hat sich ernährt",
+    "wir": "haben uns ernährt",
+    "ihr": "habt euch ernährt",
+    "sie/Sie": "haben sich ernährt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich ernährt",
+    "du": "hattest dich ernährt",
+    "er/sie/es": "hatte sich ernährt",
+    "wir": "hatten uns ernährt",
+    "ihr": "hattet euch ernährt",
+    "sie/Sie": "hatten sich ernährt"
+   },
+   "Futur I": {
+    "ich": "werde mich ernähren",
+    "du": "wirst dich ernähren",
+    "er/sie/es": "wird sich ernähren",
+    "wir": "werden uns ernähren",
+    "ihr": "werdet euch ernähren",
+    "sie/Sie": "werden sich ernähren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich ernähren",
+    "du": "würdest dich ernähren",
+    "er/sie/es": "würde sich ernähren",
+    "wir": "würden uns ernähren",
+    "ihr": "würdet euch ernähren",
+    "sie/Sie": "würden sich ernähren"
+   },
+   "Imperativ": {
+    "du": "ernähr dich!",
+    "ihr": "ernährt euch!",
+    "Sie": "ernähren Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0058",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "gesund leben",
+   "en": "to live healthily",
+   "fa": "سالم زندگی کردن",
+   "ps": "په سالمه توګه ژوند کول",
+   "fr": "vivre sainement",
+   "tr": "sağlıklı yaşamak"
+  }
+ },
+ {
+  "id": "wA2-1-0060",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Bewegung",
+   "en": "movement",
+   "fa": "تحرک",
+   "ps": "حرکت",
+   "fr": "mouvement",
+   "tr": "hareket"
+  }
+ },
+ {
+  "id": "wA2-1-0061",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich bewegen",
+   "en": "to move",
+   "fa": "تحرک داشتن / حرکت کردن",
+   "ps": "حرکت کول",
+   "fr": "se déplacer",
+   "tr": "hareket etmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "bewege mich",
+    "du": "bewegst dich",
+    "er/sie/es": "bewegt sich",
+    "wir": "bewegen uns",
+    "ihr": "bewegt euch",
+    "sie/Sie": "bewegen sich"
+   },
+   "Präteritum": {
+    "ich": "bewegte mich",
+    "du": "bewegtest dich",
+    "er/sie/es": "bewegte sich",
+    "wir": "bewegten uns",
+    "ihr": "bewegtet euch",
+    "sie/Sie": "bewegten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich bewegt",
+    "du": "hast dich bewegt",
+    "er/sie/es": "hat sich bewegt",
+    "wir": "haben uns bewegt",
+    "ihr": "habt euch bewegt",
+    "sie/Sie": "haben sich bewegt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich bewegt",
+    "du": "hattest dich bewegt",
+    "er/sie/es": "hatte sich bewegt",
+    "wir": "hatten uns bewegt",
+    "ihr": "hattet euch bewegt",
+    "sie/Sie": "hatten sich bewegt"
+   },
+   "Futur I": {
+    "ich": "werde mich bewegen",
+    "du": "wirst dich bewegen",
+    "er/sie/es": "wird sich bewegen",
+    "wir": "werden uns bewegen",
+    "ihr": "werdet euch bewegen",
+    "sie/Sie": "werden sich bewegen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich bewegen",
+    "du": "würdest dich bewegen",
+    "er/sie/es": "würde sich bewegen",
+    "wir": "würden uns bewegen",
+    "ihr": "würdet euch bewegen",
+    "sie/Sie": "würden sich bewegen"
+   },
+   "Imperativ": {
+    "du": "bewege dich!",
+    "ihr": "bewegt euch!",
+    "Sie": "bewegen Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0062",
+  "category": [
+   "city_transport",
+   "verb"
+  ],
+  "words": {
+   "de": "trainieren",
+   "en": "to train",
+   "fa": "تمرین کردن",
+   "ps": "تمرین کول",
+   "fr": "s'entraîner",
+   "tr": "antrenman yapmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "trainiere",
+    "du": "trainierst",
+    "er/sie/es": "trainiert",
+    "wir": "trainieren",
+    "ihr": "trainiert",
+    "sie/Sie": "trainieren"
+   },
+   "Präteritum": {
+    "ich": "trainierte",
+    "du": "trainiertest",
+    "er/sie/es": "trainierte",
+    "wir": "trainierten",
+    "ihr": "trainiertet",
+    "sie/Sie": "trainierten"
+   },
+   "Perfekt": {
+    "ich": "habe trainiert",
+    "du": "hast trainiert",
+    "er/sie/es": "hat trainiert",
+    "wir": "haben trainiert",
+    "ihr": "habt trainiert",
+    "sie/Sie": "haben trainiert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte trainiert",
+    "du": "hattest trainiert",
+    "er/sie/es": "hatte trainiert",
+    "wir": "hatten trainiert",
+    "ihr": "hattet trainiert",
+    "sie/Sie": "hatten trainiert"
+   },
+   "Futur I": {
+    "ich": "werde trainieren",
+    "du": "wirst trainieren",
+    "er/sie/es": "wird trainieren",
+    "wir": "werden trainieren",
+    "ihr": "werdet trainieren",
+    "sie/Sie": "werden trainieren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde trainieren",
+    "du": "würdest trainieren",
+    "er/sie/es": "würde trainieren",
+    "wir": "würden trainieren",
+    "ihr": "würdet trainieren",
+    "sie/Sie": "würden trainieren"
+   },
+   "Imperativ": {
+    "du": "trainier!",
+    "ihr": "trainiert!",
+    "Sie": "trainieren Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0063",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "fit sein",
+   "en": "to be fit",
+   "fa": "سالم و آماده بودن",
+   "ps": "فټ اوسېدل",
+   "fr": "être en forme",
+   "tr": "formda olmak"
+  }
+ },
+ {
+  "id": "wA2-1-0064",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Fitness",
+   "en": "fitness",
+   "fa": "تناسب اندام",
+   "ps": "فټنس",
+   "fr": "fitness",
+   "tr": "fitness"
+  }
+ },
+ {
+  "id": "wA2-1-0065",
+  "category": [
+   "hobbies_sports",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Fitnessstudio",
+   "en": "gym",
+   "fa": "باشگاه ورزشی",
+   "ps": "ورزشي کلب",
+   "fr": "salle de sport",
+   "tr": "spor salonu"
+  }
+ },
+ {
+  "id": "wA2-1-0066",
+  "category": [
+   "daily_life",
+   "verb",
+   "noun"
+  ],
+  "words": {
+   "de": "Sport treiben",
+   "en": "to do sports",
+   "fa": "ورزش کردن",
+   "ps": "ورزش کول",
+   "fr": "faire du sport",
+   "tr": "spor yapmak"
+  }
+ },
+ {
+  "id": "wA2-1-0067",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "joggen",
+   "en": "to jog",
+   "fa": "آهسته دویدن",
+   "ps": "ورو منډه وهل",
+   "fr": "faire du jogging",
+   "tr": "yavaş koşmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "jogge",
+    "du": "joggst",
+    "er/sie/es": "joggt",
+    "wir": "joggen",
+    "ihr": "joggt",
+    "sie/Sie": "joggen"
+   },
+   "Präteritum": {
+    "ich": "joggte",
+    "du": "joggtest",
+    "er/sie/es": "joggte",
+    "wir": "joggten",
+    "ihr": "joggtet",
+    "sie/Sie": "joggten"
+   },
+   "Perfekt": {
+    "ich": "habe gejoggt",
+    "du": "hast gejoggt",
+    "er/sie/es": "hat gejoggt",
+    "wir": "haben gejoggt",
+    "ihr": "habt gejoggt",
+    "sie/Sie": "haben gejoggt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gejoggt",
+    "du": "hattest gejoggt",
+    "er/sie/es": "hatte gejoggt",
+    "wir": "hatten gejoggt",
+    "ihr": "hattet gejoggt",
+    "sie/Sie": "hatten gejoggt"
+   },
+   "Futur I": {
+    "ich": "werde joggen",
+    "du": "wirst joggen",
+    "er/sie/es": "wird joggen",
+    "wir": "werden joggen",
+    "ihr": "werdet joggen",
+    "sie/Sie": "werden joggen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde joggen",
+    "du": "würdest joggen",
+    "er/sie/es": "würde joggen",
+    "wir": "würden joggen",
+    "ihr": "würdet joggen",
+    "sie/Sie": "würden joggen"
+   },
+   "Imperativ": {
+    "du": "jogge!",
+    "ihr": "joggt!",
+    "Sie": "joggen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0068",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "schwitzen",
+   "en": "to sweat",
+   "fa": "عرق کردن",
+   "ps": "خوله کول",
+   "fr": "suer",
+   "tr": "terlemek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "schwitze",
+    "du": "schwitzt",
+    "er/sie/es": "schwitzt",
+    "wir": "schwitzen",
+    "ihr": "schwitzt",
+    "sie/Sie": "schwitzen"
+   },
+   "Präteritum": {
+    "ich": "schwitzte",
+    "du": "schwitztest",
+    "er/sie/es": "schwitzte",
+    "wir": "schwitzten",
+    "ihr": "schwitztet",
+    "sie/Sie": "schwitzten"
+   },
+   "Perfekt": {
+    "ich": "habe geschwitzt",
+    "du": "hast geschwitzt",
+    "er/sie/es": "hat geschwitzt",
+    "wir": "haben geschwitzt",
+    "ihr": "habt geschwitzt",
+    "sie/Sie": "haben geschwitzt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geschwitzt",
+    "du": "hattest geschwitzt",
+    "er/sie/es": "hatte geschwitzt",
+    "wir": "hatten geschwitzt",
+    "ihr": "hattet geschwitzt",
+    "sie/Sie": "hatten geschwitzt"
+   },
+   "Futur I": {
+    "ich": "werde schwitzen",
+    "du": "wirst schwitzen",
+    "er/sie/es": "wird schwitzen",
+    "wir": "werden schwitzen",
+    "ihr": "werdet schwitzen",
+    "sie/Sie": "werden schwitzen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde schwitzen",
+    "du": "würdest schwitzen",
+    "er/sie/es": "würde schwitzen",
+    "wir": "würden schwitzen",
+    "ihr": "würdet schwitzen",
+    "sie/Sie": "würden schwitzen"
+   },
+   "Imperativ": {
+    "du": "schwitz!",
+    "ihr": "schwitzt!",
+    "Sie": "schwitzen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0070",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich verletzen",
+   "en": "to injure oneself",
+   "fa": "آسیب دیدن",
+   "ps": "ځان ژوبلول",
+   "fr": "se blesser",
+   "tr": "yaralanmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "verletze mich",
+    "du": "verletzt dich",
+    "er/sie/es": "verletzt sich",
+    "wir": "verletzen uns",
+    "ihr": "verletzt euch",
+    "sie/Sie": "verletzen sich"
+   },
+   "Präteritum": {
+    "ich": "verletzte mich",
+    "du": "verletztest dich",
+    "er/sie/es": "verletzte sich",
+    "wir": "verletzten uns",
+    "ihr": "verletztet euch",
+    "sie/Sie": "verletzten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich verletzt",
+    "du": "hast dich verletzt",
+    "er/sie/es": "hat sich verletzt",
+    "wir": "haben uns verletzt",
+    "ihr": "habt euch verletzt",
+    "sie/Sie": "haben sich verletzt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich verletzt",
+    "du": "hattest dich verletzt",
+    "er/sie/es": "hatte sich verletzt",
+    "wir": "hatten uns verletzt",
+    "ihr": "hattet euch verletzt",
+    "sie/Sie": "hatten sich verletzt"
+   },
+   "Futur I": {
+    "ich": "werde mich verletzen",
+    "du": "wirst dich verletzen",
+    "er/sie/es": "wird sich verletzen",
+    "wir": "werden uns verletzen",
+    "ihr": "werdet euch verletzen",
+    "sie/Sie": "werden sich verletzen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich verletzen",
+    "du": "würdest dich verletzen",
+    "er/sie/es": "würde sich verletzen",
+    "wir": "würden uns verletzen",
+    "ihr": "würdet euch verletzen",
+    "sie/Sie": "würden sich verletzen"
+   },
+   "Imperativ": {
+    "du": "verletze dich!",
+    "ihr": "verletzt euch!",
+    "Sie": "verletzen Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0071",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Verletzung",
+   "en": "injury",
+   "fa": "آسیب",
+   "ps": "ژوبله",
+   "fr": "blessure",
+   "tr": "yaralanma"
+  }
+ },
+ {
+  "id": "wA2-1-0072",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Unfall",
+   "en": "accident",
+   "fa": "حادثه",
+   "ps": "پېښه",
+   "fr": "accident",
+   "tr": "kaza"
+  }
+ },
+ {
+  "id": "wA2-1-0073",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Notarzt",
+   "en": "emergency doctor",
+   "fa": "پزشک اورژانس",
+   "ps": "بیړنی ډاکټر",
+   "fr": "médecin urgentiste",
+   "tr": "acil doktoru"
+  }
+ },
+ {
+  "id": "wA2-1-0074",
+  "category": [
+   "safety_emergency",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Krankenwagen",
+   "en": "ambulance",
+   "fa": "آمبولانس",
+   "ps": "امبولانس",
+   "fr": "ambulance",
+   "tr": "ambulans"
+  }
+ },
+ {
+  "id": "wA2-1-0075",
+  "category": [
+   "safety_emergency",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Notfall",
+   "en": "emergency",
+   "fa": "وضعیت اضطراری",
+   "ps": "بیړنی حالت",
+   "fr": "urgence",
+   "tr": "acil durum"
+  }
+ },
+ {
+  "id": "wA2-1-0076",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "verb",
+   "noun"
+  ],
+  "words": {
+   "de": "Hilfe rufen",
+   "en": "to call for help",
+   "fa": "کمک خواستن",
+   "ps": "د مرستې غږ کول",
+   "fr": "appeler à l'aide",
+   "tr": "yardım çağırmak"
+  }
+ },
+ {
+  "id": "wA2-1-0077",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Pflege",
+   "en": "care",
+   "fa": "مراقبت",
+   "ps": "پاملرنه",
+   "fr": "soins",
+   "tr": "bakım"
+  }
+ },
+ {
+  "id": "wA2-1-0078",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich pflegen",
+   "en": "to take care of oneself",
+   "fa": "مراقبت کردن از خود",
+   "ps": "له ځان څخه پاملرنه کول",
+   "fr": "prendre soin de soi",
+   "tr": "kendine iyi bakmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "pflege mich",
+    "du": "pflegst dich",
+    "er/sie/es": "pflegt sich",
+    "wir": "pflegen uns",
+    "ihr": "pflegt euch",
+    "sie/Sie": "pflegen sich"
+   },
+   "Präteritum": {
+    "ich": "pflegte mich",
+    "du": "pflegtest dich",
+    "er/sie/es": "pflegte sich",
+    "wir": "pflegten uns",
+    "ihr": "pflegtet euch",
+    "sie/Sie": "pflegten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich gepflegt",
+    "du": "hast dich gepflegt",
+    "er/sie/es": "hat sich gepflegt",
+    "wir": "haben uns gepflegt",
+    "ihr": "habt euch gepflegt",
+    "sie/Sie": "haben sich gepflegt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich gepflegt",
+    "du": "hattest dich gepflegt",
+    "er/sie/es": "hatte sich gepflegt",
+    "wir": "hatten uns gepflegt",
+    "ihr": "hattet euch gepflegt",
+    "sie/Sie": "hatten sich gepflegt"
+   },
+   "Futur I": {
+    "ich": "werde mich pflegen",
+    "du": "wirst dich pflegen",
+    "er/sie/es": "wird sich pflegen",
+    "wir": "werden uns pflegen",
+    "ihr": "werdet euch pflegen",
+    "sie/Sie": "werden sich pflegen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich pflegen",
+    "du": "würdest dich pflegen",
+    "er/sie/es": "würde sich pflegen",
+    "wir": "würden uns pflegen",
+    "ihr": "würdet euch pflegen",
+    "sie/Sie": "würden sich pflegen"
+   },
+   "Imperativ": {
+    "du": "pflege dich!",
+    "ihr": "pflegt euch!",
+    "Sie": "pflegen Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0079",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Haut",
+   "en": "skin",
+   "fa": "پوست",
+   "ps": "پوستکی",
+   "fr": "peau",
+   "tr": "cilt"
+  }
+ },
+ {
+  "id": "wA2-1-0080",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Creme",
+   "en": "cream",
+   "fa": "کرم",
+   "ps": "کریم",
+   "fr": "crème",
+   "tr": "krem"
+  }
+ },
+ {
+  "id": "wA2-1-0081",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "eincremen",
+   "en": "to apply cream",
+   "fa": "کرم زدن",
+   "ps": "کریم لګول",
+   "fr": "appliquer de la crème",
+   "tr": "krem sürmek"
+  }
+ },
+ {
+  "id": "wA2-1-0083",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zahnbürste",
+   "en": "toothbrush",
+   "fa": "مسواک",
+   "ps": "د غاښونو برش",
+   "fr": "brosse à dents",
+   "tr": "diş fırçası"
+  }
+ },
+ {
+  "id": "wA2-1-0084",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zahnpasta",
+   "en": "toothpaste",
+   "fa": "خمیر دندان",
+   "ps": "د غاښونو کریم",
+   "fr": "dentifrice",
+   "tr": "diş macunu"
+  }
+ },
+ {
+  "id": "wA2-1-0085",
+  "category": [
+   "daily_life",
+   "verb",
+   "noun"
+  ],
+  "words": {
+   "de": "Zähne putzen",
+   "en": "to brush teeth",
+   "fa": "مسواک زدن",
+   "ps": "غاښونه برش کول",
+   "fr": "se brosser les dents",
+   "tr": "diş fırçalamak"
+  }
+ },
+ {
+  "id": "wA2-1-0088",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Muskel",
+   "en": "muscle",
+   "fa": "عضله",
+   "ps": "عضله",
+   "fr": "muscle",
+   "tr": "kas"
+  }
+ },
+ {
+  "id": "wA2-1-0089",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Massage",
+   "en": "massage",
+   "fa": "ماساژ",
+   "ps": "مساج",
+   "fr": "massage",
+   "tr": "masaj"
+  }
+ },
+ {
+  "id": "wA2-1-0090",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "massieren",
+   "en": "to massage",
+   "fa": "ماساژ دادن",
+   "ps": "مساج کول",
+   "fr": "massager",
+   "tr": "masaj yapmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "massiere",
+    "du": "massierst",
+    "er/sie/es": "massiert",
+    "wir": "massieren",
+    "ihr": "massiert",
+    "sie/Sie": "massieren"
+   },
+   "Präteritum": {
+    "ich": "massierte",
+    "du": "massiertest",
+    "er/sie/es": "massierte",
+    "wir": "massierten",
+    "ihr": "massiertet",
+    "sie/Sie": "massierten"
+   },
+   "Perfekt": {
+    "ich": "habe massiert",
+    "du": "hast massiert",
+    "er/sie/es": "hat massiert",
+    "wir": "haben massiert",
+    "ihr": "habt massiert",
+    "sie/Sie": "haben massiert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte massiert",
+    "du": "hattest massiert",
+    "er/sie/es": "hatte massiert",
+    "wir": "hatten massiert",
+    "ihr": "hattet massiert",
+    "sie/Sie": "hatten massiert"
+   },
+   "Futur I": {
+    "ich": "werde massieren",
+    "du": "wirst massieren",
+    "er/sie/es": "wird massieren",
+    "wir": "werden massieren",
+    "ihr": "werdet massieren",
+    "sie/Sie": "werden massieren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde massieren",
+    "du": "würdest massieren",
+    "er/sie/es": "würde massieren",
+    "wir": "würden massieren",
+    "ihr": "würdet massieren",
+    "sie/Sie": "würden massieren"
+   },
+   "Imperativ": {
+    "du": "massiere!",
+    "ihr": "massiert!",
+    "Sie": "massieren Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0091",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Gewicht",
+   "en": "weight",
+   "fa": "وزن",
+   "ps": "وزن",
+   "fr": "poids",
+   "tr": "kilo"
+  }
+ },
+ {
+  "id": "wA2-1-0092",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "zunehmen",
+   "en": "to gain weight",
+   "fa": "اضافه وزن داشتن",
+   "ps": "وزن زیاتول",
+   "fr": "prendre du poids",
+   "tr": "kilo almak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "nehme zu",
+    "du": "nimmst zu",
+    "er/sie/es": "nimmt zu",
+    "wir": "nehmen zu",
+    "ihr": "nehmt zu",
+    "sie/Sie": "nehmen zu"
+   },
+   "Präteritum": {
+    "ich": "nahm zu",
+    "du": "nahmst zu",
+    "er/sie/es": "nahm zu",
+    "wir": "nahmen zu",
+    "ihr": "nahmt zu",
+    "sie/Sie": "nahmen zu"
+   },
+   "Perfekt": {
+    "ich": "habe zugenommen",
+    "du": "hast zugenommen",
+    "er/sie/es": "hat zugenommen",
+    "wir": "haben zugenommen",
+    "ihr": "habt zugenommen",
+    "sie/Sie": "haben zugenommen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte zugenommen",
+    "du": "hattest zugenommen",
+    "er/sie/es": "hatte zugenommen",
+    "wir": "hatten zugenommen",
+    "ihr": "hattet zugenommen",
+    "sie/Sie": "hatten zugenommen"
+   },
+   "Futur I": {
+    "ich": "werde zunehmen",
+    "du": "wirst zunehmen",
+    "er/sie/es": "wird zunehmen",
+    "wir": "werden zunehmen",
+    "ihr": "werdet zunehmen",
+    "sie/Sie": "werden zunehmen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde zunehmen",
+    "du": "würdest zunehmen",
+    "er/sie/es": "würde zunehmen",
+    "wir": "würden zunehmen",
+    "ihr": "würdet zunehmen",
+    "sie/Sie": "würden zunehmen"
+   },
+   "Imperativ": {
+    "du": "nimm zu!",
+    "ihr": "nehmt zu!",
+    "Sie": "nehmen Sie zu!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0093",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "abnehmen",
+   "en": "to lose weight",
+   "fa": "وزن کم کردن",
+   "ps": "وزن کمول",
+   "fr": "perdre du poids",
+   "tr": "kilo vermek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "nehme ab",
+    "du": "nimmst ab",
+    "er/sie/es": "nimmt ab",
+    "wir": "nehmen ab",
+    "ihr": "nehmt ab",
+    "sie/Sie": "nehmen ab"
+   },
+   "Präteritum": {
+    "ich": "nahm ab",
+    "du": "nahmst ab",
+    "er/sie/es": "nahm ab",
+    "wir": "nahmen ab",
+    "ihr": "nahmt ab",
+    "sie/Sie": "nahmen ab"
+   },
+   "Perfekt": {
+    "ich": "habe abgenommen",
+    "du": "hast abgenommen",
+    "er/sie/es": "hat abgenommen",
+    "wir": "haben abgenommen",
+    "ihr": "habt abgenommen",
+    "sie/Sie": "haben abgenommen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte abgenommen",
+    "du": "hattest abgenommen",
+    "er/sie/es": "hatte abgenommen",
+    "wir": "hatten abgenommen",
+    "ihr": "hattet abgenommen",
+    "sie/Sie": "hatten abgenommen"
+   },
+   "Futur I": {
+    "ich": "werde abnehmen",
+    "du": "wirst abnehmen",
+    "er/sie/es": "wird abnehmen",
+    "wir": "werden abnehmen",
+    "ihr": "werdet abnehmen",
+    "sie/Sie": "werden abnehmen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde abnehmen",
+    "du": "würdest abnehmen",
+    "er/sie/es": "würde abnehmen",
+    "wir": "würden abnehmen",
+    "ihr": "würdet abnehmen",
+    "sie/Sie": "würden abnehmen"
+   },
+   "Imperativ": {
+    "du": "nimm ab!",
+    "ihr": "nehmt ab!",
+    "Sie": "nehmen Sie ab!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0094",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "leicht",
+   "en": "light / easy",
+   "fa": "سبک / آسان",
+   "ps": "سپک / اسانه",
+   "fr": "léger / facile",
+   "tr": "hafif / kolay"
+  }
+ },
+ {
+  "id": "wA2-1-0095",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "schwer",
+   "en": "heavy / difficult",
+   "fa": "سنگین / سخت",
+   "ps": "دروند / سخت",
+   "fr": "lourd / difficile",
+   "tr": "ağır / zor"
+  }
+ },
+ {
+  "id": "wA2-1-0097",
+  "category": [
+   "conversation_phrases",
+   "verb",
+   "article"
+  ],
+  "words": {
+   "de": "den Termin vereinbaren",
+   "en": "to arrange an appointment",
+   "fa": "وقت گرفتن",
+   "ps": "وخت اخیستل",
+   "fr": "prendre rendez-vous",
+   "tr": "randevu ayarlamak"
+  }
+ },
+ {
+  "id": "wA2-1-0098",
+  "category": [
+   "daily_life",
+   "noun",
+   "school_learning"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Sprechstunde",
+   "en": "consultation hours",
+   "fa": "ساعات ویزیت",
+   "ps": "د ویزیت ساعتونه",
+   "fr": "heures de consultation",
+   "tr": "muayene saatleri"
+  },
+  "plural": "Sprechstunden",
+  "examples": {
+   "de": "Die Professorin bietet ihre Sprechstunde jeden Dienstag von zehn bis zwölf Uhr an."
+  }
+ },
+ {
+  "id": "wA2-1-0099",
+  "category": [
+   "places_buildings",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Praxis",
+   "en": "doctor's office",
+   "fa": "مطب",
+   "ps": "مطب",
+   "fr": "cabinet médical",
+   "tr": "muayenehane"
+  }
+ },
+ {
+  "id": "wA2-1-0100",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Untersuchung",
+   "en": "examination",
+   "fa": "معاینه",
+   "ps": "معاینه",
+   "fr": "examen",
+   "tr": "muayene"
+  }
+ },
+ {
+  "id": "wA2-1-0101",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "untersuchen",
+   "en": "to examine",
+   "fa": "معاینه کردن",
+   "ps": "معاینه کول",
+   "fr": "examiner",
+   "tr": "muayene etmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "untersuche",
+    "du": "untersuchst",
+    "er/sie/es": "untersucht",
+    "wir": "untersuchen",
+    "ihr": "untersucht",
+    "sie/Sie": "untersuchen"
+   },
+   "Präteritum": {
+    "ich": "untersuchte",
+    "du": "untersuchtest",
+    "er/sie/es": "untersuchte",
+    "wir": "untersuchten",
+    "ihr": "untersuchtet",
+    "sie/Sie": "untersuchten"
+   },
+   "Perfekt": {
+    "ich": "habe untersucht",
+    "du": "hast untersucht",
+    "er/sie/es": "hat untersucht",
+    "wir": "haben untersucht",
+    "ihr": "habt untersucht",
+    "sie/Sie": "haben untersucht"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte untersucht",
+    "du": "hattest untersucht",
+    "er/sie/es": "hatte untersucht",
+    "wir": "hatten untersucht",
+    "ihr": "hattet untersucht",
+    "sie/Sie": "hatten untersucht"
+   },
+   "Futur I": {
+    "ich": "werde untersuchen",
+    "du": "wirst untersuchen",
+    "er/sie/es": "wird untersuchen",
+    "wir": "werden untersuchen",
+    "ihr": "werdet untersuchen",
+    "sie/Sie": "werden untersuchen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde untersuchen",
+    "du": "würdest untersuchen",
+    "er/sie/es": "würde untersuchen",
+    "wir": "würden untersuchen",
+    "ihr": "würdet untersuchen",
+    "sie/Sie": "würden untersuchen"
+   },
+   "Imperativ": {
+    "du": "untersuche!",
+    "ihr": "untersucht!",
+    "Sie": "untersuchen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0103",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "gestresst sein",
+   "en": "to be stressed",
+   "fa": "استرس داشتن",
+   "ps": "سترس لرل",
+   "fr": "être stressé",
+   "tr": "stresli olmak"
+  }
+ },
+ {
+  "id": "wA2-1-0106",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "abschalten",
+   "en": "to switch off / disconnect",
+   "fa": "خاموش کردن / قطع ارتباط ذهنی",
+   "ps": "بندول / له ذهني فشار څخه ځان خلاصول",
+   "fr": "déconnecter / se déconnecter",
+   "tr": "kapatmak / zihni boşaltmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "schalte ab",
+    "du": "schaltest ab",
+    "er/sie/es": "schaltet ab",
+    "wir": "schalten ab",
+    "ihr": "schaltet ab",
+    "sie/Sie": "schalten ab"
+   },
+   "Präteritum": {
+    "ich": "schaltete ab",
+    "du": "schaltetest ab",
+    "er/sie/es": "schaltete ab",
+    "wir": "schalteten ab",
+    "ihr": "schaltetet ab",
+    "sie/Sie": "schalteten ab"
+   },
+   "Perfekt": {
+    "ich": "habe abgeschaltet",
+    "du": "hast abgeschaltet",
+    "er/sie/es": "hat abgeschaltet",
+    "wir": "haben abgeschaltet",
+    "ihr": "habt abgeschaltet",
+    "sie/Sie": "haben abgeschaltet"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte abgeschaltet",
+    "du": "hattest abgeschaltet",
+    "er/sie/es": "hatte abgeschaltet",
+    "wir": "hatten abgeschaltet",
+    "ihr": "hattet abgeschaltet",
+    "sie/Sie": "hatten abgeschaltet"
+   },
+   "Futur I": {
+    "ich": "werde abschalten",
+    "du": "wirst abschalten",
+    "er/sie/es": "wird abschalten",
+    "wir": "werden abschalten",
+    "ihr": "werdet abschalten",
+    "sie/Sie": "werden abschalten"
+   },
+   "Konjunktiv II": {
+    "ich": "würde abschalten",
+    "du": "würdest abschalten",
+    "er/sie/es": "würde abschalten",
+    "wir": "würden abschalten",
+    "ihr": "würdet abschalten",
+    "sie/Sie": "würden abschalten"
+   },
+   "Imperativ": {
+    "du": "schalt ab!",
+    "ihr": "schaltet ab!",
+    "Sie": "schalten Sie ab!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0108",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Ärger",
+   "en": "trouble / anger",
+   "fa": "مشکل / عصبانیت",
+   "ps": "ستونزه / غوسه",
+   "fr": "colère / problème",
+   "tr": "sorun / öfke"
+  }
+ },
+ {
+  "id": "wA2-1-0109",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Laune",
+   "en": "mood",
+   "fa": "حال / مود",
+   "ps": "مزاج",
+   "fr": "humeur",
+   "tr": "mood"
+  }
+ },
+ {
+  "id": "wA2-1-0110",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "gute Laune",
+   "en": "good mood",
+   "fa": "حال خوب",
+   "ps": "ښه مزاج",
+   "fr": "bonne humeur",
+   "tr": "iyi ruh hali"
+  }
+ },
+ {
+  "id": "wA2-1-0111",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "schlechte Laune",
+   "en": "bad mood",
+   "fa": "حال بد",
+   "ps": "بد مزاج",
+   "fr": "mauvaise humeur",
+   "tr": "kötü ruh hali"
+  }
+ },
+ {
+  "id": "wA2-1-0112",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich Sorgen machen",
+   "en": "to worry",
+   "fa": "نگران بودن",
+   "ps": "اندېښنه کول",
+   "fr": "s'inquiéter",
+   "tr": "endişelenmek"
+  }
+ },
+ {
+  "id": "wA2-1-0113",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Sorge",
+   "en": "worry",
+   "fa": "نگرانی",
+   "ps": "اندېښنه",
+   "fr": "inquiétude",
+   "tr": "endişe"
+  }
+ },
+ {
+  "id": "wA2-1-0114",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich überlegen",
+   "en": "to think about / consider",
+   "fa": "فکر کردن / سنجیدن",
+   "ps": "فکر کول / غور کول",
+   "fr": "réfléchir / considérer",
+   "tr": "düşünmek / değerlendirmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "überlege mich",
+    "du": "überlegst dich",
+    "er/sie/es": "überlegt sich",
+    "wir": "überlegen uns",
+    "ihr": "überlegt euch",
+    "sie/Sie": "überlegen sich"
+   },
+   "Präteritum": {
+    "ich": "überlegte mich",
+    "du": "überlegtest dich",
+    "er/sie/es": "überlegte sich",
+    "wir": "überlegten uns",
+    "ihr": "überlegtet euch",
+    "sie/Sie": "überlegten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich überlegt",
+    "du": "hast dich überlegt",
+    "er/sie/es": "hat sich überlegt",
+    "wir": "haben uns überlegt",
+    "ihr": "habt euch überlegt",
+    "sie/Sie": "haben sich überlegt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich überlegt",
+    "du": "hattest dich überlegt",
+    "er/sie/es": "hatte sich überlegt",
+    "wir": "hatten uns überlegt",
+    "ihr": "hattet euch überlegt",
+    "sie/Sie": "hatten sich überlegt"
+   },
+   "Futur I": {
+    "ich": "werde mich überlegen",
+    "du": "wirst dich überlegen",
+    "er/sie/es": "wird sich überlegen",
+    "wir": "werden uns überlegen",
+    "ihr": "werdet euch überlegen",
+    "sie/Sie": "werden sich überlegen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich überlegen",
+    "du": "würdest dich überlegen",
+    "er/sie/es": "würde sich überlegen",
+    "wir": "würden uns überlegen",
+    "ihr": "würdet euch überlegen",
+    "sie/Sie": "würden sich überlegen"
+   },
+   "Imperativ": {
+    "du": "überlege dich!",
+    "ihr": "überlegt euch!",
+    "Sie": "überlegen Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0115",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich beeilen",
+   "en": "to hurry",
+   "fa": "عجله کردن",
+   "ps": "بیړه کول",
+   "fr": "se dépêcher",
+   "tr": "acele etmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "beeile mich",
+    "du": "beeilst dich",
+    "er/sie/es": "beeilt sich",
+    "wir": "beeilen uns",
+    "ihr": "beeilt euch",
+    "sie/Sie": "beeilen sich"
+   },
+   "Präteritum": {
+    "ich": "beeilte mich",
+    "du": "beeiltest dich",
+    "er/sie/es": "beeilte sich",
+    "wir": "beeilten uns",
+    "ihr": "beeiltet euch",
+    "sie/Sie": "beeilten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich beeilt",
+    "du": "hast dich beeilt",
+    "er/sie/es": "hat sich beeilt",
+    "wir": "haben uns beeilt",
+    "ihr": "habt euch beeilt",
+    "sie/Sie": "haben sich beeilt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich beeilt",
+    "du": "hattest dich beeilt",
+    "er/sie/es": "hatte sich beeilt",
+    "wir": "hatten uns beeilt",
+    "ihr": "hattet euch beeilt",
+    "sie/Sie": "hatten sich beeilt"
+   },
+   "Futur I": {
+    "ich": "werde mich beeilen",
+    "du": "wirst dich beeilen",
+    "er/sie/es": "wird sich beeilen",
+    "wir": "werden uns beeilen",
+    "ihr": "werdet euch beeilen",
+    "sie/Sie": "werden sich beeilen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich beeilen",
+    "du": "würdest dich beeilen",
+    "er/sie/es": "würde sich beeilen",
+    "wir": "würden uns beeilen",
+    "ihr": "würdet euch beeilen",
+    "sie/Sie": "würden sich beeilen"
+   },
+   "Imperativ": {
+    "du": "beeile dich!",
+    "ihr": "beeilt euch!",
+    "Sie": "beeilen Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0116",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Pause",
+   "en": "break",
+   "fa": "استراحت",
+   "ps": "وقفه",
+   "fr": "pause",
+   "tr": "mola"
+  }
+ },
+ {
+  "id": "wA2-1-0117",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Erholung",
+   "en": "recovery / relaxation",
+   "fa": "بهبود / استراحت",
+   "ps": "ارام / رغېدنه",
+   "fr": "récupération / détente",
+   "tr": "iyileşme / dinlenme"
+  }
+ },
+ {
+  "id": "wA2-1-0118",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich erholen",
+   "en": "to recover / rest",
+   "fa": "بهبود یافتن / استراحت کردن",
+   "ps": "ارام کول / رغېدل",
+   "fr": "se rétablir / se reposer",
+   "tr": "iyileşmek / dinlenmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "erhole mich",
+    "du": "erholst dich",
+    "er/sie/es": "erholt sich",
+    "wir": "erholen uns",
+    "ihr": "erholt euch",
+    "sie/Sie": "erholen sich"
+   },
+   "Präteritum": {
+    "ich": "erholte mich",
+    "du": "erholtest dich",
+    "er/sie/es": "erholte sich",
+    "wir": "erholten uns",
+    "ihr": "erholtet euch",
+    "sie/Sie": "erholten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich erholt",
+    "du": "hast dich erholt",
+    "er/sie/es": "hat sich erholt",
+    "wir": "haben uns erholt",
+    "ihr": "habt euch erholt",
+    "sie/Sie": "haben sich erholt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich erholt",
+    "du": "hattest dich erholt",
+    "er/sie/es": "hatte sich erholt",
+    "wir": "hatten uns erholt",
+    "ihr": "hattet euch erholt",
+    "sie/Sie": "hatten sich erholt"
+   },
+   "Futur I": {
+    "ich": "werde mich erholen",
+    "du": "wirst dich erholen",
+    "er/sie/es": "wird sich erholen",
+    "wir": "werden uns erholen",
+    "ihr": "werdet euch erholen",
+    "sie/Sie": "werden sich erholen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich erholen",
+    "du": "würdest dich erholen",
+    "er/sie/es": "würde sich erholen",
+    "wir": "würden uns erholen",
+    "ihr": "würdet euch erholen",
+    "sie/Sie": "würden sich erholen"
+   },
+   "Imperativ": {
+    "du": "erhole dich!",
+    "ihr": "erholt euch!",
+    "Sie": "erholen Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0119",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "schaffen",
+   "en": "to manage / accomplish",
+   "fa": "از پس کاری برآمدن",
+   "ps": "بریالي کېدل / ترسره کول",
+   "fr": "réussir à / accomplir",
+   "tr": "başarmak / üstesinden gelmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "schaffe",
+    "du": "schaffst",
+    "er/sie/es": "schafft",
+    "wir": "schaffen",
+    "ihr": "schafft",
+    "sie/Sie": "schaffen"
+   },
+   "Präteritum": {
+    "ich": "schuf",
+    "du": "schufst",
+    "er/sie/es": "schuf",
+    "wir": "schufen",
+    "ihr": "schuft",
+    "sie/Sie": "schufen"
+   },
+   "Perfekt": {
+    "ich": "habe geschaffen",
+    "du": "hast geschaffen",
+    "er/sie/es": "hat geschaffen",
+    "wir": "haben geschaffen",
+    "ihr": "habt geschaffen",
+    "sie/Sie": "haben geschaffen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geschaffen",
+    "du": "hattest geschaffen",
+    "er/sie/es": "hatte geschaffen",
+    "wir": "hatten geschaffen",
+    "ihr": "hattet geschaffen",
+    "sie/Sie": "hatten geschaffen"
+   },
+   "Futur I": {
+    "ich": "werde schaffen",
+    "du": "wirst schaffen",
+    "er/sie/es": "wird schaffen",
+    "wir": "werden schaffen",
+    "ihr": "werdet schaffen",
+    "sie/Sie": "werden schaffen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde schaffen",
+    "du": "würdest schaffen",
+    "er/sie/es": "würde schaffen",
+    "wir": "würden schaffen",
+    "ihr": "würdet schaffen",
+    "sie/Sie": "würden schaffen"
+   },
+   "Imperativ": {
+    "du": "schaffe!",
+    "ihr": "schafft!",
+    "Sie": "schaffen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0120",
+  "category": [
+   "work_office",
+   "verb"
+  ],
+  "words": {
+   "de": "klappen",
+   "en": "to work out / succeed",
+   "fa": "موفق شدن / جور در آمدن",
+   "ps": "سم برابرېدل / بریالي کېدل",
+   "fr": "fonctionner / réussir",
+   "tr": "işe yaramak / başarılı olmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "klappe",
+    "du": "klappst",
+    "er/sie/es": "klappt",
+    "wir": "klappen",
+    "ihr": "klappt",
+    "sie/Sie": "klappen"
+   },
+   "Präteritum": {
+    "ich": "klappte",
+    "du": "klapptest",
+    "er/sie/es": "klappte",
+    "wir": "klappten",
+    "ihr": "klapptet",
+    "sie/Sie": "klappten"
+   },
+   "Perfekt": {
+    "ich": "habe geklappt",
+    "du": "hast geklappt",
+    "er/sie/es": "hat geklappt",
+    "wir": "haben geklappt",
+    "ihr": "habt geklappt",
+    "sie/Sie": "haben geklappt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geklappt",
+    "du": "hattest geklappt",
+    "er/sie/es": "hatte geklappt",
+    "wir": "hatten geklappt",
+    "ihr": "hattet geklappt",
+    "sie/Sie": "hatten geklappt"
+   },
+   "Futur I": {
+    "ich": "werde klappen",
+    "du": "wirst klappen",
+    "er/sie/es": "wird klappen",
+    "wir": "werden klappen",
+    "ihr": "werdet klappen",
+    "sie/Sie": "werden klappen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde klappen",
+    "du": "würdest klappen",
+    "er/sie/es": "würde klappen",
+    "wir": "würden klappen",
+    "ihr": "würdet klappen",
+    "sie/Sie": "würden klappen"
+   },
+   "Imperativ": {
+    "du": "klappe!",
+    "ihr": "klappt!",
+    "Sie": "klappen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0121",
+  "category": [
+   "work_office",
+   "verb"
+  ],
+  "words": {
+   "de": "funktionieren",
+   "en": "to function / work",
+   "fa": "کار کردن",
+   "ps": "کار کول",
+   "fr": "fonctionner",
+   "tr": "çalışmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "funktioniere",
+    "du": "funktionierst",
+    "er/sie/es": "funktioniert",
+    "wir": "funktionieren",
+    "ihr": "funktioniert",
+    "sie/Sie": "funktionieren"
+   },
+   "Präteritum": {
+    "ich": "funktionierte",
+    "du": "funktioniertest",
+    "er/sie/es": "funktionierte",
+    "wir": "funktionierten",
+    "ihr": "funktioniertet",
+    "sie/Sie": "funktionierten"
+   },
+   "Perfekt": {
+    "ich": "habe funktioniert",
+    "du": "hast funktioniert",
+    "er/sie/es": "hat funktioniert",
+    "wir": "haben funktioniert",
+    "ihr": "habt funktioniert",
+    "sie/Sie": "haben funktioniert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte funktioniert",
+    "du": "hattest funktioniert",
+    "er/sie/es": "hatte funktioniert",
+    "wir": "hatten funktioniert",
+    "ihr": "hattet funktioniert",
+    "sie/Sie": "hatten funktioniert"
+   },
+   "Futur I": {
+    "ich": "werde funktionieren",
+    "du": "wirst funktionieren",
+    "er/sie/es": "wird funktionieren",
+    "wir": "werden funktionieren",
+    "ihr": "werdet funktionieren",
+    "sie/Sie": "werden funktionieren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde funktionieren",
+    "du": "würdest funktionieren",
+    "er/sie/es": "würde funktionieren",
+    "wir": "würden funktionieren",
+    "ihr": "würdet funktionieren",
+    "sie/Sie": "würden funktionieren"
+   },
+   "Imperativ": {
+    "du": "funktioniere!",
+    "ihr": "funktioniert!",
+    "Sie": "funktionieren Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0122",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich freuen auf",
+   "en": "to look forward to",
+   "fa": "مشتاق بودن برای",
+   "ps": "د ... په تمه خوشحالېدل",
+   "fr": "avoir hâte de",
+   "tr": "dört gözle beklemek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "freue mich",
+    "du": "freust dich",
+    "er/sie/es": "freut sich",
+    "wir": "freuen uns",
+    "ihr": "freut euch",
+    "sie/Sie": "freuen sich"
+   },
+   "Präteritum": {
+    "ich": "freute mich",
+    "du": "freutest dich",
+    "er/sie/es": "freute sich",
+    "wir": "freuten uns",
+    "ihr": "freutet euch",
+    "sie/Sie": "freuten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich gefreut",
+    "du": "hast dich gefreut",
+    "er/sie/es": "hat sich gefreut",
+    "wir": "haben uns gefreut",
+    "ihr": "habt euch gefreut",
+    "sie/Sie": "haben sich gefreut"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich gefreut",
+    "du": "hattest dich gefreut",
+    "er/sie/es": "hatte sich gefreut",
+    "wir": "hatten uns gefreut",
+    "ihr": "hattet euch gefreut",
+    "sie/Sie": "hatten sich gefreut"
+   },
+   "Futur I": {
+    "ich": "werde mich freuen",
+    "du": "wirst dich freuen",
+    "er/sie/es": "wird sich freuen",
+    "wir": "werden uns freuen",
+    "ihr": "werdet euch freuen",
+    "sie/Sie": "werden sich freuen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich freuen",
+    "du": "würdest dich freuen",
+    "er/sie/es": "würde sich freuen",
+    "wir": "würden uns freuen",
+    "ihr": "würdet euch freuen",
+    "sie/Sie": "würden sich freuen"
+   },
+   "Imperativ": {
+    "du": "freu dich!",
+    "ihr": "freut euch!",
+    "Sie": "freuen Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0123",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich bedanken für",
+   "en": "to thank for",
+   "fa": "تشکر کردن برای",
+   "ps": "د ... لپاره مننه کول",
+   "fr": "remercier pour",
+   "tr": "için teşekkür etmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "bedanke mich",
+    "du": "bedankst dich",
+    "er/sie/es": "bedankt sich",
+    "wir": "bedanken uns",
+    "ihr": "bedankt euch",
+    "sie/Sie": "bedanken sich"
+   },
+   "Präteritum": {
+    "ich": "bedankte mich",
+    "du": "bedanktest dich",
+    "er/sie/es": "bedankte sich",
+    "wir": "bedankten uns",
+    "ihr": "bedanktet euch",
+    "sie/Sie": "bedankten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich bedankt",
+    "du": "hast dich bedankt",
+    "er/sie/es": "hat sich bedankt",
+    "wir": "haben uns bedankt",
+    "ihr": "habt euch bedankt",
+    "sie/Sie": "haben sich bedankt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich bedankt",
+    "du": "hattest dich bedankt",
+    "er/sie/es": "hatte sich bedankt",
+    "wir": "hatten uns bedankt",
+    "ihr": "hattet euch bedankt",
+    "sie/Sie": "hatten sich bedankt"
+   },
+   "Futur I": {
+    "ich": "werde mich bedanken",
+    "du": "wirst dich bedanken",
+    "er/sie/es": "wird sich bedanken",
+    "wir": "werden uns bedanken",
+    "ihr": "werdet euch bedanken",
+    "sie/Sie": "werden sich bedanken"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich bedanken",
+    "du": "würdest dich bedanken",
+    "er/sie/es": "würde sich bedanken",
+    "wir": "würden uns bedanken",
+    "ihr": "würdet euch bedanken",
+    "sie/Sie": "würden sich bedanken"
+   },
+   "Imperativ": {
+    "du": "bedank dich!",
+    "ihr": "bedankt euch!",
+    "Sie": "bedanken Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0124",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "verb"
+  ],
+  "words": {
+   "de": "danken",
+   "en": "to thank",
+   "fa": "تشکر کردن",
+   "ps": "مننه کول",
+   "fr": "remercier",
+   "tr": "teşekkür etmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "danke",
+    "du": "dankst",
+    "er/sie/es": "dankt",
+    "wir": "danken",
+    "ihr": "dankt",
+    "sie/Sie": "danken"
+   },
+   "Präteritum": {
+    "ich": "dankte",
+    "du": "danktest",
+    "er/sie/es": "dankte",
+    "wir": "dankten",
+    "ihr": "danktet",
+    "sie/Sie": "dankten"
+   },
+   "Perfekt": {
+    "ich": "habe gedankt",
+    "du": "hast gedankt",
+    "er/sie/es": "hat gedankt",
+    "wir": "haben gedankt",
+    "ihr": "habt gedankt",
+    "sie/Sie": "haben gedankt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gedankt",
+    "du": "hattest gedankt",
+    "er/sie/es": "hatte gedankt",
+    "wir": "hatten gedankt",
+    "ihr": "hattet gedankt",
+    "sie/Sie": "hatten gedankt"
+   },
+   "Futur I": {
+    "ich": "werde danken",
+    "du": "wirst danken",
+    "er/sie/es": "wird danken",
+    "wir": "werden danken",
+    "ihr": "werdet danken",
+    "sie/Sie": "werden danken"
+   },
+   "Konjunktiv II": {
+    "ich": "würde danken",
+    "du": "würdest danken",
+    "er/sie/es": "würde danken",
+    "wir": "würden danken",
+    "ihr": "würdet danken",
+    "sie/Sie": "würden danken"
+   },
+   "Imperativ": {
+    "du": "dank!",
+    "ihr": "dankt!",
+    "Sie": "danken Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0126",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Vorschlag",
+   "en": "suggestion",
+   "fa": "پیشنهاد",
+   "ps": "وړاندیز",
+   "fr": "suggestion",
+   "tr": "öneri"
+  }
+ },
+ {
+  "id": "wA2-1-0127",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "vorschlagen",
+   "en": "to suggest",
+   "fa": "پیشنهاد دادن",
+   "ps": "وړاندیز کول",
+   "fr": "suggérer",
+   "tr": "önermek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "schlage vor",
+    "du": "schlägst vor",
+    "er/sie/es": "schlägt vor",
+    "wir": "schlagen vor",
+    "ihr": "schlagt vor",
+    "sie/Sie": "schlagen vor"
+   },
+   "Präteritum": {
+    "ich": "schlug vor",
+    "du": "schlugst vor",
+    "er/sie/es": "schlug vor",
+    "wir": "schlugen vor",
+    "ihr": "schlugt vor",
+    "sie/Sie": "schlugen vor"
+   },
+   "Perfekt": {
+    "ich": "habe vorgeschlagen",
+    "du": "hast vorgeschlagen",
+    "er/sie/es": "hat vorgeschlagen",
+    "wir": "haben vorgeschlagen",
+    "ihr": "habt vorgeschlagen",
+    "sie/Sie": "haben vorgeschlagen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte vorgeschlagen",
+    "du": "hattest vorgeschlagen",
+    "er/sie/es": "hatte vorgeschlagen",
+    "wir": "hatten vorgeschlagen",
+    "ihr": "hattet vorgeschlagen",
+    "sie/Sie": "hatten vorgeschlagen"
+   },
+   "Futur I": {
+    "ich": "werde vorschlagen",
+    "du": "wirst vorschlagen",
+    "er/sie/es": "wird vorschlagen",
+    "wir": "werden vorschlagen",
+    "ihr": "werdet vorschlagen",
+    "sie/Sie": "werden vorschlagen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde vorschlagen",
+    "du": "würdest vorschlagen",
+    "er/sie/es": "würde vorschlagen",
+    "wir": "würden vorschlagen",
+    "ihr": "würdet vorschlagen",
+    "sie/Sie": "würden vorschlagen"
+   },
+   "Imperativ": {
+    "du": "schlag vor!",
+    "ihr": "schlagt vor!",
+    "Sie": "schlagen Sie vor!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0128",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "raten",
+   "en": "to advise / guess",
+   "fa": "توصیه کردن / حدس زدن",
+   "ps": "مشوره ورکول / اټکل کول",
+   "fr": "conseiller / deviner",
+   "tr": "öğüt vermek / tahmin etmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "rate",
+    "du": "rätst",
+    "er/sie/es": "rät",
+    "wir": "raten",
+    "ihr": "ratet",
+    "sie/Sie": "raten"
+   },
+   "Präteritum": {
+    "ich": "riet",
+    "du": "rietest",
+    "er/sie/es": "riet",
+    "wir": "rieten",
+    "ihr": "rietet",
+    "sie/Sie": "rieten"
+   },
+   "Perfekt": {
+    "ich": "habe geraten",
+    "du": "hast geraten",
+    "er/sie/es": "hat geraten",
+    "wir": "haben geraten",
+    "ihr": "habt geraten",
+    "sie/Sie": "haben geraten"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geraten",
+    "du": "hattest geraten",
+    "er/sie/es": "hatte geraten",
+    "wir": "hatten geraten",
+    "ihr": "hattet geraten",
+    "sie/Sie": "hatten geraten"
+   },
+   "Futur I": {
+    "ich": "werde raten",
+    "du": "wirst raten",
+    "er/sie/es": "wird raten",
+    "wir": "werden raten",
+    "ihr": "werdet raten",
+    "sie/Sie": "werden raten"
+   },
+   "Konjunktiv II": {
+    "ich": "würde raten",
+    "du": "würdest raten",
+    "er/sie/es": "würde raten",
+    "wir": "würden raten",
+    "ihr": "würdet raten",
+    "sie/Sie": "würden raten"
+   },
+   "Imperativ": {
+    "du": "rate!",
+    "ihr": "ratet!",
+    "Sie": "raten Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0129",
+  "category": [
+   "health_body",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Gesundheit",
+   "en": "health",
+   "fa": "سلامتی",
+   "ps": "روغتیا",
+   "fr": "santé",
+   "tr": "sağlık"
+  }
+ },
+ {
+  "id": "wA2-1-0131",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "einschlafen",
+   "en": "to fall asleep",
+   "fa": "به خواب رفتن",
+   "ps": "ویده کېدل",
+   "fr": "s'endormir",
+   "tr": "uykuya dalmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "schlafe ein",
+    "du": "schläfst ein",
+    "er/sie/es": "schläft ein",
+    "wir": "schlafen ein",
+    "ihr": "schlaft ein",
+    "sie/Sie": "schlafen ein"
+   },
+   "Präteritum": {
+    "ich": "schlief ein",
+    "du": "schliefst ein",
+    "er/sie/es": "schlief ein",
+    "wir": "schliefen ein",
+    "ihr": "schlieft ein",
+    "sie/Sie": "schliefen ein"
+   },
+   "Perfekt": {
+    "ich": "bin eingeschlafen",
+    "du": "bist eingeschlafen",
+    "er/sie/es": "ist eingeschlafen",
+    "wir": "sind eingeschlafen",
+    "ihr": "seid eingeschlafen",
+    "sie/Sie": "sind eingeschlafen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war eingeschlafen",
+    "du": "warst eingeschlafen",
+    "er/sie/es": "war eingeschlafen",
+    "wir": "waren eingeschlafen",
+    "ihr": "wart eingeschlafen",
+    "sie/Sie": "waren eingeschlafen"
+   },
+   "Futur I": {
+    "ich": "werde einschlafen",
+    "du": "wirst einschlafen",
+    "er/sie/es": "wird einschlafen",
+    "wir": "werden einschlafen",
+    "ihr": "werdet einschlafen",
+    "sie/Sie": "werden einschlafen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde einschlafen",
+    "du": "würdest einschlafen",
+    "er/sie/es": "würde einschlafen",
+    "wir": "würden einschlafen",
+    "ihr": "würdet einschlafen",
+    "sie/Sie": "würden einschlafen"
+   },
+   "Imperativ": {
+    "du": "schlaf ein!",
+    "ihr": "schlaft ein!",
+    "Sie": "schlafen Sie ein!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0133",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Eindruck",
+   "en": "impression",
+   "fa": "برداشت / تصور",
+   "ps": "انګېرنه / تاثر",
+   "fr": "impression",
+   "tr": "izlenim"
+  }
+ },
+ {
+  "id": "wA2-1-0134",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "wirken",
+   "en": "to appear / seem",
+   "fa": "به نظر رسیدن",
+   "ps": "ښکارېدل / داسې برېښېدل",
+   "fr": "sembler",
+   "tr": "görünmek / gibi görünmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "wirke",
+    "du": "wirkst",
+    "er/sie/es": "wirkt",
+    "wir": "wirken",
+    "ihr": "wirkt",
+    "sie/Sie": "wirken"
+   },
+   "Präteritum": {
+    "ich": "wirkte",
+    "du": "wirktest",
+    "er/sie/es": "wirkte",
+    "wir": "wirkten",
+    "ihr": "wirktet",
+    "sie/Sie": "wirkten"
+   },
+   "Perfekt": {
+    "ich": "habe gewirkt",
+    "du": "hast gewirkt",
+    "er/sie/es": "hat gewirkt",
+    "wir": "haben gewirkt",
+    "ihr": "habt gewirkt",
+    "sie/Sie": "haben gewirkt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gewirkt",
+    "du": "hattest gewirkt",
+    "er/sie/es": "hatte gewirkt",
+    "wir": "hatten gewirkt",
+    "ihr": "hattet gewirkt",
+    "sie/Sie": "hatten gewirkt"
+   },
+   "Futur I": {
+    "ich": "werde wirken",
+    "du": "wirst wirken",
+    "er/sie/es": "wird wirken",
+    "wir": "werden wirken",
+    "ihr": "werdet wirken",
+    "sie/Sie": "werden wirken"
+   },
+   "Konjunktiv II": {
+    "ich": "würde wirken",
+    "du": "würdest wirken",
+    "er/sie/es": "würde wirken",
+    "wir": "würden wirken",
+    "ihr": "würdet wirken",
+    "sie/Sie": "würden wirken"
+   },
+   "Imperativ": {
+    "du": "wirk!",
+    "ihr": "wirkt!",
+    "Sie": "wirken Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0135",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "entspannt",
+   "en": "relaxed",
+   "fa": "ریلکس / آرام",
+   "ps": "ارام",
+   "fr": "détendu",
+   "tr": "rahatlamış"
+  }
+ },
+ {
+  "id": "wA2-1-0136",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "gestresst",
+   "en": "stressed",
+   "fa": "استرس‌دار",
+   "ps": "تر فشار لاندې",
+   "fr": "stressé",
+   "tr": "stresli"
+  }
+ },
+ {
+  "id": "wA2-1-0137",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "nervös",
+   "en": "nervous",
+   "fa": "عصبی / نگران",
+   "ps": "عصبي / اندېښمن",
+   "fr": "nerveux",
+   "tr": "sinirli / gergin"
+  }
+ },
+ {
+  "id": "wA2-1-0139",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "adjective"
+  ],
+  "words": {
+   "de": "unruhig",
+   "en": "restless",
+   "fa": "بی‌قرار",
+   "ps": "بې‌قراره",
+   "fr": "agité",
+   "tr": "huzursuz"
+  }
+ },
+ {
+  "id": "wA2-1-0140",
+  "category": [
+   "home_household",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Wohngemeinschaft (WG)",
+   "en": "shared apartment",
+   "fa": "خانهٔ مشترک / هم‌خانه‌ای",
+   "ps": "شريک کور (WG)",
+   "fr": "colocation (WG)",
+   "tr": "paylaşılan daire (WG)"
+  }
+ },
+ {
+  "id": "wA2-1-0141",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Mitbewohner",
+   "en": "roommate (male)",
+   "fa": "هم‌خانه (مرد)",
+   "ps": "هم‌کور (نارينه)",
+   "fr": "colocataire (homme)",
+   "tr": "erkek ev arkadaşı"
+  }
+ },
+ {
+  "id": "wA2-1-0142",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Mitbewohnerin",
+   "en": "roommate (female)",
+   "fa": "هم‌خانه (زن)",
+   "ps": "هم‌کوره (ښځه)",
+   "fr": "colocataire (femme)",
+   "tr": "kadın ev arkadaşı"
+  }
+ },
+ {
+  "id": "wA2-1-0143",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "teilen",
+   "en": "to share",
+   "fa": "تقسیم کردن / شریک شدن",
+   "ps": "شريکول",
+   "fr": "partager",
+   "tr": "paylaşmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "teile",
+    "du": "teilst",
+    "er/sie/es": "teilt",
+    "wir": "teilen",
+    "ihr": "teilt",
+    "sie/Sie": "teilen"
+   },
+   "Präteritum": {
+    "ich": "teilte",
+    "du": "teiltest",
+    "er/sie/es": "teilte",
+    "wir": "teilten",
+    "ihr": "teiltet",
+    "sie/Sie": "teilten"
+   },
+   "Perfekt": {
+    "ich": "habe geteilt",
+    "du": "hast geteilt",
+    "er/sie/es": "hat geteilt",
+    "wir": "haben geteilt",
+    "ihr": "habt geteilt",
+    "sie/Sie": "haben geteilt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geteilt",
+    "du": "hattest geteilt",
+    "er/sie/es": "hatte geteilt",
+    "wir": "hatten geteilt",
+    "ihr": "hattet geteilt",
+    "sie/Sie": "hatten geteilt"
+   },
+   "Futur I": {
+    "ich": "werde teilen",
+    "du": "wirst teilen",
+    "er/sie/es": "wird teilen",
+    "wir": "werden teilen",
+    "ihr": "werdet teilen",
+    "sie/Sie": "werden teilen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde teilen",
+    "du": "würdest teilen",
+    "er/sie/es": "würde teilen",
+    "wir": "würden teilen",
+    "ihr": "würdet teilen",
+    "sie/Sie": "würden teilen"
+   },
+   "Imperativ": {
+    "du": "teile!",
+    "ihr": "teilt!",
+    "Sie": "teilen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0144",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "zusammenleben",
+   "en": "to live together",
+   "fa": "با هم زندگی کردن",
+   "ps": "يو ځای ژوند کول",
+   "fr": "vivre ensemble",
+   "tr": "birlikte yaşamak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "lebe zusammen",
+    "du": "lebst zusammen",
+    "er/sie/es": "lebt zusammen",
+    "wir": "leben zusammen",
+    "ihr": "lebt zusammen",
+    "sie/Sie": "leben zusammen"
+   },
+   "Präteritum": {
+    "ich": "lebte zusammen",
+    "du": "lebtest zusammen",
+    "er/sie/es": "lebte zusammen",
+    "wir": "lebten zusammen",
+    "ihr": "lebtet zusammen",
+    "sie/Sie": "lebten zusammen"
+   },
+   "Perfekt": {
+    "ich": "habe zusammengelebt",
+    "du": "hast zusammengelebt",
+    "er/sie/es": "hat zusammengelebt",
+    "wir": "haben zusammengelebt",
+    "ihr": "habt zusammengelebt",
+    "sie/Sie": "haben zusammengelebt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte zusammengelebt",
+    "du": "hattest zusammengelebt",
+    "er/sie/es": "hatte zusammengelebt",
+    "wir": "hatten zusammengelebt",
+    "ihr": "hattet zusammengelebt",
+    "sie/Sie": "hatten zusammengelebt"
+   },
+   "Futur I": {
+    "ich": "werde zusammenleben",
+    "du": "wirst zusammenleben",
+    "er/sie/es": "wird zusammenleben",
+    "wir": "werden zusammenleben",
+    "ihr": "werdet zusammenleben",
+    "sie/Sie": "werden zusammenleben"
+   },
+   "Konjunktiv II": {
+    "ich": "würde zusammenleben",
+    "du": "würdest zusammenleben",
+    "er/sie/es": "würde zusammenleben",
+    "wir": "würden zusammenleben",
+    "ihr": "würdet zusammenleben",
+    "sie/Sie": "würden zusammenleben"
+   },
+   "Imperativ": {
+    "du": "leb zusammen!",
+    "ihr": "lebt zusammen!",
+    "Sie": "leben Sie zusammen!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0146",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Kaution",
+   "en": "deposit",
+   "fa": "ودیعه / پول پیش",
+   "ps": "ضمانت / امانت",
+   "fr": "caution",
+   "tr": "depozito"
+  }
+ },
+ {
+  "id": "wA2-1-0147",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Mietvertrag",
+   "en": "rental contract",
+   "fa": "قرارداد اجاره",
+   "ps": "د کرایې قرارداد",
+   "fr": "contrat de location",
+   "tr": "kira sözleşmesi"
+  }
+ },
+ {
+  "id": "wA2-1-0149",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Heizung",
+   "en": "heating",
+   "fa": "سیستم گرمایشی",
+   "ps": "د تودوخې سیستم",
+   "fr": "chauffage",
+   "tr": "ısıtma"
+  }
+ },
+ {
+  "id": "wA2-1-0150",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "heizen",
+   "en": "to heat",
+   "fa": "گرم کردن",
+   "ps": "تودول",
+   "fr": "chauffer",
+   "tr": "ısıtmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "heize",
+    "du": "heizt",
+    "er/sie/es": "heizt",
+    "wir": "heizen",
+    "ihr": "heizt",
+    "sie/Sie": "heizen"
+   },
+   "Präteritum": {
+    "ich": "heizte",
+    "du": "heiztest",
+    "er/sie/es": "heizte",
+    "wir": "heizten",
+    "ihr": "heiztet",
+    "sie/Sie": "heizten"
+   },
+   "Perfekt": {
+    "ich": "habe geheizt",
+    "du": "hast geheizt",
+    "er/sie/es": "hat geheizt",
+    "wir": "haben geheizt",
+    "ihr": "habt geheizt",
+    "sie/Sie": "haben geheizt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geheizt",
+    "du": "hattest geheizt",
+    "er/sie/es": "hatte geheizt",
+    "wir": "hatten geheizt",
+    "ihr": "hattet geheizt",
+    "sie/Sie": "hatten geheizt"
+   },
+   "Futur I": {
+    "ich": "werde heizen",
+    "du": "wirst heizen",
+    "er/sie/es": "wird heizen",
+    "wir": "werden heizen",
+    "ihr": "werdet heizen",
+    "sie/Sie": "werden heizen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde heizen",
+    "du": "würdest heizen",
+    "er/sie/es": "würde heizen",
+    "wir": "würden heizen",
+    "ihr": "würdet heizen",
+    "sie/Sie": "würden heizen"
+   },
+   "Imperativ": {
+    "du": "heiz!",
+    "ihr": "heizt!",
+    "Sie": "heizen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0151",
+  "category": [
+   "home_household",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Hausordnung",
+   "en": "house rules",
+   "fa": "قوانین ساختمان",
+   "ps": "د ودانۍ اصول",
+   "fr": "règlement intérieur",
+   "tr": "ev kuralları"
+  }
+ },
+ {
+  "id": "wA2-1-0153",
+  "category": [
+   "conversation_phrases",
+   "verb",
+   "article"
+  ],
+  "words": {
+   "de": "den Haushalt machen",
+   "en": "to do the housework",
+   "fa": "کارهای خانه را انجام دادن",
+   "ps": "د کور کارونه کول",
+   "fr": "faire le ménage",
+   "tr": "ev işleri yapmak"
+  }
+ },
+ {
+  "id": "wA2-1-0154",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "sauber",
+   "en": "clean",
+   "fa": "تمیز",
+   "ps": "پاک",
+   "fr": "propre",
+   "tr": "temiz"
+  }
+ },
+ {
+  "id": "wA2-1-0155",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "schmutzig",
+   "en": "dirty",
+   "fa": "کثیف",
+   "ps": "چټل",
+   "fr": "sale",
+   "tr": "kirli"
+  }
+ },
+ {
+  "id": "wA2-1-0157",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "waschen",
+   "en": "to wash",
+   "fa": "شستن",
+   "ps": "مینځل",
+   "fr": "laver",
+   "tr": "yıkamak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "wasche",
+    "du": "wäschst",
+    "er/sie/es": "wäscht",
+    "wir": "waschen",
+    "ihr": "wascht",
+    "sie/Sie": "waschen"
+   },
+   "Präteritum": {
+    "ich": "wusch",
+    "du": "wuschst",
+    "er/sie/es": "wusch",
+    "wir": "wuschen",
+    "ihr": "wuscht",
+    "sie/Sie": "wuschen"
+   },
+   "Perfekt": {
+    "ich": "habe gewaschen",
+    "du": "hast gewaschen",
+    "er/sie/es": "hat gewaschen",
+    "wir": "haben gewaschen",
+    "ihr": "habt gewaschen",
+    "sie/Sie": "haben gewaschen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gewaschen",
+    "du": "hattest gewaschen",
+    "er/sie/es": "hatte gewaschen",
+    "wir": "hatten gewaschen",
+    "ihr": "hattet gewaschen",
+    "sie/Sie": "hatten gewaschen"
+   },
+   "Futur I": {
+    "ich": "werde waschen",
+    "du": "wirst waschen",
+    "er/sie/es": "wird waschen",
+    "wir": "werden waschen",
+    "ihr": "werdet waschen",
+    "sie/Sie": "werden waschen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde waschen",
+    "du": "würdest waschen",
+    "er/sie/es": "würde waschen",
+    "wir": "würden waschen",
+    "ihr": "würdet waschen",
+    "sie/Sie": "würden waschen"
+   },
+   "Imperativ": {
+    "du": "wasche!",
+    "ihr": "wascht!",
+    "Sie": "waschen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0159",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Trockner",
+   "en": "dryer",
+   "fa": "خشک‌کن",
+   "ps": "وچوونکی",
+   "fr": "sèche-linge",
+   "tr": "kurutucu"
+  }
+ },
+ {
+  "id": "wA2-1-0160",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "spülen",
+   "en": "to wash dishes",
+   "fa": "ظرف شستن",
+   "ps": "لوښي مینځل",
+   "fr": "faire la vaisselle",
+   "tr": "bulaşık yıkamak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "spüle",
+    "du": "spülst",
+    "er/sie/es": "spült",
+    "wir": "spülen",
+    "ihr": "spült",
+    "sie/Sie": "spülen"
+   },
+   "Präteritum": {
+    "ich": "spülte",
+    "du": "spültest",
+    "er/sie/es": "spülte",
+    "wir": "spülten",
+    "ihr": "spültet",
+    "sie/Sie": "spülten"
+   },
+   "Perfekt": {
+    "ich": "habe gespült",
+    "du": "hast gespült",
+    "er/sie/es": "hat gespült",
+    "wir": "haben gespült",
+    "ihr": "habt gespült",
+    "sie/Sie": "haben gespült"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gespült",
+    "du": "hattest gespült",
+    "er/sie/es": "hatte gespült",
+    "wir": "hatten gespült",
+    "ihr": "hattet gespült",
+    "sie/Sie": "hatten gespült"
+   },
+   "Futur I": {
+    "ich": "werde spülen",
+    "du": "wirst spülen",
+    "er/sie/es": "wird spülen",
+    "wir": "werden spülen",
+    "ihr": "werdet spülen",
+    "sie/Sie": "werden spülen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde spülen",
+    "du": "würdest spülen",
+    "er/sie/es": "würde spülen",
+    "wir": "würden spülen",
+    "ihr": "würdet spülen",
+    "sie/Sie": "würden spülen"
+   },
+   "Imperativ": {
+    "du": "spül!",
+    "ihr": "spült!",
+    "Sie": "spülen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0161",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "abwaschen",
+   "en": "to wash up",
+   "fa": "ظرف شستن",
+   "ps": "لوښي پرېمنځل",
+   "fr": "faire la vaisselle",
+   "tr": "bulaşıkları yıkamak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "wasche ab",
+    "du": "wäschst ab",
+    "er/sie/es": "wäscht ab",
+    "wir": "waschen ab",
+    "ihr": "wascht ab",
+    "sie/Sie": "waschen ab"
+   },
+   "Präteritum": {
+    "ich": "wusch ab",
+    "du": "wuschst ab",
+    "er/sie/es": "wusch ab",
+    "wir": "wuschen ab",
+    "ihr": "wuscht ab",
+    "sie/Sie": "wuschen ab"
+   },
+   "Perfekt": {
+    "ich": "habe abgewaschen",
+    "du": "hast abgewaschen",
+    "er/sie/es": "hat abgewaschen",
+    "wir": "haben abgewaschen",
+    "ihr": "habt abgewaschen",
+    "sie/Sie": "haben abgewaschen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte abgewaschen",
+    "du": "hattest abgewaschen",
+    "er/sie/es": "hatte abgewaschen",
+    "wir": "hatten abgewaschen",
+    "ihr": "hattet abgewaschen",
+    "sie/Sie": "hatten abgewaschen"
+   },
+   "Futur I": {
+    "ich": "werde abwaschen",
+    "du": "wirst abwaschen",
+    "er/sie/es": "wird abwaschen",
+    "wir": "werden abwaschen",
+    "ihr": "werdet abwaschen",
+    "sie/Sie": "werden abwaschen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde abwaschen",
+    "du": "würdest abwaschen",
+    "er/sie/es": "würde abwaschen",
+    "wir": "würden abwaschen",
+    "ihr": "würdet abwaschen",
+    "sie/Sie": "würden abwaschen"
+   },
+   "Imperativ": {
+    "du": "wasch ab!",
+    "ihr": "wascht ab!",
+    "Sie": "waschen Sie ab!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0162",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Müll",
+   "en": "trash",
+   "fa": "زباله",
+   "ps": "کثافات",
+   "fr": "ordures",
+   "tr": "çöp"
+  }
+ },
+ {
+  "id": "wA2-1-0163",
+  "category": [
+   "conversation_phrases",
+   "verb",
+   "article"
+  ],
+  "words": {
+   "de": "den Müll wegbringen",
+   "en": "to take out the trash",
+   "fa": "زباله را بیرون بردن",
+   "ps": "کثافات بهر وړل",
+   "fr": "sortir les ordures",
+   "tr": "çöpü dışarı çıkarmak"
+  }
+ },
+ {
+  "id": "wA2-1-0164",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Mülltrennung",
+   "en": "waste separation",
+   "fa": "تفکیک زباله",
+   "ps": "د کثافاتو بېلول",
+   "fr": "tri des déchets",
+   "tr": "atık ayrımı"
+  }
+ },
+ {
+  "id": "wA2-1-0165",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Einrichtung",
+   "en": "furnishing",
+   "fa": "چیدمان / دکور",
+   "ps": "فرنیچر او سینګار",
+   "fr": "ameublement",
+   "tr": "mobilya düzeni"
+  }
+ },
+ {
+  "id": "wA2-1-0166",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "einrichten",
+   "en": "to furnish",
+   "fa": "چیدمان کردن",
+   "ps": "سمبالول",
+   "fr": "meubler",
+   "tr": "döşemek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "richte ein",
+    "du": "richtest ein",
+    "er/sie/es": "richtet ein",
+    "wir": "richten ein",
+    "ihr": "richtet ein",
+    "sie/Sie": "richten ein"
+   },
+   "Präteritum": {
+    "ich": "richtete ein",
+    "du": "richtetest ein",
+    "er/sie/es": "richtete ein",
+    "wir": "richteten ein",
+    "ihr": "richtetet ein",
+    "sie/Sie": "richteten ein"
+   },
+   "Perfekt": {
+    "ich": "habe eingerichtet",
+    "du": "hast eingerichtet",
+    "er/sie/es": "hat eingerichtet",
+    "wir": "haben eingerichtet",
+    "ihr": "habt eingerichtet",
+    "sie/Sie": "haben eingerichtet"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte eingerichtet",
+    "du": "hattest eingerichtet",
+    "er/sie/es": "hatte eingerichtet",
+    "wir": "hatten eingerichtet",
+    "ihr": "hattet eingerichtet",
+    "sie/Sie": "hatten eingerichtet"
+   },
+   "Futur I": {
+    "ich": "werde einrichten",
+    "du": "wirst einrichten",
+    "er/sie/es": "wird einrichten",
+    "wir": "werden einrichten",
+    "ihr": "werdet einrichten",
+    "sie/Sie": "werden einrichten"
+   },
+   "Konjunktiv II": {
+    "ich": "würde einrichten",
+    "du": "würdest einrichten",
+    "er/sie/es": "würde einrichten",
+    "wir": "würden einrichten",
+    "ihr": "würdet einrichten",
+    "sie/Sie": "würden einrichten"
+   },
+   "Imperativ": {
+    "du": "richte ein!",
+    "ihr": "richtet ein!",
+    "Sie": "richten Sie ein!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0177",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich wohlfühlen",
+   "en": "to feel comfortable",
+   "fa": "احساس راحتی داشتن",
+   "ps": "ځان ارام احساسول",
+   "fr": "se sentir bien",
+   "tr": "rahat hissetmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "fühle mich wohl",
+    "du": "fühlst dich wohl",
+    "er/sie/es": "fühlt sich wohl",
+    "wir": "fühlen uns wohl",
+    "ihr": "fühlt euch wohl",
+    "sie/Sie": "fühlen sich wohl"
+   },
+   "Präteritum": {
+    "ich": "fühlte mich wohl",
+    "du": "fühltest dich wohl",
+    "er/sie/es": "fühlte sich wohl",
+    "wir": "fühlten uns wohl",
+    "ihr": "fühltet euch wohl",
+    "sie/Sie": "fühlten sich wohl"
+   },
+   "Perfekt": {
+    "ich": "habe mich wohlgefühlt",
+    "du": "hast dich wohlgefühlt",
+    "er/sie/es": "hat sich wohlgefühlt",
+    "wir": "haben uns wohlgefühlt",
+    "ihr": "habt euch wohlgefühlt",
+    "sie/Sie": "haben sich wohlgefühlt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich wohlgefühlt",
+    "du": "hattest dich wohlgefühlt",
+    "er/sie/es": "hatte sich wohlgefühlt",
+    "wir": "hatten uns wohlgefühlt",
+    "ihr": "hattet euch wohlgefühlt",
+    "sie/Sie": "hatten sich wohlgefühlt"
+   },
+   "Futur I": {
+    "ich": "werde mich wohlfühlen",
+    "du": "wirst dich wohlfühlen",
+    "er/sie/es": "wird sich wohlfühlen",
+    "wir": "werden uns wohlfühlen",
+    "ihr": "werdet euch wohlfühlen",
+    "sie/Sie": "werden sich wohlfühlen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich wohlfühlen",
+    "du": "würdest dich wohlfühlen",
+    "er/sie/es": "würde sich wohlfühlen",
+    "wir": "würden uns wohlfühlen",
+    "ihr": "würdet euch wohlfühlen",
+    "sie/Sie": "würden sich wohlfühlen"
+   },
+   "Imperativ": {
+    "du": "fühl dich wohl!",
+    "ihr": "fühlt euch wohl!",
+    "Sie": "fühlen Sie sich wohl!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0181",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich beschweren über",
+   "en": "to complain about",
+   "fa": "شکایت کردن از",
+   "ps": "د ... په اړه شکایت کول",
+   "fr": "se plaindre de",
+   "tr": "şikayet etmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "beschwere mich",
+    "du": "beschwerst dich",
+    "er/sie/es": "beschwert sich",
+    "wir": "beschweren uns",
+    "ihr": "beschwert euch",
+    "sie/Sie": "beschweren sich"
+   },
+   "Präteritum": {
+    "ich": "beschwerte mich",
+    "du": "beschwertest dich",
+    "er/sie/es": "beschwerte sich",
+    "wir": "beschwerten uns",
+    "ihr": "beschwertet euch",
+    "sie/Sie": "beschwerten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich beschwert",
+    "du": "hast dich beschwert",
+    "er/sie/es": "hat sich beschwert",
+    "wir": "haben uns beschwert",
+    "ihr": "habt euch beschwert",
+    "sie/Sie": "haben sich beschwert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich beschwert",
+    "du": "hattest dich beschwert",
+    "er/sie/es": "hatte sich beschwert",
+    "wir": "hatten uns beschwert",
+    "ihr": "hattet euch beschwert",
+    "sie/Sie": "hatten sich beschwert"
+   },
+   "Futur I": {
+    "ich": "werde mich beschweren",
+    "du": "wirst dich beschweren",
+    "er/sie/es": "wird sich beschweren",
+    "wir": "werden uns beschweren",
+    "ihr": "werdet euch beschweren",
+    "sie/Sie": "werden sich beschweren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich beschweren",
+    "du": "würdest dich beschweren",
+    "er/sie/es": "würde sich beschweren",
+    "wir": "würden uns beschweren",
+    "ihr": "würdet euch beschweren",
+    "sie/Sie": "würden sich beschweren"
+   },
+   "Imperativ": {
+    "du": "beschwere dich!",
+    "ihr": "beschwert euch!",
+    "Sie": "beschweren Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0182",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Beschwerde",
+   "en": "complaint",
+   "fa": "شکایت",
+   "ps": "شکایت",
+   "fr": "plainte",
+   "tr": "şikayet"
+  }
+ },
+ {
+  "id": "wA2-1-0184",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Arbeitsplatz",
+   "en": "workplace",
+   "fa": "محل کار",
+   "ps": "د کار ځای",
+   "fr": "lieu de travail",
+   "tr": "iş yeri"
+  }
+ },
+ {
+  "id": "wA2-1-0185",
+  "category": [
+   "jobs_professions",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Stelle",
+   "en": "position (job)",
+   "fa": "موقعیت شغلی",
+   "ps": "دنده",
+   "fr": "poste",
+   "tr": "pozisyon"
+  }
+ },
+ {
+  "id": "wA2-1-0186",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Bewerbung",
+   "en": "application",
+   "fa": "درخواست شغلی / اپلای",
+   "ps": "د کار غوښتنلیک",
+   "fr": "candidature",
+   "tr": "başvuru"
+  }
+ },
+ {
+  "id": "wA2-1-0187",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich bewerben um",
+   "en": "to apply for",
+   "fa": "درخواست دادن برای",
+   "ps": "د ... لپاره غوښتنلیک ورکول",
+   "fr": "postuler à",
+   "tr": "başvurmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "bewerbe mich",
+    "du": "bewirbst dich",
+    "er/sie/es": "bewirbt sich",
+    "wir": "bewerben uns",
+    "ihr": "bewerbt euch",
+    "sie/Sie": "bewerben sich"
+   },
+   "Präteritum": {
+    "ich": "bewarb mich",
+    "du": "bewarbst dich",
+    "er/sie/es": "bewarb sich",
+    "wir": "bewarben uns",
+    "ihr": "bewarbt euch",
+    "sie/Sie": "bewarben sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich beworben",
+    "du": "hast dich beworben",
+    "er/sie/es": "hat sich beworben",
+    "wir": "haben uns beworben",
+    "ihr": "habt euch beworben",
+    "sie/Sie": "haben sich beworben"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich beworben",
+    "du": "hattest dich beworben",
+    "er/sie/es": "hatte sich beworben",
+    "wir": "hatten uns beworben",
+    "ihr": "hattet euch beworben",
+    "sie/Sie": "hatten sich beworben"
+   },
+   "Futur I": {
+    "ich": "werde mich bewerben",
+    "du": "wirst dich bewerben",
+    "er/sie/es": "wird sich bewerben",
+    "wir": "werden uns bewerben",
+    "ihr": "werdet euch bewerben",
+    "sie/Sie": "werden sich bewerben"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich bewerben",
+    "du": "würdest dich bewerben",
+    "er/sie/es": "würde sich bewerben",
+    "wir": "würden uns bewerben",
+    "ihr": "würdet euch bewerben",
+    "sie/Sie": "würden sich bewerben"
+   },
+   "Imperativ": {
+    "du": "bewirb dich!",
+    "ihr": "bewerbt euch!",
+    "Sie": "bewerben Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0188",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Lebenslauf",
+   "en": "CV / résumé",
+   "fa": "رزومه",
+   "ps": "سي وي / رزومه",
+   "fr": "CV / résumé",
+   "tr": "özgeçmiş"
+  }
+ },
+ {
+  "id": "wA2-1-0189",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Vorstellungsgespräch",
+   "en": "job interview",
+   "fa": "مصاحبه کاری",
+   "ps": "د کار مرکه",
+   "fr": "entretien d'embauche",
+   "tr": "iş görüşmesi"
+  }
+ },
+ {
+  "id": "wA2-1-0192",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Mitarbeiter",
+   "en": "employee (male)",
+   "fa": "کارمند (مرد)",
+   "ps": "کارکوونکی (نارینه)",
+   "fr": "employé (homme)",
+   "tr": "çalışan (erkek)"
+  }
+ },
+ {
+  "id": "wA2-1-0193",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Mitarbeiterin",
+   "en": "employee (female)",
+   "fa": "کارمند (زن)",
+   "ps": "کارکوونکې (ښځینه)",
+   "fr": "employée (femme)",
+   "tr": "çalışan (kadın)"
+  }
+ },
+ {
+  "id": "wA2-1-0195",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Vertrag",
+   "en": "contract",
+   "fa": "قرارداد",
+   "ps": "قرارداد",
+   "fr": "contrat",
+   "tr": "sözleşme"
+  }
+ },
+ {
+  "id": "wA2-1-0196",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "unterschreiben",
+   "en": "to sign",
+   "fa": "امضا کردن",
+   "ps": "لاسلیک کول",
+   "fr": "signer",
+   "tr": "imzalamak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "unterschreibe",
+    "du": "unterschreibst",
+    "er/sie/es": "unterschreibt",
+    "wir": "unterschreiben",
+    "ihr": "unterschreibt",
+    "sie/Sie": "unterschreiben"
+   },
+   "Präteritum": {
+    "ich": "unterschrieb",
+    "du": "unterschriebst",
+    "er/sie/es": "unterschrieb",
+    "wir": "unterschrieben",
+    "ihr": "unterschriebt",
+    "sie/Sie": "unterschrieben"
+   },
+   "Perfekt": {
+    "ich": "habe unterschrieben",
+    "du": "hast unterschrieben",
+    "er/sie/es": "hat unterschrieben",
+    "wir": "haben unterschrieben",
+    "ihr": "habt unterschrieben",
+    "sie/Sie": "haben unterschrieben"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte unterschrieben",
+    "du": "hattest unterschrieben",
+    "er/sie/es": "hatte unterschrieben",
+    "wir": "hatten unterschrieben",
+    "ihr": "hattet unterschrieben",
+    "sie/Sie": "hatten unterschrieben"
+   },
+   "Futur I": {
+    "ich": "werde unterschreiben",
+    "du": "wirst unterschreiben",
+    "er/sie/es": "wird unterschreiben",
+    "wir": "werden unterschreiben",
+    "ihr": "werdet unterschreiben",
+    "sie/Sie": "werden unterschreiben"
+   },
+   "Konjunktiv II": {
+    "ich": "würde unterschreiben",
+    "du": "würdest unterschreiben",
+    "er/sie/es": "würde unterschreiben",
+    "wir": "würden unterschreiben",
+    "ihr": "würdet unterschreiben",
+    "sie/Sie": "würden unterschreiben"
+   },
+   "Imperativ": {
+    "du": "unterschreibe!",
+    "ihr": "unterschreibt!",
+    "Sie": "unterschreiben Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0197",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "kündigen",
+   "en": "to resign / quit",
+   "fa": "استعفا دادن",
+   "ps": "استعفا ورکول",
+   "fr": "démissionner",
+   "tr": "istifa etmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "kündige",
+    "du": "kündigst",
+    "er/sie/es": "kündigt",
+    "wir": "kündigen",
+    "ihr": "kündigt",
+    "sie/Sie": "kündigen"
+   },
+   "Präteritum": {
+    "ich": "kündigte",
+    "du": "kündigtest",
+    "er/sie/es": "kündigte",
+    "wir": "kündigten",
+    "ihr": "kündigtet",
+    "sie/Sie": "kündigten"
+   },
+   "Perfekt": {
+    "ich": "habe gekündigt",
+    "du": "hast gekündigt",
+    "er/sie/es": "hat gekündigt",
+    "wir": "haben gekündigt",
+    "ihr": "habt gekündigt",
+    "sie/Sie": "haben gekündigt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gekündigt",
+    "du": "hattest gekündigt",
+    "er/sie/es": "hatte gekündigt",
+    "wir": "hatten gekündigt",
+    "ihr": "hattet gekündigt",
+    "sie/Sie": "hatten gekündigt"
+   },
+   "Futur I": {
+    "ich": "werde kündigen",
+    "du": "wirst kündigen",
+    "er/sie/es": "wird kündigen",
+    "wir": "werden kündigen",
+    "ihr": "werdet kündigen",
+    "sie/Sie": "werden kündigen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde kündigen",
+    "du": "würdest kündigen",
+    "er/sie/es": "würde kündigen",
+    "wir": "würden kündigen",
+    "ihr": "würdet kündigen",
+    "sie/Sie": "würden kündigen"
+   },
+   "Imperativ": {
+    "du": "kündig!",
+    "ihr": "kündigt!",
+    "Sie": "kündigen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0198",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Kündigung",
+   "en": "termination / resignation",
+   "fa": "فسخ / استعفا",
+   "ps": "فسخ / استعفا",
+   "fr": "résiliation / démission",
+   "tr": "fesih / istifa"
+  }
+ },
+ {
+  "id": "wA2-1-0201",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "verdienen",
+   "en": "to earn",
+   "fa": "درآمد داشتن",
+   "ps": "عاید ترلاسه کول",
+   "fr": "gagner",
+   "tr": "kazanmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "verdiene",
+    "du": "verdienst",
+    "er/sie/es": "verdient",
+    "wir": "verdienen",
+    "ihr": "verdient",
+    "sie/Sie": "verdienen"
+   },
+   "Präteritum": {
+    "ich": "verdiente",
+    "du": "verdientest",
+    "er/sie/es": "verdiente",
+    "wir": "verdienten",
+    "ihr": "verdientet",
+    "sie/Sie": "verdienten"
+   },
+   "Perfekt": {
+    "ich": "habe verdient",
+    "du": "hast verdient",
+    "er/sie/es": "hat verdient",
+    "wir": "haben verdient",
+    "ihr": "habt verdient",
+    "sie/Sie": "haben verdient"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte verdient",
+    "du": "hattest verdient",
+    "er/sie/es": "hatte verdient",
+    "wir": "hatten verdient",
+    "ihr": "hattet verdient",
+    "sie/Sie": "hatten verdient"
+   },
+   "Futur I": {
+    "ich": "werde verdienen",
+    "du": "wirst verdienen",
+    "er/sie/es": "wird verdienen",
+    "wir": "werden verdienen",
+    "ihr": "werdet verdienen",
+    "sie/Sie": "werden verdienen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde verdienen",
+    "du": "würdest verdienen",
+    "er/sie/es": "würde verdienen",
+    "wir": "würden verdienen",
+    "ihr": "würdet verdienen",
+    "sie/Sie": "würden verdienen"
+   },
+   "Imperativ": {
+    "du": "verdiene!",
+    "ihr": "verdient!",
+    "Sie": "verdienen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0202",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Schicht",
+   "en": "shift",
+   "fa": "شیفتکاری",
+   "ps": "شیفت",
+   "fr": "poste",
+   "tr": "vardiya"
+  }
+ },
+ {
+  "id": "wA2-1-0203",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "verb",
+   "noun"
+  ],
+  "words": {
+   "de": "Schicht arbeiten",
+   "en": "to work shifts",
+   "fa": "شیفت کار کردن",
+   "ps": "په شیفتونو کې کار کول",
+   "fr": "faire des postes",
+   "tr": "vardiyalı çalışmak"
+  }
+ },
+ {
+  "id": "wA2-1-0206",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Erfahrung",
+   "en": "experience",
+   "fa": "تجربه",
+   "ps": "تجربه",
+   "fr": "expérience",
+   "tr": "deneyim"
+  }
+ },
+ {
+  "id": "wA2-1-0207",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Qualifikation",
+   "en": "qualification",
+   "fa": "مهارت / صلاحیت",
+   "ps": "وړتیا / صلاحیت",
+   "fr": "qualification",
+   "tr": "nitelik"
+  }
+ },
+ {
+  "id": "wA2-1-0208",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "adjective"
+  ],
+  "words": {
+   "de": "fähig",
+   "en": "capable",
+   "fa": "توانا / قادر",
+   "ps": "وړ / قادر",
+   "fr": "capable",
+   "tr": "yetenekli"
+  }
+ },
+ {
+  "id": "wA2-1-0209",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "adjective"
+  ],
+  "words": {
+   "de": "teamfähig",
+   "en": "team player",
+   "fa": "توانایی کار تیمی",
+   "ps": "د ټیم کار وړتیا لرونکی",
+   "fr": "joueur d'équipe",
+   "tr": "takım oyuncusu"
+  }
+ },
+ {
+  "id": "wA2-1-0211",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "selbstständig",
+   "en": "independent",
+   "fa": "مستقل",
+   "ps": "خپلواک",
+   "fr": "indépendant",
+   "tr": "bağımsız"
+  }
+ },
+ {
+  "id": "wA2-1-0212",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich vorstellen",
+   "en": "to introduce oneself",
+   "fa": "معرفی کردن خود",
+   "ps": "ځان معرفي کول",
+   "fr": "se présenter",
+   "tr": "kendini tanıtmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "stelle mich vor",
+    "du": "stellst dich vor",
+    "er/sie/es": "stellt sich vor",
+    "wir": "stellen uns vor",
+    "ihr": "stellt euch vor",
+    "sie/Sie": "stellen sich vor"
+   },
+   "Präteritum": {
+    "ich": "stellte mich vor",
+    "du": "stelltest dich vor",
+    "er/sie/es": "stellte sich vor",
+    "wir": "stellten uns vor",
+    "ihr": "stelltet euch vor",
+    "sie/Sie": "stellten sich vor"
+   },
+   "Perfekt": {
+    "ich": "habe mich vorgestellt",
+    "du": "hast dich vorgestellt",
+    "er/sie/es": "hat sich vorgestellt",
+    "wir": "haben uns vorgestellt",
+    "ihr": "habt euch vorgestellt",
+    "sie/Sie": "haben sich vorgestellt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich vorgestellt",
+    "du": "hattest dich vorgestellt",
+    "er/sie/es": "hatte sich vorgestellt",
+    "wir": "hatten uns vorgestellt",
+    "ihr": "hattet euch vorgestellt",
+    "sie/Sie": "hatten sich vorgestellt"
+   },
+   "Futur I": {
+    "ich": "werde mich vorstellen",
+    "du": "wirst dich vorstellen",
+    "er/sie/es": "wird sich vorstellen",
+    "wir": "werden uns vorstellen",
+    "ihr": "werdet euch vorstellen",
+    "sie/Sie": "werden sich vorstellen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich vorstellen",
+    "du": "würdest dich vorstellen",
+    "er/sie/es": "würde sich vorstellen",
+    "wir": "würden uns vorstellen",
+    "ihr": "würdet euch vorstellen",
+    "sie/Sie": "würden sich vorstellen"
+   },
+   "Imperativ": {
+    "du": "stell dich vor!",
+    "ihr": "stellt euch vor!",
+    "Sie": "stellen Sie sich vor!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0213",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "vorstellen",
+   "en": "to present / introduce",
+   "fa": "معرفی کردن",
+   "ps": "معرفي کول",
+   "fr": "présenter",
+   "tr": "tanıtmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "stelle vor",
+    "du": "stellst vor",
+    "er/sie/es": "stellt vor",
+    "wir": "stellen vor",
+    "ihr": "stellt vor",
+    "sie/Sie": "stellen vor"
+   },
+   "Präteritum": {
+    "ich": "stellte vor",
+    "du": "stelltest vor",
+    "er/sie/es": "stellte vor",
+    "wir": "stellten vor",
+    "ihr": "stelltet vor",
+    "sie/Sie": "stellten vor"
+   },
+   "Perfekt": {
+    "ich": "habe vorgestellt",
+    "du": "hast vorgestellt",
+    "er/sie/es": "hat vorgestellt",
+    "wir": "haben vorgestellt",
+    "ihr": "habt vorgestellt",
+    "sie/Sie": "haben vorgestellt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte vorgestellt",
+    "du": "hattest vorgestellt",
+    "er/sie/es": "hatte vorgestellt",
+    "wir": "hatten vorgestellt",
+    "ihr": "hattet vorgestellt",
+    "sie/Sie": "hatten vorgestellt"
+   },
+   "Futur I": {
+    "ich": "werde vorstellen",
+    "du": "wirst vorstellen",
+    "er/sie/es": "wird vorstellen",
+    "wir": "werden vorstellen",
+    "ihr": "werdet vorstellen",
+    "sie/Sie": "werden vorstellen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde vorstellen",
+    "du": "würdest vorstellen",
+    "er/sie/es": "würde vorstellen",
+    "wir": "würden vorstellen",
+    "ihr": "würdet vorstellen",
+    "sie/Sie": "würden vorstellen"
+   },
+   "Imperativ": {
+    "du": "stell vor!",
+    "ihr": "stellt vor!",
+    "Sie": "stellen Sie vor!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0214",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "geeignet für",
+   "en": "suitable for",
+   "fa": "مناسب برای",
+   "ps": "د ... لپاره مناسب",
+   "fr": "adapté à",
+   "tr": "... için uygun"
+  }
+ },
+ {
+  "id": "wA2-1-0215",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "brauchbar",
+   "en": "useful",
+   "fa": "کاربردی / به درد بخور",
+   "ps": "ګټور",
+   "fr": "utile",
+   "tr": "yararlı"
+  }
+ },
+ {
+  "id": "wA2-1-0216",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich melden",
+   "en": "to report / get in touch",
+   "fa": "مطلع کردن / تماس گرفتن",
+   "ps": "خبر ورکول / اړيکه نيول",
+   "fr": "se signaler / prendre contact",
+   "tr": "bildirmek / iletişim kurmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "melde mich",
+    "du": "meldest dich",
+    "er/sie/es": "meldet sich",
+    "wir": "melden uns",
+    "ihr": "meldet euch",
+    "sie/Sie": "melden sich"
+   },
+   "Präteritum": {
+    "ich": "meldete mich",
+    "du": "meldetest dich",
+    "er/sie/es": "meldete sich",
+    "wir": "meldeten uns",
+    "ihr": "meldetet euch",
+    "sie/Sie": "meldeten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich gemeldet",
+    "du": "hast dich gemeldet",
+    "er/sie/es": "hat sich gemeldet",
+    "wir": "haben uns gemeldet",
+    "ihr": "habt euch gemeldet",
+    "sie/Sie": "haben sich gemeldet"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich gemeldet",
+    "du": "hattest dich gemeldet",
+    "er/sie/es": "hatte sich gemeldet",
+    "wir": "hatten uns gemeldet",
+    "ihr": "hattet euch gemeldet",
+    "sie/Sie": "hatten sich gemeldet"
+   },
+   "Futur I": {
+    "ich": "werde mich melden",
+    "du": "wirst dich melden",
+    "er/sie/es": "wird sich melden",
+    "wir": "werden uns melden",
+    "ihr": "werdet euch melden",
+    "sie/Sie": "werden sich melden"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich melden",
+    "du": "würdest dich melden",
+    "er/sie/es": "würde sich melden",
+    "wir": "würden uns melden",
+    "ihr": "würdet euch melden",
+    "sie/Sie": "würden sich melden"
+   },
+   "Imperativ": {
+    "du": "melde dich!",
+    "ihr": "meldet euch!",
+    "Sie": "melden Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0217",
+  "category": [
+   "daily_life",
+   "verb",
+   "noun"
+  ],
+  "words": {
+   "de": "Kontakt aufnehmen",
+   "en": "to make contact",
+   "fa": "برقراری ارتباط",
+   "ps": "اړيکه ټينګول",
+   "fr": "prendre contact",
+   "tr": "iletişim kurmak"
+  }
+ },
+ {
+  "id": "wA2-1-0218",
+  "category": [
+   "people_family",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Ansprechpartner",
+   "en": "contact person (male)",
+   "fa": "شخص مسئول / مخاطب",
+   "ps": "د اړيکې مسؤل کس (نارينه)",
+   "fr": "personne de contact (homme)",
+   "tr": "iletişim kişisi (erkek)"
+  }
+ },
+ {
+  "id": "wA2-1-0219",
+  "category": [
+   "people_family",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Ansprechpartnerin",
+   "en": "contact person (female)",
+   "fa": "شخص مسئول / مخاطب (زن)",
+   "ps": "د اړيکې مسؤله کس (ښځه)",
+   "fr": "personne de contact (femme)",
+   "tr": "iletişim kişisi (kadın)"
+  }
+ },
+ {
+  "id": "wA2-1-0220",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "löschen",
+   "en": "to delete",
+   "fa": "حذف کردن",
+   "ps": "ړنګول",
+   "fr": "supprimer",
+   "tr": "silmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "lösche",
+    "du": "löschst",
+    "er/sie/es": "löscht",
+    "wir": "löschen",
+    "ihr": "löscht",
+    "sie/Sie": "löschen"
+   },
+   "Präteritum": {
+    "ich": "löschte",
+    "du": "löschtest",
+    "er/sie/es": "löschte",
+    "wir": "löschten",
+    "ihr": "löschtet",
+    "sie/Sie": "löschten"
+   },
+   "Perfekt": {
+    "ich": "habe gelöscht",
+    "du": "hast gelöscht",
+    "er/sie/es": "hat gelöscht",
+    "wir": "haben gelöscht",
+    "ihr": "habt gelöscht",
+    "sie/Sie": "haben gelöscht"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gelöscht",
+    "du": "hattest gelöscht",
+    "er/sie/es": "hatte gelöscht",
+    "wir": "hatten gelöscht",
+    "ihr": "hattet gelöscht",
+    "sie/Sie": "hatten gelöscht"
+   },
+   "Futur I": {
+    "ich": "werde löschen",
+    "du": "wirst löschen",
+    "er/sie/es": "wird löschen",
+    "wir": "werden löschen",
+    "ihr": "werdet löschen",
+    "sie/Sie": "werden löschen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde löschen",
+    "du": "würdest löschen",
+    "er/sie/es": "würde löschen",
+    "wir": "würden löschen",
+    "ihr": "würdet löschen",
+    "sie/Sie": "würden löschen"
+   },
+   "Imperativ": {
+    "du": "lösche!",
+    "ihr": "löscht!",
+    "Sie": "löschen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0221",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "speichern",
+   "en": "to save (data)",
+   "fa": "ذخیره کردن",
+   "ps": "ساتل",
+   "fr": "enregistrer",
+   "tr": "kaydetmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "speichere",
+    "du": "speicherst",
+    "er/sie/es": "speichert",
+    "wir": "speichern",
+    "ihr": "speichert",
+    "sie/Sie": "speichern"
+   },
+   "Präteritum": {
+    "ich": "speicherte",
+    "du": "speichertest",
+    "er/sie/es": "speicherte",
+    "wir": "speicherten",
+    "ihr": "speichertet",
+    "sie/Sie": "speicherten"
+   },
+   "Perfekt": {
+    "ich": "habe gespeichert",
+    "du": "hast gespeichert",
+    "er/sie/es": "hat gespeichert",
+    "wir": "haben gespeichert",
+    "ihr": "habt gespeichert",
+    "sie/Sie": "haben gespeichert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte gespeichert",
+    "du": "hattest gespeichert",
+    "er/sie/es": "hatte gespeichert",
+    "wir": "hatten gespeichert",
+    "ihr": "hattet gespeichert",
+    "sie/Sie": "hatten gespeichert"
+   },
+   "Futur I": {
+    "ich": "werde speichern",
+    "du": "wirst speichern",
+    "er/sie/es": "wird speichern",
+    "wir": "werden speichern",
+    "ihr": "werdet speichern",
+    "sie/Sie": "werden speichern"
+   },
+   "Konjunktiv II": {
+    "ich": "würde speichern",
+    "du": "würdest speichern",
+    "er/sie/es": "würde speichern",
+    "wir": "würden speichern",
+    "ihr": "würdet speichern",
+    "sie/Sie": "würden speichern"
+   },
+   "Imperativ": {
+    "du": "speichere!",
+    "ihr": "speichert!",
+    "Sie": "speichern Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0222",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Datei",
+   "en": "file",
+   "fa": "فایل",
+   "ps": "فایل",
+   "fr": "fichier",
+   "tr": "dosya"
+  }
+ },
+ {
+  "id": "wA2-1-0223",
+  "category": [
+   "technology_internet",
+   "verb"
+  ],
+  "words": {
+   "de": "hochladen",
+   "en": "to upload",
+   "fa": "آپلود کردن",
+   "ps": "اپلوډ کول",
+   "fr": "téléverser",
+   "tr": "yüklemek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "lade hoch",
+    "du": "lädst hoch",
+    "er/sie/es": "lädt hoch",
+    "wir": "laden hoch",
+    "ihr": "ladet hoch",
+    "sie/Sie": "laden hoch"
+   },
+   "Präteritum": {
+    "ich": "lud hoch",
+    "du": "ludest hoch",
+    "er/sie/es": "lud hoch",
+    "wir": "luden hoch",
+    "ihr": "ludet hoch",
+    "sie/Sie": "luden hoch"
+   },
+   "Perfekt": {
+    "ich": "habe hochgeladen",
+    "du": "hast hochgeladen",
+    "er/sie/es": "hat hochgeladen",
+    "wir": "haben hochgeladen",
+    "ihr": "habt hochgeladen",
+    "sie/Sie": "haben hochgeladen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte hochgeladen",
+    "du": "hattest hochgeladen",
+    "er/sie/es": "hatte hochgeladen",
+    "wir": "hatten hochgeladen",
+    "ihr": "hattet hochgeladen",
+    "sie/Sie": "hatten hochgeladen"
+   },
+   "Futur I": {
+    "ich": "werde hochladen",
+    "du": "wirst hochladen",
+    "er/sie/es": "wird hochladen",
+    "wir": "werden hochladen",
+    "ihr": "werdet hochladen",
+    "sie/Sie": "werden hochladen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde hochladen",
+    "du": "würdest hochladen",
+    "er/sie/es": "würde hochladen",
+    "wir": "würden hochladen",
+    "ihr": "würdet hochladen",
+    "sie/Sie": "würden hochladen"
+   },
+   "Imperativ": {
+    "du": "lade hoch!",
+    "ihr": "ladet hoch!",
+    "Sie": "laden Sie hoch!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0224",
+  "category": [
+   "technology_internet",
+   "verb"
+  ],
+  "words": {
+   "de": "herunterladen",
+   "en": "to download",
+   "fa": "دانلود کردن",
+   "ps": "ډاونلوډ کول",
+   "fr": "télécharger",
+   "tr": "indirmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "lade herunter",
+    "du": "lädst herunter",
+    "er/sie/es": "lädt herunter",
+    "wir": "laden herunter",
+    "ihr": "ladet herunter",
+    "sie/Sie": "laden herunter"
+   },
+   "Präteritum": {
+    "ich": "lud herunter",
+    "du": "ludest herunter",
+    "er/sie/es": "lud herunter",
+    "wir": "luden herunter",
+    "ihr": "ludet herunter",
+    "sie/Sie": "luden herunter"
+   },
+   "Perfekt": {
+    "ich": "habe heruntergeladen",
+    "du": "hast heruntergeladen",
+    "er/sie/es": "hat heruntergeladen",
+    "wir": "haben heruntergeladen",
+    "ihr": "habt heruntergeladen",
+    "sie/Sie": "haben heruntergeladen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte heruntergeladen",
+    "du": "hattest heruntergeladen",
+    "er/sie/es": "hatte heruntergeladen",
+    "wir": "hatten heruntergeladen",
+    "ihr": "hattet heruntergeladen",
+    "sie/Sie": "hatten heruntergeladen"
+   },
+   "Futur I": {
+    "ich": "werde herunterladen",
+    "du": "wirst herunterladen",
+    "er/sie/es": "wird herunterladen",
+    "wir": "werden herunterladen",
+    "ihr": "werdet herunterladen",
+    "sie/Sie": "werden herunterladen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde herunterladen",
+    "du": "würdest herunterladen",
+    "er/sie/es": "würde herunterladen",
+    "wir": "würden herunterladen",
+    "ihr": "würdet herunterladen",
+    "sie/Sie": "würden herunterladen"
+   },
+   "Imperativ": {
+    "du": "lade herunter!",
+    "ihr": "ladet herunter!",
+    "Sie": "laden Sie herunter!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0225",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Gerät",
+   "en": "device",
+   "fa": "دستگاه",
+   "ps": "وسیله",
+   "fr": "appareil",
+   "tr": "cihaz"
+  }
+ },
+ {
+  "id": "wA2-1-0226",
+  "category": [
+   "technology_internet",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Smartphone",
+   "en": "smartphone",
+   "fa": "گوشی هوشمند",
+   "ps": "سمارټ فون",
+   "fr": "smartphone",
+   "tr": "akıllı telefon"
+  }
+ },
+ {
+  "id": "wA2-1-0229",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Fernseher",
+   "en": "television",
+   "fa": "تلویزیون",
+   "ps": "تلویزیون",
+   "fr": "télévision",
+   "tr": "televizyon"
+  }
+ },
+ {
+  "id": "wA2-1-0231",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Akku",
+   "en": "battery",
+   "fa": "باطری",
+   "ps": "بېټرۍ",
+   "fr": "batterie",
+   "tr": "pil"
+  }
+ },
+ {
+  "id": "wA2-1-0232",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Ladegerät",
+   "en": "charger",
+   "fa": "شارژر",
+   "ps": "چارجر",
+   "fr": "chargeur",
+   "tr": "şarj cihazı"
+  }
+ },
+ {
+  "id": "wA2-1-0233",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "aufladen",
+   "en": "to charge",
+   "fa": "شارژ کردن",
+   "ps": "چارج کول",
+   "fr": "charger",
+   "tr": "şarj etmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "lade auf",
+    "du": "lädst auf",
+    "er/sie/es": "lädt auf",
+    "wir": "laden auf",
+    "ihr": "ladet auf",
+    "sie/Sie": "laden auf"
+   },
+   "Präteritum": {
+    "ich": "lud auf",
+    "du": "ludest auf",
+    "er/sie/es": "lud auf",
+    "wir": "luden auf",
+    "ihr": "ludet auf",
+    "sie/Sie": "luden auf"
+   },
+   "Perfekt": {
+    "ich": "habe aufgeladen",
+    "du": "hast aufgeladen",
+    "er/sie/es": "hat aufgeladen",
+    "wir": "haben aufgeladen",
+    "ihr": "habt aufgeladen",
+    "sie/Sie": "haben aufgeladen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte aufgeladen",
+    "du": "hattest aufgeladen",
+    "er/sie/es": "hatte aufgeladen",
+    "wir": "hatten aufgeladen",
+    "ihr": "hattet aufgeladen",
+    "sie/Sie": "hatten aufgeladen"
+   },
+   "Futur I": {
+    "ich": "werde aufladen",
+    "du": "wirst aufladen",
+    "er/sie/es": "wird aufladen",
+    "wir": "werden aufladen",
+    "ihr": "werdet aufladen",
+    "sie/Sie": "werden aufladen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde aufladen",
+    "du": "würdest aufladen",
+    "er/sie/es": "würde aufladen",
+    "wir": "würden aufladen",
+    "ihr": "würdet aufladen",
+    "sie/Sie": "würden aufladen"
+   },
+   "Imperativ": {
+    "du": "lade auf!",
+    "ihr": "ladet auf!",
+    "Sie": "laden Sie auf!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0234",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Empfang",
+   "en": "signal / reception",
+   "fa": "آنتن / سیگنال",
+   "ps": "سیګنال / ریسپشن",
+   "fr": "signal / réception",
+   "tr": "sinyal / alım"
+  }
+ },
+ {
+  "id": "wA2-1-0235",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "WLAN",
+   "en": "Wi-Fi",
+   "fa": "وای‌فای",
+   "ps": "WLAN",
+   "fr": "Wi-Fi",
+   "tr": "Wi-Fi"
+  }
+ },
+ {
+  "id": "wA2-1-0236",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Nachricht",
+   "en": "message / news",
+   "fa": "پیام / خبر",
+   "ps": "پیغام / خبر",
+   "fr": "message / nouvelle",
+   "tr": "mesaj / haber"
+  }
+ },
+ {
+  "id": "wA2-1-0237",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "verb"
+  ],
+  "words": {
+   "de": "schicken",
+   "en": "to send",
+   "fa": "ارسال کردن",
+   "ps": "لېږل",
+   "fr": "envoyer",
+   "tr": "göndermek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "schicke",
+    "du": "schickst",
+    "er/sie/es": "schickt",
+    "wir": "schicken",
+    "ihr": "schickt",
+    "sie/Sie": "schicken"
+   },
+   "Präteritum": {
+    "ich": "schickte",
+    "du": "schicktest",
+    "er/sie/es": "schickte",
+    "wir": "schickten",
+    "ihr": "schicktet",
+    "sie/Sie": "schickten"
+   },
+   "Perfekt": {
+    "ich": "habe geschickt",
+    "du": "hast geschickt",
+    "er/sie/es": "hat geschickt",
+    "wir": "haben geschickt",
+    "ihr": "habt geschickt",
+    "sie/Sie": "haben geschickt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte geschickt",
+    "du": "hattest geschickt",
+    "er/sie/es": "hatte geschickt",
+    "wir": "hatten geschickt",
+    "ihr": "hattet geschickt",
+    "sie/Sie": "hatten geschickt"
+   },
+   "Futur I": {
+    "ich": "werde schicken",
+    "du": "wirst schicken",
+    "er/sie/es": "wird schicken",
+    "wir": "werden schicken",
+    "ihr": "werdet schicken",
+    "sie/Sie": "werden schicken"
+   },
+   "Konjunktiv II": {
+    "ich": "würde schicken",
+    "du": "würdest schicken",
+    "er/sie/es": "würde schicken",
+    "wir": "würden schicken",
+    "ihr": "würdet schicken",
+    "sie/Sie": "würden schicken"
+   },
+   "Imperativ": {
+    "du": "schick!",
+    "ihr": "schickt!",
+    "Sie": "schicken Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0238",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "verb"
+  ],
+  "words": {
+   "de": "verschicken",
+   "en": "to send out",
+   "fa": "ارسال کردن",
+   "ps": "استول",
+   "fr": "expédier",
+   "tr": "göndermek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "verschicke",
+    "du": "verschickst",
+    "er/sie/es": "verschickt",
+    "wir": "verschicken",
+    "ihr": "verschickt",
+    "sie/Sie": "verschicken"
+   },
+   "Präteritum": {
+    "ich": "verschickte",
+    "du": "verschicktest",
+    "er/sie/es": "verschickte",
+    "wir": "verschickten",
+    "ihr": "verschicktet",
+    "sie/Sie": "verschickten"
+   },
+   "Perfekt": {
+    "ich": "habe verschickt",
+    "du": "hast verschickt",
+    "er/sie/es": "hat verschickt",
+    "wir": "haben verschickt",
+    "ihr": "habt verschickt",
+    "sie/Sie": "haben verschickt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte verschickt",
+    "du": "hattest verschickt",
+    "er/sie/es": "hatte verschickt",
+    "wir": "hatten verschickt",
+    "ihr": "hattet verschickt",
+    "sie/Sie": "hatten verschickt"
+   },
+   "Futur I": {
+    "ich": "werde verschicken",
+    "du": "wirst verschicken",
+    "er/sie/es": "wird verschicken",
+    "wir": "werden verschicken",
+    "ihr": "werdet verschicken",
+    "sie/Sie": "werden verschicken"
+   },
+   "Konjunktiv II": {
+    "ich": "würde verschicken",
+    "du": "würdest verschicken",
+    "er/sie/es": "würde verschicken",
+    "wir": "würden verschicken",
+    "ihr": "würdet verschicken",
+    "sie/Sie": "würden verschicken"
+   },
+   "Imperativ": {
+    "du": "verschick!",
+    "ihr": "verschickt!",
+    "Sie": "verschicken Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0239",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "empfangen",
+   "en": "to receive",
+   "fa": "دریافت کردن",
+   "ps": "ترلاسه کول",
+   "fr": "recevoir",
+   "tr": "almak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "empfange",
+    "du": "empfängst",
+    "er/sie/es": "empfängt",
+    "wir": "empfangen",
+    "ihr": "empfangt",
+    "sie/Sie": "empfangen"
+   },
+   "Präteritum": {
+    "ich": "empfing",
+    "du": "empfingst",
+    "er/sie/es": "empfing",
+    "wir": "empfingen",
+    "ihr": "empfingt",
+    "sie/Sie": "empfingen"
+   },
+   "Perfekt": {
+    "ich": "habe empfangen",
+    "du": "hast empfangen",
+    "er/sie/es": "hat empfangen",
+    "wir": "haben empfangen",
+    "ihr": "habt empfangen",
+    "sie/Sie": "haben empfangen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte empfangen",
+    "du": "hattest empfangen",
+    "er/sie/es": "hatte empfangen",
+    "wir": "hatten empfangen",
+    "ihr": "hattet empfangen",
+    "sie/Sie": "hatten empfangen"
+   },
+   "Futur I": {
+    "ich": "werde empfangen",
+    "du": "wirst empfangen",
+    "er/sie/es": "wird empfangen",
+    "wir": "werden empfangen",
+    "ihr": "werdet empfangen",
+    "sie/Sie": "werden empfangen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde empfangen",
+    "du": "würdest empfangen",
+    "er/sie/es": "würde empfangen",
+    "wir": "würden empfangen",
+    "ihr": "würdet empfangen",
+    "sie/Sie": "würden empfangen"
+   },
+   "Imperativ": {
+    "du": "empfange!",
+    "ihr": "empfangt!",
+    "Sie": "empfangen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0241",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Passwort",
+   "en": "password",
+   "fa": "رمز عبور",
+   "ps": "پاسورډ",
+   "fr": "mot de passe",
+   "tr": "şifre"
+  }
+ },
+ {
+  "id": "wA2-1-0242",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich einloggen",
+   "en": "to log in",
+   "fa": "وارد شدن",
+   "ps": "ننوتل",
+   "fr": "se connecter",
+   "tr": "giriş yapmak"
+  }
+ },
+ {
+  "id": "wA2-1-0243",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich ausloggen",
+   "en": "to log out",
+   "fa": "خارج شدن",
+   "ps": "وتل",
+   "fr": "se déconnecter",
+   "tr": "çıkış yapmak"
+  }
+ },
+ {
+  "id": "wA2-1-0244",
+  "category": [
+   "technology_internet",
+   "verb"
+  ],
+  "words": {
+   "de": "downloaden",
+   "en": "to download",
+   "fa": "دانلود کردن",
+   "ps": "ډاونلوډ کول",
+   "fr": "télécharger",
+   "tr": "indirmek"
+  }
+ },
+ {
+  "id": "wA2-1-0245",
+  "category": [
+   "technology_internet",
+   "verb"
+  ],
+  "words": {
+   "de": "uploaden",
+   "en": "to upload",
+   "fa": "آپلود کردن",
+   "ps": "اپلوډ کول",
+   "fr": "téléverser",
+   "tr": "yüklemek"
+  }
+ },
+ {
+  "id": "wA2-1-0246",
+  "category": [
+   "technology_internet",
+   "verb"
+  ],
+  "words": {
+   "de": "installieren",
+   "en": "to install",
+   "fa": "نصب کردن",
+   "ps": "نصب کول",
+   "fr": "installer",
+   "tr": "kurmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "installiere",
+    "du": "installierst",
+    "er/sie/es": "installiert",
+    "wir": "installieren",
+    "ihr": "installiert",
+    "sie/Sie": "installieren"
+   },
+   "Präteritum": {
+    "ich": "installierte",
+    "du": "installiertest",
+    "er/sie/es": "installierte",
+    "wir": "installierten",
+    "ihr": "installiertet",
+    "sie/Sie": "installierten"
+   },
+   "Perfekt": {
+    "ich": "habe installiert",
+    "du": "hast installiert",
+    "er/sie/es": "hat installiert",
+    "wir": "haben installiert",
+    "ihr": "habt installiert",
+    "sie/Sie": "haben installiert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte installiert",
+    "du": "hattest installiert",
+    "er/sie/es": "hatte installiert",
+    "wir": "hatten installiert",
+    "ihr": "hattet installiert",
+    "sie/Sie": "hatten installiert"
+   },
+   "Futur I": {
+    "ich": "werde installieren",
+    "du": "wirst installieren",
+    "er/sie/es": "wird installieren",
+    "wir": "werden installieren",
+    "ihr": "werdet installieren",
+    "sie/Sie": "werden installieren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde installieren",
+    "du": "würdest installieren",
+    "er/sie/es": "würde installieren",
+    "wir": "würden installieren",
+    "ihr": "würdet installieren",
+    "sie/Sie": "würden installieren"
+   },
+   "Imperativ": {
+    "du": "installiere!",
+    "ihr": "installiert!",
+    "Sie": "installieren Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0247",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Programm",
+   "en": "program / software",
+   "fa": "نرم‌افزار",
+   "ps": "پروګرام / سافټویر",
+   "fr": "programme / logiciel",
+   "tr": "program / yazılım"
+  }
+ },
+ {
+  "id": "wA2-1-0249",
+  "category": [
+   "technology_internet",
+   "verb"
+  ],
+  "words": {
+   "de": "kopieren",
+   "en": "to copy",
+   "fa": "کپی کردن",
+   "ps": "کاپي کول",
+   "fr": "copier",
+   "tr": "kopyalamak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "kopiere",
+    "du": "kopierst",
+    "er/sie/es": "kopiert",
+    "wir": "kopieren",
+    "ihr": "kopiert",
+    "sie/Sie": "kopieren"
+   },
+   "Präteritum": {
+    "ich": "kopierte",
+    "du": "kopiertest",
+    "er/sie/es": "kopierte",
+    "wir": "kopierten",
+    "ihr": "kopiertet",
+    "sie/Sie": "kopierten"
+   },
+   "Perfekt": {
+    "ich": "habe kopiert",
+    "du": "hast kopiert",
+    "er/sie/es": "hat kopiert",
+    "wir": "haben kopiert",
+    "ihr": "habt kopiert",
+    "sie/Sie": "haben kopiert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte kopiert",
+    "du": "hattest kopiert",
+    "er/sie/es": "hatte kopiert",
+    "wir": "hatten kopiert",
+    "ihr": "hattet kopiert",
+    "sie/Sie": "hatten kopiert"
+   },
+   "Futur I": {
+    "ich": "werde kopieren",
+    "du": "wirst kopieren",
+    "er/sie/es": "wird kopieren",
+    "wir": "werden kopieren",
+    "ihr": "werdet kopieren",
+    "sie/Sie": "werden kopieren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde kopieren",
+    "du": "würdest kopieren",
+    "er/sie/es": "würde kopieren",
+    "wir": "würden kopieren",
+    "ihr": "würdet kopieren",
+    "sie/Sie": "würden kopieren"
+   },
+   "Imperativ": {
+    "du": "kopier!",
+    "ihr": "kopiert!",
+    "Sie": "kopieren Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0250",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "einfügen",
+   "en": "to paste",
+   "fa": "پیست کردن",
+   "ps": "نښلول",
+   "fr": "coller",
+   "tr": "yapıştırmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "füge ein",
+    "du": "fügst ein",
+    "er/sie/es": "fügt ein",
+    "wir": "fügen ein",
+    "ihr": "fügt ein",
+    "sie/Sie": "fügen ein"
+   },
+   "Präteritum": {
+    "ich": "fügte ein",
+    "du": "fügtest ein",
+    "er/sie/es": "fügte ein",
+    "wir": "fügten ein",
+    "ihr": "fügtet ein",
+    "sie/Sie": "fügten ein"
+   },
+   "Perfekt": {
+    "ich": "habe eingefügt",
+    "du": "hast eingefügt",
+    "er/sie/es": "hat eingefügt",
+    "wir": "haben eingefügt",
+    "ihr": "habt eingefügt",
+    "sie/Sie": "haben eingefügt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte eingefügt",
+    "du": "hattest eingefügt",
+    "er/sie/es": "hatte eingefügt",
+    "wir": "hatten eingefügt",
+    "ihr": "hattet eingefügt",
+    "sie/Sie": "hatten eingefügt"
+   },
+   "Futur I": {
+    "ich": "werde einfügen",
+    "du": "wirst einfügen",
+    "er/sie/es": "wird einfügen",
+    "wir": "werden einfügen",
+    "ihr": "werdet einfügen",
+    "sie/Sie": "werden einfügen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde einfügen",
+    "du": "würdest einfügen",
+    "er/sie/es": "würde einfügen",
+    "wir": "würden einfügen",
+    "ihr": "würdet einfügen",
+    "sie/Sie": "würden einfügen"
+   },
+   "Imperativ": {
+    "du": "füg ein!",
+    "ihr": "fügt ein!",
+    "Sie": "fügen Sie ein!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0251",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "sozial",
+   "en": "social",
+   "fa": "اجتماعی",
+   "ps": "ټولنیز",
+   "fr": "social",
+   "tr": "sosyal"
+  }
+ },
+ {
+  "id": "wA2-1-0252",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "soziale Medien",
+   "en": "social media",
+   "fa": "شبکه‌های اجتماعی",
+   "ps": "ټولنیزې رسنۍ",
+   "fr": "réseaux sociaux",
+   "tr": "sosyal medya"
+  }
+ },
+ {
+  "id": "wA2-1-0253",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Kommentar",
+   "en": "comment",
+   "fa": "نظر / کامنت",
+   "ps": "تبصره",
+   "fr": "commentaire",
+   "tr": "yorum"
+  }
+ },
+ {
+  "id": "wA2-1-0254",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "kommentieren",
+   "en": "to comment",
+   "fa": "نظر دادن / کامنت گذاشتن",
+   "ps": "تبصره کول",
+   "fr": "commenter",
+   "tr": "yorum yapmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "kommentiere",
+    "du": "kommentierst",
+    "er/sie/es": "kommentiert",
+    "wir": "kommentieren",
+    "ihr": "kommentiert",
+    "sie/Sie": "kommentieren"
+   },
+   "Präteritum": {
+    "ich": "kommentierte",
+    "du": "kommentiertest",
+    "er/sie/es": "kommentierte",
+    "wir": "kommentierten",
+    "ihr": "kommentiertet",
+    "sie/Sie": "kommentierten"
+   },
+   "Perfekt": {
+    "ich": "habe kommentiert",
+    "du": "hast kommentiert",
+    "er/sie/es": "hat kommentiert",
+    "wir": "haben kommentiert",
+    "ihr": "habt kommentiert",
+    "sie/Sie": "haben kommentiert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte kommentiert",
+    "du": "hattest kommentiert",
+    "er/sie/es": "hatte kommentiert",
+    "wir": "hatten kommentiert",
+    "ihr": "hattet kommentiert",
+    "sie/Sie": "hatten kommentiert"
+   },
+   "Futur I": {
+    "ich": "werde kommentieren",
+    "du": "wirst kommentieren",
+    "er/sie/es": "wird kommentieren",
+    "wir": "werden kommentieren",
+    "ihr": "werdet kommentieren",
+    "sie/Sie": "werden kommentieren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde kommentieren",
+    "du": "würdest kommentieren",
+    "er/sie/es": "würde kommentieren",
+    "wir": "würden kommentieren",
+    "ihr": "würdet kommentieren",
+    "sie/Sie": "würden kommentieren"
+   },
+   "Imperativ": {
+    "du": "kommentiere!",
+    "ihr": "kommentiert!",
+    "Sie": "kommentieren Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0255",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "liken",
+   "en": "to like",
+   "fa": "لایک کردن",
+   "ps": "لایک کول",
+   "fr": "aimer",
+   "tr": "beğenmek"
+  }
+ },
+ {
+  "id": "wA2-1-0256",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "online sein",
+   "en": "to be online",
+   "fa": "آنلاین بودن",
+   "ps": "آنلاین اوسېدل",
+   "fr": "être en ligne",
+   "tr": "çevrimiçi olmak"
+  }
+ },
+ {
+  "id": "wA2-1-0257",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "offline sein",
+   "en": "to be offline",
+   "fa": "آفلاین بودن",
+   "ps": "آفلاین اوسېدل",
+   "fr": "être hors ligne",
+   "tr": "çevrimdışı olmak"
+  }
+ },
+ {
+  "id": "wA2-1-0258",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "verb"
+  ],
+  "words": {
+   "de": "recherchieren",
+   "en": "to research / look up",
+   "fa": "تحقیق کردن / جستجو کردن",
+   "ps": "څېړنه کول / لټون کول",
+   "fr": "faire des recherches",
+   "tr": "araştırmak / bakmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "recherchiere",
+    "du": "recherchierst",
+    "er/sie/es": "recherchiert",
+    "wir": "recherchieren",
+    "ihr": "recherchiert",
+    "sie/Sie": "recherchieren"
+   },
+   "Präteritum": {
+    "ich": "recherchierte",
+    "du": "recherchiertest",
+    "er/sie/es": "recherchierte",
+    "wir": "recherchierten",
+    "ihr": "recherchiertet",
+    "sie/Sie": "recherchierten"
+   },
+   "Perfekt": {
+    "ich": "habe recherchiert",
+    "du": "hast recherchiert",
+    "er/sie/es": "hat recherchiert",
+    "wir": "haben recherchiert",
+    "ihr": "habt recherchiert",
+    "sie/Sie": "haben recherchiert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte recherchiert",
+    "du": "hattest recherchiert",
+    "er/sie/es": "hatte recherchiert",
+    "wir": "hatten recherchiert",
+    "ihr": "hattet recherchiert",
+    "sie/Sie": "hatten recherchiert"
+   },
+   "Futur I": {
+    "ich": "werde recherchieren",
+    "du": "wirst recherchieren",
+    "er/sie/es": "wird recherchieren",
+    "wir": "werden recherchieren",
+    "ihr": "werdet recherchieren",
+    "sie/Sie": "werden recherchieren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde recherchieren",
+    "du": "würdest recherchieren",
+    "er/sie/es": "würde recherchieren",
+    "wir": "würden recherchieren",
+    "ihr": "würdet recherchieren",
+    "sie/Sie": "würden recherchieren"
+   },
+   "Imperativ": {
+    "du": "recherchiere!",
+    "ihr": "recherchiert!",
+    "Sie": "recherchieren Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0259",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Nachrichten",
+   "en": "news",
+   "fa": "اخبار",
+   "ps": "خبرونه",
+   "fr": "nouvelles",
+   "tr": "haberler"
+  }
+ },
+ {
+  "id": "wA2-1-0260",
+  "category": [
+   "media_social",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zeitung",
+   "en": "newspaper",
+   "fa": "روزنامه",
+   "ps": "ورځپاڼه",
+   "fr": "journal",
+   "tr": "gazete"
+  }
+ },
+ {
+  "id": "wA2-1-0262",
+  "category": [
+   "relationships",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Beziehung",
+   "en": "relationship",
+   "fa": "رابطه",
+   "ps": "اړیکه",
+   "fr": "relation",
+   "tr": "ilişki"
+  }
+ },
+ {
+  "id": "wA2-1-0263",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Partnerschaft",
+   "en": "partnership",
+   "fa": "شراکت / رابطهٔ زوجی",
+   "ps": "شراکت / د جوړې اړیکه",
+   "fr": "partenariat",
+   "tr": "ortaklık"
+  }
+ },
+ {
+  "id": "wA2-1-0264",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Partner",
+   "en": "partner (male)",
+   "fa": "شریک / پارتنر (مرد)",
+   "ps": "ملګری (نارینه)",
+   "fr": "partenaire (homme)",
+   "tr": "partner (erkek)"
+  }
+ },
+ {
+  "id": "wA2-1-0265",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Partnerin",
+   "en": "partner (female)",
+   "fa": "شریک / پارتنر (زن)",
+   "ps": "ملګرې (ښځینه)",
+   "fr": "partenaire (femme)",
+   "tr": "partner (kadın)"
+  }
+ },
+ {
+  "id": "wA2-1-0266",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "verheiratet sein",
+   "en": "to be married",
+   "fa": "متأهل بودن",
+   "ps": "واده کړی/کړې اوسېدل",
+   "fr": "être marié",
+   "tr": "evli olmak"
+  }
+ },
+ {
+  "id": "wA2-1-0268",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "getrennt leben",
+   "en": "to live separated",
+   "fa": "جدا زندگی کردن",
+   "ps": "جلا ژوند کول",
+   "fr": "vivre séparés",
+   "tr": "ayrı yaşamak"
+  }
+ },
+ {
+  "id": "wA2-1-0270",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "verlobt",
+   "en": "engaged",
+   "fa": "نامزد",
+   "ps": "کوژده شوی/شوې",
+   "fr": "fiancé",
+   "tr": "nişanlı"
+  }
+ },
+ {
+  "id": "wA2-1-0271",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "vertrauen",
+   "en": "to trust",
+   "fa": "اعتماد کردن",
+   "ps": "باور کول",
+   "fr": "faire confiance",
+   "tr": "güvenmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "vertraue",
+    "du": "vertraust",
+    "er/sie/es": "vertraut",
+    "wir": "vertrauen",
+    "ihr": "vertraut",
+    "sie/Sie": "vertrauen"
+   },
+   "Präteritum": {
+    "ich": "vertraute",
+    "du": "vertrautest",
+    "er/sie/es": "vertraute",
+    "wir": "vertrauten",
+    "ihr": "vertrautet",
+    "sie/Sie": "vertrauten"
+   },
+   "Perfekt": {
+    "ich": "habe vertraut",
+    "du": "hast vertraut",
+    "er/sie/es": "hat vertraut",
+    "wir": "haben vertraut",
+    "ihr": "habt vertraut",
+    "sie/Sie": "haben vertraut"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte vertraut",
+    "du": "hattest vertraut",
+    "er/sie/es": "hatte vertraut",
+    "wir": "hatten vertraut",
+    "ihr": "hattet vertraut",
+    "sie/Sie": "hatten vertraut"
+   },
+   "Futur I": {
+    "ich": "werde vertrauen",
+    "du": "wirst vertrauen",
+    "er/sie/es": "wird vertrauen",
+    "wir": "werden vertrauen",
+    "ihr": "werdet vertrauen",
+    "sie/Sie": "werden vertrauen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde vertrauen",
+    "du": "würdest vertrauen",
+    "er/sie/es": "würde vertrauen",
+    "wir": "würden vertrauen",
+    "ihr": "würdet vertrauen",
+    "sie/Sie": "würden vertrauen"
+   },
+   "Imperativ": {
+    "du": "vertrau!",
+    "ihr": "vertraut!",
+    "Sie": "vertrauen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0272",
+  "category": [
+   "work_office",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich vertragen",
+   "en": "to get along",
+   "fa": "با هم کنار آمدن",
+   "ps": "سره جوړېدل",
+   "fr": "s'entendre",
+   "tr": "anlaşmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "vertrage mich",
+    "du": "verträgst dich",
+    "er/sie/es": "verträgt sich",
+    "wir": "vertragen uns",
+    "ihr": "vertragt euch",
+    "sie/Sie": "vertragen sich"
+   },
+   "Präteritum": {
+    "ich": "vertrug mich",
+    "du": "vertrugst dich",
+    "er/sie/es": "vertrug sich",
+    "wir": "vertrugen uns",
+    "ihr": "vertrugt euch",
+    "sie/Sie": "vertrugen sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich vertragen",
+    "du": "hast dich vertragen",
+    "er/sie/es": "hat sich vertragen",
+    "wir": "haben uns vertragen",
+    "ihr": "habt euch vertragen",
+    "sie/Sie": "haben sich vertragen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich vertragen",
+    "du": "hattest dich vertragen",
+    "er/sie/es": "hatte sich vertragen",
+    "wir": "hatten uns vertragen",
+    "ihr": "hattet euch vertragen",
+    "sie/Sie": "hatten sich vertragen"
+   },
+   "Futur I": {
+    "ich": "werde mich vertragen",
+    "du": "wirst dich vertragen",
+    "er/sie/es": "wird sich vertragen",
+    "wir": "werden uns vertragen",
+    "ihr": "werdet euch vertragen",
+    "sie/Sie": "werden sich vertragen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich vertragen",
+    "du": "würdest dich vertragen",
+    "er/sie/es": "würde sich vertragen",
+    "wir": "würden uns vertragen",
+    "ihr": "würdet euch vertragen",
+    "sie/Sie": "würden sich vertragen"
+   },
+   "Imperativ": {
+    "du": "vertrag dich!",
+    "ihr": "vertragt euch!",
+    "Sie": "vertragen Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0273",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich streiten",
+   "en": "to argue",
+   "fa": "دعوا کردن / بحث کردن",
+   "ps": "شخړه کول",
+   "fr": "se disputer",
+   "tr": "tartışmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "streite mich",
+    "du": "streitest dich",
+    "er/sie/es": "streitet sich",
+    "wir": "streiten uns",
+    "ihr": "streitet euch",
+    "sie/Sie": "streiten sich"
+   },
+   "Präteritum": {
+    "ich": "stritt mich",
+    "du": "strittest dich",
+    "er/sie/es": "stritt sich",
+    "wir": "stritten uns",
+    "ihr": "strittet euch",
+    "sie/Sie": "stritten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich gestritten",
+    "du": "hast dich gestritten",
+    "er/sie/es": "hat sich gestritten",
+    "wir": "haben uns gestritten",
+    "ihr": "habt euch gestritten",
+    "sie/Sie": "haben sich gestritten"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich gestritten",
+    "du": "hattest dich gestritten",
+    "er/sie/es": "hatte sich gestritten",
+    "wir": "hatten uns gestritten",
+    "ihr": "hattet euch gestritten",
+    "sie/Sie": "hatten sich gestritten"
+   },
+   "Futur I": {
+    "ich": "werde mich streiten",
+    "du": "wirst dich streiten",
+    "er/sie/es": "wird sich streiten",
+    "wir": "werden uns streiten",
+    "ihr": "werdet euch streiten",
+    "sie/Sie": "werden sich streiten"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich streiten",
+    "du": "würdest dich streiten",
+    "er/sie/es": "würde sich streiten",
+    "wir": "würden uns streiten",
+    "ihr": "würdet euch streiten",
+    "sie/Sie": "würden sich streiten"
+   },
+   "Imperativ": {
+    "du": "streite dich!",
+    "ihr": "streitet euch!",
+    "Sie": "streiten Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0274",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich versöhnen",
+   "en": "to reconcile",
+   "fa": "آشتی کردن",
+   "ps": "روغه جوړېدل",
+   "fr": "se réconcilier",
+   "tr": "barışmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "versöhne mich",
+    "du": "versöhnst dich",
+    "er/sie/es": "versöhnt sich",
+    "wir": "versöhnen uns",
+    "ihr": "versöhnt euch",
+    "sie/Sie": "versöhnen sich"
+   },
+   "Präteritum": {
+    "ich": "versöhnte mich",
+    "du": "versöhntest dich",
+    "er/sie/es": "versöhnte sich",
+    "wir": "versöhnten uns",
+    "ihr": "versöhntet euch",
+    "sie/Sie": "versöhnten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich versöhnt",
+    "du": "hast dich versöhnt",
+    "er/sie/es": "hat sich versöhnt",
+    "wir": "haben uns versöhnt",
+    "ihr": "habt euch versöhnt",
+    "sie/Sie": "haben sich versöhnt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich versöhnt",
+    "du": "hattest dich versöhnt",
+    "er/sie/es": "hatte sich versöhnt",
+    "wir": "hatten uns versöhnt",
+    "ihr": "hattet euch versöhnt",
+    "sie/Sie": "hatten sich versöhnt"
+   },
+   "Futur I": {
+    "ich": "werde mich versöhnen",
+    "du": "wirst dich versöhnen",
+    "er/sie/es": "wird sich versöhnen",
+    "wir": "werden uns versöhnen",
+    "ihr": "werdet euch versöhnen",
+    "sie/Sie": "werden sich versöhnen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich versöhnen",
+    "du": "würdest dich versöhnen",
+    "er/sie/es": "würde sich versöhnen",
+    "wir": "würden uns versöhnen",
+    "ihr": "würdet euch versöhnen",
+    "sie/Sie": "würden sich versöhnen"
+   },
+   "Imperativ": {
+    "du": "versöhne dich!",
+    "ihr": "versöhnt euch!",
+    "Sie": "versöhnen Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0275",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Kompromiss",
+   "en": "compromise",
+   "fa": "مصالحه",
+   "ps": "جوړجاړی",
+   "fr": "compromis",
+   "tr": "uzlaşma"
+  }
+ },
+ {
+  "id": "wA2-1-0276",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "nachgeben",
+   "en": "to give in / yield",
+   "fa": "کوتاه آمدن",
+   "ps": "تسلیمېدل",
+   "fr": "céder",
+   "tr": "boyun eğmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "gebe nach",
+    "du": "gibst nach",
+    "er/sie/es": "gibt nach",
+    "wir": "geben nach",
+    "ihr": "gebt nach",
+    "sie/Sie": "geben nach"
+   },
+   "Präteritum": {
+    "ich": "gab nach",
+    "du": "gabst nach",
+    "er/sie/es": "gab nach",
+    "wir": "gaben nach",
+    "ihr": "gabt nach",
+    "sie/Sie": "gaben nach"
+   },
+   "Perfekt": {
+    "ich": "habe nachgegeben",
+    "du": "hast nachgegeben",
+    "er/sie/es": "hat nachgegeben",
+    "wir": "haben nachgegeben",
+    "ihr": "habt nachgegeben",
+    "sie/Sie": "haben nachgegeben"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte nachgegeben",
+    "du": "hattest nachgegeben",
+    "er/sie/es": "hatte nachgegeben",
+    "wir": "hatten nachgegeben",
+    "ihr": "hattet nachgegeben",
+    "sie/Sie": "hatten nachgegeben"
+   },
+   "Futur I": {
+    "ich": "werde nachgeben",
+    "du": "wirst nachgeben",
+    "er/sie/es": "wird nachgeben",
+    "wir": "werden nachgeben",
+    "ihr": "werdet nachgeben",
+    "sie/Sie": "werden nachgeben"
+   },
+   "Konjunktiv II": {
+    "ich": "gäbe nach",
+    "du": "gäbest nach",
+    "er/sie/es": "gäbe nach",
+    "wir": "gäben nach",
+    "ihr": "gäbet nach",
+    "sie/Sie": "gäben nach"
+   },
+   "Imperativ": {
+    "du": "gib nach!",
+    "ihr": "gebt nach!",
+    "Sie": "geben Sie nach!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0277",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "eifersüchtig",
+   "en": "jealous",
+   "fa": "حسود / غیرتی",
+   "ps": "حسود",
+   "fr": "jaloux",
+   "tr": "kıskanç"
+  }
+ },
+ {
+  "id": "wA2-1-0278",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Eifersucht",
+   "en": "jealousy",
+   "fa": "حسادت / غیرت",
+   "ps": "حسادت",
+   "fr": "jalousie",
+   "tr": "kıskançlık"
+  }
+ },
+ {
+  "id": "wA2-1-0279",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Kommunikation",
+   "en": "communication",
+   "fa": "ارتباط / مکالمه",
+   "ps": "اړیکه",
+   "fr": "communication",
+   "tr": "iletişim"
+  }
+ },
+ {
+  "id": "wA2-1-0280",
+  "category": [
+   "school_learning",
+   "verb"
+  ],
+  "words": {
+   "de": "kommunizieren",
+   "en": "to communicate",
+   "fa": "ارتباط برقرار کردن",
+   "ps": "اړیکه نیول",
+   "fr": "communiquer",
+   "tr": "iletişim kurmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "kommuniziere",
+    "du": "kommunizierst",
+    "er/sie/es": "kommuniziert",
+    "wir": "kommunizieren",
+    "ihr": "kommuniziert",
+    "sie/Sie": "kommunizieren"
+   },
+   "Präteritum": {
+    "ich": "kommunizierte",
+    "du": "kommuniziertest",
+    "er/sie/es": "kommunizierte",
+    "wir": "kommunizierten",
+    "ihr": "kommuniziertet",
+    "sie/Sie": "kommunizierten"
+   },
+   "Perfekt": {
+    "ich": "habe kommuniziert",
+    "du": "hast kommuniziert",
+    "er/sie/es": "hat kommuniziert",
+    "wir": "haben kommuniziert",
+    "ihr": "habt kommuniziert",
+    "sie/Sie": "haben kommuniziert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte kommuniziert",
+    "du": "hattest kommuniziert",
+    "er/sie/es": "hatte kommuniziert",
+    "wir": "hatten kommuniziert",
+    "ihr": "hattet kommuniziert",
+    "sie/Sie": "hatten kommuniziert"
+   },
+   "Futur I": {
+    "ich": "werde kommunizieren",
+    "du": "wirst kommunizieren",
+    "er/sie/es": "wird kommunizieren",
+    "wir": "werden kommunizieren",
+    "ihr": "werdet kommunizieren",
+    "sie/Sie": "werden kommunizieren"
+   },
+   "Konjunktiv II": {
+    "ich": "würde kommunizieren",
+    "du": "würdest kommunizieren",
+    "er/sie/es": "würde kommunizieren",
+    "wir": "würden kommunizieren",
+    "ihr": "würdet kommunizieren",
+    "sie/Sie": "würden kommunizieren"
+   },
+   "Imperativ": {
+    "du": "kommuniziere!",
+    "ihr": "kommuniziert!",
+    "Sie": "kommunizieren Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0281",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Kontakt",
+   "en": "contact",
+   "fa": "ارتباط",
+   "ps": "اړیکه",
+   "fr": "contact",
+   "tr": "iletişim"
+  }
+ },
+ {
+  "id": "wA2-1-0282",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich kümmern um",
+   "en": "to take care of",
+   "fa": "مراقبت کردن از",
+   "ps": "د ... پاملرنه کول",
+   "fr": "prendre soin de",
+   "tr": "ilgilenmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "kümmere mich",
+    "du": "kümmerst dich",
+    "er/sie/es": "kümmert sich",
+    "wir": "kümmern uns",
+    "ihr": "kümmert euch",
+    "sie/Sie": "kümmern sich"
+   },
+   "Präteritum": {
+    "ich": "kümmerte mich",
+    "du": "kümmertest dich",
+    "er/sie/es": "kümmerte sich",
+    "wir": "kümmerten uns",
+    "ihr": "kümmertet euch",
+    "sie/Sie": "kümmerten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich gekümmert",
+    "du": "hast dich gekümmert",
+    "er/sie/es": "hat sich gekümmert",
+    "wir": "haben uns gekümmert",
+    "ihr": "habt euch gekümmert",
+    "sie/Sie": "haben sich gekümmert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich gekümmert",
+    "du": "hattest dich gekümmert",
+    "er/sie/es": "hatte sich gekümmert",
+    "wir": "hatten uns gekümmert",
+    "ihr": "hattet euch gekümmert",
+    "sie/Sie": "hatten sich gekümmert"
+   },
+   "Futur I": {
+    "ich": "werde mich kümmern",
+    "du": "wirst dich kümmern",
+    "er/sie/es": "wird sich kümmern",
+    "wir": "werden uns kümmern",
+    "ihr": "werdet euch kümmern",
+    "sie/Sie": "werden sich kümmern"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich kümmern",
+    "du": "würdest dich kümmern",
+    "er/sie/es": "würde sich kümmern",
+    "wir": "würden uns kümmern",
+    "ihr": "würdet euch kümmern",
+    "sie/Sie": "würden sich kümmern"
+   },
+   "Imperativ": {
+    "du": "kümmere dich!",
+    "ihr": "kümmert euch!",
+    "Sie": "kümmern Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0283",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "unterstützen",
+   "en": "to support",
+   "fa": "حمایت کردن",
+   "ps": "ملاتړ کول",
+   "fr": "soutenir",
+   "tr": "desteklemek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "unterstütze",
+    "du": "unterstützt",
+    "er/sie/es": "unterstützt",
+    "wir": "unterstützen",
+    "ihr": "unterstützt",
+    "sie/Sie": "unterstützen"
+   },
+   "Präteritum": {
+    "ich": "unterstützte",
+    "du": "unterstütztest",
+    "er/sie/es": "unterstützte",
+    "wir": "unterstützten",
+    "ihr": "unterstütztet",
+    "sie/Sie": "unterstützten"
+   },
+   "Perfekt": {
+    "ich": "habe unterstützt",
+    "du": "hast unterstützt",
+    "er/sie/es": "hat unterstützt",
+    "wir": "haben unterstützt",
+    "ihr": "habt unterstützt",
+    "sie/Sie": "haben unterstützt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte unterstützt",
+    "du": "hattest unterstützt",
+    "er/sie/es": "hatte unterstützt",
+    "wir": "hatten unterstützt",
+    "ihr": "hattet unterstützt",
+    "sie/Sie": "hatten unterstützt"
+   },
+   "Futur I": {
+    "ich": "werde unterstützen",
+    "du": "wirst unterstützen",
+    "er/sie/es": "wird unterstützen",
+    "wir": "werden unterstützen",
+    "ihr": "werdet unterstützen",
+    "sie/Sie": "werden unterstützen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde unterstützen",
+    "du": "würdest unterstützen",
+    "er/sie/es": "würde unterstützen",
+    "wir": "würden unterstützen",
+    "ihr": "würdet unterstützen",
+    "sie/Sie": "würden unterstützen"
+   },
+   "Imperativ": {
+    "du": "unterstütze!",
+    "ihr": "unterstützt!",
+    "Sie": "unterstützen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0284",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Unterstützung",
+   "en": "support",
+   "fa": "حمایت",
+   "ps": "ملاتړ",
+   "fr": "soutien",
+   "tr": "destek"
+  }
+ },
+ {
+  "id": "wA2-1-0285",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "adjective"
+  ],
+  "words": {
+   "de": "konfliktfähig",
+   "en": "able to handle conflict",
+   "fa": "توانایی مدیریت تنش",
+   "ps": "د شخړې د سمبالولو وړ",
+   "fr": "capable de gérer les conflits",
+   "tr": "çatışma yönetebilir"
+  }
+ },
+ {
+  "id": "wA2-1-0286",
+  "category": [
+   "daily_life",
+   "adjective"
+  ],
+  "words": {
+   "de": "gemeinsam",
+   "en": "together / common",
+   "fa": "مشترک / با هم",
+   "ps": "یو ځای / ګډ",
+   "fr": "ensemble / commun",
+   "tr": "birlikte / ortak"
+  }
+ },
+ {
+  "id": "wA2-1-0287",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "gemeinsam etwas unternehmen",
+   "en": "to do something together",
+   "fa": "کاری را با هم انجام دادن",
+   "ps": "یو ځای څه کول",
+   "fr": "faire quelque chose ensemble",
+   "tr": "birlikte bir şey yapmak"
+  }
+ },
+ {
+  "id": "wA2-1-0288",
+  "category": [
+   "daily_life",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich treffen",
+   "en": "to meet",
+   "fa": "دیدار کردن",
+   "ps": "سره لېدنه کول",
+   "fr": "se rencontrer",
+   "tr": "buluşmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "treffe mich",
+    "du": "triffst dich",
+    "er/sie/es": "trifft sich",
+    "wir": "treffen uns",
+    "ihr": "trefft euch",
+    "sie/Sie": "treffen sich"
+   },
+   "Präteritum": {
+    "ich": "traf mich",
+    "du": "trafst dich",
+    "er/sie/es": "traf sich",
+    "wir": "trafen uns",
+    "ihr": "traft euch",
+    "sie/Sie": "trafen sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich getroffen",
+    "du": "hast dich getroffen",
+    "er/sie/es": "hat sich getroffen",
+    "wir": "haben uns getroffen",
+    "ihr": "habt euch getroffen",
+    "sie/Sie": "haben sich getroffen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich getroffen",
+    "du": "hattest dich getroffen",
+    "er/sie/es": "hatte sich getroffen",
+    "wir": "hatten uns getroffen",
+    "ihr": "hattet euch getroffen",
+    "sie/Sie": "hatten sich getroffen"
+   },
+   "Futur I": {
+    "ich": "werde mich treffen",
+    "du": "wirst dich treffen",
+    "er/sie/es": "wird sich treffen",
+    "wir": "werden uns treffen",
+    "ihr": "werdet euch treffen",
+    "sie/Sie": "werden sich treffen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich treffen",
+    "du": "würdest dich treffen",
+    "er/sie/es": "würde sich treffen",
+    "wir": "würden uns treffen",
+    "ihr": "würdet euch treffen",
+    "sie/Sie": "würden sich treffen"
+   },
+   "Imperativ": {
+    "du": "triff dich!",
+    "ihr": "trefft euch!",
+    "Sie": "treffen Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0290",
+  "category": [
+   "travel_holidays",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Ausflug",
+   "en": "excursion / trip",
+   "fa": "گشت‌وگذار / سفر کوتاه",
+   "ps": "چکر / لنډ سفر",
+   "fr": "excursion / sortie",
+   "tr": "gezinti / kısa gezi"
+  }
+ },
+ {
+  "id": "wA2-1-0291",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Veranstaltung",
+   "en": "event",
+   "fa": "رویداد / برنامه",
+   "ps": "پروګرام / غونډه",
+   "fr": "événement",
+   "tr": "etkinlik"
+  }
+ },
+ {
+  "id": "wA2-1-0292",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Konzert",
+   "en": "concert",
+   "fa": "کنسرت",
+   "ps": "کنسرت",
+   "fr": "concert",
+   "tr": "konser"
+  }
+ },
+ {
+  "id": "wA2-1-0293",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Bühne",
+   "en": "stage",
+   "fa": "صحنه",
+   "ps": "سټېج",
+   "fr": "scène",
+   "tr": "sahne"
+  }
+ },
+ {
+  "id": "wA2-1-0294",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Sänger",
+   "en": "singer (male)",
+   "fa": "خواننده (مرد)",
+   "ps": "سندرغاړی",
+   "fr": "chanteur",
+   "tr": "erkek şarkıcı"
+  }
+ },
+ {
+  "id": "wA2-1-0295",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Sängerin",
+   "en": "singer (female)",
+   "fa": "خواننده (زن)",
+   "ps": "سندرغاړې",
+   "fr": "chanteuse",
+   "tr": "kadın şarkıcı"
+  }
+ },
+ {
+  "id": "wA2-1-0296",
+  "category": [
+   "hobbies_sports",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Band",
+   "en": "band / music group",
+   "fa": "گروه موسیقی",
+   "ps": "موسیقي ډله",
+   "fr": "groupe",
+   "tr": "müzik grubu"
+  }
+ },
+ {
+  "id": "wA2-1-0297",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Musiker",
+   "en": "musician (male)",
+   "fa": "موسیقی‌دان (مرد)",
+   "ps": "موسیقار",
+   "fr": "musicien",
+   "tr": "erkek müzisyen"
+  }
+ },
+ {
+  "id": "wA2-1-0298",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Musikerin",
+   "en": "musician (female)",
+   "fa": "موسیقی‌دان (زن)",
+   "ps": "موسیقاره",
+   "fr": "musicienne",
+   "tr": "kadın müzisyen"
+  }
+ },
+ {
+  "id": "wA2-1-0299",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Eintritt",
+   "en": "entry / admission",
+   "fa": "ورود / بلیت ورودی",
+   "ps": "ورود",
+   "fr": "entrée",
+   "tr": "giriş"
+  }
+ },
+ {
+  "id": "wA2-1-0300",
+  "category": [
+   "shopping_money",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Eintrittspreis",
+   "en": "admission price",
+   "fa": "قیمت بلیت",
+   "ps": "د داخلېدو بیه",
+   "fr": "prix d'entrée",
+   "tr": "giriş ücreti"
+  }
+ },
+ {
+  "id": "wA2-1-0301",
+  "category": [
+   "shopping_money",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Rabatt",
+   "en": "discount",
+   "fa": "تخفیف",
+   "ps": "تخفیف",
+   "fr": "remise",
+   "tr": "indirim"
+  }
+ },
+ {
+  "id": "wA2-1-0302",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Ermäßigung",
+   "en": "reduction / concession",
+   "fa": "تخفیف (ویژه)",
+   "ps": "ځانګړی تخفیف",
+   "fr": "réduction",
+   "tr": "indirim"
+  }
+ },
+ {
+  "id": "wA2-1-0303",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Festival",
+   "en": "festival",
+   "fa": "فستیوال",
+   "ps": "فېسټیوال",
+   "fr": "festival",
+   "tr": "festival"
+  }
+ },
+ {
+  "id": "wA2-1-0304",
+  "category": [
+   "culture_events",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Theater",
+   "en": "theatre",
+   "fa": "تئاتر",
+   "ps": "تېاتر",
+   "fr": "théâtre",
+   "tr": "tiyatro"
+  }
+ },
+ {
+  "id": "wA2-1-0305",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Vorstellung",
+   "en": "performance",
+   "fa": "اجرای نمایشی",
+   "ps": "ننداره",
+   "fr": "spectacle",
+   "tr": "gösteri"
+  }
+ },
+ {
+  "id": "wA2-1-0306",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Schauspieler",
+   "en": "actor (male)",
+   "fa": "بازیگر (مرد)",
+   "ps": "لوبغاړی",
+   "fr": "acteur",
+   "tr": "erkek oyuncu"
+  }
+ },
+ {
+  "id": "wA2-1-0307",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Schauspielerin",
+   "en": "actress (female)",
+   "fa": "بازیگر (زن)",
+   "ps": "لوبغاړې",
+   "fr": "actrice",
+   "tr": "kadın oyuncu"
+  }
+ },
+ {
+  "id": "wA2-1-0308",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Zuschauer",
+   "en": "spectator / viewer (male)",
+   "fa": "تماشاگر (مرد)",
+   "ps": "تماشچي",
+   "fr": "spectateur",
+   "tr": "erkek seyirci"
+  }
+ },
+ {
+  "id": "wA2-1-0309",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zuschauerin",
+   "en": "spectator (female)",
+   "fa": "تماشاگر (زن)",
+   "ps": "تماشچۍ",
+   "fr": "spectatrice",
+   "tr": "kadın seyirci"
+  }
+ },
+ {
+  "id": "wA2-1-0310",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "stattfinden",
+   "en": "to take place",
+   "fa": "برگزار شدن",
+   "ps": "ترسره کېدل",
+   "fr": "avoir lieu",
+   "tr": "gerçekleşmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "finde statt",
+    "du": "findest statt",
+    "er/sie/es": "findet statt",
+    "wir": "finden statt",
+    "ihr": "findet statt",
+    "sie/Sie": "finden statt"
+   },
+   "Präteritum": {
+    "ich": "fand statt",
+    "du": "fandest statt",
+    "er/sie/es": "fand statt",
+    "wir": "fanden statt",
+    "ihr": "fandet statt",
+    "sie/Sie": "fanden statt"
+   },
+   "Perfekt": {
+    "ich": "habe stattgefunden",
+    "du": "hast stattgefunden",
+    "er/sie/es": "hat stattgefunden",
+    "wir": "haben stattgefunden",
+    "ihr": "habt stattgefunden",
+    "sie/Sie": "haben stattgefunden"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte stattgefunden",
+    "du": "hattest stattgefunden",
+    "er/sie/es": "hatte stattgefunden",
+    "wir": "hatten stattgefunden",
+    "ihr": "hattet stattgefunden",
+    "sie/Sie": "hatten stattgefunden"
+   },
+   "Futur I": {
+    "ich": "werde stattfinden",
+    "du": "wirst stattfinden",
+    "er/sie/es": "wird stattfinden",
+    "wir": "werden stattfinden",
+    "ihr": "werdet stattfinden",
+    "sie/Sie": "werden stattfinden"
+   },
+   "Konjunktiv II": {
+    "ich": "fände statt",
+    "du": "fändest statt",
+    "er/sie/es": "fände statt",
+    "wir": "fänden statt",
+    "ihr": "fändet statt",
+    "sie/Sie": "fänden statt"
+   },
+   "Imperativ": {
+    "du": "finde statt!",
+    "ihr": "findet statt!",
+    "Sie": "finden Sie statt!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0311",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "ausverkauft",
+   "en": "sold out",
+   "fa": "تمام‌شده / فروخته‌شده",
+   "ps": "ټول ټکټونه خرڅ شوي",
+   "fr": "complet",
+   "tr": "tükendi"
+  }
+ },
+ {
+  "id": "wA2-1-0312",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "verlängern",
+   "en": "to extend",
+   "fa": "تمدید کردن",
+   "ps": "غځول",
+   "fr": "prolonger",
+   "tr": "uzatmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "verlängere",
+    "du": "verlängerst",
+    "er/sie/es": "verlängert",
+    "wir": "verlängern",
+    "ihr": "verlängert",
+    "sie/Sie": "verlängern"
+   },
+   "Präteritum": {
+    "ich": "verlängerte",
+    "du": "verlängertest",
+    "er/sie/es": "verlängerte",
+    "wir": "verlängerten",
+    "ihr": "verlängertet",
+    "sie/Sie": "verlängerten"
+   },
+   "Perfekt": {
+    "ich": "habe verlängert",
+    "du": "hast verlängert",
+    "er/sie/es": "hat verlängert",
+    "wir": "haben verlängert",
+    "ihr": "habt verlängert",
+    "sie/Sie": "haben verlängert"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte verlängert",
+    "du": "hattest verlängert",
+    "er/sie/es": "hatte verlängert",
+    "wir": "hatten verlängert",
+    "ihr": "hattet verlängert",
+    "sie/Sie": "hatten verlängert"
+   },
+   "Futur I": {
+    "ich": "werde verlängern",
+    "du": "wirst verlängern",
+    "er/sie/es": "wird verlängern",
+    "wir": "werden verlängern",
+    "ihr": "werdet verlängern",
+    "sie/Sie": "werden verlängern"
+   },
+   "Konjunktiv II": {
+    "ich": "würde verlängern",
+    "du": "würdest verlängern",
+    "er/sie/es": "würde verlängern",
+    "wir": "würden verlängern",
+    "ihr": "würdet verlängern",
+    "sie/Sie": "würden verlängern"
+   },
+   "Imperativ": {
+    "du": "verlängere!",
+    "ihr": "verlängert!",
+    "Sie": "verlängern Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0313",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "empfehlen",
+   "en": "to recommend",
+   "fa": "توصیه کردن",
+   "ps": "سپارښتنه کول",
+   "fr": "recommander",
+   "tr": "tavsiye etmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "empfehle",
+    "du": "empfiehlst",
+    "er/sie/es": "empfiehlt",
+    "wir": "empfehlen",
+    "ihr": "empfehlt",
+    "sie/Sie": "empfehlen"
+   },
+   "Präteritum": {
+    "ich": "empfahl",
+    "du": "empfahlst",
+    "er/sie/es": "empfahl",
+    "wir": "empfahlen",
+    "ihr": "empfahlt",
+    "sie/Sie": "empfahlen"
+   },
+   "Perfekt": {
+    "ich": "habe empfohlen",
+    "du": "hast empfohlen",
+    "er/sie/es": "hat empfohlen",
+    "wir": "haben empfohlen",
+    "ihr": "habt empfohlen",
+    "sie/Sie": "haben empfohlen"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte empfohlen",
+    "du": "hattest empfohlen",
+    "er/sie/es": "hatte empfohlen",
+    "wir": "hatten empfohlen",
+    "ihr": "hattet empfohlen",
+    "sie/Sie": "hatten empfohlen"
+   },
+   "Futur I": {
+    "ich": "werde empfehlen",
+    "du": "wirst empfehlen",
+    "er/sie/es": "wird empfehlen",
+    "wir": "werden empfehlen",
+    "ihr": "werdet empfehlen",
+    "sie/Sie": "werden empfehlen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde empfehlen",
+    "du": "würdest empfehlen",
+    "er/sie/es": "würde empfehlen",
+    "wir": "würden empfehlen",
+    "ihr": "würdet empfehlen",
+    "sie/Sie": "würden empfehlen"
+   },
+   "Imperativ": {
+    "du": "empfiehl!",
+    "ihr": "empfehlt!",
+    "Sie": "empfehlen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0314",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Empfehlung",
+   "en": "recommendation",
+   "fa": "توصیه",
+   "ps": "سپارښتنه",
+   "fr": "recommandation",
+   "tr": "tavsiye"
+  }
+ },
+ {
+  "id": "wA2-1-0317",
+  "category": [
+   "travel_holidays",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Reservierung",
+   "en": "reservation",
+   "fa": "رزرو",
+   "ps": "رزرو",
+   "fr": "réservation",
+   "tr": "rezervasyon"
+  }
+ },
+ {
+  "id": "wA2-1-0318",
+  "category": [
+   "daily_life",
+   "verb"
+  ],
+  "words": {
+   "de": "verspäten",
+   "en": "to be late",
+   "fa": "دیر کردن",
+   "ps": "ناوخته کېدل",
+   "fr": "être en retard",
+   "tr": "gecikmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "verspäte",
+    "du": "verspätest",
+    "er/sie/es": "verspätet",
+    "wir": "verspäten",
+    "ihr": "verspätet",
+    "sie/Sie": "verspäten"
+   },
+   "Präteritum": {
+    "ich": "verspätete",
+    "du": "verspätetest",
+    "er/sie/es": "verspätete",
+    "wir": "verspäteten",
+    "ihr": "verspätetet",
+    "sie/Sie": "verspäteten"
+   },
+   "Perfekt": {
+    "ich": "habe verspätet",
+    "du": "hast verspätet",
+    "er/sie/es": "hat verspätet",
+    "wir": "haben verspätet",
+    "ihr": "habt verspätet",
+    "sie/Sie": "haben verspätet"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte verspätet",
+    "du": "hattest verspätet",
+    "er/sie/es": "hatte verspätet",
+    "wir": "hatten verspätet",
+    "ihr": "hattet verspätet",
+    "sie/Sie": "hatten verspätet"
+   },
+   "Futur I": {
+    "ich": "werde verspäten",
+    "du": "wirst verspäten",
+    "er/sie/es": "wird verspäten",
+    "wir": "werden verspäten",
+    "ihr": "werdet verspäten",
+    "sie/Sie": "werden verspäten"
+   },
+   "Konjunktiv II": {
+    "ich": "würde verspäten",
+    "du": "würdest verspäten",
+    "er/sie/es": "würde verspäten",
+    "wir": "würden verspäten",
+    "ihr": "würdet verspäten",
+    "sie/Sie": "würden verspäten"
+   },
+   "Imperativ": {
+    "du": "verspät!",
+    "ihr": "verspätet!",
+    "Sie": "verspäten Sie!"
+   }
+  }
+ },
+ {
+  "id": "wA2-1-0320",
+  "category": [
+   "daily_life",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Publikum",
+   "en": "audience",
+   "fa": "مخاطب / حضار",
+   "ps": "اورېدونکي",
+   "fr": "public",
+   "tr": "seyirci"
+  }
+ },
+ {
+  "id": "wA2-1-0321",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Stimmung",
+   "en": "atmosphere / mood",
+   "fa": "حال و هوا / فضا",
+   "ps": "فضا / مزاج",
+   "fr": "ambiance / humeur",
+   "tr": "atmosfer / ruh hali"
+  }
+ },
+ {
+  "id": "wA2-1-0322",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "begeistert",
+   "en": "excited / enthusiastic",
+   "fa": "هیجان‌زده / مشتاق",
+   "ps": "ډېر خوښ / مشتاق",
+   "fr": "enthousiaste",
+   "tr": "hevesli / coşkulu"
+  }
+ },
+ {
+  "id": "wA2-1-0323",
+  "category": [
+   "adverb"
+  ],
+  "words": {
+   "de": "sonst",
+   "en": "otherwise / else",
+   "fa": "وگرنه / در غیر این صورت",
+   "ps": "که نه / له دې پرته",
+   "fr": "sinon / autrement",
+   "tr": "yoksa / aksi halde"
+  },
+  "examples": {
+   "de": "Beeil dich, sonst verpassen wir den Bus."
+  }
+ },
+ {
+  "id": "wA2-1-0324",
+  "category": [
+   "time_date",
+   "adverb"
+  ],
+  "words": {
+   "de": "vorher",
+   "en": "before / beforehand",
+   "fa": "قبل از آن",
+   "ps": "تر دې مخکې",
+   "fr": "avant / auparavant",
+   "tr": "önceden / daha önce"
+  },
+  "examples": {
+   "de": "Ich gehe ins Kino, aber vorher muss ich lernen."
+  }
+ },
+ {
+  "id": "wA2-1-0325",
+  "category": [
+   "negation"
+  ],
+  "words": {
+   "de": "niemals",
+   "en": "never",
+   "fa": "هرگز",
+   "ps": "هېڅکله",
+   "fr": "jamais",
+   "tr": "asla / hiçbir zaman"
+  },
+  "examples": {
+   "de": "Ich werde das niemals vergessen."
+  }
+ }
+]

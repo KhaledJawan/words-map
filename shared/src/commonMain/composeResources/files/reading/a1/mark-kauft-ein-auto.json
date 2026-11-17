@@ -1,0 +1,72 @@
+{
+  "order": 5,
+  "title": "Mark kauft ein Auto",
+  "description": {
+    "de": "Mark sucht mit seinem Vater ein günstiges Auto.",
+    "en": "Mark and his father look for a cheap car.",
+    "fa": "مارک با پدرش دنبال یک خودروی ارزان می‌گردد."
+  },
+  "keywords": [
+    "Auto",
+    "Autohaus",
+    "Bus"
+  ],
+  "text": "Mark geht mit seinem Vater zu einem Autohaus, weil er für den Weg zu seiner Arbeit dringend ein Auto braucht. Bis jetzt ist Mark immer mit dem Bus gefahren. Das kostet aber sehr viel Zeit. Mark möchte unabhängig sein und schneller zur Arbeit kommen.\n\nSein Vater hilft ihm dabei, ein gutes Auto zu finden. Es darf nicht zu teuer sein. Mark und sein Vater haben nicht so viel Geld.\n\nSchließlich finden sie ein Auto mit einem guten Preis. Es ist nicht teuer, aber sieht gut aus.",
+  "questions": [
+    {
+      "question": "Warum braucht Mark ein Auto?",
+      "answers": [
+        "Damit er schneller zur Arbeit kommt.",
+        "Weil sein altes Auto kaputt ist.",
+        "Weil er kein Fahrrad hat.",
+        "Weil er es seiner Freundin schenken möchte."
+      ]
+    },
+    {
+      "question": "Wer hilft Mark, ein Auto zu kaufen?",
+      "answers": [
+        "Mark hat seinen Vater mitgenommen.",
+        "Mark kauft das Auto alleine.",
+        "Mark hat seine Schwester mitgenommen.",
+        "Mark hat seine Mutter mitgenommen."
+      ]
+    },
+    {
+      "question": "Welches Auto möchten Mark und sein Vater kaufen?",
+      "answers": [
+        "Ein neues Auto, das nicht teuer ist.",
+        "Ein blaues Auto.",
+        "Ein sportliches Auto.",
+        "Ein altes Auto."
+      ]
+    },
+    {
+      "question": "Wie ist Mark bis jetzt ohne Auto zur Arbeit gekommen?",
+      "answers": [
+        "Mit dem Bus.",
+        "Mit dem Taxi.",
+        "Mit dem Fahrrad.",
+        "Mit der Straßenbahn."
+      ]
+    },
+    {
+      "question": "Was passiert am Ende des Texts?",
+      "answers": [
+        "Mark und sein Vater kaufen ein Auto.",
+        "Mark und sein Vater haben kein Auto gefunden.",
+        "Mark und sein Vater essen ein Eis.",
+        "Mark und sein Vater streiten sich."
+      ]
+    },
+    {
+      "question": "Warum kaufen sie das Auto?",
+      "answers": [
+        "Weil es gut aussieht, aber nicht teuer ist.",
+        "Weil der Verkäufer es empfohlen hat.",
+        "Weil sie Lust haben, Geld auszugeben.",
+        "Weil es teuer ist."
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/mark-kauft-ein-auto/"
+}

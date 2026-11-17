@@ -1,0 +1,26 @@
+{
+  "android": {
+    "latestVersion": "2.2.0",
+    "latestBuild": 28,
+    "minimumSupportedBuild": 0,
+    "releaseNotes": {
+      "en": "Daily flashcards in the new Learn tab, your own words and categories, progress for each chapter, bookmarks from the cards and a daily reminder.",
+      "de": "Tägliche Lernkarten im neuen Tab „Lernen“, eigene Wörter und Kategorien, Fortschritt für jedes Kapitel, Lesezeichen direkt von den Karten und eine tägliche Erinnerung.",
+      "fa": "کارت‌های روزانه در بخش تازهٔ «یادگیری»، کلمه‌ها و دسته‌های خودتان، پیشرفت هر فصل، نشان‌گذاری از روی کارت‌ها و یادآوری روزانه.",
+      "ps": "په نوې «زده کړه» برخه کې ورځني کارتونه، خپلې کلمې او ډلې، د هر څپرکي پرمختګ، له کارتونو نښه کول او ورځنۍ یادونه."
+    },
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.merlinict.wordmap"
+  },
+  "ios": {
+    "latestVersion": "2.2.0",
+    "latestBuild": 8,
+    "minimumSupportedBuild": 0,
+    "releaseNotes": {
+      "en": "Daily flashcards in the new Learn tab, your own words and categories, progress for each chapter, bookmarks from the cards and a daily reminder.",
+      "de": "Tägliche Lernkarten im neuen Tab „Lernen“, eigene Wörter und Kategorien, Fortschritt für jedes Kapitel, Lesezeichen direkt von den Karten und eine tägliche Erinnerung.",
+      "fa": "کارت‌های روزانه در بخش تازهٔ «یادگیری»، کلمه‌ها و دسته‌های خودتان، پیشرفت هر فصل، نشان‌گذاری از روی کارت‌ها و یادآوری روزانه.",
+      "ps": "په نوې «زده کړه» برخه کې ورځني کارتونه، خپلې کلمې او ډلې، د هر څپرکي پرمختګ، له کارتونو نښه کول او ورځنۍ یادونه."
+    },
+    "storeUrl": "https://apps.apple.com/app/id6823419767"
+  }
+}

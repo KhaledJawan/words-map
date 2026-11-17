@@ -1,0 +1,72 @@
+{
+  "order": 5,
+  "title": "Ballspielen am Strand",
+  "description": {
+    "de": "Urlaub in Barcelona: Ballspielen am Strand mit neuen Freunden.",
+    "en": "Holiday in Barcelona: playing ball on the beach with new friends.",
+    "fa": "تعطیلات در بارسلونا: توپ‌بازی در ساحل با دوستان تازه."
+  },
+  "keywords": [
+    "Strand",
+    "Urlaub",
+    "Ball"
+  ],
+  "text": "Ich bin mit meiner Familie gerade im Urlaub in Spanien. Wir sind in Barcelona. Die Stadt ist wunderschön und interessant und hat einen Strand.\n\nHeute sind wir am Strand. Meine Eltern liegen auf ihren Handtüchern unter einem Sonnenschirm und genießen die Wärme. Meine Schwester Pia und ich spielen ganz in der Nähe unserer Eltern Ball. Wir werfen ihn uns gegenseitig zu. Das macht Spaß!\n\nDann kommen zwei andere Kinder auf uns zu. Ein Mädchen und ein Junge. Die zwei haben keinen Ball. Sie fragen, ob sie bei uns mitspielen dürfen.\n\n„Na klar!“, antworten Pia und ich gleichzeitig. Je mehr, umso besser!",
+  "questions": [
+    {
+      "question": "In welchem Land machen wir Urlaub?",
+      "answers": [
+        "Spanien",
+        "Italien",
+        "Ägypten",
+        "Portugal"
+      ]
+    },
+    {
+      "question": "In welcher Stadt sind wir?",
+      "answers": [
+        "Barcelona",
+        "Madrid",
+        "Paris",
+        "Berlin"
+      ]
+    },
+    {
+      "question": "Wo sind wir heute?",
+      "answers": [
+        "Am Strand",
+        "In der Arbeit",
+        "Am Königsplatz",
+        "In der Kirche"
+      ]
+    },
+    {
+      "question": "Unter was liegen meine Eltern?",
+      "answers": [
+        "Sonnenschirm",
+        "Dach",
+        "Palme",
+        "Himmel"
+      ]
+    },
+    {
+      "question": "Wie heißt meine Schwester?",
+      "answers": [
+        "Pia",
+        "Lea",
+        "Lina",
+        "Gina"
+      ]
+    },
+    {
+      "question": "Wie viele Kinder kommen auf uns zu?",
+      "answers": [
+        "zwei",
+        "drei",
+        "vier",
+        "eines"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/ballspielen-am-strand/"
+}

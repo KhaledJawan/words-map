@@ -1,0 +1,72 @@
+{
+  "order": 1,
+  "title": "Das Arbeitsamt",
+  "description": {
+    "de": "Wer zum Arbeitsamt geht und wie es hilft.",
+    "en": "Who goes to the job centre and how it helps.",
+    "fa": "چه کسانی به ادارهٔ کار می‌روند و این اداره چه کمکی می‌کند."
+  },
+  "keywords": [
+    "Arbeitsamt",
+    "arbeitslos",
+    "Job"
+  ],
+  "text": "In jeder großen Stadt gibt es ein Arbeitsamt. Dort gehen viele Menschen hin. Es gibt dort Leute, die noch einen Job haben, aber Hilfe brauchen, einen anderen Job zu finden. Es gibt dort aber auch Menschen, die gerade ihren Job verloren haben und einen neuen Job brauchen. Dann gibt es noch Personen, die schon sehr lange keinen Job mehr haben und die Hilfe vom Arbeitsamt ganz dringend brauchen.\n\nWenn man keinen Job hat, ist man arbeitslos. Diese Arbeitslosen müssen regelmäßig zum Arbeitsamt gehen. Da gibt es jemanden, der ihnen verschiedene Jobs vorschlägt. Vom Arbeitsamt gibt es auch Weiterbildungen, die man machen kann. Dann kann man besser einen Job finden.",
+  "questions": [
+    {
+      "question": "Wo gibt es ein Arbeitsamt?",
+      "answers": [
+        "in jeder großen Stadt",
+        "auf dem Dorf",
+        "in jeder kleinen Stadt",
+        "nirgendwo"
+      ]
+    },
+    {
+      "question": "Was wollen die Leute am Arbeitsamt?",
+      "answers": [
+        "Hilfe",
+        "Geld",
+        "Essen",
+        "Schlafplatz"
+      ]
+    },
+    {
+      "question": "Wobei hilft das Arbeitsamt?",
+      "answers": [
+        "Jobsuche",
+        "Wohnungssuche",
+        "Pflege",
+        "Krankheiten"
+      ]
+    },
+    {
+      "question": "Wie ist man, wenn man keinen Job hat?",
+      "answers": [
+        "arbeitslos",
+        "arm",
+        "hungrig",
+        "obdachlos"
+      ]
+    },
+    {
+      "question": "Was gibt es vom Arbeitsamt auch?",
+      "answers": [
+        "Weiterbildungen",
+        "Essen",
+        "Schlafplatz",
+        "Geld"
+      ]
+    },
+    {
+      "question": "Was kann man mit einer Weiterbildung besser finden?",
+      "answers": [
+        "Job",
+        "Wohnung",
+        "Essen",
+        "Schlafplatz"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/das-arbeitsamt/"
+}

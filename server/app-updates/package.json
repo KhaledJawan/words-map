@@ -1,0 +1,13 @@
+{
+  "name": "wordsmap-app-updates",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.ts",
+    "dev": "wrangler dev",
+    "deploy": "node --test test/*.test.ts && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.152.0"
+  }
+}

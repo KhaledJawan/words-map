@@ -1,0 +1,72 @@
+{
+  "order": 9,
+  "title": "Meine beste Freundin Kati",
+  "description": {
+    "de": "Seit der ersten Klasse beste Freundinnen.",
+    "en": "Best friends since first grade.",
+    "fa": "بهترین دوست‌ها از کلاس اول."
+  },
+  "keywords": [
+    "Freundin",
+    "Kino",
+    "Freundschaft"
+  ],
+  "text": "Kati ist meine beste Freundin. Ich kenne sie schon seit der ersten Klasse. Wir saßen früher zusammen an einem Tisch. Jetzt sind wir beide sechzehn Jahre alt und besuchen verschiedene Schulen. Wir treffen uns aber trotzdem immer zweimal in der Woche. Am liebsten gehen wir in die Stadt einkaufen oder Eis essen. Kati und ich mögen beide Filme, also gehen wir auch oft zusammen ins Kino.\n\nManchmal schläft Kati bei mir oder ich bei ihr. Dann quatschen wir die ganze Nacht. Ich mag Kati sehr gerne, weil sie lustig und freundlich ist. Sie ist auch sehr abenteuerlich. Mit Kati ist es nie langweilig!",
+  "questions": [
+    {
+      "question": "Wie alt ist Kati?",
+      "answers": [
+        "Sechzehn",
+        "Fünfzehn",
+        "Zehn",
+        "Achtzehn"
+      ]
+    },
+    {
+      "question": "Wo habe ich Kati kennengelernt?",
+      "answers": [
+        "In der ersten Klasse",
+        "Im Kino",
+        "Beim Eis essen",
+        "Im Kindergarten"
+      ]
+    },
+    {
+      "question": "Was machen Kati und ich gerne zusammen?",
+      "answers": [
+        "Eis essen und ins Kino gehen",
+        "Eis essen und schwimmen",
+        "Ins Kino gehen und tanzen",
+        "Ins Kino gehen und schwimmen"
+      ]
+    },
+    {
+      "question": "Was machen Kati und ich, wenn sie bei mir übernachtet?",
+      "answers": [
+        "Quatschen",
+        "Filme gucken",
+        "Schlafen",
+        "Einkaufen"
+      ]
+    },
+    {
+      "question": "Welche Eigenschaften mag ich sehr gerne an Kati?",
+      "answers": [
+        "Abenteuerlich, lustig und freundlich",
+        "Langweilig, lustig und freundlich",
+        "Lustig, laut und abenteuerlich",
+        "Freundlich, ruhig und nett"
+      ]
+    },
+    {
+      "question": "Wie oft treffe ich Kati?",
+      "answers": [
+        "Zweimal die Woche",
+        "Einmal im Monat",
+        "Jede Woche",
+        "Viermal die Woche"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/meine-beste-freundin-kati-/"
+}

@@ -1,0 +1,72 @@
+{
+  "order": 2,
+  "title": "Der Clown im Zirkus",
+  "description": {
+    "de": "Ein Clown, lange Luftballons und ein glücklicher Florian.",
+    "en": "A clown, long balloons and a happy Florian.",
+    "fa": "یک دلقک، بادکنک‌های دراز و فلورین خوشحال."
+  },
+  "keywords": [
+    "Zirkus",
+    "Clown",
+    "Luftballon"
+  ],
+  "text": "Jedes kleine Kind liebt Clowns. Sie sind lustig. Das denkt auch der kleine Florian. Er ist fünf Jahre alt und ist mit seinen Eltern gerade im Zirkus. Die Vorstellung hat noch nicht angefangen, aber unten in der Manege ist ein Clown. Seine Haare sind rot und seine Schuhe sind viel zu groß. Er soll die Zuschauer unterhalten, bis die Vorstellung anfängt.\n\nDer Clown hat viele, bunte Luftballons. Die Luftballons sind ganz lang – wie eine Schlange. Er verknotet die Ballons und dann … Ein Hund! Der Clown hat mit den Luftballons einen Hund geformt. Die Zuschauer klatschen und Florian lacht. Dann geht der Clown mit seinen großen Schuhen zu Florian und schenkt ihm den Luftballon-Hund. Florian ist sehr glücklich.",
+  "questions": [
+    {
+      "question": "Wie sind Clowns?",
+      "answers": [
+        "lustig",
+        "langweilig",
+        "laut",
+        "lieb"
+      ]
+    },
+    {
+      "question": "Wie alt ist Florian?",
+      "answers": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "question": "Wo ist der Clown?",
+      "answers": [
+        "in der Manege",
+        "zu Hause",
+        "auf dem Dach",
+        "in der Schule"
+      ]
+    },
+    {
+      "question": "Welche Farbe haben die Haare des Clowns?",
+      "answers": [
+        "rot",
+        "blau",
+        "gelb",
+        "weiß"
+      ]
+    },
+    {
+      "question": "Der Clown hat viele, bunte …",
+      "answers": [
+        "Luftballons",
+        "Schuhe",
+        "Haare",
+        "Hunde"
+      ]
+    },
+    {
+      "question": "Was formt der Clown mit den Luftballons?",
+      "answers": [
+        "Hund",
+        "Katze",
+        "Delfin",
+        "Pferd"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/der-clown-im-zirkus/"
+}

@@ -1,0 +1,72 @@
+{
+  "order": 13,
+  "title": "Minka muss zum Tierarzt",
+  "description": {
+    "de": "Die alte Katze Minka muss zum Tierarzt.",
+    "en": "Minka, the old cat, has to see the vet.",
+    "fa": "مینکا، گربهٔ پیر، باید پیش دامپزشک برود."
+  },
+  "keywords": [
+    "Katze",
+    "Tierarzt",
+    "Haustier"
+  ],
+  "text": "Ich habe ein Haustier. Es ist eine Katze und sie heißt Minka. Minka ist schon sehr alt. Sie ist nun schon zwölf Jahre alt!\n\nIch habe Minka bekommen, als ich zehn Jahre alt war. Ich habe mich damals sehr gefreut und liebe die Katze auch heute noch.\n\nManchmal bin ich aber traurig, weil es Minka nicht mehr so gut geht. Weil sie so alt ist, hat sie Probleme mit den Augen. Sie kann nicht mehr so gut sehen. Deswegen muss ich mit ihr zum Tierarzt.\n\nIch packe sie in eine Transportbox für Katzen. Das ist eine Box mit einem Gitter an der Vorderseite. Das mag Minka gar nicht!",
+  "questions": [
+    {
+      "question": "Welches Tier ist Minka?",
+      "answers": [
+        "Katze",
+        "Hund",
+        "Meerschweinchen",
+        "Vogel"
+      ]
+    },
+    {
+      "question": "Wie alt ist Minka?",
+      "answers": [
+        "zwölf Jahre",
+        "dreizehn Jahre",
+        "vier Jahre",
+        "zehn Jahre"
+      ]
+    },
+    {
+      "question": "Wie alt war ich, als ich Minka bekommen habe?",
+      "answers": [
+        "zehn Jahre",
+        "zwölf Jahre",
+        "vier Jahre",
+        "dreizehn Jahre"
+      ]
+    },
+    {
+      "question": "Was bin ich manchmal?",
+      "answers": [
+        "traurig",
+        "glücklich",
+        "wütend",
+        "verwirrt"
+      ]
+    },
+    {
+      "question": "Mit was hat Minka Probleme?",
+      "answers": [
+        "Augen",
+        "Ohren",
+        "Nase",
+        "Zähne"
+      ]
+    },
+    {
+      "question": "Wo hat die Transportbox das Gitter?",
+      "answers": [
+        "vorne",
+        "oben",
+        "unten",
+        "hinten"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/minka-muss-zum-tierarzt/"
+}

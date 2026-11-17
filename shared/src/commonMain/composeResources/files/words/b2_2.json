@@ -1,0 +1,3238 @@
+[
+ {
+  "id": "wB2-2-0001",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "der/die Arbeitgeber/-in",
+   "en": "employer",
+   "fa": "کارفرما",
+   "ps": "د کار ورکوونکی/کار ورکوونکې",
+   "fr": "l'employeur/l'employeuse",
+   "tr": "işveren"
+  }
+ },
+ {
+  "id": "wB2-2-0002",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases"
+  ],
+  "words": {
+   "de": "der/die Architekt/-in",
+   "en": "architect",
+   "fa": "معمار، آرشیتکت",
+   "ps": "معمار/معماره",
+   "fr": "l'architecte",
+   "tr": "mimar"
+  }
+ },
+ {
+  "id": "wB2-2-0003",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "der/die Automechaniker/-in",
+   "en": "car mechanic",
+   "fa": "مکانیک خودرو",
+   "ps": "د موټرو میخانیک/مېخانیکه",
+   "fr": "le/la mécanicien(ne) automobile",
+   "tr": "otomobil tamircisi"
+  }
+ },
+ {
+  "id": "wB2-2-0004",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Autoproduzent",
+   "en": "car manufacturer",
+   "fa": "تولید کننده خودرو",
+   "ps": "Autoproduzent",
+   "fr": "Autoproduzent",
+   "tr": "Autoproduzent"
+  }
+ },
+ {
+  "id": "wB2-2-0009",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Familienbetrieb",
+   "en": "family business",
+   "fa": "شرکت خانوادگی",
+   "ps": "د کورنۍ شرکت",
+   "fr": "Entreprise familiale",
+   "tr": "Aile işletmesi"
+  }
+ },
+ {
+  "id": "wB2-2-0010",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Hilfsorganisation",
+   "en": "aid organisation",
+   "fa": "سازمان کمک رسانی، سازمان امداد",
+   "ps": "مرستندویه سازمان",
+   "fr": "organisation d'aide",
+   "tr": "yardım kuruluşu"
+  }
+ },
+ {
+  "id": "wB2-2-0011",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "internationale Unternehmen",
+   "en": "international company",
+   "fa": "شرکت‌های بین المللی",
+   "ps": "نړیوال شرکتونه",
+   "fr": "entreprises internationales",
+   "tr": "uluslararası şirketler"
+  }
+ },
+ {
+  "id": "wB2-2-0012",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Lebensmittelbranche",
+   "en": "food industry",
+   "fa": "بخش مواد غذایی",
+   "ps": "د خوړو صنعت",
+   "fr": "secteur alimentaire",
+   "tr": "gıda sektörü"
+  }
+ },
+ {
+  "id": "wB2-2-0013",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Malerbetrieb",
+   "en": "painting and decorating business",
+   "fa": "شرکت نقاشی",
+   "ps": "د رنګمالۍ شرکت",
+   "fr": "Entreprise de peinture",
+   "tr": "Boyacı işletmesi"
+  }
+ },
+ {
+  "id": "wB2-2-0014",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "soziale Bereich",
+   "en": "social sector",
+   "fa": "عرصه اجتماعی",
+   "ps": "ټولنیز ساحه",
+   "fr": "domaine social",
+   "tr": "sosyal alan"
+  }
+ },
+ {
+  "id": "wB2-2-0015",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "beschäftigen",
+   "en": "to employ",
+   "fa": "مشغول کردن، سرگرم کردن، استخدام کردن",
+   "ps": "ګمارل، کار کول، استخدامول",
+   "fr": "employer",
+   "tr": "çalıştırmak"
+  },
+  "examples": {
+   "de": "Die Deutsche Bahn beschäftigt viele Mitarbeiter."
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "beschäftige",
+    "du": "beschäftigst",
+    "er/sie/es": "beschäftigt",
+    "wir": "beschäftigen",
+    "ihr": "beschäftigt",
+    "sie/Sie": "beschäftigen"
+   },
+   "Präteritum": {
+    "ich": "beschäftigte",
+    "du": "beschäftigtest",
+    "er/sie/es": "beschäftigte",
+    "wir": "beschäftigten",
+    "ihr": "beschäftigtet",
+    "sie/Sie": "beschäftigten"
+   },
+   "Perfekt": {
+    "ich": "habe beschäftigt",
+    "du": "hast beschäftigt",
+    "er/sie/es": "hat beschäftigt",
+    "wir": "haben beschäftigt",
+    "ihr": "habt beschäftigt",
+    "sie/Sie": "haben beschäftigt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte beschäftigt",
+    "du": "hattest beschäftigt",
+    "er/sie/es": "hatte beschäftigt",
+    "wir": "hatten beschäftigt",
+    "ihr": "hattet beschäftigt",
+    "sie/Sie": "hatten beschäftigt"
+   },
+   "Futur I": {
+    "ich": "werde beschäftigen",
+    "du": "wirst beschäftigen",
+    "er/sie/es": "wird beschäftigen",
+    "wir": "werden beschäftigen",
+    "ihr": "werdet beschäftigen",
+    "sie/Sie": "werden beschäftigen"
+   },
+   "Konjunktiv II": {
+    "ich": "würde beschäftigen",
+    "du": "würdest beschäftigen",
+    "er/sie/es": "würde beschäftigen",
+    "wir": "würden beschäftigen",
+    "ihr": "würdet beschäftigen",
+    "sie/Sie": "würden beschäftigen"
+   },
+   "Imperativ": {
+    "du": "beschäftige!",
+    "ihr": "beschäftigt!",
+    "Sie": "beschäftigen Sie!"
+   }
+  }
+ },
+ {
+  "id": "wB2-2-0020",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Grundschule",
+   "en": "primary school",
+   "fa": "مدرسه ابتدایی",
+   "ps": "ابتدایي ښوونځی",
+   "fr": "école primaire",
+   "tr": "ilkokul"
+  }
+ },
+ {
+  "id": "wB2-2-0021",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "weiterführende Schule",
+   "en": "secondary school",
+   "fa": "مدرسه دوره متوسطه",
+   "ps": "لوړ ښوونځی",
+   "fr": "école secondaire",
+   "tr": "ortaokul"
+  }
+ },
+ {
+  "id": "wB2-2-0022",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Hauptschule",
+   "en": "Hauptschule (lower secondary school)",
+   "fa": "هاوپت شوله",
+   "ps": "Hauptschule",
+   "fr": "Hauptschule",
+   "tr": "Hauptschule"
+  }
+ },
+ {
+  "id": "wB2-2-0023",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Mittelschule",
+   "en": "Mittelschule (middle school)",
+   "fa": "مدرسه دوره متوسطه",
+   "ps": "منځنۍ ښوونځی",
+   "fr": "collège",
+   "tr": "ortaokul"
+  }
+ },
+ {
+  "id": "wB2-2-0024",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Realschule",
+   "en": "Realschule (intermediate secondary school)",
+   "fa": "رئال شوله",
+   "ps": "Realschule",
+   "fr": "Realschule",
+   "tr": "Realschule"
+  }
+ },
+ {
+  "id": "wB2-2-0025",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Gesamtschule",
+   "en": "comprehensive school",
+   "fa": "مدرسه جامع",
+   "ps": "جامع ښوونځی",
+   "fr": "école polyvalente",
+   "tr": "toplu okul"
+  }
+ },
+ {
+  "id": "wB2-2-0027",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Haupt-/Realschulabschluss",
+   "en": "lower / intermediate secondary school certificate",
+   "fa": "مدرک فارغ التحصیلی از هاوپت شوله/رئال شوله",
+   "ps": "د Haupt-/Realschule فراغت سند",
+   "fr": "certificat Haupt-/Realschule",
+   "tr": "Haupt-/Realschule diploması"
+  }
+ },
+ {
+  "id": "wB2-2-0028",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Abitur",
+   "en": "Abitur (university entrance qualification)",
+   "fa": "دیپلم",
+   "ps": "Abitur",
+   "fr": "Abitur",
+   "tr": "Abitur"
+  }
+ },
+ {
+  "id": "wB2-2-0029",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Mittlere Reife",
+   "en": "intermediate school-leaving certificate",
+   "fa": "مدرک فارغ التحصیلی از رئال شوله",
+   "ps": "د Realschule فراغت سند",
+   "fr": "diplôme Mittlere Reife",
+   "tr": "Mittlere Reife diploması"
+  }
+ },
+ {
+  "id": "wB2-2-0030",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Berufsausbildung",
+   "en": "vocational training",
+   "fa": "آموزش فنی و حرفه‌ای",
+   "ps": "مسلکي روزنه",
+   "fr": "formation professionnelle",
+   "tr": "mesleki eğitim"
+  }
+ },
+ {
+  "id": "wB2-2-0031",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Berufsabschluss",
+   "en": "vocational qualification",
+   "fa": "مدرک فنی و حرفه‌ای",
+   "ps": "مسلکي سند",
+   "fr": "qualification professionnelle",
+   "tr": "mesleki yeterlilik"
+  }
+ },
+ {
+  "id": "wB2-2-0032",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Bachelor",
+   "en": "bachelor's degree",
+   "fa": "لیسانس، کارشناسی",
+   "ps": "لیسانس",
+   "fr": "licence",
+   "tr": "lisans"
+  }
+ },
+ {
+  "id": "wB2-2-0033",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Master",
+   "en": "master's degree",
+   "fa": "فوق لیسانس، کارشناسی ارشد",
+   "ps": "ماسټري",
+   "fr": "master",
+   "tr": "yüksek lisans"
+  }
+ },
+ {
+  "id": "wB2-2-0034",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Zertifikat",
+   "en": "certificate",
+   "fa": "گواهی، گواهینامه",
+   "ps": "سند، تصدیق نامه",
+   "fr": "certificat",
+   "tr": "sertifika"
+  }
+ },
+ {
+  "id": "wB2-2-0035",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "mehr als",
+   "en": "more than",
+   "fa": "بیش از، بیشتر از",
+   "ps": "له دې زیات",
+   "fr": "plus de",
+   "tr": "den fazla"
+  }
+ },
+ {
+  "id": "wB2-2-0036",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "weniger als",
+   "en": "less than",
+   "fa": "کمتر از",
+   "ps": "له دې کم",
+   "fr": "moins de",
+   "tr": "den az"
+  }
+ },
+ {
+  "id": "wB2-2-0037",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "(fast) alle",
+   "en": "(almost) all",
+   "fa": "(تقریبا) همه",
+   "ps": "(تقریباً) ټول",
+   "fr": "(presque) tous",
+   "tr": "(neredeyse) hepsi"
+  }
+ },
+ {
+  "id": "wB2-2-0038",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Hälfte",
+   "en": "half",
+   "fa": "نصف",
+   "ps": "نیمایي",
+   "fr": "moitié",
+   "tr": "yarım"
+  }
+ },
+ {
+  "id": "wB2-2-0039",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "ein Viertel",
+   "en": "a quarter",
+   "fa": "یک چهارم",
+   "ps": "څلورمه برخه",
+   "fr": "un quart",
+   "tr": "dörtte bir"
+  }
+ },
+ {
+  "id": "wB2-2-0040",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "ein Drittel",
+   "en": "a third",
+   "fa": "یک سوم",
+   "ps": "دریمه برخه",
+   "fr": "un tiers",
+   "tr": "üçte bir"
+  }
+ },
+ {
+  "id": "wB2-2-0041",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "jeder Zehnte",
+   "en": "one in ten",
+   "fa": "یک دهم",
+   "ps": "هر لسم",
+   "fr": "un sur dix",
+   "tr": "her onuncu"
+  }
+ },
+ {
+  "id": "wB2-2-0042",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "der/die Ansprechpartner/-in",
+   "en": "contact person",
+   "fa": "مسئول پاسخگویی",
+   "ps": "د اړیکې مسئول",
+   "fr": "personne de contact",
+   "tr": "muhatap"
+  }
+ },
+ {
+  "id": "wB2-2-0043",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Beratungsstelle",
+   "en": "advice centre",
+   "fa": "مرکز مشاوره",
+   "ps": "مشورتي مرکز",
+   "fr": "centre de conseil",
+   "tr": "danışma merkezi"
+  }
+ },
+ {
+  "id": "wB2-2-0044",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Berufspraktikum",
+   "en": "work placement / internship",
+   "fa": "کارآموزی فنی و حرفه‌ای",
+   "ps": "مسلکي روزنه",
+   "fr": "stage professionnel",
+   "tr": "mesleki staj"
+  }
+ },
+ {
+  "id": "wB2-2-0045",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "duale Ausbildung",
+   "en": "dual vocational training",
+   "fa": "آموزش دوگانه",
+   "ps": "دوګونی روزنه",
+   "fr": "formation en alternance",
+   "tr": "çift sistemli eğitim"
+  }
+ },
+ {
+  "id": "wB2-2-0046",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Fachschule",
+   "en": "technical college",
+   "fa": "مدرسه تخصصی",
+   "ps": "تخنیکي ښوونځی",
+   "fr": "école spécialisée",
+   "tr": "meslek okulu"
+  }
+ },
+ {
+  "id": "wB2-2-0047",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Fortbildung",
+   "en": "further training",
+   "fa": "آموزش تکمیلی",
+   "ps": "تکمیلي روزنه",
+   "fr": "formation continue",
+   "tr": "ileri eğitim"
+  }
+ },
+ {
+  "id": "wB2-2-0048",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Meisterprüfung",
+   "en": "master craftsman's examination",
+   "fa": "آزمون دوره استادکاری",
+   "ps": "د ماسټرۍ ازموینه",
+   "fr": "examen de maître",
+   "tr": "usta sınavı"
+  }
+ },
+ {
+  "id": "wB2-2-0049",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Schichtdienst",
+   "en": "shift work",
+   "fa": "کار یا خدمت شیفتی",
+   "ps": "شیفتي کار",
+   "fr": "travail en équipe",
+   "tr": "vardiyalı çalışma"
+  }
+ },
+ {
+  "id": "wB2-2-0050",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "staatliche Ausbildung",
+   "en": "state-recognised training",
+   "fa": "آموزش دولتی",
+   "ps": "دولتۍ روزنه",
+   "fr": "formation publique",
+   "tr": "devlet eğitimi"
+  }
+ },
+ {
+  "id": "wB2-2-0052",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Wunschberuf",
+   "en": "dream job",
+   "fa": "شغل دلخواه، شغل مورد نظر",
+   "ps": "خوښ شوی مسلک",
+   "fr": "métier souhaité",
+   "tr": "istenen meslek"
+  }
+ },
+ {
+  "id": "wB2-2-0053",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zugangsvoraussetzungen (Pl.)",
+   "en": "entry requirements",
+   "fa": "شرایط لازم برای ورود",
+   "ps": "د ننوتلو شرایط",
+   "fr": "conditions d'accès",
+   "tr": "giriş şartları"
+  }
+ },
+ {
+  "id": "wB2-2-0054",
+  "category": [
+   "work_office",
+   "article"
+  ],
+  "words": {
+   "de": "einen Beruf ausüben",
+   "en": "to practise a profession",
+   "fa": "به یک شغل اشتغال داشتن",
+   "ps": "یو مسلک ترسره کول",
+   "fr": "exercer un métier",
+   "tr": "bir meslek icra etmek"
+  }
+ },
+ {
+  "id": "wB2-2-0055",
+  "category": [
+   "work_office",
+   "article"
+  ],
+  "words": {
+   "de": "den Berufsabschluss anerkennen lassen",
+   "en": "to have one's vocational qualification recognised",
+   "fa": "مدرک فنی و حرفه‌ای را به تایید رساندن",
+   "ps": "د مسلکي سند تصدیقول",
+   "fr": "faire reconnaître le diplôme professionnel",
+   "tr": "mesleki diplomanın tanınmasını sağlamak"
+  }
+ },
+ {
+  "id": "wB2-2-0056",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "finanzielle Unterstützung (vom Staat) beantragen",
+   "en": "to apply for financial support (from the state)",
+   "fa": "پشتیبانی مالی (از دولت) درخواست کردن",
+   "ps": "د مالي مرستې غوښتنه (له دولت څخه)",
+   "fr": "demander une aide financière (de l'État)",
+   "tr": "devletten mali destek talep etmek"
+  }
+ },
+ {
+  "id": "wB2-2-0058",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "Pflicht sein",
+   "en": "to be compulsory",
+   "fa": "الزامی/اجباری بودن",
+   "ps": "واجب/ضروري وي",
+   "fr": "Être obligatoire",
+   "tr": "Zorunlu olmak"
+  }
+ },
+ {
+  "id": "wB2-2-0059",
+  "category": [
+   "work_office",
+   "preposition"
+  ],
+  "words": {
+   "de": "in der Verwaltung arbeiten",
+   "en": "to work in administration",
+   "fa": "در اداره کار کردن",
+   "ps": "په ادارې کې کار کول",
+   "fr": "travailler dans l'administration",
+   "tr": "idari işlerde çalışmak"
+  }
+ },
+ {
+  "id": "wB2-2-0060",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "sich selbstständig machen",
+   "en": "to become self-employed",
+   "fa": "کسب و کار مستقل راه اندازی کردن",
+   "ps": "خپلواکه کاروبار پیلول",
+   "fr": "devenir indépendant",
+   "tr": "kendi işini kurmak"
+  }
+ },
+ {
+  "id": "wB2-2-0061",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "zuständig sein",
+   "en": "to be responsible",
+   "fa": "مسئول بودن، ذیصلاح بودن",
+   "ps": "مسئول/ذمه وار وي",
+   "fr": "être responsable",
+   "tr": "sorumlu olmak"
+  }
+ },
+ {
+  "id": "wB2-2-0062",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Schwäche",
+   "en": "weakness",
+   "fa": "ضعف، نقطه ضعف",
+   "ps": "ضعف",
+   "fr": "faiblesse",
+   "tr": "zayıflık"
+  }
+ },
+ {
+  "id": "wB2-2-0063",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Stärke",
+   "en": "strength",
+   "fa": "قوت، نقطه قوت؛ قدرت؛ شدت؛ کارآیی؛ استحکام؛ غلظت",
+   "ps": "قوت",
+   "fr": "force",
+   "tr": "güç"
+  }
+ },
+ {
+  "id": "wB2-2-0064",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "belastbar",
+   "en": "resilient / able to work under pressure",
+   "fa": "مقاوم؛ معتبر، موثق",
+   "ps": "زغم وړ",
+   "fr": "résistant",
+   "tr": "dayanıklı"
+  }
+ },
+ {
+  "id": "wB2-2-0065",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "eigeninitiativ",
+   "en": "proactive / showing initiative",
+   "fa": "با ابتکار عمل شخصی",
+   "ps": "خپل ابتکار لرونکی",
+   "fr": "initiative personnelle",
+   "tr": "girişimci"
+  }
+ },
+ {
+  "id": "wB2-2-0066",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "flexibel",
+   "en": "flexible",
+   "fa": "منعطف، انعطاف پذیر، قابل انعطاف",
+   "ps": "انعطاف منونکی",
+   "fr": "flexible",
+   "tr": "esnek"
+  }
+ },
+ {
+  "id": "wB2-2-0067",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases"
+  ],
+  "words": {
+   "de": "hilfsbereit",
+   "en": "helpful",
+   "fa": "آماده کمک",
+   "ps": "مرسته کوونکی",
+   "fr": "serviable",
+   "tr": "yardımsever"
+  }
+ },
+ {
+  "id": "wB2-2-0068",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "kreativ",
+   "en": "creative",
+   "fa": "خلاقانه",
+   "ps": "خلاق",
+   "fr": "créatif",
+   "tr": "yaratıcı"
+  }
+ },
+ {
+  "id": "wB2-2-0069",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "lernbereit",
+   "en": "willing to learn",
+   "fa": "آماده یادگیری",
+   "ps": "د زده کړې چمتو",
+   "fr": "prêt à apprendre",
+   "tr": "öğrenmeye istekli"
+  }
+ },
+ {
+  "id": "wB2-2-0070",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "(un-)organisiert",
+   "en": "(dis)organised",
+   "fa": "سازمان یافته (نیافته)",
+   "ps": "(بې) تنظیم شوی",
+   "fr": "(dés)organisé",
+   "tr": "(düzensiz) organize"
+  }
+ },
+ {
+  "id": "wB2-2-0071",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "selbstbewusst",
+   "en": "self-confident",
+   "fa": "خودآگاه، با اعتماد به نفس",
+   "ps": "په ځان باور لرونکی",
+   "fr": "confiant",
+   "tr": "özgüvenli"
+  }
+ },
+ {
+  "id": "wB2-2-0073",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "tolerant",
+   "en": "tolerant",
+   "fa": "با مدارا، مداراگر، مداراگرانه",
+   "ps": "زغم لرونکی",
+   "fr": "tolérant",
+   "tr": "hoşgörülü"
+  }
+ },
+ {
+  "id": "wB2-2-0074",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "verantwortungsbewusst",
+   "en": "responsible / conscientious",
+   "fa": "مسئولیت شناس",
+   "ps": "مسئولیت منونکی",
+   "fr": "responsable",
+   "tr": "sorumluluk sahibi"
+  }
+ },
+ {
+  "id": "wB2-2-0078",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Unterlagen (Pl.)",
+   "en": "documents",
+   "fa": "اسناد، مدارک",
+   "ps": "اسناد",
+   "fr": "documents (pl.)",
+   "tr": "belgeler (çoğul)"
+  }
+ },
+ {
+  "id": "wB2-2-0080",
+  "category": [
+   "services_authorities",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zulassung",
+   "en": "admission / licence",
+   "fa": "پذیرش، تایید، ثبت",
+   "ps": "اجازه لیک",
+   "fr": "autorisation",
+   "tr": "izin"
+  }
+ },
+ {
+  "id": "wB2-2-0081",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Arbeitsablauf",
+   "en": "workflow",
+   "fa": "روال کاری",
+   "ps": "د کار بهیر",
+   "fr": "processus de travail",
+   "tr": "iş akışı"
+  }
+ },
+ {
+  "id": "wB2-2-0082",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Berufsfeld",
+   "en": "occupational field",
+   "fa": "حوزه شغلی",
+   "ps": "دنده ساحه",
+   "fr": "domaine professionnel",
+   "tr": "meslek alanı"
+  }
+ },
+ {
+  "id": "wB2-2-0083",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Fachdeutsch",
+   "en": "technical German / German for professional purposes",
+   "fa": "آلمانی تخصصی",
+   "ps": "تخنیکي آلماني",
+   "fr": "allemand technique",
+   "tr": "mesleki Almanca"
+  }
+ },
+ {
+  "id": "wB2-2-0084",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "Fachleute/Fachkräfte (Pl.)",
+   "en": "specialists / skilled workers",
+   "fa": "کارشناسان",
+   "ps": "تخنیکي کارپوهان",
+   "fr": "experts/spécialistes (pl.)",
+   "tr": "uzmanlar/uzman personel (çoğul)"
+  }
+ },
+ {
+  "id": "wB2-2-0085",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Fachwortschatz",
+   "en": "specialist vocabulary",
+   "fa": "واژگان تخصصی",
+   "ps": "تخنیکي لغتونه",
+   "fr": "vocabulaire spécialisé",
+   "tr": "mesleki kelime hazinesi"
+  }
+ },
+ {
+  "id": "wB2-2-0086",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "der/die Handwerker/-in",
+   "en": "craftsman / tradesperson",
+   "fa": "صنعتگر، صنعتکار، پیشه ور",
+   "ps": "هنرمند/هنرمنده",
+   "fr": "l'artisan / l'artisane",
+   "tr": "zanaatkar"
+  }
+ },
+ {
+  "id": "wB2-2-0087",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "MINT-Beruf (MINT)",
+   "en": "STEM profession",
+   "fa": "مشاغل در حوزه ریاضی، انفورماتیک، علوم طبیعی و فناوری",
+   "ps": "د ریاضي، کمپیوټر، ساینس او ټکنالوژۍ مسلک",
+   "fr": "Métier MINT (MINT)",
+   "tr": "MINT Mesleği (MINT)"
+  }
+ },
+ {
+  "id": "wB2-2-0090",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "gefragte Beruf",
+   "en": "in-demand profession",
+   "fa": "شغل مورد تقاضا، شغل مورد نیاز",
+   "ps": "مطلوب مسلک",
+   "fr": "métier demandé",
+   "tr": "talep gören meslek"
+  }
+ },
+ {
+  "id": "wB2-2-0091",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Umgang mit Kunden",
+   "en": "dealing with customers",
+   "fa": "برخورد با مشتریان",
+   "ps": "د مشتریانو سره چلند",
+   "fr": "Gestion des clients",
+   "tr": "Müşteri ilişkileri"
+  }
+ },
+ {
+  "id": "wB2-2-0092",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Berechtigung",
+   "en": "authorisation / entitlement",
+   "fa": "حق؛ مجوز؛ درستی، صحت",
+   "ps": "اجازه، حق",
+   "fr": "Autorisation",
+   "tr": "Yetki"
+  }
+ },
+ {
+  "id": "wB2-2-0093",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Förderung",
+   "en": "support / funding",
+   "fa": "حمایت، تقویت، ترویج",
+   "ps": "مرسته، ملاتړ",
+   "fr": "Promotion",
+   "tr": "Teşvik"
+  }
+ },
+ {
+  "id": "wB2-2-0094",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Lehrgang",
+   "en": "training course",
+   "fa": "دوره آموزشی",
+   "ps": "روزنیز کورس",
+   "fr": "Lehrgang",
+   "tr": "Lehrgang"
+  }
+ },
+ {
+  "id": "wB2-2-0095",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Nachweis über Deutschkenntnisse (Pl.)",
+   "en": "proof of German language skills",
+   "fa": "مدرک مربوط به آشنایی به زبان آلمانی",
+   "ps": "د الماني ژبې د پوهې سند",
+   "fr": "Justificatifs de compétences en allemand (pl.)",
+   "tr": "Almanca dil yeterliliği belgeleri (çoğul)"
+  }
+ },
+ {
+  "id": "wB2-2-0096",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Vorkenntnisse (Pl.)",
+   "en": "prior knowledge",
+   "fa": "آشنایی اولیه",
+   "ps": "مخکینۍ پوهه",
+   "fr": "Connaissances préalables",
+   "tr": "Ön bilgiler"
+  }
+ },
+ {
+  "id": "wB2-2-0097",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "der/die Vermittler/-in",
+   "en": "agent / intermediary",
+   "fa": "واسطه، واسطه گر، میانجی، دلال",
+   "ps": "منځګړی، منځګړی کس",
+   "fr": "l'intermédiaire",
+   "tr": "aracı"
+  }
+ },
+ {
+  "id": "wB2-2-0098",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Zugangsvoraussetzung",
+   "en": "entry requirement",
+   "fa": "شرط لازم برای ورود",
+   "ps": "د ننوتلو شرط",
+   "fr": "condition d'accès",
+   "tr": "giriş şartı"
+  }
+ },
+ {
+  "id": "wB2-2-0099",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Meisterprüfung machen",
+   "en": "to take the master craftsman's examination",
+   "fa": "در آزمون دوره استادکاری شرکت کردن",
+   "ps": "د ماسټرۍ ازموینه ورکول",
+   "fr": "passer l'examen de maître",
+   "tr": "usta sınavına girmek"
+  }
+ },
+ {
+  "id": "wB2-2-0100",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "persönlich vorbeikommen",
+   "en": "to come by in person",
+   "fa": "شخصا به کسی یا جایی سر زدن",
+   "ps": "په شخصي توګه حاضرېدل",
+   "fr": "venir en personne",
+   "tr": "bizzat gelmek"
+  }
+ },
+ {
+  "id": "wB2-2-0101",
+  "category": [
+   "work_office",
+   "verb",
+   "reflexive_verb"
+  ],
+  "words": {
+   "de": "sich beruflich neu orientieren",
+   "en": "to change career direction",
+   "fa": "از نظر شغلی جهت گیری تازه‌ای انجام دادن",
+   "ps": "په مسلکي لحاظ ځان نوي لوري ته برابرول",
+   "fr": "se réorienter professionnellement",
+   "tr": "mesleki olarak yön değiştirmek"
+  }
+ },
+ {
+  "id": "wB2-2-0102",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "beglaubigte Kopie",
+   "en": "certified copy",
+   "fa": "نسخه کپی تایید شده",
+   "ps": "تصدیق شوې کاپي",
+   "fr": "copie certifiée conforme",
+   "tr": "tasdikli kopya"
+  }
+ },
+ {
+  "id": "wB2-2-0103",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "beglaubigte Übersetzung",
+   "en": "certified translation",
+   "fa": "ترجمه رسمی/تایید شده",
+   "ps": "تصدیق شوې ژباړه",
+   "fr": "traduction certifiée",
+   "tr": "tasdikli tercüme"
+  }
+ },
+ {
+  "id": "wB2-2-0104",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "berufliche Anerkennung beantragen",
+   "en": "to apply for professional recognition",
+   "fa": "درخواست کردن تایید شغلی",
+   "ps": "د مسلکي پیژندنې غوښتنه کول",
+   "fr": "demander la reconnaissance professionnelle",
+   "tr": "mesleki tanınma başvurusu yapmak"
+  }
+ },
+ {
+  "id": "wB2-2-0106",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Übersetzungsbüro",
+   "en": "translation agency",
+   "fa": "دفتر ترجمه",
+   "ps": "د ژباړې دفتر",
+   "fr": "Bureau de traduction",
+   "tr": "Çeviri bürosu"
+  }
+ },
+ {
+  "id": "wB2-2-0107",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "der/die Einzelunternehmer/-in",
+   "en": "sole trader",
+   "fa": "مالک انحصاری شرکت",
+   "ps": "واحد کاروباري مالک",
+   "fr": "entrepreneur individuel",
+   "tr": "bireysel girişimci"
+  }
+ },
+ {
+  "id": "wB2-2-0108",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "der/die Geschäftspartner/-in",
+   "en": "business partner",
+   "fa": "شریک تجاری",
+   "ps": "د کاروبار شریک",
+   "fr": "partenaire commercial",
+   "tr": "iş ortağı"
+  }
+ },
+ {
+  "id": "wB2-2-0109",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "gut/schlecht anlaufen",
+   "en": "to get off to a good / bad start",
+   "fa": "خوب/بد شروع شدن",
+   "ps": "ښه/خراب پیل کېدل",
+   "fr": "bien/mal démarrer",
+   "tr": "iyi/kötü başlamak"
+  }
+ },
+ {
+  "id": "wB2-2-0110",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "freiberufliche Tätigkeit",
+   "en": "freelance work",
+   "fa": "فعالیت شغلی آزاد",
+   "ps": "خپلواکه مسلکي فعالیت",
+   "fr": "activité indépendante",
+   "tr": "serbest meslek faaliyeti"
+  }
+ },
+ {
+  "id": "wB2-2-0111",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "sich selbständig machen",
+   "en": "to become self-employed",
+   "fa": "کسب و کار مستقل راه اندازی کردن",
+   "ps": "خپلواکه کار پیلول",
+   "fr": "se mettre à son compte",
+   "tr": "kendi işini kurmak"
+  }
+ },
+ {
+  "id": "wB2-2-0112",
+  "category": [
+   "work_office",
+   "article"
+  ],
+  "words": {
+   "de": "ein Unternehmen/eine Firma gründen",
+   "en": "to found a company",
+   "fa": "یک کسب و کار/ شرکت تاسیس کردن",
+   "ps": "یو شرکت/کاروبار جوړول",
+   "fr": "fonder une entreprise",
+   "tr": "bir şirket kurmak"
+  }
+ },
+ {
+  "id": "wB2-2-0114",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Bewerbungstraining",
+   "en": "job application training",
+   "fa": "آموزش درخواست پذیرش",
+   "ps": "د غوښتنلیک روزنه",
+   "fr": "formation à la candidature",
+   "tr": "başvuru eğitimi"
+  }
+ },
+ {
+  "id": "wB2-2-0115",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Spezialisierung",
+   "en": "specialisation",
+   "fa": "کسب تخصص",
+   "ps": "تخصص ترلاسه کول",
+   "fr": "Spécialisation",
+   "tr": "Uzmanlaşma"
+  }
+ },
+ {
+  "id": "wB2-2-0116",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Stellengesuch",
+   "en": "job-wanted advertisement",
+   "fa": "درخواست پذیرش در یک فرصت شغلی",
+   "ps": "دندې لپاره غوښتنه",
+   "fr": "Recherche d'emploi",
+   "tr": "İş başvurusu"
+  }
+ },
+ {
+  "id": "wB2-2-0118",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "der/die Arbeitssuchende",
+   "en": "jobseeker",
+   "fa": "افراد جویای کار",
+   "ps": "د کار لټون کوونکی",
+   "fr": "le/la demandeur d'emploi",
+   "tr": "iş arayan"
+  }
+ },
+ {
+  "id": "wB2-2-0119",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "mittelständische Unternehmen",
+   "en": "medium-sized company",
+   "fa": "شرکت‌های متوسط",
+   "ps": "منځنۍ کچې شرکتونه",
+   "fr": "entreprises de taille moyenne",
+   "tr": "orta ölçekli işletmeler"
+  }
+ },
+ {
+  "id": "wB2-2-0120",
+  "category": [
+   "conversation_phrases",
+   "preposition"
+  ],
+  "words": {
+   "de": "nach dem aktuellen Stand fragen",
+   "en": "to ask about the current status",
+   "fa": "در مورد وضعیت فعلی پرس و جو کردن",
+   "ps": "د اوسني حالت پوښتنه کول",
+   "fr": "demander l'état actuel",
+   "tr": "güncel durumu sormak"
+  }
+ },
+ {
+  "id": "wB2-2-0121",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "sich an jmdn. wenden",
+   "en": "to turn to someone / to contact someone",
+   "fa": "به کسی مراجعه کردن",
+   "ps": "چا ته مراجعه کول",
+   "fr": "s'adresser à quelqu'un",
+   "tr": "birine başvurmak"
+  }
+ },
+ {
+  "id": "wB2-2-0122",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "sich auf eine Anzeige beziehen",
+   "en": "to refer to an advertisement",
+   "fa": "به یک آگهی اشاره کردن/استناد کردن",
+   "ps": "په یوه اعلان باندې اشاره کول",
+   "fr": "faire référence à une annonce",
+   "tr": "bir ilana atıfta bulunmak"
+  },
+  "examples": {
+   "de": "Ich beziehe mich auf Ihr Stellenangebot."
+  }
+ },
+ {
+  "id": "wB2-2-0123",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "sich um eine Stelle bewerben",
+   "en": "to apply for a job",
+   "fa": "برای یک فرصت شغلی درخواست پذیرش دادن",
+   "ps": "د یوې دندې لپاره غوښتنه کول",
+   "fr": "postuler à un emploi",
+   "tr": "bir işe başvurmak"
+  }
+ },
+ {
+  "id": "wB2-2-0125",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Schulbildung",
+   "en": "school education",
+   "fa": "آموزش مدرسه‌ای",
+   "ps": "ښوونیزه زده کړه",
+   "fr": "éducation scolaire",
+   "tr": "okul eğitimi"
+  }
+ },
+ {
+  "id": "wB2-2-0126",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "besonderen Kenntnisse (Pl.)",
+   "en": "special skills",
+   "fa": "آشنایی خاص",
+   "ps": "ځانګړې پوهې",
+   "fr": "connaissances particulières",
+   "tr": "özel bilgiler"
+  }
+ },
+ {
+  "id": "wB2-2-0127",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "berufliche Station",
+   "en": "career stage",
+   "fa": "مرحله شغلی",
+   "ps": "مسلکي پړاو",
+   "fr": "étape professionnelle",
+   "tr": "mesleki aşama"
+  }
+ },
+ {
+  "id": "wB2-2-0128",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "persönlichen Daten (Pl.)",
+   "en": "personal details",
+   "fa": "داده‌های شخصی",
+   "ps": "شخصي معلومات",
+   "fr": "données personnelles",
+   "tr": "kişisel veriler"
+  }
+ },
+ {
+  "id": "wB2-2-0129",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "verhandlungssicher",
+   "en": "business fluent (confident in negotiations)",
+   "fa": "مطمئن در انجام مذاکره",
+   "ps": "په خبرو اترو کې باوري",
+   "fr": "à l'aise en négociation",
+   "tr": "müzakere konusunda yetkin"
+  }
+ },
+ {
+  "id": "wB2-2-0130",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "ausgeschriebene Stelle",
+   "en": "advertised position",
+   "fa": "فرصت شغلی اعلام شده",
+   "ps": "اعلان شوې دنده",
+   "fr": "poste à pourvoir",
+   "tr": "açık pozisyon"
+  }
+ },
+ {
+  "id": "wB2-2-0131",
+  "category": [
+   "work_office",
+   "article"
+  ],
+  "words": {
+   "de": "ein Bewerbungsschreiben verfassen",
+   "en": "to write a letter of application",
+   "fa": "نوشتن نامه درخواست پذیرش",
+   "ps": "د غوښتنلیک لیک لیکل",
+   "fr": "rédiger une lettre de candidature",
+   "tr": "başvuru mektubu yazmak"
+  }
+ },
+ {
+  "id": "wB2-2-0132",
+  "category": [
+   "conversation_phrases",
+   "preposition"
+  ],
+  "words": {
+   "de": "für Fragen (Pl.) zur Verfügung stehen",
+   "en": "to be available for questions",
+   "fa": "برای سؤالات در دسترس بودن",
+   "ps": "د پوښتنو لپاره شتون لرل",
+   "fr": "être disponible pour des questions",
+   "tr": "sorular için müsait olmak"
+  }
+ },
+ {
+  "id": "wB2-2-0133",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "den Interessen und Qualifikationen (Pl.) entsprechen",
+   "en": "to match the interests and qualifications",
+   "fa": "با علائق و مهارت‌ها تناسب داشتن",
+   "ps": "د علاقو او وړتیاوو سره سمون لرل",
+   "fr": "correspondre aux intérêts et qualifications",
+   "tr": "ilgi ve niteliklere uygun olmak"
+  }
+ },
+ {
+  "id": "wB2-2-0134",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Gehaltsvorstellung",
+   "en": "salary expectation",
+   "fa": "تصور از حقوق",
+   "ps": "د معاش تمه",
+   "fr": "Attentes salariales",
+   "tr": "Maaş beklentisi"
+  },
+  "examples": {
+   "de": "Was sind Ihre Gehaltsvorstellungen?"
+  }
+ },
+ {
+  "id": "wB2-2-0136",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "einen guten Eindruck machen",
+   "en": "to make a good impression",
+   "fa": "تصور و برداشت خوبی ایجاد نمودن",
+   "ps": "ښه تاثیر کول",
+   "fr": "faire bonne impression",
+   "tr": "iyi izlenim bırakmak"
+  }
+ },
+ {
+  "id": "wB2-2-0137",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "eine schwierige Situation meistern",
+   "en": "to master a difficult situation",
+   "fa": "بر یک وضعیت دشوار غلبه کردن",
+   "ps": "په یوه سخته وضعیت کې بریالي کېدل",
+   "fr": "maîtriser une situation difficile",
+   "tr": "zor bir durumu aşmak"
+  }
+ },
+ {
+  "id": "wB2-2-0138",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "sich nach dem Stand der Dinge erkundigen",
+   "en": "to enquire about the state of affairs",
+   "fa": "در مورد وضعیت امور پرس و جو کردن",
+   "ps": "د حالاتو د وضعیت پوښتنه کول",
+   "fr": "se renseigner sur l'état des choses",
+   "tr": "durum hakkında bilgi almak"
+  }
+ },
+ {
+  "id": "wB2-2-0139",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "sich für einen Bewerber entscheiden",
+   "en": "to decide on an applicant",
+   "fa": "یک متقاضی پذیرش را انتخاب کردن",
+   "ps": "د یو غوښتونکي انتخاب کول",
+   "fr": "choisir un candidat",
+   "tr": "bir aday seçmek"
+  }
+ },
+ {
+  "id": "wB2-2-0140",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "eine Stelle antreten",
+   "en": "to take up a position",
+   "fa": "یک سمت شغلی را تقبل کردن/پذیرفتن",
+   "ps": "یو ځای ته د کار پیل کول",
+   "fr": "prendre un poste",
+   "tr": "bir işe başlamak"
+  }
+ },
+ {
+  "id": "wB2-2-0141",
+  "category": [
+   "work_office",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Arbeitsverhältnis",
+   "en": "employment relationship",
+   "fa": "رابطه کاری، رابطه استخدامی، رابطه شغلی",
+   "ps": "کاري اړیکه",
+   "fr": "relation de travail",
+   "tr": "iş ilişkisi"
+  }
+ },
+ {
+  "id": "wB2-2-0142",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Betriebsgeheimnis",
+   "en": "trade secret",
+   "fa": "اسرار شرکت",
+   "ps": "د شرکت پټ راز",
+   "fr": "secret d'entreprise",
+   "tr": "iş sırrı"
+  }
+ },
+ {
+  "id": "wB2-2-0144",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Krankmeldung",
+   "en": "sick note / notification of illness",
+   "fa": "اعلام بیماری؛ گواهی پزشکی",
+   "ps": "د ناروغۍ راپور",
+   "fr": "certificat médical",
+   "tr": "raport hastalık"
+  }
+ },
+ {
+  "id": "wB2-2-0145",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Kündigungsfrist",
+   "en": "notice period",
+   "fa": "مهلت فسخ قرارداد",
+   "ps": "د قرارداد د ختمولو موده",
+   "fr": "délai de préavis",
+   "tr": "fesih süresi"
+  }
+ },
+ {
+  "id": "wB2-2-0146",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Lohnfortzahlung",
+   "en": "continued payment of wages",
+   "fa": "تداوم پرداخت دستمزد",
+   "ps": "د معاش دوامداره ورکول",
+   "fr": "maintien du salaire",
+   "tr": "ücret ödemesinin devamı"
+  }
+ },
+ {
+  "id": "wB2-2-0148",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Überstunde",
+   "en": "hour of overtime",
+   "fa": "اضافه کاری",
+   "ps": "اضافي کاري ساعتونه",
+   "fr": "heure supplémentaire",
+   "tr": "fazla mesai"
+  }
+ },
+ {
+  "id": "wB2-2-0149",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Verdienst",
+   "en": "earnings",
+   "fa": "درآمد",
+   "ps": "عاید",
+   "fr": "revenu",
+   "tr": "kazanç"
+  }
+ },
+ {
+  "id": "wB2-2-0150",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Vergütung",
+   "en": "remuneration",
+   "fa": "پرداخت حقوق و دستمزد؛ جبران خسارت، غرامت",
+   "ps": "معاش او جبران",
+   "fr": "rémunération",
+   "tr": "ücret, tazminat"
+  }
+ },
+ {
+  "id": "wB2-2-0151",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Verschwiegenheitspflicht",
+   "en": "duty of confidentiality",
+   "fa": "التزام به رازداری",
+   "ps": "د راز ساتلو مکلفیت",
+   "fr": "obligation de confidentialité",
+   "tr": "gizlilik yükümlülüğü"
+  }
+ },
+ {
+  "id": "wB2-2-0152",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Anweisung",
+   "en": "instruction",
+   "fa": "دستور، دستورالعمل؛ راهنما",
+   "ps": "لارښوونه، هدایت",
+   "fr": "Instruction",
+   "tr": "Talimat"
+  }
+ },
+ {
+  "id": "wB2-2-0153",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Gefahrenstelle",
+   "en": "danger spot",
+   "fa": "محل خطر",
+   "ps": "د خطر ځای",
+   "fr": "Zone dangereuse",
+   "tr": "Tehlike bölgesi"
+  }
+ },
+ {
+  "id": "wB2-2-0154",
+  "category": [
+   "greetings_politeness",
+   "conversation_phrases",
+   "noun"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Schild",
+   "en": "sign",
+   "fa": "تابلو",
+   "ps": "نښه، تابلو",
+   "fr": "Panneau",
+   "tr": "Tabela"
+  }
+ },
+ {
+  "id": "wB2-2-0155",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Verbesserungsvorschlag",
+   "en": "suggestion for improvement",
+   "fa": "پیشنهاد اصلاحی",
+   "ps": "د ښه والي وړاندیز",
+   "fr": "Suggestion d'amélioration",
+   "tr": "İyileştirme önerisi"
+  }
+ },
+ {
+  "id": "wB2-2-0156",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Zeichen",
+   "en": "sign / symbol",
+   "fa": "نشانه، علامت",
+   "ps": "نښه، علامت",
+   "fr": "Signe",
+   "tr": "İşaret"
+  }
+ },
+ {
+  "id": "wB2-2-0157",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Alarmanlage einschalten",
+   "en": "to switch on the alarm system",
+   "fa": "فعال کردن سیستم اعلام هشدار",
+   "ps": "د خبرداری سیسټم فعالول",
+   "fr": "Activer l'alarme",
+   "tr": "Alarm sistemini aç"
+  }
+ },
+ {
+  "id": "wB2-2-0158",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "ätzende Säure",
+   "en": "corrosive acid",
+   "fa": "اسید خورنده",
+   "ps": "خورنده اسید",
+   "fr": "Acide corrosif",
+   "tr": "Aşındırıcı asit"
+  }
+ },
+ {
+  "id": "wB2-2-0159",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Berichtsheft führen",
+   "en": "to keep a training record book",
+   "fa": "دفتر گزارش کار",
+   "ps": "د راپور کتابچه ساتل",
+   "fr": "Tenir un carnet de rapports",
+   "tr": "Rapor defteri tutmak"
+  }
+ },
+ {
+  "id": "wB2-2-0160",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "brennende Material",
+   "en": "burning material",
+   "fa": "مواد در حال اشتعال، مواد سوزش آور",
+   "ps": "سوځیدونکي مواد",
+   "fr": "matériau inflammable",
+   "tr": "yanıcı madde"
+  }
+ },
+ {
+  "id": "wB2-2-0161",
+  "category": [
+   "work_office",
+   "article"
+  ],
+  "words": {
+   "de": "ein Dokument in der Firma auslegen",
+   "en": "to display a document in the company",
+   "fa": "یک سند را در شرکت در معرض دید عموم قرار دادن",
+   "ps": "په شرکت کې یو سند د خلکو لپاره ښکاره کول",
+   "fr": "exposer un document dans l'entreprise",
+   "tr": "şirkette bir belgeyi sergilemek"
+  }
+ },
+ {
+  "id": "wB2-2-0162",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "elektrische Spannung",
+   "en": "electrical voltage",
+   "fa": "ولتاژ برق",
+   "ps": "برقي ولتاژ",
+   "fr": "tension électrique",
+   "tr": "elektrik gerilimi"
+  }
+ },
+ {
+  "id": "wB2-2-0163",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "explosive Material",
+   "en": "explosive material",
+   "fa": "مواد منفجره",
+   "ps": "چاودیدونکي مواد",
+   "fr": "matière explosive",
+   "tr": "patlayıcı madde"
+  }
+ },
+ {
+  "id": "wB2-2-0164",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "giftige Material",
+   "en": "toxic material",
+   "fa": "مواد سمی",
+   "ps": "زهرجن مواد",
+   "fr": "matériau toxique",
+   "tr": "zehirli madde"
+  }
+ },
+ {
+  "id": "wB2-2-0165",
+  "category": [
+   "conversation_phrases",
+   "preposition"
+  ],
+  "words": {
+   "de": "auf Hygiene achten",
+   "en": "to pay attention to hygiene",
+   "fa": "به بهداشت توجه کردن",
+   "ps": "د پاکوالي خیال ساتل",
+   "fr": "faire attention à l'hygiène",
+   "tr": "hijyene dikkat etmek"
+  }
+ },
+ {
+  "id": "wB2-2-0166",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "den Kunden/die Kundin zur Kasse begleiten",
+   "en": "to accompany the customer to the checkout",
+   "fa": "مشتری را به طرف صندوق همراهی کردن",
+   "ps": "پېرودونکي تر صندوق پورې ملګری کول",
+   "fr": "accompagner le client à la caisse",
+   "tr": "müşteriyi kasaya kadar eşlik etmek"
+  }
+ },
+ {
+  "id": "wB2-2-0167",
+  "category": [
+   "conversation_phrases",
+   "negation"
+  ],
+  "words": {
+   "de": "keine Zeit verlieren",
+   "en": "not to lose any time",
+   "fa": "زمان را از دست ندادن",
+   "ps": "وخت له لاسه ورنکړل",
+   "fr": "ne pas perdre de temps",
+   "tr": "zaman kaybetmemek"
+  }
+ },
+ {
+  "id": "wB2-2-0168",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Papiere dabeihaben",
+   "en": "to have one's papers with one",
+   "fa": "مدارک را همراه داشتن",
+   "ps": "اسناد له ځان سره لرل",
+   "fr": "avoir les papiers sur soi",
+   "tr": "evrakları yanında bulundurmak"
+  }
+ },
+ {
+  "id": "wB2-2-0169",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "Quittungen (Pl.) aufheben",
+   "en": "to keep receipts",
+   "fa": "رسیدها/قبض ها را نگه داشتن",
+   "ps": "رسیدونه ساتل",
+   "fr": "Conserver les reçus",
+   "tr": "Makbuzları saklamak"
+  }
+ },
+ {
+  "id": "wB2-2-0170",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "rechtzeitig Bescheid geben",
+   "en": "to give notice in good time",
+   "fa": "به موقع اطلاع دادن",
+   "ps": "په وخت خبر ورکول",
+   "fr": "informer à temps",
+   "tr": "zamanında haber vermek"
+  }
+ },
+ {
+  "id": "wB2-2-0171",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "einen Termin absagen",
+   "en": "to cancel an appointment",
+   "fa": "یک قرار ملاقات را لغو کردن",
+   "ps": "یو ملاقات لغوه کول",
+   "fr": "annuler un rendez-vous",
+   "tr": "bir randevuyu iptal etmek"
+  }
+ },
+ {
+  "id": "wB2-2-0172",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "einen Termin verlegen",
+   "en": "to reschedule an appointment",
+   "fa": "یک قرار ملاقات را به زمان دیگری موکول کردن",
+   "ps": "یو ملاقات بل وخت ته بدلول",
+   "fr": "reporter un rendez-vous",
+   "tr": "bir randevuyu ertelemek"
+  }
+ },
+ {
+  "id": "wB2-2-0173",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "einen Termin übernehmen",
+   "en": "to take over an appointment",
+   "fa": "یک قرار ملاقات را پذیرفتن",
+   "ps": "یو ملاقات منل",
+   "fr": "prendre un rendez-vous en charge",
+   "tr": "bir randevuyu üstlenmek"
+  }
+ },
+ {
+  "id": "wB2-2-0174",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "Überstunden (Pl.) berechnen",
+   "en": "to calculate overtime",
+   "fa": "اضافه کاری‌ها را محاسبه کردن",
+   "ps": "اضافي کاري ساعتونه حسابول",
+   "fr": "Calculer les heures supplémentaires",
+   "tr": "Fazla mesai hesaplamak"
+  }
+ },
+ {
+  "id": "wB2-2-0175",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Krankenschein",
+   "en": "medical certificate / sick note",
+   "fa": "گواهی عضویت در یک صندوق بیمه خدمات درمانی؛ گواهی پزشکی",
+   "ps": "د ناروغۍ سند",
+   "fr": "certificat d'assurance maladie",
+   "tr": "sağlık sigortası belgesi"
+  }
+ },
+ {
+  "id": "wB2-2-0176",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Schwindel",
+   "en": "dizziness",
+   "fa": "سرگیجه",
+   "ps": "سرګرداني",
+   "fr": "Vertige",
+   "tr": "Baş dönmesi"
+  }
+ },
+ {
+  "id": "wB2-2-0177",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Stromschlag",
+   "en": "electric shock",
+   "fa": "شوک الکتریکی",
+   "ps": "برښنايي ټکان",
+   "fr": "Choc électrique",
+   "tr": "Elektrik çarpması"
+  }
+ },
+ {
+  "id": "wB2-2-0178",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Übelkeit",
+   "en": "nausea",
+   "fa": "حالت تهوع",
+   "ps": "کانګې",
+   "fr": "Nausée",
+   "tr": "Mide bulantısı"
+  }
+ },
+ {
+  "id": "wB2-2-0179",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "einen Arzt rufen",
+   "en": "to call a doctor",
+   "fa": "یک پزشک را خبر کردن، با یک پزشک تماس گرفتن",
+   "ps": "ډاکټر ته زنګ وهل",
+   "fr": "Appeler un médecin",
+   "tr": "Doktor çağırmak"
+  }
+ },
+ {
+  "id": "wB2-2-0180",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "gesundheitliche Probleme (Pl.) haben",
+   "en": "to have health problems",
+   "fa": "مشکلات مرتبط با سلامتی داشتن",
+   "ps": "د روغتیا ستونزې لرل",
+   "fr": "Avoir des problèmes de santé",
+   "tr": "Sağlık sorunları yaşamak"
+  }
+ },
+ {
+  "id": "wB2-2-0181",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Haut kühlen",
+   "en": "to cool the skin",
+   "fa": "خنک کردن پوست",
+   "ps": "پوستکی یخ کول",
+   "fr": "Refroidir la peau",
+   "tr": "Cildi soğutmak"
+  }
+ },
+ {
+  "id": "wB2-2-0182",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "den Rettungsdienst anrufen",
+   "en": "to call the emergency services",
+   "fa": "با خدمات امداد و نجات تماس گرفتن",
+   "ps": "د بیړني خدماتو سره اړیکه نیول",
+   "fr": "Appeler les secours",
+   "tr": "Acil servisi aramak"
+  }
+ },
+ {
+  "id": "wB2-2-0183",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "sich krankmelden",
+   "en": "to report sick",
+   "fa": "بیمار بودن خود را اعلام کردن",
+   "ps": "خپله ناروغي راپورول",
+   "fr": "Se déclarer malade",
+   "tr": "Hastalık bildirmek"
+  }
+ },
+ {
+  "id": "wB2-2-0184",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Stromquelle abschalten",
+   "en": "to switch off the power source",
+   "fa": "منبع تغذیه را خاموش کردن",
+   "ps": "د برښنا سرچینه بندول",
+   "fr": "Couper la source d'alimentation",
+   "tr": "Güç kaynağını kapat"
+  }
+ },
+ {
+  "id": "wB2-2-0185",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Vertretung organisieren",
+   "en": "to arrange cover (a stand-in)",
+   "fa": "ترتیب دادن نمایندگی",
+   "ps": "بدیل ترتیبول",
+   "fr": "Organiser une relève",
+   "tr": "Vekâleti düzenle"
+  }
+ },
+ {
+  "id": "wB2-2-0186",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "den Unfallbericht schreiben",
+   "en": "to write the accident report",
+   "fa": "نوشتن گزارش سانحه",
+   "ps": "د پېښې راپور لیکل",
+   "fr": "Rédiger le rapport d'accident",
+   "tr": "Kaza raporunu yaz"
+  }
+ },
+ {
+  "id": "wB2-2-0187",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "antibakterielle Seife",
+   "en": "antibacterial soap",
+   "fa": "صابون آنتی باکتریال",
+   "ps": "انټي باکتریایي صابون",
+   "fr": "Savon antibactérien",
+   "tr": "Antibakteriyel sabun"
+  }
+ },
+ {
+  "id": "wB2-2-0188",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Ordnung",
+   "en": "order / tidiness",
+   "fa": "نظم، مقررات",
+   "ps": "نظم",
+   "fr": "Ordre",
+   "tr": "Düzen"
+  }
+ },
+ {
+  "id": "wB2-2-0189",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Putzlappen",
+   "en": "cleaning cloth",
+   "fa": "دستمال نظافت",
+   "ps": "د پاکولو ټوټه",
+   "fr": "Chiffon de nettoyage",
+   "tr": "Temizlik bezi"
+  }
+ },
+ {
+  "id": "wB2-2-0190",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Staubsauger",
+   "en": "vacuum cleaner",
+   "fa": "جاروبرقی",
+   "ps": "ویکیوم کلینر",
+   "fr": "Aspirateur",
+   "tr": "Elektrikli süpürge"
+  }
+ },
+ {
+  "id": "wB2-2-0191",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Waschbecken",
+   "en": "washbasin",
+   "fa": "روشویی",
+   "ps": "لاس مینځلو ځای",
+   "fr": "Évier",
+   "tr": "Lavabo"
+  }
+ },
+ {
+  "id": "wB2-2-0192",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Mengenrabatt",
+   "en": "bulk discount",
+   "fa": "تخفیف خرید عمده",
+   "ps": "د مقدار تخفیف",
+   "fr": "Remise sur quantité",
+   "tr": "Toplu indirim"
+  }
+ },
+ {
+  "id": "wB2-2-0193",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Preisangabe",
+   "en": "price quotation / stated price",
+   "fa": "اطلاعات قیمت",
+   "ps": "د قیمت معلومات",
+   "fr": "Indication de prix",
+   "tr": "Fiyat bilgisi"
+  }
+ },
+ {
+  "id": "wB2-2-0195",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "eine Bestellung aufgeben",
+   "en": "to place an order",
+   "fa": "تحویل دادن یک سفارش",
+   "ps": "سفارش ورکول",
+   "fr": "Passer une commande",
+   "tr": "Sipariş vermek"
+  }
+ },
+ {
+  "id": "wB2-2-0196",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "eine Bestellung durchgeben",
+   "en": "to pass on an order (by phone)",
+   "fa": "ارسال کردن/اعلام کردن مستقیم یک سفارش",
+   "ps": "سفارش وړاندې کول",
+   "fr": "Transmettre une commande",
+   "tr": "Siparişi iletmek"
+  }
+ },
+ {
+  "id": "wB2-2-0197",
+  "category": [
+   "school_learning",
+   "noun"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Buchung bestätigen",
+   "en": "to confirm the booking",
+   "fa": "تایید کردن ثبت سفارش",
+   "ps": "رزرو تاییدول",
+   "fr": "Confirmer la réservation",
+   "tr": "Rezervasyonu onayla"
+  }
+ },
+ {
+  "id": "wB2-2-0198",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "einen Liefertermin abklären",
+   "en": "to clarify a delivery date",
+   "fa": "تعیین کردن موعد تحویل",
+   "ps": "د تحویلۍ نېټه ټاکل",
+   "fr": "Clarifier une date de livraison",
+   "tr": "Teslim tarihini netleştirmek"
+  }
+ },
+ {
+  "id": "wB2-2-0199",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "eine offene Frage klären",
+   "en": "to settle an open question",
+   "fa": "یک مساله تعیین تکلیف نشده را حل و فصل کردن",
+   "ps": "یو ناڅرګند پوښتنه حل کول",
+   "fr": "Résoudre une question en suspens",
+   "tr": "Açık bir soruyu çözmek"
+  }
+ },
+ {
+  "id": "wB2-2-0200",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "vereinbarte Termin",
+   "en": "agreed appointment",
+   "fa": "زمان مورد توافق، زمان هماهنگ شده",
+   "ps": "ټاکل شوی وخت",
+   "fr": "Date convenue",
+   "tr": "Kararlaştırılan tarih"
+  }
+ },
+ {
+  "id": "wB2-2-0202",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "vorbeikommen",
+   "en": "to drop by",
+   "fa": "رد شدن، عبور کردن، به کسی یا چیزی سر زدن",
+   "ps": "تېرېدل",
+   "fr": "passer",
+   "tr": "geçmek"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "komme vorbei",
+    "du": "kommst vorbei",
+    "er/sie/es": "kommt vorbei",
+    "wir": "kommen vorbei",
+    "ihr": "kommt vorbei",
+    "sie/Sie": "kommen vorbei"
+   },
+   "Präteritum": {
+    "ich": "kam vorbei",
+    "du": "kamst vorbei",
+    "er/sie/es": "kam vorbei",
+    "wir": "kamen vorbei",
+    "ihr": "kamt vorbei",
+    "sie/Sie": "kamen vorbei"
+   },
+   "Perfekt": {
+    "ich": "bin vorbeigekommen",
+    "du": "bist vorbeigekommen",
+    "er/sie/es": "ist vorbeigekommen",
+    "wir": "sind vorbeigekommen",
+    "ihr": "seid vorbeigekommen",
+    "sie/Sie": "sind vorbeigekommen"
+   },
+   "Plusquamperfekt": {
+    "ich": "war vorbeigekommen",
+    "du": "warst vorbeigekommen",
+    "er/sie/es": "war vorbeigekommen",
+    "wir": "waren vorbeigekommen",
+    "ihr": "wart vorbeigekommen",
+    "sie/Sie": "waren vorbeigekommen"
+   },
+   "Futur I": {
+    "ich": "werde vorbeikommen",
+    "du": "wirst vorbeikommen",
+    "er/sie/es": "wird vorbeikommen",
+    "wir": "werden vorbeikommen",
+    "ihr": "werdet vorbeikommen",
+    "sie/Sie": "werden vorbeikommen"
+   },
+   "Konjunktiv II": {
+    "ich": "käme vorbei",
+    "du": "kämest vorbei",
+    "er/sie/es": "käme vorbei",
+    "wir": "kämen vorbei",
+    "ihr": "kämet vorbei",
+    "sie/Sie": "kämen vorbei"
+   },
+   "Imperativ": {
+    "du": "komm vorbei!",
+    "ihr": "kommt vorbei!",
+    "Sie": "kommen Sie vorbei!"
+   }
+  }
+ },
+ {
+  "id": "wB2-2-0203",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "am Apparat",
+   "en": "on the phone / speaking",
+   "fa": "پشت خط (تلفن)",
+   "ps": "(په ټیلیفون کې)",
+   "fr": "à l'appareil",
+   "tr": "telefonda"
+  }
+ },
+ {
+  "id": "wB2-2-0204",
+  "category": [
+   "school_learning",
+   "preposition"
+  ],
+  "words": {
+   "de": "auf den Anrufbeantworter sprechen",
+   "en": "to leave a message on the answering machine",
+   "fa": "در دستگاه پیام گیر صحبت کردن",
+   "ps": "په پیغام ثبتونکي خبرې کول",
+   "fr": "parler sur le répondeur",
+   "tr": "cevaplayıcıya mesaj bırakmak"
+  }
+ },
+ {
+  "id": "wB2-2-0205",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "Auskunft geben",
+   "en": "to give information",
+   "fa": "اطلاعات ارائه کردن",
+   "ps": "معلومات ورکول",
+   "fr": "donner des informations",
+   "tr": "bilgi vermek"
+  }
+ },
+ {
+  "id": "wB2-2-0206",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "außerhalb der Sprechzeit anrufen",
+   "en": "to call outside consultation hours",
+   "fa": "خارج از زمان مشاوره تماس گرفتن",
+   "ps": "د خبرو وخت نه بهر زنګ وهل",
+   "fr": "appeler en dehors des heures de consultation",
+   "tr": "görüşme saatleri dışında aramak"
+  }
+ },
+ {
+  "id": "wB2-2-0207",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "Bezug nehmen auf",
+   "en": "to refer to",
+   "fa": "به ... اشاره کردن/استناد کردن/ارجاع دادن",
+   "ps": "په ... اشاره کول/مراجعه کول",
+   "fr": "faire référence à",
+   "tr": "...ya atıfta bulunmak"
+  }
+ },
+ {
+  "id": "wB2-2-0208",
+  "category": [
+   "conversation_phrases",
+   "preposition"
+  ],
+  "words": {
+   "de": "in dringenden Fällen",
+   "en": "in urgent cases",
+   "fa": "در موارد اضطراری",
+   "ps": "په بیړنیو حالاتو کې",
+   "fr": "en cas d'urgence",
+   "tr": "acil durumlarda"
+  }
+ },
+ {
+  "id": "wB2-2-0209",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "eine kurze Rückmeldung geben",
+   "en": "to give brief feedback",
+   "fa": "یک بازخورد مختصر ارائه کردن",
+   "ps": "لنډ ځواب ورکول",
+   "fr": "donner un bref retour",
+   "tr": "kısa bir geri bildirim vermek"
+  }
+ },
+ {
+  "id": "wB2-2-0210",
+  "category": [
+   "services_authorities",
+   "preposition"
+  ],
+  "words": {
+   "de": "ohne Voranmeldung",
+   "en": "without prior appointment",
+   "fa": "بدون پیش ثبت نام",
+   "ps": "بې له مخکې خبرتیا",
+   "fr": "sans rendez-vous",
+   "tr": "randevusuz"
+  }
+ },
+ {
+  "id": "wB2-2-0211",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "sich wenden an",
+   "en": "to turn to / to contact",
+   "fa": "به ... مراجعه کردن",
+   "ps": "له ... سره اړیکه نیول",
+   "fr": "s'adresser à",
+   "tr": "başvurmak"
+  },
+  "forms": {
+   "Präsens": {
+    "ich": "wende mich",
+    "du": "wendest dich",
+    "er/sie/es": "wendet sich",
+    "wir": "wenden uns",
+    "ihr": "wendet euch",
+    "sie/Sie": "wenden sich"
+   },
+   "Präteritum": {
+    "ich": "wandte mich",
+    "du": "wandtest dich",
+    "er/sie/es": "wandte sich",
+    "wir": "wandten uns",
+    "ihr": "wandtet euch",
+    "sie/Sie": "wandten sich"
+   },
+   "Perfekt": {
+    "ich": "habe mich gewandt",
+    "du": "hast dich gewandt",
+    "er/sie/es": "hat sich gewandt",
+    "wir": "haben uns gewandt",
+    "ihr": "habt euch gewandt",
+    "sie/Sie": "haben sich gewandt"
+   },
+   "Plusquamperfekt": {
+    "ich": "hatte mich gewandt",
+    "du": "hattest dich gewandt",
+    "er/sie/es": "hatte sich gewandt",
+    "wir": "hatten uns gewandt",
+    "ihr": "hattet euch gewandt",
+    "sie/Sie": "hatten sich gewandt"
+   },
+   "Futur I": {
+    "ich": "werde mich wenden",
+    "du": "wirst dich wenden",
+    "er/sie/es": "wird sich wenden",
+    "wir": "werden uns wenden",
+    "ihr": "werdet euch wenden",
+    "sie/Sie": "werden sich wenden"
+   },
+   "Konjunktiv II": {
+    "ich": "würde mich wenden",
+    "du": "würdest dich wenden",
+    "er/sie/es": "würde sich wenden",
+    "wir": "würden uns wenden",
+    "ihr": "würdet euch wenden",
+    "sie/Sie": "würden sich wenden"
+   },
+   "Imperativ": {
+    "du": "wende dich!",
+    "ihr": "wendet euch!",
+    "Sie": "wenden Sie sich!"
+   }
+  }
+ },
+ {
+  "id": "wB2-2-0212",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Missverständnis",
+   "en": "misunderstanding",
+   "fa": "سوء تفاهم",
+   "ps": "سوء تفاهم",
+   "fr": "malentendu",
+   "tr": "yanlış anlama"
+  }
+ },
+ {
+  "id": "wB2-2-0213",
+  "category": [
+   "conversation_phrases",
+   "preposition"
+  ],
+  "words": {
+   "de": "auf Beschwerden (Pl.) reagieren",
+   "en": "to respond to complaints",
+   "fa": "به شکایت‌ها واکنش نشان دادن",
+   "ps": "په شکایتونو غبرګون ښودل",
+   "fr": "réagir aux plaintes",
+   "tr": "şikayetlere tepki vermek"
+  }
+ },
+ {
+  "id": "wB2-2-0214",
+  "category": [
+   "conversation_phrases",
+   "preposition"
+  ],
+  "words": {
+   "de": "auf Nachfrage",
+   "en": "on request",
+   "fa": "در صورت درخواست/تقاضا",
+   "ps": "د غوښتنې په صورت کې",
+   "fr": "sur demande",
+   "tr": "talep üzerine"
+  }
+ },
+ {
+  "id": "wB2-2-0216",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "Einweisung in das Programm bekommen",
+   "en": "to be given an introduction to the program",
+   "fa": "راهنمایی در مورد دستگاه دریافت کردن",
+   "ps": "په پروګرام کې لارښوونه ترلاسه کول",
+   "fr": "recevoir une formation au programme",
+   "tr": "program hakkında eğitim almak"
+  }
+ },
+ {
+  "id": "wB2-2-0217",
+  "category": [
+   "conversation_phrases",
+   "article"
+  ],
+  "words": {
+   "de": "einen Konfikt lösen",
+   "en": "to resolve a conflict",
+   "fa": "حل کردن یک اختلاف",
+   "ps": "شخړه حل کول",
+   "fr": "résoudre un conflit",
+   "tr": "çatışmayı çözmek"
+  }
+ },
+ {
+  "id": "wB2-2-0219",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "(nicht) zufrieden sein mit",
+   "en": "to be (not) satisfied with",
+   "fa": "راضی بودن (نبودن) از",
+   "ps": "له ... (خوښ/نخوښ) اوسېدل",
+   "fr": "(ne pas) être satisfait de",
+   "tr": "(memnun olmamak)"
+  }
+ },
+ {
+  "id": "wB2-2-0220",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Abdruck",
+   "en": "impression (dental)",
+   "fa": "نقش، رد، اثر",
+   "ps": "نښه، اثر",
+   "fr": "empreinte",
+   "tr": "iz, kalıp"
+  }
+ },
+ {
+  "id": "wB2-2-0221",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Betäubungsspritze",
+   "en": "anaesthetic injection",
+   "fa": "آمپول بیهوشی",
+   "ps": "د بې حسۍ انژکشن",
+   "fr": "injection anesthésiante",
+   "tr": "anestezi iğnesi"
+  }
+ },
+ {
+  "id": "wB2-2-0222",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "provisorische Füllung",
+   "en": "temporary filling",
+   "fa": "پر کردن موقت",
+   "ps": "موقتي ډکول",
+   "fr": "obturation provisoire",
+   "tr": "geçici dolgu"
+  }
+ },
+ {
+  "id": "wB2-2-0223",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Haltbarkeit",
+   "en": "durability / shelf life",
+   "fa": "ماندگاری",
+   "ps": "دوامداري",
+   "fr": "durabilité",
+   "tr": "dayanıklılık"
+  }
+ },
+ {
+  "id": "wB2-2-0224",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Inlay",
+   "en": "inlay",
+   "fa": "ماده پر کننده دندان از جنس فلز یا چینی",
+   "ps": "Inlay",
+   "fr": "Inlay",
+   "tr": "Inlay"
+  }
+ },
+ {
+  "id": "wB2-2-0225",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Karies",
+   "en": "tooth decay / caries",
+   "fa": "پوسیدگی",
+   "ps": "کیرېس (د غاښ خرابوالی)",
+   "fr": "carie",
+   "tr": "çürük"
+  }
+ },
+ {
+  "id": "wB2-2-0226",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "die",
+  "words": {
+   "de": "Keramik",
+   "en": "ceramic",
+   "fa": "سرامیک",
+   "ps": "سیرامیک",
+   "fr": "céramique",
+   "tr": "seramik"
+  }
+ },
+ {
+  "id": "wB2-2-0227",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "das",
+  "words": {
+   "de": "Labor",
+   "en": "laboratory",
+   "fa": "آزمایشگاه",
+   "ps": "لابراتوار",
+   "fr": "laboratoire",
+   "tr": "laboratuvar"
+  }
+ },
+ {
+  "id": "wB2-2-0228",
+  "category": [
+   "uncategorized"
+  ],
+  "article": "der",
+  "words": {
+   "de": "Notdienst",
+   "en": "emergency service",
+   "fa": "خدمات اضطراری/اورژانسی",
+   "ps": "بیړنی خدمت",
+   "fr": "Service d'urgence",
+   "tr": "Acil servis"
+  }
+ },
+ {
+  "id": "wB2-2-0229",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "gründlich Zähne putzen",
+   "en": "to brush one's teeth thoroughly",
+   "fa": "دندان‌ها را به طور کامل و دقیق مسواک زدن",
+   "ps": "غاښونه په پوره دقت سره برش کول",
+   "fr": "se brosser les dents soigneusement",
+   "tr": "dişleri iyice fırçalamak"
+  }
+ },
+ {
+  "id": "wB2-2-0230",
+  "category": [
+   "uncategorized"
+  ],
+  "words": {
+   "de": "Schmerzen aushalten",
+   "en": "to endure pain",
+   "fa": "تحمل کردن درد",
+   "ps": "درد زغمل",
+   "fr": "Supporter la douleur",
+   "tr": "Ağrıyı dayanmak"
+  }
+ },
+ {
+  "id": "wB2-2-0231",
+  "category": [
+   "adverb"
+  ],
+  "words": {
+   "de": "folglich",
+   "en": "consequently / therefore",
+   "fa": "در نتیجه / بنابراین",
+   "ps": "په پایله کې",
+   "fr": "par conséquent",
+   "tr": "sonuç olarak / dolayısıyla"
+  },
+  "examples": {
+   "de": "Die Kosten sind gestiegen, folglich müssen wir unser Budget anpassen."
+  }
+ },
+ {
+  "id": "wB2-2-0232",
+  "category": [
+   "adverb"
+  ],
+  "words": {
+   "de": "durchaus",
+   "en": "certainly / quite",
+   "fa": "کاملاً / واقعاً",
+   "ps": "بېشکه / په رښتیا",
+   "fr": "tout à fait / certainement",
+   "tr": "kesinlikle / gayet"
+  },
+  "examples": {
+   "de": "Dein Vorschlag ist durchaus sinnvoll, aber wir müssen die Kosten prüfen."
+  }
+ },
+ {
+  "id": "wB2-2-0233",
+  "category": [
+   "conjunction"
+  ],
+  "words": {
+   "de": "einerseits … andererseits",
+   "en": "on the one hand … on the other hand",
+   "fa": "از یک طرف … از طرف دیگر",
+   "ps": "له یوې خوا … له بلې خوا",
+   "fr": "d'une part … d'autre part",
+   "tr": "bir yandan … diğer yandan"
+  },
+  "examples": {
+   "de": "Einerseits möchte ich umziehen, andererseits gefällt mir meine Wohnung."
+  }
+ },
+ {
+  "id": "wB2-2-0234",
+  "category": [
+   "preposition"
+  ],
+  "words": {
+   "de": "angesichts",
+   "en": "in view of / given",
+   "fa": "با توجه به / در برابر",
+   "ps": "ته په کتو سره",
+   "fr": "compte tenu de / face à",
+   "tr": "göz önüne alındığında"
+  },
+  "examples": {
+   "de": "Angesichts der aktuellen Situation müssen wir schnell handeln."
+  }
+ }
+]

@@ -1,0 +1,72 @@
+{
+  "order": 10,
+  "title": "Ein neuer Mitschüler in unserer Klasse",
+  "description": {
+    "de": "Ali aus Syrien ist neu in der Klasse.",
+    "en": "Ali from Syria is new in class.",
+    "fa": "علی از سوریه شاگرد تازهٔ کلاس است."
+  },
+  "keywords": [
+    "Schule",
+    "Klasse",
+    "Mitschüler"
+  ],
+  "text": "Heute stellt sich ein neuer Mitschüler in unserer Klasse vor. Er heißt Ali und kommt aus Syrien. Alle Kinder sind neugierig und möchten wissen, wie er so ist. Die Lehrerin bittet ihn, ein bisschen von sich zu erzählen. Ali spricht schon gut Deutsch, aber manchmal sucht er noch nach den richtigen Worten. Wir hören aufmerksam zu und helfen ihm, wenn er unsicher ist. Ich finde es mutig, in eine neue Klasse zu kommen.\n\nIn der Pause gehen wir zusammen auf den Schulhof. Ich zeige Ali, wo wir immer Fußball spielen. Einige Mädchen laden ihn ein, mit ihnen zu schaukeln. Wir stellen fest, dass Ali gerne malt und Geschichten schreibt. Am Ende des Tages hat er schon viele Kinder kennengelernt. Es ist schön, einen neuen Freund in der Klasse zu haben, und ich freue mich auf viele gemeinsame Erlebnisse.",
+  "questions": [
+    {
+      "question": "Wie heißt der neue Mitschüler?",
+      "answers": [
+        "Er heißt Ali.",
+        "Er heißt Tom.",
+        "Er heißt Amir.",
+        "Er heißt Luca."
+      ]
+    },
+    {
+      "question": "Aus welchem Land kommt Ali?",
+      "answers": [
+        "Er kommt aus Syrien.",
+        "Er kommt aus Spanien.",
+        "Er kommt aus Marokko.",
+        "Er kommt aus Italien."
+      ]
+    },
+    {
+      "question": "Wie gut spricht Ali Deutsch?",
+      "answers": [
+        "Er spricht gut Deutsch, sucht aber manchmal Worte.",
+        "Er spricht nur Arabisch und versteht nichts.",
+        "Er spricht gar kein Deutsch und schweigt.",
+        "Er spricht perfekt Deutsch ohne Fehler."
+      ]
+    },
+    {
+      "question": "Was machen die Kinder in der Pause mit Ali?",
+      "answers": [
+        "Sie gehen zusammen auf den Schulhof.",
+        "Sie bleiben im Klassenraum sitzen.",
+        "Sie fahren gemeinsam mit dem Bus.",
+        "Sie gehen sofort in die Bibliothek."
+      ]
+    },
+    {
+      "question": "Was zeigt der Erzähler Ali auf dem Schulhof?",
+      "answers": [
+        "Wo sie immer Fußball spielen.",
+        "Wo die Klasse Mittag isst.",
+        "Wo die Turnhalle zu finden ist.",
+        "Wo sie oft Basketball spielen."
+      ]
+    },
+    {
+      "question": "Wie endet der Tag für Ali?",
+      "answers": [
+        "Er hat viele Kinder kennengelernt.",
+        "Er streitet mit den anderen Kindern.",
+        "Er geht traurig und unverstanden heim.",
+        "Er bleibt den ganzen Tag allein."
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/ein-neuer-mitschueler-in-unserer-klasse/"
+}

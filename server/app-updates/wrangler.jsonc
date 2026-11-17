@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // The update information of the WordsMap apps, at https://wordsmap.nefrin.dev/api/app-updates.
+  "name": "wordsmap-app-updates",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  // Cloudflare creates the DNS record of wordsmap.nefrin.dev and its certificate on deploy.
+  "routes": [{ "pattern": "wordsmap.nefrin.dev", "custom_domain": true }],
+  "observability": { "enabled": true }
+}

@@ -1,0 +1,72 @@
+{
+  "order": 4,
+  "title": "Im Krankenhaus",
+  "description": {
+    "de": "Ein Sturz mit dem Fahrrad und ein Besuch in der Notaufnahme.",
+    "en": "A fall from a bike and a visit to the emergency room.",
+    "fa": "زمین خوردن با دوچرخه و رفتن به اورژانس."
+  },
+  "keywords": [
+    "Krankenhaus",
+    "Arzt",
+    "Notaufnahme"
+  ],
+  "text": "Ich bin beim Fahrradfahren gestürzt. Mein Arm tut mir sehr weh. Ich gehe sofort ins Haus. Dort sage ich zu meinem Vater, der im Wohnzimmer sitzt: „Ich bin mit dem Fahrrad hingefallen und jetzt tut mir mein Arm so weh.“ Ich habe Tränen in den Augen.\n\nMein Vater fährt mich sofort ins Krankenhaus. Wir gehen in die Notaufnahme. Mein Vater muss ein Formular ausfüllen und dann müssen wir warten. Erst muss ich zum Röntgen und dann komme ich zum Arzt. Er sieht sich meine Röntgenbilder an und sagt mir, dass mein Arm gebrochen ist. Das ist aber nicht schlimm.\n\n„Da machen wir einfach einen Gips drum rum und nach sechs Wochen ist alles wieder wie neu“, sagt der Arzt.",
+  "questions": [
+    {
+      "question": "Was tut mir weh?",
+      "answers": [
+        "Arm",
+        "Bein",
+        "Hand",
+        "Kopf"
+      ]
+    },
+    {
+      "question": "Wo sitzt mein Vater?",
+      "answers": [
+        "Wohnzimmer",
+        "Küche",
+        "Schlafzimmer",
+        "Garten"
+      ]
+    },
+    {
+      "question": "Was habe ich in den Augen?",
+      "answers": [
+        "Tränen",
+        "Sand",
+        "Dreck",
+        "Wimper"
+      ]
+    },
+    {
+      "question": "Was muss mein Vater ausfüllen?",
+      "answers": [
+        "Formular",
+        "Test",
+        "Kreuzworträtsel",
+        "Fragebogen"
+      ]
+    },
+    {
+      "question": "Was ist mein Arm?",
+      "answers": [
+        "gebrochen",
+        "dreckig",
+        "geprellt",
+        "aufgeschürft"
+      ]
+    },
+    {
+      "question": "Was kommt um meinen Arm?",
+      "answers": [
+        "Gips",
+        "Verband",
+        "Schiene",
+        "nichts"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/im-krankenhaus/"
+}

@@ -1,0 +1,72 @@
+{
+  "order": 6,
+  "title": "Die kleine Lena im Schwimmbad",
+  "description": {
+    "de": "Lena ist zwei und liebt das Wasser.",
+    "en": "Lena is two and loves the water.",
+    "fa": "لنا دو ساله است و عاشق آب است."
+  },
+  "keywords": [
+    "Schwimmbad",
+    "schwimmen",
+    "Kind"
+  ],
+  "text": "Die kleine Lena ist erst zwei Jahre alt. Sie ist ein sehr fröhliches Kind und sie ist auch sehr aktiv. Ihre Eltern gehen mit Lena oft ins Schwimmbad. Natürlich kann Lena noch nicht schwimmen, aber sie liebt das Wasser.\n\nIn dem Schwimmbad gibt es ein Kinderbecken. In dem Kinderbecken ist das Wasser nur 15 Zentimeter hoch. Dort spielt Lena gerne.\n\nIhre Eltern nehmen Lena aber auch mit in ein tieferes Becken. Dafür braucht Lena Schwimmflügel. Das sind Ringe, die mit Luft aufgeblasen werden. Danach werden sie über die Arme gezogen. So kann Lena langsam und sicher das Schwimmen lernen.",
+  "questions": [
+    {
+      "question": "Wie alt ist Lena?",
+      "answers": [
+        "2 Jahre",
+        "3 Jahre",
+        "1 Jahr",
+        "4 Jahre"
+      ]
+    },
+    {
+      "question": "Wie ist Lena?",
+      "answers": [
+        "aktiv",
+        "langweilig",
+        "laut",
+        "ruhig"
+      ]
+    },
+    {
+      "question": "Was liebt Lena?",
+      "answers": [
+        "Wasser",
+        "Essen",
+        "Schlaf",
+        "ihre Eltern"
+      ]
+    },
+    {
+      "question": "Wie hoch ist das Wasser im Kinderbecken?",
+      "answers": [
+        "fünfzehn Zentimeter",
+        "zehn Zentimeter",
+        "fünf Zentimeter",
+        "fünfzig Zentimeter"
+      ]
+    },
+    {
+      "question": "Was macht Lena im Kinderbecken?",
+      "answers": [
+        "spielen",
+        "schlafen",
+        "essen",
+        "lachen"
+      ]
+    },
+    {
+      "question": "Was braucht Lena fürs Schwimmen im tieferen Becken?",
+      "answers": [
+        "Schwimmflügel",
+        "Schwimmgurt",
+        "Schwimmflossen",
+        "Taucherbrille"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/die-kleine-lena-im-schwimmbad/"
+}

@@ -1,0 +1,72 @@
+{
+  "order": 6,
+  "title": "Ein Fernsehabend",
+  "description": {
+    "de": "Popcorn, Cola und der perfekte Film.",
+    "en": "Popcorn, cola and the perfect film.",
+    "fa": "پاپ‌کورن، نوشابه و فیلمی بی‌نقص."
+  },
+  "keywords": [
+    "Film",
+    "Fernsehen",
+    "Popcorn"
+  ],
+  "text": "Mein Partner Michael und ich sitzen auf dem Sofa. Wir haben uns gerade Popcorn gemacht und jeder von uns hat sich ein Glas Cola eingeschenkt. Wir wollen einen gemütlichen Fernsehabend machen und müssen dazu nur noch den perfekten Film aussuchen.\n\nMichael mag Sci-Fi-Filme, die im Weltraum spielen. Ich mag lieber Romanzen, in denen sich zwei Menschen verlieben. Für uns ist es immer sehr schwer, den richtigen Film zu finden.\n\nDoch heute müssen wir nicht lange suchen. Gleich am Anfang wird uns eine Sci-Fi-Romanze angezeigt. In dem Film verlieben sich zwei Menschen in einer Raumstation im Weltall. Der perfekte Film für uns! Wir drücken auf „Play“ und genießen den Film.",
+  "questions": [
+    {
+      "question": "Wie heißt mein Partner?",
+      "answers": [
+        "Michael",
+        "Markus",
+        "Manuel",
+        "Michaela"
+      ]
+    },
+    {
+      "question": "Was essen wir?",
+      "answers": [
+        "Popcorn",
+        "Pommes",
+        "Zuckerwatte",
+        "Süßigkeiten"
+      ]
+    },
+    {
+      "question": "Was trinken wir?",
+      "answers": [
+        "Cola",
+        "Wasser",
+        "Apfelsaft",
+        "Limonade"
+      ]
+    },
+    {
+      "question": "Welche Filme mag Michael?",
+      "answers": [
+        "Sci-Fi-Filme",
+        "Romanzen",
+        "Actionfilme",
+        "Komödien"
+      ]
+    },
+    {
+      "question": "Welche Filme mag ich?",
+      "answers": [
+        "Romanzen",
+        "Actionfilme",
+        "Sci-Fi-Filme",
+        "Dramas"
+      ]
+    },
+    {
+      "question": "Was muss man drücken, um einen Film zu starten?",
+      "answers": [
+        "Play",
+        "Spielen",
+        "Anfang",
+        "Party"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/ein-fernsehabend/"
+}

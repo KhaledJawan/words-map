@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The app logo from ic_launcher_monochrome.xml, cropped to fill the notification icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="541.19"
+    android:viewportHeight="541.19">
+    <group
+        android:translateX="-158.84"
+        android:translateY="-158.58">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M479.43,204.67 L379.43,204.67 L178.88,504.67 L278.88,504.67 L479.43,204.67 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M179.43,204.67 L279.43,204.67 L279.43,504.67 L179.43,504.67 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M379.43,204.67 L479.43,204.67 L479.43,504.67 L379.43,504.67 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M379.43,653.67 L479.43,653.67 L679.98,353.67 L579.98,353.67 L379.43,653.67 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M579.98,353.67 L679.98,353.67 L679.98,653.67 L579.98,653.67 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M379.43,353.67 L479.43,353.67 L479.43,653.67 L379.43,653.67 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M178.88,653.67 L278.88,653.67 L479.43,353.67 L379.43,353.67 L178.88,653.67 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M679.98,204.67 L579.98,204.67 L379.43,504.67 L479.43,504.67 L679.98,204.67 Z" />
+    </group>
+</vector>

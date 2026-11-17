@@ -1,0 +1,47 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: Inter; src: url("../../shared/src/commonMain/composeResources/font/inter_variable.ttf"); font-weight: 100 900; }
+@font-face { font-family: Vazirmatn; src: url("../../shared/src/commonMain/composeResources/font/vazirmatn_variable.ttf"); font-weight: 100 900; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1024px; height: 500px; overflow: hidden; }
+body {
+  font-family: Inter, sans-serif; color: #fff; position: relative;
+  background:
+    radial-gradient(520px 420px at 830px 250px, rgba(56,140,132,.38), transparent 70%),
+    radial-gradient(600px 380px at 120px 520px, rgba(103,183,173,.10), transparent 70%),
+    linear-gradient(135deg, #062523 0%, #031918 55%, #020f0e 100%);
+}
+.left { position: absolute; left: 64px; top: 0; height: 500px; width: 540px; display: flex; flex-direction: column; justify-content: center; }
+.brand { display: flex; align-items: center; gap: 22px; }
+.logo { width: 92px; height: 92px; border-radius: 22px; overflow: hidden; box-shadow: 0 0 0 1.5px rgba(255,255,255,.14), 0 10px 30px rgba(0,0,0,.45); }
+.logo img { width: 100%; height: 100%; display: block; }
+.name { font-size: 66px; font-weight: 800; letter-spacing: -1.5px; }
+h1 { margin-top: 34px; font-size: 40px; line-height: 1.12; font-weight: 800; letter-spacing: -.6px; }
+h1 em { font-style: normal; color: #67b7ad; }
+.sub { margin-top: 14px; font-size: 19.5px; font-weight: 500; color: rgba(255,255,255,.74); }
+.langs { margin-top: 28px; display: flex; gap: 12px; }
+.pill { height: 44px; padding: 0 20px; border-radius: 22px; display: flex; align-items: center; font-size: 18px; font-weight: 700; border: 1.5px solid rgba(103,183,173,.55); background: rgba(103,183,173,.08); }
+.pill.rtl { font-family: Vazirmatn, sans-serif; font-weight: 700; }
+.phone { position: absolute; width: 214px; padding: 7px; border-radius: 34px; background: #0a1110; box-shadow: 0 0 0 1.5px rgba(255,255,255,.16), 0 30px 60px rgba(0,0,0,.55), 0 8px 18px rgba(0,0,0,.35); }
+.phone img { display: block; width: 200px; height: 343px; border-radius: 27px; object-fit: cover; object-position: bottom; }
+.back { left: 610px; top: 84px; transform: rotate(-7deg); filter: brightness(.86); }
+.front { left: 764px; top: 58px; transform: rotate(5deg); }
+</style></head>
+<body>
+  <div class="left">
+    <div class="brand">
+      <div class="logo"><img src="../../tools/branding/icon.svg"></div>
+      <div class="name">WordsMap</div>
+    </div>
+    <h1>Learn German<br><em>10 words a day</em></h1>
+    <div class="sub">Flashcards · your own words · 3,600+ words A1–C1</div>
+    <div class="langs">
+      <div class="pill">English</div>
+      <div class="pill rtl">فارسی</div>
+      <div class="pill rtl">پښتو</div>
+    </div>
+  </div>
+  <div class="phone back"><img src="../../release/play-store-screenshots/02-learn.png"></div>
+  <div class="phone front"><img src="../../release/play-store-screenshots/03-flashcards.png"></div>
+</body></html>

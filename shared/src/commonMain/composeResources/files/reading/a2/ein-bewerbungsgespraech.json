@@ -1,0 +1,72 @@
+{
+  "order": 9,
+  "title": "Ein Bewerbungsgespräch",
+  "description": {
+    "de": "Nach dem Bewerbungsgespräch erzähle ich meiner Mutter alles.",
+    "en": "After the job interview I tell my mother everything.",
+    "fa": "بعد از مصاحبهٔ کاری همه چیز را برای مادرم تعریف می‌کنم."
+  },
+  "keywords": [
+    "Bewerbung",
+    "Job",
+    "Vorstellungsgespräch"
+  ],
+  "text": "Ich sitze gerade mit meiner Mutter am Tisch und erzähle ihr von dem Bewerbungsgespräch, das ich gestern hatte.\n\n„Der Herr von der Personalabteilung war sehr nett. Er hat mir ein Glas Wasser angeboten und ist dann mit mir die Bewerbungsunterlagen durchgegangen“, erzählte ich ihr.\n\nMeine Mutter sagte dann: „Es ist gut, dass ich deine Bewerbung nochmal durchgelesen habe, bevor du sie abgeschickt hast. Ich habe zwei Rechtschreibfehler korrigiert.“ Meine Mutter lächelt.\n\n„Ja! Danke, Mama“, sagte ich. Dann erzählte ich weiter: „Er hat mich auch nach meinen Stärken gefragt. Ich habe gesagt, dass ich schon Erfahrungen in dem Beruf habe und sehr engagiert bin. Ich glaube, ich bekomme den Job!“",
+  "questions": [
+    {
+      "question": "Wem erzähle ich von dem Bewerbungsgespräch?",
+      "answers": [
+        "Meiner Mutter",
+        "Meiner Großmutter",
+        "Meinem Vater",
+        "Meiner Schwester"
+      ]
+    },
+    {
+      "question": "Wo sitzen wir?",
+      "answers": [
+        "Am Tisch",
+        "Auf dem Boden",
+        "Auf dem Sofa",
+        "Auf dem Bett"
+      ]
+    },
+    {
+      "question": "Aus welcher Abteilung war der Herr?",
+      "answers": [
+        "Personalabteilung",
+        "Rechtsabteilung",
+        "Schriftabteilung",
+        "Finanzabteilung"
+      ]
+    },
+    {
+      "question": "Was hat der Herr mir angeboten?",
+      "answers": [
+        "Wasser",
+        "Apfelsaft",
+        "Bier",
+        "Cola"
+      ]
+    },
+    {
+      "question": "Wie viele Rechtschreibfehler hat meine Mutter gefunden?",
+      "answers": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "question": "Nach was hat der Herr gefragt?",
+      "answers": [
+        "Meinen Stärken",
+        "Meinen Schwächen",
+        "Meinem Namen",
+        "Meinem Geburtsdatum"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/ein-bewerbungsgespraech/"
+}

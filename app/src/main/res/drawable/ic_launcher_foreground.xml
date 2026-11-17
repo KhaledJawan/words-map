@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Made by tools/branding/make_icons.py from tools/branding/icon.svg. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.083832"
+        android:scaleY="0.083832"
+        android:translateX="18"
+        android:translateY="18">
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M179.43,204.67 L679.98,204.67 L679.98,653.67 L179.43,653.67 Z" />
+        <path
+            android:fillColor="#FF388C84"
+            android:pathData="M479.43,204.67 L379.43,204.67 L178.88,504.67 L278.88,504.67 L479.43,204.67 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M179.43,204.67 L279.43,204.67 L279.43,504.67 L179.43,504.67 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M379.43,204.67 L479.43,204.67 L479.43,504.67 L379.43,504.67 Z" />
+        <path
+            android:fillColor="#FF67B7AD"
+            android:pathData="M379.43,653.67 L479.43,653.67 L679.98,353.67 L579.98,353.67 L379.43,653.67 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M579.98,353.67 L679.98,353.67 L679.98,653.67 L579.98,653.67 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M379.43,353.67 L479.43,353.67 L479.43,653.67 L379.43,653.67 Z" />
+        <path
+            android:fillColor="#FF67B7AD"
+            android:pathData="M178.88,653.67 L278.88,653.67 L479.43,353.67 L379.43,353.67 L178.88,653.67 Z" />
+        <path
+            android:fillColor="#FF388C84"
+            android:pathData="M679.98,204.67 L579.98,204.67 L379.43,504.67 L479.43,504.67 L679.98,204.67 Z" />
+    </group>
+</vector>

@@ -1,0 +1,72 @@
+{
+  "order": 5,
+  "title": "Weihnachtsmarkt – Teil 1",
+  "description": {
+    "de": "Mit Anna auf dem Weihnachtsmarkt: ein Geschenk für Mama suchen.",
+    "en": "At the Christmas market with Anna, looking for a gift for Mum.",
+    "fa": "با آنا در بازار کریسمس، دنبال هدیه‌ای برای مادر."
+  },
+  "keywords": [
+    "Weihnachten",
+    "Weihnachtsmarkt",
+    "Geschenk"
+  ],
+  "text": "Draußen liegt Schnee. Alles ist weiß. Ich freue mich schon sehr, denn bald ist Weihnachten. Ich habe schon fast alle Geschenke gekauft. Nur das für meine Mutter fehlt noch. Deswegen gehe ich heute mit meiner besten Freundin Anna auf den Weihnachtsmarkt.\n\nAls wir dort ankommen, ist es schon dunkel draußen, aber die Buden leuchten. Überall sind Lichterketten und Glühbirnen, die in warmem Licht leuchten. Die Menschen sind fröhlich und lachen. Weihnachten ist wirklich eine schöne Zeit!\n\nAnna und ich essen erst gebrannte Mandeln und trinken dann Kinderpunsch. Danach machen wir uns auf die Suche nach einem Geschenk für meine Mutter. Hoffentlich finde ich etwas Schönes …",
+  "questions": [
+    {
+      "question": "Welche Farbe hat Schnee?",
+      "answers": [
+        "weiß",
+        "gelb",
+        "schwarz",
+        "grau"
+      ]
+    },
+    {
+      "question": "Was ist bald?",
+      "answers": [
+        "Weihnachten",
+        "Schule",
+        "Ostern",
+        "Valentinstag"
+      ]
+    },
+    {
+      "question": "Für wen habe ich noch kein Geschenk?",
+      "answers": [
+        "Meine Mutter",
+        "Meine Schwester",
+        "Meinen Vater",
+        "Meine Oma"
+      ]
+    },
+    {
+      "question": "Wie heißt meine beste Freundin?",
+      "answers": [
+        "Anna",
+        "Anne",
+        "Anke",
+        "Anja"
+      ]
+    },
+    {
+      "question": "Was essen Anna und ich?",
+      "answers": [
+        "Gebrannte Mandeln",
+        "Heiße Würstchen",
+        "Kalten Braten",
+        "Belegte Brötchen"
+      ]
+    },
+    {
+      "question": "Was trinken Anna und ich?",
+      "answers": [
+        "Kinderpunsch",
+        "Glühwein",
+        "Apfelsaft",
+        "Tee"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/weihnachtsmarkt/"
+}

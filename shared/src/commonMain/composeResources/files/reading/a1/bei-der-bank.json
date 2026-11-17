@@ -1,0 +1,72 @@
+{
+  "order": 6,
+  "title": "Bei der Bank",
+  "description": {
+    "de": "Ein Konto eröffnen: ein kurzes Gespräch am Schalter.",
+    "en": "Opening a bank account: a short talk at the counter.",
+    "fa": "باز کردن حساب بانکی: یک گفتگوی کوتاه پشت باجه."
+  },
+  "keywords": [
+    "Bank",
+    "Konto",
+    "Bankkarte"
+  ],
+  "text": "Wenn man in Deutschland arbeitet, braucht man ein Konto bei einer Bank. Ich werde in zwei Wochen meinen neuen Job anfangen und gehe nun zur Bank, um ein Konto zu eröffnen.\n\nIch gehe zum Schalter und sage: „Guten Tag, ich würde gerne ein Konto eröffnen.“\nDer Mann hinter dem Schalter antwortet: „Sehr gerne. Haben Sie schon ein Konto bei unserer Bank?“\n„Nein.“\n„Dann müsste ich Sie nach einigen persönlichen Daten fragen. Wie ist denn Ihr Name und Ihr Geburtsdatum?“\n„Mein Name ist Johannes Müller und ich habe am 10. Februar 1997 Geburtstag.“\n„Ihre Adresse?“\n„Ich wohne in der Hauptstraße 20.“\n„Vielen Dank. Sie bekommen dann einen Brief mit Ihrer neuen Bankkarte.“",
+  "questions": [
+    {
+      "question": "Was braucht man, wenn man in Deutschland arbeitet?",
+      "answers": [
+        "Konto",
+        "Schuhe",
+        "Brille",
+        "Haus"
+      ]
+    },
+    {
+      "question": "Wann fange ich meinen neuen Job an?",
+      "answers": [
+        "in zwei Wochen",
+        "in zwei Monaten",
+        "in zwei Jahren",
+        "in zwei Tagen"
+      ]
+    },
+    {
+      "question": "Was will der Mann hinter dem Schalter als Erstes wissen?",
+      "answers": [
+        "meinen Namen",
+        "meine Adresse",
+        "meine Haarfarbe",
+        "meine Augenfarbe"
+      ]
+    },
+    {
+      "question": "Wann habe ich Geburtstag?",
+      "answers": [
+        "10.02.1997",
+        "10.02.1998",
+        "02.10.1997",
+        "10.10.1997"
+      ]
+    },
+    {
+      "question": "Wo wohne ich?",
+      "answers": [
+        "Hauptstraße 20",
+        "Hauptstraße 10",
+        "Münchner Straße 20",
+        "Am Kellerweg 20"
+      ]
+    },
+    {
+      "question": "Was bekomme ich in dem Brief?",
+      "answers": [
+        "Bankkarte",
+        "Kreditkarte",
+        "Visitenkarte",
+        "Speisekarte"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/bei-der-bank/"
+}

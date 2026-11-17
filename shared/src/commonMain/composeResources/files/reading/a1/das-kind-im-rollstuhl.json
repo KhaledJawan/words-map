@@ -1,0 +1,72 @@
+{
+  "order": 4,
+  "title": "Das Kind im Rollstuhl",
+  "description": {
+    "de": "Ben sitzt im Rollstuhl – und ist mein bester Freund.",
+    "en": "Ben uses a wheelchair – and he is my best friend.",
+    "fa": "بن روی ویلچر می‌نشیند – و بهترین دوست من است."
+  },
+  "keywords": [
+    "Rollstuhl",
+    "Freund",
+    "Kino"
+  ],
+  "text": "Mein bester Freund Ben sitzt im Rollstuhl. Er kann nicht laufen, weil er seine Beine nicht bewegen kann. Für mich war das aber nie ein Problem. Ich kenne Ben schon seit dem Kindergarten und habe ihn sofort gemocht. Er lacht immer sehr viel und er ist sehr freundlich.\n\nManchmal ist es aber schwer, mit Ben an bestimmte Orte zu kommen. Wir können nicht ins Kino gehen, weil dort eine Treppe vor dem Eingang ist. Das macht uns ein bisschen traurig, aber wir können Filme ja auch zuhause ansehen.\n\nBen kommt mich oft zuhause besuchen und dann reden wir über alles Mögliche. Wir sind einfach beste Freunde!",
+  "questions": [
+    {
+      "question": "Wie heißt mein bester Freund?",
+      "answers": [
+        "Ben",
+        "Benjamin",
+        "Brutus",
+        "Jan"
+      ]
+    },
+    {
+      "question": "Was kann Ben nicht bewegen?",
+      "answers": [
+        "Beine",
+        "Arme",
+        "Kopf",
+        "Hände"
+      ]
+    },
+    {
+      "question": "Wo habe ich Ben kennengelernt?",
+      "answers": [
+        "Kindergarten",
+        "Schule",
+        "Kirche",
+        "Arbeit"
+      ]
+    },
+    {
+      "question": "Wie ist Ben?",
+      "answers": [
+        "freundlich",
+        "traurig",
+        "laut",
+        "gemein"
+      ]
+    },
+    {
+      "question": "Wohin können wir nicht gehen?",
+      "answers": [
+        "Kino",
+        "Supermarkt",
+        "Schule",
+        "Arbeit"
+      ]
+    },
+    {
+      "question": "Was machen wir bei mir zuhause?",
+      "answers": [
+        "reden",
+        "schlafen",
+        "essen",
+        "spielen"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/das-kind-im-rollstuhl/"
+}

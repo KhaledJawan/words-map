@@ -1,0 +1,72 @@
+{
+  "order": 7,
+  "title": "Sternenhimmel",
+  "description": {
+    "de": "Raus aus Berlin, um endlich Sterne zu sehen.",
+    "en": "Out of Berlin to finally see the stars.",
+    "fa": "بیرون از برلین، تا بالاخره ستاره‌ها را ببینم."
+  },
+  "keywords": [
+    "Sterne",
+    "Berlin",
+    "Nacht"
+  ],
+  "text": "Ich wohne in Berlin. Berlin ist die Hauptstadt von Deutschland und sehr groß. Nachts ist es dort immer hell. Es gibt viele Lichter an den Straßen und auch die Sehenswürdigkeiten sind beleuchtet. Und weil es in Berlin immer hell ist, kann man dort fast keine Sterne sehen.\n\nIch lebe schon mein ganzes Leben in Berlin und liebe die Stadt, aber ich möchte endlich einen wunderschönen Sternenhimmel sehen – wie auf den Bildern im Internet.\n\nDeswegen fahre ich heute raus aus der Stadt. Ich nehme mein Auto und fahre so weit, bis ich kein Haus mehr sehe. Dann steige ich aus …\n\nIch schaue nach oben und sehe Millionen von Sternen. Kleine und große. Sie funkeln.",
+  "questions": [
+    {
+      "question": "Wo wohne ich?",
+      "answers": [
+        "Berlin",
+        "München",
+        "Hamburg",
+        "Düsseldorf"
+      ]
+    },
+    {
+      "question": "Berlin ist die Hauptstadt von …?",
+      "answers": [
+        "Deutschland",
+        "Österreich",
+        "Belgien",
+        "Polen"
+      ]
+    },
+    {
+      "question": "Wie ist es in Berlin immer?",
+      "answers": [
+        "hell",
+        "laut",
+        "leise",
+        "dunkel"
+      ]
+    },
+    {
+      "question": "Was kann man in Berlin fast nicht sehen?",
+      "answers": [
+        "Sterne",
+        "Bäume",
+        "Vögel",
+        "Autos"
+      ]
+    },
+    {
+      "question": "Womit fahre ich raus aus der Stadt?",
+      "answers": [
+        "Auto",
+        "Bus",
+        "Zug",
+        "Fahrrad"
+      ]
+    },
+    {
+      "question": "Was machen die Sterne?",
+      "answers": [
+        "funkeln",
+        "scheinen",
+        "blitzen",
+        "laufen"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/sternenhimmel/"
+}

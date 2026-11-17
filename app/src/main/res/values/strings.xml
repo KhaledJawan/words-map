@@ -1,0 +1,4 @@
+<resources>
+    <!-- Name under the launcher icon. The texts of the screens are in shared/src/commonMain/strings. -->
+    <string name="app_name" translatable="false">WordsMap</string>
+</resources>

@@ -1,0 +1,72 @@
+{
+  "order": 7,
+  "title": "Wem gehört das Buch?",
+  "description": {
+    "de": "Ein Buch in der Tasche – aber wessen Buch ist es?",
+    "en": "A book in my bag – but whose is it?",
+    "fa": "یک کتاب در کیفم – اما مال کیست؟"
+  },
+  "keywords": [
+    "Buch",
+    "gehören",
+    "Eltern"
+  ],
+  "text": "Ich habe ein Buch in meiner Tasche gefunden. Es ist aber nicht mein Buch. Wem gehört es? Vielleicht ist es das Buch meines Bruders. Vielleicht gehört es ihm. Ich frage ihn, aber es ist nicht seines.\n\nGestern war ich auch bei meiner besten Freundin. Möglicherweise gehört das Buch ihr. Ich rufe sie an, aber sie sagt, dass es nicht ihr gehört.\n\nEs gehört nicht ihm, ihr und auch nicht mir. Komisch …\n\nDann fällt mir ein, dass ich mir letzte Woche ein Buch von meinen Eltern ausgeliehen habe. Ich gehe zu ihnen und frage: „Gehört das Buch euch?“\n\nMeine Eltern antworten: „Ja, es ist unser Buch. Danke, dass du es zurückbringst.“",
+  "questions": [
+    {
+      "question": "Wo habe ich das Buch gefunden?",
+      "answers": [
+        "in meiner Tasche",
+        "auf meinem Tisch",
+        "in meinem Rucksack",
+        "in meinem Haus"
+      ]
+    },
+    {
+      "question": "Wen frage ich zuerst?",
+      "answers": [
+        "meinen Bruder",
+        "meine beste Freundin",
+        "meine Eltern",
+        "mich"
+      ]
+    },
+    {
+      "question": "Wen rufe ich danach an?",
+      "answers": [
+        "meine beste Freundin",
+        "meinen Bruder",
+        "meine Oma",
+        "meine Eltern"
+      ]
+    },
+    {
+      "question": "Von wem habe ich ein Buch ausgeliehen?",
+      "answers": [
+        "meinen Eltern",
+        "meiner besten Freundin",
+        "meinem Bruder",
+        "meiner Oma"
+      ]
+    },
+    {
+      "question": "Wann habe ich ein Buch von meinen Eltern ausgeliehen?",
+      "answers": [
+        "letzte Woche",
+        "letzten Winter",
+        "letzten Monat",
+        "letztes Jahr"
+      ]
+    },
+    {
+      "question": "Meine Eltern antworten: „Ja, es ist … Buch.“",
+      "answers": [
+        "unser",
+        "euer",
+        "dein",
+        "sein"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/wem-gehoert-das-buch/"
+}

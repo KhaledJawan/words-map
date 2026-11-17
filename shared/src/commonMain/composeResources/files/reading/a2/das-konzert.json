@@ -1,0 +1,72 @@
+{
+  "order": 8,
+  "title": "Das Konzert",
+  "description": {
+    "de": "Gitarre, Rockmusik und ein großes Konzert im Stadion.",
+    "en": "Guitar, rock music and a big concert in a stadium.",
+    "fa": "گیتار، موسیقی راک و یک کنسرت بزرگ در ورزشگاه."
+  },
+  "keywords": [
+    "Konzert",
+    "Musik",
+    "Gitarre"
+  ],
+  "text": "Musik ist sehr wichtig für mich. Ich spiele Gitarre und es macht mir sehr viel Spaß. Es ist ein schönes Hobby, aber meine Mutter findet manchmal, dass es zu laut ist.\n\nWeil ich Gitarre spiele, mag ich Rockmusik – und Rockbands.\n\nHeute bin ich auf einem Konzert von einer berühmten Rockband. Es findet in einem großen Stadion statt. Ich bin schon ganz aufgeregt.\n\nEs sind sehr viele Menschen in dem Stadion und ich finde einen guten Platz ganz nahe an der Bühne. Dann beginnt das Konzert. Alles wird dunkel. Und plötzlich gehen alle Lichter an. Die Menschen jubeln und die Band beginnt zu spielen. Ich bekomme Gänsehaut.",
+  "questions": [
+    {
+      "question": "Welches Instrument spiele ich?",
+      "answers": [
+        "Gitarre",
+        "Klavier",
+        "Schlagzeug",
+        "Flöte"
+      ]
+    },
+    {
+      "question": "Wer findet, dass mein Hobby zu laut ist?",
+      "answers": [
+        "Meine Mutter",
+        "Meine Oma",
+        "Meine Tante",
+        "Meine Schwester"
+      ]
+    },
+    {
+      "question": "Welche Musik mag ich?",
+      "answers": [
+        "Rockmusik",
+        "Popmusik",
+        "Volksmusik",
+        "klassische Musik"
+      ]
+    },
+    {
+      "question": "Wo findet das Konzert statt?",
+      "answers": [
+        "Stadion",
+        "Konzertsaal",
+        "Theater",
+        "Opernhaus"
+      ]
+    },
+    {
+      "question": "Wie ist es, bevor alle Lichter angehen?",
+      "answers": [
+        "dunkel",
+        "hell",
+        "laut",
+        "leise"
+      ]
+    },
+    {
+      "question": "Was bekomme ich?",
+      "answers": [
+        "Gänsehaut",
+        "Getränke",
+        "Musik",
+        "Gitarre"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/das-konzert/"
+}

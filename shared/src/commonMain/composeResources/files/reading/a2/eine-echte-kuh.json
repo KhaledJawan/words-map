@@ -1,0 +1,72 @@
+{
+  "order": 3,
+  "title": "Eine echte Kuh",
+  "description": {
+    "de": "Zum ersten Mal in den Bergen – und endlich echte Kühe.",
+    "en": "First time in the mountains – and finally real cows.",
+    "fa": "اولین بار در کوهستان – و بالاخره گاوهای واقعی."
+  },
+  "keywords": [
+    "Kuh",
+    "Berge",
+    "wandern"
+  ],
+  "text": "Heute bin ich mit meiner Familie zum ersten Mal in den Bergen. Die Berge sind riesengroß und sehr beeindruckend.\n\nWir wollen auch wandern gehen. Darauf freue ich mich schon sehr. Ich habe gehört, dass es auf den Bergen viele Kühe gibt. Sie grasen dort auf den großen Weiden.\n\nIch möchte unbedingt eine echte Kuh aus der Nähe sehen. Ich komme nämlich aus München und da gibt es keine Kühe.\n\nWir machen uns bereit, ziehen unsere Wanderschuhe an und packen unseren Rucksack. Wandern ist sehr anstrengend, aber wir kommen gut voran. Dann höre ich die erste Kuhglocke. Ich bin aufgeregt und laufe los. Und da sehe ich sie: eine Herde Kühe! Sie sind viel größer, als ich sie mir vorgestellt hatte.",
+  "questions": [
+    {
+      "question": "Mit wem bin ich in den Bergen?",
+      "answers": [
+        "meiner Familie",
+        "meiner Mutter",
+        "meinen Freunden",
+        "meiner Schulklasse"
+      ]
+    },
+    {
+      "question": "Was wollen wir machen?",
+      "answers": [
+        "wandern",
+        "schwimmen",
+        "schlafen",
+        "Ski fahren"
+      ]
+    },
+    {
+      "question": "Was gibt es auf den Bergen?",
+      "answers": [
+        "Kühe",
+        "Ziegen",
+        "Rehe",
+        "Hunde"
+      ]
+    },
+    {
+      "question": "Aus welcher Stadt komme ich?",
+      "answers": [
+        "München",
+        "Hamburg",
+        "Berlin",
+        "Stuttgart"
+      ]
+    },
+    {
+      "question": "Was ziehen wir an?",
+      "answers": [
+        "Wanderschuhe",
+        "Socken",
+        "Mützen",
+        "Handschuhe"
+      ]
+    },
+    {
+      "question": "Was höre ich?",
+      "answers": [
+        "Kuhglocke",
+        "Vogelgezwitscher",
+        "Trompete",
+        "Automotor"
+      ]
+    }
+  ],
+  "source": "© Lingua.com – https://lingua.com/de/deutsch/lesen/eine-echte-kuh/"
+}
